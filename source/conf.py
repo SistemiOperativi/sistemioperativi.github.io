@@ -80,6 +80,7 @@ html_theme_options = {
 }
 
 #html_logo = "_static/logo-uniroma3.jpg"
+html_favicon = '_static/favicon.ico'
 
 
 locale_dirs = ['locale/']   # path is example but recommended.
