@@ -6,7 +6,7 @@
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = source
-BUILDDIR      = build
+BUILDDIR      = .
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -24,5 +24,5 @@ help:
 all:
 	sphinx-build -b gettext "$(SOURCEDIR)" "$(BUILDDIR)/gettext"
 	sphinx-intl update -p "$(BUILDDIR)/gettext" -l it -l en
-	@$(SPHINXBUILD) -b html -D language='it' "$(SOURCEDIR)" "$(BUILDDIR)/html/it" $(SPHINXOPTS) $(O)
-	@$(SPHINXBUILD) -b html -D language='en' "$(SOURCEDIR)" "$(BUILDDIR)/html/en" $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -b html -D language='it' "$(SOURCEDIR)" "$(BUILDDIR)/docs/it" $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -b html -D language='en' "$(SOURCEDIR)" "$(BUILDDIR)/docs/en" $(SPHINXOPTS) $(O)
