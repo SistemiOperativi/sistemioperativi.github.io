@@ -38,7 +38,7 @@ templates_path = ['_templates']
 if 'language' not in globals():
 	language = 'it'
 
-if language == 'en':
+if language == 'it':
 	project = 'Sistemi Operativi'
 else:
 	project = 'Operating Systems'
