@@ -4,6 +4,30 @@ Diario delle lezioni
 .. toctree::
 
 
+17/11/2021 - Gestione della memoria parte 2
+-------------------------------------------
+
+* Segmentazione
+* Segmentazione paginata
+* Mappatura dello spazio di indirizzamento e relativi system call Linux
+* Introduzione alla memoria virtuale
+
+Riferimenti libro di testo
+""""""""""""""""""""""""""
+
+* [:ref:`t1 <books>`] Sezione 7.4, 8.1
+* [:ref:`t2 <books>`] Sezione 9.6, 10.1
+
+
+Link di approfondimento
+"""""""""""""""""""""""
+
+* `POSIX mmap <https://pubs.opengroup.org/onlinepubs/9699919799/functions/mmap.html>`_
+* `Linux mmap <https://man7.org/linux/man-pages/man2/mmap.2.html>`_
+
+-----------------------------------------------------------------------------------
+
+
 16/11/2021 - Gestione della memoria parte 2
 -------------------------------------------
 
@@ -17,8 +41,6 @@ Riferimenti libro di testo
 
 * [:ref:`t1 <books>`] Sezione 7.3, 8.1 paragrafo Paging
 * [:ref:`t2 <books>`] Sezione 9.1.1, 9.1.2, 9.1.3, 9.3, 9.3.1, 9.3.2, 9.3.3, 9.3.2, 9.4, 9.4.1
-
-
 
 -----------------------------------------------------------------------------------
 
