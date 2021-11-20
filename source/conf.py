@@ -47,8 +47,6 @@ else:
 	project = 'Operating Systems'
 
 
-print("TIS IS TE LA "+language)
-
 author = 'Romolo Marotta'
 copyright = '2021, '+author
 
