@@ -9,6 +9,7 @@ Sistemi Operativi
 
 Benvenuti al corso di Sistemi Operativi per A.A. 2021/2022 del Corso di Laurea in Ingegneria Informarica di Roma Tre
 
+Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 
 Obiettivi del corso
 -------------------

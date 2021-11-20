@@ -35,13 +35,19 @@ templates_path = ['_templates']
 
 # -- Project information -----------------------------------------------------
 
-if 'language' not in globals():
+if tags.has('en'):
+  language = 'en'
+  tags.remove('en')
+else:
 	language = 'it'
 
 if language == 'it':
 	project = 'Sistemi Operativi'
 else:
 	project = 'Operating Systems'
+
+
+print("TIS IS TE LA "+language)
 
 author = 'Romolo Marotta'
 copyright = '2021, '+author
@@ -62,7 +68,8 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme"
+html_theme = "rtd_theme"
+html_theme_path = ["."]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -82,6 +89,7 @@ html_theme_options = {
 #html_logo = "_static/logo-uniroma3.jpg"
 html_favicon = '_static/favicon.ico'
 
+html_last_updated_fmt = ''
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.

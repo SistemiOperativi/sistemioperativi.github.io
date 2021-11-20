@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 19:15+0100\n"
+"POT-Creation-Date: 2021-11-20 10:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/index.rst:2
+#: ../source/index.rst:2
 msgid "Sistemi Operativi"
 msgstr "Operating System"
 
-#: ../../source/index.rst:10
+#: ../source/index.rst:10
 msgid ""
 "Benvenuti al corso di Sistemi Operativi per A.A. 2021/2022 del Corso di "
 "Laurea in Ingegneria Informarica di Roma Tre"
@@ -30,11 +30,15 @@ msgstr ""
 "Welcome to the course of Operating System A.Y. 2021/2022 for the Bachelor"
 " Degree in Computer Engineering at Roma Tre"
 
-#: ../../source/index.rst:14
+#: ../source/index.rst:12
+msgid "Docente: `Romolo Marotta <https://romolomarotta.github.io>`_"
+msgstr "Lecturer: `Romolo Marotta <https://romolomarotta.github.io>`_"
+
+#: ../source/index.rst:15
 msgid "Obiettivi del corso"
 msgstr "Course objectives"
 
-#: ../../source/index.rst:16
+#: ../source/index.rst:17
 msgid ""
 "L'obiettivo del corso è fornire allo studente competenze "
 "sull'architettura di un generico sistema operativo moderno, con "
@@ -43,35 +47,37 @@ msgid ""
 "sistema operativo moderno. Infine, particolare attenzione verrà dedicata "
 "alla programmazione di sistema e scripting."
 msgstr ""
-"The course intends to provide competencies about the architecture of modern operating systems, expecially Linux, "
-"and knowledge about methodologies adopted for solving problems within the management of resources. "
-"Finally, practical aspects will be also covered, in particular system programming and scripting."
+"The course intends to provide competencies about the architecture of "
+"modern operating systems, expecially Linux, and knowledge about "
+"methodologies adopted for solving problems within the management of "
+"resources. Finally, practical aspects will be also covered, in particular"
+" system programming and scripting."
 
-#: ../../source/index.rst:22
+#: ../source/index.rst:23
 msgid "Orario delle lezioni"
 msgstr "Schedule"
 
-#: ../../source/index.rst:25
+#: ../source/index.rst:26
 msgid "Giorno"
 msgstr "Day"
 
-#: ../../source/index.rst:25
+#: ../source/index.rst:26
 msgid "Orario"
 msgstr "Time"
 
-#: ../../source/index.rst:25
+#: ../source/index.rst:26
 msgid "Aula"
 msgstr "Room"
 
-#: ../../source/index.rst:27
+#: ../source/index.rst:28
 msgid "Martedì"
 msgstr "Tuesday"
 
-#: ../../source/index.rst:27 ../../source/index.rst:28
+#: ../source/index.rst:28 ../source/index.rst:29
 msgid "16:00 - 18:00"
 msgstr ""
 
-#: ../../source/index.rst:27 ../../source/index.rst:28
+#: ../source/index.rst:28 ../source/index.rst:29
 #, python-format
 msgid ""
 "N13 [Vasca Navale 79/81] - `Aula Teams <https://teams.microsoft.com/l"
@@ -80,15 +86,15 @@ msgid ""
 "-834a-955f8618ef03%22%7d>`_"
 msgstr ""
 
-#: ../../source/index.rst:28
+#: ../source/index.rst:29
 msgid "Mercoledì"
 msgstr "Wednesday"
 
-#: ../../source/index.rst:33
+#: ../source/index.rst:34
 msgid "Link ai contenuti del corso"
 msgstr "Link to course contents"
 
-#: ../../source/index.rst:35
+#: ../source/index.rst:36
 msgid ""
 "`Teams <https://teams.microsoft.com/l/team/19%3aRhhdoEO6QOI_oVGAqU-"
 "Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/conversations?groupId=098a73ce-8602-46e3-84c6-8107ebe1a9ae&tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a>`_"
@@ -98,11 +104,11 @@ msgid ""
 " - `GitHub  <https://github.com/SistemiOperativi>`_"
 msgstr ""
 
-#: ../../source/index.rst:41
+#: ../source/index.rst:42
 msgid "Ricevimento"
 msgstr "Student reception"
 
-#: ../../source/index.rst:43
+#: ../source/index.rst:44
 msgid ""
 "Contattare il docente alla seguente email "
 "**{nome}.{cognome}@uniroma3.it** e riportare il prefisso **[SO2122]** "
@@ -111,29 +117,29 @@ msgstr ""
 "Please, contact the lecturer at **{nome}.{cognome}@uniroma3.it** and use "
 "[SO2122] as object."
 
-#: ../../source/index.rst:47
+#: ../source/index.rst:48
 msgid "Modalità d'esame"
 msgstr "Exam details"
 
-#: ../../source/index.rst:49
+#: ../source/index.rst:50
 msgid "L'esame prevede una prova con:"
 msgstr "The exam will cover"
 
-#: ../../source/index.rst:51
+#: ../source/index.rst:52
 #, python-format
 msgid "Domande di teoria (65% del voto)"
 msgstr "Theory questions (65% of the final mark)"
 
-#: ../../source/index.rst:52
+#: ../source/index.rst:53
 #, python-format
 msgid "Esercizi di programmazione (35% del voto)"
 msgstr "Programming exercises (35% of the final mark)"
 
-#: ../../source/index.rst:58
+#: ../source/index.rst:59
 msgid "Testi consigliati e link utili (in aggiornamento)"
 msgstr "Textbooks and useful links (still updating)"
 
-#: ../../source/index.rst:60
+#: ../source/index.rst:61
 msgid ""
 "[t1] Operating Systems: Internals and Design Principles - William "
 "Stallings - Prentice Hall, fifth edition (o superiori). Riferimento: "
@@ -143,7 +149,7 @@ msgstr ""
 "Stallings - Prentice Hall, fifth edition (or higher). Reference: ninth "
 "global edition."
 
-#: ../../source/index.rst:61
+#: ../source/index.rst:62
 msgid ""
 "[t2] Sistemi operativi: Concetti ed Esempi - Silberschatz Abraham, Galvin"
 " Peter Baer, Gagne Greg - Addison Wesley/Pearson, nona edizione (o "
@@ -153,7 +159,7 @@ msgstr ""
 " Gagne Greg - Addison Wesley/Pearson, ninth edizione (or higher). "
 "Reference: tenth global edition."
 
-#: ../../source/index.rst:62
+#: ../source/index.rst:63
 msgid ""
 "[t3] Programmazione in Ambiente UNIX - Francesco Quaglia, Camil "
 "Demetrescu - `Disponibile in formato pdf "
@@ -165,103 +171,116 @@ msgstr ""
 "<https://francescoquaglia.github.io/TEACHING/SISTEMI-"
 "OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf>`_"
 
-#: ../../source/index.rst:68
+#: ../source/index.rst:69
 msgid "Programma"
 msgstr "Program"
 
-#: ../../source/index.rst:70
+#: ../source/index.rst:71
 msgid ""
 "**Panoramica sui sistemi operativi moderni.** definizione di sistema "
 "operativo, scopi, architettura a strati, kernel/user mode, "
 "caratteristiche salienti"
-msgstr "**Overview of modern operating systems:** definition, goals, architectures, kernel/user mode, main concepts"
+msgstr ""
+"**Overview of modern operating systems:** definition, goals, "
+"architectures, kernel/user mode, main concepts"
 
-#: ../../source/index.rst:71
+#: ../source/index.rst:72
 msgid ""
 "**Processi e Thread.** dispatching, stati, descrizione e controllo, "
 "modelli tipici di sistemi operativi e di uso della memoria nei processi"
-msgstr "Processes and Threads: dispatching, states, description and control, models and process memory"
+msgstr ""
+"Processes and Threads: dispatching, states, description and control, "
+"models and process memory"
 
-#: ../../source/index.rst:72
+#: ../source/index.rst:73
 msgid ""
 "**Memoria.** allocatori di memoria, partitioning, best/first/next fit, "
 "buddy algorithm, paging, segmentation, memoria virtuale e sua gestione "
 "hardware/software"
-msgstr "**Memory:**, allocators, partitioning, paging, segmentation, virtual memory"
+msgstr ""
+"**Memory:**, allocators, partitioning, paging, segmentation, virtual "
+"memory"
 
-#: ../../source/index.rst:73
+#: ../source/index.rst:74
 msgid ""
 "**Scheduling.** a breve medio e lungo termine, algoritmi per cpu "
 "scheduling"
 msgstr "**Scheduling:** long, mid and short term scheduling, CPU scheduling"
 
-#: ../../source/index.rst:74
+#: ../source/index.rst:75
 msgid ""
 "**I/O e File Management.** Disk scheduling, RAID, UNIX File Management, "
 "inode, Linux VFS, ext2"
-msgstr "**I/O and file management:** Disk scheduling, RAID, UNIX file management, Linux VFS"
+msgstr ""
+"**I/O and file management:** Disk scheduling, RAID, UNIX file management,"
+" Linux VFS"
 
-#: ../../source/index.rst:75
+#: ../source/index.rst:76
 msgid "**Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori"
-msgstr "**Synchonization:** synchronization primitives, Read-Modify-Write, locks, mutex, semaphores"
+msgstr ""
+"**Synchonization:** synchronization primitives, Read-Modify-Write, locks,"
+" mutex, semaphores"
 
-#: ../../source/index.rst:76
+#: ../source/index.rst:77
 msgid ""
 "**Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione "
 "file e directory), variabili di ambiente, piping, redirection, segnali, "
 "espressioni regolari (sed e grep), scripting (bash, awk), linux "
 "filesystem management"
-msgstr "**Introduction to Linux:** frequently used commands, environment, piping, redirection, signals, regular expressions, scripting, Linux filesystem management"
+msgstr ""
+"**Introduction to Linux:** frequently used commands, environment, piping,"
+" redirection, signals, regular expressions, scripting, Linux filesystem "
+"management"
 
-#: ../../source/index.rst:77
+#: ../source/index.rst:78
 msgid ""
 "**Debugger.** utilizzo di gdb stepping, breakpoints, watching, backtrace,"
 " comandi gdb."
 msgstr "**Debugger:** gdb stepping, breakpoints, watching, backtrace, gdb commands"
 
-#: ../../source/index.rst:78
+#: ../source/index.rst:79
 msgid ""
 "**Programmazione di Sistema.** Gestione in C dei processi/thread su "
 "ambiente linux"
 msgstr "**System programming:** Process and thread management in C"
 
-#: ../../source/index.rst:79
+#: ../source/index.rst:80
 msgid "**Virtualizzazione.** Concetti generali, container, Docker"
 msgstr "**Virtualization:** main concepts, containers, Docker"
 
-#: ../../source/index.rst:83
+#: ../source/index.rst:84
 msgid "Slides"
 msgstr ""
 
-#: ../../source/index.rst:85
+#: ../source/index.rst:86
 msgid "`01 - Introduzione  </slides/01-so-introduzione-210927v1.pdf>`_"
 msgstr "`01 - Introduction  </slides/01-so-introduzione-210927v1.pdf>`_"
 
-#: ../../source/index.rst:86
+#: ../source/index.rst:87
 msgid ""
 "`02 - Processi e thread </slides/02-so-processi-211021v3.pdf>`_ "
 "[Aggiornato il 23/10/21]"
 msgstr ""
-"`02 - Processes and threads </slides/02-so-processi-211021v3.pdf>`_ "
-"[Last update: 23/10/21]"
+"`02 - Processes and threads </slides/02-so-processi-211021v3.pdf>`_ [Last"
+" update: 23/10/21]"
 
-#: ../../source/index.rst:87
+#: ../source/index.rst:88
 msgid ""
 "`03 - CPU scheduling </slides/03-so-cpu-scheduling-261017v2.pdf>`_ "
 "[Aggiornato il 26/10/21]"
 msgstr ""
-"`03 - CPU scheduling </slides/03-so-cpu-scheduling-261017v2.pdf>`_ "
-"[Last update: 26/10/21]"
+"`03 - CPU scheduling </slides/03-so-cpu-scheduling-261017v2.pdf>`_ [Last "
+"update: 26/10/21]"
 
-#: ../../source/index.rst:88
+#: ../source/index.rst:89
 msgid "`04 - Sincronizzazione </slides/04-sincronizzazione-211030v1.pdf>`_"
 msgstr "`04 - Synchronization </slides/04-sincronizzazione-211030v1.pdf>`_"
 
-#: ../../source/index.rst:89
+#: ../source/index.rst:90
 msgid ""
 "`05 - Gestione delle memoria </slides/05-memoria-v3-211117.pdf>`_ "
 "[Aggiornato il 17/11/21]"
 msgstr ""
-"`05 - Memory management </slides/05-memoria-v3-211117.pdf>`_ "
-"[Last update: 17/11/21]"
+"`05 - Memory management </slides/05-memoria-v3-211117.pdf>`_ [Last "
+"update: 17/11/21]"
 

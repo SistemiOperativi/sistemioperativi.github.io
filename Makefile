@@ -25,4 +25,4 @@ all:
 	sphinx-build -b gettext "$(SOURCEDIR)" "$(BUILDDIR)/gettext"
 	sphinx-intl update -p "$(BUILDDIR)/gettext" -l it -l en
 	@$(SPHINXBUILD) -b html -D language='it' "$(SOURCEDIR)" "$(BUILDDIR)/docs/it" $(SPHINXOPTS) $(O)
-	@$(SPHINXBUILD) -b html -D language='en' "$(SOURCEDIR)" "$(BUILDDIR)/docs/en" $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -b html -D language='en' -t en "$(SOURCEDIR)" "$(BUILDDIR)/docs/en" $(SPHINXOPTS) $(O)
