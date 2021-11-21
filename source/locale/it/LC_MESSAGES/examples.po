@@ -20,11 +20,10 @@ msgstr ""
 
 #: ../source/examples.rst:2
 msgid "Esempi di programmazione"
-msgstr "Examples"
+msgstr ""
 
 #: ../source/examples.rst:4
 msgid ""
 "In questa sezione vengono riportati diversi esempi di codice per mostrare"
 " alcuni concetti discussi durante il corso."
-msgstr "In this section you can find several code examples that shows main concepts discussed during the lectures."
-
+msgstr ""
