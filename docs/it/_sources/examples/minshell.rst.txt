@@ -1,8 +1,8 @@
 .. role:: raw-html(raw)
    :format: html
 
-Exec - MinShell
-====================
+MinShell - le funzioni exec
+===========================
 
 .. code-block:: c
     :linenos:

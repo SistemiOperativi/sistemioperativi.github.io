@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-21 20:23+0100\n"
+"POT-Creation-Date: 2021-11-21 22:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../source/examples/minshell.rst:5
-msgid "Exec - MinShell"
+msgid "MinShell - le funzioni exec"
 msgstr ""
 
 #: ../source/examples/minshell.rst:36
@@ -365,5 +365,8 @@ msgstr ""
 #~ "Supponendo di lanciare il MinShell da"
 #~ " linea di comando, qual è l'ambiente"
 #~ " del processo child?"
+#~ msgstr ""
+
+#~ msgid "Exec - MinShell"
 #~ msgstr ""
 
