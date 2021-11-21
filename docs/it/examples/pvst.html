@@ -138,8 +138,8 @@
 è un programma C il cui scopo è quello di evidenziare differenze basilari tra processi e thread.</p>
 <p>Il programma è diviso in due sezioni:</p>
 <ol class="arabic simple">
-<li><p>il main thread crea un thread child secondo lo schema proposto in <a class="reference internal" href="pfew.html"><span class="doc">PFEW</span></a>. Entrambi i thread scrivono sulla variabile globlale <code class="code docutils literal notranslate"><span class="pre">global_var</span></code> e successivamente ne stampano il valore su standard output.</p></li>
-<li><p>il main thread crea un processo child secondo lo schema proposto in <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>. Entrambi i thread scrivono sulla variabile globlale <code class="code docutils literal notranslate"><span class="pre">global_var</span></code> e successivamente ne stampano il valore su standard output.</p></li>
+<li><p>il main thread crea un thread child secondo lo schema proposto in <a class="reference internal" href="pfew.html"><span class="doc">PFEW</span></a>. Entrambi i thread scrivono sulla variabile globale <code class="code docutils literal notranslate"><span class="pre">global_var</span></code> e successivamente ne stampano il valore su standard output.</p></li>
+<li><p>il main thread crea un processo child secondo lo schema proposto in <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>. Entrambi i processi scrivono sulla variabile globale <code class="code docutils literal notranslate"><span class="pre">global_var</span></code> e successivamente ne stampano il valore su standard output.</p></li>
 </ol>
 <p>La variabile <code class="code docutils literal notranslate"><span class="pre">global_var</span></code> viene stampata 4 volte, rispettivamente</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos">18</span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m the child and I wrote the global var: %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">global_var</span><span class="p">);</span><span class="w"></span>
@@ -172,7 +172,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 21 nov 2021.
+      <span class="lastupdated">Ultimo aggiornamento 22 nov 2021.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

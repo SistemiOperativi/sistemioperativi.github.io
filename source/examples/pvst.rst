@@ -65,8 +65,8 @@ Processi vs Thread
 
 Il programma è diviso in due sezioni:
 
-1. il main thread crea un thread child secondo lo schema proposto in :doc:`PFEW <pfew>`. Entrambi i thread scrivono sulla variabile globlale :code:`global_var` e successivamente ne stampano il valore su standard output.
-2. il main thread crea un processo child secondo lo schema proposto in :doc:`FEW <few>`. Entrambi i thread scrivono sulla variabile globlale :code:`global_var` e successivamente ne stampano il valore su standard output.
+1. il main thread crea un thread child secondo lo schema proposto in :doc:`PFEW <pfew>`. Entrambi i thread scrivono sulla variabile globale :code:`global_var` e successivamente ne stampano il valore su standard output.
+2. il main thread crea un processo child secondo lo schema proposto in :doc:`FEW <few>`. Entrambi i processi scrivono sulla variabile globale :code:`global_var` e successivamente ne stampano il valore su standard output.
 
 La variabile :code:`global_var` viene stampata 4 volte, rispettivamente
 

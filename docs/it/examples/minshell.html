@@ -118,29 +118,25 @@ Ogni qual volta si lancia un programma X tramite shell, quest’ultima crea un n
 del programma X.</p>
 <p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c">MinShell</a>
 <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c"></a></span>
-è un semplice programma C che emula questo comportamento.
-Il principio di funzionamento è analogo a quello di <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>:</p>
-<ul class="simple">
-<li><p>il processo principale crea un processo child tramite fork;</p></li>
-<li><p>attende la terminazione del processo child tramite wait.</p></li>
-</ul>
-<p>Tuttavia, ricorrendo alla sola syscall fork, FEW può solo creare processi con il medesimo programma del processo parent.
+è un programma C che emula questo comportamento.
+Il principio di funzionamento è analogo a quello di <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>.</p>
+<p>Tuttavia, ricorrendo alla sola syscall fork, <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>: può solo creare processi con il medesimo programma del processo parent.
 Per superare questo limite, è possibile ricorrere alla famiglia di funzioni <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a>.
 Grazie ad una syscall di tipo <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> è possibile sostituire completamente l’immagine del processo che invoca la
 system call con quella di un altro programma.</p>
 <p>Di conseguenza, lo schema di esecuzione di MinShell è il seguente:</p>
 <ul class="simple">
-<li><p>il processo principale crea un processo child tramite fork</p></li>
+<li><p>il processo principale crea un processo child tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a></p></li>
 <li><p>il processo child invoca una funzione di tipo <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
-<li><p>il processo principale attende la sua terminazione tramite wait</p></li>
+<li><p>il processo principale attende la sua terminazione tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a></p></li>
 </ul>
-<p>Per sostituire un immagine di programma, una funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> ha bisogno:</p>
+<p>Per sostituire il programma di un’immagine, una funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> ha bisogno:</p>
 <ul class="simple">
-<li><p>individuare l’esatta posizione del programma nel file system</p></li>
+<li><p>individuare l’esatta posizione del programma nel filesystem</p></li>
 <li><p>setup dell’ambiente di esecuzione</p></li>
 <li><p>eventuali parametri da passare al programma target</p></li>
 </ul>
-<p>A tal scopo la funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a> considera:</p>
+<p>A tal scopo la funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a>:</p>
 <ul class="simple">
 <li><p>considera il primo parametro come il nome dell’eseguibile target, il quale viene cercato nei percorsi definiti nella variabile di ambiente PATH</p></li>
 <li><p>eredita l’ambiente dal processo che invoca <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a></p></li>
@@ -154,7 +150,7 @@ system call con quella di un altro programma.</p>
 </ul>
 <div class="admonition observation" id="observation-note-0">
 <p class="admonition-title">Osservazione</p>
-<p>Tipicamente il primo parametro di per un eseguibile è il programma stesso. L’ultimo parametro è impostato a NULL in quanto da standard POSIX la lista di parametri deve terminare con un puntatore NULL.</p>
+<p>Tipicamente il primo parametro passato ad un programma è una stringa contenente il nome del programma stesso. L’ultimo parametro è impostato a NULL in quanto da standard POSIX la lista di parametri deve terminare con un puntatore NULL.</p>
 </div>
 <section id="riferimenti">
 <h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Link a questa intestazione">¶</a></h2>
@@ -176,7 +172,7 @@ system call con quella di un altro programma.</p>
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 21 nov 2021.
+      <span class="lastupdated">Ultimo aggiornamento 22 nov 2021.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

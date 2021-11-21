@@ -4,12 +4,11 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-21 22:38+0100\n"
+"POT-Creation-Date: 2021-11-22 00:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +19,7 @@ msgstr ""
 
 #: ../source/examples/minshell.rst:5
 msgid "MinShell - le funzioni exec"
-msgstr ""
+msgstr "MinShell - the exec family"
 
 #: ../source/examples/minshell.rst:36
 msgid ""
@@ -29,6 +28,8 @@ msgid ""
 "lancia un programma X tramite shell, quest'ultima crea un nuovo processo "
 "la cui immagine è quella del programma X."
 msgstr ""
+"A shell is a textual interface to the operating system that can be used "
+"to execute commands and programs"
 
 #: ../source/examples/minshell.rst:41
 msgid ""
@@ -36,348 +37,124 @@ msgid ""
 "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\">MinShell</a>"
 " <a class=\"fa fa-github external\" target=\"_blank\" "
 "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\"></a>`"
-" è un semplice programma C che emula questo comportamento. Il principio "
-"di funzionamento è analogo a quello di :doc:`FEW <few>`:"
+" è un programma C che emula questo comportamento. Il principio di "
+"funzionamento è analogo a quello di :doc:`FEW <few>`."
 msgstr ""
+":raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\">MinShell</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\"></a>`"
+" is a C program that emulates this behavior. Its structure is similar to "
+"the one of :doc:`FEW <few>`:"
 
 #: ../source/examples/minshell.rst:46
-msgid "il processo principale crea un processo child tramite fork;"
-msgstr ""
-
-#: ../source/examples/minshell.rst:47
-msgid "attende la terminazione del processo child tramite wait."
-msgstr ""
-
-#: ../source/examples/minshell.rst:49
 msgid ""
-"Tuttavia, ricorrendo alla sola syscall fork, FEW può solo creare processi"
-" con il medesimo programma del processo parent. Per superare questo "
-"limite, è possibile ricorrere alla famiglia di funzioni :posix:`exec "
-"<exec>`. Grazie ad una syscall di tipo :posix:`exec <exec>` è possibile "
-"sostituire completamente l'immagine del processo che invoca la system "
-"call con quella di un altro programma."
+"Tuttavia, ricorrendo alla sola syscall fork, :doc:`FEW <few>`: può solo "
+"creare processi con il medesimo programma del processo parent. Per "
+"superare questo limite, è possibile ricorrere alla famiglia di funzioni "
+":posix:`exec <exec>`. Grazie ad una syscall di tipo :posix:`exec <exec>` "
+"è possibile sostituire completamente l'immagine del processo che invoca "
+"la system call con quella di un altro programma."
 msgstr ""
+"However, :doc:`FEW <few>`: can only create processes with the same "
+"program of the parent process. The family of :posix:`exec <exec>` "
+"functions can overcome this limitation.Thanks to such functions it is "
+"possibile to replace the program of the process that invokes them with a "
+"another program. "
+
+#: ../source/examples/minshell.rst:51
+msgid "Di conseguenza, lo schema di esecuzione di MinShell è il seguente:"
+msgstr "Consequently, the execution of MinShell is resumed in the following: "
+
+#: ../source/examples/minshell.rst:53
+msgid "il processo principale crea un processo child tramite :posix:`fork <fork>`"
+msgstr "the main process creates a child process via :posix:`fork <fork>`"
 
 #: ../source/examples/minshell.rst:54
-msgid "Di conseguenza, lo schema di esecuzione di MinShell è il seguente:"
-msgstr ""
+msgid "il processo child invoca una funzione di tipo :posix:`exec <exec>`"
+msgstr "the child process calls an :posix:`exec <exec>` funtion"
 
-#: ../source/examples/minshell.rst:56
-msgid "il processo principale crea un processo child tramite fork"
-msgstr ""
+#: ../source/examples/minshell.rst:55
+msgid ""
+"il processo principale attende la sua terminazione tramite :posix:`wait "
+"<wait>`"
+msgstr "the main process waits for its termination via :posix:`wait <wait>`"
 
 #: ../source/examples/minshell.rst:57
-msgid "il processo child invoca una funzione di tipo :posix:`exec <exec>`"
-msgstr ""
+msgid ""
+"Per sostituire il programma di un'immagine, una funzione :posix:`exec "
+"<exec>` ha bisogno:"
+msgstr "To replace the program, an :posix:`exec <exec>` function needs to:"
 
-#: ../source/examples/minshell.rst:58
-msgid "il processo principale attende la sua terminazione tramite wait"
-msgstr ""
+#: ../source/examples/minshell.rst:59
+msgid "individuare l'esatta posizione del programma nel filesystem"
+msgstr "pinpoint the exact location of the program within the filesystem"
 
 #: ../source/examples/minshell.rst:60
-msgid ""
-"Per sostituire un immagine di programma, una funzione :posix:`exec "
-"<exec>` ha bisogno:"
-msgstr ""
+msgid "setup dell'ambiente di esecuzione"
+msgstr "setup the execution environment"
 
-#: ../source/examples/minshell.rst:62
-msgid "individuare l'esatta posizione del programma nel file system"
-msgstr ""
+#: ../source/examples/minshell.rst:61
+msgid "eventuali parametri da passare al programma target"
+msgstr "parameters to be passed to the target program"
 
 #: ../source/examples/minshell.rst:63
-msgid "setup dell'ambiente di esecuzione"
-msgstr ""
+msgid "A tal scopo la funzione :posix:`execlp <execlp>`:"
+msgstr "To this goal, the function :posix:`execlp <execlp>`:"
 
-#: ../source/examples/minshell.rst:64
-msgid "eventuali parametri da passare al programma target"
-msgstr ""
-
-#: ../source/examples/minshell.rst:66
-msgid "A tal scopo la funzione :posix:`execlp <execlp>` considera:"
-msgstr ""
-
-#: ../source/examples/minshell.rst:68
+#: ../source/examples/minshell.rst:65
 msgid ""
 "considera il primo parametro come il nome dell'eseguibile target, il "
 "quale viene cercato nei percorsi definiti nella variabile di ambiente "
 "PATH"
 msgstr ""
+"considers the first parameter as the name of the target executable, which"
+" will be searched in locations defined within the environment variable "
+"PATH"
 
-#: ../source/examples/minshell.rst:69
+#: ../source/examples/minshell.rst:66
 msgid "eredita l'ambiente dal processo che invoca :posix:`execlp <execlp>`"
 msgstr ""
+"inherits the environment from the process calling the :posix:`execlp "
+"<execlp>`"
 
 msgid "Domanda"
-msgstr ""
+msgstr "Question"
 
-#: ../source/examples/minshell.rst:72
+#: ../source/examples/minshell.rst:69
 msgid ""
 "Supponendo di lanciare MinShell da linea di comando, qual è l'ambiente "
 "del processo child?"
 msgstr ""
+"Suppose to launch MinShell from a Linux shell. What is the environment of"
+" child processes?"
 
-#: ../source/examples/minshell.rst:74
+#: ../source/examples/minshell.rst:71
 msgid ""
 "il secondo e i successivi parametri della funzione :posix:`execlp "
 "<execlp>` vengono passati come parametri per l'eseguibile"
 msgstr ""
+"the second and subsequent parameters of :posix:`execlp <execlp>` will "
+"passed as parameters to the executable"
 
 msgid "Osservazione"
-msgstr ""
+msgstr "Observation"
 
-#: ../source/examples/minshell.rst:77
+#: ../source/examples/minshell.rst:74
 msgid ""
-"Tipicamente il primo parametro di per un eseguibile è il programma "
-"stesso. L'ultimo parametro è impostato a NULL in quanto da standard POSIX"
-" la lista di parametri deve terminare con un puntatore NULL."
-msgstr ""
+"Tipicamente il primo parametro passato ad un programma è una stringa "
+"contenente il nome del programma stesso. L'ultimo parametro è impostato a"
+" NULL in quanto da standard POSIX la lista di parametri deve terminare "
+"con un puntatore NULL."
+msgstr "Typically, the first parameter passed to a program is a string equal to "
+"its name. The last parameter is equal to NULL as required by the POSIX standard, which "
+"specifies that the list of parameters must end with a null pointer."
 
-#: ../source/examples/minshell.rst:82
+#: ../source/examples/minshell.rst:79
 msgid "Riferimenti"
-msgstr ""
+msgstr "References"
 
-#: ../source/examples/minshell.rst:84
+#: ../source/examples/minshell.rst:81
 msgid ":posix:`exec <exec>`"
 msgstr ""
-
-#~ msgid "MinShell"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "#include <stdio.h> #include <stdlib.h> "
-#~ "#include <unistd.h> #include <sys/wait.h>"
-#~ msgstr ""
-
-#~ msgid "int main() {"
-#~ msgstr ""
-
-#~ msgid "char comando[256]; pid_t pid; int status;"
-#~ msgstr ""
-
-#~ msgid "while(1) {"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "printf(\"Digitare un comando: \"); int "
-#~ "res = scanf(\"%s\",comando); if(res == "
-#~ "EOF) continue; pid = fork(); if ("
-#~ " pid == -1 ) {"
-#~ msgstr ""
-
-#~ msgid "printf(\"Errore nella fork.\\n\"); exit(1);"
-#~ msgstr ""
-
-#~ msgid "} if ( pid == 0 )"
-#~ msgstr ""
-
-#~ msgid "execlp(comando, comando, NULL);"
-#~ msgstr ""
-
-#~ msgid "else wait(&status);"
-#~ msgstr ""
-
-#~ msgid "} return 0;"
-#~ msgstr ""
-
-#~ msgid "}"
-#~ msgstr ""
-
-#~ msgid "Minimal Shell"
-#~ msgstr ""
-
-#~ msgid "Exec - Minimal Shell"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "MinShell (:raw-html:`<a "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\">MinShell</a>"
-#~ " <a class=\"fa fa-github\" "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\"></a>`)"
-#~ " è un semplice programma C per "
-#~ "emulare una shell Linux."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "(:raw-html:`<a "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\">MinShell</a>"
-#~ " <a class=\"fa fa-github\" "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\"></a>`)"
-#~ " è un semplice programma C per "
-#~ "emulare una shell Linux."
-#~ msgstr ""
-
-#~ msgid "Il principio di funzionamento è analogo a quello di :doc:`FEW <few>`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Una shell è una interfaccia testuale "
-#~ "per il sistema operativo attraverso la"
-#~ " quale è possibile eseguire comandi "
-#~ "ed eseguire altri programmi. Ogni qual"
-#~ " volta si lancia un programma X "
-#~ "tramite shell, quest'ultima crea un "
-#~ "nuovo processo la cui immagine è "
-#~ "quella del programma X."
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":raw-html:`<a "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\">MinShell</a>"
-#~ " <a class=\"fa fa-github\" "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\"></a>`"
-#~ " è un semplice programma C per "
-#~ "emulare una shell Linux."
-#~ msgstr ""
-
-#~ msgid "Il principio di funzionamento è analogo a quello di :doc:`FEW <few>`:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":raw-html:`<a "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\">MinShell</a>"
-#~ " <a class=\"fa fa-github\" "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\"></a>`"
-#~ " è un semplice programma C per "
-#~ "emulare una shell Linux. Il principio"
-#~ " di funzionamento è analogo a quello"
-#~ " di :doc:`FEW <few>`:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Tuttavia, ricorrendo alla sola syscall "
-#~ "fork, FEW può solo creare processi "
-#~ "con il medesimo programma del processo"
-#~ " parent. Per superare questo limite, "
-#~ "è possibile ricorrere alla famiglia di"
-#~ " funzioni :ref:`exec`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Tuttavia, ricorrendo alla sola syscall "
-#~ "fork, FEW può solo creare processi "
-#~ "con il medesimo programma del processo"
-#~ " parent. Per superare questo limite, "
-#~ "è possibile ricorrere alla famiglia di"
-#~ " funzioni :posix:`exec`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":raw-html:`<a "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\">MinShell</a>"
-#~ " <a class=\"fa fa-github\" "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\"></a>`"
-#~ " è un semplice programma C che "
-#~ "emula questo comportamento. Il principio "
-#~ "di funzionamento è analogo a quello "
-#~ "di :doc:`FEW <few>`:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":raw-html:`<a class=\"external\"  "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\">MinShell</a>"
-#~ " <a class=\"fa fa-github exteral\" "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\"></a>`"
-#~ " è un semplice programma C che "
-#~ "emula questo comportamento. Il principio "
-#~ "di funzionamento è analogo a quello "
-#~ "di :doc:`FEW <few>`:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Tuttavia, ricorrendo alla sola syscall "
-#~ "fork, FEW può solo creare processi "
-#~ "con il medesimo programma del processo"
-#~ " parent. Per superare questo limite, "
-#~ "è possibile ricorrere alla famiglia di"
-#~ " funzioni :posix:`exec <exec>`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Tuttavia, ricorrendo alla sola syscall "
-#~ "fork, FEW può solo creare processi "
-#~ "con il medesimo programma del processo"
-#~ " parent. Per superare questo limite, "
-#~ "è possibile ricorrere alla famiglia di"
-#~ " funzioni :posix:`exec <exec>`. Grazie ad"
-#~ " una syscall di tipo :posix:`exec "
-#~ "<exec>` è possibile sostituire completamente"
-#~ " l'immagine del processo che invoca "
-#~ "la system call con quella del "
-#~ "programma definito come stringa passata "
-#~ "come primo parametro."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "il secondo parametro e i successivi "
-#~ "parametri della funzione :posix:`execlp "
-#~ "<execlp>` vengono passati come parametri "
-#~ "per l'eseguibile"
-#~ msgstr ""
-
-#~ msgid "test"
-#~ msgstr ""
-
-#~ msgid "..note::"
-#~ msgstr ""
-
-#~ msgid "Da fare"
-#~ msgstr ""
-
-#~ msgid ":class:observation"
-#~ msgstr ""
-
-#~ msgid "test this is a test"
-#~ msgstr ""
-
-#~ msgid ":rts-class:observation test this is a test"
-#~ msgstr ""
-
-#~ msgid "eredita l'ambiente dal processo che invoca :posix:`execlp <execlp>`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "il secondo e i successivi parametri "
-#~ "della funzione :posix:`execlp <execlp>` "
-#~ "vengono passati come parametri per "
-#~ "l'eseguibile"
-#~ msgstr ""
-
-#~ msgid "Osservazione"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "eredita l'ambiente dal processo che "
-#~ "invoca :posix:`execlp <execlp>` .. "
-#~ "observation_note::"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "il secondo e i successivi parametri "
-#~ "della funzione :posix:`execlp <execlp>` "
-#~ "vengono passati come parametri per "
-#~ "l'eseguibile .. observation_note::"
-#~ msgstr ""
-
-#~ msgid "Il processo parent ere"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Supponendo di lanciare il MinShell da"
-#~ " linea di comando, qual è l'ambiente"
-#~ " del processo child?"
-#~ msgstr ""
-
-#~ msgid "Exec - MinShell"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":raw-html:`<a class=\"external\"  "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\">MinShell</a>"
-#~ " <a class=\"fa fa-github external\" "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\"></a>`"
-#~ " è un semplice programma C che "
-#~ "emula questo comportamento. Il principio "
-#~ "di funzionamento è analogo a quello "
-#~ "di :doc:`FEW <few>`:"
-#~ msgstr ""
 

@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MinShell - le funzioni exec &mdash; Operating Systems 0 documentation</title>
+  <title>MinShell - the exec family &mdash; Operating Systems 0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
@@ -22,7 +22,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Detailed program" href="../lectures/index.html" />
-    <link rel="prev" title="PVST - Processi vs Thread" href="pvst.html" /> 
+    <link rel="prev" title="PVST - Processes vs Threads" href="pvst.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -47,9 +47,9 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../examples.html">Code examples</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="few.html">FEW - Fork-Exit-Wait</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pfew.html">PFEW - Posix-thread-based FEW</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pvst.html">PVST - Processi vs Thread</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">MinShell - le funzioni exec</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#riferimenti">Riferimenti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pvst.html">PVST - Processes vs Threads</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">MinShell - the exec family</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#riferimenti">References</a></li>
 </ul>
 </li>
 </ul>
@@ -72,7 +72,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="../examples.html">Code examples</a> &raquo;</li>
-      <li>MinShell - le funzioni exec</li>
+      <li>MinShell - the exec family</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/examples/minshell.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -83,7 +83,7 @@
            <div itemprop="articleBody">
              
   <section id="minshell-le-funzioni-exec">
-<h1>MinShell - le funzioni exec<a class="headerlink" href="#minshell-le-funzioni-exec" title="Permalink to this headline">¶</a></h1>
+<h1>MinShell - the exec family<a class="headerlink" href="#minshell-le-funzioni-exec" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="cp"></span>
@@ -111,52 +111,39 @@
 <span class="linenos">25</span><span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
-<p>Una shell è una interfaccia testuale per il sistema operativo attraverso la quale è possibile eseguire comandi
-e programmi.
-Ogni qual volta si lancia un programma X tramite shell, quest’ultima crea un nuovo processo la cui immagine è quella
-del programma X.</p>
-<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c">MinShell</a>
-<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c"></a></span>
-è un semplice programma C che emula questo comportamento.
-Il principio di funzionamento è analogo a quello di <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>:</p>
+<p>A shell is a textual interface to the operating system that can be used to execute commands and programs</p>
+<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c">MinShell</a> <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c"></a></span> is a C program that emulates this behavior. Its structure is similar to the one of <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>:</p>
+<p>However, <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>: can only create processes with the same program of the parent process. The family of <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> functions can overcome this limitation.Thanks to such functions it is possibile to replace the program of the process that invokes them with a another program.</p>
+<p>Consequently, the execution of MinShell is resumed in the following:</p>
 <ul class="simple">
-<li><p>il processo principale crea un processo child tramite fork;</p></li>
-<li><p>attende la terminazione del processo child tramite wait.</p></li>
+<li><p>the main process creates a child process via <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a></p></li>
+<li><p>the child process calls an <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> funtion</p></li>
+<li><p>the main process waits for its termination via <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a></p></li>
 </ul>
-<p>Tuttavia, ricorrendo alla sola syscall fork, FEW può solo creare processi con il medesimo programma del processo parent.
-Per superare questo limite, è possibile ricorrere alla famiglia di funzioni <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a>.
-Grazie ad una syscall di tipo <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> è possibile sostituire completamente l’immagine del processo che invoca la
-system call con quella di un altro programma.</p>
-<p>Di conseguenza, lo schema di esecuzione di MinShell è il seguente:</p>
+<p>To replace the program, an <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> function needs to:</p>
 <ul class="simple">
-<li><p>il processo principale crea un processo child tramite fork</p></li>
-<li><p>il processo child invoca una funzione di tipo <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
-<li><p>il processo principale attende la sua terminazione tramite wait</p></li>
+<li><p>pinpoint the exact location of the program within the filesystem</p></li>
+<li><p>setup the execution environment</p></li>
+<li><p>parameters to be passed to the target program</p></li>
 </ul>
-<p>Per sostituire un immagine di programma, una funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> ha bisogno:</p>
+<p>To this goal, the function <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a>:</p>
 <ul class="simple">
-<li><p>individuare l’esatta posizione del programma nel file system</p></li>
-<li><p>setup dell’ambiente di esecuzione</p></li>
-<li><p>eventuali parametri da passare al programma target</p></li>
-</ul>
-<p>A tal scopo la funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a> considera:</p>
-<ul class="simple">
-<li><p>considera il primo parametro come il nome dell’eseguibile target, il quale viene cercato nei percorsi definiti nella variabile di ambiente PATH</p></li>
-<li><p>eredita l’ambiente dal processo che invoca <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a></p></li>
+<li><p>considers the first parameter as the name of the target executable, which will be searched in locations defined within the environment variable PATH</p></li>
+<li><p>inherits the environment from the process calling the <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a></p></li>
 </ul>
 <div class="admonition question" id="question-note-0">
 <p class="admonition-title">Question</p>
-<p>Supponendo di lanciare MinShell da linea di comando, qual è l’ambiente del processo child?</p>
+<p>Suppose to launch MinShell from a Linux shell. What is the environment of child processes?</p>
 </div>
 <ul class="simple">
-<li><p>il secondo e i successivi parametri della funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a> vengono passati come parametri per l’eseguibile</p></li>
+<li><p>the second and subsequent parameters of <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a> will passed as parameters to the executable</p></li>
 </ul>
 <div class="admonition observation" id="observation-note-0">
 <p class="admonition-title">Observation</p>
-<p>Tipicamente il primo parametro di per un eseguibile è il programma stesso. L’ultimo parametro è impostato a NULL in quanto da standard POSIX la lista di parametri deve terminare con un puntatore NULL.</p>
+<p>Typically, the first parameter passed to a program is a string equal to its name. The last parameter is equal to NULL as required by the POSIX standard, which specifies that the list of parameters must end with a null pointer.</p>
 </div>
 <section id="riferimenti">
-<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
+<h2>References<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
 </ul>
@@ -167,7 +154,7 @@ system call con quella di un altro programma.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="pvst.html" class="btn btn-neutral float-left" title="PVST - Processi vs Thread" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="pvst.html" class="btn btn-neutral float-left" title="PVST - Processes vs Threads" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="../lectures/index.html" class="btn btn-neutral float-right" title="Detailed program" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
@@ -175,7 +162,7 @@ system call con quella di un altro programma.</p>
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Last updated on Nov 21, 2021.
+      <span class="lastupdated">Last updated on Nov 22, 2021.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
