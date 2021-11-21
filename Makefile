@@ -23,11 +23,10 @@ help:
 
 all:
 	mkdir docs docs/it docs/en -p
-	-rm -r docs/*
+	-rm -r docs/it docs/en
 	#-rm -r gettext/*
 	sphinx-build -b gettext "$(SOURCEDIR)" "$(BUILDDIR)/gettext"
 	sphinx-intl update -p "$(BUILDDIR)/gettext" -l it -l en
 	@$(SPHINXBUILD) -b html -D language='it' "$(SOURCEDIR)" "$(BUILDDIR)/docs/it" $(SPHINXOPTS) $(O)
 	@$(SPHINXBUILD) -b html -D language='en' -t en "$(SOURCEDIR)" "$(BUILDDIR)/docs/en" $(SPHINXOPTS) $(O)
-	cp $(SOURCEDIR)/index.html $(BUILDDIR)/docs
 	touch $(BUILDDIR)/docs/.nojekyll
