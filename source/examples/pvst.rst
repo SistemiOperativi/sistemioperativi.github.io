@@ -1,6 +1,6 @@
 .. role:: raw-html(raw)
    :format: html
-   
+
 
 PVST - Processi vs Thread
 =========================
@@ -59,8 +59,8 @@ PVST - Processi vs Thread
 
 
 Processi vs Thread 
-(:raw-html:`<a class="external" href="https://github.com/SistemiOperativi/c_examples/blob/main/pvst/pvst.c">PVST</a>
-<a class="fa fa-github external" href="https://github.com/SistemiOperativi/c_examples/blob/main/pvst/pvst.c"></a>`) 
+(:raw-html:`<a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/pvst/pvst.c">PVST</a>
+<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/pvst/pvst.c"></a>`) 
 è un programma C il cui scopo è quello di evidenziare differenze basilari tra processi e thread.
 
 Il programma è diviso in due sezioni:

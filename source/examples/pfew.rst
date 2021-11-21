@@ -39,8 +39,8 @@ PThread implementation of FEW
     }
 
 Pthread FEW
-(:raw-html:`<a class="external" href="https://github.com/SistemiOperativi/c_examples/blob/main/pfew/pfew.c">PFEW</a>
-<a class="fa fa-github external" href="https://github.com/SistemiOperativi/c_examples/blob/main/pfew/pfew.c"></a>`) 
+(:raw-html:`<a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/pfew/pfew.c">PFEW</a>
+<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/pfew/pfew.c"></a>`) 
 è un semplice programma C per emulare il comportamento del programma :doc:`FEW <few>`, ma utilizzando i thread al posto di processi.
 
 Di conseguenza PFEW:

@@ -32,8 +32,8 @@ FEW - Fork-Exit-Wait
     }
 
 Fork-Exit-Wait 
-(:raw-html:`<a class="external" href="https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c">FEW</a>
-<a class="fa fa-github external" href="https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c"></a>`) 
+(:raw-html:`<a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c">FEW</a>
+<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c"></a>`) 
 è un semplice programma C per:
 
 1. Creare un processo tramite :posix:`fork <fork>`. 

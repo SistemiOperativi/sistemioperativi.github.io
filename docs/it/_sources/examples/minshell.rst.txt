@@ -38,8 +38,8 @@ e programmi.
 Ogni qual volta si lancia un programma X tramite shell, quest'ultima crea un nuovo processo la cui immagine è quella
 del programma X.
 
-:raw-html:`<a class="external"  href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c">MinShell</a>
-<a class="fa fa-github external" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c"></a>`
+:raw-html:`<a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c">MinShell</a>
+<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c"></a>`
 è un semplice programma C che emula questo comportamento.
 Il principio di funzionamento è analogo a quello di :doc:`FEW <few>`:
 
