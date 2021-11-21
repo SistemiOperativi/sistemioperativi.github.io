@@ -23,8 +23,8 @@ help:
 
 all:
 	mkdir docs docs/it docs/en -p
-	rm -r docs/*
-	rm -r gettext/*
+	-rm -r docs/*
+	-rm -r gettext/*
 	sphinx-build -b gettext "$(SOURCEDIR)" "$(BUILDDIR)/gettext"
 	sphinx-intl update -p "$(BUILDDIR)/gettext" -l it -l en
 	@$(SPHINXBUILD) -b html -D language='it' "$(SOURCEDIR)" "$(BUILDDIR)/docs/it" $(SPHINXOPTS) $(O)
