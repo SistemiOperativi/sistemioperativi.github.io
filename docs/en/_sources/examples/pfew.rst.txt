@@ -77,7 +77,7 @@ Di conseguenza PFEW:
 
 
 Riferimenti
------------
+"""""""""""
 
 * :posix:`pthread_create <pthread_create>`
 * :posix:`pthread_attr_init <pthread_attr_init>`

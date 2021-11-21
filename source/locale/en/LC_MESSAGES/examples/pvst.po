@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-21 02:47+0100\n"
+"POT-Creation-Date: 2021-11-21 22:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,147 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../source/examples/pvst.rst:2
-msgid "Processi vs Thread"
+#: ../source/examples/pvst.rst:5
+msgid "PVST - Processi vs Thread"
+msgstr ""
+
+#: ../source/examples/pvst.rst:60
+msgid ""
+"Processi vs Thread (:raw-html:`<a class=\"external\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/pvst/pvst.c\">PVST</a>"
+" <a class=\"fa fa-github external\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/pvst/pvst.c\"></a>`)"
+" è un programma C il cui scopo è quello di evidenziare differenze "
+"basilari tra processi e thread."
+msgstr ""
+
+#: ../source/examples/pvst.rst:65
+msgid "Il programma è diviso in due sezioni:"
+msgstr ""
+
+#: ../source/examples/pvst.rst:67
+msgid ""
+"il main thread crea un thread child secondo lo schema proposto in "
+":doc:`PFEW <pfew>`. Entrambi i thread scrivono sulla variabile globlale "
+":code:`global_var` e successivamente ne stampano il valore su standard "
+"output."
+msgstr ""
+
+#: ../source/examples/pvst.rst:68
+msgid ""
+"il main thread crea un processo child secondo lo schema proposto in "
+":doc:`FEW <few>`. Entrambi i thread scrivono sulla variabile globlale "
+":code:`global_var` e successivamente ne stampano il valore su standard "
+"output."
+msgstr ""
+
+#: ../source/examples/pvst.rst:70
+msgid "La variabile :code:`global_var` viene stampata 4 volte, rispettivamente"
+msgstr ""
+
+msgid "Domanda"
+msgstr ""
+
+#: ../source/examples/pvst.rst:99
+msgid "Cosa stampano le righe 18, 36, 42 e 46?"
 msgstr ""
 
 #~ msgid "Processes versus Threads"
+#~ msgstr ""
+
+#~ msgid "Processi vs Thread"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "per emulare il comportamento del "
+#~ "programma :doc:`FEW <few>`, ma utilizzando "
+#~ "i thread al posto di processi."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "#include <unistd.h> #include <stdio.h> "
+#~ "#include <stdlib.h> #include <sys/wait.h>"
+#~ msgstr ""
+
+#~ msgid "#include <pthread.h>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "#define INIT_VALUE 0 #define PARENT_VAL "
+#~ "1 #define TCHILD_VAL 2 #define "
+#~ "PCHILD_VAL 3"
+#~ msgstr ""
+
+#~ msgid "volatile int global_var = INIT_VALUE;"
+#~ msgstr ""
+
+#~ msgid "void* child_func(void *par){"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*((int*)par) = 1; global_var = "
+#~ "TCHILD_VAL; printf(\"I'm the child and I"
+#~ " wrote the global var: %d\\n\", "
+#~ "global_var); pthread_exit(par);"
+#~ msgstr ""
+
+#~ msgid "}"
+#~ msgstr ""
+
+#~ msgid "int main(){"
+#~ msgstr ""
+
+#~ msgid "pthread_t ctid; int res, *status; printf(\"I'm a thread. \""
+#~ msgstr ""
+
+#~ msgid "\"I'm going to create another thread\\n\");"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "res = pthread_create(&ctid, NULL, child_func,"
+#~ " status); global_var = PARENT_VAL; if(res"
+#~ " != 0) printf(\"I cannot create a "
+#~ "child\"); else{"
+#~ msgstr ""
+
+#~ msgid "printf(\"I'm now a parent thread. \""
+#~ msgstr ""
+
+#~ msgid "\"I'll wait for my child thread %lu to die...\\n\", ctid);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "pthread_join(ctid, (void*)&status); printf(\"My "
+#~ "child has invoked %d\\n\",*status);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "} printf(\"My child is dead, so "
+#~ "it's my time to die. Global var:"
+#~ " %d\\n\", global_var); global_var = "
+#~ "PARENT_VAL; res = fork(); if(res == "
+#~ "-1) exit(1); if(res == 0){"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "global_var = PCHILD_VAL; printf(\"Child Global"
+#~ " var: %d\\n\", global_var); exit(0);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "} wait(&res); printf(\"Parent Global var: "
+#~ "%d\\n\", global_var); return 0;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "il main thread crea un processo "
+#~ "child secondo lo schema proposto in "
+#~ ":doc:`FEW <few>. Entrambi i thread "
+#~ "scrivono sulla variabile globlale "
+#~ ":code:`global_var` e successivamente ne "
+#~ "stampano il valore su standard output."
+#~ msgstr ""
+
+#~ msgid "Cosa stampano"
 #~ msgstr ""
 

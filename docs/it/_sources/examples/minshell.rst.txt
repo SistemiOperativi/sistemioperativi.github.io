@@ -79,7 +79,7 @@ A tal scopo la funzione :posix:`execlp <execlp>` considera:
 
 
 Riferimenti
------------
+"""""""""""
 
 * :posix:`exec <exec>`
 
