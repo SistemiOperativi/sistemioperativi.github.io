@@ -22,7 +22,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Indice" href="../genindex.html" />
     <link rel="search" title="Cerca" href="../search.html" />
-    <link rel="next" title="PThread implementation of FEW" href="pfew.html" />
+    <link rel="next" title="PFEW - FEW basato su posix threads" href="pfew.html" />
     <link rel="prev" title="Esempi di programmazione" href="../examples.html" /> 
 </head>
 
@@ -50,7 +50,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#riferimenti">Riferimenti</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="pfew.html">PThread implementation of FEW</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pfew.html">PFEW - FEW basato su posix threads</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pvst.html">PVST - Processi vs Thread</a></li>
 <li class="toctree-l2"><a class="reference internal" href="minshell.html">MinShell - le funzioni exec</a></li>
 </ul>
@@ -117,17 +117,17 @@
 <ol class="arabic simple">
 <li><p>Creare un processo tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a>.</p></li>
 <li><p>Attendere la terminazione del processo appena creato tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a>.</p></li>
-<li><p>Terminare il processo corrente utilizzanto <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a>.</p></li>
+<li><p>Terminare il processo corrente utilizzando <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a>.</p></li>
 </ol>
-<p>Il main thread esegue la stampa di riga e successivamente invoca la fork per creare un processo child.</p>
+<p>Il main thread esegue la stampa di riga 8 e successivamente invoca la <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a> per creare un processo child.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos">8</span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m a process and I&#39;m going to create a child</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
 <span class="linenos">9</span><span class="w">    </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fork</span><span class="p">();</span><span class="w"></span>
 </pre></div>
 </div>
-<p>Se la fork fallisce (<code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">==</span> <span class="pre">-1</span></code>), il processo principale termina.
-Altrimenti, entrambi i processi eseguono a partire dalla terminazione della fork.</p>
+<p>Se la <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a> fallisce (<code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">==</span> <span class="pre">-1</span></code>), il processo principale termina.
+Altrimenti, entrambi i processi eseguono a partire dalla terminazione della <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a>.</p>
 <p>Per differenziare il flusso di esecuzione tra il processo parent ed il processo child occorre analizzare
-il risultato della fork.
+il risultato della <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a>.
 Il processo child legge <code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">==</span> <span class="pre">0</span></code>, mentre il processo parent <code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">!=</span> <span class="pre">0</span></code> (più precisamente
 <code class="code docutils literal notranslate"><span class="pre">res</span></code> contiene il pid del processo child).
 A questo punto il child esegue:</p>
@@ -136,7 +136,7 @@ A questo punto il child esegue:</p>
 <span class="linenos">14</span><span class="w">        </span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
-<p>ossia va in stato di sleep per 5 secondi, esegue una stampa e termina con codice di terminazione 1 invocando la syscall exit.</p>
+<p>ossia va in stato di sleep per 5 secondi, esegue una stampa e termina con codice di terminazione 1 invocando la syscall <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a>.</p>
 <p>Il parent esegue:</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos">17</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m now a parent and I&#39;ll wait for my child to die...</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
 <span class="linenos">18</span><span class="w">        </span><span class="n">wait</span><span class="p">(</span><span class="o">&amp;</span><span class="n">status</span><span class="p">);</span><span class="w"></span>
@@ -144,7 +144,7 @@ A questo punto il child esegue:</p>
 <span class="linenos">20</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;My child is dead, so it&#39;s my time to die</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
-<p>Nello specifico attende la terminazione di uno generico thread child tramite la system call wait.
+<p>Nello specifico attende la terminazione di uno generico thread child tramite la system call <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a>.
 Grazie a questa chiamata, può inoltre ottenere il codice di terminazione dalla variabile <code class="code docutils literal notranslate"><span class="pre">status</span></code>
 grazie alla macro <code class="code docutils literal notranslate"><span class="pre">WEXITSTATUS</span></code> (il codice è memorizzato nel secondo byte di <code class="code docutils literal notranslate"><span class="pre">status</span></code>).</p>
 <section id="riferimenti">
@@ -163,7 +163,7 @@ grazie alla macro <code class="code docutils literal notranslate"><span class="p
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="../examples.html" class="btn btn-neutral float-left" title="Esempi di programmazione" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="pfew.html" class="btn btn-neutral float-right" title="PThread implementation of FEW" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="pfew.html" class="btn btn-neutral float-right" title="PFEW - FEW basato su posix threads" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

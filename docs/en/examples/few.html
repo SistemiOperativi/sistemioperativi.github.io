@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FEW - Fork-Exit-Wait &mdash; Sistemi Operativi 0 documentation</title>
+  <title>FEW - Fork-Exit-Wait &mdash; Operating Systems 0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
@@ -21,7 +21,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="PThread implementation of FEW" href="pfew.html" />
+    <link rel="next" title="PFEW - Posix-thread-based FEW" href="pfew.html" />
     <link rel="prev" title="Code examples" href="../examples.html" /> 
 </head>
 
@@ -32,7 +32,7 @@
         <div class="wy-side-nav-search" >
             <a href="/it/examples/few.html"><img src="/it/_static/it.png"/></a>
             <a href="/en/examples/few.html"><img src="/it/_static/en.png"/></a>
-            <a href="../index.html" class="icon icon-home"> Sistemi Operativi
+            <a href="../index.html" class="icon icon-home"> Operating Systems
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -46,10 +46,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../linux_install.html">Installing Linux</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../examples.html">Code examples</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">FEW - Fork-Exit-Wait</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#riferimenti">Riferimenti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#riferimenti">References</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="pfew.html">PThread implementation of FEW</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pfew.html">PFEW - Posix-thread-based FEW</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pvst.html">PVST - Processi vs Thread</a></li>
 <li class="toctree-l2"><a class="reference internal" href="minshell.html">MinShell - le funzioni exec</a></li>
 </ul>
@@ -63,7 +63,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">Sistemi Operativi</a>
+          <a href="../index.html">Operating Systems</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -109,47 +109,37 @@
 <span class="linenos">23</span><span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
-<p>Fork-Exit-Wait
-(<span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c">FEW</a>
-<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c"></a></span>)
-è un semplice programma C per:</p>
+<p>Fork-Exit-Wait (<span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c">FEW</a> <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c"></a></span>) is a simple C program to:</p>
 <ol class="arabic simple">
-<li><p>Creare un processo tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a>.</p></li>
-<li><p>Attendere la terminazione del processo appena creato tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a>.</p></li>
-<li><p>Terminare il processo corrente utilizzanto <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a>.</p></li>
+<li><p>Create a process via  <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a>.</p></li>
+<li><p>Wait the termination of the just created thread via <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a>.</p></li>
+<li><p>Terminate a process execution via <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a></p></li>
 </ol>
-<p>Il main thread esegue la stampa di riga e successivamente invoca la fork per creare un processo child.</p>
+<p>The main thread prints at line 8 and then it calls <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a> to create a child process.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos">8</span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m a process and I&#39;m going to create a child</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
 <span class="linenos">9</span><span class="w">    </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fork</span><span class="p">();</span><span class="w"></span>
 </pre></div>
 </div>
-<p>Se la fork fallisce (<code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">==</span> <span class="pre">-1</span></code>), il processo principale termina.
-Altrimenti, entrambi i processi eseguono a partire dalla terminazione della fork.</p>
-<p>Per differenziare il flusso di esecuzione tra il processo parent ed il processo child occorre analizzare
-il risultato della fork.
-Il processo child legge <code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">==</span> <span class="pre">0</span></code>, mentre il processo parent <code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">!=</span> <span class="pre">0</span></code> (più precisamente
-<code class="code docutils literal notranslate"><span class="pre">res</span></code> contiene il pid del processo child).
-A questo punto il child esegue:</p>
+<p>If the <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a> fails (<code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">==</span> <span class="pre">-1</span></code>), the main process ends.Otherwise, both processes execute starting from the return of <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a></p>
+<p>In order to distinguish the parent from the child, it is mandatory to analyze the result <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a>. The child proess will get <code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">==</span> <span class="pre">0</span></code>. Coversely, the parent process will obtain <code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">!=</span> <span class="pre">0</span></code>, namely <code class="code docutils literal notranslate"><span class="pre">res</span></code> maintains the process id (pid) of the child. At this point, the child executes the following:</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos">12</span><span class="w">        </span><span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span><span class="w"></span>
 <span class="linenos">13</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m the child!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
 <span class="linenos">14</span><span class="w">        </span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
-<p>ossia va in stato di sleep per 5 secondi, esegue una stampa e termina con codice di terminazione 1 invocando la syscall exit.</p>
-<p>Il parent esegue:</p>
+<p>The child goes to sleep for 5 seconds and terminates with exit code equal to 1 by invoking the syscall</p>
+<p>The parent process executes:</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos">17</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m now a parent and I&#39;ll wait for my child to die...</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
 <span class="linenos">18</span><span class="w">        </span><span class="n">wait</span><span class="p">(</span><span class="o">&amp;</span><span class="n">status</span><span class="p">);</span><span class="w"></span>
 <span class="linenos">19</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;My child has invoked exit(%d)</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">WEXITSTATUS</span><span class="p">(</span><span class="n">status</span><span class="p">));</span><span class="w"></span>
 <span class="linenos">20</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;My child is dead, so it&#39;s my time to die</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
-<p>Nello specifico attende la terminazione di uno generico thread child tramite la system call wait.
-Grazie a questa chiamata, può inoltre ottenere il codice di terminazione dalla variabile <code class="code docutils literal notranslate"><span class="pre">status</span></code>
-grazie alla macro <code class="code docutils literal notranslate"><span class="pre">WEXITSTATUS</span></code> (il codice è memorizzato nel secondo byte di <code class="code docutils literal notranslate"><span class="pre">status</span></code>).</p>
+<p>In particular, it waits the termination of a generic child thread via <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a>. Thanks to this call, it can obtain the termination code of the child from the variable <code class="code docutils literal notranslate"><span class="pre">status</span></code>.This cam be done thanks to the macro <code class="code docutils literal notranslate"><span class="pre">WEXITSTATUS</span></code> (the exit code is stored in the second byte of <code class="code docutils literal notranslate"><span class="pre">status</span></code>).</p>
 <section id="riferimenti">
-<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
+<h2>References<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p>[<a class="reference internal" href="../index.html#books"><span class="std std-ref">t3</span></a>] Sezione 1.2, 3.1</p></li>
+<li><p>[<a class="reference internal" href="../index.html#books"><span class="std std-ref">t3</span></a>] Section 1.2, 3.1</p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a></p></li>
@@ -162,7 +152,7 @@ grazie alla macro <code class="code docutils literal notranslate"><span class="p
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="../examples.html" class="btn btn-neutral float-left" title="Code examples" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="pfew.html" class="btn btn-neutral float-right" title="PThread implementation of FEW" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="pfew.html" class="btn btn-neutral float-right" title="PFEW - Posix-thread-based FEW" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

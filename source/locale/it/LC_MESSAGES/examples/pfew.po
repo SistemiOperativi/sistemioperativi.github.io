@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-21 22:38+0100\n"
+"POT-Creation-Date: 2021-11-21 23:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../source/examples/pfew.rst:5
-msgid "PThread implementation of FEW"
+msgid "PFEW - FEW basato su posix threads"
 msgstr ""
 
 #: ../source/examples/pfew.rst:41
@@ -232,5 +232,8 @@ msgstr ""
 #~ "emulare il comportamento del programma "
 #~ ":doc:`FEW <few>`, ma utilizzando i "
 #~ "thread al posto di processi."
+#~ msgstr ""
+
+#~ msgid "PThread implementation of FEW"
 #~ msgstr ""
 

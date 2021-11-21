@@ -46,7 +46,7 @@ if tags.has('en'):
   language = 'en'
   tags.remove('en')
 else:
-	language = 'it'
+  language = 'it'
 
 init_mylang(language)
 project = mytranslate("Sistemi Operativi")

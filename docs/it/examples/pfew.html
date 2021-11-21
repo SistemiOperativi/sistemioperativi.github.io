@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PThread implementation of FEW &mdash; Sistemi Operativi 0 documentazione</title>
+  <title>PFEW - FEW basato su posix threads &mdash; Sistemi Operativi 0 documentazione</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
@@ -47,7 +47,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../linux_install.html">Installare Linux</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../examples.html">Esempi di programmazione</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="few.html">FEW - Fork-Exit-Wait</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">PThread implementation of FEW</a><ul>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">PFEW - FEW basato su posix threads</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#riferimenti">Riferimenti</a></li>
 </ul>
 </li>
@@ -73,7 +73,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="../examples.html">Esempi di programmazione</a> &raquo;</li>
-      <li>PThread implementation of FEW</li>
+      <li>PFEW - FEW basato su posix threads</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/examples/pfew.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -83,8 +83,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="pthread-implementation-of-few">
-<h1>PThread implementation of FEW<a class="headerlink" href="#pthread-implementation-of-few" title="Link a questa intestazione">¶</a></h1>
+  <section id="pfew-few-basato-su-posix-threads">
+<h1>PFEW - FEW basato su posix threads<a class="headerlink" href="#pfew-few-basato-su-posix-threads" title="Link a questa intestazione">¶</a></h1>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>

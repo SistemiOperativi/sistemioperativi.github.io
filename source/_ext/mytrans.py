@@ -7,6 +7,7 @@ _mytrans_dict = {
 _mylanguage = 'it'
 
 def init_mylang(lang):
+	global _mylanguage
 	_mylanguage = lang	
 
 def mytranslate(string):

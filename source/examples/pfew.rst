@@ -1,8 +1,8 @@
 .. role:: raw-html(raw)
    :format: html
 
-PThread implementation of FEW
-================================================
+PFEW - FEW basato su posix threads
+==================================
 
 .. code-block:: c
     :linenos:

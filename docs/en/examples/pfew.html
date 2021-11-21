@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PThread implementation of FEW &mdash; Sistemi Operativi 0 documentation</title>
+  <title>PFEW - Posix-thread-based FEW &mdash; Operating Systems 0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
@@ -32,7 +32,7 @@
         <div class="wy-side-nav-search" >
             <a href="/it/examples/pfew.html"><img src="/it/_static/it.png"/></a>
             <a href="/en/examples/pfew.html"><img src="/it/_static/en.png"/></a>
-            <a href="../index.html" class="icon icon-home"> Sistemi Operativi
+            <a href="../index.html" class="icon icon-home"> Operating Systems
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -46,8 +46,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../linux_install.html">Installing Linux</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../examples.html">Code examples</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="few.html">FEW - Fork-Exit-Wait</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">PThread implementation of FEW</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#riferimenti">Riferimenti</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">PFEW - Posix-thread-based FEW</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#riferimenti">References</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pvst.html">PVST - Processi vs Thread</a></li>
@@ -63,7 +63,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">Sistemi Operativi</a>
+          <a href="../index.html">Operating Systems</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -72,7 +72,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="../examples.html">Code examples</a> &raquo;</li>
-      <li>PThread implementation of FEW</li>
+      <li>PFEW - Posix-thread-based FEW</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/examples/pfew.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -82,8 +82,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="pthread-implementation-of-few">
-<h1>PThread implementation of FEW<a class="headerlink" href="#pthread-implementation-of-few" title="Permalink to this headline">¶</a></h1>
+  <section id="pfew-few-basato-su-posix-threads">
+<h1>PFEW - Posix-thread-based FEW<a class="headerlink" href="#pfew-few-basato-su-posix-threads" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
@@ -116,46 +116,31 @@
 <span class="linenos">30</span><span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
-<p>Pthread FEW
-(<span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/pfew/pfew.c">PFEW</a>
-<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/pfew/pfew.c"></a></span>)
-è un semplice programma C per emulare il comportamento del programma <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>, ma utilizzando i thread al posto di processi.</p>
-<p>Di conseguenza PFEW:</p>
+<p>Pthread FEW (<span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/pfew/pfew.c">PFEW</a> <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/pfew/pfew.c"></a></span>) is a C program C that emulates the behavior of <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>, but it relies on threads instead of processes.</p>
+<p>Consequently, PFEW</p>
 <ol class="arabic simple">
-<li><p>Creare un thread tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_create</a>.</p></li>
+<li><p>It creates a thread via <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_create</a>.</p></li>
 </ol>
 <div class="admonition observation" id="observation-note-0">
-<p class="admonition-title">Osservazione</p>
-<p>A differenza della <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a>, la <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_create</a>
-richiede come terzo parametro la funzione che il thread child deve eseguire.
-Tale funzione riceve un parametro che corrisponde all’ultimo (quarto) paramentro di invocazione
-della <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_create</a>.
-Il primo parametro invece è un puntatore ad un’area di memoria dove il parent thread può accedere per ottenere
-il <code class="code docutils literal notranslate"><span class="pre">pthread_t</span></code>, ossia il thread id, caratteristico del thread child.
-Infine, il secondo parametro è un puntatore ad una struttura dati di tipo <code class="code docutils literal notranslate"><span class="pre">pthread_attr_t</span></code>, opportunamente inizializzata da
-un’invocazione a <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_attr_init.html">pthread_attr_init</a>, attraverso la quale è possibile
-configurare alcune proprietà del thread child, tra cui:</p>
+<p class="admonition-title">Observation</p>
+<p>The <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a> does not need any parameter. On the other hand, &lt;pthread_create&gt;` needs a pointer to the function that the child thread must execute as third parameter . Such a function takes as parameter the last one passed to <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_create</a>. The first parameter is a pointer to an area used by the calling thread to retrieve the thread id (<code class="code docutils literal notranslate"><span class="pre">pthread_t</span></code>) of the child. Finally, the second parameter is a pointer to a <code class="code docutils literal notranslate"><span class="pre">pthread_attr_t</span></code> structure, initialized by calling <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_attr_init.html">pthread_attr_init</a>. The latter allows to configure some properties of the child thread, such as:</p>
 <ul class="simple">
-<li><p>dimensione minima e posizione dello stack per il thread child;</p></li>
-<li><p>scheduling policy e priorità del thread child.</p></li>
+<li><p>minimum size and position of the stack for the child thread;</p></li>
+<li><p>scheduling policy and priority of the child thread.</p></li>
 </ul>
 </div>
 <ol class="arabic simple" start="2">
-<li><p>Attendere la terminazione del thread child tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html">pthread_join</a>.</p></li>
+<li><p>Waits the termination of the child thread via <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html">pthread_join</a>.</p></li>
 </ol>
 <div class="admonition observation" id="observation-note-1">
-<p class="admonition-title">Osservazione</p>
-<p>A differenza di quanto accade per i processi con la funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a>, per i posix thread
-non esiste una funzione per aspettare un generico thread child. La funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html">pthread_join</a>
-infatti richiede l’id del thread da attendere come primo paramentro. Il secondo parametro invece è utilizzato per
-ricevere un payload generato dal thread child atteso. Nel caso dei processi, un comportamento simile è ottenibile
-grazie alla funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/waitpid.html">waitpid</a>.</p>
+<p class="admonition-title">Observation</p>
+<p>The syscall <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a> allows a process to wait a generic child to end. However, such a capability, it is not available for posix threads. In fact, the <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html">pthread_join</a> requires the thread id of the to-be-waited as first parameter. The second parameter it is used to get a payload generated by the child thread. The same can be obtained with the function <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/waitpid.html">waitpid</a> for the case of processes.</p>
 </div>
 <ol class="arabic simple" start="3">
-<li><p>Il thread child termina con una <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html">pthread_exit</a>.</p></li>
+<li><p>The child thread ends by calling <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html">pthread_exit</a>.</p></li>
 </ol>
 <section id="riferimenti">
-<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
+<h2>References<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_create</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_attr_init.html">pthread_attr_init</a></p></li>
