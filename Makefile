@@ -30,3 +30,4 @@ all:
 	@$(SPHINXBUILD) -b html -D language='it' "$(SOURCEDIR)" "$(BUILDDIR)/docs/it" $(SPHINXOPTS) $(O)
 	@$(SPHINXBUILD) -b html -D language='en' -t en "$(SOURCEDIR)" "$(BUILDDIR)/docs/en" $(SPHINXOPTS) $(O)
 	cp $(SOURCEDIR)/index.html $(BUILDDIR)/docs
+	touch $(BUILDDIR)/docs/.nojekyll
