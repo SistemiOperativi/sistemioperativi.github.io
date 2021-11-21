@@ -29,4 +29,3 @@ all:
 	sphinx-intl update -p "$(BUILDDIR)/gettext" -l it -l en
 	@$(SPHINXBUILD) -b html -D language='it' "$(SOURCEDIR)" "$(BUILDDIR)/docs/it" $(SPHINXOPTS) $(O)
 	@$(SPHINXBUILD) -b html -D language='en' -t en "$(SOURCEDIR)" "$(BUILDDIR)/docs/en" $(SPHINXOPTS) $(O)
-	touch $(BUILDDIR)/docs/.nojekyll

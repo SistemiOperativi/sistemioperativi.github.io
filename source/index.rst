@@ -3,6 +3,7 @@
    
    linux_install
    examples
+   slides
    lectures/index
    
 
@@ -40,6 +41,7 @@ Link ai contenuti del corso
 - `SharePoint <https://uniroma3.sharepoint.com/sites/AA2122-SISTEMIOPERATIVI-20801961MAROTTA>`_
 - `Stream  <https://web.microsoftstream.com/group/098a73ce-8602-46e3-84c6-8107ebe1a9ae>`_
 - `GitHub  <https://github.com/SistemiOperativi>`_
+- :doc:`Slides <slides>`
 
 Ricevimento
 -----------
@@ -82,13 +84,3 @@ Programma
 * **Programmazione di Sistema.** Gestione in C dei processi/thread su ambiente linux
 * **Virtualizzazione.** Concetti generali, container, Docker
 
-
-Slides
-------
-
-* `01 - Introduzione  </slides/01-so-introduzione-210927v1.pdf>`_ 
-* `02 - Processi e thread </slides/02-so-processi-211021v3.pdf>`_ [Aggiornato il 23/10/21] 
-* `03 - CPU scheduling </slides/03-so-cpu-scheduling-261017v2.pdf>`_ [Aggiornato il 26/10/21]
-* `04 - Sincronizzazione </slides/04-sincronizzazione-211030v1.pdf>`_
-* `05 - Gestione delle memoria </slides/05-memoria-v3-211117.pdf>`_ [Aggiornato il 17/11/21]
-       
