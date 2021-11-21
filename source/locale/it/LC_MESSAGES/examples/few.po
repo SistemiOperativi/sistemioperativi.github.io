@@ -1,0 +1,347 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-21 20:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/examples/few.rst:5
+msgid "FEW - Fork-Exit-Wait"
+msgstr ""
+
+#: ../source/examples/few.rst:34
+msgid ""
+"Fork-Exit-Wait (:raw-html:`<a class=\"external\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\">FEW</a>"
+" <a class=\"fa fa-github external\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\"></a>`)"
+" è un semplice programma C per:"
+msgstr ""
+
+#: ../source/examples/few.rst:39
+msgid "Creare un processo tramite :posix:`fork <fork>`."
+msgstr ""
+
+#: ../source/examples/few.rst:40
+msgid ""
+"Attendere la terminazione del processo appena creato tramite :posix:`wait"
+" <wait>`."
+msgstr ""
+
+#: ../source/examples/few.rst:41
+msgid "Terminare il processo corrente utilizzanto :posix:`exit <exit>`."
+msgstr ""
+
+#: ../source/examples/few.rst:43
+msgid ""
+"Il main thread esegue la stampa di riga e successivamente invoca la fork "
+"per creare un processo child."
+msgstr ""
+
+#: ../source/examples/few.rst:51
+msgid ""
+"Se la fork fallisce (:code:`res == -1`), il processo principale termina. "
+"Altrimenti, entrambi i processi eseguono a partire dalla terminazione "
+"della fork."
+msgstr ""
+
+#: ../source/examples/few.rst:54
+msgid ""
+"Per differenziare il flusso di esecuzione tra il processo parent ed il "
+"processo child occorre analizzare il risultato della fork. Il processo "
+"child legge :code:`res == 0`, mentre il processo parent :code:`res != 0` "
+"(più precisamente :code:`res` contiene il pid del processo child). A "
+"questo punto il child esegue:"
+msgstr ""
+
+#: ../source/examples/few.rst:67
+msgid ""
+"ossia va in stato di sleep per 5 secondi, esegue una stampa e termina con"
+" codice di terminazione 1 invocando la syscall exit."
+msgstr ""
+
+#: ../source/examples/few.rst:69
+msgid "Il parent esegue:"
+msgstr ""
+
+#: ../source/examples/few.rst:79
+msgid ""
+"Nello specifico attende la terminazione di uno generico thread child "
+"tramite la system call wait. Grazie a questa chiamata, può inoltre "
+"ottenere il codice di terminazione dalla variabile :code:`status` grazie "
+"alla macro :code:`WEXITSTATUS` (il codice è memorizzato nel secondo byte "
+"di :code:`status`)."
+msgstr ""
+
+#: ../source/examples/few.rst:85
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/examples/few.rst:87
+msgid "[:ref:`t3 <books>`] Sezione 1.2, 3.1"
+msgstr ""
+
+#: ../source/examples/few.rst:88
+msgid ":posix:`fork <fork>`"
+msgstr ""
+
+#: ../source/examples/few.rst:89
+msgid ":posix:`exit <exit>`"
+msgstr ""
+
+#: ../source/examples/few.rst:90
+msgid ":posix:`wait <wait>`"
+msgstr ""
+
+#~ msgid "Fork-Exit-Wait (FEW) è un semplice codice C per"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (FEW) è un semplice"
+#~ " codice C per `<a class=\"fa fa-"
+#~ "github\" "
+#~ "href=https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c/>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (FEW) è un semplice"
+#~ " codice C per `<a class=\"fa fa-"
+#~ "github\" "
+#~ "href=https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c>Edit</a>`_"
+#~ msgstr ""
+
+#~ msgid "Fork-Exit-Wait (FEW) è un semplice codice C per .. raw:: html"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<a class=\"fa fa-github\" "
+#~ "href=https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c>Edit</a>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (FEW) è un semplice"
+#~ " codice C per .. raw:: html <a"
+#~ " class=\"fa fa-github\" "
+#~ "href=https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c>Edit</a>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (FEW) è un semplice"
+#~ " codice C per :raw:`<a class=\"fa "
+#~ "fa-github\" "
+#~ "href=https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c>Edit</a>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (FEW) è un semplice"
+#~ " codice C per :raw:`html <a "
+#~ "class=\"fa fa-github\" "
+#~ "href=https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c>Edit</a>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (FEW) è un semplice"
+#~ " codice C per :raw-html:`<a "
+#~ "class=\"fa fa-github\" "
+#~ "href=https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c>Edit</a>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (FEW) è un semplice"
+#~ " codice C per :raw:html`<a class=\"fa "
+#~ "fa-github\" "
+#~ "href=https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c>Edit</a>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (:raw-html:`FEW <a "
+#~ "class=\"fa fa-github\" "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\""
+#~ " /a>`) è un semplice codice C "
+#~ "per"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (:raw-html:`FEW <a "
+#~ "class=\"fa fa-github\" "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\"></a>`)"
+#~ " è un semplice codice C per"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (:raw-html:`FEW <a "
+#~ "class=\"fa fa-github\" "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\">FEW</a>`)"
+#~ " è un semplice codice C per"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "#include <unistd.h> #include <stdio.h> "
+#~ "#include <stdlib.h> #include <sys/wait.h>"
+#~ msgstr ""
+
+#~ msgid "int main(){"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "int res, status; printf(\"I'm a process"
+#~ " and I'm going to create a "
+#~ "child\\n\"); res = fork(); if(res < "
+#~ "0) printf(\"I cannot create a child\");"
+#~ " else if(res == 0){"
+#~ msgstr ""
+
+#~ msgid "sleep(5); printf(\"I'm the child!\\n\"); exit(1);"
+#~ msgstr ""
+
+#~ msgid "} else{"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "printf(\"I'm now a parent and I'll "
+#~ "wait for my child to die...\\n\"); "
+#~ "wait(&status); printf(\"My child has invoked"
+#~ " exit(%d)\\n\", WEXITSTATUS(status));"
+#~ msgstr ""
+
+#~ msgid "} printf(\"My child is dead, so it's my time to die\\n\"); exit(0);"
+#~ msgstr ""
+
+#~ msgid "}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (:raw-html:`<a "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\">FEW</a>"
+#~ " <a class=\"fa fa-github\" "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\"></a>`)"
+#~ " è un semplice codice C per"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Il main thread esegue la stampa di"
+#~ " riga e successivamente invoca la "
+#~ "fork per creare un processo child. "
+#~ ".. code-block:: c"
+#~ msgstr ""
+
+#~ msgid "linenothreshold"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "5 printf(\"I'm a process and I'm "
+#~ "going to create a child\\n\"); res "
+#~ "= fork();"
+#~ msgstr ""
+
+#~ msgid "Attendere la terminazione di un processo tramite wait."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Se la fork fallisce il (:c:`res =="
+#~ " -1`) A questo punto entrambi i "
+#~ "processi eseguono a partire dalla "
+#~ "terminazione della fork."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Se la fork fallisce il (:code:`:c:`res"
+#~ " == -1``) A questo punto entrambi "
+#~ "i processi eseguono a partire dalla "
+#~ "terminazione della fork."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Se la fork fallisce il (:code:`res "
+#~ "== -1`) A questo punto entrambi i"
+#~ " processi eseguono a partire dalla "
+#~ "terminazione della fork."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nello specifico attende la terminazione "
+#~ "di uno generico thread child tramite "
+#~ "la system call wait. Grazie a "
+#~ "questa chiamata, può inoltre ottenere il"
+#~ " codice di terminazione nella variabile "
+#~ ":code:`status`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nello specifico attende la terminazione "
+#~ "di uno generico thread child tramite "
+#~ "la system call wait. Grazie a "
+#~ "questa chiamata, può inoltre ottenere il"
+#~ " codice di terminazione nella variabile "
+#~ ":code:`status`. La macro :code:`WEXITSTATUS` "
+#~ "serve ad ottenere"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nello specifico attende la terminazione "
+#~ "di uno generico thread child tramite "
+#~ "la system call wait. Grazie a "
+#~ "questa chiamata, può inoltre ottenere il"
+#~ " codice di terminazione dalla variabile "
+#~ ":code:`status` grazie alla macro "
+#~ ":code:`WEXITSTATUS` (il codice è memorizzato"
+#~ " nel secondo byte di status)."
+#~ msgstr ""
+
+#~ msgid "Fork-Exit-Wait"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fork-Exit-Wait (:raw-html:`<a "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\">FEW</a>"
+#~ " <a class=\"fa fa-github\" "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\"></a>`)"
+#~ " è un semplice programma C per:"
+#~ msgstr ""
+
+#~ msgid "Creare un processo tramite fork."
+#~ msgstr ""
+
+#~ msgid "Attendere la terminazione del processo appena creato tramite wait."
+#~ msgstr ""
+
+#~ msgid "Terminare il processo corrente utilizzanto exit."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`fork "
+#~ "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`exit "
+#~ "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`wait "
+#~ "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html>`_"
+#~ msgstr ""
+
+#~ msgid ":posix:`fork <fork>`."
+#~ msgstr ""
+
+#~ msgid ":posix:`exit <exit>`."
+#~ msgstr ""
+
+#~ msgid ":posix:`wait <wait>`."
+#~ msgstr ""
+

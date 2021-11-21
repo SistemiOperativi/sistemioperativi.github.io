@@ -1,8 +1,6 @@
 Diario delle lezioni
 =====================
 
-.. toctree::
-
 
 17/11/2021 - Gestione della memoria parte 2
 -------------------------------------------

@@ -2,3 +2,8 @@
     max-width: 100%;
 }
 
+.admonition.observation {background: #e7e7e7;}
+.observation .admonition-title {background: #888;}
+
+.admonition.question {background: #e9d7e9;}
+.question .admonition-title {background: #663f66;}

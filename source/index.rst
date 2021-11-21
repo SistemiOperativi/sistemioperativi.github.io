@@ -1,18 +1,21 @@
+.. toctree::
+   :hidden:
+   
+   linux_install
+   examples
+   lectures/index
+   
+
 Sistemi Operativi
 =============================================
-
-.. toctree::
-   linux_install
-   lectures/index
-   :hidden:
-
 
 Benvenuti al corso di Sistemi Operativi per A.A. 2021/2022 del Corso di Laurea in Ingegneria Informatica di Roma Tre
 
 Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 
+
 Obiettivi del corso
--------------------
+===================
 
 L'obiettivo del corso è fornire allo studente competenze sull'architettura di un generico sistema operativo moderno, con particolare riferimento al sistema Linux, 
 e sulle metodologie usate per risolvere le problematiche tipiche della gestione di risorse in un sistema operativo moderno.
@@ -33,7 +36,7 @@ Mercoledì  16:00 - 18:00  N13 [Vasca Navale 79/81] - `Aula Teams <https://teams
 Link ai contenuti del corso
 ---------------------------
 
-`Teams <https://teams.microsoft.com/l/team/19%3aRhhdoEO6QOI_oVGAqU-Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/conversations?groupId=098a73ce-8602-46e3-84c6-8107ebe1a9ae&tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a>`_
+- `Teams <https://teams.microsoft.com/l/team/19%3aRhhdoEO6QOI_oVGAqU-Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/conversations?groupId=098a73ce-8602-46e3-84c6-8107ebe1a9ae&tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a>`_
 - `SharePoint <https://uniroma3.sharepoint.com/sites/AA2122-SISTEMIOPERATIVI-20801961MAROTTA>`_
 - `Stream  <https://web.microsoftstream.com/group/098a73ce-8602-46e3-84c6-8107ebe1a9ae>`_
 - `GitHub  <https://github.com/SistemiOperativi>`_

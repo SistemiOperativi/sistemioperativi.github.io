@@ -1,9 +1,6 @@
 Installare Linux
 ================
 
-.. toctree::
-
- 
 
 Si raccomanda l'installazione **nativa** di un Sistema Operativo (e.g., Ubuntu, Debian) con kernel Linux.
 

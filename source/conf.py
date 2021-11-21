@@ -10,18 +10,25 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.append(os.path.abspath("./_ext"))
+from  mytrans import *
 
+
+todo_include_todos = True
 
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [ 
+extensions = [ 'sphinx.ext.extlinks',
+               'custom_note',
 ]
+
+extlinks = {'posix': ('https://pubs.opengroup.org/onlinepubs/9699919799/functions/%s.html', None),
+			'linux': ('https://man7.org/linux/man-pages/man3/%s.3.html', None)}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -41,10 +48,8 @@ if tags.has('en'):
 else:
 	language = 'it'
 
-if language == 'it':
-	project = 'Sistemi Operativi'
-else:
-	project = 'Operating Systems'
+init_mylang(language)
+project = mytranslate("Sistemi Operativi")
 
 
 author = 'Romolo Marotta'
@@ -77,6 +82,11 @@ html_static_path = ['_static']
 
 html_css_files = [
     'css/custom.css',
+]
+
+
+html_js_files = [
+    'js/custom.js',
 ]
 
 html_theme_options = {

@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-21 21:43+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/examples/few.rst:5
+msgid "FEW - Fork-Exit-Wait"
+msgstr ""
+
+#: ../source/examples/few.rst:34
+msgid "Fork-Exit-Wait (:raw-html:`<a class=\"external\" href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\">FEW</a> <a class=\"fa fa-github external\" href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\"></a>`) è un semplice programma C per:"
+msgstr ""
+
+#: ../source/examples/few.rst:39
+msgid "Creare un processo tramite :posix:`fork <fork>`."
+msgstr ""
+
+#: ../source/examples/few.rst:40
+msgid "Attendere la terminazione del processo appena creato tramite :posix:`wait <wait>`."
+msgstr ""
+
+#: ../source/examples/few.rst:41
+msgid "Terminare il processo corrente utilizzanto :posix:`exit <exit>`."
+msgstr ""
+
+#: ../source/examples/few.rst:43
+msgid "Il main thread esegue la stampa di riga e successivamente invoca la fork per creare un processo child."
+msgstr ""
+
+#: ../source/examples/few.rst:51
+msgid "Se la fork fallisce (:code:`res == -1`), il processo principale termina. Altrimenti, entrambi i processi eseguono a partire dalla terminazione della fork."
+msgstr ""
+
+#: ../source/examples/few.rst:54
+msgid "Per differenziare il flusso di esecuzione tra il processo parent ed il processo child occorre analizzare il risultato della fork. Il processo child legge :code:`res == 0`, mentre il processo parent :code:`res != 0` (più precisamente :code:`res` contiene il pid del processo child). A questo punto il child esegue:"
+msgstr ""
+
+#: ../source/examples/few.rst:67
+msgid "ossia va in stato di sleep per 5 secondi, esegue una stampa e termina con codice di terminazione 1 invocando la syscall exit."
+msgstr ""
+
+#: ../source/examples/few.rst:69
+msgid "Il parent esegue:"
+msgstr ""
+
+#: ../source/examples/few.rst:79
+msgid "Nello specifico attende la terminazione di uno generico thread child tramite la system call wait. Grazie a questa chiamata, può inoltre ottenere il codice di terminazione dalla variabile :code:`status` grazie alla macro :code:`WEXITSTATUS` (il codice è memorizzato nel secondo byte di :code:`status`)."
+msgstr ""
+
+#: ../source/examples/few.rst:85
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/examples/few.rst:87
+msgid "[:ref:`t3 <books>`] Sezione 1.2, 3.1"
+msgstr ""
+
+#: ../source/examples/few.rst:88
+msgid ":posix:`fork <fork>`"
+msgstr ""
+
+#: ../source/examples/few.rst:89
+msgid ":posix:`exit <exit>`"
+msgstr ""
+
+#: ../source/examples/few.rst:90
+msgid ":posix:`wait <wait>`"
+msgstr ""
