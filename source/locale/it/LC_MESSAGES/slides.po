@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-23 01:38+0100\n"
+"POT-Creation-Date: 2021-11-23 12:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,8 +32,8 @@ msgstr ""
 
 #: ../source/slides.rst:8
 msgid ""
-"`02 - Processi e thread </slides/02-so-processi-211021v3.pdf>`_ "
-"[Aggiornato il 23/10/21]"
+"`02 - Processi e thread </slides/02-so-processi-v4-211116.pdf>`_ "
+"[Aggiornato il 21/11/21]"
 msgstr ""
 
 #: ../source/slides.rst:9
@@ -68,5 +68,11 @@ msgstr ""
 #~ "`05 - Gestione delle memoria "
 #~ "</slides/05-memoria-v4-211121.pdf>`_ [Aggiornato il "
 #~ "21/11/21]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`02 - Processi e thread </slides/02"
+#~ "-so-processi-211021v3.pdf>`_ [Aggiornato il "
+#~ "23/10/21]"
 #~ msgstr ""
 
