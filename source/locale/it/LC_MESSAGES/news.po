@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-24 11:56+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/news.rst:2
+msgid "News"
+msgstr ""
+
+#: ../source/news.rst:7
+msgid "24-11-2021 - avviso: nuove sezioni e aggionamenti"
+msgstr ""
+
+#: ../source/news.rst:9
+msgid "Info generali:"
+msgstr ""
+
+#: ../source/news.rst:11
+msgid ""
+"sono disponibili i questionari per la rilevazione opinioni studenti: "
+"`Link <https://portalestudente.uniroma3.it/accedi/area-"
+"studenti/istruzioni/come-compilare-un-questionario-sul-portale-dello-"
+"studente/>`_"
+msgstr ""
+
+#: ../source/news.rst:12
+msgid "La scadenza per la compilazione è il 30 novembre."
+msgstr ""
+
+#: ../source/news.rst:14 ../source/news.rst:33 ../source/news.rst:49
+#: ../source/news.rst:64 ../source/news.rst:79 ../source/news.rst:107
+#: ../source/news.rst:116 ../source/news.rst:131 ../source/news.rst:145
+#: ../source/news.rst:154 ../source/news.rst:163
+msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/news.rst:16
+msgid "aggiornate slide sulla gestione della memoria"
+msgstr ""
+
+#: ../source/news.rst:17
+msgid "aggiunta una sezione: news sul sito"
+msgstr ""
+
+#: ../source/news.rst:18
+msgid "aggiunta una sezione: esercizi di preparazione"
+msgstr ""
+
+#: ../source/news.rst:19
+msgid "aggiunto diario della lezione del 23/11"
+msgstr ""
+
+#: ../source/news.rst:20
+msgid "aggiunto avviso su diaro delle lezioni"
+msgstr ""
+
+#: ../source/news.rst:21
+msgid "aggiunte slide di approfondimento su Solid-State Drive"
+msgstr ""
+
+#: ../source/news.rst:24 ../source/news.rst:40 ../source/news.rst:54
+#: ../source/news.rst:69 ../source/news.rst:83 ../source/news.rst:92
+#: ../source/news.rst:97 ../source/news.rst:122 ../source/news.rst:136
+#: ../source/news.rst:177
+msgid "Microsoft Stream:"
+msgstr ""
+
+#: ../source/news.rst:26
+msgid "caricata lezione del 23/11"
+msgstr ""
+
+#: ../source/news.rst:31
+msgid "23-11-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:35
+msgid "caricata nuova versione del sito del corso"
+msgstr ""
+
+#: ../source/news.rst:36
+msgid "aggiunta nuova sezione con spiegazione degli esempi di codice"
+msgstr ""
+
+#: ../source/news.rst:37
+msgid "caricata versione aggiornata delle slide \"Gestione della memoria\""
+msgstr ""
+
+#: ../source/news.rst:42
+msgid "caricata lezione del 17/11"
+msgstr ""
+
+#: ../source/news.rst:47
+msgid "17-11-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:51
+msgid "aggiornate slide su gestione della memoria"
+msgstr ""
+
+#: ../source/news.rst:52
+msgid "aggiornato diario delle lezioni al 16/11"
+msgstr ""
+
+#: ../source/news.rst:56
+msgid "pubblicata lezione del 16/11"
+msgstr ""
+
+#: ../source/news.rst:61
+msgid "16-11-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:66
+msgid "Aggiornate slide su gestione della memoria"
+msgstr ""
+
+#: ../source/news.rst:67
+msgid "Aggiornato il diario delle lezioni fino al 10/11"
+msgstr ""
+
+#: ../source/news.rst:71
+msgid "Pubblicata lezione del 10/11 su Stream"
+msgstr ""
+
+#: ../source/news.rst:77
+msgid "09-11-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:81
+msgid "Pubblicate slide: \"Gestione della memoria\""
+msgstr ""
+
+#: ../source/news.rst:85
+msgid "Pubblicate lezioni del 02/11 e 03/11"
+msgstr ""
+
+#: ../source/news.rst:90
+msgid "02-11-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:94
+msgid "Pubblicate slide sulla Sincronizzazione sul sito del corso"
+msgstr ""
+
+#: ../source/news.rst:95
+msgid "Aggiornato diario delle lezioni"
+msgstr ""
+
+#: ../source/news.rst:99
+msgid "Pubblicate lezioni del 26 e 27 Ottobre su Microsoft Stream"
+msgstr ""
+
+#: ../source/news.rst:105
+msgid "26-10-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:109
+msgid "Aggiornate slide su CPU scheduling"
+msgstr ""
+
+#: ../source/news.rst:114
+msgid "22-10-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:118
+msgid "pubblicato link al repository github con esempi software."
+msgstr ""
+
+#: ../source/news.rst:119
+msgid "aggiornate slide sui processi"
+msgstr ""
+
+#: ../source/news.rst:120
+msgid "fixato codice per la gestione dei thread"
+msgstr ""
+
+#: ../source/news.rst:124
+msgid "pubblicata lezione del 20/10/2021"
+msgstr ""
+
+#: ../source/news.rst:129
+msgid "18-10-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:133
+msgid "[Diario delle lezioni]:  aggiunto dettaglio lezioni del 12/10 e 13/10"
+msgstr ""
+
+#: ../source/news.rst:134
+msgid "[Slide] aggiunte slide su CPU scheduling"
+msgstr ""
+
+#: ../source/news.rst:138
+msgid "upload lezione del 12/10 e 13/10"
+msgstr ""
+
+#: ../source/news.rst:143
+msgid "13-10-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:147
+msgid "Pubblicata versione completa delle slide su processi e thread."
+msgstr ""
+
+#: ../source/news.rst:152
+msgid "12-10-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:156
+msgid "Aggiornate slide sui processi"
+msgstr ""
+
+#: ../source/news.rst:161
+msgid "10-10-2021 - aggiornamenti"
+msgstr ""
+
+#: ../source/news.rst:165
+msgid "[Orario delle lezioni] aggiunti link a tems, sharepoint e stream"
+msgstr ""
+
+#: ../source/news.rst:166
+msgid "[Ricevimento] aggiornate istruzioni per inviare email al docente"
+msgstr ""
+
+#: ../source/news.rst:167
+msgid "[Testi consigliati e link utili]"
+msgstr ""
+
+#: ../source/news.rst:169
+msgid "aggiunto un libro di testo in italiano"
+msgstr ""
+
+#: ../source/news.rst:170
+msgid "aggiunti link a guide per installazione di sistemi Linux"
+msgstr ""
+
+#: ../source/news.rst:172
+msgid "[Diario delle lezioni]:"
+msgstr ""
+
+#: ../source/news.rst:174
+msgid "aggiunto chiarimento sull'uso dei riferimenti ai libri di testo"
+msgstr ""
+
+#: ../source/news.rst:175
+msgid "aggiunto dettaglio lezioni del 05/10 e 06/10"
+msgstr ""
+
+#: ../source/news.rst:179
+msgid "upload lezione del 06/10"
+msgstr ""
+
+#~ msgid "[Sito del corso]"
+#~ msgstr ""
+
+#~ msgid "[Microsoft Stream] Pubblicata lezione del 10/11 su Stream"
+#~ msgstr ""
+
+#~ msgid "[Sito del corso] - Pubblicate slide: \"Gestione della memoria\""
+#~ msgstr ""
+
+#~ msgid "[Microsoft Stream] - Pubblicate lezioni del 02/11 e 03/11"
+#~ msgstr ""
+
+#~ msgid "Aggiornato sito del corso:"
+#~ msgstr ""
+
+#~ msgid "Aggiornate diverse sezioni del sito del corso:"
+#~ msgstr ""
+
+#~ msgid "Aggiornamento Microsoft Stream:"
+#~ msgstr ""
+
+#~ msgid "caricata lezione del 17/11 su Microsoft Stream"
+#~ msgstr ""
+
+#~ msgid "agginto diario della lezione del 23/11"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Info generali: * sono disponibili i "
+#~ "questionari per la rilevazione opinioni "
+#~ "studenti: `Link "
+#~ "<https://portalestudente.uniroma3.it/accedi/area-"
+#~ "studenti/istruzioni/come-compilare-un-"
+#~ "questionario-sul-portale-dello-studente/>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Info generali: * sono disponibili i "
+#~ "questionari per la rilevazione opinioni "
+#~ "studenti: `Link "
+#~ "<https://portalestudente.uniroma3.it/accedi/area-"
+#~ "studenti/istruzioni/come-compilare-un-"
+#~ "questionario-sul-portale-dello-studente/>`_ "
+#~ "La scadenza per la compilazione è "
+#~ "il 30 novembre."
+#~ msgstr ""
+

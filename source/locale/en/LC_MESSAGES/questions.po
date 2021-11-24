@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-24 01:50+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/questions.rst:2
+msgid "Esercizi di preparazione"
+msgstr "Training exercises"
+
+#: ../source/questions.rst:4
+msgid ""
+"In questa sezione vengono riportate alcuni esercizi/domande che possono "
+"essere utilizzate come preparazione all'esame."
+msgstr ""
+"This section contains several exercises/questions that allows you to test your "
+"knowledge and skills."
+
+#: ../source/questions/intro.rst:2
+msgid "1 - Introduzione"
+msgstr "1 - Introduction"
+
+#: ../source/questions/intro.rst:4
+msgid ""
+"Descrivere il concetto di interrupt e mostrare il suo utilizzo nei "
+"sistemi operativi."
+msgstr ""
+"Describe the concept of interrupt and show its usage in modern operating "
+"system."
+
+#: ../source/questions/intro.rst:5
+msgid "Descrivere le principali strutture dati di un sistema operativo."
+msgstr "Describe the main data structures used by an operating systems."
+
+#: ../source/questions/processes.rst:2
+msgid "2- Processi e thread"
+msgstr "2- Processes and threads"
+
+#: ../source/questions/processes.rst:4
+msgid "Descrivi il concetto di mode switch e di process switch."
+msgstr "Describe the concept of mode switch and process switch."
+
+#: ../source/questions/processes.rst:5
+msgid ""
+"Descrivi il concetto di processo. Quali sono i possibili stati di un "
+"processo?"
+msgstr ""
+"Describe the concept of process. What are the possible states of a "
+"process?"
+
+#: ../source/questions/processes.rst:6
+msgid "Spiegare la differenza tra il processo e thread."
+msgstr "Show and explaing the main differences between processes and threads."
+
+#: ../source/questions/sched.rst:2
+msgid "3 - Scheduling"
+msgstr "3 - Scheduling"
+
+#: ../source/questions/sched.rst:4
+msgid "Cpu-scheduler: quali sono i criteri di valutazione di un cpu-scheduler?"
+msgstr "What are the main evaluation criteria of a cpu scheduler?"
+
+#: ../source/questions/memory.rst:2
+msgid "4 - Gestione della memoria"
+msgstr "4 - Memory management"
+
+#: ../source/questions/memory.rst:4
+msgid ""
+"Descrivi la paginazione e la segmentazione mostrando vantaggi e svantaggi"
+" di ciascuna."
+msgstr ""
+"Describe pagination and segmentation techniques, showing their pros and "
+"cons."
+
+#: ../source/questions/memory.rst:5
+msgid ""
+"Mostra lo schema di paginazione a due livelli e il processo di traduzione"
+" di un indirizzo virtuale in fisico. Quali sono i vantaggi e gli "
+"svantaggi nell'uso di tale schema?"
+msgstr ""
+"Show a scheme of two-level paging and the process of translating a linear"
+" address to a physical address. Briefly discuss the main cons and pros of"
+" this approach."
+
+#: ../source/questions/memory.rst:6
+msgid "Cosa è e a cosa serve il translation lookside buffer?"
+msgstr "What is a translation lookaside buffer? What is its role?"
+
+#: ../source/questions/memory.rst:7
+msgid ""
+"Mostrare uno schema di segmentazione paginata con TLB e descriverne il "
+"funzionamento per la traduzione da indirizzo logico a fisico."
+msgstr "Show a scheme for paged segmentation with TLP and describe how it works."
+
+#: ../source/questions/memory.rst:8
+msgid "Che cosa è un buddy system?"
+msgstr "What is a buddy system?"
+

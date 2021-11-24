@@ -1,0 +1,182 @@
+News
+====
+
+.. _n24-11-2021:
+
+24-11-2021 - avviso: nuove sezioni e aggionamenti
+-------------------------------------------------
+
+* Info generali:
+
+  * sono disponibili i questionari per la rilevazione opinioni studenti: `Link <https://portalestudente.uniroma3.it/accedi/area-studenti/istruzioni/come-compilare-un-questionario-sul-portale-dello-studente/>`_
+
+.. warning::
+
+  La scadenza per la compilazione è il 30 novembre. 
+
+* Sito del corso:
+
+  * aggiornate slide sulla gestione della memoria
+  * aggiunta una sezione: news sul sito
+  * aggiunta una sezione: esercizi di preparazione
+  * aggiunto diario della lezione del 23/11
+  * aggiunto avviso su diaro delle lezioni
+  * aggiunte slide di approfondimento su Solid-State Drive
+
+
+* Microsoft Stream:
+
+  * caricata lezione del 23/11
+
+.. _n23-11-2021:
+
+23-11-2021 - aggiornamenti
+--------------------------
+
+* Sito del corso:
+
+  * caricata nuova versione del sito del corso
+  * aggiunta nuova sezione con spiegazione degli esempi di codice
+  * caricata versione aggiornata delle slide "Gestione della memoria"
+
+
+* Microsoft Stream:
+
+  * caricata lezione del 17/11
+
+.. _n17-11-2021:
+
+17-11-2021 - aggiornamenti
+--------------------------
+
+* Sito del corso:
+
+  * aggiornate slide su gestione della memoria
+  * aggiornato diario delle lezioni al 16/11
+
+* Microsoft Stream:
+
+  * pubblicata lezione del 16/11
+
+.. _n16-11-2021:
+
+16-11-2021 - aggiornamenti
+--------------------------
+
+
+* Sito del corso:
+
+  * Aggiornate slide su gestione della memoria
+  * Aggiornato il diario delle lezioni fino al 10/11
+
+* Microsoft Stream:
+
+  * Pubblicata lezione del 10/11 su Stream
+
+
+.. _n09-11-2021:
+
+09-11-2021 - aggiornamenti
+--------------------------
+
+* Sito del corso:
+
+  * Pubblicate slide: "Gestione della memoria"
+
+* Microsoft Stream:
+ 
+  * Pubblicate lezioni del 02/11 e 03/11
+
+.. _n02-11-2021:
+
+02-11-2021 - aggiornamenti
+--------------------------
+
+* Microsoft Stream:
+
+  * Pubblicate slide sulla Sincronizzazione sul sito del corso
+  * Aggiornato diario delle lezioni
+
+* Microsoft Stream:
+
+  * Pubblicate lezioni del 26 e 27 Ottobre su Microsoft Stream
+
+
+.. _n26-10-2021:
+
+26-10-2021 - aggiornamenti
+--------------------------
+
+* Sito del corso:
+
+  * Aggiornate slide su CPU scheduling
+
+.. _n22-10-2021:
+
+22-10-2021 - aggiornamenti
+--------------------------
+
+* Sito del corso:
+
+  * pubblicato link al repository github con esempi software.
+  * aggiornate slide sui processi
+  * fixato codice per la gestione dei thread
+
+* Microsoft Stream:
+
+* pubblicata lezione del 20/10/2021
+
+.. _n18-10-2021:
+
+18-10-2021 - aggiornamenti
+--------------------------
+
+* Sito del corso:
+
+  * [Diario delle lezioni]:  aggiunto dettaglio lezioni del 12/10 e 13/10
+  * [Slide] aggiunte slide su CPU scheduling
+
+* Microsoft Stream:
+
+  *  upload lezione del 12/10 e 13/10 
+
+.. _n13-10-2021:
+
+13-10-2021 - aggiornamenti
+--------------------------
+
+* Sito del corso:
+
+  * Pubblicata versione completa delle slide su processi e thread.
+
+.. _n12-10-2021:
+
+12-10-2021 - aggiornamenti
+--------------------------
+
+* Sito del corso:
+
+  * Aggiornate slide sui processi 
+
+.. _n10-10-2021:
+
+10-10-2021 - aggiornamenti
+--------------------------
+
+* Sito del corso:
+
+  * [Orario delle lezioni] aggiunti link a tems, sharepoint e stream
+  * [Ricevimento] aggiornate istruzioni per inviare email al docente
+  * [Testi consigliati e link utili] 
+
+	* aggiunto un libro di testo in italiano
+	* aggiunti link a guide per installazione di sistemi Linux
+
+  * [Diario delle lezioni]: 
+
+	* aggiunto chiarimento sull'uso dei riferimenti ai libri di testo
+	* aggiunto dettaglio lezioni del 05/10 e 06/10
+
+* Microsoft Stream:
+
+  * upload lezione del 06/10 

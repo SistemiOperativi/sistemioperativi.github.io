@@ -3,8 +3,10 @@
    
    linux_install
    examples
+   questions
    slides
    lectures/index
+   news
    
 
 Sistemi Operativi
@@ -14,9 +16,24 @@ Benvenuti al corso di Sistemi Operativi per A.A. 2021/2022 del Corso di Laurea i
 
 Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 
+News
+----
+
+* :ref:`n24-11-2021`
+* :ref:`n17-11-2021`
+* :ref:`n16-11-2021`
+* :ref:`n09-11-2021`
+* :ref:`n02-11-2021`
+* :ref:`n26-10-2021`
+* :ref:`n22-10-2021`
+* :ref:`n18-10-2021`
+* :ref:`n13-10-2021`
+* :ref:`n12-10-2021`
+* :ref:`n10-10-2021`
+
 
 Obiettivi del corso
-===================
+-------------------
 
 L'obiettivo del corso è fornire allo studente competenze sull'architettura di un generico sistema operativo moderno, con particolare riferimento al sistema Linux, 
 e sulle metodologie usate per risolvere le problematiche tipiche della gestione di risorse in un sistema operativo moderno.
@@ -75,12 +92,12 @@ Programma
 
 * **Panoramica sui sistemi operativi moderni.** definizione di sistema operativo, scopi, architettura a strati, kernel/user mode, caratteristiche salienti
 * **Processi e Thread.** dispatching, stati, descrizione e controllo, modelli tipici di sistemi operativi e di uso della memoria nei processi
-* **Memoria.** allocatori di memoria, partitioning, best/first/next fit, buddy algorithm, paging, segmentation, memoria virtuale e sua gestione hardware/software 
 * **Scheduling.** a breve medio e lungo termine, algoritmi per cpu scheduling
-* **I/O e File Management.** Disk scheduling, RAID, UNIX File Management, inode, Linux VFS, ext2
 * **Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori
+* **Memoria.** allocatori di memoria, partitioning, best/first/next fit, buddy algorithm, paging, segmentation, memoria virtuale e sua gestione hardware/software 
+* **I/O e File Management.** Disk scheduling, RAID, UNIX File Management, inode, Linux VFS, ext2
 * **Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, piping, redirection, segnali, espressioni regolari (sed e grep), scripting (bash, awk), linux filesystem management
-* **Debugger.** utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.
 * **Programmazione di Sistema.** Gestione in C dei processi/thread su ambiente linux
+* **Debugger.** utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.
 * **Virtualizzazione.** Concetti generali, container, Docker
 
