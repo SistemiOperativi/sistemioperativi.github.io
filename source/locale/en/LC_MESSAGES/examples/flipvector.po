@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 11:35+0100\n"
+"POT-Creation-Date: 2021-11-30 15:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,141 +18,412 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../source/examples/flipvector.rst:2
+#: ../source/examples/flipvector.rst:5
 msgid "Flip vector"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:10
-msgid "MinShell - le funzioni exec"
-msgstr ""
-
-#: ../source/examples/flipvector.rst:42
+#: ../source/examples/flipvector.rst:8
 msgid ""
 ":raw-html:`<a class=\"external\" target=\"_blank\" "
-"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flipvector/flipvector.c\">FlipVector</a>"
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c\">FlipVector</a>"
 " <a class=\"fa fa-github external\" target=\"_blank\" "
-"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flipvector/flipvector.c\"></a>`"
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c\"></a>`"
 " è un programma C il cui obiettivo è mostrare diversi aspetti "
-"nell'utilizzo e gestione dei thread. Il principio di funzionamento è "
-"analogo a quello di :doc:`FEW <few>`."
+"nell'utilizzo e gestione dei thread."
 msgstr ""
+":raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c\">FlipVector</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c\"></a>`"
+" is a C program aimed to show several aspect of using and managing threads."
 
-#: ../source/examples/flipvector.rst:47
+#: ../source/examples/flipvector.rst:12
 msgid ""
-"Tuttavia, ricorrendo alla sola syscall fork, :doc:`FEW <few>`: può solo "
-"creare processi con il medesimo programma del processo parent. Per "
-"superare questo limite, è possibile ricorrere alla famiglia di funzioni "
-":posix:`exec <exec>`. Grazie ad una syscall di tipo :posix:`exec <exec>` "
-"è possibile sostituire completamente l'immagine del processo che invoca "
-"la system call con quella di un altro programma."
+"In questo programma vengono creati molteplici thread che manipolano un "
+"array condiviso. Nello specifico, ciascun thread inverte ripetutamente la"
+" posizione di ciascuna entry nell'array, la cui dimensione è un numero "
+"pari. A seguire, la funzione stress test implemente tale operazione:"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:52
-msgid "Di conseguenza, lo schema di esecuzione di MinShell è il seguente:"
+msgid "Domanda"
+msgstr "Question"
+
+#: ../source/examples/flipvector.rst:40
+msgid ""
+"Come modificare la condizione di terminazione del ciclo interno per "
+"gestire array di taglia generica?"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:43
+msgid ""
+"L'operatore :code:`^` implementa la semantica di eXclusive OR (`XOR "
+"<https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bitwise-"
+"Logical-Operators>`_) bit a bit. La relativa tabella di verità è la "
+"seguente:"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:46
+msgid "X"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:46
+msgid "Y"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:46
+msgid "X^Y"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:48 ../source/examples/flipvector.rst:49
+#: ../source/examples/flipvector.rst:50 ../source/examples/flipvector.rst:51
+msgid "0"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:49 ../source/examples/flipvector.rst:50
+#: ../source/examples/flipvector.rst:51
+msgid "1"
 msgstr ""
 
 #: ../source/examples/flipvector.rst:54
-msgid "il processo principale crea un processo child tramite :posix:`fork <fork>`"
-msgstr ""
-
-#: ../source/examples/flipvector.rst:55
-msgid "il processo child invoca una funzione di tipo :posix:`exec <exec>`"
-msgstr ""
-
-#: ../source/examples/flipvector.rst:56
 msgid ""
-"il processo principale attende la sua terminazione tramite :posix:`wait "
-"<wait>`"
+"In altre parole se i due bit di input sono uguali l'output è pari a 0. "
+"Viceversa se sono diversi l'output è pari ad 1. Di conseguenza, "
+":code:`x^x=0`."
 msgstr ""
 
 #: ../source/examples/flipvector.rst:58
 msgid ""
-"Per sostituire il programma di un'immagine, una funzione :posix:`exec "
-"<exec>` ha bisogno:"
+"Come è stata utilizzato lo XOR per implementare lo scambio del contenuto "
+"di due variabili?"
 msgstr ""
 
 #: ../source/examples/flipvector.rst:60
-msgid "individuare l'esatta posizione del programma nel filesystem"
-msgstr ""
-
-#: ../source/examples/flipvector.rst:61
-msgid "setup dell'ambiente di esecuzione"
-msgstr ""
-
-#: ../source/examples/flipvector.rst:62
-msgid "eventuali parametri da passare al programma target"
-msgstr ""
-
-#: ../source/examples/flipvector.rst:64
-msgid "A tal scopo la funzione :posix:`execlp <execlp>`:"
-msgstr ""
-
-#: ../source/examples/flipvector.rst:66
 msgid ""
-"considera il primo parametro come il nome dell'eseguibile target, il "
-"quale viene cercato nei percorsi definiti nella variabile di ambiente "
-"PATH"
+"Chiaramente, essendo l'array condiviso, è necessaria della "
+"sincronizzazione al fine di manipolare correttamente l'array. Le funzioni"
+" :code:`acquire` e :code:`release` assolvono a questo scopo, utilizzando "
+"nella loro implementazione primitive di lock. Il programma inoltre misura"
+" le perfomance dell'applicazione in termini di sezioni critiche eseguite."
+" Per assicurarsi che ciascun thread lavori con la massima concorrenza, "
+"questi aspettano che tutti i thread raggiungono la medesima riga di "
+"codice, prima di cominciare a manipolare l'array. Questo è ottenuto "
+"grazie alla primitiva di sincronizzazione :code:`pthread_barrier_wait`, "
+"che blocca un thread fintanto che N thread non ne invocano la medesima "
+"funzione sul medesimo oggetto opportunamente inizializzato a N."
 msgstr ""
 
-#: ../source/examples/flipvector.rst:67
-msgid "eredita l'ambiente dal processo che invoca :posix:`execlp <execlp>`"
+#: ../source/examples/flipvector.rst:69
+msgid "Una barriera può esser vista come un semaforo che:"
 msgstr ""
 
-msgid "Domanda"
-msgstr ""
-
-#: ../source/examples/flipvector.rst:70
-msgid ""
-"Supponendo di lanciare MinShell da linea di comando, qual è l'ambiente "
-"del processo child?"
+#: ../source/examples/flipvector.rst:71
+msgid "può assumere valori negativi"
 msgstr ""
 
 #: ../source/examples/flipvector.rst:72
+msgid "inizializzato a -N"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:74
+msgid "l'operazione di wait incrementa il contatore di 1 unità"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:74
+msgid "se il semaforo è negativo il thread rimane bloccato in attesa"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:75
 msgid ""
-"il secondo e i successivi parametri della funzione :posix:`execlp "
-"<execlp>` vengono passati come parametri per l'eseguibile"
+"se il semaforo assume valore pari a 0, tutti i thread in attesa vengono "
+"sbloccati e il valore resettato a -N"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:77
+msgid ""
+"Prima di terminare ciascun thread utilizza una RMW per incrementare un "
+"contatore globale :code:`ops` del numero di operazioni complessivamente "
+"eseguite dai thread. A tal scopo si è utilizzata la funzione "
+":code:`__sync_fetch_and_add`."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:81
+msgid ""
+"Le operazioni builtin __sync di gcc sono semplici da utilizzare, ma "
+"deprecate. La versione di riferimento sono le `__atomic builtin "
+"<https://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html"
+"#g_t_005f_005fatomic-Builtins>`_, che tuttavia tengono conto anche del "
+"modello di memoria secondo lo `standard C++11 "
+"<https://en.cppreference.com/w/cpp/atomic/memory_order>`_. Per ulteriori "
+"dettagli consultare `AtomicSync "
+"<https://gcc.gnu.org/wiki/Atomic/GCCMM/AtomicSync>`_."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:87
+msgid ""
+"Come è possibile implementare l'accumulo del numero di operazioni "
+"globalmente eseguite senza utilizzare istruzioni RMW?"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:89
+msgid ""
+"Ciascun thread termina non appena la variabile :code:`stop` assume valore"
+" pari a :code:`true`."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:91
+msgid ""
+"Il test viene ripetuto con molteplici configurazioni, ossia al variare "
+"dei thread **e** del tipo di lock. Il tutto è coordinato dal main thread "
+"secondo lo schema che segue."
 msgstr ""
 
 msgid "Osservazione"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:75
+#: ../source/examples/flipvector.rst:114
 msgid ""
-"Tipicamente il primo parametro passato ad un programma è una stringa "
-"contenente il nome del programma stesso. L'ultimo parametro è impostato a"
-" NULL in quanto da standard POSIX la lista di parametri deve terminare "
-"con un puntatore NULL."
+"L'operatore :code:`<<` è l'operatore di `shift "
+"<https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bit-"
+"Shifting>`_ a sinistra. Considerando una variabile *x* a 8 bit con valore"
+" 4 la sua rappresentazione è 0000 0100. L'istruzione :code:`x << 1` "
+"indica l'operazione di shift a sinistra di una posizione della variabile "
+"*x*, il cui risultato è pari a 0000 1000, ossia x assume il valore 8. "
+"L'operatore :code:`>>` è l'operatore di shift a destra."
 msgstr ""
 
-#: ../source/examples/flipvector.rst:80
+#: ../source/examples/flipvector.rst:122
+msgid ""
+"Quali operazioni matematiche possono essere implementate tramite gli "
+"operatori :code:`<<` e :code:`>>`?"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:123
+msgid ""
+"Quante iterazioni esegue il seguente ciclo "
+":code:`for(i=1;i<=MAX_THREADS;i<<=1)`?"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:126
+msgid "Per ciascun test, il main thread:"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:128
+msgid "inizializza la barriera"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:129
+msgid "crea i thread"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:130
+msgid "va in sleep per :code:`SECONDS` secondi"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:131
+msgid "setta la variabile :code:`stop` ad 1 con un'istruzione atomica"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:132
+msgid "attende la terminazione di ciascun thread"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:133
+msgid "distrugge la barriera"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:135
+msgid ""
+"La variabile :code:`lock_type` è una variabile globale utilizzata "
+"all'interno di :code:`acquire` e :code:`release` per selezionare "
+"l'implementazione di lock da utilizzare."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:138
+msgid ""
+"Perché la barriera viene distrutta ad ogni fine iterazione e "
+"inizializzata ad inizio iterazione?"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:139
+msgid ""
+"Quale altra istruzione RMW poteva essere usata al posto della "
+"compare&swap?"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:142
+msgid ""
+"L'impostazione del test è tale per cui si misurano il numero di "
+"operazioni effettuate in concorrenza da tutti i thread in un intervallo "
+"di tempo predefinito. Inoltre, prima di eseguire il suddetto ciclo, il "
+"main thread:"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:145
+msgid "inizializza le primitive di lock della libreria pthread"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:152
+msgid "limita i core su cui i thread possono andare in esecuzione"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:163
+msgid "sched_affinity è una funzione non POSIX"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:166
+msgid "Perché la set affinity viene utilizzata dal main thread?"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:167
+msgid ""
+"L'uso di set affinity garantisce che ciascun thread andrà in esecuzione "
+"sul medesimo core? Se sì, perché? Se no, come è possibile garantirlo?"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:170
+msgid "Le funzioni di acquire e release"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:172
+msgid ""
+"Le funzione di acquire e release utilizzano una specifica implementazione"
+" di lock in funzione del valore assunto dalla variabile globale "
+":code:`lock_type`. Nello specifico supportano 5 implementazioni "
+"differenti di lock:"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:175
+msgid "pthread spin lock (PT_TAS)"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:176
+msgid "pthread mutex (PT_MUTEX)"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:177
+msgid "test-and-set spin lock (TAS)"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:178
+msgid "test-and-test-and-set spin lock (TTAS)"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:179
+msgid "ticket spin lock (TICKET)"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:181
+msgid ""
+"Nel caso di lock forniti dalla libreria pthread, acquire e release "
+"ridirezionano sulle rispettive funzioni di libreria."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:197
+msgid "Chiaramente le variabili *ptspin* e *ptmutex* sono variabili globali."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:199
+msgid ""
+"Anche i lock TAS e TTAS sono delle variabili globali intere. Il valore 0 "
+"indica che il lock è libero e 1 indica che il lock è stato acquisito da "
+"un qualche thread."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:223
+msgid ""
+"la varibile *lock* è dichiarata **volatile**. Questo garantisce che il "
+"compilatore non attuerà alcune ottimizzazioni, garantendo che ogni "
+"accesso alla variabile *lock* verrà effettuato sempre in memoria. Ad "
+"esempio, il compilatore non potrà usare i registri general purpose come "
+"cache per la variabile."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:224
+msgid ""
+":code:`asm volatile (\"\":::\"memory\");` costituisce una barriera per il"
+" compilatore. Di conseguenza, quest'ultimo non può spostare istruzioni "
+"che seguono la barriera prima di quest'ultima e viceversa. *asm* indica "
+"al compilatore che si sta innestando all'interno di codice C del codice "
+"assembly. In questo caso, l'istruzione innestata :code:`\"\"` è nulla. "
+"Siccome, il codice innestato è nullo, è necessario indicare al "
+"compilatore di non eliminare l'istruzione tramite il token **volatile**. "
+"Infine, l'ultimo parametro :code:`\"memory\"` indica al compilatore che "
+"l'istruzione accede in modo impredicibile alla memoria, disabilitando "
+"ulteriori ottimizzazioni come il riordinamento delle operazioni di "
+"scrittura/lettura. Per approfondimenti sul tema consultare la "
+"documentazione di GCC riguardo gli `extended-asm "
+"<https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Extended-Asm.html>`_."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:231
+msgid ""
+"Provare a dichiarare la variabile *lock* come **int** piuttosto che "
+"**volatile int** e vederne gli effetti quando si compila con il massimo "
+"livello di ottimizzazione (e.g. :code:`gcc -O3`)."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:233
+msgid ""
+"Infine, il ticket lock (TICKET) è implementato come una coppia di "
+"variabili globali *lock* e *now* di tipo **volatile int**, che indicano "
+"rispettivamente l'ultimo ticket servito e il ticket corrente."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:257
+msgid ""
+"L'algoritmo di ticket lock mostrato è corretto? Se sì, cercare di "
+"mostrare perché? Se no, mostrare un caso in cui l'algoritmo non "
+"garantisce mutua eclusione o progresso."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:260
 msgid "Riferimenti"
+msgstr "References"
+
+#: ../source/examples/flipvector.rst:262
+msgid ":posix:`pthread_barrier_init <pthread_barrier_init>`"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:82
-msgid ":posix:`exec <exec>`"
+#: ../source/examples/flipvector.rst:263
+msgid ":posix:`pthread_barrier_wait <pthread_barrier_wait>`"
 msgstr ""
 
-#~ msgid ""
-#~ "Una shell è una interfaccia testuale "
-#~ "per il sistema operativo attraverso la"
-#~ " quale è possibile eseguire comandi e"
-#~ " programmi. Ogni qual volta si lancia"
-#~ " un programma X tramite shell, "
-#~ "quest'ultima crea un nuovo processo la"
-#~ " cui immagine è quella del programma"
-#~ " X."
-#~ msgstr ""
+#: ../source/examples/flipvector.rst:264
+msgid ""
+"`bitwise XOR <https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+"#Bitwise-Logical-Operators>`_"
+msgstr ""
 
-#~ msgid ""
-#~ ":raw-html:`<a class=\"external\" target=\"_blank\""
-#~ " "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flipvector/flipvector.c\">FlipVector</a>"
-#~ " <a class=\"fa fa-github external\" "
-#~ "target=\"_blank\" "
-#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flipvector/flipvector.c\"></a>`"
-#~ " è un programma C che emula "
-#~ "questo comportamento. Il principio di "
-#~ "funzionamento è analogo a quello di "
-#~ ":doc:`FEW <few>`."
-#~ msgstr ""
+#: ../source/examples/flipvector.rst:265
+msgid ""
+"`__sync gcc builtin <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
+"Builtins.html>`_"
+msgstr ""
 
+#: ../source/examples/flipvector.rst:266
+msgid ":posix:`pthread_spin_init <pthread_spin_init>`"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:267
+msgid ":posix:`pthread_mutex_init <pthread_mutex_init>`"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:268
+msgid ":linux2:`sched_setaffinity <sched_setaffinity>`"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:269
+msgid ":linux3:`CPU_SET <CPU_SET>`"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:270
+msgid ""
+"`shift <https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bit-"
+"Shifting>`_"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:271
+msgid ""
+"`extended-asm <https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Extended-"
+"Asm.html>`_"
+msgstr ""

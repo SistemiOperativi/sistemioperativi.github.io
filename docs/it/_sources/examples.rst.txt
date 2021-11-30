@@ -10,6 +10,7 @@ In questa sezione vengono riportati diversi esempi di codice per mostrare alcuni
 	examples/pfew
 	examples/pvst
 	examples/minshell
+	examples/flipvector
 
 
 

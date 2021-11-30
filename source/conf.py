@@ -28,7 +28,9 @@ extensions = [ 'sphinx.ext.extlinks',
 ]
 
 extlinks = {'posix': ('https://pubs.opengroup.org/onlinepubs/9699919799/functions/%s.html', None),
-			'linux': ('https://man7.org/linux/man-pages/man3/%s.3.html', None)}
+			'linux': ('https://man7.org/linux/man-pages/man3/%s.3.html', None),
+			'linux3': ('https://man7.org/linux/man-pages/man3/%s.3.html', None),
+			'linux2': ('https://man7.org/linux/man-pages/man2/%s.2.html', None)}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
