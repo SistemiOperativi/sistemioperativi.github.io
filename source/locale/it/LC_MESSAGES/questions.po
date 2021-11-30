@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-24 01:50+0100\n"
+"POT-Creation-Date: 2021-11-30 10:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,6 +42,24 @@ msgstr ""
 msgid "Descrivere le principali strutture dati di un sistema operativo."
 msgstr ""
 
+#: ../source/questions/intro.rst:6
+msgid ""
+"Descrivere i principali benefici e le criticità introdotte della "
+"multiprogrammazione."
+msgstr ""
+
+#: ../source/questions/intro.rst:7
+msgid ""
+"Cosa sono le system call e quali relazioni hanno con le librerie di "
+"sistema?"
+msgstr ""
+
+#: ../source/questions/intro.rst:8
+msgid ""
+"Riportare esempi di supporti hardware necessari al sistema operativo per "
+"garantire la protezione delle risorse."
+msgstr ""
+
 #: ../source/questions/processes.rst:2
 msgid "2- Processi e thread"
 msgstr ""
@@ -65,11 +83,45 @@ msgid "3 - Scheduling"
 msgstr ""
 
 #: ../source/questions/sched.rst:4
-msgid "Cpu-scheduler: quali sono i criteri di valutazione di un cpu-scheduler?"
+msgid "Cpu-scheduler: quali sono i criteri di valutazione di un CPU scheduler?"
+msgstr ""
+
+#: ../source/questions/sched.rst:5
+msgid ""
+"Quali sfide introducono le architetture multicore nell'ambito del CPU "
+"scheduling?"
+msgstr ""
+
+#: ../source/questions/sched.rst:6
+msgid "Quale è la differenza tra uno scheduler preemtive e uno non-preemptive?"
+msgstr ""
+
+#: ../source/questions/sched.rst:7
+msgid ""
+"Descrivere la politica Shortest Job First e discuterne vantaggi e "
+"svantaggi."
+msgstr ""
+
+#: ../source/questions/sched.rst:8
+msgid "Descrivere la politica Round Robin e discuterne vantaggi e svantaggi."
+msgstr ""
+
+#: ../source/questions/sched.rst:9
+msgid ""
+"Descrivere la politica di Fair-Share scheduling e quali problematiche "
+"risolve."
+msgstr ""
+
+#: ../source/questions/sync.rst:2
+msgid "4 - Sincronizzazione"
+msgstr ""
+
+#: ../source/questions/sync.rst:4
+msgid "Cos'è un'istruzione Read-Modify-Write?"
 msgstr ""
 
 #: ../source/questions/memory.rst:2
-msgid "4 - Gestione della memoria"
+msgid "5 - Gestione della memoria"
 msgstr ""
 
 #: ../source/questions/memory.rst:4
@@ -97,6 +149,36 @@ msgstr ""
 
 #: ../source/questions/memory.rst:8
 msgid "Che cosa è un buddy system?"
+msgstr ""
+
+#: ../source/questions/memory.rst:9
+msgid "Descrivi l'anomalia di Belady."
+msgstr ""
+
+#: ../source/questions/memory.rst:10
+msgid ""
+"Descrivere l'algoritmo dell'orologio nell'ambito delle politiche di "
+"replacement delle pagine."
+msgstr ""
+
+#: ../source/questions/memory.rst:11
+msgid "Descrivere gli aspetti principali di gestione della memoria virtuale."
+msgstr ""
+
+#: ../source/questions/memory.rst:12
+msgid ""
+"Descrizione la gestione di un page fault nel caso di memoria virtuale "
+"basata su paginazione."
+msgstr ""
+
+#: ../source/questions/memory.rst:13
+msgid ""
+"Descrivere le caratteristiche delle politiche di gestione del resident "
+"set di processo."
+msgstr ""
+
+#: ../source/questions/memory.rst:14
+msgid "Descrivere il fenomeno del thrashing nel contesto della memoria virtuale."
 msgstr ""
 
 #~ msgid "Compara, mostrando vantaggi e svantaggi, le seguenti"
@@ -431,5 +513,14 @@ msgstr ""
 #~ "In questa sezione vengono riportate "
 #~ "alcune domande che possono essere "
 #~ "utilizzate come preparazione all'esame."
+#~ msgstr ""
+
+#~ msgid "Cpu-scheduler: quali sono i criteri di valutazione di un cpu-scheduler?"
+#~ msgstr ""
+
+#~ msgid "4 - Gestione della memoria"
+#~ msgstr ""
+
+#~ msgid "Cos'è un'istruzione Read-Modify-Write."
 #~ msgstr ""
 

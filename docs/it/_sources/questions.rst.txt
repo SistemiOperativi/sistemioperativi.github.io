@@ -6,5 +6,6 @@ In questa sezione vengono riportate alcuni esercizi/domande che possono essere u
 .. include::	questions/intro.rst
 .. include::	questions/processes.rst
 .. include::	questions/sched.rst
+.. include::	questions/sync.rst
 .. include::	questions/memory.rst
 

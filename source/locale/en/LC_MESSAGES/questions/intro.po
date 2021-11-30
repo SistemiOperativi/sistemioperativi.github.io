@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-23 23:36+0100\n"
+"POT-Creation-Date: 2021-11-30 10:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,5 +30,23 @@ msgstr ""
 
 #: ../source/questions/intro.rst:5
 msgid "Descrivere le principali strutture dati di un sistema operativo."
+msgstr ""
+
+#: ../source/questions/intro.rst:6
+msgid ""
+"Descrivere i principali benefici e le criticità introdotte della "
+"multiprogrammazione."
+msgstr ""
+
+#: ../source/questions/intro.rst:7
+msgid ""
+"Cosa sono le system call e quali relazioni hanno con le librerie di "
+"sistema?"
+msgstr ""
+
+#: ../source/questions/intro.rst:8
+msgid ""
+"Riportare esempi di supporti hardware necessari al sistema operativo per "
+"garantire la protezione delle risorse."
 msgstr ""
 

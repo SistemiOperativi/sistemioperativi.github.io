@@ -7,7 +7,44 @@ Per ogni lezione vengono riportati riferimenti a paragrafi dei libri di testo.
 
   L'unione dei paragrafi può non rappresentare la totalità degli argomenti trattati durante la lezione. 
 
-17/11/2021 - Gestione della memoria parte 2
+
+24/11/2021 - Gestione della memoria parte 5
+-------------------------------------------
+
+* Caricamento delle pagine
+* Posizionamento delle pagine
+* Sostituzione delle pagine: metodologia di valutazione, FIFO, Ottimo, LRU, algoritmi a stack, clock 
+* Anomalia di Belady
+* Resident set management: Working set, Page fault frequency
+* Thrashing
+
+Riferimenti libro di testo
+""""""""""""""""""""""""""
+
+* [:ref:`t1 <books>`] Sezione 8.2
+* [:ref:`t2 <books>`] Sezione 10.4, 10.4.1, 10.4.2, 10.4.3, 10.4.4, 10.4.5, 10.5, 10.5.1, 10.5.2, 10.5.3, 10.5.4, 10.6, 10.6.1, 10.6.2, 10.6.3
+
+
+23/11/2021 - Gestione della memoria parte 4
+-------------------------------------------
+
+* Memoria virtuale
+* Gestione di page fault
+* Performance della memoria virtuale
+* Aspetti generali per la gestione della memoria virtuale
+
+Riferimenti libro di testo
+""""""""""""""""""""""""""
+
+* [:ref:`t1 <books>`] Sezione 8.2
+* [:ref:`t2 <books>`] Sezione 10.1, 10.2, 10.2.1, 10.2.2, 10.2.3 
+
+
+
+
+
+
+17/11/2021 - Gestione della memoria parte 3
 -------------------------------------------
 
 * Segmentazione

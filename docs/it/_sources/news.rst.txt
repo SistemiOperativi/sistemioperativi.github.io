@@ -1,6 +1,34 @@
 News
 ====
 
+
+.. _n30-11-2021:
+
+30-11-2021 - avviso: aggionamenti
+-------------------------------------------------
+
+* Info generali:
+
+  * sono disponibili i questionari per la rilevazione opinioni studenti: `Link <https://portalestudente.uniroma3.it/accedi/area-studenti/istruzioni/come-compilare-un-questionario-sul-portale-dello-studente/>`_
+
+.. warning::
+
+  La scadenza per la compilazione è il 30 novembre. 
+
+* Sito del corso:
+
+  * aggiunte slide sulla gestione di I/O
+  * nuovi esercizi: aggiunte 3 domande riguardo l'introduzione
+  * nuovi esercizi: aggiunte 6 domande riguardo la gestione della memoria
+  * nuovi esercizi: aggiunte 6 domande riguardo lo scheduling
+  * nuovi esercizi: aggiunta 1 domanda riguardo la sincronizzazione
+  * aggiunto diario delle lezione del 23/11 e del 24/11
+
+* Microsoft Stream:
+
+  * caricata lezione del 24/11
+
+
 .. _n24-11-2021:
 
 24-11-2021 - avviso: nuove sezioni e aggionamenti
@@ -19,7 +47,6 @@ News
   * aggiornate slide sulla gestione della memoria
   * aggiunta una sezione: news sul sito
   * aggiunta una sezione: esercizi di preparazione
-  * aggiunto diario della lezione del 23/11
   * aggiunto avviso su diaro delle lezioni
   * aggiunte slide di approfondimento su Solid-State Drive
 

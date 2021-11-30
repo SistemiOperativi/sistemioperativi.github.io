@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-24 01:27+0100\n"
+"POT-Creation-Date: 2021-11-30 11:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,54 +39,58 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:22
-msgid ":ref:`n24-11-2021`"
+msgid ":ref:`n30-11-2021`"
 msgstr ""
 
 #: ../source/index.rst:23
-msgid ":ref:`n17-11-2021`"
+msgid ":ref:`n24-11-2021`"
 msgstr ""
 
 #: ../source/index.rst:24
-msgid ":ref:`n16-11-2021`"
+msgid ":ref:`n17-11-2021`"
 msgstr ""
 
 #: ../source/index.rst:25
-msgid ":ref:`n09-11-2021`"
+msgid ":ref:`n16-11-2021`"
 msgstr ""
 
 #: ../source/index.rst:26
-msgid ":ref:`n02-11-2021`"
+msgid ":ref:`n09-11-2021`"
 msgstr ""
 
 #: ../source/index.rst:27
-msgid ":ref:`n26-10-2021`"
+msgid ":ref:`n02-11-2021`"
 msgstr ""
 
 #: ../source/index.rst:28
-msgid ":ref:`n22-10-2021`"
+msgid ":ref:`n26-10-2021`"
 msgstr ""
 
 #: ../source/index.rst:29
-msgid ":ref:`n18-10-2021`"
+msgid ":ref:`n22-10-2021`"
 msgstr ""
 
 #: ../source/index.rst:30
-msgid ":ref:`n13-10-2021`"
+msgid ":ref:`n18-10-2021`"
 msgstr ""
 
 #: ../source/index.rst:31
-msgid ":ref:`n12-10-2021`"
+msgid ":ref:`n13-10-2021`"
 msgstr ""
 
 #: ../source/index.rst:32
+msgid ":ref:`n12-10-2021`"
+msgstr ""
+
+#: ../source/index.rst:33
 msgid ":ref:`n10-10-2021`"
 msgstr ""
 
-#: ../source/index.rst:36
+#: ../source/index.rst:37
 msgid "Obiettivi del corso"
 msgstr "Course objectives"
 
-#: ../source/index.rst:38
+#: ../source/index.rst:39
 msgid ""
 "L'obiettivo del corso è fornire allo studente competenze "
 "sull'architettura di un generico sistema operativo moderno, con "
@@ -101,31 +105,31 @@ msgstr ""
 "resources. Finally, practical aspects will be also covered, in particular"
 " system programming and scripting."
 
-#: ../source/index.rst:44
+#: ../source/index.rst:45
 msgid "Orario delle lezioni"
 msgstr "Schedule"
 
-#: ../source/index.rst:47
+#: ../source/index.rst:48
 msgid "Giorno"
 msgstr "Day"
 
-#: ../source/index.rst:47
+#: ../source/index.rst:48
 msgid "Orario"
 msgstr "Time"
 
-#: ../source/index.rst:47
+#: ../source/index.rst:48
 msgid "Aula"
 msgstr "Classroom"
 
-#: ../source/index.rst:49
+#: ../source/index.rst:50
 msgid "Martedì"
 msgstr "Tuesday"
 
-#: ../source/index.rst:49 ../source/index.rst:50
+#: ../source/index.rst:50 ../source/index.rst:51
 msgid "16:00 - 18:00"
 msgstr ""
 
-#: ../source/index.rst:49 ../source/index.rst:50
+#: ../source/index.rst:50 ../source/index.rst:51
 #, python-format
 msgid ""
 "N13 [Vasca Navale 79/81] - `Aula Teams <https://teams.microsoft.com/l"
@@ -138,45 +142,45 @@ msgstr ""
 "Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/1633386278580?context=%7b%22Tid%22%3a%22ffb4df68-f464-458c-a546-00fb3af66f6a%22%2c%22Oid%22%3a%22430d18c0-6f97-4e80"
 "-834a-955f8618ef03%22%7d>`_"
 
-#: ../source/index.rst:50
+#: ../source/index.rst:51
 msgid "Mercoledì"
 msgstr "Wednesday"
 
-#: ../source/index.rst:55
+#: ../source/index.rst:56
 msgid "Link ai contenuti del corso"
 msgstr "Link to course contents"
 
-#: ../source/index.rst:57
+#: ../source/index.rst:58
 msgid ""
 "`Teams <https://teams.microsoft.com/l/team/19%3aRhhdoEO6QOI_oVGAqU-"
 "Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/conversations?groupId=098a73ce-8602-46e3-84c6-8107ebe1a9ae&tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a>`_"
 msgstr ""
 
-#: ../source/index.rst:58
+#: ../source/index.rst:59
 msgid ""
 "`SharePoint <https://uniroma3.sharepoint.com/sites/AA2122"
 "-SISTEMIOPERATIVI-20801961MAROTTA>`_"
 msgstr ""
 
-#: ../source/index.rst:59
+#: ../source/index.rst:60
 msgid ""
 "`Stream  "
 "<https://web.microsoftstream.com/group/098a73ce-8602-46e3-84c6-8107ebe1a9ae>`_"
 msgstr ""
 
-#: ../source/index.rst:60
+#: ../source/index.rst:61
 msgid "`GitHub  <https://github.com/SistemiOperativi>`_"
 msgstr ""
 
-#: ../source/index.rst:61
+#: ../source/index.rst:62
 msgid ":doc:`Slides <slides>`"
 msgstr ""
 
-#: ../source/index.rst:64
+#: ../source/index.rst:65
 msgid "Ricevimento"
 msgstr "Student reception"
 
-#: ../source/index.rst:66
+#: ../source/index.rst:67
 msgid ""
 "Contattare il docente alla seguente email "
 "**{nome}.{cognome}@uniroma3.it** e riportare il prefisso **[SO2122]** "
@@ -185,29 +189,29 @@ msgstr ""
 "Please, contact the lecturer at **{nome}.{cognome}@uniroma3.it** and use "
 "[SO2122] as object."
 
-#: ../source/index.rst:70
+#: ../source/index.rst:71
 msgid "Modalità d'esame"
 msgstr "Exam details"
 
-#: ../source/index.rst:72
+#: ../source/index.rst:73
 msgid "L'esame prevede una prova con:"
 msgstr "The exam will cover"
 
-#: ../source/index.rst:74
+#: ../source/index.rst:75
 #, python-format
 msgid "Domande di teoria (65% del voto)"
 msgstr "Theory questions (65% of the final mark)"
 
-#: ../source/index.rst:75
+#: ../source/index.rst:76
 #, python-format
 msgid "Esercizi di programmazione (35% del voto)"
 msgstr "Programming exercises (35% of the final mark)"
 
-#: ../source/index.rst:81
+#: ../source/index.rst:82
 msgid "Testi consigliati e link utili (in aggiornamento)"
 msgstr "Textbooks and useful links (still updating)"
 
-#: ../source/index.rst:83
+#: ../source/index.rst:84
 msgid ""
 "[t1] Operating Systems: Internals and Design Principles - William "
 "Stallings - Prentice Hall, fifth edition (o superiori). Riferimento: "
@@ -217,7 +221,7 @@ msgstr ""
 "Stallings - Prentice Hall, fifth edition (or higher). Reference: ninth "
 "global edition."
 
-#: ../source/index.rst:84
+#: ../source/index.rst:85
 msgid ""
 "[t2] Sistemi operativi: Concetti ed Esempi - Silberschatz Abraham, Galvin"
 " Peter Baer, Gagne Greg - Addison Wesley/Pearson, nona edizione (o "
@@ -227,7 +231,7 @@ msgstr ""
 " Gagne Greg - Addison Wesley/Pearson, ninth edizione (or higher). "
 "Reference: tenth global edition."
 
-#: ../source/index.rst:85
+#: ../source/index.rst:86
 msgid ""
 "[t3] Programmazione in Ambiente UNIX - Francesco Quaglia, Camil "
 "Demetrescu - `Disponibile in formato pdf "
@@ -239,11 +243,11 @@ msgstr ""
 "<https://francescoquaglia.github.io/TEACHING/SISTEMI-"
 "OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf>`_"
 
-#: ../source/index.rst:91
+#: ../source/index.rst:92
 msgid "Programma"
 msgstr "Program"
 
-#: ../source/index.rst:93
+#: ../source/index.rst:94
 msgid ""
 "**Panoramica sui sistemi operativi moderni.** definizione di sistema "
 "operativo, scopi, architettura a strati, kernel/user mode, "
@@ -252,22 +256,13 @@ msgstr ""
 "**Overview of modern operating systems:** definition, goals, "
 "architectures, kernel/user mode, main concepts"
 
-#: ../source/index.rst:94
+#: ../source/index.rst:95
 msgid ""
 "**Processi e Thread.** dispatching, stati, descrizione e controllo, "
 "modelli tipici di sistemi operativi e di uso della memoria nei processi"
 msgstr ""
 "**Processes and Threads.** dispatching, states, description and control, "
 "models and process memory"
-
-#: ../source/index.rst:95
-msgid ""
-"**Memoria.** allocatori di memoria, partitioning, best/first/next fit, "
-"buddy algorithm, paging, segmentation, memoria virtuale e sua gestione "
-"hardware/software"
-msgstr ""
-"**Memory:**, allocators, partitioning, paging, segmentation, virtual "
-"memory"
 
 #: ../source/index.rst:96
 msgid ""
@@ -276,6 +271,21 @@ msgid ""
 msgstr "**Scheduling:** long, mid and short term scheduling, CPU scheduling"
 
 #: ../source/index.rst:97
+msgid "**Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori"
+msgstr ""
+"**Synchonization:** synchronization primitives, Read-Modify-Write, locks,"
+" mutex, semaphores"
+
+#: ../source/index.rst:98
+msgid ""
+"**Memoria.** allocatori di memoria, partitioning, best/first/next fit, "
+"buddy algorithm, paging, segmentation, memoria virtuale e sua gestione "
+"hardware/software"
+msgstr ""
+"**Memory:**, allocators, partitioning, paging, segmentation, virtual "
+"memory"
+
+#: ../source/index.rst:99
 msgid ""
 "**I/O e File Management.** Disk scheduling, RAID, UNIX File Management, "
 "inode, Linux VFS, ext2"
@@ -283,13 +293,7 @@ msgstr ""
 "**I/O and file management:** Disk scheduling, RAID, UNIX file management,"
 " Linux VFS"
 
-#: ../source/index.rst:98
-msgid "**Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori"
-msgstr ""
-"**Synchonization:** synchronization primitives, Read-Modify-Write, locks,"
-" mutex, semaphores"
-
-#: ../source/index.rst:99
+#: ../source/index.rst:100
 msgid ""
 "**Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione "
 "file e directory), variabili di ambiente, piping, redirection, segnali, "
@@ -300,12 +304,6 @@ msgstr ""
 " redirection, signals, regular expressions, scripting, Linux filesystem "
 "management"
 
-#: ../source/index.rst:100
-msgid ""
-"**Debugger.** utilizzo di gdb stepping, breakpoints, watching, backtrace,"
-" comandi gdb."
-msgstr "**Debugger:** gdb stepping, breakpoints, watching, backtrace, gdb commands"
-
 #: ../source/index.rst:101
 msgid ""
 "**Programmazione di Sistema.** Gestione in C dei processi/thread su "
@@ -313,6 +311,12 @@ msgid ""
 msgstr "**System programming:** Process and thread management in C"
 
 #: ../source/index.rst:102
+msgid ""
+"**Debugger.** utilizzo di gdb stepping, breakpoints, watching, backtrace,"
+" comandi gdb."
+msgstr "**Debugger:** gdb stepping, breakpoints, watching, backtrace, gdb commands"
+
+#: ../source/index.rst:103
 msgid "**Virtualizzazione.** Concetti generali, container, Docker"
 msgstr "**Virtualization:** main concepts, containers, Docker"
 

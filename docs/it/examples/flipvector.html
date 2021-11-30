@@ -77,6 +77,78 @@
   <section id="flip-vector">
 <h1>Flip vector<a class="headerlink" href="#flip-vector" title="Link a questa intestazione">¶</a></h1>
 </section>
+<section id="minshell-le-funzioni-exec">
+<h1>MinShell - le funzioni exec<a class="headerlink" href="#minshell-le-funzioni-exec" title="Link a questa intestazione">¶</a></h1>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 4</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;sys/wait.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos"> 7</span><span class="w">   </span><span class="kt">char</span><span class="w"> </span><span class="n">comando</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span><span class="w"></span>
+<span class="linenos"> 8</span><span class="w">   </span><span class="kt">pid_t</span><span class="w"> </span><span class="n">pid</span><span class="p">;</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">status</span><span class="p">;</span><span class="w"></span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span><span class="w">   </span><span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
+<span class="linenos">11</span><span class="w">   </span><span class="p">{</span><span class="w"></span>
+<span class="linenos">12</span><span class="w">     </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Digitare un comando: &quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">13</span><span class="w">     </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%s&quot;</span><span class="p">,</span><span class="n">comando</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">14</span><span class="w">     </span><span class="k">if</span><span class="p">(</span><span class="n">res</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">EOF</span><span class="p">)</span><span class="w"> </span><span class="k">continue</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">15</span><span class="w">     </span><span class="n">pid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fork</span><span class="p">();</span><span class="w"></span>
+<span class="linenos">16</span><span class="w">     </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">pid</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos">17</span><span class="w">       </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Errore nella fork.</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">18</span><span class="w">       </span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">19</span><span class="w">     </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">20</span><span class="w">     </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">pid</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="linenos">21</span><span class="w">        </span><span class="n">execlp</span><span class="p">(</span><span class="n">comando</span><span class="p">,</span><span class="w"> </span><span class="n">comando</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">22</span><span class="w">     </span><span class="k">else</span><span class="w"> </span><span class="n">wait</span><span class="p">(</span><span class="o">&amp;</span><span class="n">status</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">23</span><span class="w">   </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">24</span><span class="w">   </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">25</span><span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/flipvector/flipvector.c">FlipVector</a>
+<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/flipvector/flipvector.c"></a></span>
+è un programma C il cui obiettivo è mostrare diversi aspetti nell’utilizzo e gestione dei thread.
+Il principio di funzionamento è analogo a quello di <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>.</p>
+<p>Tuttavia, ricorrendo alla sola syscall fork, <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>: può solo creare processi con il medesimo programma del processo parent.
+Per superare questo limite, è possibile ricorrere alla famiglia di funzioni <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a>.
+Grazie ad una syscall di tipo <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> è possibile sostituire completamente l’immagine del processo che invoca la
+system call con quella di un altro programma.</p>
+<p>Di conseguenza, lo schema di esecuzione di MinShell è il seguente:</p>
+<ul class="simple">
+<li><p>il processo principale crea un processo child tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a></p></li>
+<li><p>il processo child invoca una funzione di tipo <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
+<li><p>il processo principale attende la sua terminazione tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a></p></li>
+</ul>
+<p>Per sostituire il programma di un’immagine, una funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> ha bisogno:</p>
+<ul class="simple">
+<li><p>individuare l’esatta posizione del programma nel filesystem</p></li>
+<li><p>setup dell’ambiente di esecuzione</p></li>
+<li><p>eventuali parametri da passare al programma target</p></li>
+</ul>
+<p>A tal scopo la funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a>:</p>
+<ul class="simple">
+<li><p>considera il primo parametro come il nome dell’eseguibile target, il quale viene cercato nei percorsi definiti nella variabile di ambiente PATH</p></li>
+<li><p>eredita l’ambiente dal processo che invoca <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a></p></li>
+</ul>
+<div class="admonition question" id="question-note-0">
+<p class="admonition-title">Domanda</p>
+<p>Supponendo di lanciare MinShell da linea di comando, qual è l’ambiente del processo child?</p>
+</div>
+<ul class="simple">
+<li><p>il secondo e i successivi parametri della funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a> vengono passati come parametri per l’eseguibile</p></li>
+</ul>
+<div class="admonition observation" id="observation-note-0">
+<p class="admonition-title">Osservazione</p>
+<p>Tipicamente il primo parametro passato ad un programma è una stringa contenente il nome del programma stesso. L’ultimo parametro è impostato a NULL in quanto da standard POSIX la lista di parametri deve terminare con un puntatore NULL.</p>
+</div>
+<section id="riferimenti">
+<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
+</ul>
+</section>
+</section>
 
 
            </div>
@@ -87,7 +159,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 24 nov 2021.
+      <span class="lastupdated">Ultimo aggiornamento 30 nov 2021.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

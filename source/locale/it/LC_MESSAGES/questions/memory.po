@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-23 23:36+0100\n"
+"POT-Creation-Date: 2021-11-30 10:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../source/questions/memory.rst:2
-msgid "4 - Gestione della memoria"
+msgid "5 - Gestione della memoria"
 msgstr ""
 
 #: ../source/questions/memory.rst:4
@@ -47,6 +47,36 @@ msgstr ""
 
 #: ../source/questions/memory.rst:8
 msgid "Che cosa è un buddy system?"
+msgstr ""
+
+#: ../source/questions/memory.rst:9
+msgid "Descrivi l'anomalia di Belady."
+msgstr ""
+
+#: ../source/questions/memory.rst:10
+msgid ""
+"Descrivere l'algoritmo dell'orologio nell'ambito delle politiche di "
+"replacement delle pagine."
+msgstr ""
+
+#: ../source/questions/memory.rst:11
+msgid "Descrivere gli aspetti principali di gestione della memoria virtuale."
+msgstr ""
+
+#: ../source/questions/memory.rst:12
+msgid ""
+"Descrizione la gestione di un page fault nel caso di memoria virtuale "
+"basata su paginazione."
+msgstr ""
+
+#: ../source/questions/memory.rst:13
+msgid ""
+"Descrivere le caratteristiche delle politiche di gestione del resident "
+"set di processo."
+msgstr ""
+
+#: ../source/questions/memory.rst:14
+msgid "Descrivere il fenomeno del thrashing nel contesto della memoria virtuale."
 msgstr ""
 
 #~ msgid ""
@@ -197,5 +227,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Gestione della memoria"
+#~ msgstr ""
+
+#~ msgid "4 - Gestione della memoria"
 #~ msgstr ""
 

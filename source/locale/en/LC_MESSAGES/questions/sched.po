@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-23 23:36+0100\n"
+"POT-Creation-Date: 2021-11-30 10:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,6 +23,35 @@ msgid "3 - Scheduling"
 msgstr ""
 
 #: ../source/questions/sched.rst:4
-msgid "Cpu-scheduler: quali sono i criteri di valutazione di un cpu-scheduler?"
+msgid "Cpu-scheduler: quali sono i criteri di valutazione di un CPU scheduler?"
 msgstr ""
+
+#: ../source/questions/sched.rst:5
+msgid ""
+"Quali sfide introducono le architetture multicore nell'ambito del CPU "
+"scheduling?"
+msgstr ""
+
+#: ../source/questions/sched.rst:6
+msgid "Quale è la differenza tra uno scheduler preemtive e uno non-preemptive?"
+msgstr ""
+
+#: ../source/questions/sched.rst:7
+msgid ""
+"Descrivere la politica Shortest Job First e discuterne vantaggi e "
+"svantaggi."
+msgstr ""
+
+#: ../source/questions/sched.rst:8
+msgid "Descrivere la politica Round Robin e discuterne vantaggi e svantaggi."
+msgstr ""
+
+#: ../source/questions/sched.rst:9
+msgid ""
+"Descrivere la politica di Fair-Share scheduling e quali problematiche "
+"risolve."
+msgstr ""
+
+#~ msgid "Cpu-scheduler: quali sono i criteri di valutazione di un cpu-scheduler?"
+#~ msgstr ""
 

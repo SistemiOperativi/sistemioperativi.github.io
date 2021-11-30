@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-24 01:50+0100\n"
+"POT-Creation-Date: 2021-11-30 10:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,8 +27,8 @@ msgid ""
 "In questa sezione vengono riportate alcuni esercizi/domande che possono "
 "essere utilizzate come preparazione all'esame."
 msgstr ""
-"This section contains several exercises/questions that allows you to test your "
-"knowledge and skills."
+"This section contains several exercises/questions that allows you to test"
+" your knowledge and skills."
 
 #: ../source/questions/intro.rst:2
 msgid "1 - Introduzione"
@@ -45,6 +45,28 @@ msgstr ""
 #: ../source/questions/intro.rst:5
 msgid "Descrivere le principali strutture dati di un sistema operativo."
 msgstr "Describe the main data structures used by an operating systems."
+
+#: ../source/questions/intro.rst:6
+msgid ""
+"Descrivere i principali benefici e le criticità introdotte della "
+"multiprogrammazione."
+msgstr "Describe the main beneficts and challenges of multiprogramming."
+
+#: ../source/questions/intro.rst:7
+msgid ""
+"Cosa sono le system call e quali relazioni hanno con le librerie di "
+"sistema?"
+msgstr ""
+"What are the system calls and what relationship do they have with system "
+"libraries?"
+
+#: ../source/questions/intro.rst:8
+msgid ""
+"Riportare esempi di supporti hardware necessari al sistema operativo per "
+"garantire la protezione delle risorse."
+msgstr ""
+"Show examples of hardware supports required by the operating systems to "
+"provide the protection of system resources."
 
 #: ../source/questions/processes.rst:2
 msgid "2- Processi e thread"
@@ -71,12 +93,47 @@ msgid "3 - Scheduling"
 msgstr "3 - Scheduling"
 
 #: ../source/questions/sched.rst:4
-msgid "Cpu-scheduler: quali sono i criteri di valutazione di un cpu-scheduler?"
+#, fuzzy
+msgid "Cpu-scheduler: quali sono i criteri di valutazione di un CPU scheduler?"
 msgstr "What are the main evaluation criteria of a cpu scheduler?"
 
+#: ../source/questions/sched.rst:5
+msgid ""
+"Quali sfide introducono le architetture multicore nell'ambito del CPU "
+"scheduling?"
+msgstr ""
+
+#: ../source/questions/sched.rst:6
+msgid "Quale è la differenza tra uno scheduler preemtive e uno non-preemptive?"
+msgstr ""
+
+#: ../source/questions/sched.rst:7
+msgid ""
+"Descrivere la politica Shortest Job First e discuterne vantaggi e "
+"svantaggi."
+msgstr ""
+
+#: ../source/questions/sched.rst:8
+msgid "Descrivere la politica Round Robin e discuterne vantaggi e svantaggi."
+msgstr ""
+
+#: ../source/questions/sched.rst:9
+msgid ""
+"Descrivere la politica di Fair-Share scheduling e quali problematiche "
+"risolve."
+msgstr ""
+
+#: ../source/questions/sync.rst:2
+msgid "4 - Sincronizzazione"
+msgstr "4 - Synchronization"
+
+#: ../source/questions/sync.rst:4
+msgid "Cos'è un'istruzione Read-Modify-Write?"
+msgstr "What is a Read-Modify-Write instruction?"
+
 #: ../source/questions/memory.rst:2
-msgid "4 - Gestione della memoria"
-msgstr "4 - Memory management"
+msgid "5 - Gestione della memoria"
+msgstr "5 - Memory management"
 
 #: ../source/questions/memory.rst:4
 msgid ""
@@ -109,4 +166,34 @@ msgstr "Show a scheme for paged segmentation with TLP and describe how it works.
 #: ../source/questions/memory.rst:8
 msgid "Che cosa è un buddy system?"
 msgstr "What is a buddy system?"
+
+#: ../source/questions/memory.rst:9
+msgid "Descrivi l'anomalia di Belady."
+msgstr "Descibe the Belady's anomaly."
+
+#: ../source/questions/memory.rst:10
+msgid ""
+"Descrivere l'algoritmo dell'orologio nell'ambito delle politiche di "
+"replacement delle pagine."
+msgstr "Describe the clock algorithm for page replacement."
+
+#: ../source/questions/memory.rst:11
+msgid "Descrivere gli aspetti principali di gestione della memoria virtuale."
+msgstr "Describe the main aspects of virtual-memory management."
+
+#: ../source/questions/memory.rst:12
+msgid ""
+"Descrizione la gestione di un page fault nel caso di memoria virtuale "
+"basata su paginazione."
+msgstr "Describe page-fault handling with virtual memory based on pagination."
+
+#: ../source/questions/memory.rst:13
+msgid ""
+"Descrivere le caratteristiche delle politiche di gestione del resident "
+"set di processo."
+msgstr "Describe the main aspects of policies for resident-set management."
+
+#: ../source/questions/memory.rst:14
+msgid "Descrivere il fenomeno del thrashing nel contesto della memoria virtuale."
+msgstr "Describe the thrashing phenomena related to virtual memory."
 

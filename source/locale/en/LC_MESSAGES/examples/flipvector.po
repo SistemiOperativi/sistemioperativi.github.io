@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-20 15:04+0100\n"
+"POT-Creation-Date: 2021-11-30 11:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,4 +21,138 @@ msgstr ""
 #: ../source/examples/flipvector.rst:2
 msgid "Flip vector"
 msgstr ""
+
+#: ../source/examples/flipvector.rst:10
+msgid "MinShell - le funzioni exec"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:42
+msgid ""
+":raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flipvector/flipvector.c\">FlipVector</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flipvector/flipvector.c\"></a>`"
+" è un programma C il cui obiettivo è mostrare diversi aspetti "
+"nell'utilizzo e gestione dei thread. Il principio di funzionamento è "
+"analogo a quello di :doc:`FEW <few>`."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:47
+msgid ""
+"Tuttavia, ricorrendo alla sola syscall fork, :doc:`FEW <few>`: può solo "
+"creare processi con il medesimo programma del processo parent. Per "
+"superare questo limite, è possibile ricorrere alla famiglia di funzioni "
+":posix:`exec <exec>`. Grazie ad una syscall di tipo :posix:`exec <exec>` "
+"è possibile sostituire completamente l'immagine del processo che invoca "
+"la system call con quella di un altro programma."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:52
+msgid "Di conseguenza, lo schema di esecuzione di MinShell è il seguente:"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:54
+msgid "il processo principale crea un processo child tramite :posix:`fork <fork>`"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:55
+msgid "il processo child invoca una funzione di tipo :posix:`exec <exec>`"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:56
+msgid ""
+"il processo principale attende la sua terminazione tramite :posix:`wait "
+"<wait>`"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:58
+msgid ""
+"Per sostituire il programma di un'immagine, una funzione :posix:`exec "
+"<exec>` ha bisogno:"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:60
+msgid "individuare l'esatta posizione del programma nel filesystem"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:61
+msgid "setup dell'ambiente di esecuzione"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:62
+msgid "eventuali parametri da passare al programma target"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:64
+msgid "A tal scopo la funzione :posix:`execlp <execlp>`:"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:66
+msgid ""
+"considera il primo parametro come il nome dell'eseguibile target, il "
+"quale viene cercato nei percorsi definiti nella variabile di ambiente "
+"PATH"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:67
+msgid "eredita l'ambiente dal processo che invoca :posix:`execlp <execlp>`"
+msgstr ""
+
+msgid "Domanda"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:70
+msgid ""
+"Supponendo di lanciare MinShell da linea di comando, qual è l'ambiente "
+"del processo child?"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:72
+msgid ""
+"il secondo e i successivi parametri della funzione :posix:`execlp "
+"<execlp>` vengono passati come parametri per l'eseguibile"
+msgstr ""
+
+msgid "Osservazione"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:75
+msgid ""
+"Tipicamente il primo parametro passato ad un programma è una stringa "
+"contenente il nome del programma stesso. L'ultimo parametro è impostato a"
+" NULL in quanto da standard POSIX la lista di parametri deve terminare "
+"con un puntatore NULL."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:80
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:82
+msgid ":posix:`exec <exec>`"
+msgstr ""
+
+#~ msgid ""
+#~ "Una shell è una interfaccia testuale "
+#~ "per il sistema operativo attraverso la"
+#~ " quale è possibile eseguire comandi e"
+#~ " programmi. Ogni qual volta si lancia"
+#~ " un programma X tramite shell, "
+#~ "quest'ultima crea un nuovo processo la"
+#~ " cui immagine è quella del programma"
+#~ " X."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":raw-html:`<a class=\"external\" target=\"_blank\""
+#~ " "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flipvector/flipvector.c\">FlipVector</a>"
+#~ " <a class=\"fa fa-github external\" "
+#~ "target=\"_blank\" "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flipvector/flipvector.c\"></a>`"
+#~ " è un programma C che emula "
+#~ "questo comportamento. Il principio di "
+#~ "funzionamento è analogo a quello di "
+#~ ":doc:`FEW <few>`."
+#~ msgstr ""
 
