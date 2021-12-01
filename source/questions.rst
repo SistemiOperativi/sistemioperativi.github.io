@@ -8,4 +8,5 @@ In questa sezione vengono riportate alcuni esercizi/domande che possono essere u
 .. include::	questions/sched.rst
 .. include::	questions/sync.rst
 .. include::	questions/memory.rst
+.. include::	questions/IO.rst
 

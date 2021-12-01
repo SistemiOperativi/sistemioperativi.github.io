@@ -1,6 +1,8 @@
 News
 ====
 
+.. _n01-12-2021:
+.. include:: news/211201.rst
 
 .. _n30-11-2021:
 
@@ -22,7 +24,7 @@ News
   * nuovi esercizi: aggiunte 6 domande riguardo la gestione della memoria
   * nuovi esercizi: aggiunte 6 domande riguardo lo scheduling
   * nuovi esercizi: aggiunta 1 domanda riguardo la sincronizzazione
-  * aggiunto diario delle lezione del 23/11 e del 24/11
+  * aggiunto diario delle lezioni del 23/11 e del 24/11
 
 * Microsoft Stream:
 

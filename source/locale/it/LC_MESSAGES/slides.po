@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 11:26+0100\n"
+"POT-Creation-Date: 2021-12-01 12:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,14 +53,14 @@ msgid ""
 msgstr ""
 
 #: ../source/slides.rst:12
-msgid "`06 - I/O e file management </slides/06-IO-file-management-211128v1.pdf>`_"
+msgid "`06 - I/O e file management </slides/06-IO-file-management-211201v2.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:14
+#: ../source/slides.rst:15
 msgid "Approfondimenti"
 msgstr ""
 
-#: ../source/slides.rst:16
+#: ../source/slides.rst:17
 msgid ""
 "`A1 - Solid state drives: architetture e soluzioni enterprise [en] "
 "</slides/A1-solid-state-drives.pdf>`_"
@@ -104,6 +104,11 @@ msgstr ""
 
 #~ msgid ""
 #~ "`05 - I/O e file management "
+#~ "</slides/06-IO-file-management-211128v1.pdf>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`06 - I/O e file management "
 #~ "</slides/06-IO-file-management-211128v1.pdf>`_"
 #~ msgstr ""
 

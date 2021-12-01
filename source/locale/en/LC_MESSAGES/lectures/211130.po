@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-30 20:37+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/lectures/211130.rst:2
+msgid "30/11/2021 - Gestione di I/O parte 1"
+msgstr "30/11/2021 - I/O management part 1"
+
+#: ../source/lectures/211130.rst:4
+msgid "Caratteristiche dei dispositivi di I/O"
+msgstr "I/O Devices"
+
+#: ../source/lectures/211130.rst:5
+msgid "Modello di organizzazione dei moduli di I/O"
+msgstr "Organization of I/O functions and modules"
+
+#: ../source/lectures/211130.rst:6
+msgid "I/O Buffering"
+msgstr ""
+
+#: ../source/lectures/211130.rst:7
+msgid "I/O Scheduling"
+msgstr ""
+
+#: ../source/lectures/211130.rst:10
+msgid "Riferimenti libro di testo"
+msgstr "References"
+
+#: ../source/lectures/211130.rst:12
+msgid "[:ref:`t1 <books>`] Sezione 11, 11.1, 11.2, 11.3, 11.4"
+msgstr "[:ref:`t1 <books>`] Section 11, 11.1, 11.2, 11.3, 11.4"
+
+#: ../source/lectures/211130.rst:13
+msgid ""
+"[:ref:`t2 <books>`] Sezione 12.2.2, 12.2.3, 12.3, 12.4, 12.4.1, 12.4.2, "
+"12.4.7"
+msgstr ""
+"[:ref:`t2 <books>`] Section 12.2.2, 12.2.3, 12.3, 12.4, 12.4.1, 12.4.2, "
+"12.4.7"
+
+#: ../source/lectures/211130.rst:17
+msgid "Approfondimenti"
+msgstr "Additional resources"
+
+#: ../source/lectures/211130.rst:19
+msgid "[:ref:`t2 <books>`] Capitolo 12"
+msgstr "[:ref:`t2 <books>`] Chapter 12"
+

@@ -1,8 +1,8 @@
 .. role:: raw-html(raw)
    :format: html
 
-Flip vector
-===========
+FlipVector
+==========
 
 
 :raw-html:`<a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c">FlipVector</a>
@@ -11,7 +11,7 @@ Flip vector
 
 In questo programma vengono creati molteplici thread che manipolano un array condiviso.
 Nello specifico, ciascun thread inverte ripetutamente la posizione di ciascuna entry nell'array, la cui dimensione è un numero pari.
-A seguire, la funzione stress test implemente tale operazione:
+A seguire, la funzione *stress_test* implementa tale operazione:
 
 
 .. code-block:: c
@@ -37,7 +37,7 @@ A seguire, la funzione stress test implemente tale operazione:
     }
 
 .. question_note::
-    Come modificare la condizione di terminazione del ciclo interno per gestire array di taglia generica?
+    Come è possibile modificare il ciclo interno per gestire array di taglia generica?
 
 .. observation_note::
     L'operatore :code:`^` implementa la semantica di eXclusive OR (`XOR <https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bitwise-Logical-Operators>`_) bit a bit. La relativa tabella di verità è la seguente:
@@ -55,31 +55,32 @@ A seguire, la funzione stress test implemente tale operazione:
     :code:`x^x=0`.
 
     .. question_note::
-        Come è stata utilizzato lo XOR per implementare lo scambio del contenuto di due variabili?
+        Come è stato utilizzato lo XOR per implementare lo scambio del contenuto di due variabili?
 
-Chiaramente, essendo l'array condiviso, è necessaria della sincronizzazione al fine di manipolare correttamente l'array.
-Le funzioni :code:`acquire` e :code:`release` assolvono a questo scopo, utilizzando nella loro implementazione primitive di lock.  
-Il programma inoltre misura le perfomance dell'applicazione in termini di sezioni critiche eseguite.
+Essendo l'array condiviso, la sincronizzazione è necessaria al fine di manipolare correttamente l'array.
+Le funzioni :code:`acquire` e :code:`release` assolvono a questo scopo, utilizzando primitive di lock nella loro implementazione.  
+
+Il programma misura le perfomance dell'applicazione in termini di sezioni critiche eseguite.
 Per assicurarsi che ciascun thread lavori con la massima concorrenza, questi aspettano che tutti i thread raggiungono la medesima riga di codice,
 prima di cominciare a manipolare l'array.
-Questo è ottenuto grazie alla primitiva di sincronizzazione :code:`pthread_barrier_wait`, che blocca un thread fintanto che N thread non ne invocano la medesima funzione sul medesimo oggetto opportunamente inizializzato a N. 
+Questo è ottenuto grazie alla primitiva di sincronizzazione :code:`pthread_barrier_wait`, che blocca un thread fintanto che *N* thread non invocano la medesima funzione sul medesimo oggetto inizializzato a *N*. 
 
 .. observation_note::
   
-  Una barriera può esser vista come un semaforo che:
+  Una barriera può esser vista come un particolare semaforo che:
 
   * può assumere valori negativi
-  * inizializzato a -N
+  * inizializzato a -*N*
   * l'operazione di wait incrementa il contatore di 1 unità
      * se il semaforo è negativo il thread rimane bloccato in attesa
-     * se il semaforo assume valore pari a 0, tutti i thread in attesa vengono sbloccati e il valore resettato a -N
+     * se il semaforo assume valore pari a 0, tutti i thread in attesa vengono sbloccati e il valore resettato a -*N*
 
 Prima di terminare ciascun thread utilizza una RMW per incrementare un contatore globale :code:`ops` del numero di operazioni complessivamente eseguite dai thread. 
 A tal scopo si è utilizzata la funzione :code:`__sync_fetch_and_add`.
 
 .. warning::
    Le operazioni builtin __sync di gcc sono semplici da utilizzare, ma deprecate. 
-   La versione di riferimento sono le `__atomic builtin <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html#g_t_005f_005fatomic-Builtins>`_, che tuttavia tengono conto anche del modello di memoria secondo lo 
+   La versione di riferimento è `__atomic builtin <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html#g_t_005f_005fatomic-Builtins>`_, che tuttavia tengono conto anche del modello di memoria secondo lo 
    `standard C++11 <https://en.cppreference.com/w/cpp/atomic/memory_order>`_. 
    Per ulteriori dettagli consultare `AtomicSync <https://gcc.gnu.org/wiki/Atomic/GCCMM/AtomicSync>`_.
 
@@ -112,7 +113,7 @@ Il tutto è coordinato dal main thread secondo lo schema che segue.
 
 .. observation_note:: 
     L'operatore :code:`<<` è l'operatore di `shift <https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bit-Shifting>`_ a sinistra.
-    Considerando una variabile *x* a 8 bit con valore 4 la sua rappresentazione è 0000 0100.
+    Considerando una variabile unsigned *x* a 8 bit con valore 4 la sua rappresentazione binaria è 0000 0100.
     L'istruzione :code:`x << 1` indica l'operazione di shift a sinistra di una posizione della variabile *x*, il cui risultato è pari a 
     0000 1000, ossia x assume il valore 8.
     L'operatore :code:`>>` è l'operatore di shift a destra.
@@ -136,10 +137,10 @@ La variabile :code:`lock_type` è una variabile globale utilizzata all'interno d
 
 .. question_note::
     * Perché la barriera viene distrutta ad ogni fine iterazione e inizializzata ad inizio iterazione?
-    * Quale altra istruzione RMW poteva essere usata al posto della compare&swap?
+    * Quale altra istruzione RMW poteva essere usata al posto della *compare&swap*?
 
 
-L'impostazione del test è tale per cui si misurano il numero di operazioni effettuate in concorrenza da tutti i thread in un intervallo di tempo predefinito.
+Il test misura e stampa il numero di operazioni effettuate in concorrenza da tutti i thread in un intervallo di tempo predefinito.
 Inoltre, prima di eseguire il suddetto ciclo, il main thread:
 
   * inizializza le primitive di lock della libreria pthread
@@ -255,6 +256,10 @@ Infine, il ticket lock (TICKET) è implementato come una coppia di variabili glo
 
 .. question_note::
     L'algoritmo di ticket lock mostrato è corretto? Se sì, cercare di mostrare perché? Se no, mostrare un caso in cui l'algoritmo non garantisce mutua eclusione o progresso.
+
+
+
+
 
 Riferimenti
 """""""""""

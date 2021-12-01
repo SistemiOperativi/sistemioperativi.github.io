@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 10:37+0100\n"
+"POT-Creation-Date: 2021-11-30 21:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,6 +179,20 @@ msgstr ""
 
 #: ../source/questions/memory.rst:14
 msgid "Descrivere il fenomeno del thrashing nel contesto della memoria virtuale."
+msgstr ""
+
+#: ../source/questions/IO.rst:2
+msgid "6 - I/O Management"
+msgstr ""
+
+#: ../source/questions/IO.rst:4
+msgid ""
+"Quali sono le difficoltà che introduce il Direct Memory Access rispetto "
+"alla gestione dei processi?"
+msgstr ""
+
+#: ../source/questions/IO.rst:5
+msgid "Descrivere la tecnica di I/O buffering e la sua utilità."
 msgstr ""
 
 #~ msgid "Compara, mostrando vantaggi e svantaggi, le seguenti"

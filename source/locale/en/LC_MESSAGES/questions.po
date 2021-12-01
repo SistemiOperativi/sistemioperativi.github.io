@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 10:35+0100\n"
+"POT-Creation-Date: 2021-11-30 21:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,7 +169,7 @@ msgstr "What is a buddy system?"
 
 #: ../source/questions/memory.rst:9
 msgid "Descrivi l'anomalia di Belady."
-msgstr "Descibe the Belady's anomaly."
+msgstr "Describe the Belady's anomaly."
 
 #: ../source/questions/memory.rst:10
 msgid ""
@@ -196,4 +196,18 @@ msgstr "Describe the main aspects of policies for resident-set management."
 #: ../source/questions/memory.rst:14
 msgid "Descrivere il fenomeno del thrashing nel contesto della memoria virtuale."
 msgstr "Describe the thrashing phenomena related to virtual memory."
+
+#: ../source/questions/IO.rst:2
+msgid "6 - I/O Management"
+msgstr ""
+
+#: ../source/questions/IO.rst:4
+msgid ""
+"Quali sono le difficoltà che introduce il Direct Memory Access rispetto "
+"alla gestione dei processi?"
+msgstr "What are the challenges introduced by Direct Memory Access with respect to process management?"
+
+#: ../source/questions/IO.rst:5
+msgid "Descrivere la tecnica di I/O buffering e la sua utilità."
+msgstr "Describe the I/O buffering and the problems it solves."
 
