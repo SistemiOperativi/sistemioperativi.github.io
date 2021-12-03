@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 10:37+0100\n"
+"POT-Creation-Date: 2021-12-03 00:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,14 @@ msgstr ""
 
 #: ../source/questions/sync.rst:4
 msgid "Cos'è un'istruzione Read-Modify-Write?"
+msgstr ""
+
+#: ../source/questions/sync.rst:5
+msgid "Descrivere cosa è un lock e relative proprietà di correttezza e progresso."
+msgstr ""
+
+#: ../source/questions/sync.rst:6
+msgid "Descrivere il Bakery algorithm."
 msgstr ""
 
 #~ msgid "Cos'è un'istruzione Read-Modify-Write."

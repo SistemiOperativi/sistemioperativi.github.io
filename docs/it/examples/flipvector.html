@@ -52,6 +52,7 @@
 <li class="toctree-l2"><a class="reference internal" href="minshell.html">MinShell - le funzioni exec</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">FlipVector</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#le-funzioni-di-acquire-e-release">Le funzioni di acquire e release</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#risultati">Risultati</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#riferimenti">Riferimenti</a></li>
 </ul>
 </li>
@@ -286,7 +287,7 @@ Inoltre, prima di eseguire il suddetto ciclo, il main thread:</p>
 </div>
 <section id="le-funzioni-di-acquire-e-release">
 <h2>Le funzioni di acquire e release<a class="headerlink" href="#le-funzioni-di-acquire-e-release" title="Link a questa intestazione">¶</a></h2>
-<p>Le funzione di acquire e release utilizzano una specifica implementazione di lock in funzione del valore assunto dalla variabile globale <code class="code docutils literal notranslate"><span class="pre">lock_type</span></code>.
+<p>Le funzioni di acquire e release utilizzano una specifica implementazione di lock in funzione del valore assunto dalla variabile globale <code class="code docutils literal notranslate"><span class="pre">lock_type</span></code>.
 Nello specifico supportano 5 implementazioni differenti di lock:</p>
 <ol class="arabic simple">
 <li><p>pthread spin lock (PT_TAS)</p></li>
@@ -309,7 +310,7 @@ Nello specifico supportano 5 implementazioni differenti di lock:</p>
 <span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
-<p>Chiaramente le variabili <em>ptspin</em> e <em>ptmutex</em> sono variabili globali.</p>
+<p>Chiaramente, le variabili <em>ptspin</em> e <em>ptmutex</em> sono variabili globali.</p>
 <p>Anche i lock TAS e TTAS sono delle variabili globali intere.
 Il valore 0 indica che il lock è libero e 1 indica che il lock è stato acquisito da un qualche thread.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="k">volatile</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">lock</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
@@ -333,7 +334,7 @@ Il valore 0 indica che il lock è libero e 1 indica che il lock è stato acquisi
 <div class="admonition observation" id="observation-note-3">
 <p class="admonition-title">Osservazione</p>
 <ul class="simple">
-<li><p>la varibile <em>lock</em> è dichiarata <strong>volatile</strong>. Questo garantisce che il compilatore non attuerà alcune ottimizzazioni, garantendo che ogni accesso alla variabile <em>lock</em> verrà effettuato sempre in memoria. Ad esempio, il compilatore non potrà usare i registri general purpose come cache per la variabile.</p></li>
+<li><p>la variabile <em>lock</em> è dichiarata <strong>volatile</strong>. Questo garantisce che il compilatore non attuerà alcune ottimizzazioni, garantendo che ogni accesso alla variabile <em>lock</em> verrà effettuato sempre in memoria. Ad esempio, il compilatore non potrà usare i registri general purpose come cache per la variabile.</p></li>
 <li><p><code class="code docutils literal notranslate"><span class="pre">asm</span> <span class="pre">volatile</span> <span class="pre">(&quot;&quot;:::&quot;memory&quot;);</span></code> costituisce una barriera per il compilatore. Di conseguenza, quest’ultimo non può spostare istruzioni che seguono la barriera prima di quest’ultima e viceversa. <em>asm</em> indica al compilatore che si sta innestando all’interno di codice C del codice assembly.
 In questo caso, l’istruzione innestata <code class="code docutils literal notranslate"><span class="pre">&quot;&quot;</span></code> è nulla.
 Siccome, il codice innestato è nullo, è necessario indicare al compilatore di non eliminare l’istruzione tramite il token <strong>volatile</strong>.
@@ -371,6 +372,37 @@ Per approfondimenti sul tema consultare la documentazione di GCC riguardo gli <a
 <p>L’algoritmo di ticket lock mostrato è corretto? Se sì, cercare di mostrare perché? Se no, mostrare un caso in cui l’algoritmo non garantisce mutua eclusione o progresso.</p>
 </div>
 </section>
+<section id="risultati">
+<h2>Risultati<a class="headerlink" href="#risultati" title="Link a questa intestazione">¶</a></h2>
+<p>In questa sezione vengono discussi i risultati ottenuti compilando con:</p>
+<ul class="simple">
+<li><p>MAX_THREADS = 32</p></li>
+<li><p>CORES = 4</p></li>
+<li><p>ARRAY_LEN = 256</p></li>
+<li><p>SECONDS = 5</p></li>
+<li><p>gcc -O3</p></li>
+</ul>
+<p>Il sistema è equipaggiato con:</p>
+<ul class="simple">
+<li><p>CPU = Intel(R) Core(TM) i7-7700HQ CPU &#64; 2.80GHz</p></li>
+<li><p>CC = gcc 9.3.0</p></li>
+<li><p>LIBC = glibc 2.31</p></li>
+<li><p>LIBPTHREAD = NPTL 2.31</p></li>
+</ul>
+<p>A seguire i risultati.</p>
+<figure class="align-default">
+<img alt="../_images/flipPerf.svg" src="../_images/flipPerf.svg" /></figure>
+<p>Le massime performance (numero di sezioni critiche eseguite) sono raggiunte da tutti i lock in assenza di concorrenza.
+Quando il numero di thread è maggiore di 1, le performance deteriorano a causa della contesa.
+Il degrado aumenta con thread count crescenti per gli spin lock (attesa attiva).
+L’uso ridotto di RMW nei TTAS giustifica le differenze con TAS.
+Il pthread mutex (PT-MUTEX) mantiene performance quasi inalterate in quanto riduce la contesa sulle risorse hardware (thread in attesa fuori dalla run queue).
+Non appena il numero di thread è maggiore del numero di core usabili, il ticket lock (spin+FIFO) ha un drastico crollo delle performance.</p>
+<div class="admonition question" id="question-note-7">
+<p class="admonition-title">Domanda</p>
+<p>Cosa giustifica il comportamento di TICKET?</p>
+</div>
+</section>
 <section id="riferimenti">
 <h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Link a questa intestazione">¶</a></h2>
 <ul class="simple">
@@ -400,7 +432,7 @@ Per approfondimenti sul tema consultare la documentazione di GCC riguardo gli <a
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 01 dic 2021.
+      <span class="lastupdated">Ultimo aggiornamento 03 dic 2021.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

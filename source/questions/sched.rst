@@ -7,6 +7,7 @@
 #. Descrivere la politica Shortest Job First e discuterne vantaggi e svantaggi.
 #. Descrivere la politica Round Robin e discuterne vantaggi e svantaggi.
 #. Descrivere la politica di Fair-Share scheduling e quali problematiche risolve.
+#. Descrivere lo scheduler Linux.
 
 .. #. Trashing, load control e mid-term scheduler. Come sono correlati questi concetti? Qual'è l'obiettivo di un mid-term scheduler. Fai un esempio di politica per un mid-term scheduler.
 

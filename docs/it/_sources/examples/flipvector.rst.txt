@@ -170,7 +170,7 @@ Inoltre, prima di eseguire il suddetto ciclo, il main thread:
 Le funzioni di acquire e release
 """"""""""""""""""""""""""""""""
 
-Le funzione di acquire e release utilizzano una specifica implementazione di lock in funzione del valore assunto dalla variabile globale :code:`lock_type`.
+Le funzioni di acquire e release utilizzano una specifica implementazione di lock in funzione del valore assunto dalla variabile globale :code:`lock_type`.
 Nello specifico supportano 5 implementazioni differenti di lock:
 
 #. pthread spin lock (PT_TAS)
@@ -195,7 +195,7 @@ Nel caso di lock forniti dalla libreria pthread, acquire e release ridirezionano
         if(lock_type == PT_MUTEX)                   pthread_mutex_unlock(&ptmutex);
     }
 
-Chiaramente le variabili *ptspin* e *ptmutex* sono variabili globali.
+Chiaramente, le variabili *ptspin* e *ptmutex* sono variabili globali.
 
 Anche i lock TAS e TTAS sono delle variabili globali intere.
 Il valore 0 indica che il lock è libero e 1 indica che il lock è stato acquisito da un qualche thread.
@@ -221,7 +221,7 @@ Il valore 0 indica che il lock è libero e 1 indica che il lock è stato acquisi
 
 .. observation_note::  
     
-    * la varibile *lock* è dichiarata **volatile**. Questo garantisce che il compilatore non attuerà alcune ottimizzazioni, garantendo che ogni accesso alla variabile *lock* verrà effettuato sempre in memoria. Ad esempio, il compilatore non potrà usare i registri general purpose come cache per la variabile.
+    * la variabile *lock* è dichiarata **volatile**. Questo garantisce che il compilatore non attuerà alcune ottimizzazioni, garantendo che ogni accesso alla variabile *lock* verrà effettuato sempre in memoria. Ad esempio, il compilatore non potrà usare i registri general purpose come cache per la variabile.
     * :code:`asm volatile ("":::"memory");` costituisce una barriera per il compilatore. Di conseguenza, quest'ultimo non può spostare istruzioni che seguono la barriera prima di quest'ultima e viceversa. *asm* indica al compilatore che si sta innestando all'interno di codice C del codice assembly. 
       In questo caso, l'istruzione innestata :code:`""` è nulla.
       Siccome, il codice innestato è nullo, è necessario indicare al compilatore di non eliminare l'istruzione tramite il token **volatile**.
@@ -258,7 +258,37 @@ Infine, il ticket lock (TICKET) è implementato come una coppia di variabili glo
     L'algoritmo di ticket lock mostrato è corretto? Se sì, cercare di mostrare perché? Se no, mostrare un caso in cui l'algoritmo non garantisce mutua eclusione o progresso.
 
 
+Risultati
+"""""""""
 
+In questa sezione vengono discussi i risultati ottenuti compilando con:
+
+* MAX_THREADS = 32
+* CORES = 4
+* ARRAY_LEN = 256
+* SECONDS = 5
+* gcc -O3
+
+Il sistema è equipaggiato con:
+
+* CPU = Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+* CC = gcc 9.3.0
+* LIBC = glibc 2.31
+* LIBPTHREAD = NPTL 2.31
+
+A seguire i risultati.
+
+.. figure:: /_static/images/flipPerf.svg
+
+Le massime performance (numero di sezioni critiche eseguite) sono raggiunte da tutti i lock in assenza di concorrenza.
+Quando il numero di thread è maggiore di 1, le performance deteriorano a causa della contesa.
+Il degrado aumenta con thread count crescenti per gli spin lock (attesa attiva). 
+L'uso ridotto di RMW nei TTAS giustifica le differenze con TAS.
+Il pthread mutex (PT-MUTEX) mantiene performance quasi inalterate in quanto riduce la contesa sulle risorse hardware (thread in attesa fuori dalla run queue).
+Non appena il numero di thread è maggiore del numero di core usabili, il ticket lock (spin+FIFO) ha un drastico crollo delle performance.
+
+.. question_note::
+  Cosa giustifica il comportamento di TICKET?
 
 
 Riferimenti

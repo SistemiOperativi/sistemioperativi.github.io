@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-01 12:49+0100\n"
+"POT-Creation-Date: 2021-12-03 02:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,6 @@ msgstr ""
 "update: 24/11/21]"
 
 #: ../source/slides.rst:12
-#, fuzzy
 msgid ""
 "`06 - I/O e file management </slides/06-IO-file-management-"
 "211201v2.pdf>`_ [Aggiornato il 01/12/21]"
@@ -67,14 +66,81 @@ msgstr ""
 "`06 - I/O and file management </slides/06-IO-file-management-"
 "211201v2.pdf>`_ [Last update: 01/12/21]"
 
-#: ../source/slides.rst:15
-msgid "Approfondimenti"
-msgstr "Additional material"
-
-#: ../source/slides.rst:17
+#: ../source/slides.rst:13
 msgid ""
 "`A1 - Solid state drives: architetture e soluzioni enterprise [en] "
 "</slides/A1-solid-state-drives.pdf>`_"
 msgstr ""
 "`A1 - Solid state drives: architecture and enterprise solutions [en] "
 "</slides/A1-solid-state-drives.pdf>`_"
+
+#: ../source/slides.rst:16
+msgid "Documentazione"
+msgstr "Documentation"
+
+#: ../source/slides.rst:18
+msgid "`POSIX <https://pubs.opengroup.org/onlinepubs/9699919799>`_"
+msgstr ""
+
+#: ../source/slides.rst:19
+msgid "`Linux <https://man7.org/linux/man-pages/>`_"
+msgstr ""
+
+#: ../source/slides.rst:20
+msgid ""
+"`gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
+"Builtins.html#g_t_005f_005fsync-Builtins>`_"
+msgstr ""
+
+#: ../source/slides.rst:21
+msgid ""
+"`GCC Thread Local Storage <https://gcc.gnu.org/onlinedocs/gcc/Thread-"
+"Local.html>`_"
+msgstr ""
+
+#: ../source/slides.rst:26
+msgid "Approfondimenti"
+msgstr "Additional material"
+
+#: ../source/slides.rst:28
+msgid ""
+"`Legge di Amdahl Sezione 4 Eq. 11 "
+"<http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_"
+msgstr ""
+
+#: ../source/slides.rst:29
+msgid "`Linux Kernel <https://elixir.bootlin.com/>`_"
+msgstr ""
+
+#: ../source/slides.rst:30
+msgid ""
+"`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
+"ddj.htm>`_"
+msgstr ""
+
+#: ../source/slides.rst:31
+msgid "`Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
+msgstr ""
+
+#: ../source/slides.rst:32
+msgid ""
+"`Complete Fair Scheduler "
+"<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
+"CFS.html>`_"
+msgstr ""
+
+#: ../source/slides.rst:33
+msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
+msgstr ""
+
+#: ../source/slides.rst:34
+msgid ""
+"`Solid State Drives - Data Reliability and Lifetime "
+"<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
+msgstr ""
+
+#~ msgid ""
+#~ "`Legge di Amdahl Sezione 4 Eq. 11"
+#~ " <https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
+#~ msgstr ""
+

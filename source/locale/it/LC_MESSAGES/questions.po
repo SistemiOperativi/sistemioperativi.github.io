@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 21:09+0100\n"
+"POT-Creation-Date: 2021-12-03 02:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,12 +112,24 @@ msgid ""
 "risolve."
 msgstr ""
 
+#: ../source/questions/sched.rst:10
+msgid "Descrivere lo scheduler Linux."
+msgstr ""
+
 #: ../source/questions/sync.rst:2
 msgid "4 - Sincronizzazione"
 msgstr ""
 
 #: ../source/questions/sync.rst:4
 msgid "Cos'è un'istruzione Read-Modify-Write?"
+msgstr ""
+
+#: ../source/questions/sync.rst:5
+msgid "Descrivere cosa è un lock e relative proprietà di correttezza e progresso."
+msgstr ""
+
+#: ../source/questions/sync.rst:6
+msgid "Descrivere il Bakery algorithm."
 msgstr ""
 
 #: ../source/questions/memory.rst:2

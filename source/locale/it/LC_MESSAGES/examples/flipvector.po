@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 23:46+0100\n"
+"POT-Creation-Date: 2021-12-03 01:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -285,7 +285,7 @@ msgstr ""
 
 #: ../source/examples/flipvector.rst:173
 msgid ""
-"Le funzione di acquire e release utilizzano una specifica implementazione"
+"Le funzioni di acquire e release utilizzano una specifica implementazione"
 " di lock in funzione del valore assunto dalla variabile globale "
 ":code:`lock_type`. Nello specifico supportano 5 implementazioni "
 "differenti di lock:"
@@ -318,7 +318,7 @@ msgid ""
 msgstr ""
 
 #: ../source/examples/flipvector.rst:198
-msgid "Chiaramente le variabili *ptspin* e *ptmutex* sono variabili globali."
+msgid "Chiaramente, le variabili *ptspin* e *ptmutex* sono variabili globali."
 msgstr ""
 
 #: ../source/examples/flipvector.rst:200
@@ -330,7 +330,7 @@ msgstr ""
 
 #: ../source/examples/flipvector.rst:224
 msgid ""
-"la varibile *lock* è dichiarata **volatile**. Questo garantisce che il "
+"la variabile *lock* è dichiarata **volatile**. Questo garantisce che il "
 "compilatore non attuerà alcune ottimizzazioni, garantendo che ogni "
 "accesso alla variabile *lock* verrà effettuato sempre in memoria. Ad "
 "esempio, il compilatore non potrà usare i registri general purpose come "
@@ -375,53 +375,123 @@ msgid ""
 "garantisce mutua eclusione o progresso."
 msgstr ""
 
-#: ../source/examples/flipvector.rst:261
-msgid "Riferimenti"
-msgstr ""
-
-#: ../source/examples/flipvector.rst:263
-msgid ":posix:`pthread_barrier_init <pthread_barrier_init>`"
+#: ../source/examples/flipvector.rst:262
+msgid "Risultati"
 msgstr ""
 
 #: ../source/examples/flipvector.rst:264
+msgid "In questa sezione vengono discussi i risultati ottenuti compilando con:"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:266
+msgid "MAX_THREADS = 32"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:267
+msgid "CORES = 4"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:268
+msgid "ARRAY_LEN = 256"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:269
+msgid "SECONDS = 5"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:270
+msgid "gcc -O3"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:272
+msgid "Il sistema è equipaggiato con:"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:274
+msgid "CPU = Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:275
+msgid "CC = gcc 9.3.0"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:276
+msgid "LIBC = glibc 2.31"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:277
+msgid "LIBPTHREAD = NPTL 2.31"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:279
+msgid "A seguire i risultati."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:283
+msgid ""
+"Le massime performance (numero di sezioni critiche eseguite) sono "
+"raggiunte da tutti i lock in assenza di concorrenza. Quando il numero di "
+"thread è maggiore di 1, le performance deteriorano a causa della contesa."
+" Il degrado aumenta con thread count crescenti per gli spin lock (attesa "
+"attiva). L'uso ridotto di RMW nei TTAS giustifica le differenze con TAS. "
+"Il pthread mutex (PT-MUTEX) mantiene performance quasi inalterate in "
+"quanto riduce la contesa sulle risorse hardware (thread in attesa fuori "
+"dalla run queue). Non appena il numero di thread è maggiore del numero di"
+" core usabili, il ticket lock (spin+FIFO) ha un drastico crollo delle "
+"performance."
+msgstr ""
+
+#: ../source/examples/flipvector.rst:291
+msgid "Cosa giustifica il comportamento di TICKET?"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:295
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:297
+msgid ":posix:`pthread_barrier_init <pthread_barrier_init>`"
+msgstr ""
+
+#: ../source/examples/flipvector.rst:298
 msgid ":posix:`pthread_barrier_wait <pthread_barrier_wait>`"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:265
+#: ../source/examples/flipvector.rst:299
 msgid ""
 "`bitwise XOR <https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
 "#Bitwise-Logical-Operators>`_"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:266
+#: ../source/examples/flipvector.rst:300
 msgid ""
 "`__sync gcc builtin <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
 "Builtins.html>`_"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:267
+#: ../source/examples/flipvector.rst:301
 msgid ":posix:`pthread_spin_init <pthread_spin_init>`"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:268
+#: ../source/examples/flipvector.rst:302
 msgid ":posix:`pthread_mutex_init <pthread_mutex_init>`"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:269
+#: ../source/examples/flipvector.rst:303
 msgid ":linux2:`sched_setaffinity <sched_setaffinity>`"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:270
+#: ../source/examples/flipvector.rst:304
 msgid ":linux3:`CPU_SET <CPU_SET>`"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:271
+#: ../source/examples/flipvector.rst:305
 msgid ""
 "`shift <https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bit-"
 "Shifting>`_"
 msgstr ""
 
-#: ../source/examples/flipvector.rst:272
+#: ../source/examples/flipvector.rst:306
 msgid ""
 "`extended-asm <https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Extended-"
 "Asm.html>`_"
@@ -901,5 +971,56 @@ msgstr ""
 #~ " tempo predefinito. Inoltre, prima di "
 #~ "eseguire il suddetto ciclo, il main "
 #~ "thread:"
+#~ msgstr ""
+
+#~ msgid "A seguire i risultati. .. image:: images/get_started_sphinx.png"
+#~ msgstr ""
+
+#~ msgid "GCC = 9.3.0"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Le funzione di acquire e release "
+#~ "utilizzano una specifica implementazione di"
+#~ " lock in funzione del valore assunto"
+#~ " dalla variabile globale :code:`lock_type`. "
+#~ "Nello specifico supportano 5 implementazioni"
+#~ " differenti di lock:"
+#~ msgstr ""
+
+#~ msgid "Chiaramente le variabili *ptspin* e *ptmutex* sono variabili globali."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Le massime performance (numero di "
+#~ "critical section eseguite) sono raggiunte "
+#~ "da tutti i lock in assenza di "
+#~ "concorrenza. Quando il numero di thread"
+#~ " è maggiore di 1, le performance "
+#~ "deteriorano a causa della contesa. Il"
+#~ " degrado aumenta con thread count "
+#~ "crescenti per gli spin lock (attesa "
+#~ "attiva). L'uso ridotto di RMW nei "
+#~ "TTAS giustifica le differenze con TAS."
+#~ " Il pthread mutex (PT-MUTEX) mantiene"
+#~ " performance quasi inalterate in quanto "
+#~ "riduce la contesa sulle risorse hardware"
+#~ " (thread in attesa fuori dalla run"
+#~ " queue). Non appena il numero di "
+#~ "thread è maggiore del numero di "
+#~ "core attivi, il ticket lock (spin+FIFO)"
+#~ " ha un drastico crollo delle "
+#~ "performance."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "la varibile *lock* è dichiarata "
+#~ "**volatile**. Questo garantisce che il "
+#~ "compilatore non attuerà alcune ottimizzazioni,"
+#~ " garantendo che ogni accesso alla "
+#~ "variabile *lock* verrà effettuato sempre "
+#~ "in memoria. Ad esempio, il compilatore"
+#~ " non potrà usare i registri general"
+#~ " purpose come cache per la variabile."
 #~ msgstr ""
 

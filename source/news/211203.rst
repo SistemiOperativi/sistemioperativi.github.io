@@ -1,0 +1,14 @@
+03-12-2021 - avviso: aggionamenti
+-------------------------------------------------
+
+* Sito del corso:
+
+  * nuovi esercizi: aggiunte 2 domande riguardo la sincronizzazione
+  * nuovi esercizi: aggiunte 1 domanda riguardo lo scheduling
+  * aggiornata sezione slide con approfondimenti e link a documentazione
+  * aggiunto commento al codice di flip_vector
+  * aggiunto diario delle lezioni del 01/12/2021
+
+* Microsoft Stream:
+
+  * caricata lezione del 01/12

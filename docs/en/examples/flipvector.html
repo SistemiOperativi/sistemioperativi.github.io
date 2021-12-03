@@ -50,7 +50,8 @@
 <li class="toctree-l2"><a class="reference internal" href="pvst.html">PVST - Processes vs Threads</a></li>
 <li class="toctree-l2"><a class="reference internal" href="minshell.html">MinShell - the exec family</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">FlipVector</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#le-funzioni-di-acquire-e-release">Le funzioni di acquire e release</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#le-funzioni-di-acquire-e-release">The acquire and release functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#risultati">Results</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#riferimenti">References</a></li>
 </ul>
 </li>
@@ -90,9 +91,7 @@
   <section id="flipvector">
 <h1>FlipVector<a class="headerlink" href="#flipvector" title="Permalink to this headline">¶</a></h1>
 <p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c">FlipVector</a> <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c"></a></span> is a C program aimed to show several aspect of using and managing threads.</p>
-<p>In questo programma vengono creati molteplici thread che manipolano un array condiviso.
-Nello specifico, ciascun thread inverte ripetutamente la posizione di ciascuna entry nell’array, la cui dimensione è un numero pari.
-A seguire, la funzione <em>stress_test</em> implementa tale operazione:</p>
+<p>This program creates multiple threads that access a shared array. Each thread reverses the even-sized array multiple times. The <em>stress_test</em> function implements such an operation:</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="kt">void</span><span class="o">*</span><span class="w"> </span><span class="nf">stress_test</span><span class="p">(</span><span class="kt">void</span><span class="w"> </span><span class="o">*</span><span class="n">arg</span><span class="p">){</span><span class="w"></span>
 <span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="n">my_ops</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
 <span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
@@ -116,11 +115,11 @@ A seguire, la funzione <em>stress_test</em> implementa tale operazione:</p>
 </div>
 <div class="admonition question" id="question-note-0">
 <p class="admonition-title">Question</p>
-<p>Come è possibile modificare il ciclo interno per gestire array di taglia generica?</p>
+<p>How can the inner cycle be modified to handle both odd and even sized arrays?</p>
 </div>
 <div class="admonition observation" id="observation-note-0">
 <p class="admonition-title">Observation</p>
-<p>L’operatore <code class="code docutils literal notranslate"><span class="pre">^</span></code> implementa la semantica di eXclusive OR (<a class="reference external" href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bitwise-Logical-Operators">XOR</a>) bit a bit. La relativa tabella di verità è la seguente:</p>
+<p>The operator <code class="code docutils literal notranslate"><span class="pre">^</span></code> implements the bitwise eXclusive OR (<a class="reference external" href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bitwise-Logical-Operators">XOR</a>). Its truth table is the following:</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 27%" />
@@ -152,51 +151,41 @@ A seguire, la funzione <em>stress_test</em> implementa tale operazione:</p>
 </tr>
 </tbody>
 </table>
-<p>In altre parole se i due bit di input sono uguali l’output è pari a 0. Viceversa se sono diversi l’output è pari ad 1. Di conseguenza,
-<code class="code docutils literal notranslate"><span class="pre">x^x=0</span></code>.</p>
+<p>In other words, if the two inputs are equal the output is 0. Conversely, if they are different, the output is 1. It follows that <code class="code docutils literal notranslate"><span class="pre">x^x=0</span></code>.</p>
 <div class="admonition question" id="question-note-1">
 <p class="admonition-title">Question</p>
-<p>Come è stato utilizzato lo XOR per implementare lo scambio del contenuto di due variabili?</p>
+<p>How was XOR used to implement the swap of two variables?</p>
 </div>
 </div>
-<p>Essendo l’array condiviso, la sincronizzazione è necessaria al fine di manipolare correttamente l’array.
-Le funzioni <code class="code docutils literal notranslate"><span class="pre">acquire</span></code> e <code class="code docutils literal notranslate"><span class="pre">release</span></code> assolvono a questo scopo, utilizzando primitive di lock nella loro implementazione.</p>
-<p>Il programma misura le perfomance dell’applicazione in termini di sezioni critiche eseguite.
-Per assicurarsi che ciascun thread lavori con la massima concorrenza, questi aspettano che tutti i thread raggiungono la medesima riga di codice,
-prima di cominciare a manipolare l’array.
-Questo è ottenuto grazie alla primitiva di sincronizzazione <code class="code docutils literal notranslate"><span class="pre">pthread_barrier_wait</span></code>, che blocca un thread fintanto che <em>N</em> thread non invocano la medesima funzione sul medesimo oggetto inizializzato a <em>N</em>.</p>
+<p>The array is shared. Hence, synchronization is required to manipolate it correctly. The functions <code class="code docutils literal notranslate"><span class="pre">acquire</span></code> and <code class="code docutils literal notranslate"><span class="pre">release</span></code> accomplish this by resorting to locks.</p>
+<p>The program measures the perfomance by counting the total number of critical sections executed by threads. To ensure that all threads work at highest concurrency, they wait that each thread reaches the same code line before starting to manipulate the array. This is acheived by using the <code class="code docutils literal notranslate"><span class="pre">pthread_barrier_wait</span></code>, a synchronization primitive that blocks until <em>N</em> threads wait on it. Clearly, <em>N</em> is an initialization parameter of the barrier.</p>
 <div class="admonition observation" id="observation-note-1">
 <p class="admonition-title">Observation</p>
-<p>Una barriera può esser vista come un particolare semaforo che:</p>
+<p>A barrier can be described as a particular kind of semaphore such that:</p>
 <ul class="simple">
-<li><p>può assumere valori negativi</p></li>
-<li><p>inizializzato a -<em>N</em></p></li>
+<li><p>it can assume negative values</p></li>
+<li><p>it is initialized with -<em>N</em></p></li>
 <li><dl class="simple">
-<dt>l’operazione di wait incrementa il contatore di 1 unità</dt><dd><ul>
-<li><p>se il semaforo è negativo il thread rimane bloccato in attesa</p></li>
-<li><p>se il semaforo assume valore pari a 0, tutti i thread in attesa vengono sbloccati e il valore resettato a -<em>N</em></p></li>
+<dt>the wait operation increments the counter by 1 unit</dt><dd><ul>
+<li><p>if the semaphore is negative the thread is blocked</p></li>
+<li><p>when the semaphore value is equal to 0, all waiting threads will be unblocked and value is reset to -<em>N</em></p></li>
 </ul>
 </dd>
 </dl>
 </li>
 </ul>
 </div>
-<p>Prima di terminare ciascun thread utilizza una RMW per incrementare un contatore globale <code class="code docutils literal notranslate"><span class="pre">ops</span></code> del numero di operazioni complessivamente eseguite dai thread.
-A tal scopo si è utilizzata la funzione <code class="code docutils literal notranslate"><span class="pre">__sync_fetch_and_add</span></code>.</p>
+<p>Before terminate each thread uses a RMW to increments a global counter <code class="code docutils literal notranslate"><span class="pre">ops</span></code> of the operations executed by all threads in the program. To this goal the <code class="code docutils literal notranslate"><span class="pre">__sync_fetch_and_add</span></code> has been used.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Le operazioni builtin __sync di gcc sono semplici da utilizzare, ma deprecate.
-La versione di riferimento è <a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html#g_t_005f_005fatomic-Builtins">__atomic builtin</a>, che tuttavia tengono conto anche del modello di memoria secondo lo
-<a class="reference external" href="https://en.cppreference.com/w/cpp/atomic/memory_order">standard C++11</a>.
-Per ulteriori dettagli consultare <a class="reference external" href="https://gcc.gnu.org/wiki/Atomic/GCCMM/AtomicSync">AtomicSync</a>.</p>
+<p>The gcc builtin __sync are easy to use, but deprecated. The current reference version are the <a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html#g_t_005f_005fatomic-Builtins">__atomic builtins</a>, that keep into account the memory model according to the <a class="reference external" href="https://en.cppreference.com/w/cpp/atomic/memory_order">standard C++11</a>. Read the <a class="reference external" href="https://gcc.gnu.org/wiki/Atomic/GCCMM/AtomicSync">AtomicSync</a> documentation to further details.</p>
 </div>
 <div class="admonition question" id="question-note-2">
 <p class="admonition-title">Question</p>
-<p>Come è possibile implementare l’accumulo del numero di operazioni globalmente eseguite senza utilizzare istruzioni RMW?</p>
+<p>How can the number of total operations by all threads be computed without resorting to RMW instructions?</p>
 </div>
-<p>Ciascun thread termina non appena la variabile <code class="code docutils literal notranslate"><span class="pre">stop</span></code> assume valore pari a <code class="code docutils literal notranslate"><span class="pre">true</span></code>.</p>
-<p>Il test viene ripetuto con molteplici configurazioni, ossia al variare dei thread <strong>e</strong> del tipo di lock.
-Il tutto è coordinato dal main thread secondo lo schema che segue.</p>
+<p>Each thread terminates as soon as the variable <code class="code docutils literal notranslate"><span class="pre">stop</span></code> becomes <code class="code docutils literal notranslate"><span class="pre">true</span></code>.</p>
+<p>The test will be repeated with several configurations with varying threads <strong>and</strong> lock implementations. The main thread coordinates the execution according to the following scheme.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;=</span><span class="n">MAX_THREADS</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;&lt;=</span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
 <span class="p">{</span><span class="w"></span>
 <span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="n">lock_type</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">lock_type</span><span class="o">&lt;</span><span class="n">num_locks</span><span class="p">;</span><span class="n">lock_type</span><span class="o">++</span><span class="p">){</span><span class="w"></span>
@@ -217,49 +206,44 @@ Il tutto è coordinato dal main thread secondo lo schema che segue.</p>
 </div>
 <div class="admonition observation" id="observation-note-2">
 <p class="admonition-title">Observation</p>
-<p>L’operatore <code class="code docutils literal notranslate"><span class="pre">&lt;&lt;</span></code> è l’operatore di <a class="reference external" href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bit-Shifting">shift</a> a sinistra.
-Considerando una variabile unsigned <em>x</em> a 8 bit con valore 4 la sua rappresentazione binaria è 0000 0100.
-L’istruzione <code class="code docutils literal notranslate"><span class="pre">x</span> <span class="pre">&lt;&lt;</span> <span class="pre">1</span></code> indica l’operazione di shift a sinistra di una posizione della variabile <em>x</em>, il cui risultato è pari a
-0000 1000, ossia x assume il valore 8.
-L’operatore <code class="code docutils literal notranslate"><span class="pre">&gt;&gt;</span></code> è l’operatore di shift a destra.</p>
+<p>The operator <code class="code docutils literal notranslate"><span class="pre">&lt;&lt;</span></code> implements the left <a class="reference external" href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bit-Shifting">shift</a>. Let <em>x</em> be an unsigned 8-bit variable initialized to 4, whose binary representation is 0000 0100. The instruction <code class="code docutils literal notranslate"><span class="pre">x</span> <span class="pre">&lt;&lt;</span> <span class="pre">1</span></code> is the left shift by one of <em>x</em>, whose result is 0000 1000. Thus, <em>x</em> is equal to 8. <code class="code docutils literal notranslate"><span class="pre">&gt;&gt;</span></code> is the right shift operator.</p>
 </div>
 <div class="admonition question" id="question-note-3">
 <p class="admonition-title">Question</p>
 <ul class="simple">
-<li><p>Quali operazioni matematiche possono essere implementate tramite gli operatori <code class="code docutils literal notranslate"><span class="pre">&lt;&lt;</span></code> e <code class="code docutils literal notranslate"><span class="pre">&gt;&gt;</span></code>?</p></li>
-<li><p>Quante iterazioni esegue il seguente ciclo <code class="code docutils literal notranslate"><span class="pre">for(i=1;i&lt;=MAX_THREADS;i&lt;&lt;=1)</span></code>?</p></li>
+<li><p>What are the mathematical operations that can be implemented by using <code class="code docutils literal notranslate"><span class="pre">&lt;&lt;</span></code> e <code class="code docutils literal notranslate"><span class="pre">&gt;&gt;</span></code>?</p></li>
+<li><p>Given the following cycle “<code class="code docutils literal notranslate"><span class="pre">for(i=1;i&lt;=MAX_THREADS;i&lt;&lt;=1)</span></code>, how many iterations does it performs?</p></li>
 </ul>
 </div>
-<p>Per ciascun test, il main thread:</p>
+<p>Foe each test, the main thread:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>inizializza la barriera</p></li>
-<li><p>crea i thread</p></li>
-<li><p>va in sleep per <code class="code docutils literal notranslate"><span class="pre">SECONDS</span></code> secondi</p></li>
-<li><p>setta la variabile <code class="code docutils literal notranslate"><span class="pre">stop</span></code> ad 1 con un’istruzione atomica</p></li>
-<li><p>attende la terminazione di ciascun thread</p></li>
-<li><p>distrugge la barriera</p></li>
+<li><p>initializes the barrier</p></li>
+<li><p>creates the thread</p></li>
+<li><p>it goes to sleep for <code class="code docutils literal notranslate"><span class="pre">SECONDS</span></code> seconds</p></li>
+<li><p>it sets the variable <code class="code docutils literal notranslate"><span class="pre">stop</span></code> to 1 with an atomic instruction</p></li>
+<li><p>waits the termination of each thread</p></li>
+<li><p>it destroys the barrier</p></li>
 </ul>
 </div></blockquote>
-<p>La variabile <code class="code docutils literal notranslate"><span class="pre">lock_type</span></code> è una variabile globale utilizzata all’interno di <code class="code docutils literal notranslate"><span class="pre">acquire</span></code> e <code class="code docutils literal notranslate"><span class="pre">release</span></code> per selezionare l’implementazione di lock da utilizzare.</p>
+<p>The variable <code class="code docutils literal notranslate"><span class="pre">lock_type</span></code> is global and used by <code class="code docutils literal notranslate"><span class="pre">acquire</span></code> and <code class="code docutils literal notranslate"><span class="pre">release</span></code> for choosingthe lock implementation.</p>
 <div class="admonition question" id="question-note-4">
 <p class="admonition-title">Question</p>
 <ul class="simple">
-<li><p>Perché la barriera viene distrutta ad ogni fine iterazione e inizializzata ad inizio iterazione?</p></li>
-<li><p>Quale altra istruzione RMW poteva essere usata al posto della <em>compare&amp;swap</em>?</p></li>
+<li><p>Why is the barrier is initialized at the beginning and destroyed at the end of each iteration?</p></li>
+<li><p>What other RMW instruction can be used instead of <em>compare&amp;swap</em>?</p></li>
 </ul>
 </div>
-<p>Il test misura e stampa il numero di operazioni effettuate in concorrenza da tutti i thread in un intervallo di tempo predefinito.
-Inoltre, prima di eseguire il suddetto ciclo, il main thread:</p>
+<p>The test measures and prints the number of operations performed by each thread in a given interval of time. Additionally, before executing the abovementioned cycle, the main thread:</p>
 <blockquote>
 <div><ul>
-<li><p>inizializza le primitive di lock della libreria pthread</p>
+<li><p>initializes the pthread locks</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="n">pthread_spin_init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ptspin</span><span class="p">,</span><span class="w">  </span><span class="n">PTHREAD_PROCESS_PRIVATE</span><span class="p">);</span><span class="w"></span>
 <span class="n">pthread_mutex_init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ptmutex</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 </li>
-<li><p>limita i core su cui i thread possono andare in esecuzione</p>
+<li><p>limits the core which threads can run on</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="kt">cpu_set_t</span><span class="w"> </span><span class="n">my_set</span><span class="p">;</span><span class="w"></span>
 <span class="n">CPU_ZERO</span><span class="p">(</span><span class="o">&amp;</span><span class="n">my_set</span><span class="p">);</span><span class="w"></span>
 <span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">CORES</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"></span>
@@ -272,19 +256,18 @@ Inoltre, prima di eseguire il suddetto ciclo, il main thread:</p>
 </div></blockquote>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>sched_affinity è una funzione non POSIX</p>
+<p>sched_affinity is not POSIX</p>
 </div>
 <div class="admonition question" id="question-note-5">
 <p class="admonition-title">Question</p>
 <ul class="simple">
-<li><p>Perché la set affinity viene utilizzata dal main thread?</p></li>
-<li><p>L’uso di set affinity garantisce che ciascun thread andrà in esecuzione sul medesimo core? Se sì, perché? Se no, come è possibile garantirlo?</p></li>
+<li><p>Why is the affinity set up by the main thread?</p></li>
+<li><p>Does the specified affinity ensures that each thread will run always on the same core? if so, why? if not, how can you ensure that?</p></li>
 </ul>
 </div>
 <section id="le-funzioni-di-acquire-e-release">
-<h2>Le funzioni di acquire e release<a class="headerlink" href="#le-funzioni-di-acquire-e-release" title="Permalink to this headline">¶</a></h2>
-<p>Le funzione di acquire e release utilizzano una specifica implementazione di lock in funzione del valore assunto dalla variabile globale <code class="code docutils literal notranslate"><span class="pre">lock_type</span></code>.
-Nello specifico supportano 5 implementazioni differenti di lock:</p>
+<h2>The acquire and release functions<a class="headerlink" href="#le-funzioni-di-acquire-e-release" title="Permalink to this headline">¶</a></h2>
+<p>The acquire and release function use a lock implementation according to the value of <code class="code docutils literal notranslate"><span class="pre">lock_type</span></code>. In particular, they choose among 5 possible implementations:</p>
 <ol class="arabic simple">
 <li><p>pthread spin lock (PT_TAS)</p></li>
 <li><p>pthread mutex (PT_MUTEX)</p></li>
@@ -292,7 +275,7 @@ Nello specifico supportano 5 implementazioni differenti di lock:</p>
 <li><p>test-and-test-and-set spin lock (TTAS)</p></li>
 <li><p>ticket spin lock (TICKET)</p></li>
 </ol>
-<p>Nel caso di lock forniti dalla libreria pthread, acquire e release ridirezionano sulle rispettive funzioni di libreria.</p>
+<p>For the case of pthread locks, acquire an release invoke the appropriate pthread functions.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="kt">void</span><span class="w"> </span><span class="nf">acquire</span><span class="p">(){</span><span class="w"></span>
 <span class="w">    </span><span class="p">...</span><span class="w"></span>
 <span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">lock_type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">PT_TTAS</span><span class="p">)</span><span class="w"> </span><span class="n">pthread_spin_lock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ptspin</span><span class="p">);</span><span class="w"></span>
@@ -306,9 +289,8 @@ Nello specifico supportano 5 implementazioni differenti di lock:</p>
 <span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
-<p>Chiaramente le variabili <em>ptspin</em> e <em>ptmutex</em> sono variabili globali.</p>
-<p>Anche i lock TAS e TTAS sono delle variabili globali intere.
-Il valore 0 indica che il lock è libero e 1 indica che il lock è stato acquisito da un qualche thread.</p>
+<p>Clearly, <em>ptspin</em> and <em>ptmutex</em> are global variable.</p>
+<p>Both TAS and TTAS variables are global. 0 means that the lock is available and 1 tells that the lock has been acquired by some thread.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="k">volatile</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">lock</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
 
 <span class="kt">void</span><span class="w"> </span><span class="nf">acquire</span><span class="p">(){</span><span class="w"></span>
@@ -330,19 +312,15 @@ Il valore 0 indica che il lock è libero e 1 indica che il lock è stato acquisi
 <div class="admonition observation" id="observation-note-3">
 <p class="admonition-title">Observation</p>
 <ul class="simple">
-<li><p>la varibile <em>lock</em> è dichiarata <strong>volatile</strong>. Questo garantisce che il compilatore non attuerà alcune ottimizzazioni, garantendo che ogni accesso alla variabile <em>lock</em> verrà effettuato sempre in memoria. Ad esempio, il compilatore non potrà usare i registri general purpose come cache per la variabile.</p></li>
-<li><p><code class="code docutils literal notranslate"><span class="pre">asm</span> <span class="pre">volatile</span> <span class="pre">(&quot;&quot;:::&quot;memory&quot;);</span></code> costituisce una barriera per il compilatore. Di conseguenza, quest’ultimo non può spostare istruzioni che seguono la barriera prima di quest’ultima e viceversa. <em>asm</em> indica al compilatore che si sta innestando all’interno di codice C del codice assembly.
-In questo caso, l’istruzione innestata <code class="code docutils literal notranslate"><span class="pre">&quot;&quot;</span></code> è nulla.
-Siccome, il codice innestato è nullo, è necessario indicare al compilatore di non eliminare l’istruzione tramite il token <strong>volatile</strong>.
-Infine, l’ultimo parametro <code class="code docutils literal notranslate"><span class="pre">&quot;memory&quot;</span></code> indica al compilatore che l’istruzione accede in modo impredicibile alla memoria, disabilitando ulteriori ottimizzazioni come il riordinamento delle operazioni di scrittura/lettura.
-Per approfondimenti sul tema consultare la documentazione di GCC riguardo gli <a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Extended-Asm.html">extended-asm</a>.</p></li>
+<li><p><em>The variable *lock</em> has been defined as <strong>volatile</strong>. This guarantees that the compiler does not apply several optimizations, ensuring that each access to <em>lock</em> will be served by memory. For instance, the compilar will not use general purpose registers to caching its value.</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">asm</span> <span class="pre">volatile</span> <span class="pre">(&quot;&quot;:::&quot;memory&quot;);</span></code> builds a compiler barrier. Consequently, the compiler cannot move instructions around the barrier*asm* allows to inject assembly code within C. In this case, the injected instruction <code class="code docutils literal notranslate"><span class="pre">&quot;&quot;</span></code> is empty. Consequently, we need to prevent the compiler from dropping it by using the <strong>volatile</strong> attribute. Finally, the last paramenter <code class="code docutils literal notranslate"><span class="pre">&quot;memory&quot;</span></code> signal that the statement touch the memory in an unpredictable manner, disabling optimizations like read/write reordering. For additional details, checkout the gcc documentation on <a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Extended-Asm.html">extended-asm</a>.</p></li>
 </ul>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Provare a dichiarare la variabile <em>lock</em> come <strong>int</strong> piuttosto che <strong>volatile int</strong> e vederne gli effetti quando si compila con il massimo livello di ottimizzazione (e.g. <code class="code docutils literal notranslate"><span class="pre">gcc</span> <span class="pre">-O3</span></code>).</p>
+<p>Try to declare <em>lock</em> as <strong>int</strong> instead of <strong>volatile int</strong> and check the results while compiling with the highest optimization level (e.g. <code class="code docutils literal notranslate"><span class="pre">gcc</span> <span class="pre">-O3</span></code>).</p>
 </div>
-<p>Infine, il ticket lock (TICKET) è implementato come una coppia di variabili globali <em>lock</em> e <em>now</em> di tipo <strong>volatile int</strong>, che indicano rispettivamente l’ultimo ticket servito e il ticket corrente.</p>
+<p>Finally, the ticket lock (TICKET) has been implemented with a pair of global <strong>volatile int</strong>, namely <em>lock</em> an <em>now</em>, that represent the last served and the current ticket respectively.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="k">volatile</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">lock</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
 <span class="p">...</span><span class="w"></span>
 <span class="k">volatile</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">now</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
@@ -365,7 +343,33 @@ Per approfondimenti sul tema consultare la documentazione di GCC riguardo gli <a
 </div>
 <div class="admonition question" id="question-note-6">
 <p class="admonition-title">Question</p>
-<p>L’algoritmo di ticket lock mostrato è corretto? Se sì, cercare di mostrare perché? Se no, mostrare un caso in cui l’algoritmo non garantisce mutua eclusione o progresso.</p>
+<p>Is the ticket lock implementation correct?If so, try to explain why. If not, show a counter example.</p>
+</div>
+</section>
+<section id="risultati">
+<h2>Results<a class="headerlink" href="#risultati" title="Permalink to this headline">¶</a></h2>
+<p>This section discussed the results obtained by compiling with:</p>
+<ul class="simple">
+<li><p>MAX_THREADS = 32</p></li>
+<li><p>CORES = 4</p></li>
+<li><p>ARRAY_LEN = 256</p></li>
+<li><p>SECONDS = 5</p></li>
+<li><p>gcc -O3</p></li>
+</ul>
+<p>The system was equipped with:</p>
+<ul class="simple">
+<li><p>CPU = Intel(R) Core(TM) i7-7700HQ CPU &#64; 2.80GHz</p></li>
+<li><p>CC = gcc 9.3.0</p></li>
+<li><p>LIBC = glibc 2.31</p></li>
+<li><p>LIBPTHREAD = NPTL 2.31</p></li>
+</ul>
+<p>The results are shown in the following.</p>
+<figure class="align-default">
+<img alt="../_images/flipPerf.svg" src="../_images/flipPerf.svg" /></figure>
+<p>The highest performance (number of executed critical sections) are achieved by all locks when there is no concurrency. When the number of threads is higher than 1, the performance drops due to the effects of contention on hardware resources. Increasing the number of threads makes performance worse for all spin locks due totheir active wait. The less frequent usage of RMW instruction by TTAS and PT_TTAS explains their distance from TAS. The PT_MUTEX maintains an almost stable performance thanks to its “passive” wait phase that make threads be out of the run queue and do not compete for CPU cycles. As soon as the number of thread is higher than the number of usable cores, the ticket lock (spin+FIFO) has a performance collapse.</p>
+<div class="admonition question" id="question-note-7">
+<p class="admonition-title">Question</p>
+<p>How can you explain the TICKET behavior?</p>
 </div>
 </section>
 <section id="riferimenti">
@@ -397,7 +401,7 @@ Per approfondimenti sul tema consultare la documentazione di GCC riguardo gli <a
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Last updated on Dec 01, 2021.
+      <span class="lastupdated">Last updated on Dec 03, 2021.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

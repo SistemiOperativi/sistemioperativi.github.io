@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 21:09+0100\n"
+"POT-Creation-Date: 2021-12-03 02:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,27 +101,31 @@ msgstr "What are the main evaluation criteria of a cpu scheduler?"
 msgid ""
 "Quali sfide introducono le architetture multicore nell'ambito del CPU "
 "scheduling?"
-msgstr ""
+msgstr "What are the main challenges in CPU-scheduling introduced by multicores."
 
 #: ../source/questions/sched.rst:6
 msgid "Quale è la differenza tra uno scheduler preemtive e uno non-preemptive?"
-msgstr ""
+msgstr "What is the difference between preemtive and non-preemptive scheduling."
 
 #: ../source/questions/sched.rst:7
 msgid ""
 "Descrivere la politica Shortest Job First e discuterne vantaggi e "
 "svantaggi."
-msgstr ""
+msgstr "Describe the Shortest-Job First policy and discuss its pros and cons."
 
 #: ../source/questions/sched.rst:8
 msgid "Descrivere la politica Round Robin e discuterne vantaggi e svantaggi."
-msgstr ""
+msgstr "Describe the Round Robin policy and its pros and cons."
 
 #: ../source/questions/sched.rst:9
 msgid ""
 "Descrivere la politica di Fair-Share scheduling e quali problematiche "
 "risolve."
-msgstr ""
+msgstr "Describe the Fair-Share policy and the problems it solves."
+
+#: ../source/questions/sched.rst:10
+msgid "Descrivere lo scheduler Linux."
+msgstr "Describe the Linux scheduler."
 
 #: ../source/questions/sync.rst:2
 msgid "4 - Sincronizzazione"
@@ -130,6 +134,16 @@ msgstr "4 - Synchronization"
 #: ../source/questions/sync.rst:4
 msgid "Cos'è un'istruzione Read-Modify-Write?"
 msgstr "What is a Read-Modify-Write instruction?"
+
+#: ../source/questions/sync.rst:5
+msgid "Descrivere cosa è un lock e relative proprietà di correttezza e progresso."
+msgstr ""
+"Describe the lock synchronization primitive and the properties of "
+"correctness and progress it must guarantee."
+
+#: ../source/questions/sync.rst:6
+msgid "Descrivere il Bakery algorithm."
+msgstr "Describe the Bakery algorithm."
 
 #: ../source/questions/memory.rst:2
 msgid "5 - Gestione della memoria"
@@ -205,7 +219,9 @@ msgstr ""
 msgid ""
 "Quali sono le difficoltà che introduce il Direct Memory Access rispetto "
 "alla gestione dei processi?"
-msgstr "What are the challenges introduced by Direct Memory Access with respect to process management?"
+msgstr ""
+"What are the challenges introduced by Direct Memory Access with respect "
+"to process management?"
 
 #: ../source/questions/IO.rst:5
 msgid "Descrivere la tecnica di I/O buffering e la sua utilità."
