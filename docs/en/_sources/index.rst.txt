@@ -61,6 +61,7 @@ Link ai contenuti del corso
 - `Teams <https://teams.microsoft.com/l/team/19%3aRhhdoEO6QOI_oVGAqU-Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/conversations?groupId=098a73ce-8602-46e3-84c6-8107ebe1a9ae&tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a>`_
 - `SharePoint <https://uniroma3.sharepoint.com/sites/AA2122-SISTEMIOPERATIVI-20801961MAROTTA>`_
 - `Stream  <https://web.microsoftstream.com/group/098a73ce-8602-46e3-84c6-8107ebe1a9ae>`_
+- `Moodle <https://ingegneria.el.uniroma3.it/course/view.php?id=512>`_
 - `GitHub  <https://github.com/SistemiOperativi>`_
 - :doc:`Slides <slides>`
 
