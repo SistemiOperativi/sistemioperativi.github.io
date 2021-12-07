@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-03 02:17+0100\n"
+"POT-Creation-Date: 2021-12-07 12:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,10 +61,10 @@ msgstr ""
 #: ../source/slides.rst:12
 msgid ""
 "`06 - I/O e file management </slides/06-IO-file-management-"
-"211201v2.pdf>`_ [Aggiornato il 01/12/21]"
+"211207v3.pdf>`_ [Aggiornato il 07/12/21]"
 msgstr ""
 "`06 - I/O and file management </slides/06-IO-file-management-"
-"211201v2.pdf>`_ [Last update: 01/12/21]"
+"211207v3.pdf>`_ [Last update: 07/12/21]"
 
 #: ../source/slides.rst:13
 msgid ""
@@ -98,42 +98,42 @@ msgid ""
 "Local.html>`_"
 msgstr ""
 
-#: ../source/slides.rst:26
+#: ../source/slides.rst:25
 msgid "Approfondimenti"
 msgstr "Additional material"
 
-#: ../source/slides.rst:28
+#: ../source/slides.rst:27
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:29
+#: ../source/slides.rst:28
 msgid "`Linux Kernel <https://elixir.bootlin.com/>`_"
 msgstr ""
 
-#: ../source/slides.rst:30
+#: ../source/slides.rst:29
 msgid ""
 "`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
 "ddj.htm>`_"
 msgstr ""
 
-#: ../source/slides.rst:31
+#: ../source/slides.rst:30
 msgid "`Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:32
+#: ../source/slides.rst:31
 msgid ""
 "`Complete Fair Scheduler "
 "<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
 "CFS.html>`_"
 msgstr ""
 
-#: ../source/slides.rst:33
+#: ../source/slides.rst:32
 msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:34
+#: ../source/slides.rst:33
 msgid ""
 "`Solid State Drives - Data Reliability and Lifetime "
 "<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
