@@ -238,8 +238,8 @@ msgid ""
 "Descrivere le politiche First-Come-First-Served e Shortest-Seek-Time-"
 "First per disk scheduling e illustrarne vantaggi e svantaggi."
 msgstr ""
-"Describe First-Come-First-Served e Shortest-Seek-Time-First policies for "
-"disk-scheduling and discuss their pros and cons."
+"Describe First-Come-First-Served and Shortest-Seek-Time-First policies for "
+"disk-scheduling. Discuss their main pros and cons."
 
 #: ../source/questions/IO.rst:8
 msgid ""
