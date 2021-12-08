@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 21:09+0100\n"
+"POT-Creation-Date: 2021-12-08 15:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,4 +31,34 @@ msgstr ""
 #: ../source/questions/IO.rst:5
 msgid "Descrivere la tecnica di I/O buffering e la sua utilità."
 msgstr ""
+
+#: ../source/questions/IO.rst:6
+msgid "Spiegare le criticità nel progettare politiche di I/O scheduling."
+msgstr ""
+
+#: ../source/questions/IO.rst:7
+msgid ""
+"Descrivere le politiche First-Come-First-Served e Shortest-Seek-Time-"
+"First per disk scheduling e illustrarne vantaggi e svantaggi."
+msgstr ""
+
+#: ../source/questions/IO.rst:8
+msgid ""
+"Descrivere la politica SCAN per disk scheduling e spiegarne vantaggi e "
+"limiti. Per le limitazioni descritte, riportare possibili soluzioni."
+msgstr ""
+
+#~ msgid ""
+#~ "Descrivere le politiche First-Come-"
+#~ "First-Served e Shortest-Seek-Time-"
+#~ "First per disk scheduling e spiegarne"
+#~ " le differenze."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere le politiche First-Come-"
+#~ "First-Served e Shortest-Seek-Time-"
+#~ "First per disk scheduling e spiegarne"
+#~ " le vantaggi e svantaggi."
+#~ msgstr ""
 
