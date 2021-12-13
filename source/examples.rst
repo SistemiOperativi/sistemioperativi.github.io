@@ -11,6 +11,9 @@ In questa sezione vengono riportati diversi esempi di codice per mostrare alcuni
 	examples/pvst
 	examples/minshell
 	examples/flipvector
+	examples/cp
+	examples/dup
+	examples/prodcons
 
 
 

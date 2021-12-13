@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 19:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/examples/dup.rst:5
+msgid "Dup"
+msgstr ""
+
+#: ../source/examples/dup.rst:8
+msgid ""
+":raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/dup/dup.c\">Dup</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/dup/dup.c\"></a>`"
+" è un programma C il cui obiettivo è mostrare l'utilizzo di semplici "
+"servizi per la gestione di file."
+msgstr ""
+
+#: ../source/examples/dup.rst:45
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/examples/dup.rst:47
+msgid ":posix:`open <open>`"
+msgstr ""
+
+#: ../source/examples/dup.rst:48
+msgid ":posix:`close <close>`"
+msgstr ""
+
+#: ../source/examples/dup.rst:49
+msgid ":posix:`dup <dup>`"
+msgstr ""
+
+#: ../source/examples/dup.rst:50
+msgid ":posix:`exec <exec>`"
+msgstr ""
+

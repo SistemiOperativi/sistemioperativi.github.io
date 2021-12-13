@@ -1,0 +1,12 @@
+13-12-2021 - avviso: aggionamenti
+-------------------------------------------------
+
+* Sito del corso:
+
+  * aggiornate slide su I/O e file management
+
+* Github:
+
+  * aggiunto esempio Cp
+  * aggiunto esempio Dup
+  * aggiunto esempio ProdCons

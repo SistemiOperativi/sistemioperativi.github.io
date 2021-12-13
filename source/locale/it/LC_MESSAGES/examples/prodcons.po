@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 21:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/examples/prodcons.rst:5
+msgid "ProdCons"
+msgstr ""
+
+#: ../source/examples/prodcons.rst:8
+msgid ""
+":raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/prod_cons\">ProdCons</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/prod_cons\"></a>`"
+" è un programma C il cui obiettivo è mostrare l'utilizzo di semplici "
+"servizi per la gestione di file."
+msgstr ""
+
+#: ../source/examples/prodcons.rst:136
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/examples/prodcons.rst:138
+msgid ":posix:`open <open>`"
+msgstr ""
+
+#: ../source/examples/prodcons.rst:139
+msgid ":posix:`close <close>`"
+msgstr ""
+
+#: ../source/examples/prodcons.rst:140
+msgid ":posix:`dup <dup>`"
+msgstr ""
+
+#: ../source/examples/prodcons.rst:141
+msgid ":posix:`exec <exec>`"
+msgstr ""
+
+#~ msgid ""
+#~ ":raw-html:`<a class=\"external\" target=\"_blank\""
+#~ " "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/prod_cons/prod_cons.c\">ProdCons</a>"
+#~ " <a class=\"fa fa-github external\" "
+#~ "target=\"_blank\" "
+#~ "href=\"https://github.com/SistemiOperativi/c_examples/blob/main/prod_cons/prod_cons.c\"></a>`"
+#~ " è un programma C il cui "
+#~ "obiettivo è mostrare l'utilizzo di "
+#~ "semplici servizi per la gestione di "
+#~ "file."
+#~ msgstr ""
+

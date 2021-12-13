@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="it" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoPy &mdash; Sistemi Operativi 0 documentazione</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
+        <script src="../_static/js/custom.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Indice" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="next" title="Dup" href="dup.html" />
+    <link rel="prev" title="FlipVector" href="flipvector.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="/it/examples/cp.html"><img src="/it/_static/it.png"/></a>
+            <a href="/en/examples/cp.html"><img src="/it/_static/en.png"/></a>
+            <a href="../index.html" class="icon icon-home"> Sistemi Operativi
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../linux_install.html">Installare Linux</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../examples.html">Esempi di programmazione</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="few.html">FEW - Fork-Exit-Wait</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pfew.html">PFEW - FEW basato su posix threads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pvst.html">PVST - Processi vs Thread</a></li>
+<li class="toctree-l2"><a class="reference internal" href="minshell.html">MinShell - le funzioni exec</a></li>
+<li class="toctree-l2"><a class="reference internal" href="flipvector.html">FlipVector</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">CoPy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#riferimenti">Riferimenti</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="dup.html">Dup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prodcons.html">ProdCons</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../questions.html">Esercizi di preparazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lectures/index.html">Diario delle lezioni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Sistemi Operativi</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../examples.html">Esempi di programmazione</a> &raquo;</li>
+      <li>CoPy</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/examples/cp.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="copy">
+<h1>CoPy<a class="headerlink" href="#copy" title="Link a questa intestazione">¶</a></h1>
+<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c">CoPy</a>
+<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c"></a></span>
+è un programma C il cui obiettivo è mostrare l’utilizzo di semplici servizi per la gestione di file.</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;fcntl.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 4</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="cp">#define BUFSIZE 250</span>
+<span class="linenos"> 7</span>
+<span class="linenos"> 8</span><span class="cp">#define abort(msg) do{printf(msg);exit(1);}while(0)</span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos">11</span><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">ifd</span><span class="p">,</span><span class="w"> </span><span class="n">ofd</span><span class="p">,</span><span class="w"> </span><span class="n">size_r</span><span class="p">,</span><span class="w"> </span><span class="n">size_w</span><span class="p">,</span><span class="w"> </span><span class="n">end</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">12</span><span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">buffer</span><span class="p">[</span><span class="n">BUFSIZE</span><span class="p">];</span><span class="w"></span>
+<span class="linenos">13</span>
+<span class="linenos">14</span><span class="w">    </span><span class="cm">/* check parameters */</span><span class="w"></span>
+<span class="linenos">15</span><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">argc</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="n">abort</span><span class="p">(</span><span class="s">&quot;usage: copy &lt;source&gt; &lt;target&gt;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">16</span>
+<span class="linenos">17</span><span class="w">    </span><span class="cm">/* open the input file and check errors */</span><span class="w"></span>
+<span class="linenos">18</span><span class="w">    </span><span class="n">ifd</span><span class="o">=</span><span class="n">open</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">O_RDONLY</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">19</span><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ifd</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="n">abort</span><span class="p">(</span><span class="s">&quot;input open error</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">20</span>
+<span class="linenos">21</span><span class="w">    </span><span class="cm">/* opend output file and check errors */</span><span class="w"></span>
+<span class="linenos">22</span><span class="w">    </span><span class="n">ofd</span><span class="o">=</span><span class="n">open</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">O_WRONLY</span><span class="o">|</span><span class="n">O_CREAT</span><span class="o">|</span><span class="n">O_TRUNC</span><span class="p">,</span><span class="mo">0660</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">23</span><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ofd</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="n">abort</span><span class="p">(</span><span class="s">&quot;output creation error</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">24</span>
+<span class="linenos">25</span><span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="o">!</span><span class="n">end</span><span class="p">){</span><span class="w"></span>
+<span class="linenos">26</span><span class="w">        </span><span class="cm">/* read up to BUFSIZE from input file and check errors */</span><span class="w"></span>
+<span class="linenos">27</span><span class="w">        </span><span class="n">size_r</span><span class="o">=</span><span class="n">read</span><span class="p">(</span><span class="n">ifd</span><span class="p">,</span><span class="n">buffer</span><span class="p">,</span><span class="n">BUFSIZE</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">28</span><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">size_r</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="n">abort</span><span class="p">(</span><span class="s">&quot;read error</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">29</span>
+<span class="linenos">30</span><span class="w">        </span><span class="cm">/* has EOF been reached? */</span><span class="w"></span>
+<span class="linenos">31</span><span class="w">        </span><span class="n">end</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">size_r</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">32</span>
+<span class="linenos">33</span><span class="w">        </span><span class="cm">/* write BUFSIZE to destination file */</span><span class="w"></span>
+<span class="linenos">34</span><span class="w">        </span><span class="n">size_w</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">write</span><span class="p">(</span><span class="n">ofd</span><span class="p">,</span><span class="n">buffer</span><span class="p">,</span><span class="n">size_r</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">35</span><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">size_w</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="n">abort</span><span class="p">(</span><span class="s">&quot;write error</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">36</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;written: %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">size_w</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">37</span><span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">38</span>
+<span class="linenos">39</span><span class="w">    </span><span class="cm">/* close file descriptors */</span><span class="w"></span>
+<span class="linenos">40</span><span class="w">    </span><span class="n">close</span><span class="p">(</span><span class="n">ifd</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">41</span><span class="w">    </span><span class="n">close</span><span class="p">(</span><span class="n">ofd</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">42</span><span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<section id="riferimenti">
+<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html">open</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html">read</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html">write</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html">close</a></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="flipvector.html" class="btn btn-neutral float-left" title="FlipVector" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="dup.html" class="btn btn-neutral float-right" title="Dup" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Romolo Marotta.
+      <span class="lastupdated">Ultimo aggiornamento 13 dic 2021.
+      </span></p>
+  </div>
+  <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
+
+ 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
