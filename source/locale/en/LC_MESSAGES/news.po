@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-13 21:33+0100\n"
+"POT-Creation-Date: 2021-12-14 22:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,19 +21,44 @@ msgstr ""
 msgid "News"
 msgstr ""
 
+#: ../source/news/211214.rst:2
+msgid "14-12-2021 - avviso: aggionamenti"
+msgstr "14-12-2021 - updates"
+
+#: ../source/news.rst:35 ../source/news.rst:62 ../source/news.rst:80
+#: ../source/news.rst:96 ../source/news.rst:111 ../source/news.rst:126
+#: ../source/news.rst:154 ../source/news.rst:163 ../source/news.rst:178
+#: ../source/news.rst:192 ../source/news.rst:201 ../source/news.rst:210
+#: ../source/news/211201.rst:4 ../source/news/211203.rst:4
+#: ../source/news/211207.rst:4 ../source/news/211208.rst:4
+#: ../source/news/211213.rst:4 ../source/news/211214.rst:4
+msgid "Sito del corso:"
+msgstr "Course website"
+
+#: ../source/news/211214.rst:6
+msgid "aggiornato diario delle lezione del 14/12/21"
+msgstr "updated detailed program of 14/12"
+
+#: ../source/news/211214.rst:7
+msgid "aggiunta una nuova sezione di domande su file management"
+msgstr "new exercises: added 5 questions about file management"
+
+#: ../source/news.rst:44 ../source/news.rst:71 ../source/news.rst:87
+#: ../source/news.rst:101 ../source/news.rst:116 ../source/news.rst:130
+#: ../source/news.rst:139 ../source/news.rst:144 ../source/news.rst:169
+#: ../source/news.rst:183 ../source/news.rst:224 ../source/news/211201.rst:10
+#: ../source/news/211203.rst:12 ../source/news/211208.rst:10
+#: ../source/news/211214.rst:9
+msgid "Microsoft Stream:"
+msgstr ""
+
+#: ../source/news/211214.rst:11
+msgid "caricata lezione del 14/12/21"
+msgstr "uploaded lecture held on 14/12/21"
+
 #: ../source/news/211213.rst:2
 msgid "13-12-2021 - avviso: aggionamenti"
 msgstr "13-12-2021 - updates"
-
-#: ../source/news.rst:32 ../source/news.rst:59 ../source/news.rst:77
-#: ../source/news.rst:93 ../source/news.rst:108 ../source/news.rst:123
-#: ../source/news.rst:151 ../source/news.rst:160 ../source/news.rst:175
-#: ../source/news.rst:189 ../source/news.rst:198 ../source/news.rst:207
-#: ../source/news/211201.rst:4 ../source/news/211203.rst:4
-#: ../source/news/211207.rst:4 ../source/news/211208.rst:4
-#: ../source/news/211213.rst:4
-msgid "Sito del corso:"
-msgstr "Course website"
 
 #: ../source/news/211213.rst:6
 msgid "aggiornate slide su I/O e file management"
@@ -66,14 +91,6 @@ msgstr "updated detailed program of 07/12/2021"
 #: ../source/news/211208.rst:7
 msgid "aggiunte 3 domande su I/O management"
 msgstr "new exercises: added 3 questions about I/O management"
-
-#: ../source/news.rst:41 ../source/news.rst:68 ../source/news.rst:84
-#: ../source/news.rst:98 ../source/news.rst:113 ../source/news.rst:127
-#: ../source/news.rst:136 ../source/news.rst:141 ../source/news.rst:166
-#: ../source/news.rst:180 ../source/news.rst:221 ../source/news/211201.rst:10
-#: ../source/news/211203.rst:12 ../source/news/211208.rst:10
-msgid "Microsoft Stream:"
-msgstr ""
 
 #: ../source/news/211208.rst:12
 msgid "caricata lezione del 07/12"
@@ -135,15 +152,15 @@ msgstr "updated detailed program of 30/11"
 msgid "caricata lezione del 30/11"
 msgstr "uploaded lecture held on 30/11"
 
-#: ../source/news.rst:22
+#: ../source/news.rst:25
 msgid "30-11-2021 - avviso: aggionamenti"
 msgstr "30-11-2021 - updates"
 
-#: ../source/news.rst:24 ../source/news.rst:51
+#: ../source/news.rst:27 ../source/news.rst:54
 msgid "Info generali:"
 msgstr "General:"
 
-#: ../source/news.rst:26 ../source/news.rst:53
+#: ../source/news.rst:29 ../source/news.rst:56
 msgid ""
 "sono disponibili i questionari per la rilevazione opinioni studenti: "
 "`Link <https://portalestudente.uniroma3.it/accedi/area-"
@@ -154,243 +171,243 @@ msgstr ""
 "<https://portalestudente.uniroma3.it/accedi/area-studenti/istruzioni"
 "/come-compilare-un-questionario-sul-portale-dello-studente/>`_"
 
-#: ../source/news.rst:30 ../source/news.rst:57
+#: ../source/news.rst:33 ../source/news.rst:60
 msgid "La scadenza per la compilazione è il 30 novembre."
 msgstr "Deadline: 30 November 2021"
 
-#: ../source/news.rst:34
+#: ../source/news.rst:37
 msgid "aggiunte slide sulla gestione di I/O"
 msgstr "added slides about I/O management"
 
-#: ../source/news.rst:35
+#: ../source/news.rst:38
 msgid "nuovi esercizi: aggiunte 3 domande riguardo l'introduzione"
 msgstr "new exercises: added 3 questions about introduction"
 
-#: ../source/news.rst:36
+#: ../source/news.rst:39
 msgid "nuovi esercizi: aggiunte 6 domande riguardo la gestione della memoria"
 msgstr "new exercises: added 6 questions about memory management"
 
-#: ../source/news.rst:37
+#: ../source/news.rst:40
 msgid "nuovi esercizi: aggiunte 6 domande riguardo lo scheduling"
 msgstr "new exercises: added 6 questions about scheduling"
 
-#: ../source/news.rst:38
+#: ../source/news.rst:41
 msgid "nuovi esercizi: aggiunta 1 domanda riguardo la sincronizzazione"
 msgstr "new exercises: added 1 question about synchronization"
 
-#: ../source/news.rst:39
+#: ../source/news.rst:42
 msgid "aggiunto diario delle lezioni del 23/11 e del 24/11"
 msgstr "updated detailed program of 23/11 and 24/11"
 
-#: ../source/news.rst:43
+#: ../source/news.rst:46
 msgid "caricata lezione del 24/11"
 msgstr "uploaded lecture held on 24/11"
 
-#: ../source/news.rst:49
+#: ../source/news.rst:52
 msgid "24-11-2021 - avviso: nuove sezioni e aggionamenti"
 msgstr "23-11-2021 - updates: new website sections and updates"
 
-#: ../source/news.rst:61
+#: ../source/news.rst:64
 msgid "aggiornate slide sulla gestione della memoria"
 msgstr "updated slides about memory management"
 
-#: ../source/news.rst:62
+#: ../source/news.rst:65
 msgid "aggiunta una sezione: news sul sito"
 msgstr "added a new section: news"
 
-#: ../source/news.rst:63
+#: ../source/news.rst:66
 msgid "aggiunta una sezione: esercizi di preparazione"
 msgstr "added a new section: training exercises "
 
-#: ../source/news.rst:64
+#: ../source/news.rst:67
 msgid "aggiunto avviso su diaro delle lezioni"
 msgstr "added warning on detailed program"
 
-#: ../source/news.rst:65
+#: ../source/news.rst:68
 msgid "aggiunte slide di approfondimento su Solid-State Drive"
 msgstr "added additional slides about Solid-State Drives"
 
-#: ../source/news.rst:70
+#: ../source/news.rst:73
 msgid "caricata lezione del 23/11"
 msgstr "uploaded lecture held on 23/11"
 
-#: ../source/news.rst:75
+#: ../source/news.rst:78
 msgid "23-11-2021 - aggiornamenti"
 msgstr "23-11-2021 - updates"
 
-#: ../source/news.rst:79
+#: ../source/news.rst:82
 msgid "caricata nuova versione del sito del corso"
 msgstr "updated course website"
 
-#: ../source/news.rst:80
+#: ../source/news.rst:83
 msgid "aggiunta nuova sezione con spiegazione degli esempi di codice"
 msgstr "added a new section with code examples and discussion"
 
-#: ../source/news.rst:81
+#: ../source/news.rst:84
 msgid "caricata versione aggiornata delle slide \"Gestione della memoria\""
 msgstr "updated slides about memory management"
 
-#: ../source/news.rst:86
+#: ../source/news.rst:89
 msgid "caricata lezione del 17/11"
 msgstr "uploaded lecture held on 17/11"
 
-#: ../source/news.rst:91
+#: ../source/news.rst:94
 msgid "17-11-2021 - aggiornamenti"
 msgstr "17-11-2021 - updates"
 
-#: ../source/news.rst:95
+#: ../source/news.rst:98
 msgid "aggiornate slide su gestione della memoria"
 msgstr "updated slides about memory management"
 
-#: ../source/news.rst:96
+#: ../source/news.rst:99
 msgid "aggiornato diario delle lezioni al 16/11"
 msgstr "updated detailed program of 16/11"
 
-#: ../source/news.rst:100
+#: ../source/news.rst:103
 msgid "pubblicata lezione del 16/11"
 msgstr "uploaded lecture held on 16/11"
 
-#: ../source/news.rst:105
+#: ../source/news.rst:108
 msgid "16-11-2021 - aggiornamenti"
 msgstr "16-11-2021 - updates"
 
-#: ../source/news.rst:110
+#: ../source/news.rst:113
 msgid "Aggiornate slide su gestione della memoria"
 msgstr "Updated slides about memory management"
 
-#: ../source/news.rst:111
+#: ../source/news.rst:114
 msgid "Aggiornato il diario delle lezioni fino al 10/11"
 msgstr "Updated detailed program up to 10/11"
 
-#: ../source/news.rst:115
+#: ../source/news.rst:118
 msgid "Pubblicata lezione del 10/11 su Stream"
 msgstr "upload lecture held on 06/10"
 
-#: ../source/news.rst:121
+#: ../source/news.rst:124
 msgid "09-11-2021 - aggiornamenti"
 msgstr "09-11-2021 - updates"
 
-#: ../source/news.rst:125
+#: ../source/news.rst:128
 msgid "Pubblicate slide: \"Gestione della memoria\""
 msgstr "Published slide: Memory management"
 
-#: ../source/news.rst:129
+#: ../source/news.rst:132
 msgid "Pubblicate lezioni del 02/11 e 03/11"
 msgstr "upload lectures held on 02/11 and 03/11"
 
-#: ../source/news.rst:134
+#: ../source/news.rst:137
 msgid "02-11-2021 - aggiornamenti"
 msgstr "02-11-2021 - updates"
 
-#: ../source/news.rst:138
+#: ../source/news.rst:141
 msgid "Pubblicate slide sulla Sincronizzazione sul sito del corso"
 msgstr "Published slides about synchronization"
 
-#: ../source/news.rst:139
+#: ../source/news.rst:142
 msgid "Aggiornato diario delle lezioni"
 msgstr "Updated detailed program"
 
-#: ../source/news.rst:143
+#: ../source/news.rst:146
 msgid "Pubblicate lezioni del 26 e 27 Ottobre su Microsoft Stream"
 msgstr "uploaded lectures held on 26/10 nd 26/10 on Stream"
 
-#: ../source/news.rst:149
+#: ../source/news.rst:152
 msgid "26-10-2021 - aggiornamenti"
 msgstr "26-10-2021 - updates"
 
-#: ../source/news.rst:153
+#: ../source/news.rst:156
 msgid "Aggiornate slide su CPU scheduling"
 msgstr "updated slides about CPU scheduling"
 
-#: ../source/news.rst:158
+#: ../source/news.rst:161
 msgid "22-10-2021 - aggiornamenti"
 msgstr "22-10-2021 - updates"
 
-#: ../source/news.rst:162
+#: ../source/news.rst:165
 msgid "pubblicato link al repository github con esempi software."
 msgstr "published link to the github repository with software examples"
 
-#: ../source/news.rst:163
+#: ../source/news.rst:166
 msgid "aggiornate slide sui processi"
 msgstr "updated slides about processes"
 
-#: ../source/news.rst:164
+#: ../source/news.rst:167
 msgid "fixato codice per la gestione dei thread"
 msgstr "fixed source code for thread management"
 
-#: ../source/news.rst:168
+#: ../source/news.rst:171
 msgid "pubblicata lezione del 20/10/2021"
 msgstr "uploaded lecture held on 20/10/2021"
 
-#: ../source/news.rst:173
+#: ../source/news.rst:176
 msgid "18-10-2021 - aggiornamenti"
 msgstr "18-10-2021 - updates"
 
-#: ../source/news.rst:177
+#: ../source/news.rst:180
 msgid "[Diario delle lezioni]:  aggiunto dettaglio lezioni del 12/10 e 13/10"
 msgstr "Added detailed program of 12/10 and 13/10"
 
-#: ../source/news.rst:178
+#: ../source/news.rst:181
 msgid "[Slide] aggiunte slide su CPU scheduling"
 msgstr "[Slide] added slides about CPU schediling"
 
-#: ../source/news.rst:182
+#: ../source/news.rst:185
 msgid "upload lezione del 12/10 e 13/10"
 msgstr "upload video of 12/10 and 13/10"
 
-#: ../source/news.rst:187
+#: ../source/news.rst:190
 msgid "13-10-2021 - aggiornamenti"
 msgstr "13-10-2021 - updates"
 
-#: ../source/news.rst:191
+#: ../source/news.rst:194
 msgid "Pubblicata versione completa delle slide su processi e thread."
 msgstr "updated slides about processes"
 
-#: ../source/news.rst:196
+#: ../source/news.rst:199
 msgid "12-10-2021 - aggiornamenti"
 msgstr "12-10-2021 - updates"
 
-#: ../source/news.rst:200
+#: ../source/news.rst:203
 msgid "Aggiornate slide sui processi"
 msgstr "Updated slides about processes"
 
-#: ../source/news.rst:205
+#: ../source/news.rst:208
 msgid "10-10-2021 - aggiornamenti"
 msgstr "10-10-2021 - updates"
 
-#: ../source/news.rst:209
+#: ../source/news.rst:212
 msgid "[Orario delle lezioni] aggiunti link a tems, sharepoint e stream"
 msgstr "[Links] updated links to teams, sharepoint and stream"
 
-#: ../source/news.rst:210
+#: ../source/news.rst:213
 msgid "[Ricevimento] aggiornate istruzioni per inviare email al docente"
 msgstr "updated instructions for contacting the lecturer"
 
-#: ../source/news.rst:211
+#: ../source/news.rst:214
 msgid "[Testi consigliati e link utili]"
 msgstr "[Textbooks and useful links]"
 
-#: ../source/news.rst:213
+#: ../source/news.rst:216
 msgid "aggiunto un libro di testo in italiano"
 msgstr "added a new textbook available in italian"
 
-#: ../source/news.rst:214
+#: ../source/news.rst:217
 msgid "aggiunti link a guide per installazione di sistemi Linux"
 msgstr "added links to installation guides of Linux OSes"
 
-#: ../source/news.rst:216
+#: ../source/news.rst:219
 msgid "[Diario delle lezioni]:"
 msgstr "[Detailed program]:"
 
-#: ../source/news.rst:218
+#: ../source/news.rst:221
 msgid "aggiunto chiarimento sull'uso dei riferimenti ai libri di testo"
 msgstr "updated note about references of specific paragraph of textbooks"
 
-#: ../source/news.rst:219
+#: ../source/news.rst:222
 msgid "aggiunto dettaglio lezioni del 05/10 e 06/10"
 msgstr "updated detailed program of  05/10 and 06/10"
 
-#: ../source/news.rst:223
+#: ../source/news.rst:226
 msgid "upload lezione del 06/10"
 msgstr "upload 06/10 lesson"
 

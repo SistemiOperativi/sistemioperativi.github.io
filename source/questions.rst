@@ -9,4 +9,5 @@ In questa sezione vengono riportate alcuni esercizi/domande che possono essere u
 .. include::	questions/sync.rst
 .. include::	questions/memory.rst
 .. include::	questions/IO.rst
+.. include::	questions/file.rst
 

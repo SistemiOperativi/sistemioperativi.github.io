@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-08 15:58+0100\n"
+"POT-Creation-Date: 2021-12-14 22:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,14 +238,38 @@ msgid ""
 "Descrivere le politiche First-Come-First-Served e Shortest-Seek-Time-"
 "First per disk scheduling e illustrarne vantaggi e svantaggi."
 msgstr ""
-"Describe First-Come-First-Served and Shortest-Seek-Time-First policies for "
-"disk-scheduling. Discuss their main pros and cons."
+"Describe First-Come-First-Served and Shortest-Seek-Time-First policies "
+"for disk-scheduling. Discuss their main pros and cons."
 
 #: ../source/questions/IO.rst:8
 msgid ""
 "Descrivere la politica SCAN per disk scheduling e spiegarne vantaggi e "
 "limiti. Per le limitazioni descritte, riportare possibili soluzioni."
 msgstr ""
-"Describe the SCAN policy for disk scheduling and its pros and cons. "
-"Show solutions for the mentioned drawbacks."
+"Describe the SCAN policy for disk scheduling and its pros and cons. Show "
+"solutions for the mentioned drawbacks."
+
+#: ../source/questions/file.rst:2
+msgid "7 - File management"
+msgstr ""
+
+#: ../source/questions/file.rst:4
+msgid "Cosa è un file e quali sono i suoi principali attributi?"
+msgstr "What is a file? What are its main attributes?"
+
+#: ../source/questions/file.rst:5
+msgid "Cosa è un file system e quali sono i suoi compiti principali?"
+msgstr "What is a file system? What are its main tasks?"
+
+#: ../source/questions/file.rst:6
+msgid "Descrivere i metodi di accesso a file sequenziale, diretto ed indicizzato."
+msgstr "Describe sequential, direct and index access file methods."
+
+#: ../source/questions/file.rst:7
+msgid "Descrivere le caratteristiche saliente del file system UNIX"
+msgstr "Describe the main aspects of the UNIX file system."
+
+#: ../source/questions/file.rst:8
+msgid "Cosa è un in-memory file system e riportarne alcuni esempi."
+msgstr "What is an in-memory file system. Describe some example."
 

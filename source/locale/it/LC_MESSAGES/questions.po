@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-08 15:58+0100\n"
+"POT-Creation-Date: 2021-12-14 22:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,6 +221,30 @@ msgstr ""
 msgid ""
 "Descrivere la politica SCAN per disk scheduling e spiegarne vantaggi e "
 "limiti. Per le limitazioni descritte, riportare possibili soluzioni."
+msgstr ""
+
+#: ../source/questions/file.rst:2
+msgid "7 - File management"
+msgstr ""
+
+#: ../source/questions/file.rst:4
+msgid "Cosa è un file e quali sono i suoi principali attributi?"
+msgstr ""
+
+#: ../source/questions/file.rst:5
+msgid "Cosa è un file system e quali sono i suoi compiti principali?"
+msgstr ""
+
+#: ../source/questions/file.rst:6
+msgid "Descrivere i metodi di accesso a file sequenziale, diretto ed indicizzato."
+msgstr ""
+
+#: ../source/questions/file.rst:7
+msgid "Descrivere le caratteristiche saliente del file system UNIX"
+msgstr ""
+
+#: ../source/questions/file.rst:8
+msgid "Cosa è un in-memory file system e riportarne alcuni esempi."
 msgstr ""
 
 #~ msgid "Compara, mostrando vantaggi e svantaggi, le seguenti"
