@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-14 22:41+0100\n"
+"POT-Creation-Date: 2021-12-15 14:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,8 +22,8 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: ../source/news/211214.rst:2
-msgid "14-12-2021 - avviso: aggionamenti"
+#: ../source/news/211215.rst:2
+msgid "15-12-2021 - avviso: aggionamenti"
 msgstr ""
 
 #: ../source/news.rst:35 ../source/news.rst:62 ../source/news.rst:80
@@ -32,16 +32,20 @@ msgstr ""
 #: ../source/news.rst:192 ../source/news.rst:201 ../source/news.rst:210
 #: ../source/news/211201.rst:4 ../source/news/211203.rst:4
 #: ../source/news/211207.rst:4 ../source/news/211208.rst:4
-#: ../source/news/211213.rst:4 ../source/news/211214.rst:4
+#: ../source/news/211213.rst:4 ../source/news/211215.rst:4
 msgid "Sito del corso:"
 msgstr ""
 
-#: ../source/news/211214.rst:6
+#: ../source/news/211215.rst:6
 msgid "aggiornato diario delle lezione del 14/12/21"
 msgstr ""
 
-#: ../source/news/211214.rst:7
+#: ../source/news/211215.rst:7
 msgid "aggiunta una nuova sezione di domande su file management"
+msgstr ""
+
+#: ../source/news/211215.rst:8
+msgid "aggiunte slide su Introduzione a Linux"
 msgstr ""
 
 #: ../source/news.rst:44 ../source/news.rst:71 ../source/news.rst:87
@@ -49,11 +53,11 @@ msgstr ""
 #: ../source/news.rst:139 ../source/news.rst:144 ../source/news.rst:169
 #: ../source/news.rst:183 ../source/news.rst:224 ../source/news/211201.rst:10
 #: ../source/news/211203.rst:12 ../source/news/211208.rst:10
-#: ../source/news/211214.rst:9
+#: ../source/news/211215.rst:10
 msgid "Microsoft Stream:"
 msgstr ""
 
-#: ../source/news/211214.rst:11
+#: ../source/news/211215.rst:12
 msgid "caricata lezione del 14/12/21"
 msgstr ""
 
@@ -487,5 +491,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "ProdCons"
+#~ msgstr ""
+
+#~ msgid "14-12-2021 - avviso: aggionamenti"
 #~ msgstr ""
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-14 22:11+0100\n"
+"POT-Creation-Date: 2021-12-15 01:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:22
-msgid ":ref:`n14-12-2021`"
+msgid ":ref:`n15-12-2021`"
 msgstr ""
 
 #: ../source/index.rst:23
@@ -451,5 +451,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":ref:`n23-11-2021`"
+#~ msgstr ""
+
+#~ msgid ":ref:`n14-12-2021`"
 #~ msgstr ""
 

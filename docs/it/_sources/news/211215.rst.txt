@@ -1,10 +1,11 @@
-14-12-2021 - avviso: aggionamenti
+15-12-2021 - avviso: aggionamenti
 -------------------------------------------------
 
 * Sito del corso:
 
   * aggiornato diario delle lezione del 14/12/21
   * aggiunta una nuova sezione di domande su file management
+  * aggiunte slide su Introduzione a Linux
 
 * Microsoft Stream:
 
