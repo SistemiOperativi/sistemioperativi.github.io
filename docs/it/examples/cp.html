@@ -94,7 +94,7 @@
 <h1>CoPy<a class="headerlink" href="#copy" title="Link a questa intestazione">¶</a></h1>
 <p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c">CoPy</a>
 <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c"></a></span>
-è un programma C il cui obiettivo è mostrare l’utilizzo di semplici servizi per la gestione di file.</p>
+è un programma C il cui obiettivo è mostrare l’utilizzo di alcuni servizi per la gestione di file.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;fcntl.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
@@ -139,6 +139,15 @@
 <span class="linenos">42</span><span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
+<p>Il programma prende da riga di comando il file da copiare ed il file destinazione.
+Lo schema è il seguente:</p>
+<ol class="arabic simple">
+<li><p>apre il file di input in lettura utilizzando il flag O_RDONLY (riga 18)</p></li>
+<li><p>crea ed apre il file di output in sola scrittura tramite i flag O_CREAT e O_WRONLY, e, se già esistente, ne cancella il contenuto grazie al flag O_TRUNC (riga 22)</p></li>
+<li><p>legge al più BUFSIZE byte su un buffer (riga 27)</p></li>
+<li><p>utilizza il suddetto buffer per la scrittura su file di output (riga 34)</p></li>
+<li><p>una volta letto e copiato tutto il file (riga 45) vengono chiusi i relativi file descriptor (riga 40 e 41)</p></li>
+</ol>
 <section id="riferimenti">
 <h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Link a questa intestazione">¶</a></h2>
 <ul class="simple">
@@ -162,7 +171,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 15 dic 2021.
+      <span class="lastupdated">Ultimo aggiornamento 16 dic 2021.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

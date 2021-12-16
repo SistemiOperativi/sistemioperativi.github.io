@@ -7,7 +7,7 @@ CoPy
 
 :raw-html:`<a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c">CoPy</a>
 <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c"></a>`
-è un programma C il cui obiettivo è mostrare l'utilizzo di semplici servizi per la gestione di file.
+è un programma C il cui obiettivo è mostrare l'utilizzo di alcuni servizi per la gestione di file.
 
 .. code-block:: c
     :linenos:
@@ -55,6 +55,24 @@ CoPy
         close(ofd);
     }
 
+Il programma prende da riga di comando il file da copiare ed il file destinazione.
+Lo schema è il seguente:
+
+#. apre il file di input in lettura utilizzando il flag O_RDONLY (riga 18)
+#. crea ed apre il file di output in sola scrittura tramite i flag O_CREAT e O_WRONLY, e, se già esistente, ne cancella il contenuto grazie al flag O_TRUNC (riga 22)
+#. legge al più BUFSIZE byte su un buffer (riga 27)
+#. utilizza il suddetto buffer per la scrittura su file di output (riga 34)
+#. una volta letto e copiato tutto il file (riga 45) vengono chiusi i relativi file descriptor (riga 40 e 41)
+
+.. warning:
+  
+  Il codice mostrato è affetto da una problematica relativa alla fase di scrittura.
+  Nello specifico, è possibile che il programma termini correttamente senza però aver effettuato una correta copia del file.
+
+.. question_note:
+    
+  * In quali scenari il programma presenta la suddetta anomalia? 
+  * Come prevenirla? 
 
 
 

@@ -7,7 +7,7 @@ Dup
 
 :raw-html:`<a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/dup/dup.c">Dup</a>
 <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/dup/dup.c"></a>`
-è un programma C il cui obiettivo è mostrare l'utilizzo di semplici servizi per la gestione di file.
+è un programma C il cui obiettivo è mostrare l'utilizzo delle funzione :code:`dup`.
 
 .. code-block:: c
     :linenos:

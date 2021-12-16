@@ -51,7 +51,7 @@
 <li class="toctree-l2"><a class="reference internal" href="minshell.html">MinShell - the exec family</a></li>
 <li class="toctree-l2"><a class="reference internal" href="flipvector.html">FlipVector</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">CoPy</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#riferimenti">Riferimenti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#riferimenti">References</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="dup.html">Dup</a></li>
@@ -91,9 +91,7 @@
              
   <section id="copy">
 <h1>CoPy<a class="headerlink" href="#copy" title="Permalink to this headline">¶</a></h1>
-<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c">CoPy</a>
-<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c"></a></span>
-è un programma C il cui obiettivo è mostrare l’utilizzo di semplici servizi per la gestione di file.</p>
+<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c">CoPy</a> <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c"></a></span> is a C program that shows usage of several syscalls for file management.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;fcntl.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
@@ -138,8 +136,16 @@
 <span class="linenos">42</span><span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
+<p>The program takes the source and destination file names from command line, and it is structured as the following:</p>
+<ol class="arabic simple">
+<li><p>it opens the source file in read-only mode by using the flag 0_RDONLY (line 18)</p></li>
+<li><p>it creates and opens the destination file in write-only mode by using O_CREAT and O_WRONLY flags. If the file is already present, it erases its content thanks to the O_TRUNC flag (line 22)</p></li>
+<li><p>it reads up to BUFSIZE bytes to a memory buffer (line 27)</p></li>
+<li><p>it uses the buffer as source operand for writing on the destination file (line 34)</p></li>
+<li><p>when the whole file has been read and copied (line 45), it closes their respective file descriptor (lines 40 and 41)</p></li>
+</ol>
 <section id="riferimenti">
-<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
+<h2>References<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html">open</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html">read</a></p></li>
@@ -161,7 +167,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Last updated on Dec 15, 2021.
+      <span class="lastupdated">Last updated on Dec 16, 2021.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-15 14:53+0100\n"
+"POT-Creation-Date: 2021-12-16 02:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgid "Sito del corso:"
 msgstr ""
 
 #: ../source/news/211215.rst:6
-msgid "aggiornato diario delle lezione del 14/12/21"
+msgid "aggiornato diario della lezione del 14/12/21"
 msgstr ""
 
 #: ../source/news/211215.rst:7
@@ -45,4 +45,7 @@ msgstr ""
 #: ../source/news/211215.rst:12
 msgid "caricata lezione del 14/12/21"
 msgstr ""
+
+#~ msgid "aggiornato diario delle lezione del 14/12/21"
+#~ msgstr ""
 

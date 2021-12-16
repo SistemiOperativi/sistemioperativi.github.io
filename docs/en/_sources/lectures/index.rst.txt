@@ -7,6 +7,8 @@ Per ogni lezione vengono riportati riferimenti a paragrafi dei libri di testo.
 
   L'unione dei paragrafi può non rappresentare la totalità degli argomenti trattati durante la lezione. 
 
+.. include::	211215.rst
+
 .. include::	211214.rst
 
 .. include::	211207.rst
