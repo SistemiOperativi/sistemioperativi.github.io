@@ -80,7 +80,6 @@ msgstr ""
 "respective file descriptor (lines 40 and 41)"
 
 #: ../source/examples/cp.rst:69
-#, fuzzy
 msgid ""
 "Il codice mostrato è affetto da una problematica relativa alla fase di "
 "scrittura. Nello specifico, è possibile che il programma termini "
