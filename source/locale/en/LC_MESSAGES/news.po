@@ -22,7 +22,6 @@ msgid "News"
 msgstr ""
 
 #: ../source/news/211216.rst:2
-#, fuzzy
 msgid "16-12-2021 - avviso: aggionamenti"
 msgstr "16-12-2021 - updates"
 
