@@ -64,12 +64,12 @@ Lo schema è il seguente:
 #. utilizza il suddetto buffer per la scrittura su file di output (riga 34)
 #. una volta letto e copiato tutto il file (riga 45) vengono chiusi i relativi file descriptor (riga 40 e 41)
 
-.. warning:
+.. warning::
   
   Il codice mostrato è affetto da una problematica relativa alla fase di scrittura.
-  Nello specifico, è possibile che il programma termini correttamente senza però aver effettuato una correta copia del file.
+  Nello specifico, è possibile che il programma termini correttamente senza però aver effettuato una corretta copia del file.
 
-.. question_note:
+.. question_note::
     
   * In quali scenari il programma presenta la suddetta anomalia? 
   * Come prevenirla? 

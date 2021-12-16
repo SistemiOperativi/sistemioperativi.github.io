@@ -148,6 +148,18 @@ Lo schema è il seguente:</p>
 <li><p>utilizza il suddetto buffer per la scrittura su file di output (riga 34)</p></li>
 <li><p>una volta letto e copiato tutto il file (riga 45) vengono chiusi i relativi file descriptor (riga 40 e 41)</p></li>
 </ol>
+<div class="admonition warning">
+<p class="admonition-title">Avvertimento</p>
+<p>Il codice mostrato è affetto da una problematica relativa alla fase di scrittura.
+Nello specifico, è possibile che il programma termini correttamente senza però aver effettuato una corretta copia del file.</p>
+</div>
+<div class="admonition question" id="question-note-0">
+<p class="admonition-title">Domanda</p>
+<ul class="simple">
+<li><p>In quali scenari il programma presenta la suddetta anomalia?</p></li>
+<li><p>Come prevenirla?</p></li>
+</ul>
+</div>
 <section id="riferimenti">
 <h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Link a questa intestazione">¶</a></h2>
 <ul class="simple">

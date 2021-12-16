@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 02:22+0100\n"
+"POT-Creation-Date: 2021-12-16 03:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,6 +63,21 @@ msgid ""
 "relativi file descriptor (riga 40 e 41)"
 msgstr ""
 
+#: ../source/examples/cp.rst:69
+msgid ""
+"Il codice mostrato è affetto da una problematica relativa alla fase di "
+"scrittura. Nello specifico, è possibile che il programma termini "
+"correttamente senza però aver effettuato una corretta copia del file."
+msgstr ""
+
+#: ../source/examples/cp.rst:74
+msgid "In quali scenari il programma presenta la suddetta anomalia?"
+msgstr ""
+
+#: ../source/examples/cp.rst:75
+msgid "Come prevenirla?"
+msgstr ""
+
 #: ../source/examples/cp.rst:82
 msgid "Riferimenti"
 msgstr ""
@@ -94,5 +109,14 @@ msgstr ""
 #~ "obiettivo è mostrare l'utilizzo di "
 #~ "semplici servizi per la gestione di "
 #~ "file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Il codice mostrato è affetto da "
+#~ "una problematica relativa alla fase di"
+#~ " scrittura. Nello specifico, è possibile"
+#~ " che il programma termini correttamente "
+#~ "senza però aver effettuato una correta"
+#~ " copia del file."
 #~ msgstr ""
 
