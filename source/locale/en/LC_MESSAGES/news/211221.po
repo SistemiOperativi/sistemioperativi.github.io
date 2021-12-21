@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 00:02+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/news/211221.rst:2
+msgid "21-12-2021 - avviso: aggionamenti"
+msgstr ""
+
+#: ../source/news/211221.rst:4
+msgid "CV at lunch il 22-12-2021:"
+msgstr ""
+
+#: ../source/news/211221.rst:6
+msgid ""
+"l'evento si terrà mercoledì, dalle ore 11:00 alle 17:00, presso la Spazio"
+" Rossellini, ubicato in via della vasca navale 56/58, antistante "
+"l’ingresso del Dipartimento di Ingegneria su via della vasca navale "
+"79/81;"
+msgstr ""
+
+#: ../source/news/211221.rst:7
+msgid "saranno presenti oltre 50 aziende;"
+msgstr ""
+
+#: ../source/news/211221.rst:8
+msgid "è necessaria la registrazione;"
+msgstr ""
+
+#: ../source/news/211221.rst:9
+msgid ""
+"ulteriori info sul sito di dipartimento: `link all'annuncio "
+"<https://ingegneria.uniroma3.it/en/articoli/torna-il-cv-at-lunch-levento-"
+"per-favorire-lincontro-tra-aziende-e-studenti-202783/>`_"
+msgstr ""
+
+#: ../source/news/211221.rst:11
+msgid "Lezione del 21-12-2021:"
+msgstr ""
+
+#: ../source/news/211221.rst:14
+msgid ""
+"Data l'indisponibilità dell'aula N13, la lezione si terrà interamente per"
+" via telematica"
+msgstr ""
+
+#: ../source/news/211221.rst:16
+msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/news/211221.rst:18
+msgid "aggiunti commento dettagliato al sorgente di esempio dup"
+msgstr ""
+
+#: ../source/news/211221.rst:20
+msgid "Repository GitHub:"
+msgstr ""
+
+#: ../source/news/211221.rst:22
+msgid "aggiornato esempio prod_cons"
+msgstr ""
+
+#~ msgid ""
+#~ "Data l'indisponibilità dell'aula N13, la "
+#~ "lezione si terrà interamente in via "
+#~ "telematica"
+#~ msgstr ""
+

@@ -52,7 +52,7 @@
 <li class="toctree-l2"><a class="reference internal" href="flipvector.html">FlipVector</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cp.html">CoPy</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Dup</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#riferimenti">Riferimenti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#riferimenti">References</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="prodcons.html">ProdCons</a></li>
@@ -91,9 +91,7 @@
              
   <section id="dup">
 <h1>Dup<a class="headerlink" href="#dup" title="Permalink to this headline">¶</a></h1>
-<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/dup/dup.c">Dup</a>
-<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/dup/dup.c"></a></span>
-è un programma C il cui obiettivo è mostrare l’utilizzo delle funzione <code class="code docutils literal notranslate"><span class="pre">dup</span></code>.</p>
+<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/dup/dup.c">Dup</a> <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/dup/dup.c"></a></span> is a C program aimed to show the usage of <code class="code docutils literal notranslate"><span class="pre">dup</span></code>.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;fcntl.h&gt;</span><span class="cp"></span>
@@ -120,13 +118,84 @@
 <span class="linenos">24</span><span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
-<section id="riferimenti">
-<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
+<p>UNIX always defines 3 main file descriptor</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html">open</a></p></li>
+<li><p>0: standard input;</p></li>
+<li><p>1: standard output;</p></li>
+<li><p>2: standard error.</p></li>
+</ul>
+<p>According to the POSIX standard (<a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/stdin.html">stdin</a>), this I/O channels (namely, streams) are always defined and implicitely open. Such descriptors references to specific streams. However, the association of file description can be changed at run time. For instance, the <code class="code docutils literal notranslate"><span class="pre">dup</span></code> function maps a new file descriptor to an already existing stream  (more precisely, file description). The stream is identified by the file descriptor passed as parameter to <em>dup</em>. The new descriptor will be the first  available one.</p>
+<p>The source code exploits <em>dup</em> for redirecting the standard output of a program (e.g., <em>ls</em>) to a regular file. This has been achieved as the following:</p>
+<ol class="arabic simple">
+<li><p>create and open the destination file obtaining the <em>ofd</em> file descriptor (line 16)</p></li>
+<li><p>close the standard output stream (line 19), making 1 be the first available file descriptor (0 is occupied by standard input);</p></li>
+<li><p>call <em>dup</em> using <em>ofd</em> as parameter (line 20);</p></li>
+<li><p>replace the current program with an <em>exec</em> call (line 23)</p></li>
+</ol>
+<p>The <em>ls</em> command prints on standard output (file descriptor 1), which has been redirected on a file instead of a terminal.</p>
+<div class="admonition observation" id="observation-note-0">
+<p class="admonition-title">Observation</p>
+<p>The last parameter passed to <em>open</em> is a number in octal representation (each digit is between 0 and 7). This is because it starts with 0. 8 different values can be represented by using 3 bits, each octal digit maps to exactly 3 bits. Consider <em>0660</em>. This is an integer (precisely, a <em>mode_t</em>) whose binary representation is:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="3"><p>User</p></th>
+<th class="head" colspan="3"><p>Group</p></th>
+<th class="head" colspan="3"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>r</p></td>
+<td><p>w</p></td>
+<td><p>x</p></td>
+<td><p>r</p></td>
+<td><p>w</p></td>
+<td><p>x</p></td>
+<td><p>r</p></td>
+<td><p>w</p></td>
+<td><p>x</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td colspan="3"><p>6</p></td>
+<td colspan="3"><p>6</p></td>
+<td colspan="3"><p>0</p></td>
+</tr>
+</tbody>
+</table>
+<p>Ulteriori dettagli possono essere trovati a questo link: <a class="reference external" href="https://docs.microsoft.com/cpp/c-language/c-integer-constants">Microsoft C docs</a>.</p>
+<div class="admonition question" id="question-note-0">
+<p class="admonition-title">Question</p>
+<p>How could you define the same permissions by resorting to decimal, hexadecimal digits and the macros defined in <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html">sys/stat.h</a>?</p>
+</div>
+</div>
+<section id="riferimenti">
+<h2>References<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/stdin.html">stdin</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html">close</a></p></li>
-<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html">dup</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html">open</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html">mode_t</a></p></li>
+<li><p><a class="reference external" href="https://docs.microsoft.com/cpp/c-language/c-integer-constants">Microsoft C docs on literals</a></p></li>
 </ul>
 </section>
 </section>
@@ -143,7 +212,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Last updated on Dec 16, 2021.
+      <span class="lastupdated">Last updated on Dec 21, 2021.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

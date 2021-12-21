@@ -19,6 +19,7 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
+* :ref:`n21-12-2021`
 * :ref:`n16-12-2021`
 * :ref:`n15-12-2021`
 * :ref:`n13-12-2021`

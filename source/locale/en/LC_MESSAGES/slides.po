@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-15 14:54+0100\n"
+"POT-Creation-Date: 2021-12-20 15:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +68,9 @@ msgstr ""
 
 #: ../source/slides.rst:13
 msgid "`07 - Introduzione a Linux </slides/07-introduzione-linux-211215v1.pdf>`_"
-msgstr "`07 - Introduction to Linux  </slides/07-introduzione-linux-211215v1.pdf>`_"
+msgstr ""
+"`07 - Introduction to Linux  </slides/07-introduzione-linux-"
+"211215v1.pdf>`_"
 
 #: ../source/slides.rst:14
 msgid ""
@@ -106,66 +108,63 @@ msgstr ""
 msgid "`Linux Kernel <https://www.kernel.org/doc/html/latest/>`_"
 msgstr ""
 
-#: ../source/slides.rst:27
+#: ../source/slides.rst:24
+msgid ""
+"`Microsoft C docs on literals "
+"<https://docs.microsoft.com/cpp/c-language/c-integer-constants>`_"
+msgstr ""
+
+#: ../source/slides.rst:28
 msgid "Approfondimenti"
 msgstr "Additional material"
 
-#: ../source/slides.rst:29
+#: ../source/slides.rst:30
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:30
+#: ../source/slides.rst:31
 msgid "`Linux Kernel Source Code <https://elixir.bootlin.com/>`_"
 msgstr ""
 
-#: ../source/slides.rst:31
+#: ../source/slides.rst:32
 msgid ""
 "`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
 "ddj.htm>`_"
 msgstr ""
 
-#: ../source/slides.rst:32
+#: ../source/slides.rst:33
 msgid "`Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:33
+#: ../source/slides.rst:34
 msgid ""
 "`Complete Fair Scheduler "
 "<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
 "CFS.html>`_"
 msgstr ""
 
-#: ../source/slides.rst:34
+#: ../source/slides.rst:35
 msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:35
+#: ../source/slides.rst:36
 msgid ""
 "`Solid State Drives - Data Reliability and Lifetime "
 "<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:36
+#: ../source/slides.rst:37
 msgid ""
 "`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
 "guide/blockdev/ramdisk.html>`_"
 msgstr ""
 
-#: ../source/slides.rst:37
+#: ../source/slides.rst:38
 msgid "`ramfs <https://wiki.debian.org/ramfs>`_"
 msgstr ""
 
-#: ../source/slides.rst:38
+#: ../source/slides.rst:39
 msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
 msgstr ""
-
-#~ msgid ""
-#~ "`Legge di Amdahl Sezione 4 Eq. 11"
-#~ " <https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
-#~ msgstr ""
-
-#~ msgid "`Linux Kernel <https://elixir.bootlin.com/>`_"
-#~ msgstr ""
-

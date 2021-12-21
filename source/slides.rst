@@ -21,6 +21,7 @@ Documentazione
 * `gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-Builtins.html#g_t_005f_005fsync-Builtins>`_
 * `GCC Thread Local Storage <https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html>`_
 * `Linux Kernel <https://www.kernel.org/doc/html/latest/>`_
+* `Microsoft C docs on literals <https://docs.microsoft.com/cpp/c-language/c-integer-constants>`_
 
 
 Approfondimenti
