@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-22 13:21+0100\n"
+"POT-Creation-Date: 2021-12-22 13:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,8 +42,8 @@ msgstr ""
 msgid "Esempi codice C in Linux:"
 msgstr ""
 
-#: ../source/lectures/211215.rst:8 ../source/lectures/211221.rst:6
-msgid "memoria condivisa tramite shm_open e file su /dev/shm"
+#: ../source/lectures/211221.rst:6
+msgid "pattern produttore/consumatore"
 msgstr ""
 
 #: ../source/lectures/211221.rst:7
@@ -68,47 +68,33 @@ msgid ""
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_"
 msgstr ""
 
-#: ../source/lectures/211214.rst:29 ../source/lectures/211215.rst:17
-#: ../source/lectures/211221.rst:15
-msgid ""
-"`POSIX read "
-"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html>`_"
-msgstr ""
-
 #: ../source/lectures/211214.rst:30 ../source/lectures/211215.rst:18
-#: ../source/lectures/211221.rst:16
+#: ../source/lectures/211221.rst:15
 msgid ""
 "`POSIX write "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_"
 msgstr ""
 
 #: ../source/lectures/211214.rst:33 ../source/lectures/211215.rst:19
-#: ../source/lectures/211221.rst:17
+#: ../source/lectures/211221.rst:16
 msgid ""
 "`POSIX dup "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_"
 msgstr ""
 
-#: ../source/lectures/211214.rst:32 ../source/lectures/211215.rst:20
-#: ../source/lectures/211221.rst:18
-msgid ""
-"`POSIX truncate "
-"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/truncate.html>`_"
-msgstr ""
-
-#: ../source/lectures/211215.rst:21 ../source/lectures/211221.rst:19
+#: ../source/lectures/211215.rst:21 ../source/lectures/211221.rst:17
 msgid ""
 "`POSIX exec "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_"
 msgstr ""
 
-#: ../source/lectures/211221.rst:20
+#: ../source/lectures/211221.rst:18
 msgid ""
 "`mode_t "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
 msgstr ""
 
-#: ../source/lectures/211221.rst:21
+#: ../source/lectures/211221.rst:19
 msgid "`objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_"
 msgstr ""
 
@@ -124,8 +110,24 @@ msgstr ""
 msgid "redirezionamento I/O in C"
 msgstr ""
 
+#: ../source/lectures/211215.rst:8
+msgid "memoria condivisa tramite shm_open e file su /dev/shm"
+msgstr ""
+
 #: ../source/lectures/211214.rst:26 ../source/lectures/211215.rst:14
 msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
+msgstr ""
+
+#: ../source/lectures/211214.rst:29 ../source/lectures/211215.rst:17
+msgid ""
+"`POSIX read "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html>`_"
+msgstr ""
+
+#: ../source/lectures/211214.rst:32 ../source/lectures/211215.rst:20
+msgid ""
+"`POSIX truncate "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/truncate.html>`_"
 msgstr ""
 
 #: ../source/lectures/211215.rst:22 ../source/lectures/index.rst:77

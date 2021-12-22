@@ -3,7 +3,7 @@
 
 * Esempi codice C in Linux:
 	
-	* memoria condivisa tramite shm_open e file su /dev/shm
+	* pattern produttore/consumatore
 	* layout di programma, permesso SUID e buffer overflow
 
 

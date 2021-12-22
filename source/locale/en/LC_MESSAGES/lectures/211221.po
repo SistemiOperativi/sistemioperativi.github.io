@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-22 13:23+0100\n"
+"POT-Creation-Date: 2021-12-22 13:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgid "Esempi codice C in Linux:"
 msgstr ""
 
 #: ../source/lectures/211221.rst:6
-msgid "memoria condivisa tramite shm_open e file su /dev/shm"
+msgid "pattern produttore/consumatore"
 msgstr ""
 
 #: ../source/lectures/211221.rst:7
@@ -89,5 +89,8 @@ msgstr ""
 #~ msgid ""
 #~ "`POSIX truncate "
 #~ "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/truncate.html>`_"
+#~ msgstr ""
+
+#~ msgid "memoria condivisa tramite shm_open e file su /dev/shm"
 #~ msgstr ""
 
