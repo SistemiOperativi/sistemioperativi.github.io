@@ -1,0 +1,17 @@
+22-12-2021 - avviso: aggionamenti
+-------------------------------------------------
+
+* Sito del corso:
+
+  * aggiornate slide su introduzione a Linux
+  * aggiunto diario della lezione del 21/12/21
+  * aggiornato programma del corso 
+
+
+* Microsoft Stream:
+
+  * caricata lezione del 21/12/2021
+
+* GitHub:
+  
+  * caricati sorgenti di esempio per attacchi di tipo buffer overflow

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-20 15:31+0100\n"
+"POT-Creation-Date: 2021-12-22 13:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,10 +67,12 @@ msgstr ""
 "211213v4.pdf>`_ [Last update: 13/12/21]"
 
 #: ../source/slides.rst:13
-msgid "`07 - Introduzione a Linux </slides/07-introduzione-linux-211215v1.pdf>`_"
+msgid ""
+"`07 - Introduzione a Linux </slides/07-introduzione-linux-211222v2.pdf>`_"
+" [Aggiornato il 22/12/21]"
 msgstr ""
 "`07 - Introduction to Linux  </slides/07-introduzione-linux-"
-"211215v1.pdf>`_"
+"211215v1.pdf>`_ [Last update: 22/12/21]"
 
 #: ../source/slides.rst:14
 msgid ""
@@ -114,57 +116,68 @@ msgid ""
 "<https://docs.microsoft.com/cpp/c-language/c-integer-constants>`_"
 msgstr ""
 
+#: ../source/slides.rst:25
+msgid ""
+"`mode_t "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
+msgstr ""
+
+#: ../source/slides.rst:26
+msgid "`objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_"
+msgstr ""
+
+#: ../source/slides.rst:27
+msgid ""
+"`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
+"guide/blockdev/ramdisk.html>`_"
+msgstr ""
+
 #: ../source/slides.rst:28
+msgid "`ramfs <https://wiki.debian.org/ramfs>`_"
+msgstr ""
+
+#: ../source/slides.rst:29
+msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
+msgstr ""
+
+#: ../source/slides.rst:33
 msgid "Approfondimenti"
 msgstr "Additional material"
 
-#: ../source/slides.rst:30
+#: ../source/slides.rst:35
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:31
+#: ../source/slides.rst:36
 msgid "`Linux Kernel Source Code <https://elixir.bootlin.com/>`_"
 msgstr ""
 
-#: ../source/slides.rst:32
+#: ../source/slides.rst:37
 msgid ""
 "`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
 "ddj.htm>`_"
 msgstr ""
 
-#: ../source/slides.rst:33
+#: ../source/slides.rst:38
 msgid "`Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:34
+#: ../source/slides.rst:39
 msgid ""
 "`Complete Fair Scheduler "
 "<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
 "CFS.html>`_"
 msgstr ""
 
-#: ../source/slides.rst:35
+#: ../source/slides.rst:40
 msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:36
+#: ../source/slides.rst:41
 msgid ""
 "`Solid State Drives - Data Reliability and Lifetime "
 "<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:37
-msgid ""
-"`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
-"guide/blockdev/ramdisk.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:38
-msgid "`ramfs <https://wiki.debian.org/ramfs>`_"
-msgstr ""
-
-#: ../source/slides.rst:39
-msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
-msgstr ""

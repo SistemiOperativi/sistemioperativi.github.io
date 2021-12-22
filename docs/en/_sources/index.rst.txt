@@ -19,6 +19,7 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
+* :ref:`n22-12-2021`
 * :ref:`n21-12-2021`
 * :ref:`n16-12-2021`
 * :ref:`n15-12-2021`
@@ -95,7 +96,7 @@ Testi consigliati e link utili (in aggiornamento)
 * [t3] Programmazione in Ambiente UNIX - Francesco Quaglia, Camil Demetrescu - `Disponibile in formato pdf <https://francescoquaglia.github.io/TEACHING/SISTEMI-OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf>`_
 
 
-
+.. role:: removedtopic
 
 Programma
 ---------
@@ -105,9 +106,13 @@ Programma
 * **Scheduling.** a breve medio e lungo termine, algoritmi per cpu scheduling
 * **Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori
 * **Memoria.** allocatori di memoria, partitioning, best/first/next fit, buddy algorithm, paging, segmentation, memoria virtuale e sua gestione hardware/software 
-* **I/O e File Management.** Disk scheduling, RAID, UNIX File Management, inode, Linux VFS, ext2
+* **I/O e File Management.** Disk scheduling, :removedtopic:`RAID`, UNIX File Management, inode, Linux VFS, ext2
 * **Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, piping, redirection, segnali, espressioni regolari (sed e grep), scripting (bash, awk), linux filesystem management
 * **Programmazione di Sistema.** Gestione in C dei processi/thread su ambiente linux
-* **Debugger.** utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.
-* **Virtualizzazione.** Concetti generali, container, Docker
+* :removedtopic:`**Debugger**.` :removedtopic:`utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.`
+* :removedtopic:`**Virtualizzazione.**` :removedtopic:`Concetti generali, container, Docker`
 
+
+.. warning::
+
+  :removedtopic:`topic` indica che i relativi contenuti sono stati esclusi dal programma 

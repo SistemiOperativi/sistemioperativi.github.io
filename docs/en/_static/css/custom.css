@@ -7,3 +7,8 @@
 
 .admonition.question {background: #e9d7e9;}
 .question .admonition-title {background: #663f66;}
+
+.removedtopic {
+  text-decoration: line-through;
+  color:red;
+}
