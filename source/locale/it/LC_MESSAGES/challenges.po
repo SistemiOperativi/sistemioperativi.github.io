@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-30 12:49+0100\n"
+"POT-Creation-Date: 2021-12-30 13:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,7 +134,7 @@ msgstr ""
 #: ../source/challenges.rst:53
 msgid ""
 "accetta l'assignment su GitHub: "
-"`<https://classroom.github.com/a/3y1FbUXG>`_"
+"`<https://classroom.github.com/a/oRfof8ZI>`_"
 msgstr ""
 
 #: ../source/challenges.rst:54
@@ -384,5 +384,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "[OPEN] - Sfida 1: La password del docente"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "accetta l'assignment su GitHub: "
+#~ "`<https://classroom.github.com/a/3y1FbUXG>`_"
 #~ msgstr ""
 

@@ -50,7 +50,7 @@ Le regole
 
 Per sottomettere la soluzione è necessario:
 
-#. accetta l'assignment su GitHub: `<https://classroom.github.com/a/3y1FbUXG>`_
+#. accetta l'assignment su GitHub: `<https://classroom.github.com/a/oRfof8ZI>`_
 #. pubblica sul repository il codice utilizzato per individuare la password e un Readme 
 #. inviare una email con oggetto [OS2122-CHALLENGE-1] con:
 
