@@ -60,10 +60,9 @@ Per sottomettere la soluzione è necessario:
 Una soluzione è ritenuta valida se:
 
 #. è stata inviata correttamente
-#. NON utilizza programmi per il crack/recovery delle password (e.g. Hashcat, John the Ripper). Tuttavia, è ammesso l'utilizzo dei seguenti strumenti per lo sviluppo di strumenti ad hoc:
+#. NON utilizza programmi per il crack/recovery delle password (e.g. Hashcat, John the Ripper). Tuttavia, è ammesso l'utilizzo dei seguenti strumenti per lo sviluppo di soluzioni ad hoc:
 
   * `openssl <https://linux.die.net/man/1/openssl>`_
-  * `bash <https://man7.org/linux/man-pages/man1/bash.1.html>`_
   * `GNU crypt <https://ftp.gnu.org/old-gnu/Manuals/glibc-2.2.3/html_node/libc_650.html>`_ 
   * `crypt <https://man7.org/linux/man-pages/man3/crypt.3.html>`_
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-30 13:15+0100\n"
+"POT-Creation-Date: 2021-12-30 13:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -167,7 +167,7 @@ msgstr ""
 msgid ""
 "NON utilizza programmi per il crack/recovery delle password (e.g. "
 "Hashcat, John the Ripper). Tuttavia, è ammesso l'utilizzo dei seguenti "
-"strumenti per lo sviluppo di strumenti ad hoc:"
+"strumenti per lo sviluppo di soluzioni ad hoc:"
 msgstr ""
 
 #: ../source/challenges.rst:65
@@ -175,34 +175,30 @@ msgid "`openssl <https://linux.die.net/man/1/openssl>`_"
 msgstr ""
 
 #: ../source/challenges.rst:66
-msgid "`bash <https://man7.org/linux/man-pages/man1/bash.1.html>`_"
-msgstr ""
-
-#: ../source/challenges.rst:67
 msgid ""
 "`GNU crypt <https://ftp.gnu.org/old-"
 "gnu/Manuals/glibc-2.2.3/html_node/libc_650.html>`_"
 msgstr ""
 
-#: ../source/challenges.rst:68
+#: ../source/challenges.rst:67
 msgid "`crypt <https://man7.org/linux/man-pages/man3/crypt.3.html>`_"
 msgstr ""
 
-#: ../source/challenges.rst:70
+#: ../source/challenges.rst:69
 msgid ""
 "Infine, non è possibile sottomettere più di una soluzione. In caso di "
 "sottomissione multipla, verrà considerata la prima in ordine cronologico."
 msgstr ""
 
-#: ../source/challenges.rst:74
+#: ../source/challenges.rst:73
 msgid "Scadenze"
 msgstr ""
 
-#: ../source/challenges.rst:76
+#: ../source/challenges.rst:75
 msgid "La sfida rimane aperta fintanto che i punti non sono stati assegnati."
 msgstr ""
 
-#: ../source/challenges.rst:77
+#: ../source/challenges.rst:76
 msgid "I punti possono essere acquisiti entro e non oltre l'A.A. 2021/2022."
 msgstr ""
 
@@ -389,5 +385,17 @@ msgstr ""
 #~ msgid ""
 #~ "accetta l'assignment su GitHub: "
 #~ "`<https://classroom.github.com/a/3y1FbUXG>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NON utilizza programmi per il "
+#~ "crack/recovery delle password (e.g. Hashcat,"
+#~ " John the Ripper). Tuttavia, è "
+#~ "ammesso l'utilizzo dei seguenti strumenti "
+#~ "per lo sviluppo di strumenti ad "
+#~ "hoc:"
+#~ msgstr ""
+
+#~ msgid "`bash <https://man7.org/linux/man-pages/man1/bash.1.html>`_"
 #~ msgstr ""
 
