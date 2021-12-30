@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-03 02:07+0100\n"
+"POT-Creation-Date: 2021-12-29 13:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,6 +54,22 @@ msgstr ""
 
 #: ../source/questions/sched.rst:10
 msgid "Descrivere lo scheduler Linux."
+msgstr ""
+
+#: ../source/questions/sched.rst:11
+msgid "Descrivere lo scheduler Multilevel Feedback Queue."
+msgstr ""
+
+#: ../source/questions/sched.rst:12
+msgid ""
+"Quale è il vantaggio di avere time-slice differenti in uno scheduler "
+"basato su code multilivello con feedback?"
+msgstr ""
+
+#: ../source/questions/sched.rst:13
+msgid ""
+"Come è possibile parametrizzare uno scheduler basato su priorità per "
+"emulare gli scheduler Shortest Job First, First Come First Serve?"
 msgstr ""
 
 #~ msgid "Cpu-scheduler: quali sono i criteri di valutazione di un cpu-scheduler?"

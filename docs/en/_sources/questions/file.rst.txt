@@ -1,5 +1,5 @@
 7 - File management
--------------------
+"""""""""""""""""""
 
 #. Cosa è un file e quali sono i suoi principali attributi?
 #. Cosa è un file system e quali sono i suoi compiti principali?

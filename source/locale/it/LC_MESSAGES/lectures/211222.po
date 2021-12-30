@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-23 14:57+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/lectures/211222.rst:2
+msgid "22/12/2021 - Esempi C, Aspetti di sicurezza ed Introduzione a Linux"
+msgstr ""
+
+#: ../source/lectures/211222.rst:4
+msgid "Esempi codice C aspetti di sicurezza:"
+msgstr ""
+
+#: ../source/lectures/211222.rst:6
+msgid "layout di programma, permesso SUID e buffer overflow"
+msgstr ""
+
+#: ../source/lectures/211222.rst:7
+msgid "accenni di return-oriented programming"
+msgstr ""
+
+#: ../source/lectures/211222.rst:8
+msgid "address space randomization"
+msgstr ""
+
+#: ../source/lectures/211222.rst:9
+msgid "canary tag"
+msgstr ""
+
+#: ../source/lectures/211222.rst:10
+msgid "memorizzazione di password"
+msgstr ""
+
+#: ../source/lectures/211222.rst:12
+msgid "Introduzione a Linux:"
+msgstr ""
+
+#: ../source/lectures/211222.rst:14
+msgid "utente root"
+msgstr ""
+
+#: ../source/lectures/211222.rst:15
+msgid "Filesystem Hierarchy Standard"
+msgstr ""
+
+#: ../source/lectures/211222.rst:16
+msgid "terminale e shell"
+msgstr ""
+
+#: ../source/lectures/211222.rst:17
+msgid "redirezionamento stdin e stdout (<,>,>>,|)"
+msgstr ""
+
+#: ../source/lectures/211222.rst:18
+msgid "utenti e gruppi"
+msgstr ""
+
+#: ../source/lectures/211222.rst:19
+msgid "/etc/passwd e /etc/groups"
+msgstr ""
+
+#: ../source/lectures/211222.rst:20
+msgid "configurazione /etc/sudoers"
+msgstr ""
+
+#: ../source/lectures/211222.rst:24
+msgid "Riferimenti e libri di testo"
+msgstr ""
+
+#: ../source/lectures/211222.rst:26
+msgid "[:ref:`t1 <books>`] Sezione 15.2, 15.4"
+msgstr ""
+
+#: ../source/lectures/211222.rst:27
+msgid "[:ref:`t2 <books>`] Sezione 16.2.2"
+msgstr ""
+
+#: ../source/lectures/211222.rst:29
+msgid "`/etc/passwd <https://man7.org/linux/man-pages/man5/passwd.5.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:30
+msgid "`/etc/group <https://man7.org/linux/man-pages/man5/group.5.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:31
+msgid "`/etc/shadow <https://man7.org/linux/man-pages/man5/shadow.5.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:32
+msgid ""
+"Filesystem Hierarchy Standard `Wikipedia "
+"<https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:33
+msgid ""
+"`Bash redirection "
+"<https://www.gnu.org/software/bash/manual/html_node/Redirections.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:34
+msgid ""
+"`POSIX dup "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:35
+msgid ""
+"`POSIX exec "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:36
+msgid ""
+"`mode_t "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:39
+msgid "Approfondimenti"
+msgstr ""
+
+#: ../source/lectures/211222.rst:41
+msgid "[:ref:`t1 <books>`] Capitolo 15"
+msgstr ""
+
+#: ../source/lectures/211222.rst:42
+msgid "[:ref:`t2 <books>`] Capitolo 16"
+msgstr ""
+
+#: ../source/lectures/211222.rst:43
+msgid ""
+"`Filesystem Hierarchy Standard "
+"<https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:44
+msgid "`objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:45
+msgid "`readelf <https://man7.org/linux/man-pages/man1/readelf.1.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:46
+msgid "`gdb <https://man7.org/linux/man-pages/man1/gdb.1.html>`_"
+msgstr ""
+
+#~ msgid ""
+#~ "`Filesystem Hierarchy Standard "
+#~ "<https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard>`_"
+#~ msgstr ""
+

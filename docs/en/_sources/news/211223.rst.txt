@@ -1,0 +1,17 @@
+23-12-2021 - avviso: aggionamenti e challenge!
+-------------------------------------------------
+
+* Sito del corso:
+
+  * aggiunto diario della lezione del 22/12/21
+  * aggiornato regolamento sezione di esame
+  * aggiunta sezione "Challenges"
+
+
+* Microsoft Stream:
+
+  * caricata lezione del 22/12/2021
+
+* GitHub:
+  
+  * caricati sorgenti di esempio per attacchi di tipo buffer overflow

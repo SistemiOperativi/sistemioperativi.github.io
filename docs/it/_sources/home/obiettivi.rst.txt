@@ -1,0 +1,6 @@
+Obiettivi del corso
+-------------------
+
+L'obiettivo del corso è fornire allo studente competenze sull'architettura di un generico sistema operativo moderno, con particolare riferimento al sistema Linux, 
+e sulle metodologie usate per risolvere le problematiche tipiche della gestione di risorse in un sistema operativo moderno.
+Infine, particolare attenzione verrà dedicata alla programmazione di sistema e scripting.

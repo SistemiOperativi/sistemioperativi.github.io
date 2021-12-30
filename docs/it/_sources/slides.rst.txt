@@ -27,6 +27,10 @@ Documentazione
 * `ramdisk <https://www.kernel.org/doc/html/latest/admin-guide/blockdev/ramdisk.html>`_
 * `ramfs <https://wiki.debian.org/ramfs>`_
 * `tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_
+* `/etc/passwd <https://man7.org/linux/man-pages/man5/passwd.5.html>`_
+* `/etc/group <https://man7.org/linux/man-pages/man5/group.5.html>`_
+* `/etc/shadow <https://man7.org/linux/man-pages/man5/shadow.5.html>`_
+* `Bash redirection <https://www.gnu.org/software/bash/manual/html_node/Redirections.html>`_
 
 
 Approfondimenti
@@ -39,4 +43,8 @@ Approfondimenti
 * `Complete Fair Scheduler <https://www.kernel.org/doc/html/latest/scheduler/sched-design-CFS.html>`_
 * `Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_
 * `Solid State Drives - Data Reliability and Lifetime <https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_
+* `Filesystem Hierarchy Standard <https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf>`_
+* `objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_
+* `readelf <https://man7.org/linux/man-pages/man1/readelf.1.html>`_
+* `gdb <https://man7.org/linux/man-pages/man1/gdb.1.html>`_
        

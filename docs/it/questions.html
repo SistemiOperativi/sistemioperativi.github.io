@@ -44,20 +44,35 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Sistemi Operativi</a></li>
 <li class="toctree-l1"><a class="reference internal" href="linux_install.html">Installare Linux</a></li>
 <li class="toctree-l1"><a class="reference internal" href="examples.html">Esempi di programmazione</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Esercizi di preparazione</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#introduzione">1 - Introduzione</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#processi-e-thread">2- Processi e thread</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#scheduling">3 - Scheduling</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#sincronizzazione">4 - Sincronizzazione</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#gestione-della-memoria">5 - Gestione della memoria</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#i-o-management">6 - I/O Management</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#file-management">7 - File management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#domande">Domande</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduzione">1 - Introduzione</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#processi-e-thread">2- Processi e thread</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#scheduling">3 - Scheduling</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sincronizzazione">4 - Sincronizzazione</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestione-della-memoria">5 - Gestione della memoria</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#i-o-management">6 - I/O Management</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#file-management">7 - File management</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#esercizi">Esercizi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">1 - Introduzione</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">2- Processi e thread</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">3 - Scheduling</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">4 - Sincronizzazione</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">5 - Gestione della memoria</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">6 - I/O Management</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">7 - File management</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="slides.html">Slides</a></li>
 <li class="toctree-l1"><a class="reference internal" href="lectures/index.html">Diario delle lezioni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="challenges.html">Sfide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="news.html">News</a></li>
 </ul>
 
@@ -88,26 +103,34 @@
   <section id="esercizi-di-preparazione">
 <h1>Esercizi di preparazione<a class="headerlink" href="#esercizi-di-preparazione" title="Link a questa intestazione">¶</a></h1>
 <p>In questa sezione vengono riportate alcuni esercizi/domande che possono essere utilizzate come preparazione all’esame.</p>
+<section id="domande">
+<h2>Domande<a class="headerlink" href="#domande" title="Link a questa intestazione">¶</a></h2>
 <section id="introduzione">
-<h2>1 - Introduzione<a class="headerlink" href="#introduzione" title="Link a questa intestazione">¶</a></h2>
+<h3>1 - Introduzione<a class="headerlink" href="#introduzione" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Descrivere il concetto di interrupt e mostrare il suo utilizzo nei sistemi operativi.</p></li>
 <li><p>Descrivere le principali strutture dati di un sistema operativo.</p></li>
 <li><p>Descrivere i principali benefici e le criticità introdotte della multiprogrammazione.</p></li>
 <li><p>Cosa sono le system call e quali relazioni hanno con le librerie di sistema?</p></li>
 <li><p>Riportare esempi di supporti hardware necessari al sistema operativo per garantire la protezione delle risorse.</p></li>
+<li><p>Quali sono gli obiettivi principali di un sistema operativo?</p></li>
+<li><p>Perché la distinzione tra modo kernel e modo user è una forma di protezione?</p></li>
+<li><p>Descrivere 3 servizi di sistema operativo e spiegare perché sono convenienti per gli utenti. Inoltre, perché è sconveniente che siano forniti da programmi user?</p></li>
 </ol>
 </section>
 <section id="processi-e-thread">
-<h2>2- Processi e thread<a class="headerlink" href="#processi-e-thread" title="Link a questa intestazione">¶</a></h2>
+<h3>2- Processi e thread<a class="headerlink" href="#processi-e-thread" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Descrivi il concetto di mode switch e di process switch.</p></li>
 <li><p>Descrivi il concetto di processo. Quali sono i possibili stati di un processo?</p></li>
 <li><p>Spiegare la differenza tra il processo e thread.</p></li>
+<li><p>Quando un processo viene creato tramite <em>fork</em>, cosa è condiviso tra processo parent e child?</p></li>
+<li><p>Quale è la differenza tra User-Level Thread e Kernel-Level Thread?</p></li>
+<li><p>Quando un thread viene creato tramite <em>pthread_create</em>, cosa è condiviso tra thread parent e child?</p></li>
 </ol>
 </section>
 <section id="scheduling">
-<h2>3 - Scheduling<a class="headerlink" href="#scheduling" title="Link a questa intestazione">¶</a></h2>
+<h3>3 - Scheduling<a class="headerlink" href="#scheduling" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Cpu-scheduler: quali sono i criteri di valutazione di un CPU scheduler?</p></li>
 <li><p>Quali sfide introducono le architetture multicore nell’ambito del CPU scheduling?</p></li>
@@ -116,18 +139,22 @@
 <li><p>Descrivere la politica Round Robin e discuterne vantaggi e svantaggi.</p></li>
 <li><p>Descrivere la politica di Fair-Share scheduling e quali problematiche risolve.</p></li>
 <li><p>Descrivere lo scheduler Linux.</p></li>
+<li><p>Descrivere lo scheduler Multilevel Feedback Queue.</p></li>
+<li><p>Quale è il vantaggio di avere time-slice differenti in uno scheduler basato su code multilivello con feedback?</p></li>
+<li><p>Come è possibile parametrizzare uno scheduler basato su priorità per emulare gli scheduler Shortest Job First, First Come First Serve?</p></li>
 </ol>
 </section>
 <section id="sincronizzazione">
-<h2>4 - Sincronizzazione<a class="headerlink" href="#sincronizzazione" title="Link a questa intestazione">¶</a></h2>
+<h3>4 - Sincronizzazione<a class="headerlink" href="#sincronizzazione" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Cos’è un’istruzione Read-Modify-Write?</p></li>
 <li><p>Descrivere cosa è un lock e relative proprietà di correttezza e progresso.</p></li>
 <li><p>Descrivere il Bakery algorithm.</p></li>
+<li><p>Gli spinlock sono appropriati in un sistema single-core? Motiva la tua risposta.</p></li>
 </ol>
 </section>
 <section id="gestione-della-memoria">
-<h2>5 - Gestione della memoria<a class="headerlink" href="#gestione-della-memoria" title="Link a questa intestazione">¶</a></h2>
+<h3>5 - Gestione della memoria<a class="headerlink" href="#gestione-della-memoria" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Descrivi la paginazione e la segmentazione mostrando vantaggi e svantaggi di ciascuna.</p></li>
 <li><p>Mostra lo schema di paginazione a due livelli e il processo di traduzione di un indirizzo virtuale in fisico. Quali sono i vantaggi e gli svantaggi nell’uso di tale schema?</p></li>
@@ -143,7 +170,7 @@
 </ol>
 </section>
 <section id="i-o-management">
-<h2>6 - I/O Management<a class="headerlink" href="#i-o-management" title="Link a questa intestazione">¶</a></h2>
+<h3>6 - I/O Management<a class="headerlink" href="#i-o-management" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Quali sono le difficoltà che introduce il Direct Memory Access rispetto alla gestione dei processi?</p></li>
 <li><p>Descrivere la tecnica di I/O buffering e la sua utilità.</p></li>
@@ -153,7 +180,7 @@
 </ol>
 </section>
 <section id="file-management">
-<h2>7 - File management<a class="headerlink" href="#file-management" title="Link a questa intestazione">¶</a></h2>
+<h3>7 - File management<a class="headerlink" href="#file-management" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Cosa è un file e quali sono i suoi principali attributi?</p></li>
 <li><p>Cosa è un file system e quali sono i suoi compiti principali?</p></li>
@@ -161,6 +188,47 @@
 <li><p>Descrivere le caratteristiche saliente del file system UNIX</p></li>
 <li><p>Cosa è un in-memory file system e riportarne alcuni esempi.</p></li>
 </ol>
+</section>
+</section>
+<section id="esercizi">
+<h2>Esercizi<a class="headerlink" href="#esercizi" title="Link a questa intestazione">¶</a></h2>
+<section id="id1">
+<h3>1 - Introduzione<a class="headerlink" href="#id1" title="Link a questa intestazione">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Si consideri un programma di cui:</p></li>
+</ol>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><p>il 60% del tempo di esecuzione è parallelizzabile;</p></li>
+<li><p>l’80% del tempo non parallelizzabile può essere ottimizzato tramite l’adozione di un algoritmo 16 volte più veloce.</p></li>
+</ol>
+<p>Calcolare lo speedup ottenibile tramite:</p>
+<ul class="simple">
+<li><p>la sola ottimizzazione a) con 2 e 4 core;</p></li>
+<li><p>tramite la sola ottimizzazione b);</p></li>
+<li><p>l’applicazione congiunta di a) e b) con 2 e 4 core.</p></li>
+</ul>
+<p>Infine, riportare lo speedup massimo raggiungibile tramite ottimizzazione a) e b).</p>
+</div></blockquote>
+</section>
+<section id="id2">
+<h3>2- Processi e thread<a class="headerlink" href="#id2" title="Link a questa intestazione">¶</a></h3>
+</section>
+<section id="id3">
+<h3>3 - Scheduling<a class="headerlink" href="#id3" title="Link a questa intestazione">¶</a></h3>
+</section>
+<section id="id4">
+<h3>4 - Sincronizzazione<a class="headerlink" href="#id4" title="Link a questa intestazione">¶</a></h3>
+</section>
+<section id="id5">
+<h3>5 - Gestione della memoria<a class="headerlink" href="#id5" title="Link a questa intestazione">¶</a></h3>
+</section>
+<section id="id6">
+<h3>6 - I/O Management<a class="headerlink" href="#id6" title="Link a questa intestazione">¶</a></h3>
+</section>
+<section id="id7">
+<h3>7 - File management<a class="headerlink" href="#id7" title="Link a questa intestazione">¶</a></h3>
+</section>
 </section>
 </section>
 
@@ -176,7 +244,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 22 dic 2021.
+      <span class="lastupdated">Ultimo aggiornamento 30 dic 2021.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-22 13:16+0100\n"
+"POT-Creation-Date: 2021-12-23 16:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,7 +122,7 @@ msgid ""
 "<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
 msgstr ""
 
-#: ../source/slides.rst:26
+#: ../source/slides.rst:26 ../source/slides.rst:47
 msgid "`objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_"
 msgstr ""
 
@@ -140,44 +140,76 @@ msgstr ""
 msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
 msgstr ""
 
+#: ../source/slides.rst:30
+msgid "`/etc/passwd <https://man7.org/linux/man-pages/man5/passwd.5.html>`_"
+msgstr ""
+
+#: ../source/slides.rst:31
+msgid "`/etc/group <https://man7.org/linux/man-pages/man5/group.5.html>`_"
+msgstr ""
+
+#: ../source/slides.rst:32
+msgid "`/etc/shadow <https://man7.org/linux/man-pages/man5/shadow.5.html>`_"
+msgstr ""
+
 #: ../source/slides.rst:33
+msgid ""
+"`Bash redirection "
+"<https://www.gnu.org/software/bash/manual/html_node/Redirections.html>`_"
+msgstr ""
+
+#: ../source/slides.rst:37
 msgid "Approfondimenti"
 msgstr "Additional material"
 
-#: ../source/slides.rst:35
+#: ../source/slides.rst:39
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:36
+#: ../source/slides.rst:40
 msgid "`Linux Kernel Source Code <https://elixir.bootlin.com/>`_"
 msgstr ""
 
-#: ../source/slides.rst:37
+#: ../source/slides.rst:41
 msgid ""
 "`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
 "ddj.htm>`_"
 msgstr ""
 
-#: ../source/slides.rst:38
+#: ../source/slides.rst:42
 msgid "`Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:39
+#: ../source/slides.rst:43
 msgid ""
 "`Complete Fair Scheduler "
 "<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
 "CFS.html>`_"
 msgstr ""
 
-#: ../source/slides.rst:40
+#: ../source/slides.rst:44
 msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
 msgstr ""
 
-#: ../source/slides.rst:41
+#: ../source/slides.rst:45
 msgid ""
 "`Solid State Drives - Data Reliability and Lifetime "
 "<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
+msgstr ""
+
+#: ../source/slides.rst:46
+msgid ""
+"`Filesystem Hierarchy Standard "
+"<https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf>`_"
+msgstr ""
+
+#: ../source/slides.rst:48
+msgid "`readelf <https://man7.org/linux/man-pages/man1/readelf.1.html>`_"
+msgstr ""
+
+#: ../source/slides.rst:49
+msgid "`gdb <https://man7.org/linux/man-pages/man1/gdb.1.html>`_"
 msgstr ""
 

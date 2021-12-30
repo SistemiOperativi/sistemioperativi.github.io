@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-29 14:40+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/news/211229.rst:2
+msgid "29-12-2021 - avviso: aggionamenti e challenge!"
+msgstr ""
+
+#: ../source/news/211229.rst:4
+msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/news/211229.rst:6
+msgid "aggiunto diario della lezione del 22/12/21"
+msgstr ""
+
+#: ../source/news/211229.rst:7
+msgid "aggiornato regolamento sezione di esame"
+msgstr ""
+
+#: ../source/news/211229.rst:8
+msgid "aggiunta sezione \"Challenges\""
+msgstr ""
+
+#: ../source/news/211229.rst:9
+msgid "aggiornata sezione \"Esercizi di preparazione\":"
+msgstr ""
+
+#: ../source/news/211229.rst:11
+msgid "aggiunte 3 domande su Introduzione"
+msgstr ""
+
+#: ../source/news/211229.rst:12
+msgid "aggiunte 3 domande su Processi e thread"
+msgstr ""
+
+#: ../source/news/211229.rst:13
+msgid "aggiunte 3 domande su CPU-scheduling"
+msgstr ""
+
+#: ../source/news/211229.rst:14
+msgid "aggiunta 1 domanda su Sincronizzazione"
+msgstr ""
+
+#: ../source/news/211229.rst:18
+msgid "Microsoft Stream:"
+msgstr ""
+
+#: ../source/news/211229.rst:20
+msgid "caricata lezione del 22/12/2021"
+msgstr ""
+
+#: ../source/news/211229.rst:22
+msgid "GitHub:"
+msgstr ""
+
+#: ../source/news/211229.rst:24
+msgid "caricati sorgenti di esempio per attacchi di tipo buffer overflow"
+msgstr ""
+
+#~ msgid "aggiunte 2 domande su Introduzione"
+#~ msgstr ""
+

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-14 22:41+0100\n"
+"POT-Creation-Date: 2021-12-30 12:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,11 @@ msgid ""
 "essere utilizzate come preparazione all'esame."
 msgstr ""
 
-#: ../source/questions/intro.rst:2
+#: ../source/questions.rst:8
+msgid "Domande"
+msgstr ""
+
+#: ../source/q_exercises/intro.rst:2 ../source/questions/intro.rst:2
 msgid "1 - Introduzione"
 msgstr ""
 
@@ -60,7 +64,24 @@ msgid ""
 "garantire la protezione delle risorse."
 msgstr ""
 
-#: ../source/questions/processes.rst:2
+#: ../source/questions/intro.rst:9
+msgid "Quali sono gli obiettivi principali di un sistema operativo?"
+msgstr ""
+
+#: ../source/questions/intro.rst:10
+msgid ""
+"Perché la distinzione tra modo kernel e modo user è una forma di "
+"protezione?"
+msgstr ""
+
+#: ../source/questions/intro.rst:11
+msgid ""
+"Descrivere 3 servizi di sistema operativo e spiegare perché sono "
+"convenienti per gli utenti. Inoltre, perché è sconveniente che siano "
+"forniti da programmi user?"
+msgstr ""
+
+#: ../source/q_exercises/processes.rst:2 ../source/questions/processes.rst:2
 msgid "2- Processi e thread"
 msgstr ""
 
@@ -78,7 +99,23 @@ msgstr ""
 msgid "Spiegare la differenza tra il processo e thread."
 msgstr ""
 
-#: ../source/questions/sched.rst:2
+#: ../source/questions/processes.rst:7
+msgid ""
+"Quando un processo viene creato tramite *fork*, cosa è condiviso tra "
+"processo parent e child?"
+msgstr ""
+
+#: ../source/questions/processes.rst:8
+msgid "Quale è la differenza tra User-Level Thread e Kernel-Level Thread?"
+msgstr ""
+
+#: ../source/questions/processes.rst:9
+msgid ""
+"Quando un thread viene creato tramite *pthread_create*, cosa è condiviso "
+"tra thread parent e child?"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:2 ../source/questions/sched.rst:2
 msgid "3 - Scheduling"
 msgstr ""
 
@@ -116,7 +153,23 @@ msgstr ""
 msgid "Descrivere lo scheduler Linux."
 msgstr ""
 
-#: ../source/questions/sync.rst:2
+#: ../source/questions/sched.rst:11
+msgid "Descrivere lo scheduler Multilevel Feedback Queue."
+msgstr ""
+
+#: ../source/questions/sched.rst:12
+msgid ""
+"Quale è il vantaggio di avere time-slice differenti in uno scheduler "
+"basato su code multilivello con feedback?"
+msgstr ""
+
+#: ../source/questions/sched.rst:13
+msgid ""
+"Come è possibile parametrizzare uno scheduler basato su priorità per "
+"emulare gli scheduler Shortest Job First, First Come First Serve?"
+msgstr ""
+
+#: ../source/q_exercises/sync.rst:2 ../source/questions/sync.rst:2
 msgid "4 - Sincronizzazione"
 msgstr ""
 
@@ -132,7 +185,13 @@ msgstr ""
 msgid "Descrivere il Bakery algorithm."
 msgstr ""
 
-#: ../source/questions/memory.rst:2
+#: ../source/questions/sync.rst:7
+msgid ""
+"Gli spinlock sono appropriati in un sistema single-core? Motiva la tua "
+"risposta."
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:2 ../source/questions/memory.rst:2
 msgid "5 - Gestione della memoria"
 msgstr ""
 
@@ -193,7 +252,7 @@ msgstr ""
 msgid "Descrivere il fenomeno del thrashing nel contesto della memoria virtuale."
 msgstr ""
 
-#: ../source/questions/IO.rst:2
+#: ../source/q_exercises/IO.rst:2 ../source/questions/IO.rst:2
 msgid "6 - I/O Management"
 msgstr ""
 
@@ -223,7 +282,7 @@ msgid ""
 "limiti. Per le limitazioni descritte, riportare possibili soluzioni."
 msgstr ""
 
-#: ../source/questions/file.rst:2
+#: ../source/q_exercises/file.rst:2 ../source/questions/file.rst:2
 msgid "7 - File management"
 msgstr ""
 
@@ -245,6 +304,48 @@ msgstr ""
 
 #: ../source/questions/file.rst:8
 msgid "Cosa è un in-memory file system e riportarne alcuni esempi."
+msgstr ""
+
+#: ../source/questions.rst:20
+msgid "Esercizi"
+msgstr ""
+
+#: ../source/q_exercises/intro.rst:4
+msgid "Si consideri un programma di cui:"
+msgstr ""
+
+#: ../source/q_exercises/intro.rst:6
+#, python-format
+msgid "il 60% del tempo di esecuzione è parallelizzabile;"
+msgstr ""
+
+#: ../source/q_exercises/intro.rst:7
+#, python-format
+msgid ""
+"l'80% del tempo non parallelizzabile può essere ottimizzato tramite "
+"l'adozione di un algoritmo 16 volte più veloce."
+msgstr ""
+
+#: ../source/q_exercises/intro.rst:9
+msgid "Calcolare lo speedup ottenibile tramite:"
+msgstr ""
+
+#: ../source/q_exercises/intro.rst:11
+msgid "la sola ottimizzazione a) con 2 e 4 core;"
+msgstr ""
+
+#: ../source/q_exercises/intro.rst:12
+msgid "tramite la sola ottimizzazione b);"
+msgstr ""
+
+#: ../source/q_exercises/intro.rst:13
+msgid "l'applicazione congiunta di a) e b) con 2 e 4 core."
+msgstr ""
+
+#: ../source/q_exercises/intro.rst:15
+msgid ""
+"Infine, riportare lo speedup massimo raggiungibile tramite ottimizzazione"
+" a) e b)."
 msgstr ""
 
 #~ msgid "Compara, mostrando vantaggi e svantaggi, le seguenti"
@@ -602,5 +703,43 @@ msgstr ""
 #~ "First-Served e Shortest-Seek-Time-"
 #~ "First per disk scheduling e spiegarne"
 #~ " le vantaggi e svantaggi."
+#~ msgstr ""
+
+#~ msgid "Quali sono gli obiettivi princiapli di un sistema operativo?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere 3 servizi di sistema "
+#~ "operativo che ne rendono conveniente "
+#~ "l'utilizzo. Perché è sconveniente che "
+#~ "siano forniti da programmi user?."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere 3 servizi di sistema "
+#~ "operativo e spiegare perché sono "
+#~ "convenienti per gli utenti. Inoltre, "
+#~ "perché è sconveniente che siano forniti"
+#~ " da programmi user?."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Quando un thread viene creato, cosa "
+#~ "è condiviso tra thread parent e "
+#~ "child?"
+#~ msgstr ""
+
+#~ msgid "Gli spinlock sono appropriati in un sistema single-core?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Calcolare lo speedup ottenibile tramite "
+#~ "la sola ottimizzazione a) con 2 e"
+#~ " 4 core, tramite la sola "
+#~ "ottimizzazione b) e l'applicazione congiunta"
+#~ " di a) e b) con 2 e 4 "
+#~ "core. Infine, riportare lo speedup "
+#~ "massimo raggiungibile tramite ottimizzazione "
+#~ "a) e b)."
 #~ msgstr ""
 

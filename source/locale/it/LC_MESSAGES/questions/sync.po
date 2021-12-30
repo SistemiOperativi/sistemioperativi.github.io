@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-03 00:04+0100\n"
+"POT-Creation-Date: 2021-12-29 14:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,15 @@ msgstr ""
 msgid "Descrivere il Bakery algorithm."
 msgstr ""
 
+#: ../source/questions/sync.rst:7
+msgid ""
+"Gli spinlock sono appropriati in un sistema single-core? Motiva la tua "
+"risposta."
+msgstr ""
+
 #~ msgid "Cos'è un'istruzione Read-Modify-Write."
+#~ msgstr ""
+
+#~ msgid "Gli spinlock sono appropriati in un sistema single-core?"
 #~ msgstr ""
 

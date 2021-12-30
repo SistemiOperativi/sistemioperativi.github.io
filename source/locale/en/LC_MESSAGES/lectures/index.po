@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-22 13:33+0100\n"
+"POT-Creation-Date: 2021-12-23 14:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,153 @@ msgstr ""
 "The union of paragraph might be NOT representative of all the topics "
 "discussed during lectures."
 
+#: ../source/lectures/211222.rst:2
+msgid "22/12/2021 - Esempi C, Aspetti di sicurezza ed Introduzione a Linux"
+msgstr "22/12/2021 - C examples, security aspects and introduction to Linux"
+
+#: ../source/lectures/211222.rst:4
+msgid "Esempi codice C aspetti di sicurezza:"
+msgstr "C examples and security related topics for Linux:"
+
+#: ../source/lectures/211221.rst:7 ../source/lectures/211222.rst:6
+msgid "layout di programma, permesso SUID e buffer overflow"
+msgstr "Program layout, SUID permission and buffer overflow"
+
+#: ../source/lectures/211222.rst:7
+msgid "accenni di return-oriented programming"
+msgstr "introduction to return-oriented programming"
+
+#: ../source/lectures/211222.rst:8
+msgid "address space randomization"
+msgstr ""
+
+#: ../source/lectures/211222.rst:9
+msgid "canary tag"
+msgstr ""
+
+#: ../source/lectures/211222.rst:10
+msgid "memorizzazione di password"
+msgstr "password saving"
+
+#: ../source/lectures/211222.rst:12
+msgid "Introduzione a Linux:"
+msgstr "Introduction to Linux:"
+
+#: ../source/lectures/211222.rst:14
+msgid "utente root"
+msgstr "root user"
+
+#: ../source/lectures/211222.rst:15
+msgid "Filesystem Hierarchy Standard"
+msgstr ""
+
+#: ../source/lectures/211222.rst:16
+msgid "terminale e shell"
+msgstr "terminals and shell"
+
+#: ../source/lectures/211222.rst:17
+msgid "redirezionamento stdin e stdout (<,>,>>,|)"
+msgstr "stdin and stdout redirection (<,>,>>,|)"
+
+#: ../source/lectures/211222.rst:18
+msgid "utenti e gruppi"
+msgstr "users and groups"
+
+#: ../source/lectures/211222.rst:19
+msgid "/etc/passwd e /etc/groups"
+msgstr ""
+
+#: ../source/lectures/211222.rst:20
+msgid "configurazione /etc/sudoers"
+msgstr "/etc/sudoers"
+
+#: ../source/lectures/211222.rst:24
+msgid "Riferimenti e libri di testo"
+msgstr "Link and Textbook references"
+
+#: ../source/lectures/211222.rst:26
+msgid "[:ref:`t1 <books>`] Sezione 15.2, 15.4"
+msgstr "[:ref:`t1 <books>`] Section 15.2, 15.4"
+
+#: ../source/lectures/211222.rst:27
+msgid "[:ref:`t2 <books>`] Sezione 16.2.2"
+msgstr "[:ref:`t2 <books>`] Section 16.2.2"
+
+#: ../source/lectures/211222.rst:29
+msgid "`/etc/passwd <https://man7.org/linux/man-pages/man5/passwd.5.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:30
+msgid "`/etc/group <https://man7.org/linux/man-pages/man5/group.5.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:31
+msgid "`/etc/shadow <https://man7.org/linux/man-pages/man5/shadow.5.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:32
+msgid ""
+"Filesystem Hierarchy Standard `Wikipedia "
+"<https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:33
+msgid ""
+"`Bash redirection "
+"<https://www.gnu.org/software/bash/manual/html_node/Redirections.html>`_"
+msgstr ""
+
+#: ../source/lectures/211214.rst:33 ../source/lectures/211215.rst:19
+#: ../source/lectures/211221.rst:16 ../source/lectures/211222.rst:34
+msgid ""
+"`POSIX dup "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_"
+msgstr ""
+
+#: ../source/lectures/211215.rst:21 ../source/lectures/211221.rst:17
+#: ../source/lectures/211222.rst:35
+msgid ""
+"`POSIX exec "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_"
+msgstr ""
+
+#: ../source/lectures/211221.rst:18 ../source/lectures/211222.rst:36
+msgid ""
+"`mode_t "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
+msgstr ""
+
+#: ../source/lectures/211130.rst:17 ../source/lectures/211201.rst:15
+#: ../source/lectures/211214.rst:23 ../source/lectures/211222.rst:39
+msgid "Approfondimenti"
+msgstr "Additional references"
+
+#: ../source/lectures/211222.rst:41
+msgid "[:ref:`t1 <books>`] Capitolo 15"
+msgstr "[:ref:`t2 <books>`] Chapter 15"
+
+#: ../source/lectures/211222.rst:42
+msgid "[:ref:`t2 <books>`] Capitolo 16"
+msgstr "[:ref:`t2 <books>`] Chapter 16"
+
+#: ../source/lectures/211222.rst:43
+msgid ""
+"`Filesystem Hierarchy Standard "
+"<https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf>`_"
+msgstr ""
+
+#: ../source/lectures/211221.rst:19 ../source/lectures/211222.rst:44
+msgid "`objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:45
+msgid "`readelf <https://man7.org/linux/man-pages/man1/readelf.1.html>`_"
+msgstr ""
+
+#: ../source/lectures/211222.rst:46
+msgid "`gdb <https://man7.org/linux/man-pages/man1/gdb.1.html>`_"
+msgstr ""
+
 #: ../source/lectures/211221.rst:2
 msgid "21/12/2021 - Esempi di programmazione C"
 msgstr "21/12/2021 - C examples"
@@ -49,10 +196,6 @@ msgstr "C code example for Linux:"
 #: ../source/lectures/211221.rst:6
 msgid "pattern produttore/consumatore"
 msgstr "producer/consumer pattern"
-
-#: ../source/lectures/211221.rst:7
-msgid "layout di programma, permesso SUID e buffer overflow"
-msgstr "Program layout, SUID permission and buffer overflow"
 
 #: ../source/lectures/211215.rst:12 ../source/lectures/211221.rst:11
 msgid "Riferimenti"
@@ -77,29 +220,6 @@ msgstr ""
 msgid ""
 "`POSIX write "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_"
-msgstr ""
-
-#: ../source/lectures/211214.rst:33 ../source/lectures/211215.rst:19
-#: ../source/lectures/211221.rst:16
-msgid ""
-"`POSIX dup "
-"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_"
-msgstr ""
-
-#: ../source/lectures/211215.rst:21 ../source/lectures/211221.rst:17
-msgid ""
-"`POSIX exec "
-"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_"
-msgstr ""
-
-#: ../source/lectures/211221.rst:18
-msgid ""
-"`mode_t "
-"<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
-msgstr ""
-
-#: ../source/lectures/211221.rst:19
-msgid "`objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_"
 msgstr ""
 
 #: ../source/lectures/211215.rst:2
@@ -134,7 +254,7 @@ msgid ""
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/truncate.html>`_"
 msgstr ""
 
-#: ../source/lectures/211215.rst:22 ../source/lectures/index.rst:77
+#: ../source/lectures/211215.rst:22 ../source/lectures/index.rst:79
 msgid ""
 "`POSIX mmap "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/mmap.html>`_"
@@ -184,15 +304,15 @@ msgstr "recovert and file locking"
 
 #: ../source/lectures/211130.rst:10 ../source/lectures/211201.rst:8
 #: ../source/lectures/211207.rst:12 ../source/lectures/211214.rst:17
-#: ../source/lectures/index.rst:34 ../source/lectures/index.rst:49
-#: ../source/lectures/index.rst:68 ../source/lectures/index.rst:92
-#: ../source/lectures/index.rst:126 ../source/lectures/index.rst:149
-#: ../source/lectures/index.rst:188 ../source/lectures/index.rst:208
-#: ../source/lectures/index.rst:250 ../source/lectures/index.rst:275
-#: ../source/lectures/index.rst:307 ../source/lectures/index.rst:333
-#: ../source/lectures/index.rst:377 ../source/lectures/index.rst:403
-#: ../source/lectures/index.rst:444 ../source/lectures/index.rst:469
-#: ../source/lectures/index.rst:502 ../source/lectures/index.rst:522
+#: ../source/lectures/index.rst:36 ../source/lectures/index.rst:51
+#: ../source/lectures/index.rst:70 ../source/lectures/index.rst:94
+#: ../source/lectures/index.rst:128 ../source/lectures/index.rst:151
+#: ../source/lectures/index.rst:190 ../source/lectures/index.rst:210
+#: ../source/lectures/index.rst:252 ../source/lectures/index.rst:277
+#: ../source/lectures/index.rst:309 ../source/lectures/index.rst:335
+#: ../source/lectures/index.rst:379 ../source/lectures/index.rst:405
+#: ../source/lectures/index.rst:446 ../source/lectures/index.rst:471
+#: ../source/lectures/index.rst:504 ../source/lectures/index.rst:524
 msgid "Riferimenti libro di testo"
 msgstr "Textbook references"
 
@@ -207,11 +327,6 @@ msgid ""
 msgstr ""
 "[:ref:`t2 <books>`] Section 14.4, 14.4.1, 14.4.2, 14.4.3, 14.6, 14.7, "
 "14.7.1, 14.7.2, 15.5"
-
-#: ../source/lectures/211130.rst:17 ../source/lectures/211201.rst:15
-#: ../source/lectures/211214.rst:23
-msgid "Approfondimenti"
-msgstr "Additional references"
 
 #: ../source/lectures/211214.rst:24
 msgid ""
@@ -373,19 +488,19 @@ msgstr ""
 msgid "[:ref:`t2 <books>`] Capitolo 12"
 msgstr "[:ref:`t2 <books>`] Chapter 12"
 
-#: ../source/lectures/index.rst:24
+#: ../source/lectures/index.rst:26
 msgid "24/11/2021 - Gestione della memoria parte 5"
 msgstr "24/11/2021 - Memory management part 5"
 
-#: ../source/lectures/index.rst:26
+#: ../source/lectures/index.rst:28
 msgid "Caricamento delle pagine"
 msgstr "Page fetching"
 
-#: ../source/lectures/index.rst:27
+#: ../source/lectures/index.rst:29
 msgid "Posizionamento delle pagine"
 msgstr "Page placement"
 
-#: ../source/lectures/index.rst:28
+#: ../source/lectures/index.rst:30
 msgid ""
 "Sostituzione delle pagine: metodologia di valutazione, FIFO, Ottimo, LRU,"
 " algoritmi a stack, clock"
@@ -393,23 +508,23 @@ msgstr ""
 "Page replacement: evaluation methodology, FIFO, Optimal, LRU, stack "
 "algorithms, clock"
 
-#: ../source/lectures/index.rst:29
+#: ../source/lectures/index.rst:31
 msgid "Anomalia di Belady"
 msgstr "Belady's anomaly"
 
-#: ../source/lectures/index.rst:30
+#: ../source/lectures/index.rst:32
 msgid "Resident set management: Working set, Page fault frequency"
 msgstr ""
 
-#: ../source/lectures/index.rst:31
+#: ../source/lectures/index.rst:33
 msgid "Thrashing"
 msgstr ""
 
-#: ../source/lectures/index.rst:36 ../source/lectures/index.rst:51
+#: ../source/lectures/index.rst:38 ../source/lectures/index.rst:53
 msgid "[:ref:`t1 <books>`] Sezione 8.2"
 msgstr "[:ref:`t1 <books>`] Section 8.2"
 
-#: ../source/lectures/index.rst:37
+#: ../source/lectures/index.rst:39
 msgid ""
 "[:ref:`t2 <books>`] Sezione 10.4, 10.4.1, 10.4.2, 10.4.3, 10.4.4, 10.4.5,"
 " 10.5, 10.5.1, 10.5.2, 10.5.3, 10.5.4, 10.6, 10.6.1, 10.6.2, 10.6.3"
@@ -417,385 +532,385 @@ msgstr ""
 "[:ref:`t2 <books>`] Section 10.4, 10.4.1, 10.4.2, 10.4.3, 10.4.4, 10.4.5,"
 " 10.5, 10.5.1, 10.5.2, 10.5.3, 10.5.4, 10.6, 10.6.1, 10.6.2, 10.6.3"
 
-#: ../source/lectures/index.rst:41
+#: ../source/lectures/index.rst:43
 msgid "23/11/2021 - Gestione della memoria parte 4"
 msgstr "17/11/2021 - Memory management part 4"
 
-#: ../source/lectures/index.rst:43
+#: ../source/lectures/index.rst:45
 msgid "Memoria virtuale"
 msgstr "Introduction to the virtual memory"
 
-#: ../source/lectures/index.rst:44
+#: ../source/lectures/index.rst:46
 msgid "Gestione di page fault"
 msgstr "Page fault management"
 
-#: ../source/lectures/index.rst:45
+#: ../source/lectures/index.rst:47
 msgid "Performance della memoria virtuale"
 msgstr "Performance of virtual memory"
 
-#: ../source/lectures/index.rst:46
+#: ../source/lectures/index.rst:48
 msgid "Aspetti generali per la gestione della memoria virtuale"
 msgstr "Introduction to the virtual memory"
 
-#: ../source/lectures/index.rst:52
+#: ../source/lectures/index.rst:54
 msgid "[:ref:`t2 <books>`] Sezione 10.1, 10.2, 10.2.1, 10.2.2, 10.2.3"
 msgstr "[:ref:`t2 <books>`] Sections 10.1, 10.2, 10.2.1, 10.2.2, 10.2.3"
 
-#: ../source/lectures/index.rst:60
+#: ../source/lectures/index.rst:62
 msgid "17/11/2021 - Gestione della memoria parte 3"
 msgstr "17/11/2021 - Memory management part 3"
 
-#: ../source/lectures/index.rst:62
+#: ../source/lectures/index.rst:64
 msgid "Segmentazione"
 msgstr "Segmentation"
 
-#: ../source/lectures/index.rst:63
+#: ../source/lectures/index.rst:65
 msgid "Segmentazione paginata"
 msgstr "Paged segmentation"
 
-#: ../source/lectures/index.rst:64
+#: ../source/lectures/index.rst:66
 msgid "Mappatura dello spazio di indirizzamento e relativi system call Linux"
 msgstr "Address space mapping and Linux syscall for mapping"
 
-#: ../source/lectures/index.rst:65
+#: ../source/lectures/index.rst:67
 msgid "Introduzione alla memoria virtuale"
 msgstr "Introduction to the virtual memory"
 
-#: ../source/lectures/index.rst:70
+#: ../source/lectures/index.rst:72
 msgid "[:ref:`t1 <books>`] Sezione 7.4, 8.1"
 msgstr "[:ref:`t1 <books>`] Section 7.4, 8.1"
 
-#: ../source/lectures/index.rst:71
+#: ../source/lectures/index.rst:73
 msgid "[:ref:`t2 <books>`] Sezione 9.6, 10.1"
 msgstr "[:ref:`t2 <books>`] Section 9.6, 10.1"
 
-#: ../source/lectures/index.rst:75 ../source/lectures/index.rst:132
-#: ../source/lectures/index.rst:155 ../source/lectures/index.rst:194
-#: ../source/lectures/index.rst:214 ../source/lectures/index.rst:256
-#: ../source/lectures/index.rst:313 ../source/lectures/index.rst:339
-#: ../source/lectures/index.rst:384 ../source/lectures/index.rst:410
-#: ../source/lectures/index.rst:507 ../source/lectures/index.rst:529
+#: ../source/lectures/index.rst:77 ../source/lectures/index.rst:134
+#: ../source/lectures/index.rst:157 ../source/lectures/index.rst:196
+#: ../source/lectures/index.rst:216 ../source/lectures/index.rst:258
+#: ../source/lectures/index.rst:315 ../source/lectures/index.rst:341
+#: ../source/lectures/index.rst:386 ../source/lectures/index.rst:412
+#: ../source/lectures/index.rst:509 ../source/lectures/index.rst:531
 msgid "Link di approfondimento"
 msgstr "Additional references"
 
-#: ../source/lectures/index.rst:78
+#: ../source/lectures/index.rst:80
 msgid "`Linux mmap <https://man7.org/linux/man-pages/man2/mmap.2.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:84
+#: ../source/lectures/index.rst:86
 msgid "16/11/2021 - Gestione della memoria parte 2"
 msgstr "16/11/2021 - Memory management part 2"
 
-#: ../source/lectures/index.rst:86
+#: ../source/lectures/index.rst:88
 msgid "Binding di indirizzi"
 msgstr ""
 
-#: ../source/lectures/index.rst:87
+#: ../source/lectures/index.rst:89
 msgid "Concetto di rilocazione"
 msgstr ""
 
-#: ../source/lectures/index.rst:88
+#: ../source/lectures/index.rst:90
 msgid "Paginazione"
 msgstr ""
 
-#: ../source/lectures/index.rst:89
+#: ../source/lectures/index.rst:91
 msgid "Tabella delle pagine, Traslation Lookaside Buffer, Paginazione gerarchica"
 msgstr ""
 
-#: ../source/lectures/index.rst:94
+#: ../source/lectures/index.rst:96
 msgid "[:ref:`t1 <books>`] Sezione 7.3, 8.1 paragrafo Paging"
 msgstr ""
 
-#: ../source/lectures/index.rst:95
+#: ../source/lectures/index.rst:97
 msgid ""
 "[:ref:`t2 <books>`] Sezione 9.1.1, 9.1.2, 9.1.3, 9.3, 9.3.1, 9.3.2, "
 "9.3.3, 9.3.2, 9.4, 9.4.1"
 msgstr ""
 
-#: ../source/lectures/index.rst:115
+#: ../source/lectures/index.rst:117
 msgid "10/11/2021 - Sincronizzazione parte 4 - Gestione della memoria parte 1"
 msgstr "10/11/2021 - Synchronization part 4 - Memory management part 1"
 
-#: ../source/lectures/index.rst:117
+#: ../source/lectures/index.rst:119
 msgid "Semafori POSIX"
 msgstr ""
 
-#: ../source/lectures/index.rst:118
+#: ../source/lectures/index.rst:120
 msgid "Introduzione a gestione della memoria"
 msgstr ""
 
-#: ../source/lectures/index.rst:119
+#: ../source/lectures/index.rst:121
 msgid "Partizioni fisse"
 msgstr ""
 
-#: ../source/lectures/index.rst:120
+#: ../source/lectures/index.rst:122
 msgid "Partizioni dinamiche"
 msgstr ""
 
-#: ../source/lectures/index.rst:121
+#: ../source/lectures/index.rst:123
 msgid "Politiche di placement: Best fit, Worst fit, First fit, Next fit"
 msgstr ""
 
-#: ../source/lectures/index.rst:122
+#: ../source/lectures/index.rst:124
 msgid "Buddy system"
 msgstr ""
 
-#: ../source/lectures/index.rst:123
+#: ../source/lectures/index.rst:125
 msgid "Frammentazione interna ed esterna"
 msgstr ""
 
-#: ../source/lectures/index.rst:128
+#: ../source/lectures/index.rst:130
 msgid "[:ref:`t1 <books>`] Sezione 7.1, 7.2"
 msgstr ""
 
-#: ../source/lectures/index.rst:129
+#: ../source/lectures/index.rst:131
 msgid "[:ref:`t2 <books>`] Sezione 6.6, 7.3.2, 9.1, 9.1.1, 9.2, 9.2.1, 9.2.3"
 msgstr ""
 
-#: ../source/lectures/index.rst:134
+#: ../source/lectures/index.rst:136
 msgid ""
 "`sem_init "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_init.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:135
+#: ../source/lectures/index.rst:137
 msgid ""
 "`sem_wait "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_wait.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:136
+#: ../source/lectures/index.rst:138
 msgid ""
 "`sem_post "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_post.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:137
+#: ../source/lectures/index.rst:139
 msgid ""
 "`sem_destroy "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_destroy.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:142
+#: ../source/lectures/index.rst:144
 msgid "09/11/2021 - Sincronizzazione parte 3"
 msgstr "09/11/2021 - Synchronization part 3"
 
-#: ../source/lectures/index.rst:144
+#: ../source/lectures/index.rst:146
 msgid "Read-Modify-Write"
 msgstr ""
 
-#: ../source/lectures/index.rst:145
+#: ../source/lectures/index.rst:147
 msgid "Algoritmi di mutua esclusione basati su RMW"
 msgstr ""
 
-#: ../source/lectures/index.rst:146
+#: ../source/lectures/index.rst:148
 msgid "Spin lock, Mutex POSIX"
 msgstr ""
 
-#: ../source/lectures/index.rst:151
+#: ../source/lectures/index.rst:153
 msgid "[:ref:`t1 <books>`] Sezione 5.3"
 msgstr ""
 
-#: ../source/lectures/index.rst:152
+#: ../source/lectures/index.rst:154
 msgid "[:ref:`t2 <books>`] Sezione 6.4, 6.5, 6.6, 7.3.1"
 msgstr ""
 
-#: ../source/lectures/index.rst:157
+#: ../source/lectures/index.rst:159
 msgid ""
 "`pthread_spin_init "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_init.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:158
+#: ../source/lectures/index.rst:160
 msgid ""
 "`pthread_spin_lock "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_lock.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:159
+#: ../source/lectures/index.rst:161
 msgid ""
 "`pthread_mutex_init "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_init.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:160
+#: ../source/lectures/index.rst:162
 msgid ""
 "`pthread_mutex_lock "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_lock.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:161
+#: ../source/lectures/index.rst:163
 msgid ""
 "`gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
 "Builtins.html#g_t_005f_005fsync-Builtins>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:180
+#: ../source/lectures/index.rst:182
 msgid "03/11/2021 - Sincronizzazione parte 2"
 msgstr "03/11/2021 - Synchronization part 2"
 
-#: ../source/lectures/index.rst:182
+#: ../source/lectures/index.rst:184
 msgid "Mutua Esclusione"
 msgstr ""
 
-#: ../source/lectures/index.rst:183
+#: ../source/lectures/index.rst:185
 msgid "Errori Comuni: Deadlock e Livelock"
 msgstr ""
 
-#: ../source/lectures/index.rst:184
+#: ../source/lectures/index.rst:186
 msgid "Algoritmo di Peterson"
 msgstr ""
 
-#: ../source/lectures/index.rst:185
+#: ../source/lectures/index.rst:187
 msgid "Algoritmo del panettiere (Lamport)"
 msgstr ""
 
-#: ../source/lectures/index.rst:190
+#: ../source/lectures/index.rst:192
 msgid "[:ref:`t1 <books>`] Sezione 5.1, 5.2, 6.1"
 msgstr ""
 
-#: ../source/lectures/index.rst:191
+#: ../source/lectures/index.rst:193
 msgid "[:ref:`t2 <books>`] Sezione 6.3, 6.8, 8.2, 8.3"
 msgstr ""
 
-#: ../source/lectures/index.rst:196
+#: ../source/lectures/index.rst:198
 msgid "`Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:201
+#: ../source/lectures/index.rst:203
 msgid "02/11/2021 - CPU scheduling parte 4 - Sincronizzazione parte 1"
 msgstr "02/11/2021 - CPU scheduling part 4 - Synchronization part 1"
 
-#: ../source/lectures/index.rst:203
+#: ../source/lectures/index.rst:205
 msgid "Scheduler UNIX System V Release 4"
 msgstr ""
 
-#: ../source/lectures/index.rst:204
+#: ../source/lectures/index.rst:206
 msgid "Linux Complete Fair Scheduler"
 msgstr ""
 
-#: ../source/lectures/index.rst:205
+#: ../source/lectures/index.rst:207
 msgid "Introduzione alla sincronizzazione"
 msgstr "Introducation to synchronization"
 
-#: ../source/lectures/index.rst:210
+#: ../source/lectures/index.rst:212
 msgid "[:ref:`t1 <books>`] Sezione 10.3, 10.4, 5"
 msgstr "[:ref:`t1 <books>`] Section 10.3, 10.4, 5"
 
-#: ../source/lectures/index.rst:211
+#: ../source/lectures/index.rst:213
 msgid "[:ref:`t2 <books>`] Sezione 5.7.1, 6.1, 6.2"
 msgstr "[:ref:`t2 <books>`] Section 5.7.1, 6.1, 6.2"
 
-#: ../source/lectures/index.rst:216
+#: ../source/lectures/index.rst:218
 msgid ""
 "`Complete Fair Scheduler "
 "<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
 "CFS.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:240
+#: ../source/lectures/index.rst:242
 msgid "27/10/2021 - CPU scheduling parte 3"
 msgstr "27/10/2021 - CPU scheduling part 3"
 
-#: ../source/lectures/index.rst:242
+#: ../source/lectures/index.rst:244
 msgid "Multi-level feedback queue"
 msgstr ""
 
-#: ../source/lectures/index.rst:243
+#: ../source/lectures/index.rst:245
 msgid "Fair-share scheduling"
 msgstr ""
 
-#: ../source/lectures/index.rst:244
+#: ../source/lectures/index.rst:246
 msgid "Multiprocessor scheduling"
 msgstr ""
 
-#: ../source/lectures/index.rst:245
+#: ../source/lectures/index.rst:247
 msgid "Load sharing"
 msgstr ""
 
-#: ../source/lectures/index.rst:246
+#: ../source/lectures/index.rst:248
 msgid "Load balancing"
 msgstr ""
 
-#: ../source/lectures/index.rst:247
+#: ../source/lectures/index.rst:249
 msgid "Affinity"
 msgstr ""
 
-#: ../source/lectures/index.rst:252
+#: ../source/lectures/index.rst:254
 msgid "[:ref:`t1 <books>`] Sezione 9.2, 10.1"
 msgstr "[:ref:`t1 <books>`] Section 9.2, 10.1"
 
-#: ../source/lectures/index.rst:253
+#: ../source/lectures/index.rst:255
 msgid "[:ref:`t2 <books>`] Sezione 5.5"
 msgstr "[:ref:`t2 <books>`] Section 5.5"
 
-#: ../source/lectures/index.rst:258
+#: ../source/lectures/index.rst:260
 msgid ""
 "`sched_setaffinity <https://man7.org/linux/man-"
 "pages/man2/sched_setaffinity.2.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:259
+#: ../source/lectures/index.rst:261
 msgid ""
 "`sched_getaffinity <https://man7.org/linux/man-"
 "pages/man2/sched_getaffinity.2.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:260
+#: ../source/lectures/index.rst:262
 msgid "`CPU_SET <https://man7.org/linux/man-pages/man3/CPU_SET.3.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:261
+#: ../source/lectures/index.rst:263
 msgid ""
 "`pthread_setaffinity_np <https://man7.org/linux/man-"
 "pages/man3/pthread_setaffinity_np.3.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:267
+#: ../source/lectures/index.rst:269
 msgid "26/10/2021 - CPU scheduling parte 2"
 msgstr "26/10/2021 - CPU scheduling part 2"
 
-#: ../source/lectures/index.rst:269
+#: ../source/lectures/index.rst:271
 msgid "First Come First Serve"
 msgstr ""
 
-#: ../source/lectures/index.rst:270
+#: ../source/lectures/index.rst:272
 msgid "Shortest Job First"
 msgstr ""
 
-#: ../source/lectures/index.rst:271
+#: ../source/lectures/index.rst:273
 msgid "Round Robin"
 msgstr ""
 
-#: ../source/lectures/index.rst:272
+#: ../source/lectures/index.rst:274
 msgid "Priority Scheduling"
 msgstr ""
 
-#: ../source/lectures/index.rst:277
+#: ../source/lectures/index.rst:279
 msgid "[:ref:`t1 <books>`] Sezione 9.2"
 msgstr "[:ref:`t1 <books>`] Section 9.2"
 
-#: ../source/lectures/index.rst:278
+#: ../source/lectures/index.rst:280
 msgid "[:ref:`t2 <books>`] Sezione 5.3"
 msgstr "[:ref:`t2 <books>`] Section 5.3"
 
-#: ../source/lectures/index.rst:299
+#: ../source/lectures/index.rst:301
 msgid "20/10/2021 - Threads parte 2 - CPU scheduling parte 1"
 msgstr "20/10/2021 - Threads part 2 - CPU scheduling part 1"
 
-#: ../source/lectures/index.rst:301
+#: ../source/lectures/index.rst:303
 msgid "pthread_create, pthread_join, pthread_exit"
 msgstr ""
 
-#: ../source/lectures/index.rst:302
+#: ../source/lectures/index.rst:304
 msgid "Processi UNIX: stati, gerarchie e threads"
 msgstr "UNIX processes: states, hierarchies and threads"
 
-#: ../source/lectures/index.rst:303
+#: ../source/lectures/index.rst:305
 msgid "Processi Linux: concetto di task, stati, accenni di task_struct"
 msgstr "Linux processes: task, states, task_struct"
 
-#: ../source/lectures/index.rst:304
+#: ../source/lectures/index.rst:306
 msgid ""
 "Introduzione al CPU scheduling: metriche di prestazionali e non per "
 "l'utente ed il sistema, preemtive e non-preemptive scheduling"
@@ -803,33 +918,33 @@ msgstr ""
 "CPU scheduling: performance metrics, preemptive and non-preemptive "
 "scheduling"
 
-#: ../source/lectures/index.rst:309
+#: ../source/lectures/index.rst:311
 msgid "[:ref:`t1 <books>`] Sezione 3.6, 9.1, 9.2"
 msgstr "[:ref:`t1 <books>`] Section 3.6, 9.1, 9.2"
 
-#: ../source/lectures/index.rst:310
+#: ../source/lectures/index.rst:312
 msgid "[:ref:`t2 <books>`] Sezione 3.2, 4.6.4, 4.7.2, 5.1, 5.2"
 msgstr "[:ref:`t2 <books>`] Section 3.2, 4.6.4, 4.7.2, 5.1, 5.2"
 
-#: ../source/lectures/index.rst:315
+#: ../source/lectures/index.rst:317
 msgid ""
 "`pthread_create "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:316
+#: ../source/lectures/index.rst:318
 msgid ""
 "`pthread_join "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:317
+#: ../source/lectures/index.rst:319
 msgid ""
 "`pthread_exit "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:318
+#: ../source/lectures/index.rst:320
 msgid ""
 "Codice sorgente Linux Kernel: `task_struct "
 "<https://elixir.bootlin.com/linux/v5.14.7/source/include/linux/sched.h#L661>`_"
@@ -837,261 +952,261 @@ msgstr ""
 "Linux Kernel source code: `task_struct "
 "<https://elixir.bootlin.com/linux/v5.14.7/source/include/linux/sched.h#L661>`_"
 
-#: ../source/lectures/index.rst:324
+#: ../source/lectures/index.rst:326
 msgid "19/10/2021 - Processi parte 5 - Threads parte 1"
 msgstr "19/10/2021 - Processes part 5 - Threads part 1"
 
-#: ../source/lectures/index.rst:326
+#: ../source/lectures/index.rst:328
 msgid "Concetto di thread"
 msgstr "Thread definition"
 
-#: ../source/lectures/index.rst:327
+#: ../source/lectures/index.rst:329
 msgid "User-Level threads e Kernel-level threads"
 msgstr "User-Level threads and Kernel-level threads"
 
-#: ../source/lectures/index.rst:328
+#: ../source/lectures/index.rst:330
 msgid "POSIX threads"
 msgstr ""
 
-#: ../source/lectures/index.rst:329
+#: ../source/lectures/index.rst:331
 msgid "Variabili per thread"
 msgstr "Thread-specific variables"
 
-#: ../source/lectures/index.rst:330
+#: ../source/lectures/index.rst:332
 msgid "Librerie thread-safe e non"
 msgstr "Thread-safe libreries"
 
-#: ../source/lectures/index.rst:335
+#: ../source/lectures/index.rst:337
 msgid "[:ref:`t1 <books>`] Sezione 4.1, 4.2"
 msgstr "[:ref:`t1 <books>`] Section 4.1, 4.2"
 
-#: ../source/lectures/index.rst:336
+#: ../source/lectures/index.rst:338
 msgid "[:ref:`t2 <books>`] Sezione 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4"
 msgstr "[:ref:`t2 <books>`] Section 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4"
 
-#: ../source/lectures/index.rst:341
+#: ../source/lectures/index.rst:343
 msgid ""
 "`pthread_key_create "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_key_create.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:342
+#: ../source/lectures/index.rst:344
 msgid ""
 "`pthread_key_delete "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_key_delete.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:343
+#: ../source/lectures/index.rst:345
 msgid ""
 "`pthread_getspecific "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_getspecific.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:344
+#: ../source/lectures/index.rst:346
 msgid ""
 "`GCC Thread Local Storage <https://gcc.gnu.org/onlinedocs/gcc/Thread-"
 "Local.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:366
+#: ../source/lectures/index.rst:368
 msgid "13/10/2021 - Processi parte 4"
 msgstr "13/10/2021 - Processes part 4"
 
-#: ../source/lectures/index.rst:368
+#: ../source/lectures/index.rst:370
 msgid "Posix fork"
 msgstr ""
 
-#: ../source/lectures/index.rst:369
+#: ../source/lectures/index.rst:371
 msgid "Layout di programma C"
 msgstr "C program layout"
 
-#: ../source/lectures/index.rst:370
+#: ../source/lectures/index.rst:372
 msgid "Famiglia di funzioni POSIX exec"
 msgstr "POSIX exec family"
 
-#: ../source/lectures/index.rst:371
+#: ../source/lectures/index.rst:373
 msgid "Ambiente e variabili di ambiente"
 msgstr "Environment and its variables"
 
-#: ../source/lectures/index.rst:372
+#: ../source/lectures/index.rst:374
 msgid "Famiglia di funzioni POSIX getenv, putenv, setenv, unsetenv"
 msgstr "POSIX getenv, putenv, setenv, unsetenv"
 
-#: ../source/lectures/index.rst:373 ../source/lectures/index.rst:399
+#: ../source/lectures/index.rst:375 ../source/lectures/index.rst:401
 msgid "Utilizzo documentazione online e da riga di comando Linux (man)"
 msgstr "Command line documentation (man)"
 
-#: ../source/lectures/index.rst:374
+#: ../source/lectures/index.rst:376
 msgid "Shell Linux: ls, man, fg, bg, top e token !"
 msgstr "Shell Linux: ls, man, fg, bg, top and token !"
 
-#: ../source/lectures/index.rst:379
+#: ../source/lectures/index.rst:381
 msgid "[:ref:`t1 <books>`] Sezione 2.3"
 msgstr "[:ref:`t1 <books>`] Section 2.3"
 
-#: ../source/lectures/index.rst:380
+#: ../source/lectures/index.rst:382
 msgid "[:ref:`t2 <books>`] Sezione 3.1.2, 3.3.1"
 msgstr "[:ref:`t2 <books>`] Section 3.1.2, 3.3.1"
 
-#: ../source/lectures/index.rst:381
+#: ../source/lectures/index.rst:383
 msgid "[:ref:`t3 <books>`] Sezione 3.2, 3.3"
 msgstr "[:ref:`t3 <books>`] Section 3.2, 3.3"
 
-#: ../source/lectures/index.rst:386
+#: ../source/lectures/index.rst:388
 msgid ""
 "`exec "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:387
+#: ../source/lectures/index.rst:389
 msgid ""
 "`getenv "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:392
+#: ../source/lectures/index.rst:394
 msgid "12/10/2021 - Processi parte 3"
 msgstr "12/10/2021 - Processes part 3"
 
-#: ../source/lectures/index.rst:394 ../source/lectures/index.rst:441
+#: ../source/lectures/index.rst:396 ../source/lectures/index.rst:443
 msgid "Process switch"
 msgstr ""
 
-#: ../source/lectures/index.rst:395
+#: ../source/lectures/index.rst:397
 msgid "Cambio di modo e cambio di contesto"
 msgstr "Mode switch and context switch"
 
-#: ../source/lectures/index.rst:396
+#: ../source/lectures/index.rst:398
 msgid "Servizi di sistema per la gestione di processi"
 msgstr "System call for managing processes"
 
-#: ../source/lectures/index.rst:397
+#: ../source/lectures/index.rst:399
 msgid "POSIX fork, exit, wait"
 msgstr ""
 
-#: ../source/lectures/index.rst:398
+#: ../source/lectures/index.rst:400
 msgid "Gerarchie di processi"
 msgstr "Hierarchy of processes"
 
-#: ../source/lectures/index.rst:400
+#: ../source/lectures/index.rst:402
 msgid "Shell Linux: ls, man, fg, bg e token !"
 msgstr ""
 
-#: ../source/lectures/index.rst:405
+#: ../source/lectures/index.rst:407
 msgid "[:ref:`t1 <books>`] Sezione 3.4,"
 msgstr "[:ref:`t1 <books>`] Section 3.4,"
 
-#: ../source/lectures/index.rst:406
+#: ../source/lectures/index.rst:408
 msgid "[:ref:`t2 <books>`] Sezione 3.2.3, 3.3.1, 3.3.2"
 msgstr "[:ref:`t2 <books>`] Section 3.2.3, 3.3.1, 3.3.2"
 
-#: ../source/lectures/index.rst:407
+#: ../source/lectures/index.rst:409
 msgid "[:ref:`t3 <books>`] Sezione 1.2, 3.1"
 msgstr "[:ref:`t3 <books>`] Section 1.2, 3.1"
 
-#: ../source/lectures/index.rst:412
+#: ../source/lectures/index.rst:414
 msgid ""
 "`fork "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:413
+#: ../source/lectures/index.rst:415
 msgid ""
 "`exit "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:414
+#: ../source/lectures/index.rst:416
 msgid ""
 "`wait "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:436
+#: ../source/lectures/index.rst:438
 msgid "06/10/2021 - Processi parte 2"
 msgstr "06/10/2021 - Processes part 2"
 
-#: ../source/lectures/index.rst:438
+#: ../source/lectures/index.rst:440
 msgid "Stato di un processo e code: 5 stati"
 msgstr "Processes states and queues: 5 states"
 
-#: ../source/lectures/index.rst:439
+#: ../source/lectures/index.rst:441
 msgid "Strutture di controllo di un Sistema Operativo"
 msgstr " Operating-systems control structures"
 
-#: ../source/lectures/index.rst:440
+#: ../source/lectures/index.rst:442
 msgid "Long, mid, short term scheduling"
 msgstr ""
 
-#: ../source/lectures/index.rst:446
+#: ../source/lectures/index.rst:448
 msgid "[:ref:`t1 <books>`] Sezione 3.2, 3.3, 9.2"
 msgstr "[:ref:`t1 <books>`] Section 3.2, 3.3, 9.2"
 
-#: ../source/lectures/index.rst:447
+#: ../source/lectures/index.rst:449
 msgid "[:ref:`t2 <books>`] Sezione 2.3.1, 2.3.2, 2.8, 3.1.2, 3.2"
 msgstr "[:ref:`t2 <books>`] Section 2.3.1, 2.3.2, 2.8, 3.1.2, 3.2"
 
-#: ../source/lectures/index.rst:453
+#: ../source/lectures/index.rst:455
 msgid "05/10/2021 - Introduzione parte 3 - Processi parte 1"
 msgstr "05/10/2021 - Introduction part 3 - Processes part 1"
 
-#: ../source/lectures/index.rst:455
+#: ../source/lectures/index.rst:457
 msgid "Introduzione:"
 msgstr "Introduction:"
 
-#: ../source/lectures/index.rst:457
+#: ../source/lectures/index.rst:459
 msgid "System call"
 msgstr ""
 
-#: ../source/lectures/index.rst:458
+#: ../source/lectures/index.rst:460
 msgid "Librerie Standard"
 msgstr "Standard libraries"
 
-#: ../source/lectures/index.rst:459
+#: ../source/lectures/index.rst:461
 msgid "Architettura dei Sistemi Operativi"
 msgstr "Operating System Architecture"
 
-#: ../source/lectures/index.rst:461
+#: ../source/lectures/index.rst:463
 msgid "Processi:"
 msgstr "Processes:"
 
-#: ../source/lectures/index.rst:463
+#: ../source/lectures/index.rst:465
 msgid "Immagine"
 msgstr "Image"
 
-#: ../source/lectures/index.rst:464
+#: ../source/lectures/index.rst:466
 msgid "Process Control Block"
 msgstr ""
 
-#: ../source/lectures/index.rst:465
+#: ../source/lectures/index.rst:467
 msgid "Stato di un processo: 2 stati, 3 stati"
 msgstr "States of a process: 2 states, 3 states"
 
-#: ../source/lectures/index.rst:466
+#: ../source/lectures/index.rst:468
 msgid "Code di processi"
 msgstr "Queue of processes"
 
-#: ../source/lectures/index.rst:471
+#: ../source/lectures/index.rst:473
 msgid "[:ref:`t1 <books>`] Sezione 2.7, 2.8, 3.1, 3.2"
 msgstr "[:ref:`t1 <books>`] Section 2.7, 2.8, 3.1, 3.2"
 
-#: ../source/lectures/index.rst:472
+#: ../source/lectures/index.rst:474
 msgid "[:ref:`t2 <books>`] Sezione 2.3.1, 2.3.2, 2.8, 3.1.1, 3.1.3"
 msgstr "[:ref:`t2 <books>`] Section 2.3.1, 2.3.2, 2.8, 3.1.1, 3.1.3"
 
-#: ../source/lectures/index.rst:495
+#: ../source/lectures/index.rst:497
 msgid "29/09/2021 - Introduzione parte 2"
 msgstr ""
 
-#: ../source/lectures/index.rst:497
+#: ../source/lectures/index.rst:499
 msgid "Sistemi operativi: elementi chiave"
 msgstr "Operating systems: main concepts"
 
-#: ../source/lectures/index.rst:498
+#: ../source/lectures/index.rst:500
 msgid "Interrupt: eventi, supporto hardware"
 msgstr "Interrupt: events, hardware supports"
 
-#: ../source/lectures/index.rst:499
+#: ../source/lectures/index.rst:501
 msgid ""
 "Interrupt-driven os: protezione delle risorse (istruzioni privilegiate, "
 "protezione memoria, timer) e accesso a codice di sistema operativo "
@@ -1100,15 +1215,15 @@ msgstr ""
 "Interrupt-driven os: resource protection (priviliged instructions, memory"
 " protection, timer) and access to operating system services (system call)"
 
-#: ../source/lectures/index.rst:503
+#: ../source/lectures/index.rst:505
 msgid "[:ref:`t1 <books>`] Sezione 1.1, 1.2, 1.3, 1.4"
 msgstr "[:ref:`t1 <books>`] Section 1.1, 1.2, 1.3, 1.4"
 
-#: ../source/lectures/index.rst:504
+#: ../source/lectures/index.rst:506
 msgid "[:ref:`t2 <books>`] Sezione 1.2, 2.3.1, 2.3.2"
 msgstr "[:ref:`t2 <books>`] Section 1.2, 2.3.1, 2.3.2"
 
-#: ../source/lectures/index.rst:509
+#: ../source/lectures/index.rst:511
 msgid ""
 "Codice sorgente Linux Kernel: `IDT "
 "<https://elixir.bootlin.com/linux/v5.14.7/source/arch/x86/kernel/idt.c#L79>`_"
@@ -1116,15 +1231,15 @@ msgstr ""
 "Linux Kernel source code: `IDT "
 "<https://elixir.bootlin.com/linux/v5.14.7/source/arch/x86/kernel/idt.c#L79>`_"
 
-#: ../source/lectures/index.rst:515
+#: ../source/lectures/index.rst:517
 msgid "28/09/2021 - Introduzione parte 1"
 msgstr "28/09/2021 - Introduction part 1"
 
-#: ../source/lectures/index.rst:517
+#: ../source/lectures/index.rst:519
 msgid "Sistemi operativi: definizione ed obiettivi"
 msgstr "Operating Systems: definition and concepts"
 
-#: ../source/lectures/index.rst:518
+#: ../source/lectures/index.rst:520
 msgid ""
 "Evoluzione dei sistemi operativi: Sistemi seriali, Sistemi batch, Sistemi"
 " time-sharing, Sistemi Real time, Multicore, Dark silicon"
@@ -1132,25 +1247,25 @@ msgstr ""
 "Serial Systems, batch systems, time-sharing systems, real-time systems, "
 "Multicore, Dark silicon"
 
-#: ../source/lectures/index.rst:519
+#: ../source/lectures/index.rst:521
 msgid "Sincronizzazione e Speedup: concetto di lock e legge di Amdahl"
 msgstr "Synchronization and Speedup: lock and Amdahl's Law"
 
-#: ../source/lectures/index.rst:524
+#: ../source/lectures/index.rst:526
 msgid "[:ref:`t1 <books>`] Sezione 2.1, 2.2, 2.3, 4.3"
 msgstr ""
 
-#: ../source/lectures/index.rst:525
+#: ../source/lectures/index.rst:527
 msgid "[:ref:`t2 <books>`] Sezione 1.1, 1.4, 2.7"
 msgstr "[:ref:`t2 <books>`] Section 1.1, 1.4, 2.7"
 
-#: ../source/lectures/index.rst:531
+#: ../source/lectures/index.rst:533
 msgid ""
 "`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
 "ddj.htm>`_"
 msgstr ""
 
-#: ../source/lectures/index.rst:532
+#: ../source/lectures/index.rst:534
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"

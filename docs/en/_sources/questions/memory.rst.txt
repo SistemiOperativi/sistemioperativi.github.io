@@ -1,5 +1,5 @@
 5 - Gestione della memoria
---------------------------
+""""""""""""""""""""""""""
 
 #. Descrivi la paginazione e la segmentazione mostrando vantaggi e svantaggi di ciascuna.
 #. Mostra lo schema di paginazione a due livelli e il processo di traduzione di un indirizzo virtuale in fisico. Quali sono i vantaggi e gli svantaggi nell'uso di tale schema?

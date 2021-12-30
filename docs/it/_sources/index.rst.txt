@@ -1,14 +1,3 @@
-.. toctree::
-   :hidden:
-   
-   linux_install
-   examples
-   questions
-   slides
-   lectures/index
-   news
-   
-
 Sistemi Operativi
 =============================================
 
@@ -19,28 +8,9 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
-* :ref:`n22-12-2021`
-* :ref:`n21-12-2021`
-* :ref:`n16-12-2021`
-* :ref:`n15-12-2021`
-* :ref:`n13-12-2021`
-* :ref:`n08-12-2021`
-* :ref:`n07-12-2021`
-* :ref:`n03-12-2021`
-* :ref:`n01-12-2021`
-* :ref:`n30-11-2021`
-* :ref:`n24-11-2021`
-* :ref:`n17-11-2021`
-* :ref:`n16-11-2021`
-* :ref:`n09-11-2021`
-* :ref:`n02-11-2021`
-* :ref:`n26-10-2021`
-* :ref:`n22-10-2021`
-* :ref:`n18-10-2021`
-* :ref:`n13-10-2021`
-* :ref:`n12-10-2021`
-* :ref:`n10-10-2021`
+* :ref:`n30-12-2021`
 
+Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`news`
 
 Obiettivi del corso
 -------------------
@@ -80,11 +50,27 @@ Contattare il docente alla seguente email **{nome}.{cognome}@uniroma3.it** e rip
 Modalità d'esame
 ----------------
 
-L'esame prevede una prova con:
+L'esame prevede 1 prova ripartita in 2 due test, i cui punteggi sono ripartiti secondo quanto segue.
 
-* Domande di teoria (65% del voto)
-* Esercizi di programmazione (35% del voto)
++---------+----------------------------+-------+-------+-------------+
+| # Test  | Tipologia                  | Punti | Perc. | Sufficienza |
++---------+----------------------------+-------+-------+-------------+
+| 1       | Domande di teoria          |  20   |  65%  | 12          |
++---------+----------------------------+-------+-------+-------------+
+| 2       | Esercizi di programmazione |  11   |  35%  | 6.5         |
++---------+----------------------------+-------+-------+-------------+
 
+Regole:
+
+#. Il voto finale è pari alla somma dei punteggi ottenuti:
+  
+  * nei test 1 e 2;
+  * dalla vincita di una sfida avanzata dal docente.
+
+2. Per superare l'esame occorre ottenere la sufficienza in entrambi i test.
+#. Qualora la sufficienza sia stata conseguita solo su uno dei due test, lo studente è esonerato dal sostenere il test in cui è risultato sufficiente nell'A.A. 2021/2022. Potrà perciò risostenere unicamente il test dove non ha conseguito la sufficienza.
+#. Per la lode è richiesto un punteggio di 31 punti.
+#. I punteggi ottenuti nei test e nelle sfide potranno essere mantenuti fino all'ultima sessione di esame per l'A.A. 2021/2022.
 
 .. _books:
 
@@ -116,3 +102,16 @@ Programma
 .. warning::
 
   :removedtopic:`topic` indica che i relativi contenuti sono stati esclusi dal programma 
+
+
+.. toctree::
+   :hidden:
+
+   self
+   linux_install
+   examples
+   questions
+   slides
+   lectures/index
+   challenges
+   news

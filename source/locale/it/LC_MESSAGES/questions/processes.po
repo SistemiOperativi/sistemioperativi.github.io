@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-23 23:36+0100\n"
+"POT-Creation-Date: 2021-12-29 13:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,6 +36,22 @@ msgstr ""
 msgid "Spiegare la differenza tra il processo e thread."
 msgstr ""
 
+#: ../source/questions/processes.rst:7
+msgid ""
+"Quando un processo viene creato tramite *fork*, cosa è condiviso tra "
+"processo parent e child?"
+msgstr ""
+
+#: ../source/questions/processes.rst:8
+msgid "Quale è la differenza tra User-Level Thread e Kernel-Level Thread?"
+msgstr ""
+
+#: ../source/questions/processes.rst:9
+msgid ""
+"Quando un thread viene creato tramite *pthread_create*, cosa è condiviso "
+"tra thread parent e child?"
+msgstr ""
+
 #~ msgid ""
 #~ "# Descrivi il concetto di processo. "
 #~ "Quali sono i possibili stati di un"
@@ -58,5 +74,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Processi e thread"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Quando un thread viene creato, cosa "
+#~ "è condiviso tra thread parent e "
+#~ "child?"
 #~ msgstr ""
 

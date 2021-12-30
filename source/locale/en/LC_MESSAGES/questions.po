@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-14 22:41+0100\n"
+"POT-Creation-Date: 2021-12-30 12:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,11 @@ msgstr ""
 "This section contains several exercises/questions that allows you to test"
 " your knowledge and skills."
 
-#: ../source/questions/intro.rst:2
+#: ../source/questions.rst:8
+msgid "Domande"
+msgstr "Questions"
+
+#: ../source/q_exercises/intro.rst:2 ../source/questions/intro.rst:2
 msgid "1 - Introduzione"
 msgstr "1 - Introduction"
 
@@ -68,7 +72,29 @@ msgstr ""
 "Show examples of hardware supports required by the operating systems to "
 "provide the protection of system resources."
 
-#: ../source/questions/processes.rst:2
+#: ../source/questions/intro.rst:9
+msgid "Quali sono gli obiettivi principali di un sistema operativo?"
+msgstr "What are the main purposes of an operating systems."
+
+#: ../source/questions/intro.rst:10
+msgid ""
+"Perché la distinzione tra modo kernel e modo user è una forma di "
+"protezione?"
+msgstr ""
+"Why is the distinction between kernel mode and user mode a form of "
+"protection?"
+
+#: ../source/questions/intro.rst:11
+msgid ""
+"Descrivere 3 servizi di sistema operativo e spiegare perché sono "
+"convenienti per gli utenti. Inoltre, perché è sconveniente che siano "
+"forniti da programmi user?"
+msgstr ""
+"Describe 3 services offered by an operating system and explain why they "
+"are convenient for users. Also, why is it inconvenient that they are "
+"provided by user programs"
+
+#: ../source/q_exercises/processes.rst:2 ../source/questions/processes.rst:2
 msgid "2- Processi e thread"
 msgstr "2- Processes and threads"
 
@@ -88,7 +114,27 @@ msgstr ""
 msgid "Spiegare la differenza tra il processo e thread."
 msgstr "Show and explaing the main differences between processes and threads."
 
-#: ../source/questions/sched.rst:2
+#: ../source/questions/processes.rst:7
+msgid ""
+"Quando un processo viene creato tramite *fork*, cosa è condiviso tra "
+"processo parent e child?"
+msgstr ""
+"When a process is created via *fork*, what is shared betweenparent and "
+"child process"
+
+#: ../source/questions/processes.rst:8
+msgid "Quale è la differenza tra User-Level Thread e Kernel-Level Thread?"
+msgstr "What is the difference between User-Level Thread and Kernel-Level Thread?"
+
+#: ../source/questions/processes.rst:9
+msgid ""
+"Quando un thread viene creato tramite *pthread_create*, cosa è condiviso "
+"tra thread parent e child?"
+msgstr ""
+"When a thread is created via *pthread_create*, what is shared between "
+"parent and child threads?"
+
+#: ../source/q_exercises/sched.rst:2 ../source/questions/sched.rst:2
 msgid "3 - Scheduling"
 msgstr "3 - Scheduling"
 
@@ -127,7 +173,27 @@ msgstr "Describe the Fair-Share policy and the problems it solves."
 msgid "Descrivere lo scheduler Linux."
 msgstr "Describe the Linux scheduler."
 
-#: ../source/questions/sync.rst:2
+#: ../source/questions/sched.rst:11
+msgid "Descrivere lo scheduler Multilevel Feedback Queue."
+msgstr "Describe the Multilevel Feedback Queue scheduler."
+
+#: ../source/questions/sched.rst:12
+msgid ""
+"Quale è il vantaggio di avere time-slice differenti in uno scheduler "
+"basato su code multilivello con feedback?"
+msgstr ""
+"What is the advantages of setting different time-slices in a Multilevel "
+"queues scheduling algorithm?"
+
+#: ../source/questions/sched.rst:13
+msgid ""
+"Come è possibile parametrizzare uno scheduler basato su priorità per "
+"emulare gli scheduler Shortest Job First, First Come First Serve?"
+msgstr ""
+"How can we set up a priority scheduler to mimic the Shortest Job First "
+"and the First Come First Serve schedulers?"
+
+#: ../source/q_exercises/sync.rst:2 ../source/questions/sync.rst:2
 msgid "4 - Sincronizzazione"
 msgstr "4 - Synchronization"
 
@@ -145,7 +211,13 @@ msgstr ""
 msgid "Descrivere il Bakery algorithm."
 msgstr "Describe the Bakery algorithm."
 
-#: ../source/questions/memory.rst:2
+#: ../source/questions/sync.rst:7
+msgid ""
+"Gli spinlock sono appropriati in un sistema single-core? Motiva la tua "
+"risposta."
+msgstr "Are spinlocks appropriate in a single-core system? Motivate your answer."
+
+#: ../source/q_exercises/memory.rst:2 ../source/questions/memory.rst:2
 msgid "5 - Gestione della memoria"
 msgstr "5 - Memory management"
 
@@ -211,7 +283,7 @@ msgstr "Describe the main aspects of policies for resident-set management."
 msgid "Descrivere il fenomeno del thrashing nel contesto della memoria virtuale."
 msgstr "Describe the thrashing phenomena related to virtual memory."
 
-#: ../source/questions/IO.rst:2
+#: ../source/q_exercises/IO.rst:2 ../source/questions/IO.rst:2
 msgid "6 - I/O Management"
 msgstr ""
 
@@ -249,7 +321,7 @@ msgstr ""
 "Describe the SCAN policy for disk scheduling and its pros and cons. Show "
 "solutions for the mentioned drawbacks."
 
-#: ../source/questions/file.rst:2
+#: ../source/q_exercises/file.rst:2 ../source/questions/file.rst:2
 msgid "7 - File management"
 msgstr ""
 
@@ -272,4 +344,57 @@ msgstr "Describe the main aspects of the UNIX file system."
 #: ../source/questions/file.rst:8
 msgid "Cosa è un in-memory file system e riportarne alcuni esempi."
 msgstr "What is an in-memory file system. Describe some example."
+
+#: ../source/questions.rst:20
+msgid "Esercizi"
+msgstr "Exercises"
+
+#: ../source/q_exercises/intro.rst:4
+msgid "Si consideri un programma di cui:"
+msgstr "Consider a program with"
+
+#: ../source/q_exercises/intro.rst:6
+#, python-format
+msgid "il 60% del tempo di esecuzione è parallelizzabile;"
+msgstr "the 60% of execution time is parallelizable"
+
+#: ../source/q_exercises/intro.rst:7
+#, python-format
+msgid ""
+"l'80% del tempo non parallelizzabile può essere ottimizzato tramite "
+"l'adozione di un algoritmo 16 volte più veloce."
+msgstr "the 80% of execution time of non-parallelizable code can be optimized by adopting a 16-times faster algorithm."
+
+#: ../source/q_exercises/intro.rst:9
+msgid "Calcolare lo speedup ottenibile tramite:"
+msgstr "Compute the speedup achievable by:"
+
+#: ../source/q_exercises/intro.rst:11
+msgid "la sola ottimizzazione a) con 2 e 4 core;"
+msgstr "applying optimization a) with 2 and 4 computing cores;"
+
+#: ../source/q_exercises/intro.rst:12
+msgid "tramite la sola ottimizzazione b);"
+msgstr "applying optimization b)"
+
+#: ../source/q_exercises/intro.rst:13
+msgid "l'applicazione congiunta di a) e b) con 2 e 4 core."
+msgstr "applying both optimizations with 2 and 4 cores."
+
+#: ../source/q_exercises/intro.rst:15
+msgid ""
+"Infine, riportare lo speedup massimo raggiungibile tramite ottimizzazione"
+" a) e b)."
+msgstr "Finally, compute the maximum theoretical speedup with both optimizations."
+
+#~ msgid ""
+#~ "Calcolare lo speedup ottenibile tramite "
+#~ "la sola ottimizzazione a) con 2 e"
+#~ " 4 core, tramite la sola "
+#~ "ottimizzazione b) e l'applicazione congiunta"
+#~ " di a) e b) con 2 e 4 "
+#~ "core. Infine, riportare lo speedup "
+#~ "massimo raggiungibile tramite ottimizzazione "
+#~ "a) e b)."
+#~ msgstr ""
 

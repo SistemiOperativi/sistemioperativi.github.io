@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-30 12:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/challenges.rst:2
+msgid "Sfide"
+msgstr "Challenges"
+
+#: ../source/challenges.rst:5
+msgid "Requisiti"
+msgstr "Requirements"
+
+#: ../source/challenges.rst:7
+msgid ""
+"Per sottomettere la propria soluzione ad una sfida è necessario aver "
+"compiuto i seguenti passi preliminari:"
+msgstr "To submit a solution it is required:"
+
+#: ../source/challenges.rst:9
+msgid "Avere un account GitHub"
+msgstr "Get a GitHub account"
+
+#: ../source/challenges.rst:10
+msgid ""
+"Accedere al link all'assignment di benvenuto: "
+"`<https://classroom.github.com/a/qU7ZFhmv>`_"
+msgstr ""
+"Accept the welcoming assignment: "
+"`<https://classroom.github.com/a/qU7ZFhmv>`_"
+
+#: ../source/challenges.rst:11
+msgid "Associare l'account GitHub al codice identificativo ricevuto via email"
+msgstr "Associate the GitHub account to the id received via email"
+
+#: ../source/challenges.rst:13
+msgid ""
+"Cerca il tuo identificativo utilizzando la funzione ricerca del tuo "
+"browser (crtl+f testato su firefox e google chrome)"
+msgstr ""
+"Look for your id by using the *search* function on your browser (crtl+f "
+"has been tested on firefox and google chrome)"
+
+#: ../source/challenges.rst:14
+msgid "Clicca sul tuo identificativo"
+msgstr "Click on your id"
+
+#: ../source/challenges.rst:15
+msgid "Controlla di aver selezionato l'identificativo corretto"
+msgstr "Check that it is the correct id"
+
+#: ../source/challenges.rst:16
+msgid "Premi ok"
+msgstr "Click Ok"
+
+#: ../source/challenges.rst:18
+msgid "Accetta l'assignment *GitFundamentals*"
+msgstr "Accept the *GitFundamentals* assignment"
+
+#: ../source/challenges.rst:23
+msgid "Sfida 1: La password del docente"
+msgstr "Challenge 1: The Lecturer's Password"
+
+#: ../source/challenges.rst:25
+msgid "Stato:**OPEN**"
+msgstr "State:**OPEN**"
+
+#: ../source/challenges.rst:27
+msgid ""
+"Nel corso della lezione :ref:`l22-12-2021` sono state trattate alcune "
+"tematiche relative ad aspetti di sicurezza. In particolare, si è discusso"
+" il ruolo dei file */etc/passwd* e */etc/shadow* in sistemi GNU/Linux. "
+"Inoltre, sono stati illustrati alcuni dettagli riguardo i permessi ed il "
+"contenuto del file *shadow*. Nello specifico, è stato descritto come "
+"individuare:"
+msgstr ""
+"During the lecture :ref:`l22-12-2021`, the lecturer discussed several "
+"aspects about security. In particular, he introduced the */etc/passwd/* "
+"and */etc/shadow* files in GNU/Linux systems. Moreover, he explained "
+"several details about permissions and contents of the *shadow* file. In "
+"fact, he described how to pinpoint: "
+
+#: ../source/challenges.rst:32
+msgid "l'hash della password di un utente;"
+msgstr "the hash of a user password;"
+
+#: ../source/challenges.rst:33
+msgid "il sale relativo;"
+msgstr "the salt;"
+
+#: ../source/challenges.rst:34
+msgid "l'algoritmo di hash utilizzato."
+msgstr "the hash algorithm."
+
+#: ../source/challenges.rst:36
+msgid ""
+"Dopo 81 minuti e 30 secondi di lezione, il docente ha mostrato il file "
+"*shadow* installato su un suo dispositivo e l'entry relativa alla sua "
+"utenza."
+msgstr ""
+"After 81 minutes and 30 seconds of the lecture, he showed the *shadow* "
+"file from his own device and the entry related to its user. "
+
+#: ../source/challenges.rst:39
+msgid "La sfida"
+msgstr "The challenge"
+
+#: ../source/challenges.rst:41
+msgid "Individuare la password del docente."
+msgstr "Discover the lecturer's password."
+
+#: ../source/challenges.rst:44
+msgid "I premi"
+msgstr "The prize"
+
+#: ../source/challenges.rst:46
+msgid ""
+"1 punto sul voto finale per la prima soluzione che individua la password "
+"corretta"
+msgstr "1 point to the final exam for the first solution that gets the password "
+
+#: ../source/challenges.rst:49
+msgid "Le regole"
+msgstr "The rules"
+
+#: ../source/challenges.rst:51
+msgid "Per sottomettere la soluzione è necessario:"
+msgstr "To sumbit a solution it is required:"
+
+#: ../source/challenges.rst:53
+msgid ""
+"accetta l'assignment su GitHub: "
+"`<https://classroom.github.com/a/3y1FbUXG>`_"
+msgstr ""
+"Accept the assignment: "
+"`<https://classroom.github.com/a/3y1FbUXG>`_"
+
+#: ../source/challenges.rst:54
+msgid ""
+"pubblica sul repository il codice utilizzato per individuare la password "
+"e un Readme"
+msgstr ""
+"publish on the assignment repository maintaing the code used to discover "
+"the password"
+
+#: ../source/challenges.rst:55
+msgid "inviare una email con oggetto [OS2122-CHALLENGE-1] con:"
+msgstr ""
+"to send an email to the lecturer with [OS2122-CHALLENGE-1] as object and "
+"containing:"
+
+#: ../source/challenges.rst:57
+msgid "l'hash del commit con il codice da sottomettere a valutazione"
+msgstr "the hash of the commit which maintains the code to be submitted for review"
+
+#: ../source/challenges.rst:58
+msgid "la matricola"
+msgstr "your id"
+
+#: ../source/challenges.rst:60
+msgid "Una soluzione è ritenuta valida se:"
+msgstr "A solution is valid if it meets the following requirements:"
+
+#: ../source/challenges.rst:62
+msgid "è stata inviata correttamente"
+msgstr "it has been submitted correctly"
+
+#: ../source/challenges.rst:63
+msgid ""
+"NON utilizza programmi per il crack/recovery delle password (e.g. "
+"Hashcat, John the Ripper). Tuttavia, è ammesso l'utilizzo dei seguenti "
+"strumenti per lo sviluppo di strumenti ad hoc:"
+msgstr ""
+"it does NOT exploits programs for password crack/recovery (e.g. Hashcat, "
+"John the Ripper). It is allowed to use the programs in the following to "
+"built your solution:"
+
+#: ../source/challenges.rst:65
+msgid "`openssl <https://linux.die.net/man/1/openssl>`_"
+msgstr ""
+
+#: ../source/challenges.rst:66
+msgid "`bash <https://man7.org/linux/man-pages/man1/bash.1.html>`_"
+msgstr ""
+
+#: ../source/challenges.rst:67
+msgid ""
+"`GNU crypt <https://ftp.gnu.org/old-"
+"gnu/Manuals/glibc-2.2.3/html_node/libc_650.html>`_"
+msgstr ""
+
+#: ../source/challenges.rst:68
+msgid "`crypt <https://man7.org/linux/man-pages/man3/crypt.3.html>`_"
+msgstr ""
+
+#: ../source/challenges.rst:70
+msgid ""
+"Infine, non è possibile sottomettere più di una soluzione. In caso di "
+"sottomissione multipla, verrà considerata la prima in ordine cronologico."
+msgstr ""
+"Finally, it is allowed to submit up to one solution. If multiple solution"
+" have been submitted, only the first one in chronological order will be "
+"considered."
+
+#: ../source/challenges.rst:74
+msgid "Scadenze"
+msgstr "Deadlines"
+
+#: ../source/challenges.rst:76
+msgid "La sfida rimane aperta fintanto che i punti non sono stati assegnati."
+msgstr "The challenge remains open until the points have not been assigned."
+
+#: ../source/challenges.rst:77
+msgid "I punti possono essere acquisiti entro e non oltre l'A.A. 2021/2022."
+msgstr "The points must be gained within the A.A.  2021/2022."
+
+#~ msgid "Challenges"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Dopo 81 minuti e 30 secondi di "
+#~ "registrazione il docente ha mostrato il"
+#~ " file *shadow* installato su un suo"
+#~ " dispositivo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nel corso della lezione del * "
+#~ ":ref:`l22-12-2021` si è discusso riguardo "
+#~ "alcune tematiche relative ad aspetti di"
+#~ " sicurezza. In particolare, si è "
+#~ "discusso il ruolo dei file */etc/passwd*"
+#~ " e */etc/shadow* in sistemi GNU/Linux. "
+#~ "Inoltre, sono stati illustrati alcuni "
+#~ "dettagli riguardo il del contenuto del"
+#~ " file *shadow*. Nello specifico, è "
+#~ "stato descritto come individuare:"
+#~ msgstr ""
+
+#~ msgid "openssl"
+#~ msgstr ""
+
+#~ msgid "bash"
+#~ msgstr ""
+
+#~ msgid "codice C"
+#~ msgstr ""
+
+#~ msgid "è vietato utilizzare programmi per il crack delle password"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nel corso della lezione del * "
+#~ ":ref:`l22-12-2021` si è discusso riguardo "
+#~ "alcune tematiche relative ad aspetti di"
+#~ " sicurezza. In particolare, si è "
+#~ "discusso il ruolo dei file */etc/passwd*"
+#~ " e */etc/shadow* in sistemi GNU/Linux. "
+#~ "Inoltre, sono stati illustrati alcuni "
+#~ "dettagli riguardo i permessi ed il "
+#~ "contenuto del file *shadow*. Nello "
+#~ "specifico, è stato descritto come "
+#~ "individuare:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Dopo 81 minuti e 30 secondi di "
+#~ "registrazione il docente ha mostrato il"
+#~ " file *shadow* installato su un suo"
+#~ " dispositivo e l'entry relativa alla "
+#~ "sua utenza."
+#~ msgstr ""
+
+#~ msgid "per generare hash è possibile utilizzare:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`GNU crypy <https://ftp.gnu.org/old-"
+#~ "gnu/Manuals/glibc-2.2.3/html_node/libc_650.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "è vietato utilizzare programmi per il"
+#~ " crack delle password preesistenti (e.g."
+#~ " Hashcat, John the Ripper)"
+#~ msgstr ""
+
+#~ msgid "Sfida 1: La password del docente"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Dopo 81 minuti e 30 secondi di "
+#~ "lezione, il docente ha mostrato il "
+#~ "file *shadow* installato su un suo "
+#~ "dispositivo e l'entry relativa alla sua"
+#~ " utenza."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "è vietato utilizzare programmi per il"
+#~ " crack/recovery delle password (e.g. "
+#~ "Hashcat, John the Ripper)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "è ammesso l'utilizzo dei seguenti "
+#~ "strumenti per lo sviluppo di strumenti"
+#~ " ad hoc:"
+#~ msgstr ""
+
+#~ msgid "Sfida 1: La password del docente - OPEN"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Dopo 81 minuti e 30 secondi di "
+#~ "lezione, il docente ha mostrato il "
+#~ "file *shadow* installato su un suo "
+#~ "dispositivo e l'entry relativa alla sua"
+#~ " utenza. Decisamente un passo rischioso!"
+#~ msgstr ""
+
+#~ msgid "è stata state inviate correttamente"
+#~ msgstr ""
+
+#~ msgid "La sfida rimane aperta fintanto che i punti non è stati assegnati."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Accedi al link all'assignment di "
+#~ "benvenuto: `https://classroom.github.com/a/qU7ZFhmv`__"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Accedi al link all'assignment di "
+#~ "benvenuto: `https://classroom.github.com/a/qU7ZFhmv`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Accedi al link all'assignment di "
+#~ "benvenuto: __https://classroom.github.com/a/qU7ZFhmv"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Accedi al link all'assignment di "
+#~ "benvenuto: `<https://classroom.github.com/a/qU7ZFhmv>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Associato il tuo account GitHub al "
+#~ "tuo codice identificativo che hai "
+#~ "ricevuto via email dal docente"
+#~ msgstr ""
+
+#~ msgid "Accetta l'assignment \"GitFundamentals\""
+#~ msgstr ""
+
+#~ msgid "Preliminari"
+#~ msgstr ""
+
+#~ msgid "Il misfatto"
+#~ msgstr "The crime"
+
+#~ msgid "il repository deve contenere un Readme"
+#~ msgstr "the repository must contain a Readme"
+

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 10:07+0100\n"
+"POT-Creation-Date: 2021-12-29 13:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,4 +49,39 @@ msgid ""
 "Riportare esempi di supporti hardware necessari al sistema operativo per "
 "garantire la protezione delle risorse."
 msgstr ""
+
+#: ../source/questions/intro.rst:9
+msgid "Quali sono gli obiettivi principali di un sistema operativo?"
+msgstr ""
+
+#: ../source/questions/intro.rst:10
+msgid ""
+"Perché la distinzione tra modo kernel e modo user è una forma di "
+"protezione?"
+msgstr ""
+
+#: ../source/questions/intro.rst:11
+msgid ""
+"Descrivere 3 servizi di sistema operativo e spiegare perché sono "
+"convenienti per gli utenti. Inoltre, perché è sconveniente che siano "
+"forniti da programmi user?"
+msgstr ""
+
+#~ msgid "Quali sono gli obiettivi princiapli di un sistema operativo?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere 3 servizi di sistema "
+#~ "operativo che ne rendono conveniente "
+#~ "l'utilizzo. Perché è sconveniente che "
+#~ "siano forniti da programmi user?."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere 3 servizi di sistema "
+#~ "operativo e spiegare perché sono "
+#~ "convenienti per gli utenti. Inoltre, "
+#~ "perché è sconveniente che siano forniti"
+#~ " da programmi user?."
+#~ msgstr ""
 
