@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-30 13:32+0100\n"
+"POT-Creation-Date: 2022-01-11 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "Sfida 1: La password del docente"
 msgstr ""
 
 #: ../source/challenges.rst:25
-msgid "Stato:**OPEN**"
+msgid "Stato:**CLOSED**"
 msgstr ""
 
 #: ../source/challenges.rst:27
@@ -397,5 +397,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "`bash <https://man7.org/linux/man-pages/man1/bash.1.html>`_"
+#~ msgstr ""
+
+#~ msgid "Stato:**OPEN**"
 #~ msgstr ""
 

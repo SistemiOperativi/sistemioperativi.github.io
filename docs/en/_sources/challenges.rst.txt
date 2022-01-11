@@ -22,7 +22,7 @@ Per sottomettere la propria soluzione ad una sfida è necessario aver compiuto i
 Sfida 1: La password del docente
 -----------------------------------------
 
-Stato:**OPEN**
+Stato:**CLOSED**
 
 Nel corso della lezione :ref:`l22-12-2021` sono state trattate alcune tematiche relative ad aspetti di sicurezza.
 In particolare, si è discusso il ruolo dei file */etc/passwd* e */etc/shadow* in sistemi GNU/Linux.

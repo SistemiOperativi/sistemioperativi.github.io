@@ -8,7 +8,7 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
-* :ref:`n30-12-2021`
+* :ref:`n11-01-2022`
 
 Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`news`
 

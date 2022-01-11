@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 14:50+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/news/220111.rst:2
+msgid "11-01-2022 - avviso: aggionamenti, challenge"
+msgstr ""
+
+#: ../source/news/220111.rst:4
+msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/news/220111.rst:6
+msgid "nuovi esercizi:"
+msgstr ""
+
+#: ../source/news/220111.rst:8
+msgid "aggiunto 2 esercizi riguardo Gestione della Memoria"
+msgstr ""
+
+#: ../source/news/220111.rst:9
+msgid "aggiunto 1 esercizio riguardo Scheduling"
+msgstr ""
+
+#: ../source/news/220111.rst:10
+msgid "aggiunto 2 esercizio riguardo I/O management"
+msgstr ""
+
+#: ../source/news/220111.rst:12
+msgid "challenge:"
+msgstr ""
+
+#: ../source/news/220111.rst:14
+msgid "La sfida: \"La password del docente\" è chiusa"
+msgstr ""
+
+#~ msgid "11-01-2022 - avviso: aggionamenti"
+#~ msgstr ""
+
+#~ msgid "aggiunto 1 esercizio riguardo Gestione della Memoria"
+#~ msgstr ""
+
+#~ msgid "aggiunto 2 esercizio riguardo Gestione della Memoria"
+#~ msgstr ""
+
