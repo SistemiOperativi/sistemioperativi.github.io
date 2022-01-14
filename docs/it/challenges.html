@@ -57,11 +57,14 @@
 <li class="toctree-l3"><a class="reference internal" href="#i-premi">I premi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#le-regole">Le regole</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#scadenze">Scadenze</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#graduatoria">Graduatoria</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#soluzioni">Soluzioni</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="errata.html">Errata Corrige</a></li>
 </ul>
 
         </div>
@@ -171,6 +174,85 @@ In caso di sottomissione multipla, verrà considerata la prima in ordine cronolo
 <li><p>I punti possono essere acquisiti entro e non oltre l’A.A. 2021/2022.</p></li>
 </ul>
 </section>
+<section id="graduatoria">
+<h3>Graduatoria<a class="headerlink" href="#graduatoria" title="Link a questa intestazione">¶</a></h3>
+<p>Numero di sottomissioni: 5</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 7%" />
+<col style="width: 21%" />
+<col style="width: 13%" />
+<col style="width: 36%" />
+<col style="width: 10%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>Posizione</strong></p></td>
+<td><p><strong>Id</strong></p></td>
+<td><p><strong>Data Sottomissione</strong></p></td>
+<td><p><strong>Password</strong></p></td>
+<td><p><strong>Valida</strong></p></td>
+<td><p><strong>Punti</strong></p></td>
+</tr>
+<tr class="row-even"><td><ol class="arabic simple">
+<li></li>
+</ol>
+</td>
+<td><p>91SN3</p></td>
+<td><p>30-12-21</p></td>
+<td><p>OK</p></td>
+<td><p>OK</p></td>
+<td><p><strong>1</strong></p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple" start="2">
+<li></li>
+</ol>
+</td>
+<td><p>TVMR3</p></td>
+<td><p>02-01-22</p></td>
+<td><p>OK</p></td>
+<td><p>OK</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td><p>ND.</p></td>
+<td><p>40LN3</p></td>
+<td><p>09-01-22</p></td>
+<td><p>OK</p></td>
+<td><p>KO: script non presente nel commit</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td><p>ND.</p></td>
+<td><p>AFS1M</p></td>
+<td><p>22-12-21</p></td>
+<td><p>OK</p></td>
+<td><p>KO: utilizzo di John The Ripper</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td><p>ND.</p></td>
+<td><p>PEALV</p></td>
+<td><p>22-12-21</p></td>
+<td><p>OK</p></td>
+<td><p>KO: utilizzo di John The Ripper</p></td>
+<td><p>0</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="soluzioni">
+<h3>Soluzioni<a class="headerlink" href="#soluzioni" title="Link a questa intestazione">¶</a></h3>
+<p>Per risolvere il problema era necessario generare correttamente l’hash data una password ed utilizzare questa funzionalità per testare password ottenute da un dizionario di password comuni.
+La password è stata scelta prendendone una presente in più dizionari disponibili online (e.g. RockYou.txt).
+Di conseguenza, la sfida consisteva nel leggere la documentazione dei tool ammessi (crypt e openssl) ed utilizzarli per individuare la password.</p>
+<p>A tal scopo la seguente riga di comando</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>openssl passwd -1 -table -salt &lt;SALT&gt; -in &lt;FILE&gt;
+</pre></div>
+</div>
+<p>permette di stampare ciascuna password contenuta in <em>&lt;FILE&gt;</em> con il relativo hash ottenuto utilizzando il sale &lt;SALT&gt;.
+A questo punto è sufficiente identificare la riga contenente l’hash di interesse <em>&lt;GIVEN_HASH&gt;</em>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>openssl passwd -1 -table -salt &lt;SALT&gt; -in &lt;FILE&gt; <span class="p">|</span> grep &lt;GIVEN_HASH&gt;
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 
@@ -186,7 +268,7 @@ In caso di sottomissione multipla, verrà considerata la prima in ordine cronolo
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 11 gen 2022.
+      <span class="lastupdated">Ultimo aggiornamento 14 gen 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 14:44+0100\n"
+"POT-Creation-Date: 2022-01-13 18:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -200,6 +200,129 @@ msgstr ""
 
 #: ../source/challenges.rst:76
 msgid "I punti possono essere acquisiti entro e non oltre l'A.A. 2021/2022."
+msgstr ""
+
+#: ../source/challenges.rst:79
+msgid "Graduatoria"
+msgstr ""
+
+#: ../source/challenges.rst:81
+msgid "Numero di sottomissioni: 5"
+msgstr ""
+
+#: ../source/challenges.rst:84
+msgid "**Posizione**"
+msgstr ""
+
+#: ../source/challenges.rst:84
+msgid "**Id**"
+msgstr ""
+
+#: ../source/challenges.rst:84
+msgid "**Data Sottomissione**"
+msgstr ""
+
+#: ../source/challenges.rst:84
+msgid "**Password**"
+msgstr ""
+
+#: ../source/challenges.rst:84
+msgid "**Valida**"
+msgstr ""
+
+#: ../source/challenges.rst:84
+msgid "**Punti**"
+msgstr ""
+
+#: ../source/challenges.rst:86
+msgid "91SN3"
+msgstr ""
+
+#: ../source/challenges.rst:86
+msgid "30-12-21"
+msgstr ""
+
+#: ../source/challenges.rst:86 ../source/challenges.rst:88
+#: ../source/challenges.rst:90 ../source/challenges.rst:92
+#: ../source/challenges.rst:94
+msgid "OK"
+msgstr ""
+
+#: ../source/challenges.rst:86
+msgid "**1**"
+msgstr ""
+
+#: ../source/challenges.rst:88
+msgid "TVMR3"
+msgstr ""
+
+#: ../source/challenges.rst:88
+msgid "02-01-22"
+msgstr ""
+
+#: ../source/challenges.rst:88 ../source/challenges.rst:90
+#: ../source/challenges.rst:92 ../source/challenges.rst:94
+msgid "0"
+msgstr ""
+
+#: ../source/challenges.rst:90 ../source/challenges.rst:92
+#: ../source/challenges.rst:94
+msgid "ND."
+msgstr ""
+
+#: ../source/challenges.rst:90
+msgid "40LN3"
+msgstr ""
+
+#: ../source/challenges.rst:90
+msgid "09-01-22"
+msgstr ""
+
+#: ../source/challenges.rst:90
+msgid "KO: script non presente nel commit"
+msgstr ""
+
+#: ../source/challenges.rst:92
+msgid "AFS1M"
+msgstr ""
+
+#: ../source/challenges.rst:92 ../source/challenges.rst:94
+msgid "22-12-21"
+msgstr ""
+
+#: ../source/challenges.rst:92 ../source/challenges.rst:94
+msgid "KO: utilizzo di John The Ripper"
+msgstr ""
+
+#: ../source/challenges.rst:94
+msgid "PEALV"
+msgstr ""
+
+#: ../source/challenges.rst:99
+msgid "Soluzioni"
+msgstr ""
+
+#: ../source/challenges.rst:101
+msgid ""
+"Per risolvere il problema era necessario generare correttamente l'hash "
+"data una password ed utilizzare questa funzionalità per testare password "
+"ottenute da un dizionario di password comuni. La password è stata scelta "
+"prendendone una presente in più dizionari disponibili online (e.g. "
+"RockYou.txt). Di conseguenza, la sfida consisteva nel leggere la "
+"documentazione dei tool ammessi (crypt e openssl) ed utilizzarli per "
+"individuare la password."
+msgstr ""
+
+#: ../source/challenges.rst:105
+msgid "A tal scopo la seguente riga di comando"
+msgstr ""
+
+#: ../source/challenges.rst:111
+msgid ""
+"permette di stampare ciascuna password contenuta in *<FILE>* con il "
+"relativo hash ottenuto utilizzando il sale <SALT>. A questo punto è "
+"sufficiente identificare la riga contenente l'hash di interesse "
+"*<GIVEN_HASH>*:"
 msgstr ""
 
 #~ msgid "Challenges"
@@ -400,5 +523,17 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Stato:**OPEN**"
+#~ msgstr ""
+
+#~ msgid "Posizione"
+#~ msgstr ""
+
+#~ msgid "Id"
+#~ msgstr ""
+
+#~ msgid "Data Sottomissione"
+#~ msgstr ""
+
+#~ msgid "Valida"
 #~ msgstr ""
 

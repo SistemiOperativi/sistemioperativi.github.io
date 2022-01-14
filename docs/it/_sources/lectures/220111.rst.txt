@@ -1,0 +1,16 @@
+12/01/2022 - Esercitazione 2
+-------------------------------------------
+
+* Svolgimento in aula dei seguenti problemi:
+  
+  * :doc:`../questions`: Esercizi 8.1, 8.2
+
+
+
+11/01/2022 - Esercitazione 1
+-------------------------------------------
+
+* Svolgimento in aula dei seguenti problemi:
+  
+  * :doc:`../challenges`: Challenge 1
+  * :doc:`../questions`: Esercizi 1.1, 5.1

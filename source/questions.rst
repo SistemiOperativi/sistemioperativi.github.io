@@ -26,3 +26,4 @@ Esercizi
 .. include::	q_exercises/memory.rst
 .. include::	q_exercises/IO.rst
 .. include::	q_exercises/file.rst
+.. include::	q_exercises/programming.rst

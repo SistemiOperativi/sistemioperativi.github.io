@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-14 16:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/errata.rst:2
+msgid "Errata Corrige"
+msgstr ""
+
+#: ../source/errata.rst:4
+msgid "Corretta la soglia di sufficienza per passare la prova di programmazione"
+msgstr "Fixed the threshold to pass the programming test"
+
+#: ../source/errata.rst:5
+msgid ""
+":ref:`l15-12-2021`: la soluzione discussa in aula alla problematica "
+"dell'esempio :doc:`examples/cp` presenta un bug. La riga 29 del codice "
+"mostrato al minuto 37:55 della lezione deve esser spostata all'interno "
+"del ciclo di riga 31 e prima del ciclo di riga 39."
+msgstr ":ref:`l15-12-2021`: the solution to the problems of :doc:`examples/cp` example shown during the lecture has a bug. The line 2 of the code shown at 37m:55s of the lecture must be placed within the loop at line 31 and before the loop at line 39."
+

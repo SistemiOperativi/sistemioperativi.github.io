@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-13 19:03+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/lectures/220111.rst:2
+msgid "12/01/2022 - Esercitazione 2"
+msgstr ""
+
+#: ../source/lectures/220111.rst:4 ../source/lectures/220111.rst:13
+msgid "Svolgimento in aula dei seguenti problemi:"
+msgstr ""
+
+#: ../source/lectures/220111.rst:6
+msgid ":doc:`../questions`: Esercizi 8.1, 8.2"
+msgstr ""
+
+#: ../source/lectures/220111.rst:11
+msgid "11/01/2022 - Esercitazione 1"
+msgstr ""
+
+#: ../source/lectures/220111.rst:15
+msgid ":doc:`../challenges`: Challenge 1"
+msgstr ""
+
+#: ../source/lectures/220111.rst:16
+msgid ":doc:`../questions`: Esercizi 1.1, 5.1"
+msgstr ""
+
+#~ msgid "Challange 1 :doc:`challenges.rst`"
+#~ msgstr ""
+
+#~ msgid "Esercizio 1.1, 5.1 :doc:`questions.rst`"
+#~ msgstr ""
+
+#~ msgid "Challange 1 :doc:`../challenges`"
+#~ msgstr ""
+
+#~ msgid "Esercizio 1.1, 5.1 :doc:`../questions`"
+#~ msgstr ""
+
+#~ msgid "da fare"
+#~ msgstr ""
+

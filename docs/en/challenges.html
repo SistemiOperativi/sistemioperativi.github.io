@@ -56,11 +56,14 @@
 <li class="toctree-l3"><a class="reference internal" href="#i-premi">The prize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#le-regole">The rules</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#scadenze">Deadlines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#graduatoria">Ranking</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#soluzioni">Solutions</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="errata.html">Errata Corrige</a></li>
 </ul>
 
         </div>
@@ -111,7 +114,7 @@
 </section>
 <section id="sfida-1-la-password-del-docente">
 <h2>Challenge 1: The Lecturer’s Password<a class="headerlink" href="#sfida-1-la-password-del-docente" title="Permalink to this headline">¶</a></h2>
-<p>Stato:<strong>CLOSED</strong></p>
+<p>State:<strong>CLOSED</strong></p>
 <p>During the lecture <a class="reference internal" href="lectures/index.html#l22-12-2021"><span class="std std-ref">22/12/2021 - C examples, security aspects and introduction to Linux</span></a>, the lecturer discussed several aspects about security. In particular, he introduced the <em>/etc/passwd/</em> and <em>/etc/shadow</em> files in GNU/Linux systems. Moreover, he explained several details about permissions and contents of the <em>shadow</em> file. In fact, he described how to pinpoint:</p>
 <blockquote>
 <div><ul class="simple">
@@ -166,6 +169,82 @@
 <li><p>The points must be gained within the A.A.  2021/2022.</p></li>
 </ul>
 </section>
+<section id="graduatoria">
+<h3>Ranking<a class="headerlink" href="#graduatoria" title="Permalink to this headline">¶</a></h3>
+<p>Number of submissions: 5</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 7%" />
+<col style="width: 21%" />
+<col style="width: 13%" />
+<col style="width: 36%" />
+<col style="width: 10%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>Rank</strong></p></td>
+<td><p><strong>Id</strong></p></td>
+<td><p><strong>Submission date</strong></p></td>
+<td><p><strong>Password</strong></p></td>
+<td><p><strong>Valid</strong></p></td>
+<td><p><strong>Points</strong></p></td>
+</tr>
+<tr class="row-even"><td><ol class="arabic simple">
+<li></li>
+</ol>
+</td>
+<td><p>91SN3</p></td>
+<td><p>30-12-21</p></td>
+<td><p>OK</p></td>
+<td><p>OK</p></td>
+<td><p><strong>1</strong></p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple" start="2">
+<li></li>
+</ol>
+</td>
+<td><p>TVMR3</p></td>
+<td><p>02-01-22</p></td>
+<td><p>OK</p></td>
+<td><p>OK</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td><p>ND.</p></td>
+<td><p>40LN3</p></td>
+<td><p>09-01-22</p></td>
+<td><p>OK</p></td>
+<td><p>KO: commit without script files</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td><p>ND.</p></td>
+<td><p>AFS1M</p></td>
+<td><p>22-12-21</p></td>
+<td><p>OK</p></td>
+<td><p>KO: solution based on John The Ripper</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td><p>ND.</p></td>
+<td><p>PEALV</p></td>
+<td><p>22-12-21</p></td>
+<td><p>OK</p></td>
+<td><p>KO: solution based on John The Ripper</p></td>
+<td><p>0</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="soluzioni">
+<h3>Solutions<a class="headerlink" href="#soluzioni" title="Permalink to this headline">¶</a></h3>
+<p>To solve the problem it was required to generate correct hashes for a given password andusing this capability to test each password stored in common-password dictionary. The password to be guessed belongs to several dictionary available online (e.g. rockyou.txt). Consequently, the challenge could be solved by reading the documentation of allowed tools (crypt and openssl) and learning how to use them.</p>
+<p>To this goal, the following command line</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>openssl passwd -1 -table -salt &lt;SALT&gt; -in &lt;FILE&gt;
+</pre></div>
+</div>
+<p>allows you to print each password stored in <em>&lt;FILE&gt;</em> with its hash, computed using &lt;SALT&gt; as salt.At this point, it is sufficient indentify the line containing the hash <em>&lt;GIVEN_HASH&gt;</em> corresponding to the given password:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>openssl passwd -1 -table -salt &lt;SALT&gt; -in &lt;FILE&gt; <span class="p">|</span> grep &lt;GIVEN_HASH&gt;
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 
@@ -181,7 +260,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Last updated on Jan 11, 2022.
+      <span class="lastupdated">Last updated on Jan 14, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

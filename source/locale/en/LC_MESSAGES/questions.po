@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 14:49+0100\n"
+"POT-Creation-Date: 2022-01-14 18:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -450,136 +450,170 @@ msgid ""
 "seguente traccia: 0 9 0 3 5 7 9 0 9 6 7 8 9 7 6 4"
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:4
+#: ../source/q_exercises/file.rst:4
 msgid ""
 "Si consideri un file system con allocazione a catena ed accesso "
 "indicizzato. Dato un file:"
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:6
+#: ../source/q_exercises/file.rst:6
 msgid "contente 1M record;"
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:7
+#: ../source/q_exercises/file.rst:7
 msgid ""
 "il relativo indice ha taglia pari a 512 record e contiene 128 chiavi "
 "uniformemente distribuite nel file;"
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:8
+#: ../source/q_exercises/file.rst:8
 msgid ""
 "memorizzato su un dispositvo di massa, la cui taglia di un blocco è pari "
 "a 4096 record."
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:10
+#: ../source/q_exercises/file.rst:10
 msgid "Calcolare la latenza massima e minima considerando che:"
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:12
+#: ../source/q_exercises/file.rst:12
 msgid "il tempo medio di accesso ad un blocco è 10ms;"
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:13
+#: ../source/q_exercises/file.rst:13
 msgid "l'accesso ad una chiave dell'indice in ram è pari a 1ms."
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:16
+#: ../source/q_exercises/file.rst:16
 msgid ""
 "Si consideri un file system con allocazione indicizzata ospitato su un "
 "dispositivo i cui blocchi hanno taglia pari a 1024 record e un "
 "riferimento a blocco occupa 8 record. Il record di sistema ha:"
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:18
+#: ../source/q_exercises/file.rst:18
 msgid "128 entry per acesso diretto;"
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:19
+#: ../source/q_exercises/file.rst:19
 msgid "4 entry per accesso indiretto;"
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:20
+#: ../source/q_exercises/file.rst:20
 msgid "4 entry per accesso doppiamente indiretto."
 msgstr ""
 
-#: ../source/q_exercises/IO.rst:22
+#: ../source/q_exercises/file.rst:22
 msgid "Qual è la taglia massima di un file in record?"
 msgstr ""
 
-#~ msgid ""
-#~ "Calcolare lo speedup ottenibile tramite "
-#~ "la sola ottimizzazione a) con 2 e"
-#~ " 4 core, tramite la sola "
-#~ "ottimizzazione b) e l'applicazione congiunta"
-#~ " di a) e b) con 2 e 4 "
-#~ "core. Infine, riportare lo speedup "
-#~ "massimo raggiungibile tramite ottimizzazione "
-#~ "a) e b)."
-#~ msgstr ""
+#: ../source/q_exercises/programming.rst:2
+msgid "8- Programmazione"
+msgstr "8- Programming"
 
-#~ msgid ""
-#~ "Si consideri uno scenario con 4 "
-#~ "processi {P1,..., P4} CPU-bound e "
-#~ "generati in sequenza a partire da "
-#~ "P1 a P4 con ritardi trascurabili. "
-#~ "Le cui richieste di uso della CPU"
-#~ " per completare la loro esecuzione "
-#~ "sono tali che Pi richiede 1/i sec."
-#~ " Considerando che il ritardo di "
-#~ "context-switch sia trascurabile e che "
-#~ "RR abbia una time slice pari a "
-#~ "125ms, si calcoli per gli algoritmi "
-#~ "FCFS, SPN e RR il tempo di "
-#~ "primo accesso alla CPU e il tempo"
-#~ " di completamento per ciascun processo."
-#~ msgstr ""
+#: ../source/q_exercises/programming.rst:4
+msgid ""
+"Nei sistemi operitvi UNIX, `/dev/urandom <https://man7.org/linux/man-"
+"pages/man4/random.4.html>`_ è un dispositivo a caratteri (char device) "
+"virtuale in grado di generare numeri casuali. Nello specifico, "
+"l'operazione di lettura dal relativo file produce byte casuali. Scrivere "
+"un programma C che genera un file con contenuto interamente randomico. Il"
+" programma:"
+msgstr ""
 
-#~ msgid ""
-#~ "Si consideri il caso di memoria "
-#~ "virtuale basata su paginazione a più "
-#~ "livelli, indirizzi logici e fisici a "
-#~ "40 bit, pagine di 4MB e tabelle"
-#~ " pari alla dimensione di una pagina."
-#~ msgstr ""
+#: ../source/q_exercises/programming.rst:8
+msgid ""
+"prende come parametri da linea di comando: un numero *N* e una stringa "
+"*S* da usare come nome del file da creare;"
+msgstr ""
 
-#~ msgid "Quanti bit servono per identificare una pagina?"
-#~ msgstr ""
+#: ../source/q_exercises/programming.rst:9
+msgid "crea un file *S* contenente *N* byte randomici;"
+msgstr ""
 
-#~ msgid ""
-#~ "identificare la struttura dell'indirizzo e "
-#~ "l'utilizzo dei bit nel suddetto schema"
-#~ " di paginazione;"
-#~ msgstr ""
+#: ../source/q_exercises/programming.rst:10
+msgid ""
+"utilizza il dispositivo /dev/random come sorgente di numeri pseudo-"
+"casuali."
+msgstr ""
 
-#~ msgid ""
-#~ "il numero massimo di frame di "
-#~ "memoria impegnati da un processo nel "
-#~ "caso in cui il numero delle "
-#~ "tabelle a qualsiasi livello correntemente "
-#~ "usate per quel processo in suddetto "
-#~ "schema di paginazione sia pari a "
-#~ "10."
-#~ msgstr ""
+#: ../source/q_exercises/programming.rst:12
+msgid ""
+"Dato un file binario contenente un sequenza di 2^15 interi di tipo "
+"*short*, scrivere un programma che crea N processi o threads, i quali "
+"leggono il contenuto del file ed individuano il valore minimo e massimo "
+"contenuto nel file. Nel fornire una soluzione rispettare i seguenti "
+"vincoli:"
+msgstr ""
 
-#~ msgid ""
-#~ "Qual è il numero massimo di frame"
-#~ " di memoria impegnati da un processo"
-#~ " nel caso in cui il numero "
-#~ "delle tabelle a qualsiasi livello "
-#~ "correntemente usate per quel processo in"
-#~ " suddetto schema di paginazione sia "
-#~ "pari a 10."
-#~ msgstr ""
+#: ../source/q_exercises/programming.rst:14
+msgid "ciascun intero non può essere letto da più di un thread/processo;"
+msgstr ""
 
-#~ msgid ""
-#~ "Calcolare la latenza massima e minima"
-#~ " considerando che: * il tempo medio"
-#~ " di accesso ad un blocco è "
-#~ "10ms; * l'accesso ad una chiave "
-#~ "dell'indice in ram è pari a 1ms."
-#~ msgstr ""
+#: ../source/q_exercises/programming.rst:15
+msgid "ciascun thread/processo può leggere il medesimo intero al più una volta;"
+msgstr ""
 
-#~ msgid "Si consideri un file system con allocazione indicizzata."
-#~ msgstr ""
+#: ../source/q_exercises/programming.rst:16
+msgid ""
+"ciascun thread/processo può allocare memoria nell'heap per al più 512 "
+"byte;"
+msgstr ""
 
+#: ../source/q_exercises/programming.rst:17
+msgid ""
+"N è un parametro definito a tempo di compilazione o tramite linea di "
+"comando;"
+msgstr ""
+
+#: ../source/q_exercises/programming.rst:18
+msgid "N è minore o uguale a 8;"
+msgstr ""
+
+#: ../source/q_exercises/programming.rst:19
+msgid ""
+"è ammesso allocare di variabili globali (data) e locali (stack) per "
+"memorizzare tipi primitivi (puntatori, int, short, char, long, etc.) per "
+"al più 128 byte."
+msgstr ""
+
+#: ../source/q_exercises/programming.rst:21
+msgid "Per generare il file è possibile utilizzare la soluzione dell'esercizio 1."
+msgstr ""
+
+#: ../source/q_exercises/programming.rst:23
+msgid ""
+"Scrivere un programma C *invert* che dato un file *A* ne inverte il "
+"contenuto e lo memorizza in nuovo file *B*. Il programma deve:"
+msgstr ""
+
+#: ../source/q_exercises/programming.rst:25
+msgid "riportare il contenuto di *A* in memoria;"
+msgstr ""
+
+#: ../source/q_exercises/programming.rst:26
+msgid ""
+"invertire la posizione di ciascun byte utilizzando un numero *N* di "
+"thread/processi concorrenti;"
+msgstr ""
+
+#: ../source/q_exercises/programming.rst:27
+msgid "scrivere il risultato in un nuovo file *B*."
+msgstr ""
+
+#: ../source/q_exercises/programming.rst:29
+msgid ""
+"*A*, *B* e *N* sono parametri che il programma deve acquisire da linea di"
+" comando."
+msgstr ""
+
+#: ../source/q_exercises/programming.rst:32
+msgid ""
+"#. Scriva il codice di una funzione C con la seguente interfaccia "
+":code:`void tunnel(int descriptors[], int count)` tale che, se eseguita, "
+"porti l'applicazione a gestire, per ogni file-descriptor dell'array "
+"*descriptors* l'inoltro del flusso  dei dati in ingresso verso il canale "
+"di standard-output dell'applicazione. Il parametro *count* indica di "
+"quanti elementi e' costituito l'array *descriptors*. L'inoltro dovrà "
+"essere attuato in modo concorrente per i diversi canali."
+msgstr ""

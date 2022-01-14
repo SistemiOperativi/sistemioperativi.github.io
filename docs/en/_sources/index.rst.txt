@@ -8,6 +8,7 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
+* :ref:`n14-01-2022`
 * :ref:`n11-01-2022`
 
 Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`news`
@@ -57,7 +58,7 @@ L'esame prevede 1 prova ripartita in 2 due test, i cui punteggi sono ripartiti s
 +---------+----------------------------+-------+-------+-------------+
 | 1       | Domande di teoria          |  20   |  65%  | 12          |
 +---------+----------------------------+-------+-------+-------------+
-| 2       | Esercizi di programmazione |  11   |  35%  | 6.5         |
+| 2       | Esercizi di programmazione |  11   |  35%  | 6           |
 +---------+----------------------------+-------+-------+-------------+
 
 Regole:
@@ -93,7 +94,7 @@ Programma
 * **Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori
 * **Memoria.** allocatori di memoria, partitioning, best/first/next fit, buddy algorithm, paging, segmentation, memoria virtuale e sua gestione hardware/software 
 * **I/O e File Management.** Disk scheduling, :removedtopic:`RAID`, UNIX File Management, inode, Linux VFS, ext2
-* **Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, piping, redirection, segnali, espressioni regolari (sed e grep), scripting (bash, awk), linux filesystem management
+* **Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, piping, redirection, segnali, :removedtopic:`espressioni regolari (sed e grep)`, scripting (bash, awk), linux filesystem management
 * **Programmazione di Sistema.** Gestione in C dei processi/thread su ambiente linux
 * :removedtopic:`**Debugger**.` :removedtopic:`utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.`
 * :removedtopic:`**Virtualizzazione.**` :removedtopic:`Concetti generali, container, Docker`
@@ -115,3 +116,4 @@ Programma
    lectures/index
    challenges
    news
+   errata

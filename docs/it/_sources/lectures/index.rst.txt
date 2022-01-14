@@ -7,11 +7,15 @@ Per ogni lezione vengono riportati riferimenti a paragrafi dei libri di testo.
 
   L'unione dei paragrafi può non rappresentare la totalità degli argomenti trattati durante la lezione. 
 
+.. _l11-01-2022:
+.. include::	220111.rst
+
 .. _l22-12-2021:
 .. include::	211222.rst
 
 .. include::	211221.rst
 
+.. _l15-12-2021:
 .. include::	211215.rst
 
 .. include::	211214.rst

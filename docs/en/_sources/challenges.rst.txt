@@ -74,3 +74,45 @@ Scadenze
 
 * La sfida rimane aperta fintanto che i punti non sono stati assegnati.
 * I punti possono essere acquisiti entro e non oltre l'A.A. 2021/2022.
+
+Graduatoria
+"""""""""""
+
+Numero di sottomissioni: 5
+
++---------------+--------+------------------------+--------------+----------------------------------------+-----------+
+| **Posizione** | **Id** | **Data Sottomissione** | **Password** | **Valida**                             | **Punti** |
++---------------+--------+------------------------+--------------+----------------------------------------+-----------+
+| 1.            | 91SN3  | 30-12-21               | OK           | OK                                     | **1**     |
++---------------+--------+------------------------+--------------+----------------------------------------+-----------+
+| 2.            | TVMR3  | 02-01-22               | OK           | OK                                     | 0         |
++---------------+--------+------------------------+--------------+----------------------------------------+-----------+
+| ND.           | 40LN3  | 09-01-22               | OK           | KO: script non presente nel commit     | 0         |
++---------------+--------+------------------------+--------------+----------------------------------------+-----------+
+| ND.           | AFS1M  | 22-12-21               | OK           | KO: utilizzo di John The Ripper        | 0         |
++---------------+--------+------------------------+--------------+----------------------------------------+-----------+
+| ND.           | PEALV  | 22-12-21               | OK           | KO: utilizzo di John The Ripper        | 0         |
++---------------+--------+------------------------+--------------+----------------------------------------+-----------+
+
+
+Soluzioni
+"""""""""""
+
+Per risolvere il problema era necessario generare correttamente l'hash data una password ed utilizzare questa funzionalità per testare password ottenute da un dizionario di password comuni.
+La password è stata scelta prendendone una presente in più dizionari disponibili online (e.g. RockYou.txt).
+Di conseguenza, la sfida consisteva nel leggere la documentazione dei tool ammessi (crypt e openssl) ed utilizzarli per individuare la password.
+
+A tal scopo la seguente riga di comando
+
+.. code-block:: bash
+ 
+  openssl passwd -1 -table -salt <SALT> -in <FILE> 
+
+permette di stampare ciascuna password contenuta in *<FILE>* con il relativo hash ottenuto utilizzando il sale <SALT>. 
+A questo punto è sufficiente identificare la riga contenente l'hash di interesse *<GIVEN_HASH>*:
+
+.. code-block:: bash
+ 
+  openssl passwd -1 -table -salt <SALT> -in <FILE> | grep <GIVEN_HASH>
+
+

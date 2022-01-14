@@ -1,6 +1,9 @@
 News
 ====
 
+.. _n14-01-2022:
+.. include:: news/220114.rst
+
 .. _n11-01-2022:
 .. include:: news/220111.rst
 

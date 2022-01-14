@@ -66,6 +66,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#id5">5 - Gestione della memoria</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id6">6 - I/O Management</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id7">7 - File management</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#programmazione">8- Programmazione</a></li>
 </ul>
 </li>
 </ul>
@@ -74,6 +75,7 @@
 <li class="toctree-l1"><a class="reference internal" href="lectures/index.html">Diario delle lezioni</a></li>
 <li class="toctree-l1"><a class="reference internal" href="challenges.html">Sfide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="errata.html">Errata Corrige</a></li>
 </ul>
 
         </div>
@@ -247,6 +249,9 @@ Rispondere alle seguenti domande considerando N pari a 40 bit e 48 bit.</p></li>
 </section>
 <section id="id6">
 <h3>6 - I/O Management<a class="headerlink" href="#id6" title="Link a questa intestazione">¶</a></h3>
+</section>
+<section id="id7">
+<h3>7 - File management<a class="headerlink" href="#id7" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Si consideri un file system con allocazione a catena ed accesso indicizzato. Dato un file:</p></li>
 </ol>
@@ -274,8 +279,46 @@ Rispondere alle seguenti domande considerando N pari a 40 bit e 48 bit.</p></li>
 <p>Qual è la taglia massima di un file in record?</p>
 </div></blockquote>
 </section>
-<section id="id7">
-<h3>7 - File management<a class="headerlink" href="#id7" title="Link a questa intestazione">¶</a></h3>
+<section id="programmazione">
+<h3>8- Programmazione<a class="headerlink" href="#programmazione" title="Link a questa intestazione">¶</a></h3>
+<ol class="arabic">
+<li><p>Nei sistemi operitvi UNIX, <a class="reference external" href="https://man7.org/linux/man-pages/man4/random.4.html">/dev/urandom</a> è un dispositivo a caratteri (char device) virtuale in grado di generare numeri casuali.
+Nello specifico, l’operazione di lettura dal relativo file produce byte casuali.
+Scrivere un programma C che genera un file con contenuto interamente randomico. Il programma:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>prende come parametri da linea di comando: un numero <em>N</em> e una stringa <em>S</em> da usare come nome del file da creare;</p></li>
+<li><p>crea un file <em>S</em> contenente <em>N</em> byte randomici;</p></li>
+<li><p>utilizza il dispositivo /dev/random come sorgente di numeri pseudo-casuali.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Dato un file binario contenente un sequenza di 2^15 interi di tipo <em>short</em>, scrivere un programma che crea N processi o threads, i quali leggono il contenuto del file ed individuano il valore minimo e massimo contenuto nel file. Nel fornire una soluzione rispettare i seguenti vincoli:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>ciascun intero non può essere letto da più di un thread/processo;</p></li>
+<li><p>ciascun thread/processo può leggere il medesimo intero al più una volta;</p></li>
+<li><p>ciascun thread/processo può allocare memoria nell’heap per al più 512 byte;</p></li>
+<li><p>N è un parametro definito a tempo di compilazione o tramite linea di comando;</p></li>
+<li><p>N è minore o uguale a 8;</p></li>
+<li><p>è ammesso allocare di variabili globali (data) e locali (stack) per memorizzare tipi primitivi (puntatori, int, short, char, long, etc.) per al più 128 byte.</p></li>
+</ul>
+<p>Per generare il file è possibile utilizzare la soluzione dell’esercizio 1.</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Scrivere un programma C <em>invert</em> che dato un file <em>A</em> ne inverte il contenuto e lo memorizza in nuovo file <em>B</em>. Il programma deve:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>riportare il contenuto di <em>A</em> in memoria;</p></li>
+<li><p>invertire la posizione di ciascun byte utilizzando un numero <em>N</em> di thread/processi concorrenti;</p></li>
+<li><p>scrivere il risultato in un nuovo file <em>B</em>.</p></li>
+</ul>
+<p><em>A</em>, <em>B</em> e <em>N</em> sono parametri che il programma deve acquisire da linea di comando.</p>
+</div></blockquote>
+<p>#. Scriva il codice di una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">tunnel(int</span> <span class="pre">descriptors[],</span> <span class="pre">int</span> <span class="pre">count)</span></code> tale che, se eseguita, porti l’applicazione a gestire, per ogni file-descriptor dell’array <em>descriptors</em> l’inoltro del flusso  dei dati in ingresso verso il canale di standard-output dell’applicazione. Il parametro <em>count</em> indica
+di quanti elementi e” costituito l’array <em>descriptors</em>. L’inoltro dovrà essere attuato in modo concorrente per i diversi canali.</p>
 </section>
 </section>
 </section>
@@ -292,7 +335,7 @@ Rispondere alle seguenti domande considerando N pari a 40 bit e 48 bit.</p></li>
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 11 gen 2022.
+      <span class="lastupdated">Ultimo aggiornamento 14 gen 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 14:44+0100\n"
+"POT-Creation-Date: 2022-01-13 18:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,9 +77,8 @@ msgid "Sfida 1: La password del docente"
 msgstr "Challenge 1: The Lecturer's Password"
 
 #: ../source/challenges.rst:25
-#, fuzzy
 msgid "Stato:**CLOSED**"
-msgstr "State:**OPEN**"
+msgstr "State:**CLOSED**"
 
 #: ../source/challenges.rst:27
 msgid ""
@@ -224,155 +223,129 @@ msgstr "The challenge remains open until the points have not been assigned."
 msgid "I punti possono essere acquisiti entro e non oltre l'A.A. 2021/2022."
 msgstr "The points must be gained within the A.A.  2021/2022."
 
-#~ msgid "Challenges"
-#~ msgstr ""
+#: ../source/challenges.rst:79
+msgid "Graduatoria"
+msgstr "Ranking"
 
-#~ msgid ""
-#~ "Dopo 81 minuti e 30 secondi di "
-#~ "registrazione il docente ha mostrato il"
-#~ " file *shadow* installato su un suo"
-#~ " dispositivo."
-#~ msgstr ""
+#: ../source/challenges.rst:81
+msgid "Numero di sottomissioni: 5"
+msgstr "Number of submissions: 5"
 
-#~ msgid ""
-#~ "Nel corso della lezione del * "
-#~ ":ref:`l22-12-2021` si è discusso riguardo "
-#~ "alcune tematiche relative ad aspetti di"
-#~ " sicurezza. In particolare, si è "
-#~ "discusso il ruolo dei file */etc/passwd*"
-#~ " e */etc/shadow* in sistemi GNU/Linux. "
-#~ "Inoltre, sono stati illustrati alcuni "
-#~ "dettagli riguardo il del contenuto del"
-#~ " file *shadow*. Nello specifico, è "
-#~ "stato descritto come individuare:"
-#~ msgstr ""
+#: ../source/challenges.rst:84
+msgid "**Posizione**"
+msgstr "**Rank**"
 
-#~ msgid "openssl"
-#~ msgstr ""
+#: ../source/challenges.rst:84
+msgid "**Id**"
+msgstr ""
 
-#~ msgid "bash"
-#~ msgstr ""
+#: ../source/challenges.rst:84
+msgid "**Data Sottomissione**"
+msgstr "**Submission date**"
 
-#~ msgid "codice C"
-#~ msgstr ""
+#: ../source/challenges.rst:84
+msgid "**Password**"
+msgstr ""
 
-#~ msgid "è vietato utilizzare programmi per il crack delle password"
-#~ msgstr ""
+#: ../source/challenges.rst:84
+msgid "**Valida**"
+msgstr "**Valid**"
 
-#~ msgid ""
-#~ "Nel corso della lezione del * "
-#~ ":ref:`l22-12-2021` si è discusso riguardo "
-#~ "alcune tematiche relative ad aspetti di"
-#~ " sicurezza. In particolare, si è "
-#~ "discusso il ruolo dei file */etc/passwd*"
-#~ " e */etc/shadow* in sistemi GNU/Linux. "
-#~ "Inoltre, sono stati illustrati alcuni "
-#~ "dettagli riguardo i permessi ed il "
-#~ "contenuto del file *shadow*. Nello "
-#~ "specifico, è stato descritto come "
-#~ "individuare:"
-#~ msgstr ""
+#: ../source/challenges.rst:84
+msgid "**Punti**"
+msgstr "**Points**"
 
-#~ msgid ""
-#~ "Dopo 81 minuti e 30 secondi di "
-#~ "registrazione il docente ha mostrato il"
-#~ " file *shadow* installato su un suo"
-#~ " dispositivo e l'entry relativa alla "
-#~ "sua utenza."
-#~ msgstr ""
+#: ../source/challenges.rst:86
+msgid "91SN3"
+msgstr ""
 
-#~ msgid "per generare hash è possibile utilizzare:"
-#~ msgstr ""
+#: ../source/challenges.rst:86
+msgid "30-12-21"
+msgstr ""
 
-#~ msgid ""
-#~ "`GNU crypy <https://ftp.gnu.org/old-"
-#~ "gnu/Manuals/glibc-2.2.3/html_node/libc_650.html>`_"
-#~ msgstr ""
+#: ../source/challenges.rst:86 ../source/challenges.rst:88
+#: ../source/challenges.rst:90 ../source/challenges.rst:92
+#: ../source/challenges.rst:94
+msgid "OK"
+msgstr ""
 
-#~ msgid ""
-#~ "è vietato utilizzare programmi per il"
-#~ " crack delle password preesistenti (e.g."
-#~ " Hashcat, John the Ripper)"
-#~ msgstr ""
+#: ../source/challenges.rst:86
+msgid "**1**"
+msgstr ""
 
-#~ msgid "Sfida 1: La password del docente"
-#~ msgstr ""
+#: ../source/challenges.rst:88
+msgid "TVMR3"
+msgstr ""
 
-#~ msgid ""
-#~ "Dopo 81 minuti e 30 secondi di "
-#~ "lezione, il docente ha mostrato il "
-#~ "file *shadow* installato su un suo "
-#~ "dispositivo e l'entry relativa alla sua"
-#~ " utenza."
-#~ msgstr ""
+#: ../source/challenges.rst:88
+msgid "02-01-22"
+msgstr ""
 
-#~ msgid ""
-#~ "è vietato utilizzare programmi per il"
-#~ " crack/recovery delle password (e.g. "
-#~ "Hashcat, John the Ripper)"
-#~ msgstr ""
+#: ../source/challenges.rst:88 ../source/challenges.rst:90
+#: ../source/challenges.rst:92 ../source/challenges.rst:94
+msgid "0"
+msgstr ""
 
-#~ msgid ""
-#~ "è ammesso l'utilizzo dei seguenti "
-#~ "strumenti per lo sviluppo di strumenti"
-#~ " ad hoc:"
-#~ msgstr ""
+#: ../source/challenges.rst:90 ../source/challenges.rst:92
+#: ../source/challenges.rst:94
+msgid "ND."
+msgstr ""
 
-#~ msgid "Sfida 1: La password del docente - OPEN"
-#~ msgstr ""
+#: ../source/challenges.rst:90
+msgid "40LN3"
+msgstr ""
 
-#~ msgid ""
-#~ "Dopo 81 minuti e 30 secondi di "
-#~ "lezione, il docente ha mostrato il "
-#~ "file *shadow* installato su un suo "
-#~ "dispositivo e l'entry relativa alla sua"
-#~ " utenza. Decisamente un passo rischioso!"
-#~ msgstr ""
+#: ../source/challenges.rst:90
+msgid "09-01-22"
+msgstr ""
 
-#~ msgid "è stata state inviate correttamente"
-#~ msgstr ""
+#: ../source/challenges.rst:90
+msgid "KO: script non presente nel commit"
+msgstr "KO: commit without script files"
 
-#~ msgid "La sfida rimane aperta fintanto che i punti non è stati assegnati."
-#~ msgstr ""
+#: ../source/challenges.rst:92
+msgid "AFS1M"
+msgstr ""
 
-#~ msgid ""
-#~ "Accedi al link all'assignment di "
-#~ "benvenuto: `https://classroom.github.com/a/qU7ZFhmv`__"
-#~ msgstr ""
+#: ../source/challenges.rst:92 ../source/challenges.rst:94
+msgid "22-12-21"
+msgstr ""
 
-#~ msgid ""
-#~ "Accedi al link all'assignment di "
-#~ "benvenuto: `https://classroom.github.com/a/qU7ZFhmv`_"
-#~ msgstr ""
+#: ../source/challenges.rst:92 ../source/challenges.rst:94
+msgid "KO: utilizzo di John The Ripper"
+msgstr "KO: solution based on John The Ripper"
 
-#~ msgid ""
-#~ "Accedi al link all'assignment di "
-#~ "benvenuto: __https://classroom.github.com/a/qU7ZFhmv"
-#~ msgstr ""
+#: ../source/challenges.rst:94
+msgid "PEALV"
+msgstr ""
 
-#~ msgid ""
-#~ "Accedi al link all'assignment di "
-#~ "benvenuto: `<https://classroom.github.com/a/qU7ZFhmv>`_"
-#~ msgstr ""
+#: ../source/challenges.rst:99
+msgid "Soluzioni"
+msgstr "Solutions"
 
-#~ msgid ""
-#~ "Associato il tuo account GitHub al "
-#~ "tuo codice identificativo che hai "
-#~ "ricevuto via email dal docente"
-#~ msgstr ""
+#: ../source/challenges.rst:101
+msgid ""
+"Per risolvere il problema era necessario generare correttamente l'hash "
+"data una password ed utilizzare questa funzionalità per testare password "
+"ottenute da un dizionario di password comuni. La password è stata scelta "
+"prendendone una presente in più dizionari disponibili online (e.g. "
+"RockYou.txt). Di conseguenza, la sfida consisteva nel leggere la "
+"documentazione dei tool ammessi (crypt e openssl) ed utilizzarli per "
+"individuare la password."
+msgstr "To solve the problem it was required to generate correct hashes for a given password and"
+"using this capability to test each password stored in common-password dictionary. The password to be guessed "
+"belongs to several dictionary available online (e.g. rockyou.txt). Consequently, the challenge could be solved "
+"by reading the documentation of allowed tools (crypt and openssl) and learning how to use them."
 
-#~ msgid "Accetta l'assignment \"GitFundamentals\""
-#~ msgstr ""
+#: ../source/challenges.rst:105
+msgid "A tal scopo la seguente riga di comando"
+msgstr "To this goal, the following command line"
 
-#~ msgid "Preliminari"
-#~ msgstr ""
-
-#~ msgid "Il misfatto"
-#~ msgstr "The crime"
-
-#~ msgid "il repository deve contenere un Readme"
-#~ msgstr "the repository must contain a Readme"
-
-#~ msgid "`bash <https://man7.org/linux/man-pages/man1/bash.1.html>`_"
-#~ msgstr ""
-
+#: ../source/challenges.rst:111
+msgid ""
+"permette di stampare ciascuna password contenuta in *<FILE>* con il "
+"relativo hash ottenuto utilizzando il sale <SALT>. A questo punto è "
+"sufficiente identificare la riga contenente l'hash di interesse "
+"*<GIVEN_HASH>*:"
+msgstr "allows you to print each password stored in *<FILE>* with its hash, computed using <SALT> as salt."
+"At this point, it is sufficient indentify the line containing the hash *<GIVEN_HASH>* corresponding to the given password:"

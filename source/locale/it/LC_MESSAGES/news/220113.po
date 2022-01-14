@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-14 16:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/news/220113.rst:2
+msgid "13-01-2022 - avviso: aggionamenti"
+msgstr ""
+
+#: ../source/news/220113.rst:4
+msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/news/220113.rst:6
+msgid "aggiornata la soglia di sufficienza per la prova di programmazione"
+msgstr ""
+
+#: ../source/news/220113.rst:7
+msgid "nuovi esercizi:"
+msgstr ""
+
+#: ../source/news/220113.rst:9
+msgid ""
+"aggiunti i 2 esercizi di programmazione C discussi durante le "
+"esercitazioni"
+msgstr ""
+
+#: ../source/news/220113.rst:10
+msgid "aggiunto 1 esercizio di programmazione C"
+msgstr ""
+
+#: ../source/news/220113.rst:12
+msgid "challenge:"
+msgstr ""
+
+#: ../source/news/220113.rst:14
+msgid "Pubblicata soluzione e graduatoria della Challenge 1"
+msgstr ""
+
+#: ../source/news/220113.rst:16
+msgid "aggiornato diario delle lezioni del 11/01/2022 e del 12/01/2022"
+msgstr ""
+
+#: ../source/news/220113.rst:17
+msgid "aggiunta una nuova sezione \"errata corrige\""
+msgstr ""
+
+#: ../source/news/220113.rst:19
+msgid "Microsoft Stream:"
+msgstr ""
+
+#: ../source/news/220113.rst:21
+msgid "caricata lezione del 11/01/2022"
+msgstr ""
+
+#: ../source/news/220113.rst:22
+msgid "caricata lezione del 12/01/2022"
+msgstr ""
+
+#~ msgid "aggiunto 2 esercizi riguardo Gestione della Memoria"
+#~ msgstr ""
+
+#~ msgid "aggiunto 1 esercizio riguardo Scheduling"
+#~ msgstr ""
+
+#~ msgid "aggiunto 2 esercizio riguardo I/O management"
+#~ msgstr ""
+
+#~ msgid "La sfida: \"La password del docente\" è chiusa"
+#~ msgstr ""
+
+#~ msgid "Pubblicata soluzione e graduatorio della Challenge 1"
+#~ msgstr ""
+
+#~ msgid "13-01-2022 - avviso: aggionamenti e nuovi esercizi"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "aggiunti i 2 esercizi di programmazione"
+#~ " discussi durante le esercitazioni"
+#~ msgstr ""
+
+#~ msgid "aggiornato diario delle lezioni:"
+#~ msgstr ""
+
