@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 12:32+0100\n"
+"POT-Creation-Date: 2022-01-17 19:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,46 +23,75 @@ msgid "17-01-2022 - avviso: aggionamenti"
 msgstr ""
 
 #: ../source/news/220117.rst:4
-msgid "Sito del corso:"
+msgid "Avvisi:"
 msgstr ""
 
 #: ../source/news/220117.rst:6
-msgid "nuovi esercizi e domande:"
+msgid ""
+"L'esercitazione del 18/01/2022 è stata cancellata causa convocazione del "
+"Consiglio del Collegio Didattico"
 msgstr ""
 
-#: ../source/news/220117.rst:8
-msgid "aggiunta 1 domanda su introduzione"
-msgstr ""
-
-#: ../source/news/220117.rst:9
-msgid "aggiunte 2 domande su cpu scheduling"
+#: ../source/news/220117.rst:7
+msgid ""
+"Al 17-01-2022 non sono ancora stati definitivamente risolte le "
+"problematiche relative alla prenotazione degli appelli. Seguiranno "
+"aggiornamenti nella giornata di domani."
 msgstr ""
 
 #: ../source/news/220117.rst:10
-msgid "aggiunta 4 domande su gestione della memoria"
-msgstr ""
-
-#: ../source/news/220117.rst:11
-msgid "aggiunte 3 domande su file management"
+msgid "Sito del corso:"
 msgstr ""
 
 #: ../source/news/220117.rst:12
-msgid "aggiunti 2 esercizi su CPU scheduling"
+msgid "chiarimenti relativi agli appelli di Gennaio e Febbraio"
 msgstr ""
 
 #: ../source/news/220117.rst:13
-msgid "aggiunti 2 esercizi su gestione delle memoria"
-msgstr ""
-
-#: ../source/news/220117.rst:14
-msgid "aggiunto 1 esercizio su I/O management"
+msgid "nuovi esercizi e domande:"
 msgstr ""
 
 #: ../source/news/220117.rst:15
-msgid "aggiunti 3 esercizi su file management"
+msgid "aggiunta 1 domanda su introduzione"
 msgstr ""
 
 #: ../source/news/220117.rst:16
+msgid "aggiunte 2 domande su cpu scheduling"
+msgstr ""
+
+#: ../source/news/220117.rst:17
+msgid "aggiunta 4 domande su gestione della memoria"
+msgstr ""
+
+#: ../source/news/220117.rst:18
+msgid "aggiunte 3 domande su file management"
+msgstr ""
+
+#: ../source/news/220117.rst:19
+msgid "aggiunti 2 esercizi su CPU scheduling"
+msgstr ""
+
+#: ../source/news/220117.rst:20
+msgid "aggiunti 2 esercizi su gestione delle memoria"
+msgstr ""
+
+#: ../source/news/220117.rst:21
+msgid "aggiunto 1 esercizio su I/O management"
+msgstr ""
+
+#: ../source/news/220117.rst:22
+msgid "aggiunti 3 esercizi su file management"
+msgstr ""
+
+#: ../source/news/220117.rst:23
 msgid "aggiunto 1 esercizio su programmazione"
 msgstr ""
+
+#~ msgid ""
+#~ "Al 17-01-2022 non sono ancora stati "
+#~ "definitivamente risolti le problematiche "
+#~ "relative alla prenotazione degli appelli. "
+#~ "Seguiranno aggiornamenti nella giornata di "
+#~ "domani."
+#~ msgstr ""
 

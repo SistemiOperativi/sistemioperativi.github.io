@@ -1,8 +1,15 @@
 17-01-2022 - avviso: aggionamenti
 ---------------------------------------------------
 
+* Avvisi: 
+  
+  * L'esercitazione del 18/01/2022 è stata cancellata causa convocazione del Consiglio del Collegio Didattico 
+  * Al 17-01-2022 non sono ancora stati definitivamente risolte le problematiche relative alla prenotazione degli appelli. Seguiranno aggiornamenti nella giornata di domani.
+
+
 * Sito del corso:
   
+  * chiarimenti relativi agli appelli di Gennaio e Febbraio
   * nuovi esercizi e domande: 
 
     * aggiunta 1 domanda su introduzione

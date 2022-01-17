@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 12:32+0100\n"
+"POT-Creation-Date: 2022-01-17 19:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,29 @@ msgstr ""
 msgid "17-01-2022 - avviso: aggionamenti"
 msgstr "17-12-2021 - updates"
 
+#: ../source/news/220117.rst:4
+msgid "Avvisi:"
+msgstr ""
+
+#: ../source/news/220117.rst:6
+msgid ""
+"L'esercitazione del 18/01/2022 è stata cancellata causa convocazione del "
+"Consiglio del Collegio Didattico"
+msgstr ""
+"The practice lecture of 18-01-2022 has been canceled due to the overlap "
+"with the Council of the Didactic Board"
+
+#: ../source/news/220117.rst:7
+msgid ""
+"Al 17-01-2022 non sono ancora stati definitivamente risolte le "
+"problematiche relative alla prenotazione degli appelli. Seguiranno "
+"aggiornamenti nella giornata di domani."
+msgstr ""
+"17-01-2022: the problems relating to the booking of the exams "
+"have not yet been definitively solved. "
+"Updates will follow tomorrow.  "
+
+
 #: ../source/news.rst:56 ../source/news.rst:83 ../source/news.rst:101
 #: ../source/news.rst:117 ../source/news.rst:132 ../source/news.rst:147
 #: ../source/news.rst:175 ../source/news.rst:184 ../source/news.rst:199
@@ -35,47 +58,51 @@ msgstr "17-12-2021 - updates"
 #: ../source/news/211216.rst:4 ../source/news/211221.rst:16
 #: ../source/news/211222.rst:4 ../source/news/211230.rst:4
 #: ../source/news/220111.rst:4 ../source/news/220114.rst:4
-#: ../source/news/220117.rst:4
+#: ../source/news/220117.rst:10
 msgid "Sito del corso:"
 msgstr "Course website"
 
-#: ../source/news/220117.rst:6
+#: ../source/news/220117.rst:12
+msgid "chiarimenti relativi agli appelli di Gennaio e Febbraio"
+msgstr "clarifications relating to the January and February exams "
+
+#: ../source/news/220117.rst:13
 msgid "nuovi esercizi e domande:"
 msgstr "new exercises:"
 
-#: ../source/news/220117.rst:8
+#: ../source/news/220117.rst:15
 msgid "aggiunta 1 domanda su introduzione"
 msgstr "added 1 question about Introduction"
 
-#: ../source/news/220117.rst:9
+#: ../source/news/220117.rst:16
 msgid "aggiunte 2 domande su cpu scheduling"
 msgstr "added 2 questions about CPU-scheduling"
 
-#: ../source/news/220117.rst:10
+#: ../source/news/220117.rst:17
 msgid "aggiunta 4 domande su gestione della memoria"
 msgstr "added 4 questions about memory management"
 
-#: ../source/news/220117.rst:11
+#: ../source/news/220117.rst:18
 msgid "aggiunte 3 domande su file management"
 msgstr "added 3 questions about file management"
 
-#: ../source/news/220117.rst:12
+#: ../source/news/220117.rst:19
 msgid "aggiunti 2 esercizi su CPU scheduling"
 msgstr "added 2 exercise about scheduling"
 
-#: ../source/news/220117.rst:13
+#: ../source/news/220117.rst:20
 msgid "aggiunti 2 esercizi su gestione delle memoria"
 msgstr " added 2 exercises about memory management"
 
-#: ../source/news/220117.rst:14
+#: ../source/news/220117.rst:21
 msgid "aggiunto 1 esercizio su I/O management"
 msgstr "added 1 exercise about I/O management"
 
-#: ../source/news/220117.rst:15
+#: ../source/news/220117.rst:22
 msgid "aggiunti 3 esercizi su file management"
 msgstr "added 3 exercise about file management"
 
-#: ../source/news/220117.rst:16
+#: ../source/news/220117.rst:23
 msgid "aggiunto 1 esercizio su programmazione"
 msgstr "added 1 programming exercise"
 
@@ -707,4 +734,12 @@ msgstr "upload 06/10 lesson"
 
 #~ msgid "caricata lezione del 12/01/2022"
 #~ msgstr "uploaded lecture held on 22/12/21"
+
+#~ msgid ""
+#~ "Al 17-01-2022 non sono ancora stati "
+#~ "definitivamente risolti le problematiche "
+#~ "relative alla prenotazione degli appelli. "
+#~ "Seguiranno aggiornamenti nella giornata di "
+#~ "domani."
+#~ msgstr ""
 

@@ -8,6 +8,14 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
+.. warning::
+  
+  L'esercitazione del 18-01-2022 è stata cancellata causa sovrapposizione con il Consiglio del Collegio Didattico.
+
+.. warning::
+  
+  Al 17-01-2022 non sono ancora stati definitivamente risolti le problematiche relative alla prenotazione degli appelli. Seguiranno aggiornamenti nella giornata di domani.
+
 * :ref:`n17-01-2022`
 * :ref:`n14-01-2022`
 * :ref:`n11-01-2022`
@@ -73,6 +81,15 @@ Regole:
 #. Qualora la sufficienza sia stata conseguita solo su uno dei due test, lo studente è esonerato dal sostenere il test in cui è risultato sufficiente nell'A.A. 2021/2022. Potrà perciò risostenere unicamente il test dove non ha conseguito la sufficienza.
 #. Per la lode è richiesto un punteggio di 31 punti.
 #. I punteggi ottenuti nei test e nelle sfide potranno essere mantenuti fino all'ultima sessione di esame per l'A.A. 2021/2022.
+
+Date
+""""""""
+
+* Sessione Invernale: 
+  
+  * 26-01-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate le seguenti date aggiuntive: 28-01-2022, 31-01-2022.  
+  * 21-02-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate le seguenti date aggiuntive: 24-02-2022, 28-02-2022.  
+  * L'assegnazione alle date aggiuntive viene fatta secondo una politica First-Come-First-Serve.
 
 .. _books:
 
