@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-30 10:35+0100\n"
+"POT-Creation-Date: 2022-01-17 12:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,6 +79,48 @@ msgstr ""
 msgid "Descrivere il fenomeno del thrashing nel contesto della memoria virtuale."
 msgstr ""
 
+#: ../source/questions/memory.rst:15
+msgid ""
+"Descrivere la tecnica di gestione delle memoria basata su partizioni "
+"dinamiche, indicando anche di quali supporti per il binding degli "
+"indirizzi questa necessita."
+msgstr ""
+
+#: ../source/questions/memory.rst:16
+msgid ""
+"Descrivere l'algoritmo di selezione Least-Recently-Used (LRU) per sistemi"
+" di memoria virtuale basati su paginazione."
+msgstr ""
+
+#: ../source/questions/memory.rst:17
+msgid ""
+"Si descriva la tecnica della paginazione, indicando quali siano le "
+"strutture dati fondamentali che un sistema operativo deve gestire per "
+"metterla in atto."
+msgstr ""
+
+#: ../source/questions/memory.rst:18
+msgid ""
+"Descrivere l'algoritmo ottimo per la sostituzione delle pagine in "
+"ambiente di memoria virtuale. Si indichi infine se tale algoritmo soffra "
+"o meno dell'anomalia di Belady, motivando la risposta."
+msgstr ""
+
+#: ../source/questions/memory.rst:19
+msgid ""
+"Descrivere la struttura e l'utilizzo della tabella delle pagine e la "
+"relazione tra questa ed i componenti hardware presenti su una "
+"architettura di processore convenzionale."
+msgstr ""
+
 #~ msgid "4 - Gestione della memoria"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "#. Descrivere la struttura e l'utilizzo"
+#~ " della tabella delle pagine e la "
+#~ "relazione tra questa ed i componenti "
+#~ "hardware presenti su una architettura di"
+#~ " processore convenzionale."
 #~ msgstr ""
 

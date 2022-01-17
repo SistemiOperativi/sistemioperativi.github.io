@@ -20,3 +20,7 @@
   * 4 entry per accesso doppiamente indiretto.
   
   Qual è la taglia massima di un file in record? 
+
+3. Si consideri inoltre senario dove un processo P apra un file F (attualmente non in uso da parte di alcun processo) e poi esegua 2 fork(). Indicare il numero delle sessioni di I/O verso  il file F a valle dell’esecusione delle 2 fork() da parte di P.
+#. Si consideri un dispositivo di memoria di massa con blocchi di taglia pari a 4 KB, indici di blocchi di taglia pari a 4 byte, ed un record di sistema contenente in totale 12 indici di cui N diretti ed M indiretti. Si determini il valore di N ed M, qualora esista, che possa permettere di allocare file di taglia almeno pari a 4 GB.
+#. Si supponga di avere un file system che supporta il metodo di allocazione a catena. Si supponga inoltre che il dispositivo di memoria di massa ove il file system è ospitato abbia blocchi di taglia pari a 4 K record, e che un indice (puntatore) di blocco di dispositivo sia espresso con 16 record. Si supponga inoltre di avere un file F di taglia pari a 16 M record. Si calcoli il numero di blocchi necessari ad allocare il file sul dispositivo di memoria di massa secondo lo schema a catena.

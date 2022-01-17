@@ -118,6 +118,7 @@
 <li><p>Quali sono gli obiettivi principali di un sistema operativo?</p></li>
 <li><p>Perché la distinzione tra modo kernel e modo user è una forma di protezione?</p></li>
 <li><p>Descrivere 3 servizi di sistema operativo e spiegare perché sono convenienti per gli utenti. Inoltre, perché è sconveniente che siano forniti da programmi user?</p></li>
+<li><p>Descrivere le principali caratteristiche di un sistema batch e di un sistema batch multiprogrammato, discutendo anche in modo comparativo i vantaggi o svantaggi dell’uno verso l’altro.</p></li>
 </ol>
 </section>
 <section id="processi-e-thread">
@@ -144,6 +145,8 @@
 <li><p>Descrivere lo scheduler Multilevel Feedback Queue.</p></li>
 <li><p>Quale è il vantaggio di avere time-slice differenti in uno scheduler basato su code multilivello con feedback?</p></li>
 <li><p>Come è possibile parametrizzare uno scheduler basato su priorità per emulare gli scheduler Shortest Job First, First Come First Serve?</p></li>
+<li><p>Descrivere lo scheduler di CPU round-robin virtuale, discutendone vantaggi e svantaggi rispetto allo scheduler round-robin.</p></li>
+<li><p>Si descrivano gli scheduler di CPU Shortest-Process-Next (SPN) e la sua variante Shortest–Remaining-Time-Next (SRTN), evidenziandone i vantaggi e gli svantaggi.</p></li>
 </ol>
 </section>
 <section id="sincronizzazione">
@@ -169,6 +172,11 @@
 <li><p>Descrizione la gestione di un page fault nel caso di memoria virtuale basata su paginazione.</p></li>
 <li><p>Descrivere le caratteristiche delle politiche di gestione del resident set di processo.</p></li>
 <li><p>Descrivere il fenomeno del thrashing nel contesto della memoria virtuale.</p></li>
+<li><p>Descrivere la tecnica di gestione delle memoria basata su partizioni dinamiche, indicando anche di quali supporti per il binding degli indirizzi questa necessita.</p></li>
+<li><p>Descrivere l’algoritmo di selezione Least-Recently-Used (LRU) per sistemi di memoria virtuale basati su paginazione.</p></li>
+<li><p>Si descriva la tecnica della paginazione, indicando quali siano le strutture dati fondamentali che un sistema operativo deve gestire per metterla in atto.</p></li>
+<li><p>Descrivere l’algoritmo ottimo per la sostituzione delle pagine in ambiente di memoria virtuale. Si indichi infine se tale algoritmo soffra o meno dell’anomalia di Belady, motivando la risposta.</p></li>
+<li><p>Descrivere la struttura e l’utilizzo della tabella delle pagine e la relazione tra questa ed i componenti hardware presenti su una architettura di processore convenzionale.</p></li>
 </ol>
 </section>
 <section id="i-o-management">
@@ -187,8 +195,11 @@
 <li><p>Cosa è un file e quali sono i suoi principali attributi?</p></li>
 <li><p>Cosa è un file system e quali sono i suoi compiti principali?</p></li>
 <li><p>Descrivere i metodi di accesso a file sequenziale, diretto ed indicizzato.</p></li>
-<li><p>Descrivere le caratteristiche saliente del file system UNIX</p></li>
+<li><p>Descrivere le caratteristiche salienti del file system UNIX.</p></li>
 <li><p>Cosa è un in-memory file system e riportarne alcuni esempi.</p></li>
+<li><p>Descrivere i classici metodi di allocazione dei file sui dispositivi, discutendone vantaggi e svantaggi in modo comparato.</p></li>
+<li><p>Descrivere cosa sono gli «hard link» ed i «soft link» in un file-system.</p></li>
+<li><p>Si decriva il metodo di allocazione dei file a catena.</p></li>
 </ol>
 </section>
 </section>
@@ -218,11 +229,11 @@
 </section>
 <section id="id3">
 <h3>3 - Scheduling<a class="headerlink" href="#id3" title="Link a questa intestazione">¶</a></h3>
-<ol class="arabic simple">
-<li><p>Si consideri uno scenario con 4 processi {P1,…, P4} CPU-bound e generati in sequenza a partire da P1 a P4 con ritardi trascurabili.
+<p>#. Si consideri uno scenario con 4 processi {P1,…, P4} CPU-bound e generati in sequenza a partire da P1 a P4 con ritardi trascurabili.
 Il processo Pi richiede 1/i secondi di CPU per completare la propria esecuzione.
-Considerando che il ritardo di context-switch sia trascurabile e che RR abbia una time slice pari a 125ms, si calcoli per gli algoritmi FCFS, SPN e RR il tempo di primo accesso alla CPU e il tempo di completamento per ciascun processo.</p></li>
-</ol>
+Considerando che il ritardo di context-switch sia trascurabile e che RR abbia una time slice pari a 125ms, si calcoli per gli algoritmi FCFS, SPN e RR il tempo di primo accesso alla CPU e il tempo di completamento per ciascun processo.
+#. Si consideri uno scenario in cui uno scheduler Multilevel-feedback queue abbia 4 livelli di priorità, ed in cui il quanto di tempo assegnato ai processi al livello i sia di 1/2^i millicondo. Si supponga che all’istante T0 nascano 2 processi A e B, entrambi CPU-bound. Il processo B richiede 10 millisecondi di tempo di CPU per completare la sua esecuzione. Si identifichi la durata massima (in termini di tempo di CPU) del processo A affinché il processo B possa completare la sua esecuzione entro il tempo T0+17 nei due casi in cui il primo processo ad essere schedulato in CPU sia A oppure B. Si supponga che il tempo di CPU per i context switch e per l’esecuzione dello scheduler sia nullo.
+#. Si consideri uno scenario in cui al tempo T0 nasca un processo P0 puramente CPU-bound di durata (tempo di CPU) pari a 10 secondi ed al tempo T0 + 3 secondi P0 origini un altro processo P1 puramente CPU-bound di durata (tempo di CPU) pari a 6 secondi. Supponendo che le durate dei processi siano note al tempo della loro generazione, e che il tempo di CPU per eseguire uno scheduler sia trascurabile. si calcoli il tempo massimo di completamento del processo P1 nel caso in cui il sistema abbia come scheduler Shortest Process Next oppure Shortest-Remaining-Time Next.</p>
 </section>
 <section id="id4">
 <h3>4 - Sincronizzazione<a class="headerlink" href="#id4" title="Link a questa intestazione">¶</a></h3>
@@ -245,10 +256,23 @@ Rispondere alle seguenti domande considerando N pari a 40 bit e 48 bit.</p></li>
 </div></blockquote>
 <ol class="arabic simple" start="2">
 <li><p>Data una memoria principale di 4 frame, si determini quanti e quali page fault vengono generati dagli algoritmi FIFO, LRU e Ottimo per la sostituzione delle pagine in sistemi con memoria virtuale data la seguente traccia: 0 9 0 3 5 7 9 0 9 6 7 8 9 7 6 4</p></li>
+<li><p>Considerando uno schema di paginazione a 3 livelli in cui la tabella di primo livello sia costituita da 4 K elementi, quella di secondo livello da 2 K elementi e quella di terzo livello da 1 K elementi, si determini il numero massimo di pagine gestibili all’interno dello spazio di indirizzamento di un processo.</p></li>
+<li><p>Si consideri una sequenza di generazione di 4 processi, P4, P1, P2 e P3.
+P1 e P2 hanno taglia 1MB, P3 ha taglia 2 MB e P4 ha taglia 4 MB. Il sistema con multiprogrammazione è caratterizzato da una memoria di lavoro di 7 MB di cui 1 MB sia riservato per il sistema operativo, un meccanismo di allocazione dei processi basato su partizioni dinamiche. Assumendo che P4 non termini prima di P3, si determini quale deve essere la relazione tra il tempo di completamento di P1 e P2 ed il tempo di nascita di P3 affinchè, e sotto quali condizioni, ognuno dei 4 processi posssa essere correttamente allocato in memoria all’atto della sua creazione.</p></li>
 </ol>
 </section>
 <section id="id6">
 <h3>6 - I/O Management<a class="headerlink" href="#id6" title="Link a questa intestazione">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Si consideri inoltre uno scenario in cui arrivino al sistema operativo richieste per accedere alle seguenti tracce di un disco: 33 – 46 – 98 – 12 – 43 – 56 – 78 - 77 – 25. Si determini la sequenza effettiva di schedulazione delle operazioni verso il disco considerando che:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>al più 4 richieste per volta possono essere immagazzinate nella coda di scheduling;</p></li>
+<li><p>la testina sia inizialmente posta sulla traccia 100 del disco;</p></li>
+<li><p>l’algoritmo utilizzato è SCAN.</p></li>
+</ul>
+</div></blockquote>
 </section>
 <section id="id7">
 <h3>7 - File management<a class="headerlink" href="#id7" title="Link a questa intestazione">¶</a></h3>
@@ -278,6 +302,11 @@ Rispondere alle seguenti domande considerando N pari a 40 bit e 48 bit.</p></li>
 </ul>
 <p>Qual è la taglia massima di un file in record?</p>
 </div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Si consideri inoltre senario dove un processo P apra un file F (attualmente non in uso da parte di alcun processo) e poi esegua 2 fork(). Indicare il numero delle sessioni di I/O verso  il file F a valle dell’esecusione delle 2 fork() da parte di P.</p></li>
+<li><p>Si consideri un dispositivo di memoria di massa con blocchi di taglia pari a 4 KB, indici di blocchi di taglia pari a 4 byte, ed un record di sistema contenente in totale 12 indici di cui N diretti ed M indiretti. Si determini il valore di N ed M, qualora esista, che possa permettere di allocare file di taglia almeno pari a 4 GB.</p></li>
+<li><p>Si supponga di avere un file system che supporta il metodo di allocazione a catena. Si supponga inoltre che il dispositivo di memoria di massa ove il file system è ospitato abbia blocchi di taglia pari a 4 K record, e che un indice (puntatore) di blocco di dispositivo sia espresso con 16 record. Si supponga inoltre di avere un file F di taglia pari a 16 M record. Si calcoli il numero di blocchi necessari ad allocare il file sul dispositivo di memoria di massa secondo lo schema a catena.</p></li>
+</ol>
 </section>
 <section id="programmazione">
 <h3>8- Programmazione<a class="headerlink" href="#programmazione" title="Link a questa intestazione">¶</a></h3>
@@ -317,8 +346,10 @@ Scrivere un programma C che genera un file con contenuto interamente randomico. 
 </ul>
 <p><em>A</em>, <em>B</em> e <em>N</em> sono parametri che il programma deve acquisire da linea di comando.</p>
 </div></blockquote>
-<p>#. Scriva il codice di una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">tunnel(int</span> <span class="pre">descriptors[],</span> <span class="pre">int</span> <span class="pre">count)</span></code> tale che, se eseguita, porti l’applicazione a gestire, per ogni file-descriptor dell’array <em>descriptors</em> l’inoltro del flusso  dei dati in ingresso verso il canale di standard-output dell’applicazione. Il parametro <em>count</em> indica
-di quanti elementi e” costituito l’array <em>descriptors</em>. L’inoltro dovrà essere attuato in modo concorrente per i diversi canali.</p>
+<ol class="arabic simple">
+<li><p>Si scriva il codice di una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">tunnel(int</span> <span class="pre">descriptors[],</span> <span class="pre">int</span> <span class="pre">count)</span></code> tale che, se eseguita, porti l’applicazione a gestire, per ogni file-descriptor dell’array <em>descriptors</em> l’inoltro del flusso  dei dati in ingresso verso il canale di standard-output dell’applicazione. Il parametro <em>count</em> indica di quanti elementi e” costituito l’array <em>descriptors</em>. L’inoltro dovrà essere attuato in modo concorrente per i diversi canali.</p></li>
+<li><p>Si scriva una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">file_check(char</span> <span class="pre">*file_name,</span> <span class="pre">int</span> <span class="pre">num_threads)</span></code>. Tale funzione dovrà lanciare num_thread nuovi threads, in modo che ciascuno di essi legga stringhe dallo standard input, e per ogni stringa letta verifichi l’occorrenza di tale stringa all’interno del file il cui path e” identificato tramite il parametro file_name, e stampi la stringa su standard output in caso affermativo.</p></li>
+</ol>
 </section>
 </section>
 </section>
@@ -335,7 +366,7 @@ di quanti elementi e” costituito l’array <em>descriptors</em>. L’inoltro d
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 14 gen 2022.
+      <span class="lastupdated">Ultimo aggiornamento 17 gen 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

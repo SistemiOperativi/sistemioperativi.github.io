@@ -12,6 +12,11 @@
 #. Descrizione la gestione di un page fault nel caso di memoria virtuale basata su paginazione.
 #. Descrivere le caratteristiche delle politiche di gestione del resident set di processo.
 #. Descrivere il fenomeno del thrashing nel contesto della memoria virtuale.
+#. Descrivere la tecnica di gestione delle memoria basata su partizioni dinamiche, indicando anche di quali supporti per il binding degli indirizzi questa necessita.
+#. Descrivere l'algoritmo di selezione Least-Recently-Used (LRU) per sistemi di memoria virtuale basati su paginazione. 
+#. Si descriva la tecnica della paginazione, indicando quali siano le strutture dati fondamentali che un sistema operativo deve gestire per metterla in atto.
+#. Descrivere l'algoritmo ottimo per la sostituzione delle pagine in ambiente di memoria virtuale. Si indichi infine se tale algoritmo soffra o meno dell'anomalia di Belady, motivando la risposta.
+#. Descrivere la struttura e l'utilizzo della tabella delle pagine e la relazione tra questa ed i componenti hardware presenti su una architettura di processore convenzionale.
 
 .. #. Considera un buddy system. Supponi che le richieste di allocazione siano per porzioni di memoria la cui grandezza sia uniformemente distribuita tra 64bytes e 512Kbytes. Sai stimare mediamente qual è la frazione di memoria che si perde in frammentazione interna ed esterna?
 

@@ -28,6 +28,5 @@
 
   *A*, *B* e *N* sono parametri che il programma deve acquisire da linea di comando.
 
-
-#. Scriva il codice di una funzione C con la seguente interfaccia :code:`void tunnel(int descriptors[], int count)` tale che, se eseguita, porti l'applicazione a gestire, per ogni file-descriptor dell'array *descriptors* l'inoltro del flusso  dei dati in ingresso verso il canale di standard-output dell'applicazione. Il parametro *count* indica
-di quanti elementi e' costituito l'array *descriptors*. L'inoltro dovrà essere attuato in modo concorrente per i diversi canali. 
+#. Si scriva il codice di una funzione C con la seguente interfaccia :code:`void tunnel(int descriptors[], int count)` tale che, se eseguita, porti l'applicazione a gestire, per ogni file-descriptor dell'array *descriptors* l'inoltro del flusso  dei dati in ingresso verso il canale di standard-output dell'applicazione. Il parametro *count* indica di quanti elementi e' costituito l'array *descriptors*. L'inoltro dovrà essere attuato in modo concorrente per i diversi canali. 
+#. Si scriva una funzione C con la seguente interfaccia :code:`void file_check(char *file_name, int num_threads)`. Tale funzione dovrà lanciare num_thread nuovi threads, in modo che ciascuno di essi legga stringhe dallo standard input, e per ogni stringa letta verifichi l'occorrenza di tale stringa all'interno del file il cui path e' identificato tramite il parametro file_name, e stampi la stringa su standard output in caso affermativo.

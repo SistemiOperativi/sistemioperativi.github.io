@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-29 13:52+0100\n"
+"POT-Creation-Date: 2022-01-17 12:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,6 +70,19 @@ msgstr ""
 msgid ""
 "Come è possibile parametrizzare uno scheduler basato su priorità per "
 "emulare gli scheduler Shortest Job First, First Come First Serve?"
+msgstr ""
+
+#: ../source/questions/sched.rst:14
+msgid ""
+"Descrivere lo scheduler di CPU round-robin virtuale, discutendone "
+"vantaggi e svantaggi rispetto allo scheduler round-robin."
+msgstr ""
+
+#: ../source/questions/sched.rst:15
+msgid ""
+"Si descrivano gli scheduler di CPU Shortest-Process-Next (SPN) e la sua "
+"variante Shortest–Remaining-Time-Next (SRTN), evidenziandone i vantaggi e"
+" gli svantaggi."
 msgstr ""
 
 #~ msgid ""
@@ -166,5 +179,13 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Cpu-scheduler: quali sono i criteri di valutazione di un cpu-scheduler?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "#. Si descrivano gli scheduler di "
+#~ "CPU Shortest-Process-Next (SPN) e "
+#~ "la sua variante Shortest–Remaining-Time-"
+#~ "Next (SRTN), evidenziandone i vantaggi e"
+#~ " gli svantaggi."
 #~ msgstr ""
 

@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-17 12:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/news/220117.rst:2
+msgid "17-01-2022 - avviso: aggionamenti"
+msgstr ""
+
+#: ../source/news/220117.rst:4
+msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/news/220117.rst:6
+msgid "nuovi esercizi e domande:"
+msgstr ""
+
+#: ../source/news/220117.rst:8
+msgid "aggiunta 1 domanda su introduzione"
+msgstr ""
+
+#: ../source/news/220117.rst:9
+msgid "aggiunte 2 domande su cpu scheduling"
+msgstr ""
+
+#: ../source/news/220117.rst:10
+msgid "aggiunta 4 domande su gestione della memoria"
+msgstr ""
+
+#: ../source/news/220117.rst:11
+msgid "aggiunte 3 domande su file management"
+msgstr ""
+
+#: ../source/news/220117.rst:12
+msgid "aggiunti 2 esercizi su CPU scheduling"
+msgstr ""
+
+#: ../source/news/220117.rst:13
+msgid "aggiunti 2 esercizi su gestione delle memoria"
+msgstr ""
+
+#: ../source/news/220117.rst:14
+msgid "aggiunto 1 esercizio su I/O management"
+msgstr ""
+
+#: ../source/news/220117.rst:15
+msgid "aggiunti 3 esercizi su file management"
+msgstr ""
+
+#: ../source/news/220117.rst:16
+msgid "aggiunto 1 esercizio su programmazione"
+msgstr ""
+

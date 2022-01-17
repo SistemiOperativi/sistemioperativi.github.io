@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-14 22:40+0100\n"
+"POT-Creation-Date: 2022-01-17 12:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,10 +35,29 @@ msgid "Descrivere i metodi di accesso a file sequenziale, diretto ed indicizzato
 msgstr ""
 
 #: ../source/questions/file.rst:7
-msgid "Descrivere le caratteristiche saliente del file system UNIX"
+msgid "Descrivere le caratteristiche salienti del file system UNIX."
 msgstr ""
 
 #: ../source/questions/file.rst:8
 msgid "Cosa è un in-memory file system e riportarne alcuni esempi."
 msgstr ""
+
+#: ../source/questions/file.rst:9
+msgid ""
+"Descrivere i classici metodi di allocazione dei file sui dispositivi, "
+"discutendone vantaggi e svantaggi in modo comparato."
+msgstr ""
+
+#: ../source/questions/file.rst:10
+msgid ""
+"Descrivere cosa sono gli \"hard link\" ed i \"soft link\" in un file-"
+"system."
+msgstr ""
+
+#: ../source/questions/file.rst:11
+msgid "Si decriva il metodo di allocazione dei file a catena."
+msgstr ""
+
+#~ msgid "Descrivere le caratteristiche saliente del file system UNIX"
+#~ msgstr ""
 

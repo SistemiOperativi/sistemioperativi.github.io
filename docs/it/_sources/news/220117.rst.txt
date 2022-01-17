@@ -1,0 +1,17 @@
+17-01-2022 - avviso: aggionamenti
+---------------------------------------------------
+
+* Sito del corso:
+  
+  * nuovi esercizi e domande: 
+
+    * aggiunta 1 domanda su introduzione
+    * aggiunte 2 domande su cpu scheduling
+    * aggiunta 4 domande su gestione della memoria
+    * aggiunte 3 domande su file management
+    * aggiunti 2 esercizi su CPU scheduling
+    * aggiunti 2 esercizi su gestione delle memoria
+    * aggiunto 1 esercizio su I/O management
+    * aggiunti 3 esercizi su file management
+    * aggiunto 1 esercizio su programmazione
+

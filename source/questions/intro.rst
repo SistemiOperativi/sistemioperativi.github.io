@@ -9,3 +9,4 @@
 #. Quali sono gli obiettivi principali di un sistema operativo?
 #. Perché la distinzione tra modo kernel e modo user è una forma di protezione?
 #. Descrivere 3 servizi di sistema operativo e spiegare perché sono convenienti per gli utenti. Inoltre, perché è sconveniente che siano forniti da programmi user?
+#. Descrivere le principali caratteristiche di un sistema batch e di un sistema batch multiprogrammato, discutendo anche in modo comparativo i vantaggi o svantaggi dell'uno verso l'altro.
