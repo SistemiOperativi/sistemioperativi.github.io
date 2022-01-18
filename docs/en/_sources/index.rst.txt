@@ -10,11 +10,27 @@ News
 
 .. warning::
   
-  L'esercitazione del 18-01-2022 è stata cancellata causa sovrapposizione con il Consiglio del Collegio Didattico.
+  L'esercitazione extra del 19-01-2022 verrà erogata in presenza.
 
 .. warning::
   
-  Al 17-01-2022 non sono ancora stati definitivamente risolti le problematiche relative alla prenotazione degli appelli. Seguiranno aggiornamenti nella giornata di domani.
+  Dati problemi tecnici legati all'assegnazione automatica alle aule, quest'ultima è stata disabilitata. 
+  Di conseguenza:
+  
+  * dovrebbe essere possibile prenotarsi all'appello di Febbraio;
+  * la scandenza delle prenotazioni sarà prolungata al 21-01-2022; 
+  * tutte le nuove prenotazioni avranno come data il 26 Gennaio o il 21 Febbraio, rispettivamente per il primo ed il secondo appello;
+  * la data potrà non riflettere l'assegnazione effettiva che verrà comunicata il giorno dopo la chiusura delle prenotazioni.
+
+  In accordo all'Art.14 commi 7 e 10 del Regolamento Didattico di Ateneo, gli studenti che si prenotano al primo appello potranno prenotarsi nuovamente al secondo appello **se e solo se**:
+
+  * si ritirano dal primo appello;
+  * sono assenti al primo appello.
+
+.. Sarà possibile ritirarsi entro 7 giorni naturali dalla pubblicazione dei risultati **se e solo se** la valutazione sarà sufficiente in **entrambe** le parti di programmazione e teoria.
+
+
+
 
 * :ref:`n17-01-2022`
 * :ref:`n14-01-2022`
