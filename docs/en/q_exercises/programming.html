@@ -115,8 +115,9 @@ Scrivere un programma C che genera un file con contenuto interamente randomico. 
 <p><em>A</em>, <em>B</em> e <em>N</em> sono parametri che il programma deve acquisire da linea di comando.</p>
 </div></blockquote>
 <ol class="arabic simple" start="4">
-<li><p>Si scriva il codice di una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">tunnel(int</span> <span class="pre">descriptors[],</span> <span class="pre">int</span> <span class="pre">count)</span></code> tale che, se eseguita, porti l’applicazione a gestire, per ogni file-descriptor dell’array <em>descriptors</em> l’inoltro del flusso  dei dati in ingresso verso il canale di standard-output dell’applicazione. Il parametro <em>count</em> indica di quanti elementi e’ costituito l’array <em>descriptors</em>. L’inoltro dovrà essere attuato in modo concorrente per i diversi canali.</p></li>
-<li><p>Si scriva una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">file_check(char</span> <span class="pre">*file_name,</span> <span class="pre">int</span> <span class="pre">num_threads)</span></code>. Tale funzione dovrà lanciare num_thread nuovi threads, in modo che ciascuno di essi legga stringhe dallo standard input, e per ogni stringa letta verifichi l’occorrenza di tale stringa all’interno del file il cui path e’ identificato tramite il parametro file_name, e stampi la stringa su standard output in caso affermativo.</p></li>
+<li><p>Si scriva il codice di una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">tunnel(int</span> <span class="pre">descriptors[],</span> <span class="pre">int</span> <span class="pre">count)</span></code> tale che, se eseguita, porti l’applicazione a gestire, per ogni file-descriptor dell’array <em>descriptors</em> l’inoltro del flusso  dei dati in ingresso verso il canale di standard-output dell’applicazione. Il parametro <em>count</em> indica di quanti elementi è costituito l’array <em>descriptors</em>. L’inoltro dovrà essere attuato in modo concorrente per i diversi canali.</p></li>
+<li><p>Si scriva una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">file_check(char</span> <span class="pre">*file_name,</span> <span class="pre">int</span> <span class="pre">num_threads)</span></code>. Tale funzione dovrà lanciare num_thread nuovi threads, in modo che ciascuno di essi legga stringhe dallo standard input, e per ogni stringa letta verifichi l’occorrenza di tale stringa all’interno <em>di ciascuna riga</em> del file il cui path è identificato tramite il parametro file_name, e stampi la stringa su standard output in caso affermativo.</p></li>
+<li><p>Scrivere un programma C in cui dato un file <em>A</em>, una stringa <em>B</em> e un intero <em>N</em>, vengano creati <em>N</em> thread/processi che cerchino se all’interno del file <em>A</em> esiste una linea uguale a <em>B</em>.</p></li>
 </ol>
 </section>
 
@@ -129,7 +130,7 @@ Scrivere un programma C che genera un file con contenuto interamente randomico. 
 
   <div role="contentinfo">
     <p>&#169; Copyright 2021, Romolo Marotta.
-      <span class="lastupdated">Last updated on Jan 18, 2022.
+      <span class="lastupdated">Last updated on Jan 26, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
