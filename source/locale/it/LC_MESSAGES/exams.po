@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-28 18:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/exams.rst:2
+msgid "Appelli"
+msgstr ""
+
+#: ../source/exams.rst:6
+msgid "26/01/2022"
+msgstr ""
+
+#: ../source/exams.rst:8
+msgid ""
+"Testo d'esame: :download:`it <esami/220126-it.pdf>`, :download:`en "
+"<esami/220126-en.pdf>`, :download:`sorgente e soluzione "
+"<esami/220126-PROG.zip>`"
+msgstr ""
+
+#: ../source/exams.rst:9
+msgid "Soglie per la sufficienza: Teoria=12, Programmazione=6"
+msgstr ""
+
+#: ../source/exams.rst:10
+msgid "Voti:"
+msgstr ""
+
+#: ../source/exams.rst:13
+msgid "**Matricola**"
+msgstr ""
+
+#: ../source/exams.rst:13
+msgid "**Teoria**"
+msgstr ""
+
+#: ../source/exams.rst:13
+msgid "**Programmazione**"
+msgstr ""
+
+#: ../source/exams.rst:13
+msgid "**Totale**"
+msgstr ""
+
+#: ../source/exams.rst:15
+msgid "534346"
+msgstr ""
+
+#: ../source/exams.rst:15
+msgid "20/21"
+msgstr ""
+
+#: ../source/exams.rst:15 ../source/exams.rst:19
+msgid "0/10"
+msgstr ""
+
+#: ../source/exams.rst:15 ../source/exams.rst:17 ../source/exams.rst:19
+#: ../source/exams.rst:23 ../source/exams.rst:29
+msgid "Insuf."
+msgstr ""
+
+#: ../source/exams.rst:17
+msgid "550030"
+msgstr ""
+
+#: ../source/exams.rst:17
+msgid "13/21"
+msgstr ""
+
+#: ../source/exams.rst:17
+msgid "3/10"
+msgstr ""
+
+#: ../source/exams.rst:19
+msgid "547985"
+msgstr ""
+
+#: ../source/exams.rst:19
+msgid "15.5/21"
+msgstr ""
+
+#: ../source/exams.rst:21
+msgid "547002"
+msgstr ""
+
+#: ../source/exams.rst:21
+msgid "18/21"
+msgstr ""
+
+#: ../source/exams.rst:21
+msgid "6/10"
+msgstr ""
+
+#: ../source/exams.rst:21
+msgid "24"
+msgstr ""
+
+#: ../source/exams.rst:23
+msgid "523520"
+msgstr ""
+
+#: ../source/exams.rst:23
+msgid "12/21"
+msgstr ""
+
+#: ../source/exams.rst:23
+msgid "4/10"
+msgstr ""
+
+#: ../source/exams.rst:25
+msgid "577378"
+msgstr ""
+
+#: ../source/exams.rst:25 ../source/exams.rst:27
+msgid "N.D."
+msgstr ""
+
+#: ../source/exams.rst:27
+msgid "553700"
+msgstr ""
+
+#: ../source/exams.rst:29
+msgid "547434"
+msgstr ""
+
+#: ../source/exams.rst:29
+msgid "3/21"
+msgstr ""
+
+#: ../source/exams.rst:29
+msgid "10/10"
+msgstr ""
+
+#: ../source/exams.rst:32
+msgid ""
+"*N.D.* indica che non è stata firmata la liberatoria per la pubblicazione"
+" dei risultati."
+msgstr ""
+
+#~ msgid "Matricola"
+#~ msgstr ""
+
+#~ msgid "Teoria"
+#~ msgstr ""
+
+#~ msgid "Programmazione"
+#~ msgstr ""
+
+#~ msgid "Totale"
+#~ msgstr ""
+
+#~ msgid "*Matricola*"
+#~ msgstr ""
+
+#~ msgid "*Teoria*"
+#~ msgstr ""
+
+#~ msgid "*Programmazione*"
+#~ msgstr ""
+
+#~ msgid "*Totale*"
+#~ msgstr ""
+
+#~ msgid "20"
+#~ msgstr ""
+
+#~ msgid "13"
+#~ msgstr ""
+
+#~ msgid "15.5"
+#~ msgstr ""
+
+#~ msgid "18"
+#~ msgstr ""
+
+#~ msgid "12"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "6"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "10"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Il simbolo '-' indica che non è"
+#~ " stata firmata la liberatoria per la"
+#~ " pubblicazione dei risultati."
+#~ msgstr ""
+
+#~ msgid "Soglie per la sufficienza:"
+#~ msgstr ""
+
+#~ msgid "Teoria: 12"
+#~ msgstr ""
+
+#~ msgid "Programmazione: 6"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Testo d'esame: :download:`it <esami/220126-it.pdf>`,"
+#~ " :download:`en <esami/220126-en.pdf>`, sorgente, "
+#~ "soluzione"
+#~ msgstr ""
+

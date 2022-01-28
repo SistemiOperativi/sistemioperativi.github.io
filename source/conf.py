@@ -55,10 +55,10 @@ project = mytranslate("Sistemi Operativi")
 
 
 author = 'Romolo Marotta'
-copyright = '2021, '+author
+copyright = '2022, '+author
 
 # The full version, including alpha/beta/rc tags
-release = '0'
+release = '2021/2022'
 
 
 

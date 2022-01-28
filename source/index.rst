@@ -8,6 +8,7 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
+* :ref:`n28-01-2022`, consultabili su :doc:`exams`
 * :ref:`n17-01-2022`
 * :ref:`n14-01-2022`
 * :ref:`n11-01-2022`
@@ -57,9 +58,9 @@ L'esame prevede 1 prova ripartita in 2 due test, i cui punteggi sono ripartiti s
 +---------+----------------------------+-------+-------+-------------+
 | # Test  | Tipologia                  | Punti | Perc. | Sufficienza |
 +---------+----------------------------+-------+-------+-------------+
-| 1       | Domande di teoria          |  20   |  65%  | 12          |
+| 1       | Domande di teoria          |  ~20  |  ~65% | ~12         |
 +---------+----------------------------+-------+-------+-------------+
-| 2       | Esercizi di programmazione |  11   |  35%  | 6           |
+| 2       | Esercizi di programmazione |  ~11  |  ~35% | ~6          |
 +---------+----------------------------+-------+-------+-------------+
 
 Regole:
@@ -125,5 +126,6 @@ Programma
    slides
    lectures/index
    challenges
+   exams
    news
    errata
