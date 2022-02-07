@@ -8,10 +8,20 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
+.. warning::
+  
+  Dal 07/02/2022 al 14/02/2022 sono riaperte le prenotazioni per l'appello di Febbraio. Potranno prenotarsi: 
+
+  * coloro che non si sono mai prenotati ad alcun appello;
+  * coloro che non hanno superato/accettato la prova di Gennaio.
+
+  Per l'ordine di assegnazione delle aule verrà considerato l'ordine della prima prenotazione.
+  In altre parole, cancellare l'attuale prenotazione per poi prenotarsi nuovamente non avrà effetti sull'assegnazione dell'aula.
+
+* :ref:`n07-02-2022`
 * :ref:`n28-01-2022`, consultabili su :doc:`exams`
 * :ref:`n17-01-2022`
 * :ref:`n14-01-2022`
-* :ref:`n11-01-2022`
 
 Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`news`
 
