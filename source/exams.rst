@@ -5,7 +5,7 @@ Appelli
 26/01/2022
 ----------
 
-* Testo d'esame: :download:`it <esami/220126-it.pdf>`, :download:`en <esami/220126-en.pdf>`, :download:`sorgente e soluzione <esami/220126-PROG.zip>`
+* Testo d'esame: :download:`it <esami/220126-it.pdf>`, :download:`en <esami/220126-en.pdf>`, :download:`sorgente e soluzione (aggiornato il 09/02/2022) <esami/220126-PROGv2.zip>`
 * Soglie per la sufficienza: Teoria=12, Programmazione=6
 * Voti:
 
