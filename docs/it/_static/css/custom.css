@@ -12,3 +12,16 @@
   text-decoration: line-through;
   color:red;
 }
+
+.toggle .header {
+    display: block;
+    clear: both;
+}
+
+.toggle .header p:after {
+    content: " ▶";
+}
+
+.toggle .header.open p:after {
+    content: " ▼";
+}

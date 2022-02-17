@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 17:08+0100\n"
+"POT-Creation-Date: 2022-02-17 23:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -373,7 +373,7 @@ msgid ""
 msgstr ""
 
 #: ../source/questions/file.rst:11
-msgid "Si decriva il metodo di allocazione dei file a catena."
+msgid "Si descriva il metodo di allocazione dei file a catena."
 msgstr ""
 
 #: ../source/questions.rst:20
@@ -433,7 +433,7 @@ msgstr ""
 msgid ""
 "Si consideri uno scenario in cui uno scheduler Multilevel-feedback queue "
 "abbia 4 livelli di priorità, ed in cui il quanto di tempo assegnato ai "
-"processi al livello i sia di 1/2^i millicondo. Si supponga che "
+"processi al livello i sia di 1/2^i millisecondi. Si supponga che "
 "all'istante T0 nascano 2 processi A e B, entrambi CPU-bound. Il processo "
 "B richiede 10 millisecondi di tempo di CPU per completare la sua "
 "esecuzione. Si identifichi la durata massima (in termini di tempo di CPU)"
@@ -506,27 +506,228 @@ msgid ""
 "seguente traccia: 0 9 0 3 5 7 9 0 9 6 7 8 9 7 6 4"
 msgstr ""
 
-#: ../source/q_exercises/memory.rst:16
+#: ../source/q_exercises/memory.rst:21 ../source/q_exercises/memory.rst:90
+msgid "**Mostra/Nascondi Soluzione**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:25
+msgid "*FIFO*: #PageFault = 11"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**0**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**9**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:31
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:59 ../source/q_exercises/memory.rst:62
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+msgid "0"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**3**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**5**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**7**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:31
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:59 ../source/q_exercises/memory.rst:62
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+msgid "9"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**6**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:31
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:59 ../source/q_exercises/memory.rst:62
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+#: ../source/q_exercises/memory.rst:96
+msgid "7"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**8**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:31
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:59 ../source/q_exercises/memory.rst:62
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+#: ../source/q_exercises/memory.rst:98
+msgid "6"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**4**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:31 ../source/q_exercises/memory.rst:33
+#: ../source/q_exercises/memory.rst:35 ../source/q_exercises/memory.rst:37
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:66 ../source/q_exercises/memory.rst:68
+#: ../source/q_exercises/memory.rst:104
+msgid "3"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:31 ../source/q_exercises/memory.rst:33
+#: ../source/q_exercises/memory.rst:35 ../source/q_exercises/memory.rst:37
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:68 ../source/q_exercises/memory.rst:100
+msgid "5"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:31 ../source/q_exercises/memory.rst:33
+#: ../source/q_exercises/memory.rst:35 ../source/q_exercises/memory.rst:46
+#: ../source/q_exercises/memory.rst:48 ../source/q_exercises/memory.rst:50
+#: ../source/q_exercises/memory.rst:52 ../source/q_exercises/memory.rst:68
+msgid "8"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:31 ../source/q_exercises/memory.rst:46
+#: ../source/q_exercises/memory.rst:68 ../source/q_exercises/memory.rst:102
+msgid "4"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+#: ../source/q_exercises/memory.rst:68
+msgid "E"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:40
+msgid "*Least-Recently Used*: #PageFault = 10"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:56
+msgid "*Optimal*: #PageFault = 8"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:75
 msgid ""
 "Considerando uno schema di paginazione a 3 livelli in cui la tabella di "
 "primo livello sia costituita da 4 K elementi, quella di secondo livello "
 "da 2 K elementi e quella di terzo livello da 1 K elementi, si determini "
-"il numero massimo di pagine gestibili all’interno dello spazio di "
+"il numero massimo di pagine gestibili all'interno dello spazio di "
 "indirizzamento di un processo."
 msgstr ""
 
-#: ../source/q_exercises/memory.rst:17
+#: ../source/q_exercises/memory.rst:76
 msgid ""
 "Si consideri una sequenza di generazione di 4 processi, P4, P1, P2 e P3. "
 "P1 e P2 hanno taglia 1MB, P3 ha taglia 2 MB e P4 ha taglia 4 MB. Il "
-"sistema con multiprogrammazione è caratterizzato da una memoria di lavoro"
-" di 7 MB di cui 1 MB sia riservato per il sistema operativo, un "
-"meccanismo di allocazione dei processi basato su partizioni dinamiche. "
+"sistema con multiprogrammazione è caratterizzato da:"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:79
+msgid ""
+"una memoria di lavoro di 7 MB di cui 1 MB sia riservato per il sistema "
+"operativo"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:80
+msgid "un meccanismo di allocazione dei processi basato su partizioni dinamiche."
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:82
+msgid ""
 "Assumendo che P4 non termini prima di P3, si determini quale deve essere "
 "la relazione tra il tempo di completamento di P1 e P2 ed il tempo di "
-"nascita di P3 affinchè, e sotto quali condizioni, ognuno dei 4 processi "
-"posssa essere correttamente allocato in memoria all’atto della sua "
+"nascita di P3 affinché, e sotto quali condizioni, ognuno dei 4 processi "
+"possa essere correttamente allocato in memoria all'atto della sua "
 "creazione."
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:96
+msgid "**P2**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:97
+msgid "**P3**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:98
+msgid "**P1**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:100
+msgid "**P4**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:106
+msgid "2"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:108
+msgid "1"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:108
+msgid "**MONITOR**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:111
+msgid ""
+"Siano S_i e T_i rispettivamente l'istante di inizio e terminazione del "
+"processo i"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:112
+msgid "Vincoli:"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:114
+msgid "S_4 < S_1 < S_2 < S_3"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:115
+msgid "T_4 > S_3"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:117
+msgid "Soluzione:"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:119
+msgid "S_3 > max(T_1, T_2)"
 msgstr ""
 
 #: ../source/q_exercises/IO.rst:4
@@ -569,8 +770,8 @@ msgstr ""
 
 #: ../source/q_exercises/file.rst:8
 msgid ""
-"memorizzato su un dispositvo di massa, la cui taglia di un blocco è pari "
-"a 4096 record."
+"memorizzato su un dispositivo di massa, la cui taglia di un blocco è pari"
+" a 4096 record."
 msgstr ""
 
 #: ../source/q_exercises/file.rst:10
@@ -593,7 +794,7 @@ msgid ""
 msgstr ""
 
 #: ../source/q_exercises/file.rst:18
-msgid "128 entry per acesso diretto;"
+msgid "128 entry per accesso diretto;"
 msgstr ""
 
 #: ../source/q_exercises/file.rst:19
@@ -613,7 +814,7 @@ msgid ""
 "Si consideri inoltre senario dove un processo P apra un file F "
 "(attualmente non in uso da parte di alcun processo) e poi esegua 2 "
 "fork(). Indicare il numero delle sessioni di I/O verso  il file F a valle"
-" dell’esecusione delle 2 fork() da parte di P."
+" dell'esecuzione delle 2 fork() da parte di P."
 msgstr ""
 
 #: ../source/q_exercises/file.rst:25
@@ -642,7 +843,7 @@ msgstr ""
 
 #: ../source/q_exercises/programming.rst:4
 msgid ""
-"Nei sistemi operitvi UNIX, `/dev/urandom <https://man7.org/linux/man-"
+"Nei sistemi operativi UNIX, `/dev/urandom <https://man7.org/linux/man-"
 "pages/man4/random.4.html>`_ è un dispositivo a caratteri (char device) "
 "virtuale in grado di generare numeri casuali. Nello specifico, "
 "l'operazione di lettura dal relativo file produce byte casuali. Scrivere "
@@ -738,7 +939,7 @@ msgstr ""
 
 #: ../source/q_exercises/programming.rst:31
 msgid ""
-"*SOLUZIONE*: `Github "
+"**SOLUZIONE**: `Github "
 "<https://github.com/SistemiOperativi/c_examples/tree/main/ex_8_3>`__"
 msgstr ""
 
@@ -1501,5 +1702,179 @@ msgstr ""
 #~ "abbia come scheduler Shortest Process "
 #~ "Next oppure Shortest-Remaining-Time "
 #~ "Next."
+#~ msgstr ""
+
+#~ msgid "**Show/Hide Code**"
+#~ msgstr ""
+
+#~ msgid "**Show/Hide Solution**"
+#~ msgstr ""
+
+#~ msgid "This is a test"
+#~ msgstr ""
+
+#~ msgid "*FIFO*"
+#~ msgstr ""
+
+#~ msgid "*0*"
+#~ msgstr ""
+
+#~ msgid "*9*"
+#~ msgstr ""
+
+#~ msgid "*3*"
+#~ msgstr ""
+
+#~ msgid "*5*"
+#~ msgstr ""
+
+#~ msgid "*7*"
+#~ msgstr ""
+
+#~ msgid "*6*"
+#~ msgstr ""
+
+#~ msgid "*8*"
+#~ msgstr ""
+
+#~ msgid "*4*"
+#~ msgstr ""
+
+#~ msgid "*Least-Recently Used*"
+#~ msgstr ""
+
+#~ msgid "*Optimal*"
+#~ msgstr ""
+
+#~ msgid "**Mostra/Nascondi Solutione**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si consideri una sequenza di generazione"
+#~ " di 4 processi, P4, P1, P2 e"
+#~ " P3. P1 e P2 hanno taglia 1MB,"
+#~ " P3 ha taglia 2 MB e P4 "
+#~ "ha taglia 4 MB. Il sistema con "
+#~ "multiprogrammazione è caratterizzato da una"
+#~ " memoria di lavoro di 7 MB di"
+#~ " cui 1 MB sia riservato per il"
+#~ " sistema operativo, un meccanismo di "
+#~ "allocazione dei processi basato su "
+#~ "partizioni dinamiche. Assumendo che P4 "
+#~ "non termini prima di P3, si "
+#~ "determini quale deve essere la relazione"
+#~ " tra il tempo di completamento di "
+#~ "P1 e P2 ed il tempo di "
+#~ "nascita di P3 affinchè, e sotto "
+#~ "quali condizioni, ognuno dei 4 processi"
+#~ " posssa essere correttamente allocato in"
+#~ " memoria all’atto della sua creazione."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*SOLUZIONE*: `Github "
+#~ "<https://github.com/SistemiOperativi/c_examples/tree/main/ex_8_3>`__"
+#~ msgstr ""
+
+#~ msgid "**P2"
+#~ msgstr ""
+
+#~ msgid "Vincoli: T_4 > S_3"
+#~ msgstr ""
+
+#~ msgid "S_3 > max(T_1, T_2)"
+#~ msgstr ""
+
+#~ msgid "Vincoli: * S_4 < S_1 < S_2 * T_4 > S_3"
+#~ msgstr ""
+
+#~ msgid "Si decriva il metodo di allocazione dei file a catena."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si consideri uno scenario in cui "
+#~ "uno scheduler Multilevel-feedback queue "
+#~ "abbia 4 livelli di priorità, ed in"
+#~ " cui il quanto di tempo assegnato "
+#~ "ai processi al livello i sia di"
+#~ " 1/2^i millicondo. Si supponga che "
+#~ "all'istante T0 nascano 2 processi A "
+#~ "e B, entrambi CPU-bound. Il "
+#~ "processo B richiede 10 millisecondi di"
+#~ " tempo di CPU per completare la "
+#~ "sua esecuzione. Si identifichi la durata"
+#~ " massima (in termini di tempo di "
+#~ "CPU) del processo A affinché il "
+#~ "processo B possa completare la sua "
+#~ "esecuzione entro il tempo T0+17 nei "
+#~ "due casi in cui il primo processo"
+#~ " ad essere schedulato in CPU sia "
+#~ "A oppure B. Si supponga che il "
+#~ "tempo di CPU per i context switch"
+#~ " e per l'esecuzione dello scheduler "
+#~ "sia nullo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Considerando uno schema di paginazione a"
+#~ " 3 livelli in cui la tabella di"
+#~ " primo livello sia costituita da 4"
+#~ " K elementi, quella di secondo "
+#~ "livello da 2 K elementi e quella"
+#~ " di terzo livello da 1 K "
+#~ "elementi, si determini il numero massimo"
+#~ " di pagine gestibili all’interno dello "
+#~ "spazio di indirizzamento di un processo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Assumendo che P4 non termini prima "
+#~ "di P3, si determini quale deve "
+#~ "essere la relazione tra il tempo "
+#~ "di completamento di P1 e P2 ed "
+#~ "il tempo di nascita di P3 "
+#~ "affinchè, e sotto quali condizioni, "
+#~ "ognuno dei 4 processi posssa essere "
+#~ "correttamente allocato in memoria all’atto "
+#~ "della sua creazione."
+#~ msgstr ""
+
+#~ msgid "S_4 < S_1 < S_2"
+#~ msgstr ""
+
+#~ msgid "Soluzione: * S_3 > max(T_1, T_2)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "memorizzato su un dispositvo di massa,"
+#~ " la cui taglia di un blocco è"
+#~ " pari a 4096 record."
+#~ msgstr ""
+
+#~ msgid "128 entry per acesso diretto;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si consideri inoltre senario dove un "
+#~ "processo P apra un file F "
+#~ "(attualmente non in uso da parte "
+#~ "di alcun processo) e poi esegua 2"
+#~ " fork(). Indicare il numero delle "
+#~ "sessioni di I/O verso  il file F"
+#~ " a valle dell’esecusione delle 2 "
+#~ "fork() da parte di P."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nei sistemi operitvi UNIX, `/dev/urandom "
+#~ "<https://man7.org/linux/man-pages/man4/random.4.html>`_ è"
+#~ " un dispositivo a caratteri (char "
+#~ "device) virtuale in grado di generare"
+#~ " numeri casuali. Nello specifico, "
+#~ "l'operazione di lettura dal relativo "
+#~ "file produce byte casuali. Scrivere un"
+#~ " programma C che genera un file "
+#~ "con contenuto interamente randomico. Il "
+#~ "programma:"
 #~ msgstr ""
 

@@ -8,4 +8,4 @@
 #. Cosa è un in-memory file system e riportarne alcuni esempi.
 #. Descrivere i classici metodi di allocazione dei file sui dispositivi, discutendone vantaggi e svantaggi in modo comparato.
 #. Descrivere cosa sono gli "hard link" ed i "soft link" in un file-system.
-#. Si decriva il metodo di allocazione dei file a catena.
+#. Si descriva il metodo di allocazione dei file a catena.

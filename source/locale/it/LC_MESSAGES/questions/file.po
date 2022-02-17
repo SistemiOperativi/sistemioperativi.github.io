@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 12:32+0100\n"
+"POT-Creation-Date: 2022-02-17 23:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,9 +55,12 @@ msgid ""
 msgstr ""
 
 #: ../source/questions/file.rst:11
-msgid "Si decriva il metodo di allocazione dei file a catena."
+msgid "Si descriva il metodo di allocazione dei file a catena."
 msgstr ""
 
 #~ msgid "Descrivere le caratteristiche saliente del file system UNIX"
+#~ msgstr ""
+
+#~ msgid "Si decriva il metodo di allocazione dei file a catena."
 #~ msgstr ""
 
