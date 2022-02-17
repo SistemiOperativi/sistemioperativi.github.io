@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-26 02:19+0100\n"
+"POT-Creation-Date: 2022-02-17 17:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -781,6 +781,12 @@ msgstr ""
 
 #: ../source/q_exercises/programming.rst:31
 msgid ""
+"*SOLUZIONE*: `Github "
+"<https://github.com/SistemiOperativi/c_examples/tree/main/ex_8_3>`__"
+msgstr ""
+
+#: ../source/q_exercises/programming.rst:33
+msgid ""
 "Si scriva il codice di una funzione C con la seguente interfaccia "
 ":code:`void tunnel(int descriptors[], int count)` tale che, se eseguita, "
 "porti l'applicazione a gestire, per ogni file-descriptor dell'array "
@@ -790,7 +796,7 @@ msgid ""
 "essere attuato in modo concorrente per i diversi canali."
 msgstr ""
 
-#: ../source/q_exercises/programming.rst:32
+#: ../source/q_exercises/programming.rst:34
 msgid ""
 "Si scriva una funzione C con la seguente interfaccia :code:`void "
 "file_check(char *file_name, int num_threads)`. Tale funzione dovrà "
@@ -801,7 +807,7 @@ msgid ""
 "stringa su standard output in caso affermativo."
 msgstr ""
 
-#: ../source/q_exercises/programming.rst:33
+#: ../source/q_exercises/programming.rst:35
 msgid ""
 "Scrivere un programma C in cui dato un file *A*, una stringa *B* e un "
 "intero *N*, vengano creati *N* thread/processi che cerchino se "
