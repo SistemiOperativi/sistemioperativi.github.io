@@ -1,7 +1,7 @@
 8- Programmazione
 """"""""""""""""""
 
-#. Nei sistemi operitvi UNIX, `/dev/urandom <https://man7.org/linux/man-pages/man4/random.4.html>`_ è un dispositivo a caratteri (char device) virtuale in grado di generare numeri casuali. 
+#. Nei sistemi operativi UNIX, `/dev/urandom <https://man7.org/linux/man-pages/man4/random.4.html>`_ è un dispositivo a caratteri (char device) virtuale in grado di generare numeri casuali. 
    Nello specifico, l'operazione di lettura dal relativo file produce byte casuali. 
    Scrivere un programma C che genera un file con contenuto interamente randomico. Il programma:
 
@@ -28,7 +28,7 @@
   
   *A*, *B* e *N* sono parametri che il programma deve acquisire da linea di comando.
 
-  *SOLUZIONE*: `Github <https://github.com/SistemiOperativi/c_examples/tree/main/ex_8_3>`__
+  **SOLUZIONE**: `Github <https://github.com/SistemiOperativi/c_examples/tree/main/ex_8_3>`__
 
 4. Si scriva il codice di una funzione C con la seguente interfaccia :code:`void tunnel(int descriptors[], int count)` tale che, se eseguita, porti l'applicazione a gestire, per ogni file-descriptor dell'array *descriptors* l'inoltro del flusso  dei dati in ingresso verso il canale di standard-output dell'applicazione. Il parametro *count* indica di quanti elementi è costituito l'array *descriptors*. L'inoltro dovrà essere attuato in modo concorrente per i diversi canali. 
 #. Si scriva una funzione C con la seguente interfaccia :code:`void file_check(char *file_name, int num_threads)`. Tale funzione dovrà lanciare num_thread nuovi threads, in modo che ciascuno di essi legga stringhe dallo standard input, e per ogni stringa letta verifichi l'occorrenza di tale stringa all'interno *di ciascuna riga* del file il cui path è identificato tramite il parametro file_name, e stampi la stringa su standard output in caso affermativo.

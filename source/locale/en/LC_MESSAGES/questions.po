@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 17:08+0100\n"
+"POT-Creation-Date: 2022-02-17 23:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,7 +146,6 @@ msgid "3 - Scheduling"
 msgstr "3 - Scheduling"
 
 #: ../source/questions/sched.rst:4
-#, fuzzy
 msgid "Cpu-scheduler: quali sono i criteri di valutazione di un CPU scheduler?"
 msgstr "What are the main evaluation criteria of a cpu scheduler?"
 
@@ -309,13 +308,16 @@ msgid ""
 "dinamiche, indicando anche di quali supporti per il binding degli "
 "indirizzi questa necessita."
 msgstr ""
+"Describe the memory management technique based on dynamic partitions. "
+"Then, indicate which supports are required for address binding.
 
 #: ../source/questions/memory.rst:16
-#, fuzzy
 msgid ""
 "Descrivere l'algoritmo di selezione Least-Recently-Used (LRU) per sistemi"
 " di memoria virtuale basati su paginazione."
-msgstr "Describe page-fault handling with virtual memory based on pagination."
+msgstr ""
+"Describe the Least-Recently-Used (LRU) Selection Algorithm for "
+"for systems with pagination-based virtual memory."
 
 #: ../source/questions/memory.rst:17
 msgid ""
@@ -323,6 +325,8 @@ msgid ""
 "strutture dati fondamentali che un sistema operativo deve gestire per "
 "metterla in atto."
 msgstr ""
+"Describe the pagination technique and the required data structures that the operating "
+"system need to manage for it."
 
 #: ../source/questions/memory.rst:18
 msgid ""
@@ -330,6 +334,8 @@ msgid ""
 "ambiente di memoria virtuale. Si indichi infine se tale algoritmo soffra "
 "o meno dell'anomalia di Belady, motivando la risposta."
 msgstr ""
+"Describe the optimal algorithm for page replacement for virtual memory. "
+"Does it suffer from the Belady's anomaly? Motivate your answer."
 
 #: ../source/questions/memory.rst:19
 msgid ""
@@ -337,6 +343,8 @@ msgid ""
 "relazione tra questa ed i componenti hardware presenti su una "
 "architettura di processore convenzionale."
 msgstr ""
+"Describe the page table data structure, its usage and its relation with hardware components "
+"of conventional hardware."
 
 #: ../source/q_exercises/IO.rst:2 ../source/questions/IO.rst:2
 msgid "6 - I/O Management"
@@ -406,16 +414,17 @@ msgid ""
 "Descrivere i classici metodi di allocazione dei file sui dispositivi, "
 "discutendone vantaggi e svantaggi in modo comparato."
 msgstr ""
+"Describe the main approaches for file allocation, discussing their pros and cons."
 
 #: ../source/questions/file.rst:10
 msgid ""
 "Descrivere cosa sono gli \"hard link\" ed i \"soft link\" in un file-"
 "system."
-msgstr ""
+msgstr "Describe hard and soft links in a file system."
 
 #: ../source/questions/file.rst:11
-msgid "Si decriva il metodo di allocazione dei file a catena."
-msgstr ""
+msgid "Si descriva il metodo di allocazione dei file a catena."
+msgstr "Describe the chained allocation for files."
 
 #: ../source/questions.rst:20
 msgid "Esercizi"
@@ -476,7 +485,7 @@ msgstr ""
 msgid ""
 "Si consideri uno scenario in cui uno scheduler Multilevel-feedback queue "
 "abbia 4 livelli di priorità, ed in cui il quanto di tempo assegnato ai "
-"processi al livello i sia di 1/2^i millicondo. Si supponga che "
+"processi al livello i sia di 1/2^i millisecondi. Si supponga che "
 "all'istante T0 nascano 2 processi A e B, entrambi CPU-bound. Il processo "
 "B richiede 10 millisecondi di tempo di CPU per completare la sua "
 "esecuzione. Si identifichi la durata massima (in termini di tempo di CPU)"
@@ -549,27 +558,228 @@ msgid ""
 "seguente traccia: 0 9 0 3 5 7 9 0 9 6 7 8 9 7 6 4"
 msgstr ""
 
-#: ../source/q_exercises/memory.rst:16
+#: ../source/q_exercises/memory.rst:21 ../source/q_exercises/memory.rst:90
+msgid "**Mostra/Nascondi Soluzione**"
+msgstr "**Show/Hide Solution**"
+
+#: ../source/q_exercises/memory.rst:25
+msgid "*FIFO*: #PageFault = 11"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**0**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**9**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:31
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:59 ../source/q_exercises/memory.rst:62
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+msgid "0"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**3**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**5**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**7**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:31
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:59 ../source/q_exercises/memory.rst:62
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+msgid "9"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**6**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:31
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:59 ../source/q_exercises/memory.rst:62
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+#: ../source/q_exercises/memory.rst:96
+msgid "7"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**8**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:31
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:59 ../source/q_exercises/memory.rst:62
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+#: ../source/q_exercises/memory.rst:98
+msgid "6"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:59
+msgid "**4**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:31 ../source/q_exercises/memory.rst:33
+#: ../source/q_exercises/memory.rst:35 ../source/q_exercises/memory.rst:37
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:66 ../source/q_exercises/memory.rst:68
+#: ../source/q_exercises/memory.rst:104
+msgid "3"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:31 ../source/q_exercises/memory.rst:33
+#: ../source/q_exercises/memory.rst:35 ../source/q_exercises/memory.rst:37
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:68 ../source/q_exercises/memory.rst:100
+msgid "5"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:31 ../source/q_exercises/memory.rst:33
+#: ../source/q_exercises/memory.rst:35 ../source/q_exercises/memory.rst:46
+#: ../source/q_exercises/memory.rst:48 ../source/q_exercises/memory.rst:50
+#: ../source/q_exercises/memory.rst:52 ../source/q_exercises/memory.rst:68
+msgid "8"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:31 ../source/q_exercises/memory.rst:46
+#: ../source/q_exercises/memory.rst:68 ../source/q_exercises/memory.rst:102
+msgid "4"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+#: ../source/q_exercises/memory.rst:68
+msgid "E"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:40
+msgid "*Least-Recently Used*: #PageFault = 10"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:56
+msgid "*Optimal*: #PageFault = 8"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:75
 msgid ""
 "Considerando uno schema di paginazione a 3 livelli in cui la tabella di "
 "primo livello sia costituita da 4 K elementi, quella di secondo livello "
 "da 2 K elementi e quella di terzo livello da 1 K elementi, si determini "
-"il numero massimo di pagine gestibili all’interno dello spazio di "
+"il numero massimo di pagine gestibili all'interno dello spazio di "
 "indirizzamento di un processo."
 msgstr ""
 
-#: ../source/q_exercises/memory.rst:17
+#: ../source/q_exercises/memory.rst:76
 msgid ""
 "Si consideri una sequenza di generazione di 4 processi, P4, P1, P2 e P3. "
 "P1 e P2 hanno taglia 1MB, P3 ha taglia 2 MB e P4 ha taglia 4 MB. Il "
-"sistema con multiprogrammazione è caratterizzato da una memoria di lavoro"
-" di 7 MB di cui 1 MB sia riservato per il sistema operativo, un "
-"meccanismo di allocazione dei processi basato su partizioni dinamiche. "
+"sistema con multiprogrammazione è caratterizzato da:"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:79
+msgid ""
+"una memoria di lavoro di 7 MB di cui 1 MB sia riservato per il sistema "
+"operativo"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:80
+msgid "un meccanismo di allocazione dei processi basato su partizioni dinamiche."
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:82
+msgid ""
 "Assumendo che P4 non termini prima di P3, si determini quale deve essere "
 "la relazione tra il tempo di completamento di P1 e P2 ed il tempo di "
-"nascita di P3 affinchè, e sotto quali condizioni, ognuno dei 4 processi "
-"posssa essere correttamente allocato in memoria all’atto della sua "
+"nascita di P3 affinché, e sotto quali condizioni, ognuno dei 4 processi "
+"possa essere correttamente allocato in memoria all'atto della sua "
 "creazione."
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:96
+msgid "**P2**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:97
+msgid "**P3**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:98
+msgid "**P1**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:100
+msgid "**P4**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:106
+msgid "2"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:108
+msgid "1"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:108
+msgid "**MONITOR**"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:111
+msgid ""
+"Siano S_i e T_i rispettivamente l'istante di inizio e terminazione del "
+"processo i"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:112
+msgid "Vincoli:"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:114
+msgid "S_4 < S_1 < S_2 < S_3"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:115
+msgid "T_4 > S_3"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:117
+msgid "Soluzione:"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:119
+msgid "S_3 > max(T_1, T_2)"
 msgstr ""
 
 #: ../source/q_exercises/IO.rst:4
@@ -612,8 +822,8 @@ msgstr ""
 
 #: ../source/q_exercises/file.rst:8
 msgid ""
-"memorizzato su un dispositvo di massa, la cui taglia di un blocco è pari "
-"a 4096 record."
+"memorizzato su un dispositivo di massa, la cui taglia di un blocco è pari"
+" a 4096 record."
 msgstr ""
 
 #: ../source/q_exercises/file.rst:10
@@ -636,7 +846,7 @@ msgid ""
 msgstr ""
 
 #: ../source/q_exercises/file.rst:18
-msgid "128 entry per acesso diretto;"
+msgid "128 entry per accesso diretto;"
 msgstr ""
 
 #: ../source/q_exercises/file.rst:19
@@ -656,7 +866,7 @@ msgid ""
 "Si consideri inoltre senario dove un processo P apra un file F "
 "(attualmente non in uso da parte di alcun processo) e poi esegua 2 "
 "fork(). Indicare il numero delle sessioni di I/O verso  il file F a valle"
-" dell’esecusione delle 2 fork() da parte di P."
+" dell'esecuzione delle 2 fork() da parte di P."
 msgstr ""
 
 #: ../source/q_exercises/file.rst:25
@@ -685,7 +895,7 @@ msgstr "8- Programming"
 
 #: ../source/q_exercises/programming.rst:4
 msgid ""
-"Nei sistemi operitvi UNIX, `/dev/urandom <https://man7.org/linux/man-"
+"Nei sistemi operativi UNIX, `/dev/urandom <https://man7.org/linux/man-"
 "pages/man4/random.4.html>`_ è un dispositivo a caratteri (char device) "
 "virtuale in grado di generare numeri casuali. Nello specifico, "
 "l'operazione di lettura dal relativo file produce byte casuali. Scrivere "
@@ -781,9 +991,11 @@ msgstr ""
 
 #: ../source/q_exercises/programming.rst:31
 msgid ""
-"*SOLUZIONE*: `Github "
+"**SOLUZIONE**: `Github "
 "<https://github.com/SistemiOperativi/c_examples/tree/main/ex_8_3>`__"
 msgstr ""
+"**Solution**: `Github "
+"<https://github.com/SistemiOperativi/c_examples/tree/main/ex_8_3>`__"
 
 #: ../source/q_exercises/programming.rst:33
 msgid ""
@@ -813,166 +1025,4 @@ msgid ""
 "intero *N*, vengano creati *N* thread/processi che cerchino se "
 "all'interno del file *A* esiste una linea uguale a *B*."
 msgstr ""
-
-#~ msgid ""
-#~ "Si scriva il codice di una "
-#~ "funzione C con la seguente interfaccia"
-#~ " :code:`void tunnel(int descriptors[], int "
-#~ "count)` tale che, se eseguita, porti "
-#~ "l'applicazione a gestire, per ogni "
-#~ "file-descriptor dell'array *descriptors* "
-#~ "l'inoltro del flusso  dei dati in "
-#~ "ingresso verso il canale di standard-"
-#~ "output dell'applicazione. Il parametro *count*"
-#~ " indica di quanti elementi e' "
-#~ "costituito l'array *descriptors*. L'inoltro "
-#~ "dovrà essere attuato in modo concorrente"
-#~ " per i diversi canali."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Si scriva il codice di una "
-#~ "funzione C con la seguente interfaccia"
-#~ " :code:`void tunnel(int descriptors[], int "
-#~ "count)` tale che, se eseguita, porti "
-#~ "l'applicazione a gestire, per ogni "
-#~ "file-descriptor dell'array *descriptors* "
-#~ "l'inoltro del flusso  dei dati in "
-#~ "ingresso verso il canale di standard-"
-#~ "output dell'applicazione."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Il parametro *count* indica di quanti"
-#~ " elementi e' costituito l'array "
-#~ "*descriptors*. L'inoltro dovrà essere attuato"
-#~ " in modo concorrente per i diversi"
-#~ " canali."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Si scriva una funzione C con la"
-#~ " seguente interfaccia :code:`void file_check(char"
-#~ " *file_name, int num_threads)`. Tale "
-#~ "funzione dovrà lanciare num_thread nuovi "
-#~ "threads, in modo che ciascuno di "
-#~ "essi legga stringhe dallo standard "
-#~ "input, e per ogni stringa letta "
-#~ "verifichi l'occorrenza di tale stringa "
-#~ "all'interno del file il cui path "
-#~ "e' identificato tramite il parametro "
-#~ "file_name, e stampi la stringa su "
-#~ "standard output in caso affermativo."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "4. Si scriva il codice di una "
-#~ "funzione C con la seguente interfaccia"
-#~ " :code:`void tunnel(int descriptors[], int "
-#~ "count)` tale che, se eseguita, porti "
-#~ "l'applicazione a gestire, per ogni "
-#~ "file-descriptor dell'array *descriptors* "
-#~ "l'inoltro del flusso  dei dati in "
-#~ "ingresso verso il canale di standard-"
-#~ "output dell'applicazione. Il parametro *count*"
-#~ " indica di quanti elementi e' "
-#~ "costituito l'array *descriptors*. L'inoltro "
-#~ "dovrà essere attuato in modo concorrente"
-#~ " per i diversi canali. #. Si "
-#~ "scriva una funzione C con la "
-#~ "seguente interfaccia :code:`void file_check(char "
-#~ "*file_name, int num_threads)`. Tale funzione"
-#~ " dovrà lanciare num_thread nuovi threads,"
-#~ " in modo che ciascuno di essi "
-#~ "legga stringhe dallo standard input, e"
-#~ " per ogni stringa letta verifichi "
-#~ "l'occorrenza di tale stringa all'interno "
-#~ "del file il cui path e' "
-#~ "identificato tramite il parametro file_name,"
-#~ " e stampi la stringa su standard "
-#~ "output in caso affermativo."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "#. Si scriva il codice di una "
-#~ "funzione C con la seguente interfaccia"
-#~ " :code:`void tunnel(int descriptors[], int "
-#~ "count)` tale che, se eseguita, porti "
-#~ "l'applicazione a gestire, per ogni "
-#~ "file-descriptor dell'array *descriptors* "
-#~ "l'inoltro del flusso  dei dati in "
-#~ "ingresso verso il canale di standard-"
-#~ "output dell'applicazione. Il parametro *count*"
-#~ " indica di quanti elementi e' "
-#~ "costituito l'array *descriptors*. L'inoltro "
-#~ "dovrà essere attuato in modo concorrente"
-#~ " per i diversi canali. #. Si "
-#~ "scriva una funzione C con la "
-#~ "seguente interfaccia :code:`void file_check(char "
-#~ "*file_name, int num_threads)`. Tale funzione"
-#~ " dovrà lanciare num_thread nuovi threads,"
-#~ " in modo che ciascuno di essi "
-#~ "legga stringhe dallo standard input, e"
-#~ " per ogni stringa letta verifichi "
-#~ "l'occorrenza di tale stringa all'interno "
-#~ "del file il cui path e' "
-#~ "identificato tramite il parametro file_name,"
-#~ " e stampi la stringa su standard "
-#~ "output in caso affermativo."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "#. Si consideri uno scenario con 4"
-#~ " processi {P1,..., P4} CPU-bound e"
-#~ " generati in sequenza a partire da"
-#~ " P1 a P4 con ritardi trascurabili."
-#~ " Il processo Pi richiede 1/i secondi"
-#~ " di CPU per completare la propria "
-#~ "esecuzione. Considerando che il ritardo "
-#~ "di context-switch sia trascurabile e "
-#~ "che RR abbia una time slice pari"
-#~ " a 125ms, si calcoli per gli "
-#~ "algoritmi FCFS, SPN e RR il tempo"
-#~ " di primo accesso alla CPU e il"
-#~ " tempo di completamento per ciascun "
-#~ "processo. #. Si consideri uno scenario"
-#~ " in cui uno scheduler Multilevel-"
-#~ "feedback queue abbia 4 livelli di "
-#~ "priorità, ed in cui il quanto di"
-#~ " tempo assegnato ai processi al "
-#~ "livello i sia di 1/2^i millicondo. "
-#~ "Si supponga che all'istante T0 nascano"
-#~ " 2 processi A e B, entrambi "
-#~ "CPU-bound. Il processo B richiede 10"
-#~ " millisecondi di tempo di CPU per "
-#~ "completare la sua esecuzione. Si "
-#~ "identifichi la durata massima (in "
-#~ "termini di tempo di CPU) del "
-#~ "processo A affinché il processo B "
-#~ "possa completare la sua esecuzione entro"
-#~ " il tempo T0+17 nei due casi in"
-#~ " cui il primo processo ad essere "
-#~ "schedulato in CPU sia A oppure B."
-#~ " Si supponga che il tempo di "
-#~ "CPU per i context switch e per "
-#~ "l'esecuzione dello scheduler sia nullo. "
-#~ "#. Si consideri uno scenario in "
-#~ "cui al tempo T0 nasca un processo"
-#~ " P0 puramente CPU-bound di durata "
-#~ "(tempo di CPU) pari a 10 secondi"
-#~ " ed al tempo T0 + 3 secondi "
-#~ "P0 origini un altro processo P1 "
-#~ "puramente CPU-bound di durata (tempo "
-#~ "di CPU) pari a 6 secondi. "
-#~ "Supponendo che le durate dei processi"
-#~ " siano note al tempo della loro "
-#~ "generazione, e che il tempo di CPU"
-#~ " per eseguire uno scheduler sia "
-#~ "trascurabile. si calcoli il tempo "
-#~ "massimo di completamento del processo P1"
-#~ " nel caso in cui il sistema "
-#~ "abbia come scheduler Shortest Process "
-#~ "Next oppure Shortest-Remaining-Time "
-#~ "Next."
-#~ msgstr ""
 

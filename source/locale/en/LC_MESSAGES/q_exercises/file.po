@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 12:32+0100\n"
+"POT-Creation-Date: 2022-02-17 23:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,8 @@ msgstr ""
 
 #: ../source/q_exercises/file.rst:8
 msgid ""
-"memorizzato su un dispositvo di massa, la cui taglia di un blocco è pari "
-"a 4096 record."
+"memorizzato su un dispositivo di massa, la cui taglia di un blocco è pari"
+" a 4096 record."
 msgstr ""
 
 #: ../source/q_exercises/file.rst:10
@@ -64,7 +64,7 @@ msgid ""
 msgstr ""
 
 #: ../source/q_exercises/file.rst:18
-msgid "128 entry per acesso diretto;"
+msgid "128 entry per accesso diretto;"
 msgstr ""
 
 #: ../source/q_exercises/file.rst:19
@@ -84,7 +84,7 @@ msgid ""
 "Si consideri inoltre senario dove un processo P apra un file F "
 "(attualmente non in uso da parte di alcun processo) e poi esegua 2 "
 "fork(). Indicare il numero delle sessioni di I/O verso  il file F a valle"
-" dell’esecusione delle 2 fork() da parte di P."
+" dell'esecuzione delle 2 fork() da parte di P."
 msgstr ""
 
 #: ../source/q_exercises/file.rst:25
@@ -106,4 +106,24 @@ msgid ""
 "record. Si calcoli il numero di blocchi necessari ad allocare il file sul"
 " dispositivo di memoria di massa secondo lo schema a catena."
 msgstr ""
+
+#~ msgid ""
+#~ "memorizzato su un dispositvo di massa,"
+#~ " la cui taglia di un blocco è"
+#~ " pari a 4096 record."
+#~ msgstr ""
+
+#~ msgid "128 entry per acesso diretto;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si consideri inoltre senario dove un "
+#~ "processo P apra un file F "
+#~ "(attualmente non in uso da parte "
+#~ "di alcun processo) e poi esegua 2"
+#~ " fork(). Indicare il numero delle "
+#~ "sessioni di I/O verso  il file F"
+#~ " a valle dell’esecusione delle 2 "
+#~ "fork() da parte di P."
+#~ msgstr ""
 
