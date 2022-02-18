@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 23:05+0100\n"
+"POT-Creation-Date: 2022-02-18 02:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,207 @@ msgid ""
 "tempo di completamento per ciascun processo."
 msgstr ""
 
-#: ../source/q_exercises/sched.rst:6
+#: ../source/q_exercises/sched.rst:11
+msgid "**Mostra/Nascondi Soluzione**"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:15
+msgid "*FCFS*:"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:18 ../source/q_exercises/sched.rst:42
+#: ../source/q_exercises/sched.rst:65 ../source/q_exercises/sched.rst:87
+msgid "process"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:18 ../source/q_exercises/sched.rst:28
+#: ../source/q_exercises/sched.rst:42 ../source/q_exercises/sched.rst:52
+#: ../source/q_exercises/sched.rst:65 ../source/q_exercises/sched.rst:75
+#: ../source/q_exercises/sched.rst:87 ../source/q_exercises/sched.rst:99
+msgid "P1"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:18 ../source/q_exercises/sched.rst:30
+#: ../source/q_exercises/sched.rst:42 ../source/q_exercises/sched.rst:54
+#: ../source/q_exercises/sched.rst:65 ../source/q_exercises/sched.rst:77
+#: ../source/q_exercises/sched.rst:87 ../source/q_exercises/sched.rst:101
+msgid "P2"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:18 ../source/q_exercises/sched.rst:32
+#: ../source/q_exercises/sched.rst:42 ../source/q_exercises/sched.rst:56
+#: ../source/q_exercises/sched.rst:65 ../source/q_exercises/sched.rst:79
+#: ../source/q_exercises/sched.rst:87 ../source/q_exercises/sched.rst:103
+msgid "P3"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:18 ../source/q_exercises/sched.rst:34
+#: ../source/q_exercises/sched.rst:42 ../source/q_exercises/sched.rst:58
+#: ../source/q_exercises/sched.rst:65 ../source/q_exercises/sched.rst:81
+#: ../source/q_exercises/sched.rst:87 ../source/q_exercises/sched.rst:105
+msgid "P4"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:20 ../source/q_exercises/sched.rst:44
+#: ../source/q_exercises/sched.rst:67 ../source/q_exercises/sched.rst:89
+msgid "CPU Release Time"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:21 ../source/q_exercises/sched.rst:68
+#: ../source/q_exercises/sched.rst:105
+msgid "1.00"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:21 ../source/q_exercises/sched.rst:30
+#: ../source/q_exercises/sched.rst:32
+msgid "1.5"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:21 ../source/q_exercises/sched.rst:32
+#: ../source/q_exercises/sched.rst:34
+msgid "1.83"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:21 ../source/q_exercises/sched.rst:34
+#: ../source/q_exercises/sched.rst:45 ../source/q_exercises/sched.rst:52
+#: ../source/q_exercises/sched.rst:68 ../source/q_exercises/sched.rst:77
+#: ../source/q_exercises/sched.rst:99
+msgid "2.08"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:26 ../source/q_exercises/sched.rst:50
+#: ../source/q_exercises/sched.rst:73 ../source/q_exercises/sched.rst:97
+msgid "Processo"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:26 ../source/q_exercises/sched.rst:50
+#: ../source/q_exercises/sched.rst:73 ../source/q_exercises/sched.rst:97
+msgid "Primo Accesso"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:26 ../source/q_exercises/sched.rst:50
+#: ../source/q_exercises/sched.rst:73 ../source/q_exercises/sched.rst:97
+msgid "Completamento"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:28 ../source/q_exercises/sched.rst:58
+#: ../source/q_exercises/sched.rst:75
+msgid "0"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:28 ../source/q_exercises/sched.rst:30
+#: ../source/q_exercises/sched.rst:75 ../source/q_exercises/sched.rst:81
+msgid "1"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:37
+msgid "*SPN*:"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:39
+msgid ""
+"Assunzione 1: Lo scheduler viene attivato dopo l'arrivo di tutti i "
+"processi"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:45 ../source/q_exercises/sched.rst:56
+#: ../source/q_exercises/sched.rst:58
+msgid "0.25"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:45 ../source/q_exercises/sched.rst:54
+#: ../source/q_exercises/sched.rst:56
+msgid "0.58"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:45 ../source/q_exercises/sched.rst:52
+#: ../source/q_exercises/sched.rst:54
+msgid "1.08"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:62
+msgid "Assunzione 2: Lo scheduler è attivato all'arrivo del primo processo"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:68 ../source/q_exercises/sched.rst:79
+#: ../source/q_exercises/sched.rst:81
+msgid "1.25"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:68 ../source/q_exercises/sched.rst:77
+#: ../source/q_exercises/sched.rst:79 ../source/q_exercises/sched.rst:101
+msgid "1.58"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:84
+msgid "*RR*:"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90 ../source/q_exercises/sched.rst:101
+msgid "0.125"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90 ../source/q_exercises/sched.rst:103
+msgid "0.250"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90 ../source/q_exercises/sched.rst:105
+msgid "0.375"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "0.500"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "0.625"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "0.750"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "0.875"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.000"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.125"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.250"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.333"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.458"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.583"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "2.083"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:99
+msgid "0.000"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:103
+msgid "1.33"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:110
 msgid ""
 "Si consideri uno scenario in cui uno scheduler Multilevel-feedback queue "
 "abbia 4 livelli di priorità, ed in cui il quanto di tempo assegnato ai "
@@ -47,7 +247,7 @@ msgid ""
 "context switch e per l'esecuzione dello scheduler sia nullo."
 msgstr ""
 
-#: ../source/q_exercises/sched.rst:7
+#: ../source/q_exercises/sched.rst:111
 msgid ""
 "Si consideri uno scenario in cui al tempo T0 nasca un processo P0 "
 "puramente CPU-bound di durata (tempo di CPU) pari a 10 secondi ed al "
@@ -171,5 +371,35 @@ msgstr ""
 #~ "tempo di CPU per i context switch"
 #~ " e per l'esecuzione dello scheduler "
 #~ "sia nullo."
+#~ msgstr ""
+
+#~ msgid "Soluzione: *FCFS*:"
+#~ msgstr ""
+
+#~ msgid "2.05"
+#~ msgstr ""
+
+#~ msgid "Release Time"
+#~ msgstr ""
+
+#~ msgid "Release"
+#~ msgstr ""
+
+#~ msgid "Time"
+#~ msgstr ""
+
+#~ msgid "CPU"
+#~ msgstr ""
+
+#~ msgid "1.00                                   + 1.5               + 1.83"
+#~ msgstr ""
+
+#~ msgid "|"
+#~ msgstr ""
+
+#~ msgid "1.00                                  + 1.5               + 1.83"
+#~ msgstr ""
+
+#~ msgid "Assumption 2: Lo scheduler è attivato all'arrivo del primo processo"
 #~ msgstr ""
 

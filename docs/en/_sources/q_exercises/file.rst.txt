@@ -12,6 +12,44 @@
   * il tempo medio di accesso ad un blocco è 10ms;
   * l'accesso ad una chiave dell'indice in ram è pari a 1ms.
 
+  .. container:: toggle
+
+    .. container:: header
+
+      **Mostra/Nascondi Soluzione**
+
+    .. container::
+
+      Assunzioni:
+        
+        * L'indice è memorizzato su disco
+        * L'indice deve essere prima caricato in ram per poter essere utilizzato
+        * RecordID e RiferimentoBlocco hanno pari taglia
+      
+      Svolgimento:
+
+        * Taglia di una chiave nell'indice = TagliaIndice/NumeroChiavi = 512R/128 = 4R
+        * Taglia di un riferimento = 2R
+        * Record utilizzabili all'interno di un blocco per memorizzare dati di file = Taglia di un blocco - Taglia di un riferimento = 4096-2 = 4094
+        * Numero di blocchi per memorizzare il file = Numero di record nel file / record utilizzabili = ceil(10^6/4094) = 245
+        * Distanza media tra due blocchi indicizzati = ceil(Numero di blocchi / numero di chiavi) = 2
+        * Latenza minima: accesso ad un blocco indicizzato, indice già presente in RAM.
+
+          * Risultato = Tempo di accesso a indice + Accesso al blocco indicizzato = 1ms +10ms = 11ms 
+
+        * Latenza massima: accesso al blocco più lontano da quello indicizzato, indice NON presente in RAM.
+
+          * Risultato = Tempo di caricamento indice +  Tempo di accesso a indice + (Numero di blocchi per indice)*(Tempo di accesso al blocco indicizzato) = +10ms + 1ms +2*10ms = 31ms 
+
+
+
+
+
+
+
+
+----------------
+
 
 2. Si consideri un file system con allocazione indicizzata ospitato su un dispositivo i cui blocchi hanno taglia pari a 1024 record e un riferimento a blocco occupa 8 record. Il record di sistema ha:
   

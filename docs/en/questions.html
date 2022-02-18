@@ -135,7 +135,7 @@
 <section id="scheduling">
 <h3>3 - Scheduling<a class="headerlink" href="#scheduling" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li><p>Cpu-scheduler: quali sono i criteri di valutazione di un CPU scheduler?</p></li>
+<li><p>What are the main evaluation criteria of a cpu scheduler?</p></li>
 <li><p>What are the main challenges in CPU-scheduling introduced by multicores.</p></li>
 <li><p>What is the difference between preemtive and non-preemptive scheduling.</p></li>
 <li><p>Describe the Shortest-Job First policy and discuss its pros and cons.</p></li>
@@ -172,11 +172,11 @@
 <li><p>Describe page-fault handling with virtual memory based on pagination.</p></li>
 <li><p>Describe the main aspects of policies for resident-set management.</p></li>
 <li><p>Describe the thrashing phenomena related to virtual memory.</p></li>
-<li><p>Descrivere la tecnica di gestione delle memoria basata su partizioni dinamiche, indicando anche di quali supporti per il binding degli indirizzi questa necessita.</p></li>
-<li><p>Descrivere l’algoritmo di selezione Least-Recently-Used (LRU) per sistemi di memoria virtuale basati su paginazione.</p></li>
-<li><p>Si descriva la tecnica della paginazione, indicando quali siano le strutture dati fondamentali che un sistema operativo deve gestire per metterla in atto.</p></li>
-<li><p>Descrivere l’algoritmo ottimo per la sostituzione delle pagine in ambiente di memoria virtuale. Si indichi infine se tale algoritmo soffra o meno dell’anomalia di Belady, motivando la risposta.</p></li>
-<li><p>Descrivere la struttura e l’utilizzo della tabella delle pagine e la relazione tra questa ed i componenti hardware presenti su una architettura di processore convenzionale.</p></li>
+<li><p>Describe the memory management technique based on dynamic partitions. Then, indicate which supports are required for address binding</p></li>
+<li><p>Describe the Least-Recently-Used (LRU) Selection Algorithm for for systems with pagination-based virtual memory.</p></li>
+<li><p>Describe the pagination technique and the required data structures that the operating system need to manage for it.</p></li>
+<li><p>Describe the optimal algorithm for page replacement for virtual memory. Does it suffer from the Belady’s anomaly? Motivate your answer.</p></li>
+<li><p>Describe the page table data structure, its usage and its relation with hardware components of conventional hardware.</p></li>
 </ol>
 </section>
 <section id="i-o-management">
@@ -197,9 +197,9 @@
 <li><p>Describe sequential, direct and index access file methods.</p></li>
 <li><p>Descrivere le caratteristiche salienti del file system UNIX.</p></li>
 <li><p>What is an in-memory file system. Describe some example.</p></li>
-<li><p>Descrivere i classici metodi di allocazione dei file sui dispositivi, discutendone vantaggi e svantaggi in modo comparato.</p></li>
-<li><p>Descrivere cosa sono gli “hard link” ed i “soft link” in un file-system.</p></li>
-<li><p>Si descriva il metodo di allocazione dei file a catena.</p></li>
+<li><p>Describe the main approaches for file allocation, discussing their pros and cons.</p></li>
+<li><p>Describe hard and soft links in a file system.</p></li>
+<li><p>Describe the chained allocation for files.</p></li>
 </ol>
 </section>
 </section>
@@ -233,6 +233,312 @@
 <li><p>Si consideri uno scenario con 4 processi {P1,…, P4} CPU-bound e generati in sequenza a partire da P1 a P4 con ritardi trascurabili.
 Il processo Pi richiede 1/i secondi di CPU per completare la propria esecuzione.
 Considerando che il ritardo di context-switch sia trascurabile e che RR abbia una time slice pari a 125ms, si calcoli per gli algoritmi FCFS, SPN e RR il tempo di primo accesso alla CPU e il tempo di completamento per ciascun processo.</p></li>
+</ol>
+<blockquote>
+<div><div class="toggle docutils container">
+<div class="header docutils container">
+<p><strong>Show/Hide Solution</strong></p>
+</div>
+<div class="docutils container">
+<p><em>FCFS</em>:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 9%" />
+<col style="width: 6%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>process</p></td>
+<td colspan="8"><p>P1</p></td>
+<td colspan="4"><p>P2</p></td>
+<td><p>P3</p></td>
+<td><p>P4</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>CPU
+Release
+Time</p></td>
+<td colspan="8" rowspan="2"><p>1.00</p></td>
+<td colspan="4" rowspan="2"><p>1.5</p></td>
+<td rowspan="2"><p>1.83</p></td>
+<td rowspan="2"><p>2.08</p></td>
+</tr>
+<tr class="row-odd"></tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 38%" />
+<col style="width: 38%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Processo</p></td>
+<td><p>Primo Accesso</p></td>
+<td><p>Completamento</p></td>
+</tr>
+<tr class="row-even"><td><p>P1</p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>P2</p></td>
+<td><p>1</p></td>
+<td><p>1.5</p></td>
+</tr>
+<tr class="row-even"><td><p>P3</p></td>
+<td><p>1.5</p></td>
+<td><p>1.83</p></td>
+</tr>
+<tr class="row-odd"><td><p>P4</p></td>
+<td><p>1.83</p></td>
+<td><p>2.08</p></td>
+</tr>
+</tbody>
+</table>
+<p><em>SPN</em>:</p>
+<p>Assunzione 1: Lo scheduler viene attivato dopo l’arrivo di tutti i processi</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 6%" />
+<col style="width: 9%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>process</p></td>
+<td><p>P4</p></td>
+<td><p>P3</p></td>
+<td colspan="4"><p>P2</p></td>
+<td colspan="8"><p>P1</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>CPU
+Release
+Time</p></td>
+<td rowspan="2"><p>0.25</p></td>
+<td rowspan="2"><p>0.58</p></td>
+<td colspan="4" rowspan="2"><p>1.08</p></td>
+<td colspan="8" rowspan="2"><p>2.08</p></td>
+</tr>
+<tr class="row-odd"></tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 38%" />
+<col style="width: 38%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Processo</p></td>
+<td><p>Primo Accesso</p></td>
+<td><p>Completamento</p></td>
+</tr>
+<tr class="row-even"><td><p>P1</p></td>
+<td><p>1.08</p></td>
+<td><p>2.08</p></td>
+</tr>
+<tr class="row-odd"><td><p>P2</p></td>
+<td><p>0.58</p></td>
+<td><p>1.08</p></td>
+</tr>
+<tr class="row-even"><td><p>P3</p></td>
+<td><p>0.25</p></td>
+<td><p>0.58</p></td>
+</tr>
+<tr class="row-odd"><td><p>P4</p></td>
+<td><p>0</p></td>
+<td><p>0.25</p></td>
+</tr>
+</tbody>
+</table>
+<p>Assunzione 2: Lo scheduler è attivato all’arrivo del primo processo</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 9%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>process</p></td>
+<td colspan="8"><p>P1</p></td>
+<td><p>P4</p></td>
+<td><p>P3</p></td>
+<td colspan="4"><p>P2</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>CPU
+Release
+Time</p></td>
+<td colspan="8" rowspan="2"><p>1.00</p></td>
+<td rowspan="2"><p>1.25</p></td>
+<td rowspan="2"><p>1.58</p></td>
+<td colspan="4" rowspan="2"><p>2.08</p></td>
+</tr>
+<tr class="row-odd"></tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 38%" />
+<col style="width: 38%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Processo</p></td>
+<td><p>Primo Accesso</p></td>
+<td><p>Completamento</p></td>
+</tr>
+<tr class="row-even"><td><p>P1</p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>P2</p></td>
+<td><p>1.58</p></td>
+<td><p>2.08</p></td>
+</tr>
+<tr class="row-even"><td><p>P3</p></td>
+<td><p>1.25</p></td>
+<td><p>1.58</p></td>
+</tr>
+<tr class="row-odd"><td><p>P4</p></td>
+<td><p>1</p></td>
+<td><p>1.25</p></td>
+</tr>
+</tbody>
+</table>
+<p><em>RR</em>:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>process</p></td>
+<td><p>P1</p></td>
+<td><p>P2</p></td>
+<td><p>P3</p></td>
+<td><p>P4</p></td>
+<td><p>P1</p></td>
+<td><p>P2</p></td>
+<td><p>P3</p></td>
+<td><p>P4</p></td>
+<td><p>P1</p></td>
+<td><p>P2</p></td>
+<td><p>P3</p></td>
+<td><p>P1</p></td>
+<td><p>P2</p></td>
+<td><p>P1</p></td>
+<td><p>P1</p></td>
+<td><p>P1</p></td>
+<td><p>P1</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>CPU
+Release
+Time</p></td>
+<td rowspan="2"><p>0.125</p></td>
+<td rowspan="2"><p>0.250</p></td>
+<td rowspan="2"><p>0.375</p></td>
+<td rowspan="2"><p>0.500</p></td>
+<td rowspan="2"><p>0.625</p></td>
+<td rowspan="2"><p>0.750</p></td>
+<td rowspan="2"><p>0.875</p></td>
+<td rowspan="2"><p>1.000</p></td>
+<td rowspan="2"><p>1.125</p></td>
+<td rowspan="2"><p>1.250</p></td>
+<td rowspan="2"><p>1.333</p></td>
+<td rowspan="2"><p>1.458</p></td>
+<td rowspan="2"><p>1.583</p></td>
+<td rowspan="2"><p>2.083</p></td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+</tr>
+<tr class="row-odd"></tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 38%" />
+<col style="width: 38%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Processo</p></td>
+<td><p>Primo Accesso</p></td>
+<td><p>Completamento</p></td>
+</tr>
+<tr class="row-even"><td><p>P1</p></td>
+<td><p>0.000</p></td>
+<td><p>2.08</p></td>
+</tr>
+<tr class="row-odd"><td><p>P2</p></td>
+<td><p>0.125</p></td>
+<td><p>1.58</p></td>
+</tr>
+<tr class="row-even"><td><p>P3</p></td>
+<td><p>0.250</p></td>
+<td><p>1.33</p></td>
+</tr>
+<tr class="row-odd"><td><p>P4</p></td>
+<td><p>0.375</p></td>
+<td><p>1.00</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div></blockquote>
+<hr class="docutils" />
+<ol class="arabic simple" start="2">
 <li><p>Si consideri uno scenario in cui uno scheduler Multilevel-feedback queue abbia 4 livelli di priorità, ed in cui il quanto di tempo assegnato ai processi al livello i sia di 1/2^i millisecondi. Si supponga che all’istante T0 nascano 2 processi A e B, entrambi CPU-bound. Il processo B richiede 10 millisecondi di tempo di CPU per completare la sua esecuzione. Si identifichi la durata massima (in termini di tempo di CPU) del processo A affinché il processo B possa completare la sua esecuzione entro il tempo T0+17 nei due casi in cui il primo processo ad essere schedulato in CPU sia A oppure B. Si supponga che il tempo di CPU per i context switch e per l’esecuzione dello scheduler sia nullo.</p></li>
 <li><p>Si consideri uno scenario in cui al tempo T0 nasca un processo P0 puramente CPU-bound di durata (tempo di CPU) pari a 10 secondi ed al tempo T0 + 3 secondi P0 origini un altro processo P1 puramente CPU-bound di durata (tempo di CPU) pari a 6 secondi. Supponendo che le durate dei processi siano note al tempo della loro generazione, e che il tempo di CPU per eseguire uno scheduler sia trascurabile. si calcoli il tempo massimo di completamento del processo P1 nel caso in cui il sistema abbia come scheduler Shortest Process Next oppure Shortest-Remaining-Time Next.</p></li>
 </ol>
@@ -262,7 +568,7 @@ Rispondere alle seguenti domande considerando N pari a 40 bit e 48 bit.</p></li>
 <blockquote>
 <div><div class="toggle docutils container">
 <div class="header docutils container">
-<p><strong>Mostra/Nascondi Soluzione</strong></p>
+<p><strong>Show/Hide Solution</strong></p>
 </div>
 <div class="docutils container">
 <p><em>FIFO</em>: #PageFault = 11</p>
@@ -658,7 +964,7 @@ P1 e P2 hanno taglia 1MB, P3 ha taglia 2 MB e P4 ha taglia 4 MB. Il sistema con 
 <blockquote>
 <div><div class="toggle docutils container">
 <div class="header docutils container">
-<p><strong>Mostra/Nascondi Soluzione</strong></p>
+<p><strong>Show/Hide Solution</strong></p>
 </div>
 <div class="docutils container">
 <table class="docutils align-default">
@@ -760,7 +1066,43 @@ P1 e P2 hanno taglia 1MB, P3 ha taglia 2 MB e P4 ha taglia 4 MB. Il sistema con 
 <li><p>il tempo medio di accesso ad un blocco è 10ms;</p></li>
 <li><p>l’accesso ad una chiave dell’indice in ram è pari a 1ms.</p></li>
 </ul>
+<div class="toggle docutils container">
+<div class="header docutils container">
+<p><strong>Show/Hide Solution</strong></p>
+</div>
+<div class="docutils container">
+<p>Assunzioni:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>L’indice è memorizzato su disco</p></li>
+<li><p>L’indice deve essere prima caricato in ram per poter essere utilizzato</p></li>
+<li><p>RecordID e RiferimentoBlocco hanno pari taglia</p></li>
+</ul>
 </div></blockquote>
+<p>Svolgimento:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Taglia di una chiave nell’indice = TagliaIndice/NumeroChiavi = 512R/128 = 4R</p></li>
+<li><p>Taglia di un riferimento = 2R</p></li>
+<li><p>Record utilizzabili all’interno di un blocco per memorizzare dati di file = Taglia di un blocco - Taglia di un riferimento = 4096-2 = 4094</p></li>
+<li><p>Numero di blocchi per memorizzare il file = Numero di record nel file / record utilizzabili = ceil(10^6/4094) = 245</p></li>
+<li><p>Distanza media tra due blocchi indicizzati = ceil(Numero di blocchi / numero di chiavi) = 2</p></li>
+<li><p>Latenza minima: accesso ad un blocco indicizzato, indice già presente in RAM.</p>
+<ul>
+<li><p>Risultato = Tempo di accesso a indice + Accesso al blocco indicizzato = 1ms +10ms = 11ms</p></li>
+</ul>
+</li>
+<li><p>Latenza massima: accesso al blocco più lontano da quello indicizzato, indice NON presente in RAM.</p>
+<ul>
+<li><p>Risultato = Tempo di caricamento indice +  Tempo di accesso a indice + (Numero di blocchi per indice)*(Tempo di accesso al blocco indicizzato) = +10ms + 1ms +2*10ms = 31ms</p></li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+</div></blockquote>
+<hr class="docutils" />
 <ol class="arabic simple" start="2">
 <li><p>Si consideri un file system con allocazione indicizzata ospitato su un dispositivo i cui blocchi hanno taglia pari a 1024 record e un riferimento a blocco occupa 8 record. Il record di sistema ha:</p></li>
 </ol>
@@ -815,7 +1157,7 @@ Scrivere un programma C che genera un file con contenuto interamente randomico. 
 <li><p>scrivere il risultato in un nuovo file <em>B</em>.</p></li>
 </ul>
 <p><em>A</em>, <em>B</em> e <em>N</em> sono parametri che il programma deve acquisire da linea di comando.</p>
-<p><strong>SOLUZIONE</strong>: <a class="reference external" href="https://github.com/SistemiOperativi/c_examples/tree/main/ex_8_3">Github</a></p>
+<p><strong>Solution</strong>: <a class="reference external" href="https://github.com/SistemiOperativi/c_examples/tree/main/ex_8_3">Github</a></p>
 </div></blockquote>
 <ol class="arabic simple" start="4">
 <li><p>Si scriva il codice di una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">tunnel(int</span> <span class="pre">descriptors[],</span> <span class="pre">int</span> <span class="pre">count)</span></code> tale che, se eseguita, porti l’applicazione a gestire, per ogni file-descriptor dell’array <em>descriptors</em> l’inoltro del flusso  dei dati in ingresso verso il canale di standard-output dell’applicazione. Il parametro <em>count</em> indica di quanti elementi è costituito l’array <em>descriptors</em>. L’inoltro dovrà essere attuato in modo concorrente per i diversi canali.</p></li>
@@ -838,7 +1180,7 @@ Scrivere un programma C che genera un file con contenuto interamente randomico. 
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on Feb 17, 2022.
+      <span class="lastupdated">Last updated on Feb 18, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

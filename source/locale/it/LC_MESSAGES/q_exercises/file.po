@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 23:05+0100\n"
+"POT-Creation-Date: 2022-02-18 02:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,30 +56,107 @@ msgstr ""
 msgid "l'accesso ad una chiave dell'indice in ram è pari a 1ms."
 msgstr ""
 
-#: ../source/q_exercises/file.rst:16
+#: ../source/q_exercises/file.rst:19
+msgid "**Mostra/Nascondi Soluzione**"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:23
+msgid "Assunzioni:"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:25
+msgid "L'indice è memorizzato su disco"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:26
+msgid "L'indice deve essere prima caricato in ram per poter essere utilizzato"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:27
+msgid "RecordID e RiferimentoBlocco hanno pari taglia"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:29
+msgid "Svolgimento:"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:31
+msgid ""
+"Taglia di una chiave nell'indice = TagliaIndice/NumeroChiavi = 512R/128 ="
+" 4R"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:32
+msgid "Taglia di un riferimento = 2R"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:33
+msgid ""
+"Record utilizzabili all'interno di un blocco per memorizzare dati di file"
+" = Taglia di un blocco - Taglia di un riferimento = 4096-2 = 4094"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:34
+msgid ""
+"Numero di blocchi per memorizzare il file = Numero di record nel file / "
+"record utilizzabili = ceil(10^6/4094) = 245"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:35
+msgid ""
+"Distanza media tra due blocchi indicizzati = ceil(Numero di blocchi / "
+"numero di chiavi) = 2"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:36
+msgid ""
+"Latenza minima: accesso ad un blocco indicizzato, indice già presente in "
+"RAM."
+msgstr ""
+
+#: ../source/q_exercises/file.rst:38
+msgid ""
+"Risultato = Tempo di accesso a indice + Accesso al blocco indicizzato = "
+"1ms +10ms = 11ms"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:40
+msgid ""
+"Latenza massima: accesso al blocco più lontano da quello indicizzato, "
+"indice NON presente in RAM."
+msgstr ""
+
+#: ../source/q_exercises/file.rst:42
+msgid ""
+"Risultato = Tempo di caricamento indice +  Tempo di accesso a indice + "
+"(Numero di blocchi per indice)*(Tempo di accesso al blocco indicizzato) ="
+" +10ms + 1ms +2*10ms = 31ms"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:54
 msgid ""
 "Si consideri un file system con allocazione indicizzata ospitato su un "
 "dispositivo i cui blocchi hanno taglia pari a 1024 record e un "
 "riferimento a blocco occupa 8 record. Il record di sistema ha:"
 msgstr ""
 
-#: ../source/q_exercises/file.rst:18
+#: ../source/q_exercises/file.rst:56
 msgid "128 entry per accesso diretto;"
 msgstr ""
 
-#: ../source/q_exercises/file.rst:19
+#: ../source/q_exercises/file.rst:57
 msgid "4 entry per accesso indiretto;"
 msgstr ""
 
-#: ../source/q_exercises/file.rst:20
+#: ../source/q_exercises/file.rst:58
 msgid "4 entry per accesso doppiamente indiretto."
 msgstr ""
 
-#: ../source/q_exercises/file.rst:22
+#: ../source/q_exercises/file.rst:60
 msgid "Qual è la taglia massima di un file in record?"
 msgstr ""
 
-#: ../source/q_exercises/file.rst:24
+#: ../source/q_exercises/file.rst:62
 msgid ""
 "Si consideri inoltre senario dove un processo P apra un file F "
 "(attualmente non in uso da parte di alcun processo) e poi esegua 2 "
@@ -87,7 +164,7 @@ msgid ""
 " dell'esecuzione delle 2 fork() da parte di P."
 msgstr ""
 
-#: ../source/q_exercises/file.rst:25
+#: ../source/q_exercises/file.rst:63
 msgid ""
 "Si consideri un dispositivo di memoria di massa con blocchi di taglia "
 "pari a 4 KB, indici di blocchi di taglia pari a 4 byte, ed un record di "
@@ -96,7 +173,7 @@ msgid ""
 " allocare file di taglia almeno pari a 4 GB."
 msgstr ""
 
-#: ../source/q_exercises/file.rst:26
+#: ../source/q_exercises/file.rst:64
 msgid ""
 "Si supponga di avere un file system che supporta il metodo di allocazione"
 " a catena. Si supponga inoltre che il dispositivo di memoria di massa ove"
@@ -125,5 +202,11 @@ msgstr ""
 #~ "sessioni di I/O verso  il file F"
 #~ " a valle dell’esecusione delle 2 "
 #~ "fork() da parte di P."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Latenza massima: accesso al un blocco"
+#~ " più lontano da quello indicizzato, "
+#~ "indice NON presente in RAM."
 #~ msgstr ""
 

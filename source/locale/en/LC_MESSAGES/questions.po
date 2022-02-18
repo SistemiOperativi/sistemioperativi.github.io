@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 23:05+0100\n"
+"POT-Creation-Date: 2022-02-18 02:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -309,15 +309,15 @@ msgid ""
 "indirizzi questa necessita."
 msgstr ""
 "Describe the memory management technique based on dynamic partitions. "
-"Then, indicate which supports are required for address binding.
+"Then, indicate which supports are required for address binding"
 
 #: ../source/questions/memory.rst:16
 msgid ""
 "Descrivere l'algoritmo di selezione Least-Recently-Used (LRU) per sistemi"
 " di memoria virtuale basati su paginazione."
 msgstr ""
-"Describe the Least-Recently-Used (LRU) Selection Algorithm for "
-"for systems with pagination-based virtual memory."
+"Describe the Least-Recently-Used (LRU) Selection Algorithm for for "
+"systems with pagination-based virtual memory."
 
 #: ../source/questions/memory.rst:17
 msgid ""
@@ -325,8 +325,8 @@ msgid ""
 "strutture dati fondamentali che un sistema operativo deve gestire per "
 "metterla in atto."
 msgstr ""
-"Describe the pagination technique and the required data structures that the operating "
-"system need to manage for it."
+"Describe the pagination technique and the required data structures that "
+"the operating system need to manage for it."
 
 #: ../source/questions/memory.rst:18
 msgid ""
@@ -343,8 +343,8 @@ msgid ""
 "relazione tra questa ed i componenti hardware presenti su una "
 "architettura di processore convenzionale."
 msgstr ""
-"Describe the page table data structure, its usage and its relation with hardware components "
-"of conventional hardware."
+"Describe the page table data structure, its usage and its relation with "
+"hardware components of conventional hardware."
 
 #: ../source/q_exercises/IO.rst:2 ../source/questions/IO.rst:2
 msgid "6 - I/O Management"
@@ -414,7 +414,8 @@ msgid ""
 "Descrivere i classici metodi di allocazione dei file sui dispositivi, "
 "discutendone vantaggi e svantaggi in modo comparato."
 msgstr ""
-"Describe the main approaches for file allocation, discussing their pros and cons."
+"Describe the main approaches for file allocation, discussing their pros "
+"and cons."
 
 #: ../source/questions/file.rst:10
 msgid ""
@@ -481,7 +482,216 @@ msgid ""
 "tempo di completamento per ciascun processo."
 msgstr ""
 
-#: ../source/q_exercises/sched.rst:6
+#: ../source/q_exercises/file.rst:19 ../source/q_exercises/memory.rst:21
+#: ../source/q_exercises/memory.rst:90 ../source/q_exercises/sched.rst:11
+msgid "**Mostra/Nascondi Soluzione**"
+msgstr "**Show/Hide Solution**"
+
+#: ../source/q_exercises/sched.rst:15
+msgid "*FCFS*:"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:18 ../source/q_exercises/sched.rst:42
+#: ../source/q_exercises/sched.rst:65 ../source/q_exercises/sched.rst:87
+msgid "process"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:18 ../source/q_exercises/sched.rst:28
+#: ../source/q_exercises/sched.rst:42 ../source/q_exercises/sched.rst:52
+#: ../source/q_exercises/sched.rst:65 ../source/q_exercises/sched.rst:75
+#: ../source/q_exercises/sched.rst:87 ../source/q_exercises/sched.rst:99
+msgid "P1"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:18 ../source/q_exercises/sched.rst:30
+#: ../source/q_exercises/sched.rst:42 ../source/q_exercises/sched.rst:54
+#: ../source/q_exercises/sched.rst:65 ../source/q_exercises/sched.rst:77
+#: ../source/q_exercises/sched.rst:87 ../source/q_exercises/sched.rst:101
+msgid "P2"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:18 ../source/q_exercises/sched.rst:32
+#: ../source/q_exercises/sched.rst:42 ../source/q_exercises/sched.rst:56
+#: ../source/q_exercises/sched.rst:65 ../source/q_exercises/sched.rst:79
+#: ../source/q_exercises/sched.rst:87 ../source/q_exercises/sched.rst:103
+msgid "P3"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:18 ../source/q_exercises/sched.rst:34
+#: ../source/q_exercises/sched.rst:42 ../source/q_exercises/sched.rst:58
+#: ../source/q_exercises/sched.rst:65 ../source/q_exercises/sched.rst:81
+#: ../source/q_exercises/sched.rst:87 ../source/q_exercises/sched.rst:105
+msgid "P4"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:20 ../source/q_exercises/sched.rst:44
+#: ../source/q_exercises/sched.rst:67 ../source/q_exercises/sched.rst:89
+msgid "CPU Release Time"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:21 ../source/q_exercises/sched.rst:68
+#: ../source/q_exercises/sched.rst:105
+msgid "1.00"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:21 ../source/q_exercises/sched.rst:30
+#: ../source/q_exercises/sched.rst:32
+msgid "1.5"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:21 ../source/q_exercises/sched.rst:32
+#: ../source/q_exercises/sched.rst:34
+msgid "1.83"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:21 ../source/q_exercises/sched.rst:34
+#: ../source/q_exercises/sched.rst:45 ../source/q_exercises/sched.rst:52
+#: ../source/q_exercises/sched.rst:68 ../source/q_exercises/sched.rst:77
+#: ../source/q_exercises/sched.rst:99
+msgid "2.08"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:26 ../source/q_exercises/sched.rst:50
+#: ../source/q_exercises/sched.rst:73 ../source/q_exercises/sched.rst:97
+msgid "Processo"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:26 ../source/q_exercises/sched.rst:50
+#: ../source/q_exercises/sched.rst:73 ../source/q_exercises/sched.rst:97
+msgid "Primo Accesso"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:26 ../source/q_exercises/sched.rst:50
+#: ../source/q_exercises/sched.rst:73 ../source/q_exercises/sched.rst:97
+msgid "Completamento"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:31
+#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
+#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:43
+#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
+#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
+#: ../source/q_exercises/memory.rst:59 ../source/q_exercises/memory.rst:62
+#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
+#: ../source/q_exercises/sched.rst:28 ../source/q_exercises/sched.rst:58
+#: ../source/q_exercises/sched.rst:75
+msgid "0"
+msgstr ""
+
+#: ../source/q_exercises/memory.rst:108 ../source/q_exercises/sched.rst:28
+#: ../source/q_exercises/sched.rst:30 ../source/q_exercises/sched.rst:75
+#: ../source/q_exercises/sched.rst:81
+msgid "1"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:37
+msgid "*SPN*:"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:39
+msgid ""
+"Assunzione 1: Lo scheduler viene attivato dopo l'arrivo di tutti i "
+"processi"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:45 ../source/q_exercises/sched.rst:56
+#: ../source/q_exercises/sched.rst:58
+msgid "0.25"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:45 ../source/q_exercises/sched.rst:54
+#: ../source/q_exercises/sched.rst:56
+msgid "0.58"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:45 ../source/q_exercises/sched.rst:52
+#: ../source/q_exercises/sched.rst:54
+msgid "1.08"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:62
+msgid "Assunzione 2: Lo scheduler è attivato all'arrivo del primo processo"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:68 ../source/q_exercises/sched.rst:79
+#: ../source/q_exercises/sched.rst:81
+msgid "1.25"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:68 ../source/q_exercises/sched.rst:77
+#: ../source/q_exercises/sched.rst:79 ../source/q_exercises/sched.rst:101
+msgid "1.58"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:84
+msgid "*RR*:"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90 ../source/q_exercises/sched.rst:101
+msgid "0.125"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90 ../source/q_exercises/sched.rst:103
+msgid "0.250"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90 ../source/q_exercises/sched.rst:105
+msgid "0.375"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "0.500"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "0.625"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "0.750"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "0.875"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.000"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.125"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.250"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.333"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.458"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "1.583"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:90
+msgid "2.083"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:99
+msgid "0.000"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:103
+msgid "1.33"
+msgstr ""
+
+#: ../source/q_exercises/sched.rst:110
 msgid ""
 "Si consideri uno scenario in cui uno scheduler Multilevel-feedback queue "
 "abbia 4 livelli di priorità, ed in cui il quanto di tempo assegnato ai "
@@ -495,7 +705,7 @@ msgid ""
 "context switch e per l'esecuzione dello scheduler sia nullo."
 msgstr ""
 
-#: ../source/q_exercises/sched.rst:7
+#: ../source/q_exercises/sched.rst:111
 msgid ""
 "Si consideri uno scenario in cui al tempo T0 nasca un processo P0 "
 "puramente CPU-bound di durata (tempo di CPU) pari a 10 secondi ed al "
@@ -558,10 +768,6 @@ msgid ""
 "seguente traccia: 0 9 0 3 5 7 9 0 9 6 7 8 9 7 6 4"
 msgstr ""
 
-#: ../source/q_exercises/memory.rst:21 ../source/q_exercises/memory.rst:90
-msgid "**Mostra/Nascondi Soluzione**"
-msgstr "**Show/Hide Solution**"
-
 #: ../source/q_exercises/memory.rst:25
 msgid "*FIFO*: #PageFault = 11"
 msgstr ""
@@ -574,16 +780,6 @@ msgstr ""
 #: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
 #: ../source/q_exercises/memory.rst:59
 msgid "**9**"
-msgstr ""
-
-#: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:31
-#: ../source/q_exercises/memory.rst:33 ../source/q_exercises/memory.rst:35
-#: ../source/q_exercises/memory.rst:37 ../source/q_exercises/memory.rst:43
-#: ../source/q_exercises/memory.rst:46 ../source/q_exercises/memory.rst:48
-#: ../source/q_exercises/memory.rst:50 ../source/q_exercises/memory.rst:52
-#: ../source/q_exercises/memory.rst:59 ../source/q_exercises/memory.rst:62
-#: ../source/q_exercises/memory.rst:64 ../source/q_exercises/memory.rst:66
-msgid "0"
 msgstr ""
 
 #: ../source/q_exercises/memory.rst:28 ../source/q_exercises/memory.rst:43
@@ -749,10 +945,6 @@ msgid "2"
 msgstr ""
 
 #: ../source/q_exercises/memory.rst:108
-msgid "1"
-msgstr ""
-
-#: ../source/q_exercises/memory.rst:108
 msgid "**MONITOR**"
 msgstr ""
 
@@ -838,30 +1030,103 @@ msgstr ""
 msgid "l'accesso ad una chiave dell'indice in ram è pari a 1ms."
 msgstr ""
 
-#: ../source/q_exercises/file.rst:16
+#: ../source/q_exercises/file.rst:23
+msgid "Assunzioni:"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:25
+msgid "L'indice è memorizzato su disco"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:26
+msgid "L'indice deve essere prima caricato in ram per poter essere utilizzato"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:27
+msgid "RecordID e RiferimentoBlocco hanno pari taglia"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:29
+msgid "Svolgimento:"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:31
+msgid ""
+"Taglia di una chiave nell'indice = TagliaIndice/NumeroChiavi = 512R/128 ="
+" 4R"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:32
+msgid "Taglia di un riferimento = 2R"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:33
+msgid ""
+"Record utilizzabili all'interno di un blocco per memorizzare dati di file"
+" = Taglia di un blocco - Taglia di un riferimento = 4096-2 = 4094"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:34
+msgid ""
+"Numero di blocchi per memorizzare il file = Numero di record nel file / "
+"record utilizzabili = ceil(10^6/4094) = 245"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:35
+msgid ""
+"Distanza media tra due blocchi indicizzati = ceil(Numero di blocchi / "
+"numero di chiavi) = 2"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:36
+msgid ""
+"Latenza minima: accesso ad un blocco indicizzato, indice già presente in "
+"RAM."
+msgstr ""
+
+#: ../source/q_exercises/file.rst:38
+msgid ""
+"Risultato = Tempo di accesso a indice + Accesso al blocco indicizzato = "
+"1ms +10ms = 11ms"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:40
+msgid ""
+"Latenza massima: accesso al blocco più lontano da quello indicizzato, "
+"indice NON presente in RAM."
+msgstr ""
+
+#: ../source/q_exercises/file.rst:42
+msgid ""
+"Risultato = Tempo di caricamento indice +  Tempo di accesso a indice + "
+"(Numero di blocchi per indice)*(Tempo di accesso al blocco indicizzato) ="
+" +10ms + 1ms +2*10ms = 31ms"
+msgstr ""
+
+#: ../source/q_exercises/file.rst:54
 msgid ""
 "Si consideri un file system con allocazione indicizzata ospitato su un "
 "dispositivo i cui blocchi hanno taglia pari a 1024 record e un "
 "riferimento a blocco occupa 8 record. Il record di sistema ha:"
 msgstr ""
 
-#: ../source/q_exercises/file.rst:18
+#: ../source/q_exercises/file.rst:56
 msgid "128 entry per accesso diretto;"
 msgstr ""
 
-#: ../source/q_exercises/file.rst:19
+#: ../source/q_exercises/file.rst:57
 msgid "4 entry per accesso indiretto;"
 msgstr ""
 
-#: ../source/q_exercises/file.rst:20
+#: ../source/q_exercises/file.rst:58
 msgid "4 entry per accesso doppiamente indiretto."
 msgstr ""
 
-#: ../source/q_exercises/file.rst:22
+#: ../source/q_exercises/file.rst:60
 msgid "Qual è la taglia massima di un file in record?"
 msgstr ""
 
-#: ../source/q_exercises/file.rst:24
+#: ../source/q_exercises/file.rst:62
 msgid ""
 "Si consideri inoltre senario dove un processo P apra un file F "
 "(attualmente non in uso da parte di alcun processo) e poi esegua 2 "
@@ -869,7 +1134,7 @@ msgid ""
 " dell'esecuzione delle 2 fork() da parte di P."
 msgstr ""
 
-#: ../source/q_exercises/file.rst:25
+#: ../source/q_exercises/file.rst:63
 msgid ""
 "Si consideri un dispositivo di memoria di massa con blocchi di taglia "
 "pari a 4 KB, indici di blocchi di taglia pari a 4 byte, ed un record di "
@@ -878,7 +1143,7 @@ msgid ""
 " allocare file di taglia almeno pari a 4 GB."
 msgstr ""
 
-#: ../source/q_exercises/file.rst:26
+#: ../source/q_exercises/file.rst:64
 msgid ""
 "Si supponga di avere un file system che supporta il metodo di allocazione"
 " a catena. Si supponga inoltre che il dispositivo di memoria di massa ove"
@@ -1025,4 +1290,40 @@ msgid ""
 "intero *N*, vengano creati *N* thread/processi che cerchino se "
 "all'interno del file *A* esiste una linea uguale a *B*."
 msgstr ""
+
+#~ msgid "Soluzione: *FCFS*:"
+#~ msgstr ""
+
+#~ msgid "2.05"
+#~ msgstr ""
+
+#~ msgid "Release Time"
+#~ msgstr ""
+
+#~ msgid "Release"
+#~ msgstr ""
+
+#~ msgid "Time"
+#~ msgstr ""
+
+#~ msgid "CPU"
+#~ msgstr ""
+
+#~ msgid "1.00                                   + 1.5               + 1.83"
+#~ msgstr ""
+
+#~ msgid "|"
+#~ msgstr ""
+
+#~ msgid "1.00                                  + 1.5               + 1.83"
+#~ msgstr ""
+
+#~ msgid "Assumption 2: Lo scheduler è attivato all'arrivo del primo processo"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Latenza massima: accesso al un blocco"
+#~ " più lontano da quello indicizzato, "
+#~ "indice NON presente in RAM."
+#~ msgstr ""
 

@@ -94,7 +94,43 @@
 <li><p>il tempo medio di accesso ad un blocco è 10ms;</p></li>
 <li><p>l’accesso ad una chiave dell’indice in ram è pari a 1ms.</p></li>
 </ul>
+<div class="toggle docutils container">
+<div class="header docutils container">
+<p><strong>Mostra/Nascondi Soluzione</strong></p>
+</div>
+<div class="docutils container">
+<p>Assunzioni:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>L’indice è memorizzato su disco</p></li>
+<li><p>L’indice deve essere prima caricato in ram per poter essere utilizzato</p></li>
+<li><p>RecordID e RiferimentoBlocco hanno pari taglia</p></li>
+</ul>
 </div></blockquote>
+<p>Svolgimento:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Taglia di una chiave nell’indice = TagliaIndice/NumeroChiavi = 512R/128 = 4R</p></li>
+<li><p>Taglia di un riferimento = 2R</p></li>
+<li><p>Record utilizzabili all’interno di un blocco per memorizzare dati di file = Taglia di un blocco - Taglia di un riferimento = 4096-2 = 4094</p></li>
+<li><p>Numero di blocchi per memorizzare il file = Numero di record nel file / record utilizzabili = ceil(10^6/4094) = 245</p></li>
+<li><p>Distanza media tra due blocchi indicizzati = ceil(Numero di blocchi / numero di chiavi) = 2</p></li>
+<li><p>Latenza minima: accesso ad un blocco indicizzato, indice già presente in RAM.</p>
+<ul>
+<li><p>Risultato = Tempo di accesso a indice + Accesso al blocco indicizzato = 1ms +10ms = 11ms</p></li>
+</ul>
+</li>
+<li><p>Latenza massima: accesso al blocco più lontano da quello indicizzato, indice NON presente in RAM.</p>
+<ul>
+<li><p>Risultato = Tempo di caricamento indice +  Tempo di accesso a indice + (Numero di blocchi per indice)*(Tempo di accesso al blocco indicizzato) = +10ms + 1ms +2*10ms = 31ms</p></li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+</div></blockquote>
+<hr class="docutils" />
 <ol class="arabic simple" start="2">
 <li><p>Si consideri un file system con allocazione indicizzata ospitato su un dispositivo i cui blocchi hanno taglia pari a 1024 record e un riferimento a blocco occupa 8 record. Il record di sistema ha:</p></li>
 </ol>
@@ -122,7 +158,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 17 feb 2022.
+      <span class="lastupdated">Ultimo aggiornamento 18 feb 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
