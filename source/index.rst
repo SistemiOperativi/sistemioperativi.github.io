@@ -36,11 +36,11 @@ News
   _Per l'ordine di assegnazione delle aule verrà considerato l'ordine della prima prenotazione.
   _In altre parole, cancellare l'attuale prenotazione per poi prenotarsi nuovamente non avrà effetti sull'assegnazione dell'aula.
 
+* :ref:`n26-02-2022`, consultabili su :doc:`exams`
 * :ref:`n09-02-2022`
 * :ref:`n07-02-2022`
 * :ref:`n28-01-2022`, consultabili su :doc:`exams`
 * :ref:`n17-01-2022`
-* :ref:`n14-01-2022`
 
 Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`news`
 

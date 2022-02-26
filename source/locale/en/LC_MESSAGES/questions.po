@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 02:35+0100\n"
+"POT-Creation-Date: 2022-02-18 13:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -401,7 +401,6 @@ msgid "Descrivere i metodi di accesso a file sequenziale, diretto ed indicizzato
 msgstr "Describe sequential, direct and index access file methods."
 
 #: ../source/questions/file.rst:7
-#, fuzzy
 msgid "Descrivere le caratteristiche salienti del file system UNIX."
 msgstr "Describe the main aspects of the UNIX file system."
 
@@ -430,6 +429,14 @@ msgstr "Describe the chained allocation for files."
 #: ../source/questions.rst:20
 msgid "Esercizi"
 msgstr "Exercises"
+
+#: ../source/questions.rst:25
+msgid ""
+"Alcuni esercizi possono deliberatamente ammettere più di una soluzione in"
+" funzione delle assunzioni fatte durante lo svolgimento. Di conseguenza, "
+"le soluzioni proposte potrebbe non essere le uniche ammissibili."
+msgstr ""
+"Several exercises might admit multiple solutions according to the assumptions made during its development. "
 
 #: ../source/q_exercises/intro.rst:4
 msgid "Si consideri un programma di cui:"

@@ -19,6 +19,12 @@ Domande
 Esercizi
 --------
 
+
+.. warning::
+  
+  Alcuni esercizi possono deliberatamente ammettere più di una soluzione in funzione delle assunzioni fatte durante lo svolgimento.
+  Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili. 
+
 .. include::	q_exercises/intro.rst
 .. include::	q_exercises/processes.rst
 .. include::	q_exercises/sched.rst

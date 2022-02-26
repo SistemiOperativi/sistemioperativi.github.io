@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 11:35+0100\n"
+"POT-Creation-Date: 2022-02-26 18:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,23 +122,23 @@ msgid "185"
 msgstr ""
 
 #: ../source/index.rst:39
-msgid ":ref:`n09-02-2022`"
+msgid ":ref:`n26-02-2022`, consultabili su :doc:`exams`"
 msgstr ""
 
 #: ../source/index.rst:40
-msgid ":ref:`n07-02-2022`"
+msgid ":ref:`n09-02-2022`"
 msgstr ""
 
 #: ../source/index.rst:41
-msgid ":ref:`n28-01-2022`, consultabili su :doc:`exams`"
+msgid ":ref:`n07-02-2022`"
 msgstr ""
 
 #: ../source/index.rst:42
-msgid ":ref:`n17-01-2022`"
+msgid ":ref:`n28-01-2022`, consultabili su :doc:`exams`"
 msgstr ""
 
 #: ../source/index.rst:43
-msgid ":ref:`n14-01-2022`"
+msgid ":ref:`n17-01-2022`"
 msgstr ""
 
 #: ../source/index.rst:45
@@ -967,5 +967,11 @@ msgstr ""
 #~ "l'attuale prenotazione per poi prenotarsi "
 #~ "nuovamente non avrà effetti sull'assegnazione"
 #~ " dell'aula."
+#~ msgstr ""
+
+#~ msgid ":ref:`n14-01-2022`"
+#~ msgstr ""
+
+#~ msgid ":ref:`n26-02-2022`"
 #~ msgstr ""
 
