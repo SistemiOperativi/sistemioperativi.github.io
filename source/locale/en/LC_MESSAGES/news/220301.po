@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-01 18:19+0100\n"
+"POT-Creation-Date: 2022-03-01 18:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,31 +18,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../source/news/220226.rst:2
-msgid "26-02-2022 - avviso: pubblicati risultati appello del 21/02/2022"
+#: ../source/news/220301.rst:2
+msgid "01-03-2022 - avviso: pubblicati risultati appello del 28/02/2022"
 msgstr ""
 
-#: ../source/news/220226.rst:4
-msgid "Pubblicati risultati e testo d'esame del 21/02/2022 :ref:`e220221`"
+#: ../source/news/220301.rst:4
+msgid "Pubblicati risultati e testo d'esame del 28/02/2022 :ref:`e220228`"
 msgstr ""
 
-#: ../source/news/220226.rst:5
+#: ../source/news/220301.rst:5
 msgid ""
 "Si ricorda che la sezione esercizi di programmazione è stata arricchita "
 "con alcune soluzioni"
 msgstr ""
-
-#~ msgid ""
-#~ "Pubblicati risultati e testo d'esame del"
-#~ " 21/02/2022 :ref:`Esame 21/02/2022`"
-#~ msgstr ""
-
-#~ msgid "Pubblicati risultati e testo d'esame del 21/02/2022 :ref:`_e220221`"
-#~ msgstr ""
-
-#~ msgid "Pubblicati risultati e testo d'esame del 21/02/2022 :ref:`e220221`"
-#~ msgstr ""
-
-#~ msgid "Pubblicati risultati e testo d'esame del 21/02/2022 :ref:`e220228`"
-#~ msgstr ""
 

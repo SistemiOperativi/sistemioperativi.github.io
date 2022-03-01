@@ -11,36 +11,20 @@ News
 
 .. warning::
   
-  Causa sovrapposizione con un appello del terzo anno l'appello è del 24/02 è stato posticipato al 28/02.
+  Al fine di migliorare le future edizioni del corso, è stata aperto un questionario anonimo ed informale per la raccolta delle opinioni degli studenti.
+  Instruzioni più dettagliate saranno fornite sulla piattaforma moodle.
 
-  Le assegnazioni per i turni dell'appello di Febbraio sono riportate nella seguente tabella.
+  Il form rimarrà attivo fino al 15 Marzo. 
 
-  +---------------------+---------+---------------------------+
-  | Turno               |  Aula   | Numero di Prenotazione    |
-  +                     +         +------------+--------------+
-  |                     |         |  Da        | A (incluso)  |
-  +=====================+=========+============+==============+
-  | 21/02/2021 - 09:30  | E-campus|   1        |     76       |
-  +---------------------+---------+------------+--------------+
-  | 21/02/2021 - 14:30  | E-campus|   77       |    121       |
-  +---------------------+---------+------------+--------------+
-  | 28/02/2021 - 09:30  | E-campus|   123      |    159       |
-  +---------------------+---------+------------+--------------+
-  | 28/02/2021 - 14:30  | E-campus|   163      |    185       |
-  +---------------------+---------+------------+--------------+
+  Si prega di compilare il questionario con la massima serietà.
 
-..  
-  _Dal 07/02/2022 al 14/02/2022 sono riaperte le prenotazioni per l'appello di Febbraio. Potranno prenotarsi: 
-  _* coloro che non si sono mai prenotati ad alcun appello;
-  _* coloro che non hanno superato/accettato la prova di Gennaio.
-  _Per l'ordine di assegnazione delle aule verrà considerato l'ordine della prima prenotazione.
-  _In altre parole, cancellare l'attuale prenotazione per poi prenotarsi nuovamente non avrà effetti sull'assegnazione dell'aula.
+  Grazie per la collaborazione.
 
+* :ref:`n01-03-2022`, consultabili su :doc:`exams`
 * :ref:`n26-02-2022`, consultabili su :doc:`exams`
 * :ref:`n09-02-2022`
 * :ref:`n07-02-2022`
 * :ref:`n28-01-2022`, consultabili su :doc:`exams`
-* :ref:`n17-01-2022`
 
 Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`news`
 

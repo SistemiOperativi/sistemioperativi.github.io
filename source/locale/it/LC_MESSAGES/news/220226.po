@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-26 18:18+0100\n"
+"POT-Creation-Date: 2022-03-01 18:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,5 +38,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Pubblicati risultati e testo d'esame del 21/02/2022 :ref:`_e220221`"
+#~ msgstr ""
+
+#~ msgid "Pubblicati risultati e testo d'esame del 21/02/2022 :ref:`e220221`"
+#~ msgstr ""
+
+#~ msgid "Pubblicati risultati e testo d'esame del 21/02/2022 :ref:`e220228`"
 #~ msgstr ""
 
