@@ -112,7 +112,7 @@ Programma
 * **Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori
 * **Memoria.** allocatori di memoria, partitioning, best/first/next fit, buddy algorithm, paging, segmentation, memoria virtuale e sua gestione hardware/software 
 * **I/O e File Management.** Disk scheduling, :removedtopic:`RAID`, UNIX File Management, inode, Linux VFS, ext2
-* **Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, piping, redirection, segnali, :removedtopic:`espressioni regolari (sed e grep)`, scripting (bash, awk), linux filesystem management
+* **Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, redirection, :removedtopic:`piping, segnali, espressioni regolari (sed e grep), scripting (bash, awk),` linux filesystem management
 * **Programmazione di Sistema.** Gestione in C dei processi/thread su ambiente linux
 * :removedtopic:`**Debugger**.` :removedtopic:`utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.`
 * :removedtopic:`**Virtualizzazione.**` :removedtopic:`Concetti generali, container, Docker`
