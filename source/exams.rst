@@ -7,7 +7,7 @@ Appelli
 ----------
 
 * Testo d'esame: 
-  :download:`it-3 <esami/220228-3-it.pdf>`, :download:`en-3 <esami/220228-3-en.pdf>`, :download:`it-4 <esami/220228-4-it.pdf>`, :download:`en-4 <esami/220228-4-en.pdf>`
+  :download:`3 <esami/220228-3-it.pdf>`, :download:`4 <esami/220228-4-it.pdf>`
 * Soglie per la sufficienza: Teoria=12, Programmazione=6
 * Voti:
 

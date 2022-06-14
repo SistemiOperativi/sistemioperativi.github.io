@@ -8,23 +8,11 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
-
-.. warning::
-  
-  Al fine di migliorare le future edizioni del corso, è stata aperto un questionario anonimo ed informale per la raccolta delle opinioni degli studenti.
-  Instruzioni più dettagliate saranno fornite sulla piattaforma moodle.
-
-  Il form rimarrà attivo fino al 15 Marzo. 
-
-  Si prega di compilare il questionario con la massima serietà.
-
-  Grazie per la collaborazione.
-
+* :ref:`n14-06-2022`
 * :ref:`n01-03-2022`, consultabili su :doc:`exams`
 * :ref:`n26-02-2022`, consultabili su :doc:`exams`
 * :ref:`n09-02-2022`
 * :ref:`n07-02-2022`
-* :ref:`n28-01-2022`, consultabili su :doc:`exams`
 
 Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`news`
 
@@ -90,6 +78,12 @@ Regole:
 
 Date
 """"""""
+
+* Sessione Estiva: 
+  
+  * 26-06-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate date aggiuntive.  
+  * 20-07-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate date aggiuntive.  
+
 
 * Sessione Invernale: 
   
