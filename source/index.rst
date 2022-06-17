@@ -81,7 +81,7 @@ Date
 
 * Sessione Estiva: 
   
-  * 26-06-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate date aggiuntive.  
+  * 24-06-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate date aggiuntive.  
   * 20-07-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate date aggiuntive.  
 
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-14 13:04+0200\n"
+"POT-Creation-Date: 2022-06-17 16:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 
 #: ../source/news/220614.rst:6
-msgid "26 Giugno 2022 Aula Campus"
+msgid "24 Giugno 2022 Aula Campus"
 msgstr ""
 
 #: ../source/news/220614.rst:7
@@ -1097,5 +1097,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Pubblicati risultati e testo d'esame del 21/02/2022 :ref:`e220228`"
+#~ msgstr ""
+
+#~ msgid "26 Giugno 2022 Aula Campus"
 #~ msgstr ""
 
