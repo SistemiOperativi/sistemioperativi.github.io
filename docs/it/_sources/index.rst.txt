@@ -8,6 +8,11 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
+.. warning::
+  
+  Tutti gli studenti prenotati per l'appello del 24 Giugno sono convocati alle 10.00 in Aula Campus
+  
+
 * :ref:`n14-06-2022`
 * :ref:`n01-03-2022`, consultabili su :doc:`exams`
 * :ref:`n26-02-2022`, consultabili su :doc:`exams`
