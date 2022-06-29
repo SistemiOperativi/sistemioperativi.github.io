@@ -1,0 +1,34 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-29 20:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/news/220629.rst:2
+msgid "29-06-2022 - avviso: pubblicati risultati appello del 24/06/2022"
+msgstr ""
+
+#: ../source/news/220629.rst:4
+msgid "Pubblicati risultati e testo d'esame del :ref:`e220624`"
+msgstr ""
+
+#~ msgid "Pubblicati risultati e testo d'esame del v :ref:`e22024`"
+#~ msgstr ""
+
+#~ msgid "Pubblicati risultati e testo d'esame del 24/06/2022 :ref:`e220624`"
+#~ msgstr ""
+

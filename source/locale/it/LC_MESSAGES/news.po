@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-17 16:55+0200\n"
+"POT-Creation-Date: 2022-06-29 20:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,14 @@ msgstr ""
 
 #: ../source/news.rst:2
 msgid "News"
+msgstr ""
+
+#: ../source/news/220629.rst:2
+msgid "29-06-2022 - avviso: pubblicati risultati appello del 24/06/2022"
+msgstr ""
+
+#: ../source/news/220629.rst:4
+msgid "Pubblicati risultati e testo d'esame del :ref:`e220624`"
 msgstr ""
 
 #: ../source/news/220614.rst:2
@@ -178,10 +186,10 @@ msgstr ""
 msgid "28-01-2022 - avviso: pubblicati risultati appello del 26/01/2022"
 msgstr ""
 
-#: ../source/news.rst:75 ../source/news.rst:102 ../source/news.rst:120
-#: ../source/news.rst:136 ../source/news.rst:151 ../source/news.rst:166
-#: ../source/news.rst:194 ../source/news.rst:203 ../source/news.rst:218
-#: ../source/news.rst:232 ../source/news.rst:241 ../source/news.rst:250
+#: ../source/news.rst:79 ../source/news.rst:106 ../source/news.rst:124
+#: ../source/news.rst:140 ../source/news.rst:155 ../source/news.rst:170
+#: ../source/news.rst:198 ../source/news.rst:207 ../source/news.rst:222
+#: ../source/news.rst:236 ../source/news.rst:245 ../source/news.rst:254
 #: ../source/news/211201.rst:4 ../source/news/211203.rst:4
 #: ../source/news/211207.rst:4 ../source/news/211208.rst:4
 #: ../source/news/211213.rst:4 ../source/news/211215.rst:4
@@ -363,10 +371,10 @@ msgstr ""
 msgid "aggiunta 1 domanda su Sincronizzazione"
 msgstr ""
 
-#: ../source/news.rst:84 ../source/news.rst:111 ../source/news.rst:127
-#: ../source/news.rst:141 ../source/news.rst:156 ../source/news.rst:170
-#: ../source/news.rst:179 ../source/news.rst:184 ../source/news.rst:209
-#: ../source/news.rst:223 ../source/news.rst:264 ../source/news/211201.rst:10
+#: ../source/news.rst:88 ../source/news.rst:115 ../source/news.rst:131
+#: ../source/news.rst:145 ../source/news.rst:160 ../source/news.rst:174
+#: ../source/news.rst:183 ../source/news.rst:188 ../source/news.rst:213
+#: ../source/news.rst:227 ../source/news.rst:268 ../source/news/211201.rst:10
 #: ../source/news/211203.rst:12 ../source/news/211208.rst:10
 #: ../source/news/211215.rst:10 ../source/news/211216.rst:9
 #: ../source/news/211222.rst:11 ../source/news/211230.rst:16
@@ -590,15 +598,15 @@ msgstr ""
 msgid "caricata lezione del 30/11"
 msgstr ""
 
-#: ../source/news.rst:65
+#: ../source/news.rst:69
 msgid "30-11-2021 - avviso: aggionamenti"
 msgstr ""
 
-#: ../source/news.rst:67 ../source/news.rst:94
+#: ../source/news.rst:71 ../source/news.rst:98
 msgid "Info generali:"
 msgstr ""
 
-#: ../source/news.rst:69 ../source/news.rst:96
+#: ../source/news.rst:73 ../source/news.rst:100
 msgid ""
 "sono disponibili i questionari per la rilevazione opinioni studenti: "
 "`Link <https://portalestudente.uniroma3.it/accedi/area-"
@@ -606,243 +614,243 @@ msgid ""
 "studente/>`_"
 msgstr ""
 
-#: ../source/news.rst:73 ../source/news.rst:100
+#: ../source/news.rst:77 ../source/news.rst:104
 msgid "La scadenza per la compilazione è il 30 novembre."
 msgstr ""
 
-#: ../source/news.rst:77
+#: ../source/news.rst:81
 msgid "aggiunte slide sulla gestione di I/O"
 msgstr ""
 
-#: ../source/news.rst:78
+#: ../source/news.rst:82
 msgid "nuovi esercizi: aggiunte 3 domande riguardo l'introduzione"
 msgstr ""
 
-#: ../source/news.rst:79
+#: ../source/news.rst:83
 msgid "nuovi esercizi: aggiunte 6 domande riguardo la gestione della memoria"
 msgstr ""
 
-#: ../source/news.rst:80
+#: ../source/news.rst:84
 msgid "nuovi esercizi: aggiunte 6 domande riguardo lo scheduling"
 msgstr ""
 
-#: ../source/news.rst:81
+#: ../source/news.rst:85
 msgid "nuovi esercizi: aggiunta 1 domanda riguardo la sincronizzazione"
 msgstr ""
 
-#: ../source/news.rst:82
+#: ../source/news.rst:86
 msgid "aggiunto diario delle lezioni del 23/11 e del 24/11"
 msgstr ""
 
-#: ../source/news.rst:86
+#: ../source/news.rst:90
 msgid "caricata lezione del 24/11"
 msgstr ""
 
-#: ../source/news.rst:92
+#: ../source/news.rst:96
 msgid "24-11-2021 - avviso: nuove sezioni e aggionamenti"
 msgstr ""
 
-#: ../source/news.rst:104
+#: ../source/news.rst:108
 msgid "aggiornate slide sulla gestione della memoria"
 msgstr ""
 
-#: ../source/news.rst:105
+#: ../source/news.rst:109
 msgid "aggiunta una sezione: news sul sito"
 msgstr ""
 
-#: ../source/news.rst:106
+#: ../source/news.rst:110
 msgid "aggiunta una sezione: esercizi di preparazione"
 msgstr ""
 
-#: ../source/news.rst:107
+#: ../source/news.rst:111
 msgid "aggiunto avviso su diaro delle lezioni"
 msgstr ""
 
-#: ../source/news.rst:108
+#: ../source/news.rst:112
 msgid "aggiunte slide di approfondimento su Solid-State Drive"
 msgstr ""
 
-#: ../source/news.rst:113
+#: ../source/news.rst:117
 msgid "caricata lezione del 23/11"
 msgstr ""
 
-#: ../source/news.rst:118
+#: ../source/news.rst:122
 msgid "23-11-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:122
+#: ../source/news.rst:126
 msgid "caricata nuova versione del sito del corso"
 msgstr ""
 
-#: ../source/news.rst:123
+#: ../source/news.rst:127
 msgid "aggiunta nuova sezione con spiegazione degli esempi di codice"
 msgstr ""
 
-#: ../source/news.rst:124
+#: ../source/news.rst:128
 msgid "caricata versione aggiornata delle slide \"Gestione della memoria\""
 msgstr ""
 
-#: ../source/news.rst:129
+#: ../source/news.rst:133
 msgid "caricata lezione del 17/11"
 msgstr ""
 
-#: ../source/news.rst:134
+#: ../source/news.rst:138
 msgid "17-11-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:138
+#: ../source/news.rst:142
 msgid "aggiornate slide su gestione della memoria"
 msgstr ""
 
-#: ../source/news.rst:139
+#: ../source/news.rst:143
 msgid "aggiornato diario delle lezioni al 16/11"
 msgstr ""
 
-#: ../source/news.rst:143
+#: ../source/news.rst:147
 msgid "pubblicata lezione del 16/11"
 msgstr ""
 
-#: ../source/news.rst:148
+#: ../source/news.rst:152
 msgid "16-11-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:153
+#: ../source/news.rst:157
 msgid "Aggiornate slide su gestione della memoria"
 msgstr ""
 
-#: ../source/news.rst:154
+#: ../source/news.rst:158
 msgid "Aggiornato il diario delle lezioni fino al 10/11"
 msgstr ""
 
-#: ../source/news.rst:158
+#: ../source/news.rst:162
 msgid "Pubblicata lezione del 10/11 su Stream"
 msgstr ""
 
-#: ../source/news.rst:164
+#: ../source/news.rst:168
 msgid "09-11-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:168
+#: ../source/news.rst:172
 msgid "Pubblicate slide: \"Gestione della memoria\""
 msgstr ""
 
-#: ../source/news.rst:172
+#: ../source/news.rst:176
 msgid "Pubblicate lezioni del 02/11 e 03/11"
 msgstr ""
 
-#: ../source/news.rst:177
+#: ../source/news.rst:181
 msgid "02-11-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:181
+#: ../source/news.rst:185
 msgid "Pubblicate slide sulla Sincronizzazione sul sito del corso"
 msgstr ""
 
-#: ../source/news.rst:182
+#: ../source/news.rst:186
 msgid "Aggiornato diario delle lezioni"
 msgstr ""
 
-#: ../source/news.rst:186
+#: ../source/news.rst:190
 msgid "Pubblicate lezioni del 26 e 27 Ottobre su Microsoft Stream"
 msgstr ""
 
-#: ../source/news.rst:192
+#: ../source/news.rst:196
 msgid "26-10-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:196
+#: ../source/news.rst:200
 msgid "Aggiornate slide su CPU scheduling"
 msgstr ""
 
-#: ../source/news.rst:201
+#: ../source/news.rst:205
 msgid "22-10-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:205
+#: ../source/news.rst:209
 msgid "pubblicato link al repository github con esempi software."
 msgstr ""
 
-#: ../source/news.rst:206
+#: ../source/news.rst:210
 msgid "aggiornate slide sui processi"
 msgstr ""
 
-#: ../source/news.rst:207
+#: ../source/news.rst:211
 msgid "fixato codice per la gestione dei thread"
 msgstr ""
 
-#: ../source/news.rst:211
+#: ../source/news.rst:215
 msgid "pubblicata lezione del 20/10/2021"
 msgstr ""
 
-#: ../source/news.rst:216
+#: ../source/news.rst:220
 msgid "18-10-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:220
+#: ../source/news.rst:224
 msgid "[Diario delle lezioni]:  aggiunto dettaglio lezioni del 12/10 e 13/10"
 msgstr ""
 
-#: ../source/news.rst:221
+#: ../source/news.rst:225
 msgid "[Slide] aggiunte slide su CPU scheduling"
 msgstr ""
 
-#: ../source/news.rst:225
+#: ../source/news.rst:229
 msgid "upload lezione del 12/10 e 13/10"
 msgstr ""
 
-#: ../source/news.rst:230
+#: ../source/news.rst:234
 msgid "13-10-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:234
+#: ../source/news.rst:238
 msgid "Pubblicata versione completa delle slide su processi e thread."
 msgstr ""
 
-#: ../source/news.rst:239
+#: ../source/news.rst:243
 msgid "12-10-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:243
+#: ../source/news.rst:247
 msgid "Aggiornate slide sui processi"
 msgstr ""
 
-#: ../source/news.rst:248
+#: ../source/news.rst:252
 msgid "10-10-2021 - aggiornamenti"
 msgstr ""
 
-#: ../source/news.rst:252
+#: ../source/news.rst:256
 msgid "[Orario delle lezioni] aggiunti link a tems, sharepoint e stream"
 msgstr ""
 
-#: ../source/news.rst:253
+#: ../source/news.rst:257
 msgid "[Ricevimento] aggiornate istruzioni per inviare email al docente"
 msgstr ""
 
-#: ../source/news.rst:254
+#: ../source/news.rst:258
 msgid "[Testi consigliati e link utili]"
 msgstr ""
 
-#: ../source/news.rst:256
+#: ../source/news.rst:260
 msgid "aggiunto un libro di testo in italiano"
 msgstr ""
 
-#: ../source/news.rst:257
+#: ../source/news.rst:261
 msgid "aggiunti link a guide per installazione di sistemi Linux"
 msgstr ""
 
-#: ../source/news.rst:259
+#: ../source/news.rst:263
 msgid "[Diario delle lezioni]:"
 msgstr ""
 
-#: ../source/news.rst:261
+#: ../source/news.rst:265
 msgid "aggiunto chiarimento sull'uso dei riferimenti ai libri di testo"
 msgstr ""
 
-#: ../source/news.rst:262
+#: ../source/news.rst:266
 msgid "aggiunto dettaglio lezioni del 05/10 e 06/10"
 msgstr ""
 
-#: ../source/news.rst:266
+#: ../source/news.rst:270
 msgid "upload lezione del 06/10"
 msgstr ""
 
@@ -1100,5 +1108,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "26 Giugno 2022 Aula Campus"
+#~ msgstr ""
+
+#~ msgid "Pubblicati risultati e testo d'esame del v :ref:`e22024`"
+#~ msgstr ""
+
+#~ msgid "Pubblicati risultati e testo d'esame del 24/06/2022 :ref:`e220624`"
 #~ msgstr ""
 

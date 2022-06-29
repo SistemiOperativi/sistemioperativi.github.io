@@ -12,12 +12,11 @@ News
   
   Tutti gli studenti prenotati per l'appello del 24 Giugno sono convocati alle 10.00 in Aula Campus
   
-
+* :ref:`n29-06-2022`, consultabili su :doc:`exams`
 * :ref:`n14-06-2022`
 * :ref:`n01-03-2022`, consultabili su :doc:`exams`
 * :ref:`n26-02-2022`, consultabili su :doc:`exams`
 * :ref:`n09-02-2022`
-* :ref:`n07-02-2022`
 
 Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`news`
 

@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-17 16:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/news/220614.rst:2
+msgid "14-0-2022 - avviso: remainder regolamento e data sessione estiva"
+msgstr ""
+
+#: ../source/news/220614.rst:4
+msgid ""
+"In accordo al calendario della sessione estiva, gli appelli del corso "
+"\"Sistema Operativi\" si terranno il:"
+msgstr ""
+
+#: ../source/news/220614.rst:6
+msgid "24 Giugno 2022 Aula Campus"
+msgstr ""
+
+#: ../source/news/220614.rst:7
+msgid "20 Luglio 2022 Aula Campus"
+msgstr ""
+
+#: ../source/news/220614.rst:9
+msgid ""
+"Date aggiuntive verranno considerate solo per soddisfare necessità di "
+"capienza aula."
+msgstr ""
+
+#: ../source/news/220614.rst:11
+msgid ""
+"Per la sessione estiva valgono le stesse regole della sessione invernale,"
+" ossia:"
+msgstr ""
+
+#: ../source/news/220614.rst:13
+msgid "Il voto finale è pari alla somma dei punteggi ottenuti:"
+msgstr ""
+
+#: ../source/news/220614.rst:15
+msgid "nella parte di teoria (punteggio massimo 20, sufficienza 12);"
+msgstr ""
+
+#: ../source/news/220614.rst:16
+msgid "nella parte di programmazione (punteggio massimo 11, sufficienza 6);"
+msgstr ""
+
+#: ../source/news/220614.rst:17
+msgid "dalla vincita di una sfida avanzata dal docente (non più assegnabili)."
+msgstr ""
+
+#: ../source/news/220614.rst:19
+msgid "Per superare l’esame occorre ottenere la sufficienza in entrambi le parti."
+msgstr ""
+
+#: ../source/news/220614.rst:20
+msgid ""
+"Qualora la sufficienza sia stata conseguita solo in una delle due parti, "
+"lo studente è esonerato dal sostenere il test riguardo la parte in cui è "
+"risultato sufficiente nell’A.A. 2021/2022. Potrà perciò risostenere "
+"unicamente il test dove non ha conseguito la sufficienza."
+msgstr ""
+
+#: ../source/news/220614.rst:21
+msgid "Per la lode è richiesto un punteggio di 31 punti."
+msgstr ""
+
+#: ../source/news/220614.rst:22
+msgid ""
+"I punteggi ottenuti potranno essere mantenuti fino all’ultima sessione di"
+" esame per l’A.A. 2021/2022."
+msgstr ""
+
+#: ../source/news/220614.rst:23
+msgid ""
+"NON vi è salto di appello (è possibile ripresentarsi a luglio anche se "
+"insufficienti a giugno)."
+msgstr ""
+
+#: ../source/news/220614.rst:24
+msgid "La durata della prova è:"
+msgstr ""
+
+#: ../source/news/220614.rst:26
+msgid "3 ore se non si è esonerati per alcuna parte;"
+msgstr ""
+
+#: ../source/news/220614.rst:27
+msgid "1 ora e 15 minuti se si è esonerati per la parte di teoria;"
+msgstr ""
+
+#: ../source/news/220614.rst:28
+msgid "1 ora e 45 minuti se si è esonerati per la parte di programmazione."
+msgstr ""
+
+#: ../source/news/220614.rst:30
+msgid "Per qualsiasi ulteriore chiarimento, contattare il docente via email."
+msgstr ""
+
+#~ msgid "26 Giugno 2022 Aula Campus"
+#~ msgstr ""
+

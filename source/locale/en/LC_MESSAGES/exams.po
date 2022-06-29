@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-01 18:09+0100\n"
+"POT-Creation-Date: 2022-06-29 19:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,518 +23,600 @@ msgid "Appelli"
 msgstr "Exams"
 
 #: ../source/exams.rst:7
-msgid "28/02/2022"
+msgid "24/06/2022"
 msgstr ""
 
 #: ../source/exams.rst:9
-msgid ""
-"Testo d'esame: :download:`it-3 <esami/220228-3-it.pdf>`, :download:`en-3 "
-"<esami/220228-3-en.pdf>`, :download:`it-4 <esami/220228-4-it.pdf>`, "
-":download:`en-4 <esami/220228-4-en.pdf>`"
+msgid "Testo d'esame: :download:`5 <esami/220624-5-it.pdf>`"
 msgstr ""
-"Examination test: :download:`it-3 <esami/220228-3-it.pdf>`, :download:`en-3 "
-"<esami/220228-3-en.pdf>`, :download:`it-4 <esami/220228-4-it.pdf>`, "
-":download:`en-4 <esami/220228-4-en.pdf>`"
+"Examination test: :download:`5 <esami/220624-5-en.pdf>`"
 
-#: ../source/exams.rst:11 ../source/exams.rst:96 ../source/exams.rst:194
+#: ../source/exams.rst:11 ../source/exams.rst:47 ../source/exams.rst:132
+#: ../source/exams.rst:230
 msgid "Soglie per la sufficienza: Teoria=12, Programmazione=6"
 msgstr "Thresholds: Theory=12, Programming=6"
 
-#: ../source/exams.rst:12 ../source/exams.rst:97 ../source/exams.rst:195
+#: ../source/exams.rst:12 ../source/exams.rst:48 ../source/exams.rst:133
+#: ../source/exams.rst:231
 msgid "Voti:"
 msgstr "Marks:"
 
-#: ../source/exams.rst:17 ../source/exams.rst:102
+#: ../source/exams.rst:17 ../source/exams.rst:53 ../source/exams.rst:138
 msgid "#"
 msgstr ""
 
-#: ../source/exams.rst:17 ../source/exams.rst:102
-#, fuzzy
+#: ../source/exams.rst:17 ../source/exams.rst:53 ../source/exams.rst:138
 msgid "**MATRICOLA**"
 msgstr "**Student ID**"
 
-#: ../source/exams.rst:15 ../source/exams.rst:100
+#: ../source/exams.rst:15 ../source/exams.rst:51 ../source/exams.rst:136
 msgid "**TEORIA**"
 msgstr "**Theory**"
 
-#: ../source/exams.rst:15 ../source/exams.rst:100
+#: ../source/exams.rst:15 ../source/exams.rst:51 ../source/exams.rst:136
 msgid "**PROGRAMMAZIONE**"
 msgstr "**Programming**"
 
-#: ../source/exams.rst:17 ../source/exams.rst:102
+#: ../source/exams.rst:17 ../source/exams.rst:53 ../source/exams.rst:138
 msgid "**TOTALE**"
 msgstr "**Total**"
 
-#: ../source/exams.rst:17 ../source/exams.rst:102
+#: ../source/exams.rst:17 ../source/exams.rst:53 ../source/exams.rst:138
 msgid "**Q1**"
 msgstr ""
 
-#: ../source/exams.rst:17 ../source/exams.rst:102
+#: ../source/exams.rst:17 ../source/exams.rst:53 ../source/exams.rst:138
 msgid "**Q2**"
 msgstr ""
 
-#: ../source/exams.rst:17 ../source/exams.rst:102
+#: ../source/exams.rst:17 ../source/exams.rst:53 ../source/exams.rst:138
 msgid "**Q3**"
 msgstr ""
 
-#: ../source/exams.rst:17 ../source/exams.rst:102
+#: ../source/exams.rst:17 ../source/exams.rst:53 ../source/exams.rst:138
 msgid "**PARZIALE**"
 msgstr "**Partial**"
 
-#: ../source/exams.rst:17 ../source/exams.rst:102
+#: ../source/exams.rst:17 ../source/exams.rst:53 ../source/exams.rst:138
 msgid "**Q4**"
 msgstr ""
 
-#: ../source/exams.rst:17 ../source/exams.rst:102
+#: ../source/exams.rst:17 ../source/exams.rst:53 ../source/exams.rst:138
 msgid "**CHALLENGE**"
 msgstr ""
 
-#: ../source/exams.rst:19 ../source/exams.rst:49 ../source/exams.rst:65
-#: ../source/exams.rst:75 ../source/exams.rst:104 ../source/exams.rst:132
-#: ../source/exams.rst:150 ../source/exams.rst:162 ../source/exams.rst:168
+#: ../source/exams.rst:19 ../source/exams.rst:55 ../source/exams.rst:85
+#: ../source/exams.rst:101 ../source/exams.rst:111 ../source/exams.rst:140
+#: ../source/exams.rst:168 ../source/exams.rst:186 ../source/exams.rst:198
+#: ../source/exams.rst:204
 msgid "1"
 msgstr ""
 
+#: ../source/exams.rst:19 ../source/exams.rst:168
+msgid "538593"
+msgstr ""
+
+#: ../source/exams.rst:19 ../source/exams.rst:23 ../source/exams.rst:25
+#: ../source/exams.rst:27 ../source/exams.rst:61 ../source/exams.rst:63
+#: ../source/exams.rst:69 ../source/exams.rst:95 ../source/exams.rst:97
+#: ../source/exams.rst:99 ../source/exams.rst:101 ../source/exams.rst:140
+#: ../source/exams.rst:142 ../source/exams.rst:146 ../source/exams.rst:148
+#: ../source/exams.rst:156 ../source/exams.rst:162 ../source/exams.rst:164
+#: ../source/exams.rst:166 ../source/exams.rst:168 ../source/exams.rst:190
+#: ../source/exams.rst:192 ../source/exams.rst:198 ../source/exams.rst:200
+#: ../source/exams.rst:208
+msgid "5"
+msgstr ""
+
 #: ../source/exams.rst:19
-msgid "548280"
+msgid "3.2"
 msgstr ""
 
-#: ../source/exams.rst:19 ../source/exams.rst:41 ../source/exams.rst:43
-#: ../source/exams.rst:45 ../source/exams.rst:47 ../source/exams.rst:69
-#: ../source/exams.rst:75 ../source/exams.rst:116 ../source/exams.rst:128
-#: ../source/exams.rst:134 ../source/exams.rst:146
-msgid "5.5"
+#: ../source/exams.rst:19 ../source/exams.rst:27 ../source/exams.rst:65
+#: ../source/exams.rst:101 ../source/exams.rst:148
+msgid "4.5"
 msgstr ""
 
-#: ../source/exams.rst:19 ../source/exams.rst:25 ../source/exams.rst:33
-#: ../source/exams.rst:39 ../source/exams.rst:47 ../source/exams.rst:49
-#: ../source/exams.rst:55 ../source/exams.rst:61 ../source/exams.rst:69
-#: ../source/exams.rst:110 ../source/exams.rst:124 ../source/exams.rst:140
-#: ../source/exams.rst:158 ../source/exams.rst:174 ../source/exams.rst:176
-msgid "4"
+#: ../source/exams.rst:19 ../source/exams.rst:212
+msgid "12.5"
 msgstr ""
 
-#: ../source/exams.rst:19 ../source/exams.rst:23 ../source/exams.rst:25
-#: ../source/exams.rst:27 ../source/exams.rst:29 ../source/exams.rst:31
-#: ../source/exams.rst:33 ../source/exams.rst:35 ../source/exams.rst:37
-#: ../source/exams.rst:41 ../source/exams.rst:45 ../source/exams.rst:47
-#: ../source/exams.rst:51 ../source/exams.rst:53 ../source/exams.rst:55
-#: ../source/exams.rst:63 ../source/exams.rst:69 ../source/exams.rst:71
-#: ../source/exams.rst:75 ../source/exams.rst:104 ../source/exams.rst:106
-#: ../source/exams.rst:116 ../source/exams.rst:120 ../source/exams.rst:122
-#: ../source/exams.rst:124 ../source/exams.rst:126 ../source/exams.rst:128
-#: ../source/exams.rst:130 ../source/exams.rst:144 ../source/exams.rst:146
-#: ../source/exams.rst:148 ../source/exams.rst:150 ../source/exams.rst:152
-#: ../source/exams.rst:166 ../source/exams.rst:172 ../source/exams.rst:178
-msgid "9"
-msgstr ""
-
-#: ../source/exams.rst:19 ../source/exams.rst:39 ../source/exams.rst:47
-#: ../source/exams.rst:69 ../source/exams.rst:166
-msgid "18.5"
-msgstr ""
-
-#: ../source/exams.rst:19 ../source/exams.rst:39 ../source/exams.rst:116
-#: ../source/exams.rst:142 ../source/exams.rst:164 ../source/exams.rst:170
-#: ../source/exams.rst:176
-msgid "8.5"
-msgstr ""
-
-#: ../source/exams.rst:19 ../source/exams.rst:23 ../source/exams.rst:25
-#: ../source/exams.rst:27 ../source/exams.rst:29 ../source/exams.rst:31
-#: ../source/exams.rst:33 ../source/exams.rst:37 ../source/exams.rst:39
-#: ../source/exams.rst:41 ../source/exams.rst:43 ../source/exams.rst:45
-#: ../source/exams.rst:47 ../source/exams.rst:49 ../source/exams.rst:51
-#: ../source/exams.rst:53 ../source/exams.rst:55 ../source/exams.rst:57
+#: ../source/exams.rst:19 ../source/exams.rst:21 ../source/exams.rst:23
+#: ../source/exams.rst:25 ../source/exams.rst:27 ../source/exams.rst:29
+#: ../source/exams.rst:31 ../source/exams.rst:33 ../source/exams.rst:55
 #: ../source/exams.rst:59 ../source/exams.rst:61 ../source/exams.rst:63
 #: ../source/exams.rst:65 ../source/exams.rst:67 ../source/exams.rst:69
-#: ../source/exams.rst:71 ../source/exams.rst:73 ../source/exams.rst:75
-#: ../source/exams.rst:77 ../source/exams.rst:104 ../source/exams.rst:106
-#: ../source/exams.rst:108 ../source/exams.rst:110 ../source/exams.rst:112
-#: ../source/exams.rst:114 ../source/exams.rst:116 ../source/exams.rst:120
-#: ../source/exams.rst:122 ../source/exams.rst:124 ../source/exams.rst:126
-#: ../source/exams.rst:128 ../source/exams.rst:130 ../source/exams.rst:132
-#: ../source/exams.rst:134 ../source/exams.rst:136 ../source/exams.rst:138
+#: ../source/exams.rst:73 ../source/exams.rst:75 ../source/exams.rst:77
+#: ../source/exams.rst:79 ../source/exams.rst:81 ../source/exams.rst:83
+#: ../source/exams.rst:85 ../source/exams.rst:87 ../source/exams.rst:89
+#: ../source/exams.rst:91 ../source/exams.rst:93 ../source/exams.rst:95
+#: ../source/exams.rst:97 ../source/exams.rst:99 ../source/exams.rst:101
+#: ../source/exams.rst:103 ../source/exams.rst:105 ../source/exams.rst:107
+#: ../source/exams.rst:109 ../source/exams.rst:111 ../source/exams.rst:113
 #: ../source/exams.rst:140 ../source/exams.rst:142 ../source/exams.rst:144
-#: ../source/exams.rst:146 ../source/exams.rst:148 ../source/exams.rst:152
-#: ../source/exams.rst:154 ../source/exams.rst:156 ../source/exams.rst:158
-#: ../source/exams.rst:162 ../source/exams.rst:164 ../source/exams.rst:166
-#: ../source/exams.rst:168 ../source/exams.rst:170 ../source/exams.rst:172
-#: ../source/exams.rst:174 ../source/exams.rst:176 ../source/exams.rst:178
+#: ../source/exams.rst:146 ../source/exams.rst:148 ../source/exams.rst:150
+#: ../source/exams.rst:152 ../source/exams.rst:156 ../source/exams.rst:158
+#: ../source/exams.rst:160 ../source/exams.rst:162 ../source/exams.rst:164
+#: ../source/exams.rst:166 ../source/exams.rst:168 ../source/exams.rst:170
+#: ../source/exams.rst:172 ../source/exams.rst:174 ../source/exams.rst:176
+#: ../source/exams.rst:178 ../source/exams.rst:180 ../source/exams.rst:182
+#: ../source/exams.rst:184 ../source/exams.rst:188 ../source/exams.rst:190
+#: ../source/exams.rst:192 ../source/exams.rst:194 ../source/exams.rst:198
+#: ../source/exams.rst:200 ../source/exams.rst:202 ../source/exams.rst:204
+#: ../source/exams.rst:206 ../source/exams.rst:208 ../source/exams.rst:210
+#: ../source/exams.rst:212 ../source/exams.rst:214
 msgid "0"
 msgstr ""
 
-#: ../source/exams.rst:19 ../source/exams.rst:53 ../source/exams.rst:55
-#: ../source/exams.rst:61 ../source/exams.rst:67 ../source/exams.rst:71
-#: ../source/exams.rst:156
-msgid "27"
+#: ../source/exams.rst:19 ../source/exams.rst:25 ../source/exams.rst:27
+#: ../source/exams.rst:75 ../source/exams.rst:85 ../source/exams.rst:95
+#: ../source/exams.rst:99 ../source/exams.rst:101
+msgid "Insuff."
 msgstr ""
 
-#: ../source/exams.rst:21 ../source/exams.rst:51 ../source/exams.rst:59
-#: ../source/exams.rst:106 ../source/exams.rst:134 ../source/exams.rst:158
-#: ../source/exams.rst:164
+#: ../source/exams.rst:21 ../source/exams.rst:57 ../source/exams.rst:87
+#: ../source/exams.rst:95 ../source/exams.rst:142 ../source/exams.rst:170
+#: ../source/exams.rst:194 ../source/exams.rst:200
 msgid "2"
 msgstr ""
 
 #: ../source/exams.rst:21
-msgid "533710"
+msgid "547218"
 msgstr ""
 
-#: ../source/exams.rst:21 ../source/exams.rst:35 ../source/exams.rst:79
-#: ../source/exams.rst:81 ../source/exams.rst:83 ../source/exams.rst:118
-#: ../source/exams.rst:160 ../source/exams.rst:210 ../source/exams.rst:212
-msgid "N.D."
+#: ../source/exams.rst:21 ../source/exams.rst:25 ../source/exams.rst:55
+#: ../source/exams.rst:61 ../source/exams.rst:69 ../source/exams.rst:75
+#: ../source/exams.rst:83 ../source/exams.rst:85 ../source/exams.rst:91
+#: ../source/exams.rst:97 ../source/exams.rst:105 ../source/exams.rst:146
+#: ../source/exams.rst:160 ../source/exams.rst:176 ../source/exams.rst:194
+#: ../source/exams.rst:210 ../source/exams.rst:212
+msgid "4"
 msgstr ""
 
-#: ../source/exams.rst:23 ../source/exams.rst:49 ../source/exams.rst:108
-#: ../source/exams.rst:110 ../source/exams.rst:112 ../source/exams.rst:126
-#: ../source/exams.rst:130 ../source/exams.rst:138 ../source/exams.rst:166
-#: ../source/exams.rst:168 ../source/exams.rst:174
+#: ../source/exams.rst:21 ../source/exams.rst:23 ../source/exams.rst:59
+#: ../source/exams.rst:85 ../source/exams.rst:144 ../source/exams.rst:146
+#: ../source/exams.rst:148 ../source/exams.rst:162 ../source/exams.rst:166
+#: ../source/exams.rst:174 ../source/exams.rst:202 ../source/exams.rst:204
+#: ../source/exams.rst:210
 msgid "3"
 msgstr ""
 
-#: ../source/exams.rst:23
-msgid "548288"
-msgstr ""
-
-#: ../source/exams.rst:23 ../source/exams.rst:25 ../source/exams.rst:27
-#: ../source/exams.rst:29 ../source/exams.rst:31 ../source/exams.rst:37
-#: ../source/exams.rst:39 ../source/exams.rst:41 ../source/exams.rst:43
-#: ../source/exams.rst:45 ../source/exams.rst:51 ../source/exams.rst:53
-#: ../source/exams.rst:57 ../source/exams.rst:59 ../source/exams.rst:63
-#: ../source/exams.rst:71 ../source/exams.rst:75 ../source/exams.rst:77
-#: ../source/exams.rst:104 ../source/exams.rst:106 ../source/exams.rst:108
-#: ../source/exams.rst:110 ../source/exams.rst:112 ../source/exams.rst:114
-#: ../source/exams.rst:116 ../source/exams.rst:120 ../source/exams.rst:122
-#: ../source/exams.rst:124 ../source/exams.rst:136 ../source/exams.rst:138
-#: ../source/exams.rst:140 ../source/exams.rst:142 ../source/exams.rst:144
-#: ../source/exams.rst:146 ../source/exams.rst:148 ../source/exams.rst:150
-#: ../source/exams.rst:152 ../source/exams.rst:154 ../source/exams.rst:162
-#: ../source/exams.rst:168 ../source/exams.rst:170 ../source/exams.rst:172
-#: ../source/exams.rst:178
-msgid "6"
-msgstr ""
-
-#: ../source/exams.rst:23 ../source/exams.rst:27 ../source/exams.rst:31
-#: ../source/exams.rst:37 ../source/exams.rst:53 ../source/exams.rst:59
-#: ../source/exams.rst:71 ../source/exams.rst:140 ../source/exams.rst:144
-#: ../source/exams.rst:148 ../source/exams.rst:150 ../source/exams.rst:152
-#: ../source/exams.rst:176 ../source/exams.rst:178
-msgid "21"
-msgstr ""
-
-#: ../source/exams.rst:23 ../source/exams.rst:25 ../source/exams.rst:37
-#: ../source/exams.rst:45 ../source/exams.rst:77 ../source/exams.rst:114
-#: ../source/exams.rst:120 ../source/exams.rst:142 ../source/exams.rst:146
-#: ../source/exams.rst:162
-msgid "30"
-msgstr ""
-
-#: ../source/exams.rst:25
-msgid "547887"
-msgstr ""
-
-#: ../source/exams.rst:25 ../source/exams.rst:27 ../source/exams.rst:33
-#: ../source/exams.rst:59 ../source/exams.rst:61 ../source/exams.rst:63
-#: ../source/exams.rst:65 ../source/exams.rst:104 ../source/exams.rst:106
-#: ../source/exams.rst:110 ../source/exams.rst:112 ../source/exams.rst:120
-#: ../source/exams.rst:126 ../source/exams.rst:128 ../source/exams.rst:130
-#: ../source/exams.rst:132 ../source/exams.rst:154 ../source/exams.rst:156
-#: ../source/exams.rst:162 ../source/exams.rst:164 ../source/exams.rst:172
-msgid "5"
-msgstr ""
-
-#: ../source/exams.rst:25 ../source/exams.rst:57 ../source/exams.rst:63
-#: ../source/exams.rst:67 ../source/exams.rst:73 ../source/exams.rst:104
-#: ../source/exams.rst:106 ../source/exams.rst:114 ../source/exams.rst:120
-#: ../source/exams.rst:142 ../source/exams.rst:162 ../source/exams.rst:172
-msgid "20"
-msgstr ""
-
-#: ../source/exams.rst:25 ../source/exams.rst:27 ../source/exams.rst:31
-#: ../source/exams.rst:37 ../source/exams.rst:57 ../source/exams.rst:61
-#: ../source/exams.rst:71 ../source/exams.rst:114 ../source/exams.rst:120
-#: ../source/exams.rst:122 ../source/exams.rst:144 ../source/exams.rst:148
-#: ../source/exams.rst:150 ../source/exams.rst:152 ../source/exams.rst:154
-msgid "10"
-msgstr ""
-
-#: ../source/exams.rst:27
-msgid "550043"
-msgstr ""
-
-#: ../source/exams.rst:27 ../source/exams.rst:31 ../source/exams.rst:71
-#: ../source/exams.rst:144 ../source/exams.rst:148 ../source/exams.rst:150
-#: ../source/exams.rst:152
-msgid "30cumlaude"
-msgstr ""
-
-#: ../source/exams.rst:29
-msgid "524441"
-msgstr ""
-
-#: ../source/exams.rst:29 ../source/exams.rst:65 ../source/exams.rst:112
-msgid "4.5"
-msgstr ""
-
-#: ../source/exams.rst:29 ../source/exams.rst:43 ../source/exams.rst:128
-#: ../source/exams.rst:136
-msgid "19.5"
-msgstr ""
-
-#: ../source/exams.rst:29 ../source/exams.rst:33 ../source/exams.rst:43
-#: ../source/exams.rst:47 ../source/exams.rst:69 ../source/exams.rst:104
-#: ../source/exams.rst:130 ../source/exams.rst:154
-msgid "26"
-msgstr ""
-
-#: ../source/exams.rst:31 ../source/exams.rst:51 ../source/exams.rst:57
-#: ../source/exams.rst:59 ../source/exams.rst:67 ../source/exams.rst:69
-#: ../source/exams.rst:73 ../source/exams.rst:116 ../source/exams.rst:122
-#: ../source/exams.rst:140 ../source/exams.rst:154 ../source/exams.rst:164
-#: ../source/exams.rst:174
-msgid "7"
-msgstr ""
-
-#: ../source/exams.rst:31
-msgid "547007"
-msgstr ""
-
-#: ../source/exams.rst:33 ../source/exams.rst:43 ../source/exams.rst:49
-#: ../source/exams.rst:61 ../source/exams.rst:114 ../source/exams.rst:118
-#: ../source/exams.rst:126 ../source/exams.rst:138 ../source/exams.rst:156
-#: ../source/exams.rst:158 ../source/exams.rst:162 ../source/exams.rst:168
-#: ../source/exams.rst:178
-msgid "8"
-msgstr ""
-
-#: ../source/exams.rst:33
-msgid "546543"
-msgstr ""
-
-#: ../source/exams.rst:33 ../source/exams.rst:53 ../source/exams.rst:59
-#: ../source/exams.rst:138 ../source/exams.rst:154 ../source/exams.rst:156
-msgid "18"
-msgstr ""
-
-#: ../source/exams.rst:35
-msgid "533685"
-msgstr ""
-
-#: ../source/exams.rst:37
-msgid "533168"
-msgstr ""
-
-#: ../source/exams.rst:39 ../source/exams.rst:124 ../source/exams.rst:132
-msgid "11"
-msgstr ""
-
-#: ../source/exams.rst:39
-msgid "549475"
-msgstr ""
-
-#: ../source/exams.rst:39 ../source/exams.rst:49 ../source/exams.rst:59
-#: ../source/exams.rst:63 ../source/exams.rst:65
-msgid "Insuff."
-msgstr ""
-
-#: ../source/exams.rst:41 ../source/exams.rst:126
-msgid "12"
-msgstr ""
-
-#: ../source/exams.rst:41
-msgid "547999"
-msgstr ""
-
-#: ../source/exams.rst:41 ../source/exams.rst:45 ../source/exams.rst:116
-#: ../source/exams.rst:142 ../source/exams.rst:146 ../source/exams.rst:170
-msgid "20.5"
-msgstr ""
-
-#: ../source/exams.rst:41 ../source/exams.rst:47 ../source/exams.rst:65
-#: ../source/exams.rst:136 ../source/exams.rst:158
+#: ../source/exams.rst:21 ../source/exams.rst:77 ../source/exams.rst:83
+#: ../source/exams.rst:101 ../source/exams.rst:172 ../source/exams.rst:194
 msgid "7.5"
 msgstr ""
 
-#: ../source/exams.rst:41 ../source/exams.rst:73 ../source/exams.rst:122
-#: ../source/exams.rst:124 ../source/exams.rst:154 ../source/exams.rst:158
-#: ../source/exams.rst:166
-msgid "28"
+#: ../source/exams.rst:21
+msgid "14.5"
 msgstr ""
 
-#: ../source/exams.rst:43 ../source/exams.rst:73 ../source/exams.rst:128
-#: ../source/exams.rst:134
-msgid "13"
+#: ../source/exams.rst:21 ../source/exams.rst:33 ../source/exams.rst:69
+#: ../source/exams.rst:79 ../source/exams.rst:85 ../source/exams.rst:97
+#: ../source/exams.rst:150 ../source/exams.rst:154 ../source/exams.rst:162
+#: ../source/exams.rst:174 ../source/exams.rst:192 ../source/exams.rst:194
+#: ../source/exams.rst:198 ../source/exams.rst:204 ../source/exams.rst:214
+msgid "8"
 msgstr ""
 
-#: ../source/exams.rst:43
-msgid "548395"
-msgstr ""
-
-#: ../source/exams.rst:45 ../source/exams.rst:130 ../source/exams.rst:158
-#: ../source/exams.rst:162
-msgid "14"
-msgstr ""
-
-#: ../source/exams.rst:45
-msgid "548013"
-msgstr ""
-
-#: ../source/exams.rst:45 ../source/exams.rst:55 ../source/exams.rst:136
-#: ../source/exams.rst:142 ../source/exams.rst:146
-msgid "9.5"
-msgstr ""
-
-#: ../source/exams.rst:47 ../source/exams.rst:108 ../source/exams.rst:110
-#: ../source/exams.rst:132 ../source/exams.rst:140
-msgid "15"
-msgstr ""
-
-#: ../source/exams.rst:47
-msgid "546420"
-msgstr ""
-
-#: ../source/exams.rst:49 ../source/exams.rst:126 ../source/exams.rst:134
-msgid "16"
-msgstr ""
-
-#: ../source/exams.rst:49
-msgid "501311"
-msgstr ""
-
-#: ../source/exams.rst:51 ../source/exams.rst:55 ../source/exams.rst:61
-#: ../source/exams.rst:130 ../source/exams.rst:136 ../source/exams.rst:138
-#: ../source/exams.rst:168
-msgid "17"
-msgstr ""
-
-#: ../source/exams.rst:51
-msgid "533951"
-msgstr ""
-
-#: ../source/exams.rst:51 ../source/exams.rst:65 ../source/exams.rst:150
-#: ../source/exams.rst:206
-msgid "24"
-msgstr ""
-
-#: ../source/exams.rst:53
-msgid "239927"
-msgstr ""
-
-#: ../source/exams.rst:55 ../source/exams.rst:57 ../source/exams.rst:122
-#: ../source/exams.rst:124 ../source/exams.rst:140
-msgid "19"
-msgstr ""
-
-#: ../source/exams.rst:55
-msgid "547511"
-msgstr ""
-
-#: ../source/exams.rst:57
-msgid "546505"
-msgstr ""
-
-#: ../source/exams.rst:57 ../source/exams.rst:75 ../source/exams.rst:116
-#: ../source/exams.rst:128 ../source/exams.rst:136 ../source/exams.rst:160
-#: ../source/exams.rst:170 ../source/exams.rst:172 ../source/exams.rst:178
-msgid "29"
-msgstr ""
-
-#: ../source/exams.rst:59
-msgid "550562"
-msgstr ""
-
-#: ../source/exams.rst:61 ../source/exams.rst:75 ../source/exams.rst:77
-#: ../source/exams.rst:146 ../source/exams.rst:158
-msgid "22"
-msgstr ""
-
-#: ../source/exams.rst:61
-msgid "537018"
-msgstr ""
-
-#: ../source/exams.rst:63 ../source/exams.rst:148 ../source/exams.rst:164
+#: ../source/exams.rst:21 ../source/exams.rst:99 ../source/exams.rst:184
+#: ../source/exams.rst:200
 msgid "23"
 msgstr ""
 
-#: ../source/exams.rst:63
-msgid "546425"
+#: ../source/exams.rst:23
+msgid "552166"
 msgstr ""
 
-#: ../source/exams.rst:65
-msgid "504902"
+#: ../source/exams.rst:23 ../source/exams.rst:27 ../source/exams.rst:29
+#: ../source/exams.rst:31 ../source/exams.rst:33 ../source/exams.rst:59
+#: ../source/exams.rst:61 ../source/exams.rst:63 ../source/exams.rst:65
+#: ../source/exams.rst:67 ../source/exams.rst:73 ../source/exams.rst:75
+#: ../source/exams.rst:77 ../source/exams.rst:79 ../source/exams.rst:81
+#: ../source/exams.rst:87 ../source/exams.rst:89 ../source/exams.rst:93
+#: ../source/exams.rst:95 ../source/exams.rst:99 ../source/exams.rst:107
+#: ../source/exams.rst:111 ../source/exams.rst:113 ../source/exams.rst:140
+#: ../source/exams.rst:142 ../source/exams.rst:144 ../source/exams.rst:146
+#: ../source/exams.rst:148 ../source/exams.rst:150 ../source/exams.rst:152
+#: ../source/exams.rst:156 ../source/exams.rst:158 ../source/exams.rst:160
+#: ../source/exams.rst:172 ../source/exams.rst:174 ../source/exams.rst:176
+#: ../source/exams.rst:178 ../source/exams.rst:180 ../source/exams.rst:182
+#: ../source/exams.rst:184 ../source/exams.rst:186 ../source/exams.rst:188
+#: ../source/exams.rst:190 ../source/exams.rst:198 ../source/exams.rst:204
+#: ../source/exams.rst:206 ../source/exams.rst:208 ../source/exams.rst:214
+msgid "6"
 msgstr ""
 
-#: ../source/exams.rst:65 ../source/exams.rst:112
-msgid "13.5"
+#: ../source/exams.rst:23 ../source/exams.rst:87 ../source/exams.rst:91
+#: ../source/exams.rst:97 ../source/exams.rst:166 ../source/exams.rst:172
+#: ../source/exams.rst:174 ../source/exams.rst:204
+msgid "17"
 msgstr ""
 
-#: ../source/exams.rst:67 ../source/exams.rst:126 ../source/exams.rst:138
-#: ../source/exams.rst:152 ../source/exams.rst:156
-msgid "25"
+#: ../source/exams.rst:23 ../source/exams.rst:61 ../source/exams.rst:63
+#: ../source/exams.rst:67 ../source/exams.rst:73 ../source/exams.rst:93
+#: ../source/exams.rst:97 ../source/exams.rst:107 ../source/exams.rst:150
+#: ../source/exams.rst:156 ../source/exams.rst:158 ../source/exams.rst:180
+#: ../source/exams.rst:184 ../source/exams.rst:186 ../source/exams.rst:188
+#: ../source/exams.rst:190
+msgid "10"
 msgstr ""
 
-#: ../source/exams.rst:67 ../source/exams.rst:200
-msgid "534346"
+#: ../source/exams.rst:23 ../source/exams.rst:55 ../source/exams.rst:89
+#: ../source/exams.rst:91 ../source/exams.rst:97 ../source/exams.rst:103
+#: ../source/exams.rst:107 ../source/exams.rst:192
+msgid "27"
 msgstr ""
 
-#: ../source/exams.rst:67 ../source/exams.rst:73 ../source/exams.rst:77
+#: ../source/exams.rst:25 ../source/exams.rst:95
+msgid "550562"
+msgstr ""
+
+#: ../source/exams.rst:25 ../source/exams.rst:31 ../source/exams.rst:33
+#: ../source/exams.rst:103 ../source/exams.rst:109 ../source/exams.rst:113
 msgid "Esonerato"
 msgstr "Exonerated"
 
-#: ../source/exams.rst:69 ../source/exams.rst:208
-msgid "523520"
+#: ../source/exams.rst:25 ../source/exams.rst:69 ../source/exams.rst:89
+#: ../source/exams.rst:95 ../source/exams.rst:174 ../source/exams.rst:190
+#: ../source/exams.rst:192
+msgid "18"
 msgstr ""
 
-#: ../source/exams.rst:71 ../source/exams.rst:214
-msgid "547434"
+#: ../source/exams.rst:27
+msgid "546436"
 msgstr ""
 
-#: ../source/exams.rst:73 ../source/exams.rst:202
-msgid "550030"
+#: ../source/exams.rst:27
+msgid "6.75"
 msgstr ""
 
-#: ../source/exams.rst:75
-msgid "505846"
+#: ../source/exams.rst:27
+msgid "18.75"
 msgstr ""
 
-#: ../source/exams.rst:75 ../source/exams.rst:77 ../source/exams.rst:164
-msgid "15.5"
+#: ../source/exams.rst:29
+msgid "507967"
 msgstr ""
 
-#: ../source/exams.rst:77 ../source/exams.rst:204
-msgid "547985"
+#: ../source/exams.rst:29 ../source/exams.rst:55 ../source/exams.rst:77
+#: ../source/exams.rst:79 ../source/exams.rst:81 ../source/exams.rst:83
+#: ../source/exams.rst:105 ../source/exams.rst:111 ../source/exams.rst:152
+#: ../source/exams.rst:164 ../source/exams.rst:170 ../source/exams.rst:182
+msgid "5.5"
 msgstr ""
 
-#: ../source/exams.rst:79 ../source/exams.rst:164
-msgid "31"
+#: ../source/exams.rst:29
+msgid "7.75"
 msgstr ""
 
-#: ../source/exams.rst:79
-msgid "547210"
+#: ../source/exams.rst:29
+msgid "19.25"
 msgstr ""
 
-#: ../source/exams.rst:81 ../source/exams.rst:166
-msgid "32"
+#: ../source/exams.rst:29 ../source/exams.rst:31 ../source/exams.rst:103
+#: ../source/exams.rst:162 ../source/exams.rst:174 ../source/exams.rst:188
+#: ../source/exams.rst:192
+msgid "25"
 msgstr ""
 
-#: ../source/exams.rst:81
-msgid "546437"
+#: ../source/exams.rst:31 ../source/exams.rst:67 ../source/exams.rst:87
+#: ../source/exams.rst:93 ../source/exams.rst:95 ../source/exams.rst:103
+#: ../source/exams.rst:105 ../source/exams.rst:109 ../source/exams.rst:152
+#: ../source/exams.rst:158 ../source/exams.rst:176 ../source/exams.rst:190
+#: ../source/exams.rst:200 ../source/exams.rst:210
+msgid "7"
 msgstr ""
 
-#: ../source/exams.rst:83 ../source/exams.rst:168
-msgid "33"
+#: ../source/exams.rst:31 ../source/exams.rst:75
+msgid "549475"
 msgstr ""
 
-#: ../source/exams.rst:83 ../source/exams.rst:210
+#: ../source/exams.rst:31 ../source/exams.rst:55 ../source/exams.rst:75
+#: ../source/exams.rst:83 ../source/exams.rst:105 ../source/exams.rst:202
+msgid "18.5"
+msgstr ""
+
+#: ../source/exams.rst:33 ../source/exams.rst:146
+msgid "546845"
+msgstr ""
+
+#: ../source/exams.rst:33 ../source/exams.rst:83 ../source/exams.rst:144
+#: ../source/exams.rst:146 ../source/exams.rst:168 ../source/exams.rst:176
+msgid "15"
+msgstr ""
+
+#: ../source/exams.rst:33 ../source/exams.rst:59 ../source/exams.rst:63
+#: ../source/exams.rst:67 ../source/exams.rst:73 ../source/exams.rst:89
+#: ../source/exams.rst:95 ../source/exams.rst:107 ../source/exams.rst:176
+#: ../source/exams.rst:180 ../source/exams.rst:184 ../source/exams.rst:186
+#: ../source/exams.rst:188 ../source/exams.rst:212 ../source/exams.rst:214
+msgid "21"
+msgstr ""
+
+#: ../source/exams.rst:35 ../source/exams.rst:55 ../source/exams.rst:59
+#: ../source/exams.rst:61 ../source/exams.rst:63 ../source/exams.rst:65
+#: ../source/exams.rst:67 ../source/exams.rst:69 ../source/exams.rst:71
+#: ../source/exams.rst:73 ../source/exams.rst:77 ../source/exams.rst:81
+#: ../source/exams.rst:83 ../source/exams.rst:87 ../source/exams.rst:89
+#: ../source/exams.rst:91 ../source/exams.rst:99 ../source/exams.rst:105
+#: ../source/exams.rst:107 ../source/exams.rst:111 ../source/exams.rst:140
+#: ../source/exams.rst:142 ../source/exams.rst:152 ../source/exams.rst:156
+#: ../source/exams.rst:158 ../source/exams.rst:160 ../source/exams.rst:162
+#: ../source/exams.rst:164 ../source/exams.rst:166 ../source/exams.rst:180
+#: ../source/exams.rst:182 ../source/exams.rst:184 ../source/exams.rst:186
+#: ../source/exams.rst:188 ../source/exams.rst:202 ../source/exams.rst:208
+#: ../source/exams.rst:214
+msgid "9"
+msgstr ""
+
+#: ../source/exams.rst:35 ../source/exams.rst:119 ../source/exams.rst:246
 msgid "577378"
 msgstr ""
 
-#: ../source/exams.rst:92
+#: ../source/exams.rst:35 ../source/exams.rst:57 ../source/exams.rst:71
+#: ../source/exams.rst:115 ../source/exams.rst:117 ../source/exams.rst:119
+#: ../source/exams.rst:154 ../source/exams.rst:196 ../source/exams.rst:246
+#: ../source/exams.rst:248
+msgid "N.D."
+msgstr ""
+
+#: ../source/exams.rst:35
+msgid "N.D"
+msgstr ""
+
+#: ../source/exams.rst:43
+msgid "28/02/2022"
+msgstr ""
+
+#: ../source/exams.rst:45
+msgid ""
+"Testo d'esame: :download:`3 <esami/220228-3-it.pdf>`, :download:`4 "
+"<esami/220228-4-it.pdf>`"
+msgstr ""
+"Examination test: :download:`3 <esami/220228-3-en.pdf>`, :download:`4 "
+"<esami/220228-4-en.pdf>`"
+
+#: ../source/exams.rst:55
+msgid "548280"
+msgstr ""
+
+#: ../source/exams.rst:55 ../source/exams.rst:75 ../source/exams.rst:152
+#: ../source/exams.rst:178 ../source/exams.rst:200 ../source/exams.rst:206
+#: ../source/exams.rst:212
+msgid "8.5"
+msgstr ""
+
+#: ../source/exams.rst:57
+msgid "533710"
+msgstr ""
+
+#: ../source/exams.rst:59
+msgid "548288"
+msgstr ""
+
+#: ../source/exams.rst:59 ../source/exams.rst:61 ../source/exams.rst:73
+#: ../source/exams.rst:81 ../source/exams.rst:113 ../source/exams.rst:150
+#: ../source/exams.rst:156 ../source/exams.rst:178 ../source/exams.rst:182
+#: ../source/exams.rst:198
+msgid "30"
+msgstr ""
+
+#: ../source/exams.rst:61
+msgid "547887"
+msgstr ""
+
+#: ../source/exams.rst:61 ../source/exams.rst:93 ../source/exams.rst:99
+#: ../source/exams.rst:103 ../source/exams.rst:109 ../source/exams.rst:140
+#: ../source/exams.rst:142 ../source/exams.rst:150 ../source/exams.rst:156
+#: ../source/exams.rst:178 ../source/exams.rst:198 ../source/exams.rst:208
+msgid "20"
+msgstr ""
+
+#: ../source/exams.rst:63
+msgid "550043"
+msgstr ""
+
+#: ../source/exams.rst:63 ../source/exams.rst:67 ../source/exams.rst:107
+#: ../source/exams.rst:180 ../source/exams.rst:184 ../source/exams.rst:186
+#: ../source/exams.rst:188
+msgid "30cumlaude"
+msgstr ""
+
+#: ../source/exams.rst:65
+msgid "524441"
+msgstr ""
+
+#: ../source/exams.rst:65 ../source/exams.rst:79 ../source/exams.rst:164
+#: ../source/exams.rst:172
+msgid "19.5"
+msgstr ""
+
+#: ../source/exams.rst:65 ../source/exams.rst:69 ../source/exams.rst:79
+#: ../source/exams.rst:83 ../source/exams.rst:105 ../source/exams.rst:140
+#: ../source/exams.rst:166 ../source/exams.rst:190
+msgid "26"
+msgstr ""
+
+#: ../source/exams.rst:67
+msgid "547007"
+msgstr ""
+
+#: ../source/exams.rst:69
+msgid "546543"
+msgstr ""
+
+#: ../source/exams.rst:71
+msgid "533685"
+msgstr ""
+
+#: ../source/exams.rst:73
+msgid "533168"
+msgstr ""
+
+#: ../source/exams.rst:75 ../source/exams.rst:160 ../source/exams.rst:168
+msgid "11"
+msgstr ""
+
+#: ../source/exams.rst:77 ../source/exams.rst:162
+msgid "12"
+msgstr ""
+
+#: ../source/exams.rst:77
+msgid "547999"
+msgstr ""
+
+#: ../source/exams.rst:77 ../source/exams.rst:81 ../source/exams.rst:152
+#: ../source/exams.rst:178 ../source/exams.rst:182 ../source/exams.rst:206
+msgid "20.5"
+msgstr ""
+
+#: ../source/exams.rst:77 ../source/exams.rst:109 ../source/exams.rst:158
+#: ../source/exams.rst:160 ../source/exams.rst:190 ../source/exams.rst:194
+#: ../source/exams.rst:202
+msgid "28"
+msgstr ""
+
+#: ../source/exams.rst:79 ../source/exams.rst:109 ../source/exams.rst:164
+#: ../source/exams.rst:170
+msgid "13"
+msgstr ""
+
+#: ../source/exams.rst:79
+msgid "548395"
+msgstr ""
+
+#: ../source/exams.rst:81 ../source/exams.rst:166 ../source/exams.rst:194
+#: ../source/exams.rst:198
+msgid "14"
+msgstr ""
+
+#: ../source/exams.rst:81
+msgid "548013"
+msgstr ""
+
+#: ../source/exams.rst:81 ../source/exams.rst:91 ../source/exams.rst:172
+#: ../source/exams.rst:178 ../source/exams.rst:182
+msgid "9.5"
+msgstr ""
+
+#: ../source/exams.rst:83
+msgid "546420"
+msgstr ""
+
+#: ../source/exams.rst:85 ../source/exams.rst:162 ../source/exams.rst:170
+msgid "16"
+msgstr ""
+
+#: ../source/exams.rst:85
+msgid "501311"
+msgstr ""
+
+#: ../source/exams.rst:87
+msgid "533951"
+msgstr ""
+
+#: ../source/exams.rst:87 ../source/exams.rst:101 ../source/exams.rst:186
+#: ../source/exams.rst:242
+msgid "24"
+msgstr ""
+
+#: ../source/exams.rst:89
+msgid "239927"
+msgstr ""
+
+#: ../source/exams.rst:91 ../source/exams.rst:93 ../source/exams.rst:158
+#: ../source/exams.rst:160 ../source/exams.rst:176
+msgid "19"
+msgstr ""
+
+#: ../source/exams.rst:91
+msgid "547511"
+msgstr ""
+
+#: ../source/exams.rst:93
+msgid "546505"
+msgstr ""
+
+#: ../source/exams.rst:93 ../source/exams.rst:111 ../source/exams.rst:152
+#: ../source/exams.rst:164 ../source/exams.rst:172 ../source/exams.rst:196
+#: ../source/exams.rst:206 ../source/exams.rst:208 ../source/exams.rst:214
+msgid "29"
+msgstr ""
+
+#: ../source/exams.rst:97 ../source/exams.rst:111 ../source/exams.rst:113
+#: ../source/exams.rst:182 ../source/exams.rst:194
+msgid "22"
+msgstr ""
+
+#: ../source/exams.rst:97
+msgid "537018"
+msgstr ""
+
+#: ../source/exams.rst:99
+msgid "546425"
+msgstr ""
+
+#: ../source/exams.rst:101
+msgid "504902"
+msgstr ""
+
+#: ../source/exams.rst:101 ../source/exams.rst:148
+msgid "13.5"
+msgstr ""
+
+#: ../source/exams.rst:103 ../source/exams.rst:236
+msgid "534346"
+msgstr ""
+
+#: ../source/exams.rst:105 ../source/exams.rst:244
+msgid "523520"
+msgstr ""
+
+#: ../source/exams.rst:107 ../source/exams.rst:250
+msgid "547434"
+msgstr ""
+
+#: ../source/exams.rst:109 ../source/exams.rst:238
+msgid "550030"
+msgstr ""
+
+#: ../source/exams.rst:111
+msgid "505846"
+msgstr ""
+
+#: ../source/exams.rst:111 ../source/exams.rst:113 ../source/exams.rst:200
+msgid "15.5"
+msgstr ""
+
+#: ../source/exams.rst:113 ../source/exams.rst:240
+msgid "547985"
+msgstr ""
+
+#: ../source/exams.rst:115 ../source/exams.rst:200
+msgid "31"
+msgstr ""
+
+#: ../source/exams.rst:115
+msgid "547210"
+msgstr ""
+
+#: ../source/exams.rst:117 ../source/exams.rst:202
+msgid "32"
+msgstr ""
+
+#: ../source/exams.rst:117
+msgid "546437"
+msgstr ""
+
+#: ../source/exams.rst:119 ../source/exams.rst:204
+msgid "33"
+msgstr ""
+
+#: ../source/exams.rst:128
 msgid "21/02/2022"
 msgstr ""
 
-#: ../source/exams.rst:94
+#: ../source/exams.rst:130
 msgid ""
 "Testo d'esame: :download:`it-1 <esami/220221-1-it.pdf>`, :download:`en-1 "
 "<esami/220221-1-en.pdf>`, :download:`it-2 <esami/220221-2-it.pdf>`, "
@@ -544,217 +626,205 @@ msgstr ""
 ":download:`en-1 <esami/220221-1-en.pdf>`, :download:`it-2 "
 "<esami/220221-2-it.pdf>`, :download:`en-2 <esami/220221-2-en.pdf>`"
 
-#: ../source/exams.rst:104
+#: ../source/exams.rst:140
 msgid "546799"
 msgstr ""
 
-#: ../source/exams.rst:106
+#: ../source/exams.rst:142
 msgid "524747"
 msgstr ""
 
-#: ../source/exams.rst:106 ../source/exams.rst:108 ../source/exams.rst:110
-#: ../source/exams.rst:112 ../source/exams.rst:132 ../source/exams.rst:134
-#: ../source/exams.rst:168 ../source/exams.rst:174 ../source/exams.rst:200
-#: ../source/exams.rst:202 ../source/exams.rst:204 ../source/exams.rst:208
-#: ../source/exams.rst:214
+#: ../source/exams.rst:142 ../source/exams.rst:144 ../source/exams.rst:146
+#: ../source/exams.rst:148 ../source/exams.rst:168 ../source/exams.rst:170
+#: ../source/exams.rst:204 ../source/exams.rst:210 ../source/exams.rst:236
+#: ../source/exams.rst:238 ../source/exams.rst:240 ../source/exams.rst:244
+#: ../source/exams.rst:250
 msgid "Insuf."
 msgstr ""
 
-#: ../source/exams.rst:108
+#: ../source/exams.rst:144
 msgid "546547"
 msgstr ""
 
-#: ../source/exams.rst:110
-msgid "546845"
-msgstr ""
-
-#: ../source/exams.rst:112
+#: ../source/exams.rst:148
 msgid "546672"
 msgstr ""
 
-#: ../source/exams.rst:112 ../source/exams.rst:174
+#: ../source/exams.rst:148 ../source/exams.rst:210
 msgid "1.5"
 msgstr ""
 
-#: ../source/exams.rst:114
+#: ../source/exams.rst:150
 msgid "533629"
 msgstr ""
 
-#: ../source/exams.rst:116
+#: ../source/exams.rst:152
 msgid "547762"
 msgstr ""
 
-#: ../source/exams.rst:118
+#: ../source/exams.rst:154
 msgid "575984"
 msgstr ""
 
-#: ../source/exams.rst:120
+#: ../source/exams.rst:156
 msgid "550957"
 msgstr ""
 
-#: ../source/exams.rst:122
+#: ../source/exams.rst:158
 msgid "552429"
 msgstr ""
 
-#: ../source/exams.rst:124
+#: ../source/exams.rst:160
 msgid "546429"
 msgstr ""
 
-#: ../source/exams.rst:126
+#: ../source/exams.rst:162
 msgid "546902"
 msgstr ""
 
-#: ../source/exams.rst:128
+#: ../source/exams.rst:164
 msgid "546586"
 msgstr ""
 
-#: ../source/exams.rst:130
+#: ../source/exams.rst:166
 msgid "548914"
 msgstr ""
 
-#: ../source/exams.rst:132
-msgid "538593"
-msgstr ""
-
-#: ../source/exams.rst:134
+#: ../source/exams.rst:170
 msgid "533954"
 msgstr ""
 
-#: ../source/exams.rst:134
+#: ../source/exams.rst:170
 msgid "2.5"
 msgstr ""
 
-#: ../source/exams.rst:136
+#: ../source/exams.rst:172
 msgid "549086"
 msgstr ""
 
-#: ../source/exams.rst:138
+#: ../source/exams.rst:174
 msgid "548949"
 msgstr ""
 
-#: ../source/exams.rst:140
+#: ../source/exams.rst:176
 msgid "552764"
 msgstr ""
 
-#: ../source/exams.rst:142
+#: ../source/exams.rst:178
 msgid "547040"
 msgstr ""
 
-#: ../source/exams.rst:144
+#: ../source/exams.rst:180
 msgid "546722"
 msgstr ""
 
-#: ../source/exams.rst:146
+#: ../source/exams.rst:182
 msgid "546723"
 msgstr ""
 
-#: ../source/exams.rst:148
+#: ../source/exams.rst:184
 msgid "550337"
 msgstr ""
 
-#: ../source/exams.rst:150
+#: ../source/exams.rst:186
 msgid "547344"
 msgstr ""
 
-#: ../source/exams.rst:152
+#: ../source/exams.rst:188
 msgid "546934"
 msgstr ""
 
-#: ../source/exams.rst:154
+#: ../source/exams.rst:190
 msgid "548039"
 msgstr ""
 
-#: ../source/exams.rst:156
+#: ../source/exams.rst:192
 msgid "523963"
 msgstr ""
 
-#: ../source/exams.rst:156 ../source/exams.rst:166
+#: ../source/exams.rst:192 ../source/exams.rst:202
 msgid "6.5"
 msgstr ""
 
-#: ../source/exams.rst:158
+#: ../source/exams.rst:194
 msgid "547410"
 msgstr ""
 
-#: ../source/exams.rst:160
+#: ../source/exams.rst:196
 msgid "546452"
 msgstr ""
 
-#: ../source/exams.rst:162
+#: ../source/exams.rst:198
 msgid "525080"
 msgstr ""
 
-#: ../source/exams.rst:164
+#: ../source/exams.rst:200
 msgid "540143"
 msgstr ""
 
-#: ../source/exams.rst:166
+#: ../source/exams.rst:202
 msgid "546590"
 msgstr ""
 
-#: ../source/exams.rst:168
+#: ../source/exams.rst:204
 msgid "524793"
 msgstr ""
 
-#: ../source/exams.rst:170
+#: ../source/exams.rst:206
 msgid "34"
 msgstr ""
 
-#: ../source/exams.rst:170
+#: ../source/exams.rst:206
 msgid "550745"
 msgstr ""
 
-#: ../source/exams.rst:172
+#: ../source/exams.rst:208
 msgid "35"
 msgstr ""
 
-#: ../source/exams.rst:172
+#: ../source/exams.rst:208
 msgid "546913"
 msgstr ""
 
-#: ../source/exams.rst:174
+#: ../source/exams.rst:210
 msgid "36"
 msgstr ""
 
-#: ../source/exams.rst:174
+#: ../source/exams.rst:210
 msgid "463654"
 msgstr ""
 
-#: ../source/exams.rst:176
+#: ../source/exams.rst:212
 msgid "37"
 msgstr ""
 
-#: ../source/exams.rst:176
+#: ../source/exams.rst:212
 msgid "546367"
 msgstr ""
 
-#: ../source/exams.rst:176
-msgid "12.5"
-msgstr ""
-
-#: ../source/exams.rst:176
+#: ../source/exams.rst:212
 msgid "8,5"
 msgstr ""
 
-#: ../source/exams.rst:178
+#: ../source/exams.rst:214
 msgid "38"
 msgstr ""
 
-#: ../source/exams.rst:178
+#: ../source/exams.rst:214
 msgid "547804"
 msgstr ""
 
-#: ../source/exams.rst:184 ../source/exams.rst:217
+#: ../source/exams.rst:220 ../source/exams.rst:253
 msgid ""
 "*N.D.* indica che non è stata firmata la liberatoria per la pubblicazione"
 " dei risultati."
 msgstr "*N.D.* indicates that the publication has not been allowed"
 
-#: ../source/exams.rst:190
+#: ../source/exams.rst:226
 msgid "26/01/2022"
 msgstr ""
 
-#: ../source/exams.rst:192
+#: ../source/exams.rst:228
 msgid ""
 "Testo d'esame: :download:`it <esami/220126-it.pdf>`, :download:`en "
 "<esami/220126-en.pdf>`, :download:`sorgente e soluzione (aggiornato il "
@@ -764,71 +834,71 @@ msgstr ""
 "<esami/220126-en.pdf>`, :download:`source code and solution (last update:"
 " 09/02/2022) <esami/220126-PROGv2.zip>`"
 
-#: ../source/exams.rst:198
+#: ../source/exams.rst:234
 msgid "**Matricola**"
 msgstr "**Student ID**"
 
-#: ../source/exams.rst:198
+#: ../source/exams.rst:234
 msgid "**Teoria**"
 msgstr "**Theory**"
 
-#: ../source/exams.rst:198
+#: ../source/exams.rst:234
 msgid "**Programmazione**"
 msgstr "**Programming**"
 
-#: ../source/exams.rst:198
+#: ../source/exams.rst:234
 msgid "**Totale**"
 msgstr "**Total**"
 
-#: ../source/exams.rst:200
+#: ../source/exams.rst:236
 msgid "20/21"
 msgstr ""
 
-#: ../source/exams.rst:200 ../source/exams.rst:204
+#: ../source/exams.rst:236 ../source/exams.rst:240
 msgid "0/10"
 msgstr ""
 
-#: ../source/exams.rst:202
+#: ../source/exams.rst:238
 msgid "13/21"
 msgstr ""
 
-#: ../source/exams.rst:202
+#: ../source/exams.rst:238
 msgid "3/10"
 msgstr ""
 
-#: ../source/exams.rst:204
+#: ../source/exams.rst:240
 msgid "15.5/21"
 msgstr ""
 
-#: ../source/exams.rst:206
+#: ../source/exams.rst:242
 msgid "547002"
 msgstr ""
 
-#: ../source/exams.rst:206
+#: ../source/exams.rst:242
 msgid "18/21"
 msgstr ""
 
-#: ../source/exams.rst:206
+#: ../source/exams.rst:242
 msgid "6/10"
 msgstr ""
 
-#: ../source/exams.rst:208
+#: ../source/exams.rst:244
 msgid "12/21"
 msgstr ""
 
-#: ../source/exams.rst:208
+#: ../source/exams.rst:244
 msgid "4/10"
 msgstr ""
 
-#: ../source/exams.rst:212
+#: ../source/exams.rst:248
 msgid "553700"
 msgstr ""
 
-#: ../source/exams.rst:214
+#: ../source/exams.rst:250
 msgid "3/21"
 msgstr ""
 
-#: ../source/exams.rst:214
+#: ../source/exams.rst:250
 msgid "10/10"
 msgstr ""
 
@@ -836,5 +906,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Esame 21/02/2022"
+#~ msgstr ""
+
+#~ msgid "12.7"
 #~ msgstr ""
 
