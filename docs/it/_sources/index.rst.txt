@@ -10,7 +10,10 @@ News
 
 .. warning::
   
-  Tutti gli studenti prenotati per l'appello del 24 Giugno sono convocati alle 10.00 in Aula Campus
+  Assegnazioni per i turni dell'appello del 20 Luglio 2022
+
+  *  Numero di prenotazione strettamente minore di 44: 20/07/2022 - ore 10 Aula Campus
+  *  Numero di prenotazione maggiore o uguale a 44: : 20/07/2022 - ore 14 Aula Campus
   
 * :ref:`n29-06-2022`, consultabili su :doc:`exams`
 * :ref:`n14-06-2022`
