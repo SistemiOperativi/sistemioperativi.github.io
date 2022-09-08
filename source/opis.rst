@@ -5,7 +5,7 @@ Al fine di raccogliere il più rapidamente possibile le opinioni e tenerne conto
 ho ritenuto opportuno realizzare un questionario anonimo su Google Form attivo dal 27 Febbraio 2022 al 15 Marzo 2022.
 
 Il questionario comprende sia domande a risposta multipla, sia domande a risposta aperta.
-Per quest'ultime ho provveduto a classificarle manualmente per realizzare dei grafici riassuntivi (risultati RAW sono consultabili su `<https://docs.google.com/spreadsheets/d/1Xmda18ccrGkfllDsObkY2uUGMpDEfYk-zwrpbVxPApM/edit?usp=sharing>`__).
+Per quest'ultime ho provveduto a classificarle manualmente per realizzare dei grafici riassuntivi (risultati RAW sono consultabili su `<https://docs.google.com/forms/d/1WlLehZmV9-xGtijc0Yj62Uw99A_j6x6KkorLolu249k/viewanalytics>`__).
 
 A seguire sono disponibili:
 
@@ -17,7 +17,8 @@ A seguire sono disponibili:
 Ringrazio tutti gli studenti e le studentesse per la collaborazione.
 
 
-Dati e commenti
+
+Dati e considerazioni
 -------------------------------
 
 .. figure:: /_static/images/opis/contenutodelcorso.svg
@@ -26,9 +27,9 @@ Dati e commenti
 
 .. observation_note::
 
-    Sebbene, il corso sembra aver suscitato interesse e rispettato le aspettative, risulta evidente una difficoltà
-    nella parte di programmazione C.
-    Di conseguenza, verrà ampliato nelle future riedizioni, l'insieme di esercizi di programmazione C disponibili durante l'erogazione del corso e creata una nuova sezione per scripting shell.
+    Il corso ha suscitato interesse e rispettato le aspettative. 
+    Sebbene oltre il 50% degli studenti presentatisi ad almeno un appello ha superato l'esame, circa il 50% gradirebbe approfondire la parte di programmazione.
+    Di conseguenza, verrà ampliato l'insieme di esercizi di programmazione C disponibili durante l'erogazione del corso e creata una nuova sezione per scripting shell.
 
 
 .. figure:: /_static/images/opis/criticheesame.svg
@@ -37,7 +38,7 @@ Dati e commenti
 
 .. observation_note::
 
-    Nonostante non siano pervenute particolari criticità nell'impostazione delle prove di esame verrà adottata una differente modalità di esame per ridurre l'occupazione della Campus. Ossia 2 prove distinte in 2 giorni distinti, approssimativamente 2h per la teoria 1h30m per la programmazione.
+    Nonostante non siano pervenute particolari criticità nell'impostazione delle prove di esame probabilmente verrà adottata una differente modalità di esame per ridurre l'occupazione della Aula Campus. Ossia 2 prove distinte in 2 giorni distinti, approssimativamente 2h per la teoria 1h30m per la programmazione.
     Infine, verranno aperte più challenge.
 
 .. figure:: /_static/images/opis/Sitodelcorso.svg
@@ -46,7 +47,8 @@ Dati e commenti
 
 .. observation_note::
 
-    Non verrà apportata alcuna modifica nella gestione attuale del sito. 
+    Non verrà apportata alcuna modifica nella gestione attuale del sito.
+    Sarà invece estesa la sezione di esempi ed esercizi.
 
 
 .. figure:: /_static/images/opis/Docente.svg
@@ -75,7 +77,7 @@ Dati e commenti
     In accordo con le disposizioni del Dipartimento, verrà tenuta in considerazione la possibilità di erogazione mista (presenza e streaming con registrazione).
 
 
-Alcuni commenti (positivi e negativi)
+Alcune commenti
 -------------------------------------
 
 | *"Disponibile, bravo a spiegare e coinvolgente."*
@@ -88,18 +90,11 @@ Alcuni commenti (positivi e negativi)
 
 | *"Uno dei primi corsi veramente tecnici che ci fanno mettere mano su sistemi reali."*
 
-| *"Professore molto disponibile a chiarimenti specialmente via mail..."*
-
 | *"...è disponibile, specialmente in prossimità dell'esame via mail, è stato in grado di farmi comprendere a pieno degli esercizi di programmazione che fino a 10 giorni prima dell'esame non mi erano stati chiarissimi a causa della preparazione di altri esami. Grazie alla disponibilità del prof via mail in prossimità dell'esame sono riuscito a superare questo quinto esame con 30. Grazie "*
 
-| *"A mio parere purtroppo tutti i vari problemi sono inerenti al fatto che sia il suo primo anno da professore. è veramente una persona bellissima sempre disposta ad aiutare e certamente molto preparata nella materia tuttavia il fatto che fosse il suo primo anno ha influito drasticamente. A mio parere cambiando un po' le slide e il modo di spiegare i vari argomenti nel giro di 2/3 anni potrebbe diventare uno dei migliori professori nella triennale di Ing. informatica. Concludo ringraziandola di cuore del gesto che ha fatto a Natale. Non mi sarei mai aspettato un gesto così da un professore e devo dirle che quel giorno mi ha fatto tornare a casa veramente felice."*
-
-| *"Il docente è preparato sulla materia e molto disponibile, ma (e non è una sua colpa) manca ancora di esperienza: credo solo attraverso di essa un professore possa capire quale sia il modo migliore per spiegare gli argomenti alla classe, che cosa solitamente crea più difficoltà agli studenti, quando fare esercizi e quanti/quali fare. Su questi aspetti non è stato ineccepibile. Infine penso che dovrebbe lavorare sulla sua capacità di attirare l'attenzione degli studenti quando spiega (ogni professore ha una tecnica diversa per ammaliare gli studenti, quindi non penso esista una ricetta unica). In generale credo che un buon professore debba essere non sono disponibile, ma anche sicuro di sé e autorevole."*
+| *"...A mio parere cambiando un po' le slide e il modo di spiegare i vari argomenti nel giro di 2/3 anni potrebbe diventare uno dei migliori professori nella triennale di Ing. informatica. Concludo ringraziandola di cuore del gesto che ha fatto a Natale. Non mi sarei mai aspettato un gesto così da un professore e devo dirle che quel giorno mi ha fatto tornare a casa veramente felice."*
 
 | *"Ottimo, ha gestito al meglio il corso, nonostante la scarsa esperienza di docenza ha sopperito con la grande competenza e l'empatia. Spero resti a Roma3, è un valore aggiunto."*
-
-| *"Ho apprezzato immensamente la sua disponibilità a chiarimenti e la bontà nel cercare di chiarire in ogni modo ogni dubbio che potesse esservi. Sicuramente come persona è molto buona e si vede che ci tiene ai suoi alunni (gesto a Natale e altre cose). Tuttavia i punti che mi hanno fatto pesare la materia sono stati la particolare difficoltà nel comprenderla durante le spiegazione e la quasi totale assenza di lezioni di programmazione (che per molto tempo mi hanno fatto pensare che avrei potuto dare solo la teoria poichè non sapevo assolutamente nulla di programmazione)."*
-
 
 | *"Ottimo sito didattico, tra i migliori che ho utilizzato."*
 

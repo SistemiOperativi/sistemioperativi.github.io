@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-07 18:26+0200\n"
+"POT-Creation-Date: 2022-09-08 02:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,77 +30,91 @@ msgid ""
 "2022 al 15 Marzo 2022."
 msgstr ""
 
-#: ../source/opis.rst:8
+#: ../source/opis.rst:7
 msgid ""
 "Il questionario comprende sia domande a risposta multipla, sia domande a "
 "risposta aperta. Per quest'ultime ho provveduto a classificarle "
 "manualmente per realizzare dei grafici riassuntivi (risultati RAW sono "
-"consultabili su `<https://docs.google.com/spreadsheets/d"
-"/1Xmda18ccrGkfllDsObkY2uUGMpDEfYk-zwrpbVxPApM/edit?usp=sharing>`__)."
+"consultabili su "
+"`<https://docs.google.com/forms/d/1WlLehZmV9-xGtijc0Yj62Uw99A_j6x6KkorLolu249k/viewanalytics>`__)."
 msgstr ""
 
-#: ../source/opis.rst:11
+#: ../source/opis.rst:10
 msgid "A seguire sono disponibili:"
 msgstr ""
 
-#: ../source/opis.rst:18
+#: ../source/opis.rst:17
 msgid "Ringrazio tutti gli studenti e le studentesse per la collaborazione."
 msgstr ""
 
 #: ../source/opis.rst:22
-msgid "Dati e commenti"
+msgid "Dati e considerazioni"
 msgstr ""
 
 msgid "Osservazione"
 msgstr ""
 
 #: ../source/opis.rst:30
+#, python-format
 msgid ""
-"Sebbene, il corso sembra aver suscitato interesse e rispettato le "
-"aspettative, risulta evidente una difficoltà nella parte di "
-"programmazione C. Di conseguenza, verrà ampliato nelle future riedizioni,"
-" l'insieme di esercizi di programmazione disponibili durante l'erogazione"
-" del corso."
+"Il corso ha suscitato interesse e rispettato le aspettative. Sebbene "
+"oltre il 50% degli studenti presentatisi ad almeno un appello ha superato"
+" l'esame, circa il 50% gradirebbe approfondire la parte di "
+"programmazione. Di conseguenza, verrà ampliato l'insieme di esercizi di "
+"programmazione C disponibili durante l'erogazione del corso e creata una "
+"nuova sezione per scripting shell."
 msgstr ""
 
 #: ../source/opis.rst:41
 msgid ""
 "Nonostante non siano pervenute particolari criticità nell'impostazione "
-"delle prove di esame verrà adottata una differente modalità di esame per "
-"ridurre l'occupazione della Campus. Ossia 2 prove distinte in 2 giorni "
-"distinti, approssimativamente 2h per la teoria 1h30m per la "
-"programmazione. Infine, verranno aperte più challenge."
+"delle prove di esame probabilmente verrà adottata una differente modalità"
+" di esame per ridurre l'occupazione della Aula Campus. Ossia 2 prove "
+"distinte in 2 giorni distinti, approssimativamente 2h per la teoria 1h30m"
+" per la programmazione. Infine, verranno aperte più challenge."
 msgstr ""
 
 #: ../source/opis.rst:50
-msgid "Non verrà apportata alcuna modifica nella gestione attuale del sito."
+msgid ""
+"Non verrà apportata alcuna modifica nella gestione attuale del sito. Sarà"
+" invece estesa la sezione di esempi ed esercizi."
 msgstr ""
 
-#: ../source/opis.rst:60
+#: ../source/opis.rst:61
 msgid ""
 "Sebbene la durata dei riepiloghi sia risultata adeguata, questa verrà "
 "leggermente ridotta in favore di un numero maggiore di esempi/esercizi "
 "discussi a lezione."
 msgstr ""
 
-#: ../source/opis.rst:68
+#: ../source/opis.rst:69
 msgid ""
 "Verrà esteso il set di approfondimenti. Le slide verranno allineate con i"
 " nuovi obiettivi del corso ed approfondite ove necessario."
 msgstr ""
 
-#: ../source/opis.rst:76
+#: ../source/opis.rst:77
 msgid ""
 "In accordo con le disposizioni del Dipartimento, verrà tenuta in "
 "considerazione la possibilità di erogazione mista (presenza e streaming "
 "con registrazione)."
 msgstr ""
 
-#: ../source/opis.rst:80
-msgid "Alcuni commenti (positivi e negativi)"
+#: ../source/opis.rst:81
+msgid "Alcune commenti"
 msgstr ""
 
-#: ../source/opis.rst:84
+#: ../source/opis.rst:83
+msgid "*\"Disponibile, bravo a spiegare e coinvolgente.\"*"
+msgstr ""
+
+#: ../source/opis.rst:85
+msgid ""
+"*\"Spiega molto bene ed è molto apprezzato che cerchi il confronto con "
+"gli studenti\"*"
+msgstr ""
+
+#: ../source/opis.rst:87
 msgid ""
 "*\"Seguire è stato divertente, anche se nella parte di programmazione ho "
 "avuto particolari difficoltà, viste le mie scarse conoscenze di tutto "
@@ -108,75 +122,20 @@ msgid ""
 "presenti sul sito aiutano non poco.\"*"
 msgstr ""
 
-#: ../source/opis.rst:86
-msgid ""
-"*\"A mio parere purtroppo tutti i vari problemi sono inerenti al fatto "
-"che sia il suo primo anno da professore. è veramente una persona "
-"bellissima sempre disposta ad aiutare e certamente molto preparata nella "
-"materia tuttavia il fatto che fosse il suo primo anno ha influito "
-"drasticamente. A mio parere cambiando un po' le slide e il modo di "
-"spiegare i vari argomenti nel giro di 2/3 anni potrebbe diventare uno dei"
-" migliori professori nella triennale di Ing. informatica. Concludo "
-"ringraziandola di cuore del gesto che ha fatto a Natale. Non mi sarei mai"
-" aspettato un gesto così da un professore e devo dirle che quel giorno mi"
-" ha fatto tornare a casa veramente felice.\"*"
-msgstr ""
-
-#: ../source/opis.rst:88
-msgid ""
-"*\"Uno dei primi corsi veramente tecnici che ci fanno mettere mano su "
-"sistemi reali.\"*"
-msgstr ""
-
-#: ../source/opis.rst:90
-msgid ""
-"*\"Professore molto disponibile a chiarimenti specialmente via mail (cosa"
-" super utile e positiva)...\"*"
-msgstr ""
-
-#: ../source/opis.rst:92
-msgid ""
-"*\"Il docente è preparato sulla materia e molto disponibile, ma (e non è "
-"una sua colpa) manca ancora di esperienza: credo solo attraverso di essa "
-"un professore possa capire quale sia il modo migliore per spiegare gli "
-"argomenti alla classe, che cosa solitamente crea più difficoltà agli "
-"studenti, quando fare esercizi e quanti/quali fare. Su questi aspetti non"
-" è stato ineccepibile. Infine penso che dovrebbe lavorare sulla sua "
-"capacità di attirare l'attenzione degli studenti quando spiega (ogni "
-"professore ha una tecnica diversa per ammaliare gli studenti, quindi non "
-"penso esista una ricetta unica). In generale credo che un buon professore"
-" debba essere non sono disponibile, ma anche sicuro di sé e "
-"autorevole.\"*"
-msgstr ""
-
-#: ../source/opis.rst:94
-msgid ""
-"*\"Ottimo, ha gestito al meglio il corso, nonostante la scarsa esperienza"
-" di docenza ha sopperito con la grande competenza e l'empatia. Spero "
-"resti a Roma3, è un valore aggiunto.\"*"
-msgstr ""
-
-#: ../source/opis.rst:96
+#: ../source/opis.rst:89
 msgid ""
 "*\"Estremamente disponibile. sprona a ragionare e ad arrivare alla "
 "soluzione usando la propria testa. mi ha fatto davvero capire come "
 "funzionano le cose\"*"
 msgstr ""
 
-#: ../source/opis.rst:98
+#: ../source/opis.rst:91
 msgid ""
-"*\"Ho apprezzato immensamente la sua disponibilità a chiarimenti e la "
-"bontà nel cercare di chiarire in ogni modo ogni dubbio che potesse "
-"esservi. Sicuramente come persona è molto buona e si vede che ci tiene ai"
-" suoi alunni (gesto a Natale e altre cose). Tuttavia i punti che mi hanno"
-" fatto pesare la materia sono stati la particolare difficoltà nel "
-"comprenderla durante le spiegazione e la quasi totale assenza di lezioni "
-"di programmazione (che per molto tempo mi hanno fatto pensare che avrei "
-"potuto dare solo la teoria poichè non sapevo assolutamente nulla di "
-"programmazione).\"*"
+"*\"Uno dei primi corsi veramente tecnici che ci fanno mettere mano su "
+"sistemi reali.\"*"
 msgstr ""
 
-#: ../source/opis.rst:100
+#: ../source/opis.rst:93
 msgid ""
 "*\"...è disponibile, specialmente in prossimità dell'esame via mail, è "
 "stato in grado di farmi comprendere a pieno degli esercizi di "
@@ -186,11 +145,28 @@ msgid ""
 "superare questo quinto esame con 30. Grazie \"*"
 msgstr ""
 
-#: ../source/opis.rst:102
+#: ../source/opis.rst:95
+msgid ""
+"*\"...A mio parere cambiando un po' le slide e il modo di spiegare i vari"
+" argomenti nel giro di 2/3 anni potrebbe diventare uno dei migliori "
+"professori nella triennale di Ing. informatica. Concludo ringraziandola "
+"di cuore del gesto che ha fatto a Natale. Non mi sarei mai aspettato un "
+"gesto così da un professore e devo dirle che quel giorno mi ha fatto "
+"tornare a casa veramente felice.\"*"
+msgstr ""
+
+#: ../source/opis.rst:97
+msgid ""
+"*\"Ottimo, ha gestito al meglio il corso, nonostante la scarsa esperienza"
+" di docenza ha sopperito con la grande competenza e l'empatia. Spero "
+"resti a Roma3, è un valore aggiunto.\"*"
+msgstr ""
+
+#: ../source/opis.rst:99
 msgid "*\"Ottimo sito didattico, tra i migliori che ho utilizzato.\"*"
 msgstr ""
 
-#: ../source/opis.rst:104
+#: ../source/opis.rst:101
 msgid ""
 "*\"Sito organizzato perfettamente, è parte essenziale per la "
 "preparazione.\"*"
@@ -772,5 +748,144 @@ msgstr ""
 #~ "professore e devo dirle che quel "
 #~ "giorno mi ha fatto tornare a casa"
 #~ " veramente felice.\"*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sebbene, il corso sembra aver suscitato"
+#~ " interesse e rispettato le aspettative, "
+#~ "risulta evidente una difficoltà nella "
+#~ "parte di programmazione C. Di "
+#~ "conseguenza, verrà ampliato nelle future "
+#~ "riedizioni, l'insieme di esercizi di "
+#~ "programmazione disponibili durante l'erogazione "
+#~ "del corso."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*\"Professore molto disponibile a chiarimenti"
+#~ " specialmente via mail (cosa super "
+#~ "utile e positiva)...\"*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sebbene, il corso sembra aver suscitato"
+#~ " interesse e rispettato le aspettative, "
+#~ "risulta evidente una difficoltà nella "
+#~ "parte di programmazione C. Di "
+#~ "conseguenza, verrà ampliato nelle future "
+#~ "riedizioni, l'insieme di esercizi di "
+#~ "programmazione C disponibili durante "
+#~ "l'erogazione del corso e creata una "
+#~ "nuova sezione per scripting shell."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nonostante non siano pervenute particolari "
+#~ "criticità nell'impostazione delle prove di "
+#~ "esame verrà adottata una differente "
+#~ "modalità di esame per ridurre "
+#~ "l'occupazione della Campus. Ossia 2 "
+#~ "prove distinte in 2 giorni distinti, "
+#~ "approssimativamente 2h per la teoria "
+#~ "1h30m per la programmazione. Infine, "
+#~ "verranno aperte più challenge."
+#~ msgstr ""
+
+#~ msgid "Non verrà apportata alcuna modifica nella gestione attuale del sito."
+#~ msgstr ""
+
+#~ msgid "Alcuni commenti (positivi e negativi)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*\"Professore molto disponibile a chiarimenti"
+#~ " specialmente via mail...\"*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*\"A mio parere purtroppo tutti i "
+#~ "vari problemi sono inerenti al fatto "
+#~ "che sia il suo primo anno da "
+#~ "professore. è veramente una persona "
+#~ "bellissima sempre disposta ad aiutare e"
+#~ " certamente molto preparata nella materia"
+#~ " tuttavia il fatto che fosse il "
+#~ "suo primo anno ha influito "
+#~ "drasticamente. A mio parere cambiando un"
+#~ " po' le slide e il modo di "
+#~ "spiegare i vari argomenti nel giro "
+#~ "di 2/3 anni potrebbe diventare uno "
+#~ "dei migliori professori nella triennale "
+#~ "di Ing. informatica. Concludo ringraziandola"
+#~ " di cuore del gesto che ha "
+#~ "fatto a Natale. Non mi sarei mai"
+#~ " aspettato un gesto così da un "
+#~ "professore e devo dirle che quel "
+#~ "giorno mi ha fatto tornare a casa"
+#~ " veramente felice.\"*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*\"Il docente è preparato sulla materia"
+#~ " e molto disponibile, ma (e non "
+#~ "è una sua colpa) manca ancora di"
+#~ " esperienza: credo solo attraverso di "
+#~ "essa un professore possa capire quale"
+#~ " sia il modo migliore per spiegare"
+#~ " gli argomenti alla classe, che cosa"
+#~ " solitamente crea più difficoltà agli "
+#~ "studenti, quando fare esercizi e "
+#~ "quanti/quali fare. Su questi aspetti non"
+#~ " è stato ineccepibile. Infine penso "
+#~ "che dovrebbe lavorare sulla sua capacità"
+#~ " di attirare l'attenzione degli studenti"
+#~ " quando spiega (ogni professore ha "
+#~ "una tecnica diversa per ammaliare gli"
+#~ " studenti, quindi non penso esista "
+#~ "una ricetta unica). In generale credo"
+#~ " che un buon professore debba essere"
+#~ " non sono disponibile, ma anche "
+#~ "sicuro di sé e autorevole.\"*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*\"Ho apprezzato immensamente la sua "
+#~ "disponibilità a chiarimenti e la bontà"
+#~ " nel cercare di chiarire in ogni "
+#~ "modo ogni dubbio che potesse esservi."
+#~ " Sicuramente come persona è molto "
+#~ "buona e si vede che ci tiene "
+#~ "ai suoi alunni (gesto a Natale e"
+#~ " altre cose). Tuttavia i punti che"
+#~ " mi hanno fatto pesare la materia "
+#~ "sono stati la particolare difficoltà nel"
+#~ " comprenderla durante le spiegazione e "
+#~ "la quasi totale assenza di lezioni "
+#~ "di programmazione (che per molto tempo"
+#~ " mi hanno fatto pensare che avrei "
+#~ "potuto dare solo la teoria poichè "
+#~ "non sapevo assolutamente nulla di "
+#~ "programmazione).\"*"
+#~ msgstr ""
+
+#~ msgid "Dati e commenti"
+#~ msgstr ""
+
+#~ msgid "Alcune critiche"
+#~ msgstr ""
+
+#~ msgid "Dati e osservazioni"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Il questionario comprende sia domande a"
+#~ " risposta multipla, sia domande a "
+#~ "risposta aperta. Per quest'ultime ho "
+#~ "provveduto a classificarle manualmente per "
+#~ "realizzare dei grafici riassuntivi (risultati"
+#~ " RAW sono consultabili su "
+#~ "`<https://docs.google.com/spreadsheets/d"
+#~ "/1Xmda18ccrGkfllDsObkY2uUGMpDEfYk-"
+#~ "zwrpbVxPApM/edit?usp=sharing>`__)."
 #~ msgstr ""
 
