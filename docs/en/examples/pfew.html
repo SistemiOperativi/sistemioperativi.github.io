@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PFEW - Posix-thread-based FEW &mdash; Operating Systems 2021/2022 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -20,9 +19,7 @@
         <script src="../_static/js/custom.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="PVST - Processes vs Threads" href="pvst.html" />
-    <link rel="prev" title="FEW - Fork-Exit-Wait" href="few.html" /> 
+    <link rel="search" title="Search" href="../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -42,29 +39,17 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul class="current">
+              <ul>
 <li class="toctree-l1"><a class="reference internal" href="../index.html">Operating Systems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../linux_install.html">Installing Linux</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../examples.html">Code examples</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="few.html">FEW - Fork-Exit-Wait</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">PFEW - Posix-thread-based FEW</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#riferimenti">References</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="pvst.html">PVST - Processes vs Threads</a></li>
-<li class="toctree-l2"><a class="reference internal" href="minshell.html">MinShell - the exec family</a></li>
-<li class="toctree-l2"><a class="reference internal" href="flipvector.html">FlipVector</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cp.html">CoPy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dup.html">Dup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="prodcons.html">ProdCons</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../examples.html">Code examples</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../questions.html">Training exercises</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lectures/index.html">Detailed program</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../challenges.html">Challenges</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../exams.html">Exams</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../editions.html">Edizioni del corso</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../errata.html">Errata Corrige</a></li>
 </ul>
 
@@ -82,7 +67,6 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="../examples.html">Code examples</a> &raquo;</li>
       <li>PFEW - Posix-thread-based FEW</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/examples/pfew.rst.txt" rel="nofollow"> View page source</a>
@@ -93,7 +77,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="pfew-few-basato-su-posix-threads">
+  <div class="section" id="pfew-few-basato-su-posix-threads">
 <h1>PFEW - Posix-thread-based FEW<a class="headerlink" href="#pfew-few-basato-su-posix-threads" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
@@ -150,7 +134,7 @@
 <ol class="arabic simple" start="3">
 <li><p>The child thread ends by calling <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html">pthread_exit</a>.</p></li>
 </ol>
-<section id="riferimenti">
+<div class="section" id="riferimenti">
 <h2>References<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_create</a></p></li>
@@ -160,22 +144,19 @@
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/waitpid.html">waitpid</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html">pthread_exit</a></p></li>
 </ul>
-</section>
-</section>
+</div>
+</div>
 
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="few.html" class="btn btn-neutral float-left" title="FEW - Fork-Exit-Wait" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="pvst.html" class="btn btn-neutral float-right" title="PVST - Processes vs Threads" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on Feb 18, 2022.
+      <span class="lastupdated">Last updated on Sep 26, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

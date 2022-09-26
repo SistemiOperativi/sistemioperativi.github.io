@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/examples/pfew.rst:5
+msgid "PFEW - FEW basato su posix threads"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:41
+msgid ""
+"Pthread FEW (:raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/pfew/pfew.c\">PFEW</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/pfew/pfew.c\"></a>`)"
+" è un semplice programma C per emulare il comportamento del programma "
+":doc:`FEW <few>`, ma utilizzando i thread al posto di processi."
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:46
+msgid "Di conseguenza PFEW:"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:48
+msgid "Creare un thread tramite :posix:`pthread_create <pthread_create>`."
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:51
+msgid ""
+"A differenza della :posix:`fork <fork>`, la :posix:`pthread_create "
+"<pthread_create>` richiede come terzo parametro la funzione che il thread"
+" child deve eseguire. Tale funzione riceve un parametro che corrisponde "
+"all'ultimo (quarto) paramentro di invocazione della "
+":posix:`pthread_create <pthread_create>`. Il primo parametro invece è un "
+"puntatore ad un'area di memoria dove il parent thread può accedere per "
+"ottenere il :code:`pthread_t`, ossia il thread id, caratteristico del "
+"thread child. Infine, il secondo parametro è un puntatore ad una "
+"struttura dati di tipo :code:`pthread_attr_t`, opportunamente "
+"inizializzata da un'invocazione a :posix:`pthread_attr_init "
+"<pthread_attr_init>`, attraverso la quale è possibile configurare alcune "
+"proprietà del thread child, tra cui:"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:61
+msgid "dimensione minima e posizione dello stack per il thread child;"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:62
+msgid "scheduling policy e priorità del thread child."
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:66
+msgid ""
+"Attendere la terminazione del thread child tramite :posix:`pthread_join "
+"<pthread_join>`."
+msgstr ""
+
+msgid "Osservazione"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:69
+msgid ""
+"A differenza di quanto accade per i processi con la funzione :posix:`wait"
+" <wait>`, per i posix thread non esiste una funzione per aspettare un "
+"generico thread child. La funzione :posix:`pthread_join <pthread_join>` "
+"infatti richiede l'id del thread da attendere come primo paramentro. Il "
+"secondo parametro invece è utilizzato per ricevere un payload generato "
+"dal thread child atteso. Nel caso dei processi, un comportamento simile è"
+" ottenibile grazie alla funzione :posix:`waitpid <waitpid>`."
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:75
+msgid "Il thread child termina con una :posix:`pthread_exit <pthread_exit>`."
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:80
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:82
+msgid ":posix:`pthread_create <pthread_create>`"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:83
+msgid ":posix:`pthread_attr_init <pthread_attr_init>`"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:84
+msgid ":linux:`pthread_attr_init <pthread_attr_init>`"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:85
+msgid ":posix:`pthread_join <pthread_join>`"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:86
+msgid ":posix:`waitpid <waitpid>`"
+msgstr ""
+
+#: ../source/2021/examples/pfew.rst:87
+msgid ":posix:`pthread_exit <pthread_exit>`"
+msgstr ""
+

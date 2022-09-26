@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/news/211216.rst:2
+msgid "16-12-2021 - avviso: aggionamenti"
+msgstr ""
+
+#: ../source/2021/news/211216.rst:4
+msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/2021/news/211216.rst:6
+msgid "aggiornato diario della lezione del 15/12/21"
+msgstr ""
+
+#: ../source/2021/news/211216.rst:7
+msgid "aggiunti commento dettagliato al sorgente di esempio cp"
+msgstr ""
+
+#: ../source/2021/news/211216.rst:9
+msgid "Microsoft Stream:"
+msgstr ""
+
+#: ../source/2021/news/211216.rst:11
+msgid "caricata lezione del 15/12/21"
+msgstr ""
+

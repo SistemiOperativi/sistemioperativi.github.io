@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-13 18:18+0100\n"
+"POT-Creation-Date: 2022-09-26 11:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,334 +18,330 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../source/challenges.rst:2
+#: ../source/challenges.rst:4
 msgid "Sfide"
 msgstr "Challenges"
 
-#: ../source/challenges.rst:5
-msgid "Requisiti"
-msgstr "Requirements"
-
-#: ../source/challenges.rst:7
+#: ../source/challenges.rst:6
 msgid ""
-"Per sottomettere la propria soluzione ad una sfida è necessario aver "
-"compiuto i seguenti passi preliminari:"
-msgstr "To submit a solution it is required:"
-
-#: ../source/challenges.rst:9
-msgid "Avere un account GitHub"
-msgstr "Get a GitHub account"
-
-#: ../source/challenges.rst:10
-msgid ""
-"Accedere al link all'assignment di benvenuto: "
-"`<https://classroom.github.com/a/qU7ZFhmv>`_"
-msgstr ""
-"Accept the welcoming assignment: "
-"`<https://classroom.github.com/a/qU7ZFhmv>`_"
-
-#: ../source/challenges.rst:11
-msgid "Associare l'account GitHub al codice identificativo ricevuto via email"
-msgstr "Associate the GitHub account to the id received via email"
-
-#: ../source/challenges.rst:13
-msgid ""
-"Cerca il tuo identificativo utilizzando la funzione ricerca del tuo "
-"browser (crtl+f testato su firefox e google chrome)"
-msgstr ""
-"Look for your id by using the *search* function on your browser (crtl+f "
-"has been tested on firefox and google chrome)"
-
-#: ../source/challenges.rst:14
-msgid "Clicca sul tuo identificativo"
-msgstr "Click on your id"
-
-#: ../source/challenges.rst:15
-msgid "Controlla di aver selezionato l'identificativo corretto"
-msgstr "Check that it is the correct id"
-
-#: ../source/challenges.rst:16
-msgid "Premi ok"
-msgstr "Click Ok"
-
-#: ../source/challenges.rst:18
-msgid "Accetta l'assignment *GitFundamentals*"
-msgstr "Accept the *GitFundamentals* assignment"
-
-#: ../source/challenges.rst:23
-msgid "Sfida 1: La password del docente"
-msgstr "Challenge 1: The Lecturer's Password"
-
-#: ../source/challenges.rst:25
-msgid "Stato:**CLOSED**"
-msgstr "State:**CLOSED**"
-
-#: ../source/challenges.rst:27
-msgid ""
-"Nel corso della lezione :ref:`l22-12-2021` sono state trattate alcune "
-"tematiche relative ad aspetti di sicurezza. In particolare, si è discusso"
-" il ruolo dei file */etc/passwd* e */etc/shadow* in sistemi GNU/Linux. "
-"Inoltre, sono stati illustrati alcuni dettagli riguardo i permessi ed il "
-"contenuto del file *shadow*. Nello specifico, è stato descritto come "
-"individuare:"
-msgstr ""
-"During the lecture :ref:`l22-12-2021`, the lecturer discussed several "
-"aspects about security. In particular, he introduced the */etc/passwd/* "
-"and */etc/shadow* files in GNU/Linux systems. Moreover, he explained "
-"several details about permissions and contents of the *shadow* file. In "
-"fact, he described how to pinpoint: "
-
-#: ../source/challenges.rst:32
-msgid "l'hash della password di un utente;"
-msgstr "the hash of a user password;"
-
-#: ../source/challenges.rst:33
-msgid "il sale relativo;"
-msgstr "the salt;"
-
-#: ../source/challenges.rst:34
-msgid "l'algoritmo di hash utilizzato."
-msgstr "the hash algorithm."
-
-#: ../source/challenges.rst:36
-msgid ""
-"Dopo 81 minuti e 30 secondi di lezione, il docente ha mostrato il file "
-"*shadow* installato su un suo dispositivo e l'entry relativa alla sua "
-"utenza."
-msgstr ""
-"After 81 minutes and 30 seconds of the lecture, he showed the *shadow* "
-"file from his own device and the entry related to its user. "
-
-#: ../source/challenges.rst:39
-msgid "La sfida"
-msgstr "The challenge"
-
-#: ../source/challenges.rst:41
-msgid "Individuare la password del docente."
-msgstr "Discover the lecturer's password."
-
-#: ../source/challenges.rst:44
-msgid "I premi"
-msgstr "The prize"
-
-#: ../source/challenges.rst:46
-msgid ""
-"1 punto sul voto finale per la prima soluzione che individua la password "
-"corretta"
-msgstr "1 point to the final exam for the first solution that gets the password "
-
-#: ../source/challenges.rst:49
-msgid "Le regole"
-msgstr "The rules"
-
-#: ../source/challenges.rst:51
-msgid "Per sottomettere la soluzione è necessario:"
-msgstr "To sumbit a solution it is required:"
-
-#: ../source/challenges.rst:53
-msgid ""
-"accetta l'assignment su GitHub: "
-"`<https://classroom.github.com/a/oRfof8ZI>`_"
-msgstr "Accept the assignment: `<https://classroom.github.com/a/oRfof8ZI>`_"
-
-#: ../source/challenges.rst:54
-msgid ""
-"pubblica sul repository il codice utilizzato per individuare la password "
-"e un Readme"
-msgstr ""
-"publish on the assignment repository maintaing the code used to discover "
-"the password"
-
-#: ../source/challenges.rst:55
-msgid "inviare una email con oggetto [OS2122-CHALLENGE-1] con:"
-msgstr ""
-"to send an email to the lecturer with [OS2122-CHALLENGE-1] as object and "
-"containing:"
-
-#: ../source/challenges.rst:57
-msgid "l'hash del commit con il codice da sottomettere a valutazione"
-msgstr "the hash of the commit which maintains the code to be submitted for review"
-
-#: ../source/challenges.rst:58
-msgid "la matricola"
-msgstr "your student id"
-
-#: ../source/challenges.rst:60
-msgid "Una soluzione è ritenuta valida se:"
-msgstr "A solution is valid if it meets the following requirements:"
-
-#: ../source/challenges.rst:62
-msgid "è stata inviata correttamente"
-msgstr "it has been submitted correctly"
-
-#: ../source/challenges.rst:63
-msgid ""
-"NON utilizza programmi per il crack/recovery delle password (e.g. "
-"Hashcat, John the Ripper). Tuttavia, è ammesso l'utilizzo dei seguenti "
-"strumenti per lo sviluppo di soluzioni ad hoc:"
-msgstr ""
-"it does NOT exploits programs for password crack/recovery (e.g. Hashcat, "
-"John the Ripper). It is allowed to use the programs in the following to "
-"built your solution:"
-
-#: ../source/challenges.rst:65
-msgid "`openssl <https://linux.die.net/man/1/openssl>`_"
+"In questa sezione verranno pubblicate le challenge proposte dal docente e"
+" le relative istruzioni."
 msgstr ""
 
-#: ../source/challenges.rst:66
-msgid ""
-"`GNU crypt <https://ftp.gnu.org/old-"
-"gnu/Manuals/glibc-2.2.3/html_node/libc_650.html>`_"
-msgstr ""
+#~ msgid "Sfida 1: La password del docente"
+#~ msgstr "Challenge 1: The Lecturer's Password"
 
-#: ../source/challenges.rst:67
-msgid "`crypt <https://man7.org/linux/man-pages/man3/crypt.3.html>`_"
-msgstr ""
+#~ msgid "Stato:**CLOSED**"
+#~ msgstr "State:**CLOSED**"
 
-#: ../source/challenges.rst:69
-msgid ""
-"Infine, non è possibile sottomettere più di una soluzione. In caso di "
-"sottomissione multipla, verrà considerata la prima in ordine cronologico."
-msgstr ""
-"Finally, it is allowed to submit up to one solution. If multiple solution"
-" have been submitted, only the first one in chronological order will be "
-"considered."
+#~ msgid ""
+#~ "Nel corso della lezione :ref:`l22-12-2021` "
+#~ "sono state trattate alcune tematiche "
+#~ "relative ad aspetti di sicurezza. In "
+#~ "particolare, si è discusso il ruolo "
+#~ "dei file */etc/passwd* e */etc/shadow* "
+#~ "in sistemi GNU/Linux. Inoltre, sono "
+#~ "stati illustrati alcuni dettagli riguardo "
+#~ "i permessi ed il contenuto del "
+#~ "file *shadow*. Nello specifico, è stato"
+#~ " descritto come individuare:"
+#~ msgstr ""
+#~ "During the lecture :ref:`l22-12-2021`, the "
+#~ "lecturer discussed several aspects about "
+#~ "security. In particular, he introduced "
+#~ "the */etc/passwd/* and */etc/shadow* files "
+#~ "in GNU/Linux systems. Moreover, he "
+#~ "explained several details about permissions"
+#~ " and contents of the *shadow* file."
+#~ " In fact, he described how to "
+#~ "pinpoint: "
 
-#: ../source/challenges.rst:73
-msgid "Scadenze"
-msgstr "Deadlines"
+#~ msgid "l'hash della password di un utente;"
+#~ msgstr "the hash of a user password;"
 
-#: ../source/challenges.rst:75
-msgid "La sfida rimane aperta fintanto che i punti non sono stati assegnati."
-msgstr "The challenge remains open until the points have not been assigned."
+#~ msgid "il sale relativo;"
+#~ msgstr "the salt;"
 
-#: ../source/challenges.rst:76
-msgid "I punti possono essere acquisiti entro e non oltre l'A.A. 2021/2022."
-msgstr "The points must be gained within the A.A.  2021/2022."
+#~ msgid "l'algoritmo di hash utilizzato."
+#~ msgstr "the hash algorithm."
 
-#: ../source/challenges.rst:79
-msgid "Graduatoria"
-msgstr "Ranking"
+#~ msgid ""
+#~ "Dopo 81 minuti e 30 secondi di "
+#~ "lezione, il docente ha mostrato il "
+#~ "file *shadow* installato su un suo "
+#~ "dispositivo e l'entry relativa alla sua"
+#~ " utenza."
+#~ msgstr ""
+#~ "After 81 minutes and 30 seconds of"
+#~ " the lecture, he showed the *shadow*"
+#~ " file from his own device and "
+#~ "the entry related to its user. "
 
-#: ../source/challenges.rst:81
-msgid "Numero di sottomissioni: 5"
-msgstr "Number of submissions: 5"
+#~ msgid "La sfida"
+#~ msgstr "The challenge"
 
-#: ../source/challenges.rst:84
-msgid "**Posizione**"
-msgstr "**Rank**"
+#~ msgid "Individuare la password del docente."
+#~ msgstr "Discover the lecturer's password."
 
-#: ../source/challenges.rst:84
-msgid "**Id**"
-msgstr ""
+#~ msgid "I premi"
+#~ msgstr "The prize"
 
-#: ../source/challenges.rst:84
-msgid "**Data Sottomissione**"
-msgstr "**Submission date**"
+#~ msgid ""
+#~ "1 punto sul voto finale per la "
+#~ "prima soluzione che individua la "
+#~ "password corretta"
+#~ msgstr ""
+#~ "1 point to the final exam for "
+#~ "the first solution that gets the "
+#~ "password "
 
-#: ../source/challenges.rst:84
-msgid "**Password**"
-msgstr ""
+#~ msgid "Le regole"
+#~ msgstr "The rules"
 
-#: ../source/challenges.rst:84
-msgid "**Valida**"
-msgstr "**Valid**"
+#~ msgid "Per sottomettere la soluzione è necessario:"
+#~ msgstr "To sumbit a solution it is required:"
 
-#: ../source/challenges.rst:84
-msgid "**Punti**"
-msgstr "**Points**"
+#~ msgid ""
+#~ "accetta l'assignment su GitHub: "
+#~ "`<https://classroom.github.com/a/oRfof8ZI>`_"
+#~ msgstr "Accept the assignment: `<https://classroom.github.com/a/oRfof8ZI>`_"
 
-#: ../source/challenges.rst:86
-msgid "91SN3"
-msgstr ""
+#~ msgid ""
+#~ "pubblica sul repository il codice "
+#~ "utilizzato per individuare la password e"
+#~ " un Readme"
+#~ msgstr ""
+#~ "publish on the assignment repository "
+#~ "maintaing the code used to discover "
+#~ "the password"
 
-#: ../source/challenges.rst:86
-msgid "30-12-21"
-msgstr ""
+#~ msgid "inviare una email con oggetto [OS2122-CHALLENGE-1] con:"
+#~ msgstr ""
+#~ "to send an email to the lecturer"
+#~ " with [OS2122-CHALLENGE-1] as object and"
+#~ " containing:"
 
-#: ../source/challenges.rst:86 ../source/challenges.rst:88
-#: ../source/challenges.rst:90 ../source/challenges.rst:92
-#: ../source/challenges.rst:94
-msgid "OK"
-msgstr ""
+#~ msgid "l'hash del commit con il codice da sottomettere a valutazione"
+#~ msgstr ""
+#~ "the hash of the commit which "
+#~ "maintains the code to be submitted "
+#~ "for review"
 
-#: ../source/challenges.rst:86
-msgid "**1**"
-msgstr ""
+#~ msgid "la matricola"
+#~ msgstr "your student id"
 
-#: ../source/challenges.rst:88
-msgid "TVMR3"
-msgstr ""
+#~ msgid "Una soluzione è ritenuta valida se:"
+#~ msgstr "A solution is valid if it meets the following requirements:"
 
-#: ../source/challenges.rst:88
-msgid "02-01-22"
-msgstr ""
+#~ msgid "è stata inviata correttamente"
+#~ msgstr "it has been submitted correctly"
 
-#: ../source/challenges.rst:88 ../source/challenges.rst:90
-#: ../source/challenges.rst:92 ../source/challenges.rst:94
-msgid "0"
-msgstr ""
+#~ msgid ""
+#~ "NON utilizza programmi per il "
+#~ "crack/recovery delle password (e.g. Hashcat,"
+#~ " John the Ripper). Tuttavia, è "
+#~ "ammesso l'utilizzo dei seguenti strumenti "
+#~ "per lo sviluppo di soluzioni ad "
+#~ "hoc:"
+#~ msgstr ""
+#~ "it does NOT exploits programs for "
+#~ "password crack/recovery (e.g. Hashcat, John"
+#~ " the Ripper). It is allowed to "
+#~ "use the programs in the following "
+#~ "to built your solution:"
 
-#: ../source/challenges.rst:90 ../source/challenges.rst:92
-#: ../source/challenges.rst:94
-msgid "ND."
-msgstr ""
+#~ msgid "`openssl <https://linux.die.net/man/1/openssl>`_"
+#~ msgstr ""
 
-#: ../source/challenges.rst:90
-msgid "40LN3"
-msgstr ""
+#~ msgid ""
+#~ "`GNU crypt <https://ftp.gnu.org/old-"
+#~ "gnu/Manuals/glibc-2.2.3/html_node/libc_650.html>`_"
+#~ msgstr ""
 
-#: ../source/challenges.rst:90
-msgid "09-01-22"
-msgstr ""
+#~ msgid "`crypt <https://man7.org/linux/man-pages/man3/crypt.3.html>`_"
+#~ msgstr ""
 
-#: ../source/challenges.rst:90
-msgid "KO: script non presente nel commit"
-msgstr "KO: commit without script files"
+#~ msgid ""
+#~ "Infine, non è possibile sottomettere più"
+#~ " di una soluzione. In caso di "
+#~ "sottomissione multipla, verrà considerata la"
+#~ " prima in ordine cronologico."
+#~ msgstr ""
+#~ "Finally, it is allowed to submit "
+#~ "up to one solution. If multiple "
+#~ "solution have been submitted, only the"
+#~ " first one in chronological order "
+#~ "will be considered."
 
-#: ../source/challenges.rst:92
-msgid "AFS1M"
-msgstr ""
+#~ msgid "Scadenze"
+#~ msgstr "Deadlines"
 
-#: ../source/challenges.rst:92 ../source/challenges.rst:94
-msgid "22-12-21"
-msgstr ""
+#~ msgid "La sfida rimane aperta fintanto che i punti non sono stati assegnati."
+#~ msgstr "The challenge remains open until the points have not been assigned."
 
-#: ../source/challenges.rst:92 ../source/challenges.rst:94
-msgid "KO: utilizzo di John The Ripper"
-msgstr "KO: solution based on John The Ripper"
+#~ msgid "I punti possono essere acquisiti entro e non oltre l'A.A. 2021/2022."
+#~ msgstr "The points must be gained within the A.A.  2021/2022."
 
-#: ../source/challenges.rst:94
-msgid "PEALV"
-msgstr ""
+#~ msgid "Graduatoria"
+#~ msgstr "Ranking"
 
-#: ../source/challenges.rst:99
-msgid "Soluzioni"
-msgstr "Solutions"
+#~ msgid "Numero di sottomissioni: 5"
+#~ msgstr "Number of submissions: 5"
 
-#: ../source/challenges.rst:101
-msgid ""
-"Per risolvere il problema era necessario generare correttamente l'hash "
-"data una password ed utilizzare questa funzionalità per testare password "
-"ottenute da un dizionario di password comuni. La password è stata scelta "
-"prendendone una presente in più dizionari disponibili online (e.g. "
-"RockYou.txt). Di conseguenza, la sfida consisteva nel leggere la "
-"documentazione dei tool ammessi (crypt e openssl) ed utilizzarli per "
-"individuare la password."
-msgstr "To solve the problem it was required to generate correct hashes for a given password and"
-"using this capability to test each password stored in common-password dictionary. The password to be guessed "
-"belongs to several dictionary available online (e.g. rockyou.txt). Consequently, the challenge could be solved "
-"by reading the documentation of allowed tools (crypt and openssl) and learning how to use them."
+#~ msgid "**Posizione**"
+#~ msgstr "**Rank**"
 
-#: ../source/challenges.rst:105
-msgid "A tal scopo la seguente riga di comando"
-msgstr "To this goal, the following command line"
+#~ msgid "**Id**"
+#~ msgstr ""
 
-#: ../source/challenges.rst:111
-msgid ""
-"permette di stampare ciascuna password contenuta in *<FILE>* con il "
-"relativo hash ottenuto utilizzando il sale <SALT>. A questo punto è "
-"sufficiente identificare la riga contenente l'hash di interesse "
-"*<GIVEN_HASH>*:"
-msgstr "allows you to print each password stored in *<FILE>* with its hash, computed using <SALT> as salt."
-"At this point, it is sufficient indentify the line containing the hash *<GIVEN_HASH>* corresponding to the given password:"
+#~ msgid "**Data Sottomissione**"
+#~ msgstr "**Submission date**"
+
+#~ msgid "**Password**"
+#~ msgstr ""
+
+#~ msgid "**Valida**"
+#~ msgstr "**Valid**"
+
+#~ msgid "**Punti**"
+#~ msgstr "**Points**"
+
+#~ msgid "91SN3"
+#~ msgstr ""
+
+#~ msgid "30-12-21"
+#~ msgstr ""
+
+#~ msgid "OK"
+#~ msgstr ""
+
+#~ msgid "**1**"
+#~ msgstr ""
+
+#~ msgid "TVMR3"
+#~ msgstr ""
+
+#~ msgid "02-01-22"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "ND."
+#~ msgstr ""
+
+#~ msgid "40LN3"
+#~ msgstr ""
+
+#~ msgid "09-01-22"
+#~ msgstr ""
+
+#~ msgid "KO: script non presente nel commit"
+#~ msgstr "KO: commit without script files"
+
+#~ msgid "AFS1M"
+#~ msgstr ""
+
+#~ msgid "22-12-21"
+#~ msgstr ""
+
+#~ msgid "KO: utilizzo di John The Ripper"
+#~ msgstr "KO: solution based on John The Ripper"
+
+#~ msgid "PEALV"
+#~ msgstr ""
+
+#~ msgid "Soluzioni"
+#~ msgstr "Solutions"
+
+#~ msgid ""
+#~ "Per risolvere il problema era necessario"
+#~ " generare correttamente l'hash data una "
+#~ "password ed utilizzare questa funzionalità "
+#~ "per testare password ottenute da un "
+#~ "dizionario di password comuni. La "
+#~ "password è stata scelta prendendone una"
+#~ " presente in più dizionari disponibili "
+#~ "online (e.g. RockYou.txt). Di conseguenza, "
+#~ "la sfida consisteva nel leggere la "
+#~ "documentazione dei tool ammessi (crypt e"
+#~ " openssl) ed utilizzarli per individuare"
+#~ " la password."
+#~ msgstr ""
+#~ "To solve the problem it was "
+#~ "required to generate correct hashes for"
+#~ " a given password andusing this "
+#~ "capability to test each password stored"
+#~ " in common-password dictionary. The "
+#~ "password to be guessed belongs to "
+#~ "several dictionary available online (e.g. "
+#~ "rockyou.txt). Consequently, the challenge "
+#~ "could be solved by reading the "
+#~ "documentation of allowed tools (crypt "
+#~ "and openssl) and learning how to "
+#~ "use them."
+
+#~ msgid "A tal scopo la seguente riga di comando"
+#~ msgstr "To this goal, the following command line"
+
+#~ msgid ""
+#~ "permette di stampare ciascuna password "
+#~ "contenuta in *<FILE>* con il relativo"
+#~ " hash ottenuto utilizzando il sale "
+#~ "<SALT>. A questo punto è sufficiente "
+#~ "identificare la riga contenente l'hash "
+#~ "di interesse *<GIVEN_HASH>*:"
+#~ msgstr ""
+#~ "allows you to print each password "
+#~ "stored in *<FILE>* with its hash, "
+#~ "computed using <SALT> as salt.At this"
+#~ " point, it is sufficient indentify "
+#~ "the line containing the hash "
+#~ "*<GIVEN_HASH>* corresponding to the given "
+#~ "password:"
+
+#~ msgid "Requisiti"
+#~ msgstr "Requirements"
+
+#~ msgid ""
+#~ "Per sottomettere la propria soluzione ad"
+#~ " una sfida è necessario aver compiuto"
+#~ " i seguenti passi preliminari:"
+#~ msgstr "To submit a solution it is required:"
+
+#~ msgid "Avere un account GitHub"
+#~ msgstr "Get a GitHub account"
+
+#~ msgid ""
+#~ "Accedere al link all'assignment di "
+#~ "benvenuto: `<https://classroom.github.com/a/qU7ZFhmv>`_"
+#~ msgstr ""
+#~ "Accept the welcoming assignment: "
+#~ "`<https://classroom.github.com/a/qU7ZFhmv>`_"
+
+#~ msgid "Associare l'account GitHub al codice identificativo ricevuto via email"
+#~ msgstr "Associate the GitHub account to the id received via email"
+
+#~ msgid ""
+#~ "Cerca il tuo identificativo utilizzando "
+#~ "la funzione ricerca del tuo browser "
+#~ "(crtl+f testato su firefox e google "
+#~ "chrome)"
+#~ msgstr ""
+#~ "Look for your id by using the "
+#~ "*search* function on your browser "
+#~ "(crtl+f has been tested on firefox "
+#~ "and google chrome)"
+
+#~ msgid "Clicca sul tuo identificativo"
+#~ msgstr "Click on your id"
+
+#~ msgid "Controlla di aver selezionato l'identificativo corretto"
+#~ msgstr "Check that it is the correct id"
+
+#~ msgid "Premi ok"
+#~ msgstr "Click Ok"
+
+#~ msgid "Accetta l'assignment *GitFundamentals*"
+#~ msgstr "Accept the *GitFundamentals* assignment"
+

@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/news/211230.rst:2
+msgid ""
+"30-12-2021 - avviso: aggionamenti, nuove domande ed esercizi, pubblicata "
+"la challenge!"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:4
+msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:6
+msgid "aggiunto diario della lezione del 22/12/21"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:7
+msgid "aggiornato regolamento sezione di esame nella :doc:`Home <../../index>`"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:8
+msgid "aggiunta sezione :doc:`../../challenges`"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:9
+msgid "aggiornata sezione :doc:`../../questions`"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:11
+msgid "aggiunte 3 domande e 1 esercizio su Introduzione"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:12
+msgid "aggiunte 3 domande su Processi e thread"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:13
+msgid "aggiunte 3 domande su CPU-scheduling"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:14
+msgid "aggiunta 1 domanda su Sincronizzazione"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:16
+msgid "Microsoft Stream:"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:18
+msgid "caricata lezione del 22/12/2021"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:20
+msgid "GitHub:"
+msgstr ""
+
+#: ../source/2021/news/211230.rst:22
+msgid "caricati sorgenti di esempio per attacchi di tipo buffer overflow"
+msgstr ""
+

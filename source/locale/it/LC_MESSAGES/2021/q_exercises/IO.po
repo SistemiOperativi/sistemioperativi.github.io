@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/q_exercises/IO.rst:2
+msgid "6 - I/O Management"
+msgstr ""
+
+#: ../source/2021/q_exercises/IO.rst:4
+msgid ""
+"Si consideri inoltre uno scenario in cui arrivino al sistema operativo "
+"richieste per accedere alle seguenti tracce di un disco: 33 – 46 – 98 – "
+"12 – 43 – 56 – 78 - 77 – 25. Si determini la sequenza effettiva di "
+"schedulazione delle operazioni verso il disco considerando che:"
+msgstr ""
+
+#: ../source/2021/q_exercises/IO.rst:6
+msgid ""
+"al più 4 richieste per volta possono essere immagazzinate nella coda di "
+"scheduling;"
+msgstr ""
+
+#: ../source/2021/q_exercises/IO.rst:7
+msgid "la testina sia inizialmente posta sulla traccia 100 del disco;"
+msgstr ""
+
+#: ../source/2021/q_exercises/IO.rst:8
+msgid "l'algoritmo utilizzato è SCAN."
+msgstr ""
+

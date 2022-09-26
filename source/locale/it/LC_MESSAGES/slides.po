@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-23 16:25+0100\n"
+"POT-Creation-Date: 2022-09-26 11:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,179 +26,12 @@ msgstr ""
 msgid "In questa sezione potete scaricare le slide delle lezioni."
 msgstr ""
 
-#: ../source/slides.rst:7
-msgid "`01 - Introduzione  </slides/01-so-introduzione-210927v1.pdf>`_"
-msgstr ""
-
-#: ../source/slides.rst:8
-msgid ""
-"`02 - Processi e thread </slides/02-so-processi-v4-211116.pdf>`_ "
-"[Aggiornato il 21/11/21]"
-msgstr ""
-
-#: ../source/slides.rst:9
-msgid ""
-"`03 - CPU scheduling </slides/03-so-cpu-scheduling-261017v2.pdf>`_ "
-"[Aggiornato il 26/10/21]"
-msgstr ""
-
-#: ../source/slides.rst:10
-msgid "`04 - Sincronizzazione </slides/04-sincronizzazione-211030v1.pdf>`_"
-msgstr ""
-
-#: ../source/slides.rst:11
-msgid ""
-"`05 - Gestione delle memoria </slides/05-memoria-v5-211124.pdf>`_ "
-"[Aggiornato il 24/11/21]"
-msgstr ""
-
-#: ../source/slides.rst:12
-msgid ""
-"`06 - I/O e file management </slides/06-IO-file-management-"
-"211213v4.pdf>`_ [Aggiornato il 13/12/21]"
-msgstr ""
-
-#: ../source/slides.rst:13
-msgid ""
-"`07 - Introduzione a Linux </slides/07-introduzione-linux-211222v2.pdf>`_"
-" [Aggiornato il 22/12/21]"
-msgstr ""
-
-#: ../source/slides.rst:14
-msgid ""
-"`A1 - Solid state drives: architetture e soluzioni enterprise [en] "
-"</slides/A1-solid-state-drives.pdf>`_"
-msgstr ""
-
 #: ../source/slides.rst:17
 msgid "Documentazione"
 msgstr ""
 
-#: ../source/slides.rst:19
-msgid "`POSIX <https://pubs.opengroup.org/onlinepubs/9699919799>`_"
-msgstr ""
-
-#: ../source/slides.rst:20
-msgid "`Linux <https://man7.org/linux/man-pages/>`_"
-msgstr ""
-
-#: ../source/slides.rst:21
-msgid ""
-"`gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
-"Builtins.html#g_t_005f_005fsync-Builtins>`_"
-msgstr ""
-
-#: ../source/slides.rst:22
-msgid ""
-"`GCC Thread Local Storage <https://gcc.gnu.org/onlinedocs/gcc/Thread-"
-"Local.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:23
-msgid "`Linux Kernel <https://www.kernel.org/doc/html/latest/>`_"
-msgstr ""
-
-#: ../source/slides.rst:24
-msgid ""
-"`Microsoft C docs on literals "
-"<https://docs.microsoft.com/cpp/c-language/c-integer-constants>`_"
-msgstr ""
-
-#: ../source/slides.rst:25
-msgid ""
-"`mode_t "
-"<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:26 ../source/slides.rst:47
-msgid "`objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:27
-msgid ""
-"`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
-"guide/blockdev/ramdisk.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:28
-msgid "`ramfs <https://wiki.debian.org/ramfs>`_"
-msgstr ""
-
-#: ../source/slides.rst:29
-msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:30
-msgid "`/etc/passwd <https://man7.org/linux/man-pages/man5/passwd.5.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:31
-msgid "`/etc/group <https://man7.org/linux/man-pages/man5/group.5.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:32
-msgid "`/etc/shadow <https://man7.org/linux/man-pages/man5/shadow.5.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:33
-msgid ""
-"`Bash redirection "
-"<https://www.gnu.org/software/bash/manual/html_node/Redirections.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:37
+#: ../source/slides.rst:38
 msgid "Approfondimenti"
-msgstr ""
-
-#: ../source/slides.rst:39
-msgid ""
-"`Legge di Amdahl Sezione 4 Eq. 11 "
-"<http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_"
-msgstr ""
-
-#: ../source/slides.rst:40
-msgid "`Linux Kernel Source Code <https://elixir.bootlin.com/>`_"
-msgstr ""
-
-#: ../source/slides.rst:41
-msgid ""
-"`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
-"ddj.htm>`_"
-msgstr ""
-
-#: ../source/slides.rst:42
-msgid "`Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
-msgstr ""
-
-#: ../source/slides.rst:43
-msgid ""
-"`Complete Fair Scheduler "
-"<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
-"CFS.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:44
-msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
-msgstr ""
-
-#: ../source/slides.rst:45
-msgid ""
-"`Solid State Drives - Data Reliability and Lifetime "
-"<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
-msgstr ""
-
-#: ../source/slides.rst:46
-msgid ""
-"`Filesystem Hierarchy Standard "
-"<https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf>`_"
-msgstr ""
-
-#: ../source/slides.rst:48
-msgid "`readelf <https://man7.org/linux/man-pages/man1/readelf.1.html>`_"
-msgstr ""
-
-#: ../source/slides.rst:49
-msgid "`gdb <https://man7.org/linux/man-pages/man1/gdb.1.html>`_"
 msgstr ""
 
 #~ msgid ""
@@ -280,5 +113,151 @@ msgstr ""
 #~ msgid ""
 #~ "`07 - Introduzione a Linux </slides/07"
 #~ "-introduzione-linux-211215v1.pdf>`_"
+#~ msgstr ""
+
+#~ msgid "`01 - Introduzione  </slides/01-so-introduzione-210927v1.pdf>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`02 - Processi e thread </slides/02"
+#~ "-so-processi-v4-211116.pdf>`_ [Aggiornato il "
+#~ "21/11/21]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`03 - CPU scheduling </slides/03-so-"
+#~ "cpu-scheduling-261017v2.pdf>`_ [Aggiornato il "
+#~ "26/10/21]"
+#~ msgstr ""
+
+#~ msgid "`04 - Sincronizzazione </slides/04-sincronizzazione-211030v1.pdf>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`05 - Gestione delle memoria "
+#~ "</slides/05-memoria-v5-211124.pdf>`_ [Aggiornato il "
+#~ "24/11/21]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`06 - I/O e file management "
+#~ "</slides/06-IO-file-management-211213v4.pdf>`_ "
+#~ "[Aggiornato il 13/12/21]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`07 - Introduzione a Linux </slides/07"
+#~ "-introduzione-linux-211222v2.pdf>`_ [Aggiornato "
+#~ "il 22/12/21]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`A1 - Solid state drives: architetture"
+#~ " e soluzioni enterprise [en] </slides/A1"
+#~ "-solid-state-drives.pdf>`_"
+#~ msgstr ""
+
+#~ msgid "`POSIX <https://pubs.opengroup.org/onlinepubs/9699919799>`_"
+#~ msgstr ""
+
+#~ msgid "`Linux <https://man7.org/linux/man-pages/>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`gcc sync builtins "
+#~ "<https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-Builtins.html"
+#~ "#g_t_005f_005fsync-Builtins>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`GCC Thread Local Storage "
+#~ "<https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html>`_"
+#~ msgstr ""
+
+#~ msgid "`Linux Kernel <https://www.kernel.org/doc/html/latest/>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Microsoft C docs on literals "
+#~ "<https://docs.microsoft.com/cpp/c-language/c-integer-"
+#~ "constants>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`mode_t "
+#~ "<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
+#~ msgstr ""
+
+#~ msgid "`objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
+#~ "guide/blockdev/ramdisk.html>`_"
+#~ msgstr ""
+
+#~ msgid "`ramfs <https://wiki.debian.org/ramfs>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`tmpfs "
+#~ "<https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
+#~ msgstr ""
+
+#~ msgid "`/etc/passwd <https://man7.org/linux/man-pages/man5/passwd.5.html>`_"
+#~ msgstr ""
+
+#~ msgid "`/etc/group <https://man7.org/linux/man-pages/man5/group.5.html>`_"
+#~ msgstr ""
+
+#~ msgid "`/etc/shadow <https://man7.org/linux/man-pages/man5/shadow.5.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Bash redirection "
+#~ "<https://www.gnu.org/software/bash/manual/html_node/Redirections.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Legge di Amdahl Sezione 4 Eq. 11"
+#~ " "
+#~ "<http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_"
+#~ msgstr ""
+
+#~ msgid "`Linux Kernel Source Code <https://elixir.bootlin.com/>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`The free lunch is over "
+#~ "<http://www.gotw.ca/publications/concurrency-ddj.htm>`_"
+#~ msgstr ""
+
+#~ msgid "`Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Complete Fair Scheduler "
+#~ "<https://www.kernel.org/doc/html/latest/scheduler/sched-"
+#~ "design-CFS.html>`_"
+#~ msgstr ""
+
+#~ msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Solid State Drives - Data Reliability"
+#~ " and Lifetime "
+#~ "<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Filesystem Hierarchy Standard "
+#~ "<https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf>`_"
+#~ msgstr ""
+
+#~ msgid "`readelf <https://man7.org/linux/man-pages/man1/readelf.1.html>`_"
+#~ msgstr ""
+
+#~ msgid "`gdb <https://man7.org/linux/man-pages/man1/gdb.1.html>`_"
 #~ msgstr ""
 

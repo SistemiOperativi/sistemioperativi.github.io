@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dup &mdash; Operating Systems 2021/2022 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="/it/2021/examples/dup.html"><img src="/it/_static/it.png"/></a>
+            <a href="/en/2021/examples/dup.html"><img src="/it/_static/en.png"/></a>
+            <a href="../../index.html" class="icon icon-home"> Operating Systems
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Operating Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linux_install.html">Installing Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples.html">Code examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../questions.html">Training exercises</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../slides.html">Slides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lectures/index.html">Detailed program</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../challenges.html">Challenges</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../exams.html">Exams</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../errata.html">Errata Corrige</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Operating Systems</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Dup</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/2021/examples/dup.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="dup">
+<h1>Dup<a class="headerlink" href="#dup" title="Permalink to this headline">¶</a></h1>
+<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/dup/dup.c">Dup</a>
+<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/dup/dup.c"></a></span>
+è un programma C il cui obiettivo è mostrare l’utilizzo delle funzione <code class="code docutils literal notranslate"><span class="pre">dup</span></code>.</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;fcntl.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 4</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="cp">#define FILE_NAME &quot;log.txt&quot;</span>
+<span class="linenos"> 7</span><span class="cp">#define STDOUT 1</span>
+<span class="linenos"> 8</span>
+<span class="linenos"> 9</span><span class="cp">#define abort(msg) do{printf(msg);exit(1);}while(0)</span>
+<span class="linenos">10</span>
+<span class="linenos">11</span>
+<span class="linenos">12</span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos">13</span><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">ofd</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">14</span>
+<span class="linenos">15</span><span class="w">    </span><span class="cm">/* opend output file and check errors */</span><span class="w"></span>
+<span class="linenos">16</span><span class="w">    </span><span class="n">ofd</span><span class="o">=</span><span class="n">open</span><span class="p">(</span><span class="n">FILE_NAME</span><span class="p">,</span><span class="n">O_WRONLY</span><span class="o">|</span><span class="n">O_CREAT</span><span class="o">|</span><span class="n">O_TRUNC</span><span class="p">,</span><span class="mo">0660</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">17</span><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ofd</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="n">abort</span><span class="p">(</span><span class="s">&quot;output creation error</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">18</span>
+<span class="linenos">19</span><span class="w">    </span><span class="n">close</span><span class="p">(</span><span class="n">STDOUT</span><span class="p">);</span><span class="w">  </span><span class="cm">/* close standard output */</span><span class="w"></span>
+<span class="linenos">20</span><span class="w">    </span><span class="n">ofd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dup</span><span class="p">(</span><span class="n">ofd</span><span class="p">);</span><span class="w"> </span><span class="cm">/* duplicate file descriptor */</span><span class="w"></span>
+<span class="linenos">21</span><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ofd</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="n">abort</span><span class="p">(</span><span class="s">&quot;dup failed</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">22</span>
+<span class="linenos">23</span><span class="w">    </span><span class="n">execlp</span><span class="p">(</span><span class="s">&quot;ls&quot;</span><span class="p">,</span><span class="s">&quot;ls&quot;</span><span class="p">,</span><span class="nb">NULL</span><span class="p">);</span><span class="w"> </span><span class="cm">/* run &#39;ls&#39; */</span><span class="w"></span>
+<span class="linenos">24</span><span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>In UNIX esistono 3 file descriptor principali:</p>
+<ul class="simple">
+<li><p>0: standard input;</p></li>
+<li><p>1: standard output;</p></li>
+<li><p>2: standard error.</p></li>
+</ul>
+<p>Secondo lo standard POSIX (<a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/stdin.html">stdin</a>), questi canali (o stream) sono predefiniti ed aperti implicitamente.
+I descrittori referenziano quindi a specifici canali, ma l’associazione può essere cambiata dinamicamente.
+Ad esempio, la funzione <em>dup</em> associa ad un canale (più precisamente alla file description) già esistente un nuovo descrittore.
+Il canale viene individuato a partire dal file descriptor passato come parametro.
+Il nuovo descrittore viene invece scelto prendendo il primo disponibile.</p>
+<p>Il codice in questione utilizza queste primitive per ridirezionare lo standard output di un eseguibile (in questo caso il comando <em>ls</em>) su file regolare.
+Lo scopo viene raggiunto in pochi semplici passi:</p>
+<ol class="arabic simple">
+<li><p>crea ed apre il file destinazione ottenendo il file descriptor <em>ofd</em> (riga 16);</p></li>
+<li><p>chiude lo stream di standard output (riga 19), rendendo 1 il primo file descriptor disponibile (0 è impegnato per lo standard input);</p></li>
+<li><p>invoca <em>dup</em> passando <em>ofd</em> come parametro (riga 20);</p></li>
+<li><p>sostituisce il programma del processo corrente tramite chiamata <em>exec</em> (riga 23).</p></li>
+</ol>
+<p>Il comando <em>ls</em> stampa su standard output (file descriptor 1), il quale è stato direzionato sul file di log piuttosto che il terminale.</p>
+<div class="admonition observation" id="observation-note-0">
+<p class="admonition-title">Observation</p>
+<p>L’ultimo parametro è della <em>open</em> è passato in base otto (ogni cifra è compresa tra 0 e 7). Questo è identificato dal fatto che la costante comincia per 0.
+Essendo 8 valori rappresentabili con soli 3 bit, ogni cifra in base 8 corrisponde esattamente a 3 bit.
+Focalizzandoci solo sul literal <em>0660</em>, questo è un intero (per l’esattezza un <em>mode_t</em>) la cui rappresentazione binaria è:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="3"><p>User</p></th>
+<th class="head" colspan="3"><p>Group</p></th>
+<th class="head" colspan="3"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>r</p></td>
+<td><p>w</p></td>
+<td><p>x</p></td>
+<td><p>r</p></td>
+<td><p>w</p></td>
+<td><p>x</p></td>
+<td><p>r</p></td>
+<td><p>w</p></td>
+<td><p>x</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td colspan="3"><p>6</p></td>
+<td colspan="3"><p>6</p></td>
+<td colspan="3"><p>0</p></td>
+</tr>
+</tbody>
+</table>
+<p>Ulteriori dettagli possono essere trovati a questo link: <a class="reference external" href="https://docs.microsoft.com/cpp/c-language/c-integer-constants">Microsoft C docs</a>.</p>
+<div class="admonition question" id="question-note-0">
+<p class="admonition-title">Question</p>
+<p>Come è possibile esprimere i medesimi permessi utilizzando una rappresentazione decimale o esadecimale? e utilizzando le macro definite in <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html">sys/stat.h</a>?</p>
+</div>
+</div>
+<div class="section" id="riferimenti">
+<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/stdin.html">stdin</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html">close</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html">open</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html">mode_t</a></p></li>
+<li><p><a class="reference external" href="https://docs.microsoft.com/cpp/c-language/c-integer-constants">Microsoft C docs on literals</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Romolo Marotta.
+      <span class="lastupdated">Last updated on Sep 26, 2022.
+      </span></p>
+  </div>
+  <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
+
+ 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

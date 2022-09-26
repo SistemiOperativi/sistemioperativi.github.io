@@ -1,0 +1,1378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/exams.rst:2
+msgid "Appelli A.A 2021/2022"
+msgstr ""
+
+#: ../source/2021/exams.rst:9
+msgid "05/09/2022"
+msgstr ""
+
+#: ../source/2021/exams.rst:12
+msgid "Testo d'esame: :download:`8 <esami/220905-it-8.pdf>`"
+msgstr ""
+
+#: ../source/2021/exams.rst:14 ../source/2021/exams.rst:78
+#: ../source/2021/exams.rst:160 ../source/2021/exams.rst:196
+#: ../source/2021/exams.rst:281 ../source/2021/exams.rst:379
+msgid "Soglie per la sufficienza: Teoria=12, Programmazione=6"
+msgstr ""
+
+#: ../source/2021/exams.rst:15 ../source/2021/exams.rst:79
+#: ../source/2021/exams.rst:161 ../source/2021/exams.rst:197
+#: ../source/2021/exams.rst:282 ../source/2021/exams.rst:380
+msgid "Voti:"
+msgstr ""
+
+#: ../source/2021/exams.rst:20 ../source/2021/exams.rst:84
+#: ../source/2021/exams.rst:166 ../source/2021/exams.rst:202
+#: ../source/2021/exams.rst:287 ../source/2021/exams.rst:383
+msgid "#"
+msgstr ""
+
+#: ../source/2021/exams.rst:20 ../source/2021/exams.rst:84
+#: ../source/2021/exams.rst:166 ../source/2021/exams.rst:202
+#: ../source/2021/exams.rst:287
+msgid "**MATRICOLA**"
+msgstr ""
+
+#: ../source/2021/exams.rst:18 ../source/2021/exams.rst:82
+#: ../source/2021/exams.rst:164 ../source/2021/exams.rst:200
+#: ../source/2021/exams.rst:285
+msgid "**TEORIA**"
+msgstr ""
+
+#: ../source/2021/exams.rst:18 ../source/2021/exams.rst:82
+#: ../source/2021/exams.rst:164 ../source/2021/exams.rst:200
+#: ../source/2021/exams.rst:285
+msgid "**PROGRAMMAZIONE**"
+msgstr ""
+
+#: ../source/2021/exams.rst:20 ../source/2021/exams.rst:84
+#: ../source/2021/exams.rst:166 ../source/2021/exams.rst:202
+#: ../source/2021/exams.rst:287
+msgid "**TOTALE**"
+msgstr ""
+
+#: ../source/2021/exams.rst:20 ../source/2021/exams.rst:84
+#: ../source/2021/exams.rst:166 ../source/2021/exams.rst:202
+#: ../source/2021/exams.rst:287
+msgid "**Q1**"
+msgstr ""
+
+#: ../source/2021/exams.rst:20 ../source/2021/exams.rst:84
+#: ../source/2021/exams.rst:166 ../source/2021/exams.rst:202
+#: ../source/2021/exams.rst:287
+msgid "**Q2**"
+msgstr ""
+
+#: ../source/2021/exams.rst:20 ../source/2021/exams.rst:84
+#: ../source/2021/exams.rst:166 ../source/2021/exams.rst:202
+#: ../source/2021/exams.rst:287
+msgid "**Q3**"
+msgstr ""
+
+#: ../source/2021/exams.rst:20 ../source/2021/exams.rst:84
+#: ../source/2021/exams.rst:166 ../source/2021/exams.rst:202
+#: ../source/2021/exams.rst:287
+msgid "**PARZIALE**"
+msgstr ""
+
+#: ../source/2021/exams.rst:20 ../source/2021/exams.rst:84
+#: ../source/2021/exams.rst:166 ../source/2021/exams.rst:202
+#: ../source/2021/exams.rst:287
+msgid "**Q4**"
+msgstr ""
+
+#: ../source/2021/exams.rst:20 ../source/2021/exams.rst:84
+#: ../source/2021/exams.rst:166 ../source/2021/exams.rst:202
+#: ../source/2021/exams.rst:287
+msgid "**CHALLENGE**"
+msgstr ""
+
+#: ../source/2021/exams.rst:22 ../source/2021/exams.rst:86
+#: ../source/2021/exams.rst:90 ../source/2021/exams.rst:98
+#: ../source/2021/exams.rst:110 ../source/2021/exams.rst:140
+#: ../source/2021/exams.rst:144 ../source/2021/exams.rst:168
+#: ../source/2021/exams.rst:204 ../source/2021/exams.rst:234
+#: ../source/2021/exams.rst:250 ../source/2021/exams.rst:260
+#: ../source/2021/exams.rst:289 ../source/2021/exams.rst:317
+#: ../source/2021/exams.rst:335 ../source/2021/exams.rst:347
+#: ../source/2021/exams.rst:353 ../source/2021/exams.rst:385
+msgid "1"
+msgstr ""
+
+#: ../source/2021/exams.rst:22 ../source/2021/exams.rst:234
+msgid "501311"
+msgstr ""
+
+#: ../source/2021/exams.rst:22 ../source/2021/exams.rst:24
+#: ../source/2021/exams.rst:26 ../source/2021/exams.rst:32
+#: ../source/2021/exams.rst:62 ../source/2021/exams.rst:66
+#: ../source/2021/exams.rst:86 ../source/2021/exams.rst:90
+#: ../source/2021/exams.rst:92 ../source/2021/exams.rst:94
+#: ../source/2021/exams.rst:96 ../source/2021/exams.rst:98
+#: ../source/2021/exams.rst:102 ../source/2021/exams.rst:104
+#: ../source/2021/exams.rst:106 ../source/2021/exams.rst:108
+#: ../source/2021/exams.rst:110 ../source/2021/exams.rst:114
+#: ../source/2021/exams.rst:116 ../source/2021/exams.rst:118
+#: ../source/2021/exams.rst:120 ../source/2021/exams.rst:122
+#: ../source/2021/exams.rst:124 ../source/2021/exams.rst:126
+#: ../source/2021/exams.rst:132 ../source/2021/exams.rst:134
+#: ../source/2021/exams.rst:142 ../source/2021/exams.rst:144
+#: ../source/2021/exams.rst:146 ../source/2021/exams.rst:172
+#: ../source/2021/exams.rst:176 ../source/2021/exams.rst:178
+#: ../source/2021/exams.rst:180 ../source/2021/exams.rst:182
+#: ../source/2021/exams.rst:208 ../source/2021/exams.rst:210
+#: ../source/2021/exams.rst:212 ../source/2021/exams.rst:214
+#: ../source/2021/exams.rst:216 ../source/2021/exams.rst:222
+#: ../source/2021/exams.rst:224 ../source/2021/exams.rst:226
+#: ../source/2021/exams.rst:228 ../source/2021/exams.rst:230
+#: ../source/2021/exams.rst:236 ../source/2021/exams.rst:238
+#: ../source/2021/exams.rst:242 ../source/2021/exams.rst:244
+#: ../source/2021/exams.rst:248 ../source/2021/exams.rst:256
+#: ../source/2021/exams.rst:260 ../source/2021/exams.rst:262
+#: ../source/2021/exams.rst:289 ../source/2021/exams.rst:291
+#: ../source/2021/exams.rst:293 ../source/2021/exams.rst:295
+#: ../source/2021/exams.rst:297 ../source/2021/exams.rst:299
+#: ../source/2021/exams.rst:301 ../source/2021/exams.rst:305
+#: ../source/2021/exams.rst:307 ../source/2021/exams.rst:309
+#: ../source/2021/exams.rst:321 ../source/2021/exams.rst:323
+#: ../source/2021/exams.rst:325 ../source/2021/exams.rst:327
+#: ../source/2021/exams.rst:329 ../source/2021/exams.rst:331
+#: ../source/2021/exams.rst:333 ../source/2021/exams.rst:335
+#: ../source/2021/exams.rst:337 ../source/2021/exams.rst:339
+#: ../source/2021/exams.rst:347 ../source/2021/exams.rst:353
+#: ../source/2021/exams.rst:355 ../source/2021/exams.rst:357
+#: ../source/2021/exams.rst:363 ../source/2021/exams.rst:395
+msgid "6"
+msgstr ""
+
+#: ../source/2021/exams.rst:22 ../source/2021/exams.rst:136
+#: ../source/2021/exams.rst:178 ../source/2021/exams.rst:204
+#: ../source/2021/exams.rst:226 ../source/2021/exams.rst:228
+#: ../source/2021/exams.rst:230 ../source/2021/exams.rst:232
+#: ../source/2021/exams.rst:254 ../source/2021/exams.rst:260
+#: ../source/2021/exams.rst:301 ../source/2021/exams.rst:313
+#: ../source/2021/exams.rst:319 ../source/2021/exams.rst:331
+msgid "5.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:22 ../source/2021/exams.rst:26
+#: ../source/2021/exams.rst:34 ../source/2021/exams.rst:52
+#: ../source/2021/exams.rst:90 ../source/2021/exams.rst:92
+#: ../source/2021/exams.rst:94 ../source/2021/exams.rst:130
+#: ../source/2021/exams.rst:136 ../source/2021/exams.rst:138
+#: ../source/2021/exams.rst:170 ../source/2021/exams.rst:172
+#: ../source/2021/exams.rst:208 ../source/2021/exams.rst:234
+#: ../source/2021/exams.rst:293 ../source/2021/exams.rst:295
+#: ../source/2021/exams.rst:297 ../source/2021/exams.rst:311
+#: ../source/2021/exams.rst:315 ../source/2021/exams.rst:323
+#: ../source/2021/exams.rst:351 ../source/2021/exams.rst:353
+#: ../source/2021/exams.rst:359 ../source/2021/exams.rst:389
+msgid "3"
+msgstr ""
+
+#: ../source/2021/exams.rst:22 ../source/2021/exams.rst:132
+#: ../source/2021/exams.rst:170
+msgid "14.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:22 ../source/2021/exams.rst:88
+#: ../source/2021/exams.rst:319
+msgid "2.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:22 ../source/2021/exams.rst:24
+#: ../source/2021/exams.rst:26 ../source/2021/exams.rst:28
+#: ../source/2021/exams.rst:30 ../source/2021/exams.rst:32
+#: ../source/2021/exams.rst:34 ../source/2021/exams.rst:36
+#: ../source/2021/exams.rst:38 ../source/2021/exams.rst:40
+#: ../source/2021/exams.rst:42 ../source/2021/exams.rst:44
+#: ../source/2021/exams.rst:46 ../source/2021/exams.rst:48
+#: ../source/2021/exams.rst:50 ../source/2021/exams.rst:52
+#: ../source/2021/exams.rst:54 ../source/2021/exams.rst:56
+#: ../source/2021/exams.rst:60 ../source/2021/exams.rst:62
+#: ../source/2021/exams.rst:64 ../source/2021/exams.rst:66
+#: ../source/2021/exams.rst:86 ../source/2021/exams.rst:88
+#: ../source/2021/exams.rst:90 ../source/2021/exams.rst:92
+#: ../source/2021/exams.rst:94 ../source/2021/exams.rst:96
+#: ../source/2021/exams.rst:98 ../source/2021/exams.rst:100
+#: ../source/2021/exams.rst:102 ../source/2021/exams.rst:104
+#: ../source/2021/exams.rst:106 ../source/2021/exams.rst:108
+#: ../source/2021/exams.rst:110 ../source/2021/exams.rst:112
+#: ../source/2021/exams.rst:114 ../source/2021/exams.rst:116
+#: ../source/2021/exams.rst:118 ../source/2021/exams.rst:120
+#: ../source/2021/exams.rst:122 ../source/2021/exams.rst:124
+#: ../source/2021/exams.rst:126 ../source/2021/exams.rst:130
+#: ../source/2021/exams.rst:132 ../source/2021/exams.rst:134
+#: ../source/2021/exams.rst:136 ../source/2021/exams.rst:138
+#: ../source/2021/exams.rst:140 ../source/2021/exams.rst:142
+#: ../source/2021/exams.rst:144 ../source/2021/exams.rst:146
+#: ../source/2021/exams.rst:148 ../source/2021/exams.rst:168
+#: ../source/2021/exams.rst:170 ../source/2021/exams.rst:172
+#: ../source/2021/exams.rst:174 ../source/2021/exams.rst:176
+#: ../source/2021/exams.rst:178 ../source/2021/exams.rst:180
+#: ../source/2021/exams.rst:182 ../source/2021/exams.rst:204
+#: ../source/2021/exams.rst:208 ../source/2021/exams.rst:210
+#: ../source/2021/exams.rst:212 ../source/2021/exams.rst:214
+#: ../source/2021/exams.rst:216 ../source/2021/exams.rst:218
+#: ../source/2021/exams.rst:222 ../source/2021/exams.rst:224
+#: ../source/2021/exams.rst:226 ../source/2021/exams.rst:228
+#: ../source/2021/exams.rst:230 ../source/2021/exams.rst:232
+#: ../source/2021/exams.rst:234 ../source/2021/exams.rst:236
+#: ../source/2021/exams.rst:238 ../source/2021/exams.rst:240
+#: ../source/2021/exams.rst:242 ../source/2021/exams.rst:244
+#: ../source/2021/exams.rst:246 ../source/2021/exams.rst:248
+#: ../source/2021/exams.rst:250 ../source/2021/exams.rst:252
+#: ../source/2021/exams.rst:254 ../source/2021/exams.rst:256
+#: ../source/2021/exams.rst:258 ../source/2021/exams.rst:260
+#: ../source/2021/exams.rst:262 ../source/2021/exams.rst:289
+#: ../source/2021/exams.rst:291 ../source/2021/exams.rst:293
+#: ../source/2021/exams.rst:295 ../source/2021/exams.rst:297
+#: ../source/2021/exams.rst:299 ../source/2021/exams.rst:301
+#: ../source/2021/exams.rst:305 ../source/2021/exams.rst:307
+#: ../source/2021/exams.rst:309 ../source/2021/exams.rst:311
+#: ../source/2021/exams.rst:313 ../source/2021/exams.rst:315
+#: ../source/2021/exams.rst:317 ../source/2021/exams.rst:319
+#: ../source/2021/exams.rst:321 ../source/2021/exams.rst:323
+#: ../source/2021/exams.rst:325 ../source/2021/exams.rst:327
+#: ../source/2021/exams.rst:329 ../source/2021/exams.rst:331
+#: ../source/2021/exams.rst:333 ../source/2021/exams.rst:337
+#: ../source/2021/exams.rst:339 ../source/2021/exams.rst:341
+#: ../source/2021/exams.rst:343 ../source/2021/exams.rst:347
+#: ../source/2021/exams.rst:349 ../source/2021/exams.rst:351
+#: ../source/2021/exams.rst:353 ../source/2021/exams.rst:355
+#: ../source/2021/exams.rst:357 ../source/2021/exams.rst:359
+#: ../source/2021/exams.rst:361 ../source/2021/exams.rst:363
+msgid "0"
+msgstr ""
+
+#: ../source/2021/exams.rst:22 ../source/2021/exams.rst:30
+#: ../source/2021/exams.rst:32 ../source/2021/exams.rst:64
+#: ../source/2021/exams.rst:88 ../source/2021/exams.rst:90
+#: ../source/2021/exams.rst:94 ../source/2021/exams.rst:96
+#: ../source/2021/exams.rst:98 ../source/2021/exams.rst:100
+#: ../source/2021/exams.rst:108 ../source/2021/exams.rst:110
+#: ../source/2021/exams.rst:126 ../source/2021/exams.rst:130
+#: ../source/2021/exams.rst:138 ../source/2021/exams.rst:140
+#: ../source/2021/exams.rst:144 ../source/2021/exams.rst:148
+#: ../source/2021/exams.rst:168 ../source/2021/exams.rst:174
+#: ../source/2021/exams.rst:176 ../source/2021/exams.rst:224
+#: ../source/2021/exams.rst:234 ../source/2021/exams.rst:244
+#: ../source/2021/exams.rst:248 ../source/2021/exams.rst:250
+#: ../source/2021/exams.rst:291 ../source/2021/exams.rst:293
+#: ../source/2021/exams.rst:295 ../source/2021/exams.rst:297
+#: ../source/2021/exams.rst:317 ../source/2021/exams.rst:319
+#: ../source/2021/exams.rst:353 ../source/2021/exams.rst:359
+#: ../source/2021/exams.rst:385 ../source/2021/exams.rst:387
+#: ../source/2021/exams.rst:389 ../source/2021/exams.rst:393
+#: ../source/2021/exams.rst:399
+msgid "Insuf."
+msgstr ""
+
+#: ../source/2021/exams.rst:24 ../source/2021/exams.rst:88
+#: ../source/2021/exams.rst:170 ../source/2021/exams.rst:206
+#: ../source/2021/exams.rst:236 ../source/2021/exams.rst:244
+#: ../source/2021/exams.rst:291 ../source/2021/exams.rst:319
+#: ../source/2021/exams.rst:343 ../source/2021/exams.rst:349
+#: ../source/2021/exams.rst:387
+msgid "2"
+msgstr ""
+
+#: ../source/2021/exams.rst:24 ../source/2021/exams.rst:108
+#: ../source/2021/exams.rst:266
+msgid "546437"
+msgstr ""
+
+#: ../source/2021/exams.rst:24 ../source/2021/exams.rst:28
+#: ../source/2021/exams.rst:30 ../source/2021/exams.rst:32
+#: ../source/2021/exams.rst:38 ../source/2021/exams.rst:40
+#: ../source/2021/exams.rst:42 ../source/2021/exams.rst:44
+#: ../source/2021/exams.rst:46 ../source/2021/exams.rst:48
+#: ../source/2021/exams.rst:50 ../source/2021/exams.rst:54
+#: ../source/2021/exams.rst:56 ../source/2021/exams.rst:88
+#: ../source/2021/exams.rst:96 ../source/2021/exams.rst:100
+#: ../source/2021/exams.rst:104 ../source/2021/exams.rst:112
+#: ../source/2021/exams.rst:120 ../source/2021/exams.rst:130
+#: ../source/2021/exams.rst:138 ../source/2021/exams.rst:148
+#: ../source/2021/exams.rst:174 ../source/2021/exams.rst:180
+#: ../source/2021/exams.rst:182 ../source/2021/exams.rst:252
+#: ../source/2021/exams.rst:258 ../source/2021/exams.rst:262
+msgid "Esonerato"
+msgstr ""
+
+#: ../source/2021/exams.rst:24 ../source/2021/exams.rst:32
+#: ../source/2021/exams.rst:54 ../source/2021/exams.rst:96
+#: ../source/2021/exams.rst:108 ../source/2021/exams.rst:118
+#: ../source/2021/exams.rst:172 ../source/2021/exams.rst:236
+#: ../source/2021/exams.rst:240 ../source/2021/exams.rst:246
+#: ../source/2021/exams.rst:315 ../source/2021/exams.rst:321
+#: ../source/2021/exams.rst:323 ../source/2021/exams.rst:353
+msgid "17"
+msgstr ""
+
+#: ../source/2021/exams.rst:24 ../source/2021/exams.rst:48
+#: ../source/2021/exams.rst:66 ../source/2021/exams.rst:92
+#: ../source/2021/exams.rst:118 ../source/2021/exams.rst:130
+#: ../source/2021/exams.rst:170 ../source/2021/exams.rst:248
+#: ../source/2021/exams.rst:333 ../source/2021/exams.rst:349
+msgid "23"
+msgstr ""
+
+#: ../source/2021/exams.rst:26
+msgid "535717"
+msgstr ""
+
+#: ../source/2021/exams.rst:26 ../source/2021/exams.rst:60
+#: ../source/2021/exams.rst:144 ../source/2021/exams.rst:146
+msgid "5.75"
+msgstr ""
+
+#: ../source/2021/exams.rst:26 ../source/2021/exams.rst:36
+#: ../source/2021/exams.rst:92 ../source/2021/exams.rst:100
+#: ../source/2021/exams.rst:102 ../source/2021/exams.rst:114
+#: ../source/2021/exams.rst:122 ../source/2021/exams.rst:170
+#: ../source/2021/exams.rst:182 ../source/2021/exams.rst:218
+#: ../source/2021/exams.rst:228 ../source/2021/exams.rst:234
+#: ../source/2021/exams.rst:246 ../source/2021/exams.rst:299
+#: ../source/2021/exams.rst:303 ../source/2021/exams.rst:311
+#: ../source/2021/exams.rst:323 ../source/2021/exams.rst:341
+#: ../source/2021/exams.rst:343 ../source/2021/exams.rst:347
+#: ../source/2021/exams.rst:353 ../source/2021/exams.rst:363
+#: ../source/2021/exams.rst:399
+msgid "8"
+msgstr ""
+
+#: ../source/2021/exams.rst:26
+msgid "19.75"
+msgstr ""
+
+#: ../source/2021/exams.rst:26 ../source/2021/exams.rst:42
+#: ../source/2021/exams.rst:134
+msgid "9.25"
+msgstr ""
+
+#: ../source/2021/exams.rst:26 ../source/2021/exams.rst:142
+#: ../source/2021/exams.rst:242 ../source/2021/exams.rst:260
+#: ../source/2021/exams.rst:301 ../source/2021/exams.rst:313
+#: ../source/2021/exams.rst:321 ../source/2021/exams.rst:345
+#: ../source/2021/exams.rst:355 ../source/2021/exams.rst:357
+#: ../source/2021/exams.rst:363
+msgid "29"
+msgstr ""
+
+#: ../source/2021/exams.rst:28 ../source/2021/exams.rst:32
+#: ../source/2021/exams.rst:34 ../source/2021/exams.rst:36
+#: ../source/2021/exams.rst:64 ../source/2021/exams.rst:90
+#: ../source/2021/exams.rst:92 ../source/2021/exams.rst:98
+#: ../source/2021/exams.rst:110 ../source/2021/exams.rst:140
+#: ../source/2021/exams.rst:170 ../source/2021/exams.rst:174
+#: ../source/2021/exams.rst:204 ../source/2021/exams.rst:210
+#: ../source/2021/exams.rst:218 ../source/2021/exams.rst:224
+#: ../source/2021/exams.rst:232 ../source/2021/exams.rst:234
+#: ../source/2021/exams.rst:240 ../source/2021/exams.rst:246
+#: ../source/2021/exams.rst:254 ../source/2021/exams.rst:295
+#: ../source/2021/exams.rst:309 ../source/2021/exams.rst:325
+#: ../source/2021/exams.rst:343 ../source/2021/exams.rst:359
+#: ../source/2021/exams.rst:361 ../source/2021/exams.rst:391
+msgid "4"
+msgstr ""
+
+#: ../source/2021/exams.rst:28 ../source/2021/exams.rst:90
+msgid "547388"
+msgstr ""
+
+#: ../source/2021/exams.rst:28 ../source/2021/exams.rst:44
+#: ../source/2021/exams.rst:52 ../source/2021/exams.rst:64
+#: ../source/2021/exams.rst:90 ../source/2021/exams.rst:116
+#: ../source/2021/exams.rst:140 ../source/2021/exams.rst:234
+#: ../source/2021/exams.rst:311 ../source/2021/exams.rst:319
+msgid "16"
+msgstr ""
+
+#: ../source/2021/exams.rst:28 ../source/2021/exams.rst:38
+#: ../source/2021/exams.rst:44 ../source/2021/exams.rst:46
+#: ../source/2021/exams.rst:62 ../source/2021/exams.rst:102
+#: ../source/2021/exams.rst:106 ../source/2021/exams.rst:124
+#: ../source/2021/exams.rst:184 ../source/2021/exams.rst:204
+#: ../source/2021/exams.rst:208 ../source/2021/exams.rst:210
+#: ../source/2021/exams.rst:212 ../source/2021/exams.rst:214
+#: ../source/2021/exams.rst:216 ../source/2021/exams.rst:218
+#: ../source/2021/exams.rst:220 ../source/2021/exams.rst:222
+#: ../source/2021/exams.rst:226 ../source/2021/exams.rst:230
+#: ../source/2021/exams.rst:232 ../source/2021/exams.rst:236
+#: ../source/2021/exams.rst:238 ../source/2021/exams.rst:240
+#: ../source/2021/exams.rst:248 ../source/2021/exams.rst:254
+#: ../source/2021/exams.rst:256 ../source/2021/exams.rst:260
+#: ../source/2021/exams.rst:289 ../source/2021/exams.rst:291
+#: ../source/2021/exams.rst:301 ../source/2021/exams.rst:305
+#: ../source/2021/exams.rst:307 ../source/2021/exams.rst:309
+#: ../source/2021/exams.rst:311 ../source/2021/exams.rst:313
+#: ../source/2021/exams.rst:315 ../source/2021/exams.rst:329
+#: ../source/2021/exams.rst:331 ../source/2021/exams.rst:333
+#: ../source/2021/exams.rst:335 ../source/2021/exams.rst:337
+#: ../source/2021/exams.rst:351 ../source/2021/exams.rst:357
+#: ../source/2021/exams.rst:363
+msgid "9"
+msgstr ""
+
+#: ../source/2021/exams.rst:28 ../source/2021/exams.rst:36
+#: ../source/2021/exams.rst:38 ../source/2021/exams.rst:44
+#: ../source/2021/exams.rst:54 ../source/2021/exams.rst:116
+#: ../source/2021/exams.rst:134 ../source/2021/exams.rst:178
+#: ../source/2021/exams.rst:180 ../source/2021/exams.rst:252
+#: ../source/2021/exams.rst:311 ../source/2021/exams.rst:323
+#: ../source/2021/exams.rst:337 ../source/2021/exams.rst:341
+msgid "25"
+msgstr ""
+
+#: ../source/2021/exams.rst:30 ../source/2021/exams.rst:36
+#: ../source/2021/exams.rst:60 ../source/2021/exams.rst:64
+#: ../source/2021/exams.rst:94 ../source/2021/exams.rst:96
+#: ../source/2021/exams.rst:108 ../source/2021/exams.rst:114
+#: ../source/2021/exams.rst:122 ../source/2021/exams.rst:132
+#: ../source/2021/exams.rst:134 ../source/2021/exams.rst:140
+#: ../source/2021/exams.rst:168 ../source/2021/exams.rst:172
+#: ../source/2021/exams.rst:174 ../source/2021/exams.rst:176
+#: ../source/2021/exams.rst:210 ../source/2021/exams.rst:212
+#: ../source/2021/exams.rst:218 ../source/2021/exams.rst:244
+#: ../source/2021/exams.rst:246 ../source/2021/exams.rst:248
+#: ../source/2021/exams.rst:250 ../source/2021/exams.rst:289
+#: ../source/2021/exams.rst:291 ../source/2021/exams.rst:295
+#: ../source/2021/exams.rst:297 ../source/2021/exams.rst:305
+#: ../source/2021/exams.rst:311 ../source/2021/exams.rst:313
+#: ../source/2021/exams.rst:315 ../source/2021/exams.rst:317
+#: ../source/2021/exams.rst:339 ../source/2021/exams.rst:341
+#: ../source/2021/exams.rst:347 ../source/2021/exams.rst:349
+#: ../source/2021/exams.rst:357 ../source/2021/exams.rst:393
+msgid "5"
+msgstr ""
+
+#: ../source/2021/exams.rst:30 ../source/2021/exams.rst:100
+#: ../source/2021/exams.rst:297
+msgid "546672"
+msgstr ""
+
+#: ../source/2021/exams.rst:30 ../source/2021/exams.rst:48
+#: ../source/2021/exams.rst:100 ../source/2021/exams.rst:148
+#: ../source/2021/exams.rst:250 ../source/2021/exams.rst:297
+msgid "13.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:30 ../source/2021/exams.rst:34
+#: ../source/2021/exams.rst:86 ../source/2021/exams.rst:106
+#: ../source/2021/exams.rst:116 ../source/2021/exams.rst:118
+#: ../source/2021/exams.rst:122 ../source/2021/exams.rst:148
+#: ../source/2021/exams.rst:168 ../source/2021/exams.rst:176
+#: ../source/2021/exams.rst:214 ../source/2021/exams.rst:250
+#: ../source/2021/exams.rst:297
+msgid "4.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:32 ../source/2021/exams.rst:96
+#: ../source/2021/exams.rst:353
+msgid "524793"
+msgstr ""
+
+#: ../source/2021/exams.rst:34 ../source/2021/exams.rst:38
+#: ../source/2021/exams.rst:64 ../source/2021/exams.rst:98
+#: ../source/2021/exams.rst:134 ../source/2021/exams.rst:136
+#: ../source/2021/exams.rst:140 ../source/2021/exams.rst:180
+#: ../source/2021/exams.rst:216 ../source/2021/exams.rst:236
+#: ../source/2021/exams.rst:242 ../source/2021/exams.rst:244
+#: ../source/2021/exams.rst:252 ../source/2021/exams.rst:254
+#: ../source/2021/exams.rst:258 ../source/2021/exams.rst:301
+#: ../source/2021/exams.rst:307 ../source/2021/exams.rst:325
+#: ../source/2021/exams.rst:339 ../source/2021/exams.rst:349
+#: ../source/2021/exams.rst:359 ../source/2021/exams.rst:397
+msgid "7"
+msgstr ""
+
+#: ../source/2021/exams.rst:34
+msgid "552714"
+msgstr ""
+
+#: ../source/2021/exams.rst:34
+msgid "11.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:34 ../source/2021/exams.rst:56
+#: ../source/2021/exams.rst:132
+msgid "6.25"
+msgstr ""
+
+#: ../source/2021/exams.rst:34 ../source/2021/exams.rst:38
+#: ../source/2021/exams.rst:56 ../source/2021/exams.rst:120
+#: ../source/2021/exams.rst:130 ../source/2021/exams.rst:134
+#: ../source/2021/exams.rst:174 ../source/2021/exams.rst:218
+#: ../source/2021/exams.rst:238 ../source/2021/exams.rst:244
+#: ../source/2021/exams.rst:323 ../source/2021/exams.rst:339
+#: ../source/2021/exams.rst:341
+msgid "18"
+msgstr ""
+
+#: ../source/2021/exams.rst:36
+msgid "550816"
+msgstr ""
+
+#: ../source/2021/exams.rst:36 ../source/2021/exams.rst:114
+#: ../source/2021/exams.rst:116 ../source/2021/exams.rst:126
+#: ../source/2021/exams.rst:146 ../source/2021/exams.rst:204
+#: ../source/2021/exams.rst:224 ../source/2021/exams.rst:301
+#: ../source/2021/exams.rst:327 ../source/2021/exams.rst:349
+#: ../source/2021/exams.rst:355 ../source/2021/exams.rst:361
+msgid "8.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:36 ../source/2021/exams.rst:40
+#: ../source/2021/exams.rst:54 ../source/2021/exams.rst:60
+#: ../source/2021/exams.rst:110 ../source/2021/exams.rst:144
+msgid "17.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:36 ../source/2021/exams.rst:52
+#: ../source/2021/exams.rst:54 ../source/2021/exams.rst:94
+#: ../source/2021/exams.rst:102 ../source/2021/exams.rst:110
+#: ../source/2021/exams.rst:170 ../source/2021/exams.rst:226
+#: ../source/2021/exams.rst:232 ../source/2021/exams.rst:250
+#: ../source/2021/exams.rst:321 ../source/2021/exams.rst:343
+msgid "7.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:38 ../source/2021/exams.rst:130
+#: ../source/2021/exams.rst:174 ../source/2021/exams.rst:244
+msgid "550562"
+msgstr ""
+
+#: ../source/2021/exams.rst:40 ../source/2021/exams.rst:62
+#: ../source/2021/exams.rst:98 ../source/2021/exams.rst:104
+#: ../source/2021/exams.rst:172 ../source/2021/exams.rst:210
+#: ../source/2021/exams.rst:212 ../source/2021/exams.rst:216
+#: ../source/2021/exams.rst:222 ../source/2021/exams.rst:242
+#: ../source/2021/exams.rst:246 ../source/2021/exams.rst:256
+#: ../source/2021/exams.rst:299 ../source/2021/exams.rst:305
+#: ../source/2021/exams.rst:307 ../source/2021/exams.rst:329
+#: ../source/2021/exams.rst:333 ../source/2021/exams.rst:335
+#: ../source/2021/exams.rst:337 ../source/2021/exams.rst:339
+msgid "10"
+msgstr ""
+
+#: ../source/2021/exams.rst:40 ../source/2021/exams.rst:110
+msgid "535396"
+msgstr ""
+
+#: ../source/2021/exams.rst:40 ../source/2021/exams.rst:60
+#: ../source/2021/exams.rst:124 ../source/2021/exams.rst:230
+#: ../source/2021/exams.rst:240 ../source/2021/exams.rst:321
+#: ../source/2021/exams.rst:327 ../source/2021/exams.rst:331
+msgid "9.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:40 ../source/2021/exams.rst:60
+#: ../source/2021/exams.rst:134 ../source/2021/exams.rst:138
+#: ../source/2021/exams.rst:172 ../source/2021/exams.rst:204
+#: ../source/2021/exams.rst:238 ../source/2021/exams.rst:240
+#: ../source/2021/exams.rst:246 ../source/2021/exams.rst:252
+#: ../source/2021/exams.rst:256 ../source/2021/exams.rst:341
+msgid "27"
+msgstr ""
+
+#: ../source/2021/exams.rst:42 ../source/2021/exams.rst:106
+#: ../source/2021/exams.rst:224 ../source/2021/exams.rst:309
+#: ../source/2021/exams.rst:317
+msgid "11"
+msgstr ""
+
+#: ../source/2021/exams.rst:42 ../source/2021/exams.rst:176
+msgid "546436"
+msgstr ""
+
+#: ../source/2021/exams.rst:42 ../source/2021/exams.rst:176
+msgid "18.75"
+msgstr ""
+
+#: ../source/2021/exams.rst:42 ../source/2021/exams.rst:102
+#: ../source/2021/exams.rst:112 ../source/2021/exams.rst:114
+#: ../source/2021/exams.rst:140 ../source/2021/exams.rst:226
+#: ../source/2021/exams.rst:258 ../source/2021/exams.rst:307
+#: ../source/2021/exams.rst:309 ../source/2021/exams.rst:339
+#: ../source/2021/exams.rst:343 ../source/2021/exams.rst:351
+msgid "28"
+msgstr ""
+
+#: ../source/2021/exams.rst:44 ../source/2021/exams.rst:108
+#: ../source/2021/exams.rst:226 ../source/2021/exams.rst:311
+msgid "12"
+msgstr ""
+
+#: ../source/2021/exams.rst:44 ../source/2021/exams.rst:140
+msgid "546474"
+msgstr ""
+
+#: ../source/2021/exams.rst:46 ../source/2021/exams.rst:110
+#: ../source/2021/exams.rst:138 ../source/2021/exams.rst:228
+#: ../source/2021/exams.rst:258 ../source/2021/exams.rst:313
+#: ../source/2021/exams.rst:319
+msgid "13"
+msgstr ""
+
+#: ../source/2021/exams.rst:46 ../source/2021/exams.rst:126
+msgid "548285"
+msgstr ""
+
+#: ../source/2021/exams.rst:46 ../source/2021/exams.rst:126
+#: ../source/2021/exams.rst:226 ../source/2021/exams.rst:230
+#: ../source/2021/exams.rst:301 ../source/2021/exams.rst:327
+#: ../source/2021/exams.rst:331 ../source/2021/exams.rst:355
+msgid "20.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:46 ../source/2021/exams.rst:144
+#: ../source/2021/exams.rst:208 ../source/2021/exams.rst:210
+#: ../source/2021/exams.rst:222 ../source/2021/exams.rst:230
+#: ../source/2021/exams.rst:262 ../source/2021/exams.rst:299
+#: ../source/2021/exams.rst:305 ../source/2021/exams.rst:327
+#: ../source/2021/exams.rst:331 ../source/2021/exams.rst:347
+msgid "30"
+msgstr ""
+
+#: ../source/2021/exams.rst:48 ../source/2021/exams.rst:112
+#: ../source/2021/exams.rst:136 ../source/2021/exams.rst:230
+#: ../source/2021/exams.rst:315 ../source/2021/exams.rst:343
+#: ../source/2021/exams.rst:347
+msgid "14"
+msgstr ""
+
+#: ../source/2021/exams.rst:48 ../source/2021/exams.rst:148
+#: ../source/2021/exams.rst:250
+msgid "504902"
+msgstr ""
+
+#: ../source/2021/exams.rst:48 ../source/2021/exams.rst:50
+#: ../source/2021/exams.rst:66 ../source/2021/exams.rst:86
+#: ../source/2021/exams.rst:142
+msgid "9.75"
+msgstr ""
+
+#: ../source/2021/exams.rst:50 ../source/2021/exams.rst:92
+#: ../source/2021/exams.rst:104 ../source/2021/exams.rst:114
+#: ../source/2021/exams.rst:182 ../source/2021/exams.rst:232
+#: ../source/2021/exams.rst:293 ../source/2021/exams.rst:295
+#: ../source/2021/exams.rst:317 ../source/2021/exams.rst:325
+msgid "15"
+msgstr ""
+
+#: ../source/2021/exams.rst:50 ../source/2021/exams.rst:94
+msgid "546583"
+msgstr ""
+
+#: ../source/2021/exams.rst:50 ../source/2021/exams.rst:86
+#: ../source/2021/exams.rst:94 ../source/2021/exams.rst:106
+#: ../source/2021/exams.rst:116 ../source/2021/exams.rst:118
+msgid "16.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:50 ../source/2021/exams.rst:86
+#: ../source/2021/exams.rst:106 ../source/2021/exams.rst:120
+#: ../source/2021/exams.rst:136 ../source/2021/exams.rst:214
+#: ../source/2021/exams.rst:218 ../source/2021/exams.rst:228
+#: ../source/2021/exams.rst:232 ../source/2021/exams.rst:254
+#: ../source/2021/exams.rst:289 ../source/2021/exams.rst:315
+#: ../source/2021/exams.rst:339
+msgid "26"
+msgstr ""
+
+#: ../source/2021/exams.rst:52
+msgid "547564"
+msgstr ""
+
+#: ../source/2021/exams.rst:52 ../source/2021/exams.rst:112
+#: ../source/2021/exams.rst:178
+msgid "7.75"
+msgstr ""
+
+#: ../source/2021/exams.rst:52
+msgid "13.75"
+msgstr ""
+
+#: ../source/2021/exams.rst:52 ../source/2021/exams.rst:62
+#: ../source/2021/exams.rst:104 ../source/2021/exams.rst:124
+#: ../source/2021/exams.rst:126 ../source/2021/exams.rst:132
+#: ../source/2021/exams.rst:136 ../source/2021/exams.rst:182
+#: ../source/2021/exams.rst:208 ../source/2021/exams.rst:212
+#: ../source/2021/exams.rst:216 ../source/2021/exams.rst:222
+#: ../source/2021/exams.rst:238 ../source/2021/exams.rst:244
+#: ../source/2021/exams.rst:256 ../source/2021/exams.rst:325
+#: ../source/2021/exams.rst:329 ../source/2021/exams.rst:333
+#: ../source/2021/exams.rst:335 ../source/2021/exams.rst:337
+#: ../source/2021/exams.rst:361 ../source/2021/exams.rst:363
+msgid "21"
+msgstr ""
+
+#: ../source/2021/exams.rst:54 ../source/2021/exams.rst:144
+msgid "552378"
+msgstr ""
+
+#: ../source/2021/exams.rst:56 ../source/2021/exams.rst:128
+#: ../source/2021/exams.rst:168 ../source/2021/exams.rst:317
+msgid "538593"
+msgstr ""
+
+#: ../source/2021/exams.rst:56 ../source/2021/exams.rst:168
+#: ../source/2021/exams.rst:361
+msgid "12.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:56 ../source/2021/exams.rst:58
+#: ../source/2021/exams.rst:114 ../source/2021/exams.rst:122
+#: ../source/2021/exams.rst:240 ../source/2021/exams.rst:242
+#: ../source/2021/exams.rst:307 ../source/2021/exams.rst:309
+#: ../source/2021/exams.rst:325
+msgid "19"
+msgstr ""
+
+#: ../source/2021/exams.rst:58
+msgid "499619"
+msgstr ""
+
+#: ../source/2021/exams.rst:58 ../source/2021/exams.rst:128
+#: ../source/2021/exams.rst:184 ../source/2021/exams.rst:206
+#: ../source/2021/exams.rst:220 ../source/2021/exams.rst:264
+#: ../source/2021/exams.rst:266 ../source/2021/exams.rst:268
+#: ../source/2021/exams.rst:303 ../source/2021/exams.rst:345
+#: ../source/2021/exams.rst:395 ../source/2021/exams.rst:397
+msgid "N.D."
+msgstr ""
+
+#: ../source/2021/exams.rst:60 ../source/2021/exams.rst:88
+#: ../source/2021/exams.rst:112 ../source/2021/exams.rst:120
+#: ../source/2021/exams.rst:124 ../source/2021/exams.rst:210
+#: ../source/2021/exams.rst:242 ../source/2021/exams.rst:248
+#: ../source/2021/exams.rst:252 ../source/2021/exams.rst:258
+#: ../source/2021/exams.rst:289 ../source/2021/exams.rst:291
+#: ../source/2021/exams.rst:299 ../source/2021/exams.rst:305
+#: ../source/2021/exams.rst:327 ../source/2021/exams.rst:347
+#: ../source/2021/exams.rst:357
+msgid "20"
+msgstr ""
+
+#: ../source/2021/exams.rst:60
+msgid "548019"
+msgstr ""
+
+#: ../source/2021/exams.rst:60 ../source/2021/exams.rst:176
+msgid "6.75"
+msgstr ""
+
+#: ../source/2021/exams.rst:62
+msgid "541450"
+msgstr ""
+
+#: ../source/2021/exams.rst:62 ../source/2021/exams.rst:66
+#: ../source/2021/exams.rst:124 ../source/2021/exams.rst:142
+#: ../source/2021/exams.rst:146 ../source/2021/exams.rst:264
+#: ../source/2021/exams.rst:349
+msgid "31"
+msgstr ""
+
+#: ../source/2021/exams.rst:64 ../source/2021/exams.rst:128
+#: ../source/2021/exams.rst:246 ../source/2021/exams.rst:260
+#: ../source/2021/exams.rst:262 ../source/2021/exams.rst:331
+#: ../source/2021/exams.rst:343
+msgid "22"
+msgstr ""
+
+#: ../source/2021/exams.rst:64
+msgid "519727"
+msgstr ""
+
+#: ../source/2021/exams.rst:66
+msgid "546572"
+msgstr ""
+
+#: ../source/2021/exams.rst:66 ../source/2021/exams.rst:142
+msgid "8.75"
+msgstr ""
+
+#: ../source/2021/exams.rst:66 ../source/2021/exams.rst:142
+msgid "20.75"
+msgstr ""
+
+#: ../source/2021/exams.rst:74
+msgid "20/07/2022"
+msgstr ""
+
+#: ../source/2021/exams.rst:76
+msgid ""
+"Testo d'esame: :download:`6 <esami/220720-it-6.pdf>`, :download:`7 "
+"<esami/220720-it-7.pdf>`"
+msgstr ""
+
+#: ../source/2021/exams.rst:86
+msgid "523594"
+msgstr ""
+
+#: ../source/2021/exams.rst:88 ../source/2021/exams.rst:291
+msgid "524747"
+msgstr ""
+
+#: ../source/2021/exams.rst:92
+msgid "583501"
+msgstr ""
+
+#: ../source/2021/exams.rst:94
+msgid "4.25"
+msgstr ""
+
+#: ../source/2021/exams.rst:98 ../source/2021/exams.rst:345
+msgid "546452"
+msgstr ""
+
+#: ../source/2021/exams.rst:100
+msgid "5.25"
+msgstr ""
+
+#: ../source/2021/exams.rst:102
+msgid "546759"
+msgstr ""
+
+#: ../source/2021/exams.rst:102 ../source/2021/exams.rst:214
+#: ../source/2021/exams.rst:228 ../source/2021/exams.rst:313
+#: ../source/2021/exams.rst:321
+msgid "19.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:104 ../source/2021/exams.rst:293
+msgid "546547"
+msgstr ""
+
+#: ../source/2021/exams.rst:106
+msgid "520250"
+msgstr ""
+
+#: ../source/2021/exams.rst:112 ../source/2021/exams.rst:248
+msgid "546425"
+msgstr ""
+
+#: ../source/2021/exams.rst:114
+msgid "521609"
+msgstr ""
+
+#: ../source/2021/exams.rst:116
+msgid "547920"
+msgstr ""
+
+#: ../source/2021/exams.rst:118
+msgid "548015"
+msgstr ""
+
+#: ../source/2021/exams.rst:120 ../source/2021/exams.rst:303
+msgid "575984"
+msgstr ""
+
+#: ../source/2021/exams.rst:122
+msgid "549484"
+msgstr ""
+
+#: ../source/2021/exams.rst:122 ../source/2021/exams.rst:260
+#: ../source/2021/exams.rst:262 ../source/2021/exams.rst:349
+msgid "15.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:122 ../source/2021/exams.rst:132
+#: ../source/2021/exams.rst:236 ../source/2021/exams.rst:250
+#: ../source/2021/exams.rst:335 ../source/2021/exams.rst:391
+msgid "24"
+msgstr ""
+
+#: ../source/2021/exams.rst:124
+msgid "549584"
+msgstr ""
+
+#: ../source/2021/exams.rst:126
+msgid "4.75"
+msgstr ""
+
+#: ../source/2021/exams.rst:132
+msgid "550208"
+msgstr ""
+
+#: ../source/2021/exams.rst:132
+msgid "3.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:134
+msgid "546942"
+msgstr ""
+
+#: ../source/2021/exams.rst:136
+msgid "548043"
+msgstr ""
+
+#: ../source/2021/exams.rst:138 ../source/2021/exams.rst:319
+msgid "533954"
+msgstr ""
+
+#: ../source/2021/exams.rst:142
+msgid "567718"
+msgstr ""
+
+#: ../source/2021/exams.rst:146
+msgid "546938"
+msgstr ""
+
+#: ../source/2021/exams.rst:146
+msgid "20.25"
+msgstr ""
+
+#: ../source/2021/exams.rst:146
+msgid "10+"
+msgstr ""
+
+#: ../source/2021/exams.rst:148 ../source/2021/exams.rst:266
+#: ../source/2021/exams.rst:351
+msgid "32"
+msgstr ""
+
+#: ../source/2021/exams.rst:156
+msgid "24/06/2022"
+msgstr ""
+
+#: ../source/2021/exams.rst:158
+msgid "Testo d'esame: :download:`5 <esami/220624-5-it.pdf>`"
+msgstr ""
+
+#: ../source/2021/exams.rst:168
+msgid "3.2"
+msgstr ""
+
+#: ../source/2021/exams.rst:170
+msgid "547218"
+msgstr ""
+
+#: ../source/2021/exams.rst:172
+msgid "552166"
+msgstr ""
+
+#: ../source/2021/exams.rst:178
+msgid "507967"
+msgstr ""
+
+#: ../source/2021/exams.rst:178
+msgid "19.25"
+msgstr ""
+
+#: ../source/2021/exams.rst:180 ../source/2021/exams.rst:224
+msgid "549475"
+msgstr ""
+
+#: ../source/2021/exams.rst:180 ../source/2021/exams.rst:204
+#: ../source/2021/exams.rst:224 ../source/2021/exams.rst:232
+#: ../source/2021/exams.rst:254 ../source/2021/exams.rst:351
+msgid "18.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:182 ../source/2021/exams.rst:295
+msgid "546845"
+msgstr ""
+
+#: ../source/2021/exams.rst:184 ../source/2021/exams.rst:268
+#: ../source/2021/exams.rst:395
+msgid "577378"
+msgstr ""
+
+#: ../source/2021/exams.rst:184
+msgid "N.D"
+msgstr ""
+
+#: ../source/2021/exams.rst:192
+msgid "28/02/2022"
+msgstr ""
+
+#: ../source/2021/exams.rst:194
+msgid ""
+"Testo d'esame: :download:`3 <esami/220228-3-it.pdf>`, :download:`4 "
+"<esami/220228-4-it.pdf>`"
+msgstr ""
+
+#: ../source/2021/exams.rst:204
+msgid "548280"
+msgstr ""
+
+#: ../source/2021/exams.rst:206
+msgid "533710"
+msgstr ""
+
+#: ../source/2021/exams.rst:208
+msgid "548288"
+msgstr ""
+
+#: ../source/2021/exams.rst:210
+msgid "547887"
+msgstr ""
+
+#: ../source/2021/exams.rst:212
+msgid "550043"
+msgstr ""
+
+#: ../source/2021/exams.rst:212 ../source/2021/exams.rst:216
+#: ../source/2021/exams.rst:256 ../source/2021/exams.rst:329
+#: ../source/2021/exams.rst:333 ../source/2021/exams.rst:335
+#: ../source/2021/exams.rst:337
+msgid "30cumlaude"
+msgstr ""
+
+#: ../source/2021/exams.rst:214
+msgid "524441"
+msgstr ""
+
+#: ../source/2021/exams.rst:216
+msgid "547007"
+msgstr ""
+
+#: ../source/2021/exams.rst:218
+msgid "546543"
+msgstr ""
+
+#: ../source/2021/exams.rst:220
+msgid "533685"
+msgstr ""
+
+#: ../source/2021/exams.rst:222
+msgid "533168"
+msgstr ""
+
+#: ../source/2021/exams.rst:226
+msgid "547999"
+msgstr ""
+
+#: ../source/2021/exams.rst:228
+msgid "548395"
+msgstr ""
+
+#: ../source/2021/exams.rst:230
+msgid "548013"
+msgstr ""
+
+#: ../source/2021/exams.rst:232
+msgid "546420"
+msgstr ""
+
+#: ../source/2021/exams.rst:236
+msgid "533951"
+msgstr ""
+
+#: ../source/2021/exams.rst:238
+msgid "239927"
+msgstr ""
+
+#: ../source/2021/exams.rst:240
+msgid "547511"
+msgstr ""
+
+#: ../source/2021/exams.rst:242
+msgid "546505"
+msgstr ""
+
+#: ../source/2021/exams.rst:246
+msgid "537018"
+msgstr ""
+
+#: ../source/2021/exams.rst:252 ../source/2021/exams.rst:385
+msgid "534346"
+msgstr ""
+
+#: ../source/2021/exams.rst:254 ../source/2021/exams.rst:393
+msgid "523520"
+msgstr ""
+
+#: ../source/2021/exams.rst:256 ../source/2021/exams.rst:399
+msgid "547434"
+msgstr ""
+
+#: ../source/2021/exams.rst:258 ../source/2021/exams.rst:387
+msgid "550030"
+msgstr ""
+
+#: ../source/2021/exams.rst:260
+msgid "505846"
+msgstr ""
+
+#: ../source/2021/exams.rst:262 ../source/2021/exams.rst:389
+msgid "547985"
+msgstr ""
+
+#: ../source/2021/exams.rst:264
+msgid "547210"
+msgstr ""
+
+#: ../source/2021/exams.rst:268 ../source/2021/exams.rst:353
+msgid "33"
+msgstr ""
+
+#: ../source/2021/exams.rst:277
+msgid "21/02/2022"
+msgstr ""
+
+#: ../source/2021/exams.rst:279
+msgid ""
+"Testo d'esame: :download:`it-1 <esami/220221-1-it.pdf>`, :download:`en-1 "
+"<esami/220221-1-en.pdf>`, :download:`it-2 <esami/220221-2-it.pdf>`, "
+":download:`en-2 <esami/220221-2-en.pdf>`"
+msgstr ""
+
+#: ../source/2021/exams.rst:289
+msgid "546799"
+msgstr ""
+
+#: ../source/2021/exams.rst:297 ../source/2021/exams.rst:359
+msgid "1.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:299
+msgid "533629"
+msgstr ""
+
+#: ../source/2021/exams.rst:301
+msgid "547762"
+msgstr ""
+
+#: ../source/2021/exams.rst:305
+msgid "550957"
+msgstr ""
+
+#: ../source/2021/exams.rst:307
+msgid "552429"
+msgstr ""
+
+#: ../source/2021/exams.rst:309
+msgid "546429"
+msgstr ""
+
+#: ../source/2021/exams.rst:311
+msgid "546902"
+msgstr ""
+
+#: ../source/2021/exams.rst:313
+msgid "546586"
+msgstr ""
+
+#: ../source/2021/exams.rst:315
+msgid "548914"
+msgstr ""
+
+#: ../source/2021/exams.rst:321
+msgid "549086"
+msgstr ""
+
+#: ../source/2021/exams.rst:323
+msgid "548949"
+msgstr ""
+
+#: ../source/2021/exams.rst:325
+msgid "552764"
+msgstr ""
+
+#: ../source/2021/exams.rst:327
+msgid "547040"
+msgstr ""
+
+#: ../source/2021/exams.rst:329
+msgid "546722"
+msgstr ""
+
+#: ../source/2021/exams.rst:331
+msgid "546723"
+msgstr ""
+
+#: ../source/2021/exams.rst:333
+msgid "550337"
+msgstr ""
+
+#: ../source/2021/exams.rst:335
+msgid "547344"
+msgstr ""
+
+#: ../source/2021/exams.rst:337
+msgid "546934"
+msgstr ""
+
+#: ../source/2021/exams.rst:339
+msgid "548039"
+msgstr ""
+
+#: ../source/2021/exams.rst:341
+msgid "523963"
+msgstr ""
+
+#: ../source/2021/exams.rst:341 ../source/2021/exams.rst:351
+msgid "6.5"
+msgstr ""
+
+#: ../source/2021/exams.rst:343
+msgid "547410"
+msgstr ""
+
+#: ../source/2021/exams.rst:347
+msgid "525080"
+msgstr ""
+
+#: ../source/2021/exams.rst:349
+msgid "540143"
+msgstr ""
+
+#: ../source/2021/exams.rst:351
+msgid "546590"
+msgstr ""
+
+#: ../source/2021/exams.rst:355
+msgid "34"
+msgstr ""
+
+#: ../source/2021/exams.rst:355
+msgid "550745"
+msgstr ""
+
+#: ../source/2021/exams.rst:357
+msgid "35"
+msgstr ""
+
+#: ../source/2021/exams.rst:357
+msgid "546913"
+msgstr ""
+
+#: ../source/2021/exams.rst:359
+msgid "36"
+msgstr ""
+
+#: ../source/2021/exams.rst:359
+msgid "463654"
+msgstr ""
+
+#: ../source/2021/exams.rst:361
+msgid "37"
+msgstr ""
+
+#: ../source/2021/exams.rst:361
+msgid "546367"
+msgstr ""
+
+#: ../source/2021/exams.rst:361
+msgid "8,5"
+msgstr ""
+
+#: ../source/2021/exams.rst:363
+msgid "38"
+msgstr ""
+
+#: ../source/2021/exams.rst:363
+msgid "547804"
+msgstr ""
+
+#: ../source/2021/exams.rst:369 ../source/2021/exams.rst:402
+msgid ""
+"*N.D.* indica che non è stata firmata la liberatoria per la pubblicazione"
+" dei risultati."
+msgstr ""
+
+#: ../source/2021/exams.rst:375
+msgid "26/01/2022"
+msgstr ""
+
+#: ../source/2021/exams.rst:377
+msgid ""
+"Testo d'esame: :download:`it <esami/220126-it.pdf>`, :download:`en "
+"<esami/220126-en.pdf>`, :download:`sorgente e soluzione (aggiornato il "
+"09/02/2022) <esami/220126-PROGv2.zip>`"
+msgstr ""
+
+#: ../source/2021/exams.rst:383
+msgid "**Matricola**"
+msgstr ""
+
+#: ../source/2021/exams.rst:383
+msgid "**Teoria**"
+msgstr ""
+
+#: ../source/2021/exams.rst:383
+msgid "**Programmazione**"
+msgstr ""
+
+#: ../source/2021/exams.rst:383
+msgid "**Totale**"
+msgstr ""
+
+#: ../source/2021/exams.rst:385
+msgid "20/21"
+msgstr ""
+
+#: ../source/2021/exams.rst:385 ../source/2021/exams.rst:389
+msgid "0/10"
+msgstr ""
+
+#: ../source/2021/exams.rst:387
+msgid "13/21"
+msgstr ""
+
+#: ../source/2021/exams.rst:387
+msgid "3/10"
+msgstr ""
+
+#: ../source/2021/exams.rst:389
+msgid "15.5/21"
+msgstr ""
+
+#: ../source/2021/exams.rst:391
+msgid "547002"
+msgstr ""
+
+#: ../source/2021/exams.rst:391
+msgid "18/21"
+msgstr ""
+
+#: ../source/2021/exams.rst:391
+msgid "6/10"
+msgstr ""
+
+#: ../source/2021/exams.rst:393
+msgid "12/21"
+msgstr ""
+
+#: ../source/2021/exams.rst:393
+msgid "4/10"
+msgstr ""
+
+#: ../source/2021/exams.rst:397
+msgid "553700"
+msgstr ""
+
+#: ../source/2021/exams.rst:399
+msgid "3/21"
+msgstr ""
+
+#: ../source/2021/exams.rst:399
+msgid "10/10"
+msgstr ""
+
+#~ msgid "Appelli"
+#~ msgstr ""
+

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 12:45+0100\n"
+"POT-Creation-Date: 2022-09-26 11:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,103 +22,107 @@ msgstr ""
 msgid "5 - Gestione della memoria"
 msgstr ""
 
-#: ../source/questions/memory.rst:4
-msgid ""
-"Descrivi la paginazione e la segmentazione mostrando vantaggi e svantaggi"
-" di ciascuna."
-msgstr ""
-
-#: ../source/questions/memory.rst:5
-msgid ""
-"Mostra lo schema di paginazione a due livelli e il processo di traduzione"
-" di un indirizzo virtuale in fisico. Quali sono i vantaggi e gli "
-"svantaggi nell'uso di tale schema?"
-msgstr ""
-
-#: ../source/questions/memory.rst:6
-msgid "Cosa è e a cosa serve il translation lookside buffer?"
-msgstr ""
-
-#: ../source/questions/memory.rst:7
-msgid ""
-"Mostrare uno schema di segmentazione paginata con TLB e descriverne il "
-"funzionamento per la traduzione da indirizzo logico a fisico."
-msgstr ""
-
-#: ../source/questions/memory.rst:8
-msgid "Che cosa è un buddy system?"
-msgstr ""
-
-#: ../source/questions/memory.rst:9
-msgid "Descrivi l'anomalia di Belady."
-msgstr ""
-
-#: ../source/questions/memory.rst:10
-msgid ""
-"Descrivere l'algoritmo dell'orologio nell'ambito delle politiche di "
-"replacement delle pagine."
-msgstr ""
-
-#: ../source/questions/memory.rst:11
-msgid "Descrivere gli aspetti principali di gestione della memoria virtuale."
-msgstr ""
-
-#: ../source/questions/memory.rst:12
-msgid ""
-"Descrizione la gestione di un page fault nel caso di memoria virtuale "
-"basata su paginazione."
-msgstr ""
-
-#: ../source/questions/memory.rst:13
-msgid ""
-"Descrivere le caratteristiche delle politiche di gestione del resident "
-"set di processo."
-msgstr ""
-
-#: ../source/questions/memory.rst:14
-msgid "Descrivere il fenomeno del thrashing nel contesto della memoria virtuale."
-msgstr ""
-
-#: ../source/questions/memory.rst:15
-msgid ""
-"Descrivere la tecnica di gestione delle memoria basata su partizioni "
-"dinamiche, indicando anche di quali supporti per il binding degli "
-"indirizzi questa necessita."
-msgstr ""
-
-#: ../source/questions/memory.rst:16
-msgid ""
-"Descrivere l'algoritmo di selezione Least-Recently-Used (LRU) per sistemi"
-" di memoria virtuale basati su paginazione."
-msgstr ""
-
-#: ../source/questions/memory.rst:17
-msgid ""
-"Si descriva la tecnica della paginazione, indicando quali siano le "
-"strutture dati fondamentali che un sistema operativo deve gestire per "
-"metterla in atto."
-msgstr ""
-
-#: ../source/questions/memory.rst:18
-msgid ""
-"Descrivere l'algoritmo ottimo per la sostituzione delle pagine in "
-"ambiente di memoria virtuale. Si indichi infine se tale algoritmo soffra "
-"o meno dell'anomalia di Belady, motivando la risposta."
-msgstr ""
-
-#: ../source/questions/memory.rst:19
-msgid ""
-"Descrivere la struttura e l'utilizzo della tabella delle pagine e la "
-"relazione tra questa ed i componenti hardware presenti su una "
-"architettura di processore convenzionale."
-msgstr ""
-
 #~ msgid "4 - Gestione della memoria"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "#. Descrivere la struttura e l'utilizzo"
 #~ " della tabella delle pagine e la "
+#~ "relazione tra questa ed i componenti "
+#~ "hardware presenti su una architettura di"
+#~ " processore convenzionale."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivi la paginazione e la "
+#~ "segmentazione mostrando vantaggi e svantaggi"
+#~ " di ciascuna."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mostra lo schema di paginazione a "
+#~ "due livelli e il processo di "
+#~ "traduzione di un indirizzo virtuale in"
+#~ " fisico. Quali sono i vantaggi e "
+#~ "gli svantaggi nell'uso di tale schema?"
+#~ msgstr ""
+
+#~ msgid "Cosa è e a cosa serve il translation lookside buffer?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mostrare uno schema di segmentazione "
+#~ "paginata con TLB e descriverne il "
+#~ "funzionamento per la traduzione da "
+#~ "indirizzo logico a fisico."
+#~ msgstr ""
+
+#~ msgid "Che cosa è un buddy system?"
+#~ msgstr ""
+
+#~ msgid "Descrivi l'anomalia di Belady."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere l'algoritmo dell'orologio nell'ambito "
+#~ "delle politiche di replacement delle "
+#~ "pagine."
+#~ msgstr ""
+
+#~ msgid "Descrivere gli aspetti principali di gestione della memoria virtuale."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrizione la gestione di un page "
+#~ "fault nel caso di memoria virtuale "
+#~ "basata su paginazione."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere le caratteristiche delle politiche"
+#~ " di gestione del resident set di "
+#~ "processo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere il fenomeno del thrashing nel"
+#~ " contesto della memoria virtuale."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere la tecnica di gestione delle"
+#~ " memoria basata su partizioni dinamiche,"
+#~ " indicando anche di quali supporti "
+#~ "per il binding degli indirizzi questa"
+#~ " necessita."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere l'algoritmo di selezione Least-"
+#~ "Recently-Used (LRU) per sistemi di "
+#~ "memoria virtuale basati su paginazione."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si descriva la tecnica della "
+#~ "paginazione, indicando quali siano le "
+#~ "strutture dati fondamentali che un "
+#~ "sistema operativo deve gestire per "
+#~ "metterla in atto."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere l'algoritmo ottimo per la "
+#~ "sostituzione delle pagine in ambiente di"
+#~ " memoria virtuale. Si indichi infine "
+#~ "se tale algoritmo soffra o meno "
+#~ "dell'anomalia di Belady, motivando la "
+#~ "risposta."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere la struttura e l'utilizzo "
+#~ "della tabella delle pagine e la "
 #~ "relazione tra questa ed i componenti "
 #~ "hardware presenti su una architettura di"
 #~ " processore convenzionale."

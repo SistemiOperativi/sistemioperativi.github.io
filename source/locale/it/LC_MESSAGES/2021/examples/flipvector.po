@@ -1,0 +1,502 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/examples/flipvector.rst:5
+msgid "FlipVector"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:8
+msgid ""
+":raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c\">FlipVector</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c\"></a>`"
+" è un programma C il cui obiettivo è mostrare diversi aspetti "
+"nell'utilizzo e gestione dei thread."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:12
+msgid ""
+"In questo programma vengono creati molteplici thread che manipolano un "
+"array condiviso. Nello specifico, ciascun thread inverte ripetutamente la"
+" posizione di ciascuna entry nell'array, la cui dimensione è un numero "
+"pari. A seguire, la funzione *stress_test* implementa tale operazione:"
+msgstr ""
+
+msgid "Domanda"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:40
+msgid ""
+"Come è possibile modificare il ciclo interno per gestire array di taglia "
+"generica?"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:43
+msgid ""
+"L'operatore :code:`^` implementa la semantica di eXclusive OR (`XOR "
+"<https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bitwise-"
+"Logical-Operators>`_) bit a bit. La relativa tabella di verità è la "
+"seguente:"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:46
+msgid "X"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:46
+msgid "Y"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:46
+msgid "X^Y"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:48
+#: ../source/2021/examples/flipvector.rst:49
+#: ../source/2021/examples/flipvector.rst:50
+#: ../source/2021/examples/flipvector.rst:51
+msgid "0"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:49
+#: ../source/2021/examples/flipvector.rst:50
+#: ../source/2021/examples/flipvector.rst:51
+msgid "1"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:54
+msgid ""
+"In altre parole se i due bit di input sono uguali l'output è pari a 0. "
+"Viceversa se sono diversi l'output è pari ad 1. Di conseguenza, "
+":code:`x^x=0`."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:58
+msgid ""
+"Come è stato utilizzato lo XOR per implementare lo scambio del contenuto "
+"di due variabili?"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:60
+msgid ""
+"Essendo l'array condiviso, la sincronizzazione è necessaria al fine di "
+"manipolare correttamente l'array. Le funzioni :code:`acquire` e "
+":code:`release` assolvono a questo scopo, utilizzando primitive di lock "
+"nella loro implementazione."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:63
+msgid ""
+"Il programma misura le perfomance dell'applicazione in termini di sezioni"
+" critiche eseguite. Per assicurarsi che ciascun thread lavori con la "
+"massima concorrenza, questi aspettano che tutti i thread raggiungono la "
+"medesima riga di codice, prima di cominciare a manipolare l'array. Questo"
+" è ottenuto grazie alla primitiva di sincronizzazione "
+":code:`pthread_barrier_wait`, che blocca un thread fintanto che *N* "
+"thread non invocano la medesima funzione sul medesimo oggetto "
+"inizializzato a *N*."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:70
+msgid "Una barriera può esser vista come un particolare semaforo che:"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:72
+msgid "può assumere valori negativi"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:73
+msgid "inizializzato a -*N*"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:75
+msgid "l'operazione di wait incrementa il contatore di 1 unità"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:75
+msgid "se il semaforo è negativo il thread rimane bloccato in attesa"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:76
+msgid ""
+"se il semaforo assume valore pari a 0, tutti i thread in attesa vengono "
+"sbloccati e il valore resettato a -*N*"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:78
+msgid ""
+"Prima di terminare ciascun thread utilizza una RMW per incrementare un "
+"contatore globale :code:`ops` del numero di operazioni complessivamente "
+"eseguite dai thread. A tal scopo si è utilizzata la funzione "
+":code:`__sync_fetch_and_add`."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:82
+msgid ""
+"Le operazioni builtin __sync di gcc sono semplici da utilizzare, ma "
+"deprecate. La versione di riferimento è `__atomic builtin "
+"<https://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html"
+"#g_t_005f_005fatomic-Builtins>`_, che tuttavia tengono conto anche del "
+"modello di memoria secondo lo `standard C++11 "
+"<https://en.cppreference.com/w/cpp/atomic/memory_order>`_. Per ulteriori "
+"dettagli consultare `AtomicSync "
+"<https://gcc.gnu.org/wiki/Atomic/GCCMM/AtomicSync>`_."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:88
+msgid ""
+"Come è possibile implementare l'accumulo del numero di operazioni "
+"globalmente eseguite senza utilizzare istruzioni RMW?"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:90
+msgid ""
+"Ciascun thread termina non appena la variabile :code:`stop` assume valore"
+" pari a :code:`true`."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:92
+msgid ""
+"Il test viene ripetuto con molteplici configurazioni, ossia al variare "
+"dei thread **e** del tipo di lock. Il tutto è coordinato dal main thread "
+"secondo lo schema che segue."
+msgstr ""
+
+msgid "Osservazione"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:115
+msgid ""
+"L'operatore :code:`<<` è l'operatore di `shift "
+"<https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bit-"
+"Shifting>`_ a sinistra. Considerando una variabile unsigned *x* a 8 bit "
+"con valore 4 la sua rappresentazione binaria è 0000 0100. L'istruzione "
+":code:`x << 1` indica l'operazione di shift a sinistra di una posizione "
+"della variabile *x*, il cui risultato è pari a 0000 1000, ossia x assume "
+"il valore 8. L'operatore :code:`>>` è l'operatore di shift a destra."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:123
+msgid ""
+"Quali operazioni matematiche possono essere implementate tramite gli "
+"operatori :code:`<<` e :code:`>>`?"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:124
+msgid ""
+"Quante iterazioni esegue il seguente ciclo "
+":code:`for(i=1;i<=MAX_THREADS;i<<=1)`?"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:127
+msgid "Per ciascun test, il main thread:"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:129
+msgid "inizializza la barriera"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:130
+msgid "crea i thread"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:131
+msgid "va in sleep per :code:`SECONDS` secondi"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:132
+msgid "setta la variabile :code:`stop` ad 1 con un'istruzione atomica"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:133
+msgid "attende la terminazione di ciascun thread"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:134
+msgid "distrugge la barriera"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:136
+msgid ""
+"La variabile :code:`lock_type` è una variabile globale utilizzata "
+"all'interno di :code:`acquire` e :code:`release` per selezionare "
+"l'implementazione di lock da utilizzare."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:139
+msgid ""
+"Perché la barriera viene distrutta ad ogni fine iterazione e "
+"inizializzata ad inizio iterazione?"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:140
+msgid ""
+"Quale altra istruzione RMW poteva essere usata al posto della "
+"*compare&swap*?"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:143
+msgid ""
+"Il test misura e stampa il numero di operazioni effettuate in concorrenza"
+" da tutti i thread in un intervallo di tempo predefinito. Inoltre, prima "
+"di eseguire il suddetto ciclo, il main thread:"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:146
+msgid "inizializza le primitive di lock della libreria pthread"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:153
+msgid "limita i core su cui i thread possono andare in esecuzione"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:164
+msgid "sched_affinity è una funzione non POSIX"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:167
+msgid "Perché la set affinity viene utilizzata dal main thread?"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:168
+msgid ""
+"L'uso di set affinity garantisce che ciascun thread andrà in esecuzione "
+"sul medesimo core? Se sì, perché? Se no, come è possibile garantirlo?"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:171
+msgid "Le funzioni di acquire e release"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:173
+msgid ""
+"Le funzioni di acquire e release utilizzano una specifica implementazione"
+" di lock in funzione del valore assunto dalla variabile globale "
+":code:`lock_type`. Nello specifico supportano 5 implementazioni "
+"differenti di lock:"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:176
+msgid "pthread spin lock (PT_TAS)"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:177
+msgid "pthread mutex (PT_MUTEX)"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:178
+msgid "test-and-set spin lock (TAS)"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:179
+msgid "test-and-test-and-set spin lock (TTAS)"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:180
+msgid "ticket spin lock (TICKET)"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:182
+msgid ""
+"Nel caso di lock forniti dalla libreria pthread, acquire e release "
+"ridirezionano sulle rispettive funzioni di libreria."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:198
+msgid "Chiaramente, le variabili *ptspin* e *ptmutex* sono variabili globali."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:200
+msgid ""
+"Anche i lock TAS e TTAS sono delle variabili globali intere. Il valore 0 "
+"indica che il lock è libero e 1 indica che il lock è stato acquisito da "
+"un qualche thread."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:224
+msgid ""
+"la variabile *lock* è dichiarata **volatile**. Questo garantisce che il "
+"compilatore non attuerà alcune ottimizzazioni, garantendo che ogni "
+"accesso alla variabile *lock* verrà effettuato sempre in memoria. Ad "
+"esempio, il compilatore non potrà usare i registri general purpose come "
+"cache per la variabile."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:225
+msgid ""
+":code:`asm volatile (\"\":::\"memory\");` costituisce una barriera per il"
+" compilatore. Di conseguenza, quest'ultimo non può spostare istruzioni "
+"che seguono la barriera prima di quest'ultima e viceversa. *asm* indica "
+"al compilatore che si sta innestando all'interno di codice C del codice "
+"assembly. In questo caso, l'istruzione innestata :code:`\"\"` è nulla. "
+"Siccome, il codice innestato è nullo, è necessario indicare al "
+"compilatore di non eliminare l'istruzione tramite il token **volatile**. "
+"Infine, l'ultimo parametro :code:`\"memory\"` indica al compilatore che "
+"l'istruzione accede in modo impredicibile alla memoria, disabilitando "
+"ulteriori ottimizzazioni come il riordinamento delle operazioni di "
+"scrittura/lettura. Per approfondimenti sul tema consultare la "
+"documentazione di GCC riguardo gli `extended-asm "
+"<https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Extended-Asm.html>`_."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:232
+msgid ""
+"Provare a dichiarare la variabile *lock* come **int** piuttosto che "
+"**volatile int** e vederne gli effetti quando si compila con il massimo "
+"livello di ottimizzazione (e.g. :code:`gcc -O3`)."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:234
+msgid ""
+"Infine, il ticket lock (TICKET) è implementato come una coppia di "
+"variabili globali *lock* e *now* di tipo **volatile int**, che indicano "
+"rispettivamente l'ultimo ticket servito e il ticket corrente."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:258
+msgid ""
+"L'algoritmo di ticket lock mostrato è corretto? Se sì, cercare di "
+"mostrare perché? Se no, mostrare un caso in cui l'algoritmo non "
+"garantisce mutua eclusione o progresso."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:262
+msgid "Risultati"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:264
+msgid "In questa sezione vengono discussi i risultati ottenuti compilando con:"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:266
+msgid "MAX_THREADS = 32"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:267
+msgid "CORES = 4"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:268
+msgid "ARRAY_LEN = 256"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:269
+msgid "SECONDS = 5"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:270
+msgid "gcc -O3"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:272
+msgid "Il sistema è equipaggiato con:"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:274
+msgid "CPU = Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:275
+msgid "CC = gcc 9.3.0"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:276
+msgid "LIBC = glibc 2.31"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:277
+msgid "LIBPTHREAD = NPTL 2.31"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:279
+msgid "A seguire i risultati."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:283
+msgid ""
+"Le massime performance (numero di sezioni critiche eseguite) sono "
+"raggiunte da tutti i lock in assenza di concorrenza. Quando il numero di "
+"thread è maggiore di 1, le performance deteriorano a causa della contesa."
+" Il degrado aumenta con thread count crescenti per gli spin lock (attesa "
+"attiva). L'uso ridotto di RMW nei TTAS giustifica le differenze con TAS. "
+"Il pthread mutex (PT-MUTEX) mantiene performance quasi inalterate in "
+"quanto riduce la contesa sulle risorse hardware (thread in attesa fuori "
+"dalla run queue). Non appena il numero di thread è maggiore del numero di"
+" core usabili, il ticket lock (spin+FIFO) ha un drastico crollo delle "
+"performance."
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:291
+msgid "Cosa giustifica il comportamento di TICKET?"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:295
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:297
+msgid ":posix:`pthread_barrier_init <pthread_barrier_init>`"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:298
+msgid ":posix:`pthread_barrier_wait <pthread_barrier_wait>`"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:299
+msgid ""
+"`bitwise XOR <https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+"#Bitwise-Logical-Operators>`_"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:300
+msgid ""
+"`__sync gcc builtin <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
+"Builtins.html>`_"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:301
+msgid ":posix:`pthread_spin_init <pthread_spin_init>`"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:302
+msgid ":posix:`pthread_mutex_init <pthread_mutex_init>`"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:303
+msgid ":linux2:`sched_setaffinity <sched_setaffinity>`"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:304
+msgid ":linux3:`CPU_SET <CPU_SET>`"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:305
+msgid ""
+"`shift <https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bit-"
+"Shifting>`_"
+msgstr ""
+
+#: ../source/2021/examples/flipvector.rst:306
+msgid ""
+"`extended-asm <https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Extended-"
+"Asm.html>`_"
+msgstr ""
+

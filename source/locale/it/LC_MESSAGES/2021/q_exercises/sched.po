@@ -1,0 +1,306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/q_exercises/sched.rst:2
+msgid "3 - Scheduling"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:3
+msgid ""
+"Si consideri uno scenario con 4 processi {P1,..., P4} CPU-bound e "
+"generati in sequenza a partire da P1 a P4 con ritardi trascurabili. Il "
+"processo Pi richiede 1/i secondi di CPU per completare la propria "
+"esecuzione. Considerando che il ritardo di context-switch sia "
+"trascurabile e che RR abbia una time slice pari a 125ms, si calcoli per "
+"gli algoritmi FCFS, SPN e RR il tempo di primo accesso alla CPU e il "
+"tempo di completamento per ciascun processo."
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:11
+msgid "**Mostra/Nascondi Soluzione**"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:15
+msgid "*FCFS*:"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:18
+#: ../source/2021/q_exercises/sched.rst:42
+#: ../source/2021/q_exercises/sched.rst:65
+#: ../source/2021/q_exercises/sched.rst:87
+msgid "process"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:18
+#: ../source/2021/q_exercises/sched.rst:28
+#: ../source/2021/q_exercises/sched.rst:42
+#: ../source/2021/q_exercises/sched.rst:52
+#: ../source/2021/q_exercises/sched.rst:65
+#: ../source/2021/q_exercises/sched.rst:75
+#: ../source/2021/q_exercises/sched.rst:87
+#: ../source/2021/q_exercises/sched.rst:99
+msgid "P1"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:18
+#: ../source/2021/q_exercises/sched.rst:30
+#: ../source/2021/q_exercises/sched.rst:42
+#: ../source/2021/q_exercises/sched.rst:54
+#: ../source/2021/q_exercises/sched.rst:65
+#: ../source/2021/q_exercises/sched.rst:77
+#: ../source/2021/q_exercises/sched.rst:87
+#: ../source/2021/q_exercises/sched.rst:101
+msgid "P2"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:18
+#: ../source/2021/q_exercises/sched.rst:32
+#: ../source/2021/q_exercises/sched.rst:42
+#: ../source/2021/q_exercises/sched.rst:56
+#: ../source/2021/q_exercises/sched.rst:65
+#: ../source/2021/q_exercises/sched.rst:79
+#: ../source/2021/q_exercises/sched.rst:87
+#: ../source/2021/q_exercises/sched.rst:103
+msgid "P3"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:18
+#: ../source/2021/q_exercises/sched.rst:34
+#: ../source/2021/q_exercises/sched.rst:42
+#: ../source/2021/q_exercises/sched.rst:58
+#: ../source/2021/q_exercises/sched.rst:65
+#: ../source/2021/q_exercises/sched.rst:81
+#: ../source/2021/q_exercises/sched.rst:87
+#: ../source/2021/q_exercises/sched.rst:105
+msgid "P4"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:20
+#: ../source/2021/q_exercises/sched.rst:44
+#: ../source/2021/q_exercises/sched.rst:67
+#: ../source/2021/q_exercises/sched.rst:89
+msgid "CPU Release Time"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:21
+#: ../source/2021/q_exercises/sched.rst:68
+#: ../source/2021/q_exercises/sched.rst:105
+msgid "1.00"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:21
+#: ../source/2021/q_exercises/sched.rst:30
+#: ../source/2021/q_exercises/sched.rst:32
+msgid "1.5"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:21
+#: ../source/2021/q_exercises/sched.rst:32
+#: ../source/2021/q_exercises/sched.rst:34
+msgid "1.83"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:21
+#: ../source/2021/q_exercises/sched.rst:34
+#: ../source/2021/q_exercises/sched.rst:45
+#: ../source/2021/q_exercises/sched.rst:52
+#: ../source/2021/q_exercises/sched.rst:68
+#: ../source/2021/q_exercises/sched.rst:77
+#: ../source/2021/q_exercises/sched.rst:99
+msgid "2.08"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:26
+#: ../source/2021/q_exercises/sched.rst:50
+#: ../source/2021/q_exercises/sched.rst:73
+#: ../source/2021/q_exercises/sched.rst:97
+msgid "Processo"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:26
+#: ../source/2021/q_exercises/sched.rst:50
+#: ../source/2021/q_exercises/sched.rst:73
+#: ../source/2021/q_exercises/sched.rst:97
+msgid "Primo Accesso"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:26
+#: ../source/2021/q_exercises/sched.rst:50
+#: ../source/2021/q_exercises/sched.rst:73
+#: ../source/2021/q_exercises/sched.rst:97
+msgid "Completamento"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:28
+#: ../source/2021/q_exercises/sched.rst:58
+#: ../source/2021/q_exercises/sched.rst:75
+msgid "0"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:28
+#: ../source/2021/q_exercises/sched.rst:30
+#: ../source/2021/q_exercises/sched.rst:75
+#: ../source/2021/q_exercises/sched.rst:81
+msgid "1"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:37
+msgid "*SPN*:"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:39
+msgid ""
+"Assunzione 1: Lo scheduler viene attivato dopo l'arrivo di tutti i "
+"processi"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:45
+#: ../source/2021/q_exercises/sched.rst:56
+#: ../source/2021/q_exercises/sched.rst:58
+msgid "0.25"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:45
+#: ../source/2021/q_exercises/sched.rst:54
+#: ../source/2021/q_exercises/sched.rst:56
+msgid "0.58"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:45
+#: ../source/2021/q_exercises/sched.rst:52
+#: ../source/2021/q_exercises/sched.rst:54
+msgid "1.08"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:62
+msgid "Assunzione 2: Lo scheduler è attivato all'arrivo del primo processo"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:68
+#: ../source/2021/q_exercises/sched.rst:79
+#: ../source/2021/q_exercises/sched.rst:81
+msgid "1.25"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:68
+#: ../source/2021/q_exercises/sched.rst:77
+#: ../source/2021/q_exercises/sched.rst:79
+#: ../source/2021/q_exercises/sched.rst:101
+msgid "1.58"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:84
+msgid "*RR*:"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+#: ../source/2021/q_exercises/sched.rst:101
+msgid "0.125"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+#: ../source/2021/q_exercises/sched.rst:103
+msgid "0.250"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+#: ../source/2021/q_exercises/sched.rst:105
+msgid "0.375"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "0.500"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "0.625"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "0.750"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "0.875"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "1.000"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "1.125"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "1.250"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "1.333"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "1.458"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "1.583"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:90
+msgid "2.083"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:99
+msgid "0.000"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:103
+msgid "1.33"
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:110
+msgid ""
+"Si consideri uno scenario in cui uno scheduler Multilevel-feedback queue "
+"abbia 4 livelli di priorità, ed in cui il quanto di tempo assegnato ai "
+"processi al livello i sia di 1/2^i millisecondi. Si supponga che "
+"all'istante T0 nascano 2 processi A e B, entrambi CPU-bound. Il processo "
+"B richiede 10 millisecondi di tempo di CPU per completare la sua "
+"esecuzione. Si identifichi la durata massima (in termini di tempo di CPU)"
+" del processo A affinché il processo B possa completare la sua esecuzione"
+" entro il tempo T0+17 nei due casi in cui il primo processo ad essere "
+"schedulato in CPU sia A oppure B. Si supponga che il tempo di CPU per i "
+"context switch e per l'esecuzione dello scheduler sia nullo."
+msgstr ""
+
+#: ../source/2021/q_exercises/sched.rst:111
+msgid ""
+"Si consideri uno scenario in cui al tempo T0 nasca un processo P0 "
+"puramente CPU-bound di durata (tempo di CPU) pari a 10 secondi ed al "
+"tempo T0 + 3 secondi P0 origini un altro processo P1 puramente CPU-bound "
+"di durata (tempo di CPU) pari a 6 secondi. Supponendo che le durate dei "
+"processi siano note al tempo della loro generazione, e che il tempo di "
+"CPU per eseguire uno scheduler sia trascurabile. si calcoli il tempo "
+"massimo di completamento del processo P1 nel caso in cui il sistema abbia"
+" come scheduler Shortest Process Next oppure Shortest-Remaining-Time "
+"Next."
+msgstr ""
+

@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FlipVector &mdash; Operating Systems 2021/2022 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -20,9 +19,7 @@
         <script src="../_static/js/custom.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="CoPy" href="cp.html" />
-    <link rel="prev" title="MinShell - the exec family" href="minshell.html" /> 
+    <link rel="search" title="Search" href="../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -42,31 +39,17 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul class="current">
+              <ul>
 <li class="toctree-l1"><a class="reference internal" href="../index.html">Operating Systems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../linux_install.html">Installing Linux</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../examples.html">Code examples</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="few.html">FEW - Fork-Exit-Wait</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pfew.html">PFEW - Posix-thread-based FEW</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pvst.html">PVST - Processes vs Threads</a></li>
-<li class="toctree-l2"><a class="reference internal" href="minshell.html">MinShell - the exec family</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">FlipVector</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#le-funzioni-di-acquire-e-release">The acquire and release functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#risultati">Results</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#riferimenti">References</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="cp.html">CoPy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dup.html">Dup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="prodcons.html">ProdCons</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../examples.html">Code examples</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../questions.html">Training exercises</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lectures/index.html">Detailed program</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../challenges.html">Challenges</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../exams.html">Exams</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../editions.html">Edizioni del corso</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../errata.html">Errata Corrige</a></li>
 </ul>
 
@@ -84,7 +67,6 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="../examples.html">Code examples</a> &raquo;</li>
       <li>FlipVector</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/examples/flipvector.rst.txt" rel="nofollow"> View page source</a>
@@ -95,7 +77,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="flipvector">
+  <div class="section" id="flipvector">
 <h1>FlipVector<a class="headerlink" href="#flipvector" title="Permalink to this headline">¶</a></h1>
 <p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c">FlipVector</a> <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c"></a></span> is a C program aimed to show several aspect of using and managing threads.</p>
 <p>This program creates multiple threads that access a shared array. Each thread reverses the even-sized array multiple times. The <em>stress_test</em> function implements such an operation:</p>
@@ -272,7 +254,7 @@
 <li><p>Does the specified affinity ensures that each thread will run always on the same core? if so, why? if not, how can you ensure that?</p></li>
 </ul>
 </div>
-<section id="le-funzioni-di-acquire-e-release">
+<div class="section" id="le-funzioni-di-acquire-e-release">
 <h2>The acquire and release functions<a class="headerlink" href="#le-funzioni-di-acquire-e-release" title="Permalink to this headline">¶</a></h2>
 <p>The acquire and release function use a lock implementation according to the value of <code class="code docutils literal notranslate"><span class="pre">lock_type</span></code>. In particular, they choose among 5 possible implementations:</p>
 <ol class="arabic simple">
@@ -352,8 +334,8 @@
 <p class="admonition-title">Question</p>
 <p>Is the ticket lock implementation correct?If so, try to explain why. If not, show a counter example.</p>
 </div>
-</section>
-<section id="risultati">
+</div>
+<div class="section" id="risultati">
 <h2>Results<a class="headerlink" href="#risultati" title="Permalink to this headline">¶</a></h2>
 <p>This section discussed the results obtained by compiling with:</p>
 <ul class="simple">
@@ -371,15 +353,15 @@
 <li><p>LIBPTHREAD = NPTL 2.31</p></li>
 </ul>
 <p>The results are shown in the following.</p>
-<figure class="align-default">
-<img alt="../_images/flipPerf.svg" src="../_images/flipPerf.svg" /></figure>
+<div class="figure align-default">
+<img alt="../_images/flipPerf.svg" src="../_images/flipPerf.svg" /></div>
 <p>The highest performance (number of executed critical sections) are achieved by all locks when there is no concurrency. When the number of threads is higher than 1, the performance drops due to the effects of contention on hardware resources. Increasing the number of threads makes performance worse for all spin locks due totheir active wait. The less frequent usage of RMW instruction by TTAS and PT_TTAS explains their distance from TAS. The PT_MUTEX maintains an almost stable performance thanks to its “passive” wait phase that make threads be out of the run queue and do not compete for CPU cycles. As soon as the number of thread is higher than the number of usable cores, the ticket lock (spin+FIFO) has a performance collapse.</p>
 <div class="admonition question" id="question-note-7">
 <p class="admonition-title">Question</p>
 <p>How can you explain the TICKET behavior?</p>
 </div>
-</section>
-<section id="riferimenti">
+</div>
+<div class="section" id="riferimenti">
 <h2>References<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_barrier_init.html">pthread_barrier_init</a></p></li>
@@ -393,22 +375,19 @@
 <li><p><a class="reference external" href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bit-Shifting">shift</a></p></li>
 <li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Extended-Asm.html">extended-asm</a></p></li>
 </ul>
-</section>
-</section>
+</div>
+</div>
 
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="minshell.html" class="btn btn-neutral float-left" title="MinShell - the exec family" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="cp.html" class="btn btn-neutral float-right" title="CoPy" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on Feb 18, 2022.
+      <span class="lastupdated">Last updated on Sep 26, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

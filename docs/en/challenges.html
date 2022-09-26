@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Challenges &mdash; Operating Systems 2021/2022 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -49,21 +48,10 @@
 <li class="toctree-l1"><a class="reference internal" href="questions.html">Training exercises</a></li>
 <li class="toctree-l1"><a class="reference internal" href="slides.html">Slides</a></li>
 <li class="toctree-l1"><a class="reference internal" href="lectures/index.html">Detailed program</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Challenges</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#requisiti">Requirements</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#sfida-1-la-password-del-docente">Challenge 1: The Lecturer’s Password</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#la-sfida">The challenge</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#i-premi">The prize</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#le-regole">The rules</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#scadenze">Deadlines</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#graduatoria">Ranking</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#soluzioni">Solutions</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Challenges</a></li>
 <li class="toctree-l1"><a class="reference internal" href="exams.html">Exams</a></li>
 <li class="toctree-l1"><a class="reference internal" href="news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="editions.html">Edizioni del corso</a></li>
 <li class="toctree-l1"><a class="reference internal" href="errata.html">Errata Corrige</a></li>
 </ul>
 
@@ -91,163 +79,10 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="sfide">
+  <div class="section" id="sfide">
 <h1>Challenges<a class="headerlink" href="#sfide" title="Permalink to this headline">¶</a></h1>
-<section id="requisiti">
-<h2>Requirements<a class="headerlink" href="#requisiti" title="Permalink to this headline">¶</a></h2>
-<p>To submit a solution it is required:</p>
-<ol class="arabic simple">
-<li><p>Get a GitHub account</p></li>
-<li><p>Accept the welcoming assignment: <a class="reference external" href="https://classroom.github.com/a/qU7ZFhmv">https://classroom.github.com/a/qU7ZFhmv</a></p></li>
-<li><p>Associate the GitHub account to the id received via email</p></li>
-</ol>
-<blockquote>
-<div><ol class="arabic simple">
-<li><p>Look for your id by using the <em>search</em> function on your browser (crtl+f has been tested on firefox and google chrome)</p></li>
-<li><p>Click on your id</p></li>
-<li><p>Check that it is the correct id</p></li>
-<li><p>Click Ok</p></li>
-</ol>
-</div></blockquote>
-<ol class="arabic simple" start="4">
-<li><p>Accept the <em>GitFundamentals</em> assignment</p></li>
-</ol>
-</section>
-<section id="sfida-1-la-password-del-docente">
-<h2>Challenge 1: The Lecturer’s Password<a class="headerlink" href="#sfida-1-la-password-del-docente" title="Permalink to this headline">¶</a></h2>
-<p>State:<strong>CLOSED</strong></p>
-<p>During the lecture <a class="reference internal" href="lectures/index.html#l22-12-2021"><span class="std std-ref">22/12/2021 - C examples, security aspects and introduction to Linux</span></a>, the lecturer discussed several aspects about security. In particular, he introduced the <em>/etc/passwd/</em> and <em>/etc/shadow</em> files in GNU/Linux systems. Moreover, he explained several details about permissions and contents of the <em>shadow</em> file. In fact, he described how to pinpoint:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>the hash of a user password;</p></li>
-<li><p>the salt;</p></li>
-<li><p>the hash algorithm.</p></li>
-</ul>
-</div></blockquote>
-<p>After 81 minutes and 30 seconds of the lecture, he showed the <em>shadow</em> file from his own device and the entry related to its user.</p>
-<section id="la-sfida">
-<h3>The challenge<a class="headerlink" href="#la-sfida" title="Permalink to this headline">¶</a></h3>
-<p>Discover the lecturer’s password.</p>
-</section>
-<section id="i-premi">
-<h3>The prize<a class="headerlink" href="#i-premi" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p>1 point to the final exam for the first solution that gets the password</p></li>
-</ul>
-</section>
-<section id="le-regole">
-<h3>The rules<a class="headerlink" href="#le-regole" title="Permalink to this headline">¶</a></h3>
-<p>To sumbit a solution it is required:</p>
-<ol class="arabic simple">
-<li><p>Accept the assignment: <a class="reference external" href="https://classroom.github.com/a/oRfof8ZI">https://classroom.github.com/a/oRfof8ZI</a></p></li>
-<li><p>publish on the assignment repository maintaing the code used to discover the password</p></li>
-<li><p>to send an email to the lecturer with [OS2122-CHALLENGE-1] as object and containing:</p></li>
-</ol>
-<blockquote>
-<div><ol class="arabic simple">
-<li><p>the hash of the commit which maintains the code to be submitted for review</p></li>
-<li><p>your student id</p></li>
-</ol>
-</div></blockquote>
-<p>A solution is valid if it meets the following requirements:</p>
-<ol class="arabic simple">
-<li><p>it has been submitted correctly</p></li>
-<li><p>it does NOT exploits programs for password crack/recovery (e.g. Hashcat, John the Ripper). It is allowed to use the programs in the following to built your solution:</p></li>
-</ol>
-<blockquote>
-<div><ul class="simple">
-<li><p><a class="reference external" href="https://linux.die.net/man/1/openssl">openssl</a></p></li>
-<li><p><a class="reference external" href="https://ftp.gnu.org/old-gnu/Manuals/glibc-2.2.3/html_node/libc_650.html">GNU crypt</a></p></li>
-<li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/crypt.3.html">crypt</a></p></li>
-</ul>
-</div></blockquote>
-<p>Finally, it is allowed to submit up to one solution. If multiple solution have been submitted, only the first one in chronological order will be considered.</p>
-</section>
-<section id="scadenze">
-<h3>Deadlines<a class="headerlink" href="#scadenze" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p>The challenge remains open until the points have not been assigned.</p></li>
-<li><p>The points must be gained within the A.A.  2021/2022.</p></li>
-</ul>
-</section>
-<section id="graduatoria">
-<h3>Ranking<a class="headerlink" href="#graduatoria" title="Permalink to this headline">¶</a></h3>
-<p>Number of submissions: 5</p>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 7%" />
-<col style="width: 21%" />
-<col style="width: 13%" />
-<col style="width: 36%" />
-<col style="width: 10%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><strong>Rank</strong></p></td>
-<td><p><strong>Id</strong></p></td>
-<td><p><strong>Submission date</strong></p></td>
-<td><p><strong>Password</strong></p></td>
-<td><p><strong>Valid</strong></p></td>
-<td><p><strong>Points</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>91SN3</p></td>
-<td><p>30-12-21</p></td>
-<td><p>OK</p></td>
-<td><p>OK</p></td>
-<td><p><strong>1</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>TVMR3</p></td>
-<td><p>02-01-22</p></td>
-<td><p>OK</p></td>
-<td><p>OK</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="row-even"><td><p>ND.</p></td>
-<td><p>40LN3</p></td>
-<td><p>09-01-22</p></td>
-<td><p>OK</p></td>
-<td><p>KO: commit without script files</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="row-odd"><td><p>ND.</p></td>
-<td><p>AFS1M</p></td>
-<td><p>22-12-21</p></td>
-<td><p>OK</p></td>
-<td><p>KO: solution based on John The Ripper</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="row-even"><td><p>ND.</p></td>
-<td><p>PEALV</p></td>
-<td><p>22-12-21</p></td>
-<td><p>OK</p></td>
-<td><p>KO: solution based on John The Ripper</p></td>
-<td><p>0</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="soluzioni">
-<h3>Solutions<a class="headerlink" href="#soluzioni" title="Permalink to this headline">¶</a></h3>
-<p>To solve the problem it was required to generate correct hashes for a given password andusing this capability to test each password stored in common-password dictionary. The password to be guessed belongs to several dictionary available online (e.g. rockyou.txt). Consequently, the challenge could be solved by reading the documentation of allowed tools (crypt and openssl) and learning how to use them.</p>
-<p>To this goal, the following command line</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>openssl passwd -1 -table -salt &lt;SALT&gt; -in &lt;FILE&gt;
-</pre></div>
+<p>In questa sezione verranno pubblicate le challenge proposte dal docente e le relative istruzioni.</p>
 </div>
-<p>allows you to print each password stored in <em>&lt;FILE&gt;</em> with its hash, computed using &lt;SALT&gt; as salt.At this point, it is sufficient indentify the line containing the hash <em>&lt;GIVEN_HASH&gt;</em> corresponding to the given password:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>openssl passwd -1 -table -salt &lt;SALT&gt; -in &lt;FILE&gt; <span class="p">|</span> grep &lt;GIVEN_HASH&gt;
-</pre></div>
-</div>
-</section>
-</section>
-</section>
 
 
            </div>
@@ -261,7 +96,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on Feb 18, 2022.
+      <span class="lastupdated">Last updated on Sep 26, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

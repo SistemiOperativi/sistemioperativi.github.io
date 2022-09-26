@@ -1,0 +1,19 @@
+21/12/2021 - Esempi di programmazione C
+-------------------------------------------
+
+* Esempi codice C in Linux:
+	
+	* pattern produttore/consumatore
+	* layout di programma, permesso SUID e buffer overflow
+
+
+Riferimenti 
+"""""""""""
+
+* `POSIX open <https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html>`_
+* `POSIX close <https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_
+* `POSIX write <https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_
+* `POSIX dup <https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_
+* `POSIX exec <https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_
+* `mode_t <https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_
+* `objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_

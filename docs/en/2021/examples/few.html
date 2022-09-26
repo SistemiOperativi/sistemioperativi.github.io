@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FEW - Fork-Exit-Wait &mdash; Operating Systems 2021/2022 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="/it/2021/examples/few.html"><img src="/it/_static/it.png"/></a>
+            <a href="/en/2021/examples/few.html"><img src="/it/_static/en.png"/></a>
+            <a href="../../index.html" class="icon icon-home"> Operating Systems
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Operating Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linux_install.html">Installing Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples.html">Code examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../questions.html">Training exercises</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../slides.html">Slides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lectures/index.html">Detailed program</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../challenges.html">Challenges</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../exams.html">Exams</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../errata.html">Errata Corrige</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Operating Systems</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>FEW - Fork-Exit-Wait</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/2021/examples/few.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="few-fork-exit-wait">
+<h1>FEW - Fork-Exit-Wait<a class="headerlink" href="#few-fork-exit-wait" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 4</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;sys/wait.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span><span class="w"></span>
+<span class="linenos"> 7</span><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="p">,</span><span class="w"> </span><span class="n">status</span><span class="p">;</span><span class="w"></span>
+<span class="linenos"> 8</span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m a process and I&#39;m going to create a child</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos"> 9</span><span class="w">    </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fork</span><span class="p">();</span><span class="w"></span>
+<span class="linenos">10</span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">res</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I cannot create a child&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">11</span><span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="p">(</span><span class="n">res</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">){</span><span class="w"></span>
+<span class="linenos">12</span><span class="w">        </span><span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">13</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m the child!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">14</span><span class="w">        </span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">15</span><span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">16</span><span class="w">    </span><span class="k">else</span><span class="p">{</span><span class="w"></span>
+<span class="linenos">17</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m now a parent and I&#39;ll wait for my child to die...</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">18</span><span class="w">        </span><span class="n">wait</span><span class="p">(</span><span class="o">&amp;</span><span class="n">status</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">19</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;My child has invoked exit(%d)</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">WEXITSTATUS</span><span class="p">(</span><span class="n">status</span><span class="p">));</span><span class="w"></span>
+<span class="linenos">20</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;My child is dead, so it&#39;s my time to die</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">21</span><span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">22</span><span class="w">    </span><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">23</span><span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>Fork-Exit-Wait
+(<span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c">FEW</a>
+<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c"></a></span>)
+è un semplice programma C per:</p>
+<ol class="arabic simple">
+<li><p>Creare un processo tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a>.</p></li>
+<li><p>Attendere la terminazione del processo appena creato tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a>.</p></li>
+<li><p>Terminare il processo corrente utilizzando <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a>.</p></li>
+</ol>
+<p>Il main thread esegue la stampa di riga 8 e successivamente invoca la <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a> per creare un processo child.</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos">8</span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m a process and I&#39;m going to create a child</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">9</span><span class="w">    </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fork</span><span class="p">();</span><span class="w"></span>
+</pre></div>
+</div>
+<p>Se la <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a> fallisce (<code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">==</span> <span class="pre">-1</span></code>), il processo principale termina.
+Altrimenti, entrambi i processi eseguono a partire dalla terminazione della <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a>.</p>
+<p>Per differenziare il flusso di esecuzione tra il processo parent ed il processo child occorre analizzare
+il risultato della <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a>.
+Il processo child legge <code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">==</span> <span class="pre">0</span></code>, mentre il processo parent <code class="code docutils literal notranslate"><span class="pre">res</span> <span class="pre">!=</span> <span class="pre">0</span></code> (più precisamente
+<code class="code docutils literal notranslate"><span class="pre">res</span></code> contiene il pid del processo child).
+A questo punto il child esegue:</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos">12</span><span class="w">        </span><span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">13</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m the child!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">14</span><span class="w">        </span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"></span>
+</pre></div>
+</div>
+<p>ossia va in stato di sleep per 5 secondi, esegue una stampa e termina con codice di terminazione 1 invocando la syscall <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a>.</p>
+<p>Il parent esegue:</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos">17</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;I&#39;m now a parent and I&#39;ll wait for my child to die...</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">18</span><span class="w">        </span><span class="n">wait</span><span class="p">(</span><span class="o">&amp;</span><span class="n">status</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">19</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;My child has invoked exit(%d)</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">WEXITSTATUS</span><span class="p">(</span><span class="n">status</span><span class="p">));</span><span class="w"></span>
+<span class="linenos">20</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;My child is dead, so it&#39;s my time to die</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+</pre></div>
+</div>
+<p>Nello specifico attende la terminazione di uno generico thread child tramite la system call <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a>.
+Grazie a questa chiamata, può inoltre ottenere il codice di terminazione dalla variabile <code class="code docutils literal notranslate"><span class="pre">status</span></code>
+grazie alla macro <code class="code docutils literal notranslate"><span class="pre">WEXITSTATUS</span></code> (il codice è memorizzato nel secondo byte di <code class="code docutils literal notranslate"><span class="pre">status</span></code>).</p>
+<div class="section" id="riferimenti">
+<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../index.html#books"><span class="std std-ref">t3</span></a>] Sezione 1.2, 3.1</p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Romolo Marotta.
+      <span class="lastupdated">Last updated on Sep 26, 2022.
+      </span></p>
+  </div>
+  <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
+
+ 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

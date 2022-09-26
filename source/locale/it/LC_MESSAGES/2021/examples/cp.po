@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/examples/cp.rst:5
+msgid "CoPy"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:8
+msgid ""
+":raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c\">CoPy</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/cp/cp.c\"></a>`"
+" è un programma C il cui obiettivo è mostrare l'utilizzo di alcuni "
+"servizi per la gestione di file."
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:58
+msgid ""
+"Il programma prende da riga di comando il file da copiare ed il file "
+"destinazione. Lo schema è il seguente:"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:61
+msgid "apre il file di input in lettura utilizzando il flag O_RDONLY (riga 18)"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:62
+msgid ""
+"crea ed apre il file di output in sola scrittura tramite i flag O_CREAT e"
+" O_WRONLY, e, se già esistente, ne cancella il contenuto grazie al flag "
+"O_TRUNC (riga 22)"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:63
+msgid "legge al più BUFSIZE byte su un buffer (riga 27)"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:64
+msgid "utilizza il suddetto buffer per la scrittura su file di output (riga 34)"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:65
+msgid ""
+"una volta letto e copiato tutto il file (riga 45) vengono chiusi i "
+"relativi file descriptor (riga 40 e 41)"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:69
+msgid ""
+"Il codice mostrato è affetto da una problematica relativa alla fase di "
+"scrittura. Nello specifico, è possibile che il programma termini "
+"correttamente senza però aver effettuato una corretta copia del file."
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:74
+msgid "In quali scenari il programma presenta la suddetta anomalia?"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:75
+msgid "Come prevenirla?"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:82
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:84
+msgid ":posix:`open <open>`"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:85
+msgid ":posix:`read <read>`"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:86
+msgid ":posix:`write <write>`"
+msgstr ""
+
+#: ../source/2021/examples/cp.rst:87
+msgid ":posix:`close <close>`"
+msgstr ""
+

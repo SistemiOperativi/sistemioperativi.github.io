@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/news/220117.rst:2
+msgid "17-01-2022 - avviso: aggionamenti"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:4
+msgid "Avvisi:"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:6
+msgid ""
+"L'esercitazione del 18/01/2022 è stata cancellata causa convocazione del "
+"Consiglio del Collegio Didattico"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:7
+msgid ""
+"Al 17-01-2022 non sono ancora stati definitivamente risolte le "
+"problematiche relative alla prenotazione degli appelli. Seguiranno "
+"aggiornamenti nella giornata di domani."
+msgstr ""
+
+#: ../source/2021/news/220117.rst:10
+msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:12
+msgid "chiarimenti relativi agli appelli di Gennaio e Febbraio"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:13
+msgid "nuovi esercizi e domande:"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:15
+msgid "aggiunta 1 domanda su introduzione"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:16
+msgid "aggiunte 2 domande su cpu scheduling"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:17
+msgid "aggiunta 4 domande su gestione della memoria"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:18
+msgid "aggiunte 3 domande su file management"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:19
+msgid "aggiunti 2 esercizi su CPU scheduling"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:20
+msgid "aggiunti 2 esercizi su gestione delle memoria"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:21
+msgid "aggiunto 1 esercizio su I/O management"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:22
+msgid "aggiunti 3 esercizi su file management"
+msgstr ""
+
+#: ../source/2021/news/220117.rst:23
+msgid "aggiunto 1 esercizio su programmazione"
+msgstr ""
+

@@ -1,0 +1,327 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/challenges.rst:2
+msgid "Sfide"
+msgstr ""
+
+#: ../source/2021/challenges.rst:5
+msgid "Requisiti"
+msgstr ""
+
+#: ../source/2021/challenges.rst:7
+msgid ""
+"Per sottomettere la propria soluzione ad una sfida è necessario aver "
+"compiuto i seguenti passi preliminari:"
+msgstr ""
+
+#: ../source/2021/challenges.rst:9
+msgid "Avere un account GitHub"
+msgstr ""
+
+#: ../source/2021/challenges.rst:10
+msgid ""
+"Accedere al link all'assignment di benvenuto: "
+"`<https://classroom.github.com/a/qU7ZFhmv>`_"
+msgstr ""
+
+#: ../source/2021/challenges.rst:11
+msgid "Associare l'account GitHub al codice identificativo ricevuto via email"
+msgstr ""
+
+#: ../source/2021/challenges.rst:13
+msgid ""
+"Cerca il tuo identificativo utilizzando la funzione ricerca del tuo "
+"browser (crtl+f testato su firefox e google chrome)"
+msgstr ""
+
+#: ../source/2021/challenges.rst:14
+msgid "Clicca sul tuo identificativo"
+msgstr ""
+
+#: ../source/2021/challenges.rst:15
+msgid "Controlla di aver selezionato l'identificativo corretto"
+msgstr ""
+
+#: ../source/2021/challenges.rst:16
+msgid "Premi ok"
+msgstr ""
+
+#: ../source/2021/challenges.rst:18
+msgid "Accetta l'assignment *GitFundamentals*"
+msgstr ""
+
+#: ../source/2021/challenges.rst:23
+msgid "Sfida 1: La password del docente"
+msgstr ""
+
+#: ../source/2021/challenges.rst:25
+msgid "Stato:**CLOSED**"
+msgstr ""
+
+#: ../source/2021/challenges.rst:27
+msgid ""
+"Nel corso della lezione :ref:`l22-12-2021` sono state trattate alcune "
+"tematiche relative ad aspetti di sicurezza. In particolare, si è discusso"
+" il ruolo dei file */etc/passwd* e */etc/shadow* in sistemi GNU/Linux. "
+"Inoltre, sono stati illustrati alcuni dettagli riguardo i permessi ed il "
+"contenuto del file *shadow*. Nello specifico, è stato descritto come "
+"individuare:"
+msgstr ""
+
+#: ../source/2021/challenges.rst:32
+msgid "l'hash della password di un utente;"
+msgstr ""
+
+#: ../source/2021/challenges.rst:33
+msgid "il sale relativo;"
+msgstr ""
+
+#: ../source/2021/challenges.rst:34
+msgid "l'algoritmo di hash utilizzato."
+msgstr ""
+
+#: ../source/2021/challenges.rst:36
+msgid ""
+"Dopo 81 minuti e 30 secondi di lezione, il docente ha mostrato il file "
+"*shadow* installato su un suo dispositivo e l'entry relativa alla sua "
+"utenza."
+msgstr ""
+
+#: ../source/2021/challenges.rst:39
+msgid "La sfida"
+msgstr ""
+
+#: ../source/2021/challenges.rst:41
+msgid "Individuare la password del docente."
+msgstr ""
+
+#: ../source/2021/challenges.rst:44
+msgid "I premi"
+msgstr ""
+
+#: ../source/2021/challenges.rst:46
+msgid ""
+"1 punto sul voto finale per la prima soluzione che individua la password "
+"corretta"
+msgstr ""
+
+#: ../source/2021/challenges.rst:49
+msgid "Le regole"
+msgstr ""
+
+#: ../source/2021/challenges.rst:51
+msgid "Per sottomettere la soluzione è necessario:"
+msgstr ""
+
+#: ../source/2021/challenges.rst:53
+msgid ""
+"accetta l'assignment su GitHub: "
+"`<https://classroom.github.com/a/oRfof8ZI>`_"
+msgstr ""
+
+#: ../source/2021/challenges.rst:54
+msgid ""
+"pubblica sul repository il codice utilizzato per individuare la password "
+"e un Readme"
+msgstr ""
+
+#: ../source/2021/challenges.rst:55
+msgid "inviare una email con oggetto [OS2122-CHALLENGE-1] con:"
+msgstr ""
+
+#: ../source/2021/challenges.rst:57
+msgid "l'hash del commit con il codice da sottomettere a valutazione"
+msgstr ""
+
+#: ../source/2021/challenges.rst:58
+msgid "la matricola"
+msgstr ""
+
+#: ../source/2021/challenges.rst:60
+msgid "Una soluzione è ritenuta valida se:"
+msgstr ""
+
+#: ../source/2021/challenges.rst:62
+msgid "è stata inviata correttamente"
+msgstr ""
+
+#: ../source/2021/challenges.rst:63
+msgid ""
+"NON utilizza programmi per il crack/recovery delle password (e.g. "
+"Hashcat, John the Ripper). Tuttavia, è ammesso l'utilizzo dei seguenti "
+"strumenti per lo sviluppo di soluzioni ad hoc:"
+msgstr ""
+
+#: ../source/2021/challenges.rst:65
+msgid "`openssl <https://linux.die.net/man/1/openssl>`_"
+msgstr ""
+
+#: ../source/2021/challenges.rst:66
+msgid ""
+"`GNU crypt <https://ftp.gnu.org/old-"
+"gnu/Manuals/glibc-2.2.3/html_node/libc_650.html>`_"
+msgstr ""
+
+#: ../source/2021/challenges.rst:67
+msgid "`crypt <https://man7.org/linux/man-pages/man3/crypt.3.html>`_"
+msgstr ""
+
+#: ../source/2021/challenges.rst:69
+msgid ""
+"Infine, non è possibile sottomettere più di una soluzione. In caso di "
+"sottomissione multipla, verrà considerata la prima in ordine cronologico."
+msgstr ""
+
+#: ../source/2021/challenges.rst:73
+msgid "Scadenze"
+msgstr ""
+
+#: ../source/2021/challenges.rst:75
+msgid "La sfida rimane aperta fintanto che i punti non sono stati assegnati."
+msgstr ""
+
+#: ../source/2021/challenges.rst:76
+msgid "I punti possono essere acquisiti entro e non oltre l'A.A. 2021/2022."
+msgstr ""
+
+#: ../source/2021/challenges.rst:79
+msgid "Graduatoria"
+msgstr ""
+
+#: ../source/2021/challenges.rst:81
+msgid "Numero di sottomissioni: 5"
+msgstr ""
+
+#: ../source/2021/challenges.rst:84
+msgid "**Posizione**"
+msgstr ""
+
+#: ../source/2021/challenges.rst:84
+msgid "**Id**"
+msgstr ""
+
+#: ../source/2021/challenges.rst:84
+msgid "**Data Sottomissione**"
+msgstr ""
+
+#: ../source/2021/challenges.rst:84
+msgid "**Password**"
+msgstr ""
+
+#: ../source/2021/challenges.rst:84
+msgid "**Valida**"
+msgstr ""
+
+#: ../source/2021/challenges.rst:84
+msgid "**Punti**"
+msgstr ""
+
+#: ../source/2021/challenges.rst:86
+msgid "91SN3"
+msgstr ""
+
+#: ../source/2021/challenges.rst:86
+msgid "30-12-21"
+msgstr ""
+
+#: ../source/2021/challenges.rst:86 ../source/2021/challenges.rst:88
+#: ../source/2021/challenges.rst:90 ../source/2021/challenges.rst:92
+#: ../source/2021/challenges.rst:94
+msgid "OK"
+msgstr ""
+
+#: ../source/2021/challenges.rst:86
+msgid "**1**"
+msgstr ""
+
+#: ../source/2021/challenges.rst:88
+msgid "TVMR3"
+msgstr ""
+
+#: ../source/2021/challenges.rst:88
+msgid "02-01-22"
+msgstr ""
+
+#: ../source/2021/challenges.rst:88 ../source/2021/challenges.rst:90
+#: ../source/2021/challenges.rst:92 ../source/2021/challenges.rst:94
+msgid "0"
+msgstr ""
+
+#: ../source/2021/challenges.rst:90 ../source/2021/challenges.rst:92
+#: ../source/2021/challenges.rst:94
+msgid "ND."
+msgstr ""
+
+#: ../source/2021/challenges.rst:90
+msgid "40LN3"
+msgstr ""
+
+#: ../source/2021/challenges.rst:90
+msgid "09-01-22"
+msgstr ""
+
+#: ../source/2021/challenges.rst:90
+msgid "KO: script non presente nel commit"
+msgstr ""
+
+#: ../source/2021/challenges.rst:92
+msgid "AFS1M"
+msgstr ""
+
+#: ../source/2021/challenges.rst:92 ../source/2021/challenges.rst:94
+msgid "22-12-21"
+msgstr ""
+
+#: ../source/2021/challenges.rst:92 ../source/2021/challenges.rst:94
+msgid "KO: utilizzo di John The Ripper"
+msgstr ""
+
+#: ../source/2021/challenges.rst:94
+msgid "PEALV"
+msgstr ""
+
+#: ../source/2021/challenges.rst:99
+msgid "Soluzioni"
+msgstr ""
+
+#: ../source/2021/challenges.rst:101
+msgid ""
+"Per risolvere il problema era necessario generare correttamente l'hash "
+"data una password ed utilizzare questa funzionalità per testare password "
+"ottenute da un dizionario di password comuni. La password è stata scelta "
+"prendendone una presente in più dizionari disponibili online (e.g. "
+"RockYou.txt). Di conseguenza, la sfida consisteva nel leggere la "
+"documentazione dei tool ammessi (crypt e openssl) ed utilizzarli per "
+"individuare la password."
+msgstr ""
+
+#: ../source/2021/challenges.rst:105
+msgid "A tal scopo la seguente riga di comando"
+msgstr ""
+
+#: ../source/2021/challenges.rst:111
+msgid ""
+"permette di stampare ciascuna password contenuta in *<FILE>* con il "
+"relativo hash ottenuto utilizzando il sale <SALT>. A questo punto è "
+"sufficiente identificare la riga contenente l'hash di interesse "
+"*<GIVEN_HASH>*:"
+msgstr ""
+

@@ -1,0 +1,12 @@
+08-12-2021 - avviso: aggionamenti
+-------------------------------------------------
+
+* Sito del corso:
+
+  * aggiunto diario delle lezioni del 07/12/2021
+  * aggiunte 3 domande su I/O management
+
+
+* Microsoft Stream:
+
+  * caricata lezione del 07/12  

@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/lectures/211221.rst:2
+msgid "21/12/2021 - Esempi di programmazione C"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:4
+msgid "Esempi codice C in Linux:"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:6
+msgid "pattern produttore/consumatore"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:7
+msgid "layout di programma, permesso SUID e buffer overflow"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:11
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:13
+msgid ""
+"`POSIX open "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:14
+msgid ""
+"`POSIX close "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:15
+msgid ""
+"`POSIX write "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:16
+msgid ""
+"`POSIX dup "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:17
+msgid ""
+"`POSIX exec "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:18
+msgid ""
+"`mode_t "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211221.rst:19
+msgid "`objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_"
+msgstr ""
+

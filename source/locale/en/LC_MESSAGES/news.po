@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-30 12:12+0200\n"
+"POT-Creation-Date: 2022-09-26 10:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,880 +20,6 @@ msgstr ""
 #: ../source/news.rst:2
 msgid "News"
 msgstr ""
-
-#: ../source/news/220730.rst:2
-#, fuzzy
-msgid "30-07-2022 - avviso: pubblicati risultati appello del 20/07/2022"
-msgstr "01-03-2022 - updates: published results of 28/02/2022"
-
-#: ../source/news/220730.rst:4
-#, fuzzy
-msgid "Pubblicati risultati e testo d'esame del :ref:`e220720`"
-msgstr "Published results and texts of the exam held on 28/02/2022 :ref:`e220228`"
-
-#: ../source/news/220629.rst:2
-#, fuzzy
-msgid "29-06-2022 - avviso: pubblicati risultati appello del 24/06/2022"
-msgstr "28-01-2022 - updates: published results of 26/01/2022"
-
-#: ../source/news/220629.rst:4
-#, fuzzy
-msgid "Pubblicati risultati e testo d'esame del :ref:`e220624`"
-msgstr "Published results and texts of the exam held on 28/02/2022 :ref:`e220228`"
-
-#: ../source/news/220614.rst:2
-msgid "14-0-2022 - avviso: remainder regolamento e data sessione estiva"
-msgstr ""
-
-#: ../source/news/220614.rst:4
-msgid ""
-"In accordo al calendario della sessione estiva, gli appelli del corso "
-"\"Sistema Operativi\" si terranno il:"
-msgstr ""
-
-#: ../source/news/220614.rst:6
-msgid "24 Giugno 2022 Aula Campus"
-msgstr ""
-
-#: ../source/news/220614.rst:7
-msgid "20 Luglio 2022 Aula Campus"
-msgstr ""
-
-#: ../source/news/220614.rst:9
-msgid ""
-"Date aggiuntive verranno considerate solo per soddisfare necessità di "
-"capienza aula."
-msgstr ""
-
-#: ../source/news/220614.rst:11
-msgid ""
-"Per la sessione estiva valgono le stesse regole della sessione invernale,"
-" ossia:"
-msgstr ""
-
-#: ../source/news/220614.rst:13
-msgid "Il voto finale è pari alla somma dei punteggi ottenuti:"
-msgstr ""
-
-#: ../source/news/220614.rst:15
-msgid "nella parte di teoria (punteggio massimo 20, sufficienza 12);"
-msgstr ""
-
-#: ../source/news/220614.rst:16
-msgid "nella parte di programmazione (punteggio massimo 11, sufficienza 6);"
-msgstr ""
-
-#: ../source/news/220614.rst:17
-msgid "dalla vincita di una sfida avanzata dal docente (non più assegnabili)."
-msgstr ""
-
-#: ../source/news/220614.rst:19
-msgid "Per superare l’esame occorre ottenere la sufficienza in entrambi le parti."
-msgstr ""
-
-#: ../source/news/220614.rst:20
-msgid ""
-"Qualora la sufficienza sia stata conseguita solo in una delle due parti, "
-"lo studente è esonerato dal sostenere il test riguardo la parte in cui è "
-"risultato sufficiente nell’A.A. 2021/2022. Potrà perciò risostenere "
-"unicamente il test dove non ha conseguito la sufficienza."
-msgstr ""
-
-#: ../source/news/220614.rst:21
-msgid "Per la lode è richiesto un punteggio di 31 punti."
-msgstr ""
-
-#: ../source/news/220614.rst:22
-msgid ""
-"I punteggi ottenuti potranno essere mantenuti fino all’ultima sessione di"
-" esame per l’A.A. 2021/2022."
-msgstr ""
-
-#: ../source/news/220614.rst:23
-msgid ""
-"NON vi è salto di appello (è possibile ripresentarsi a luglio anche se "
-"insufficienti a giugno)."
-msgstr ""
-
-#: ../source/news/220614.rst:24
-msgid "La durata della prova è:"
-msgstr ""
-
-#: ../source/news/220614.rst:26
-#, fuzzy
-msgid "3 ore se non si è esonerati per alcuna parte;"
-msgstr "anyone who has never booked;"
-
-#: ../source/news/220614.rst:27
-msgid "1 ora e 15 minuti se si è esonerati per la parte di teoria;"
-msgstr ""
-
-#: ../source/news/220614.rst:28
-msgid "1 ora e 45 minuti se si è esonerati per la parte di programmazione."
-msgstr ""
-
-#: ../source/news/220614.rst:30
-msgid "Per qualsiasi ulteriore chiarimento, contattare il docente via email."
-msgstr ""
-
-#: ../source/news/220301.rst:2
-msgid "01-03-2022 - avviso: pubblicati risultati appello del 28/02/2022"
-msgstr "01-03-2022 - updates: published results of 28/02/2022"
-
-#: ../source/news/220301.rst:4
-msgid "Pubblicati risultati e testo d'esame del 28/02/2022 :ref:`e220228`"
-msgstr "Published results and texts of the exam held on 28/02/2022 :ref:`e220228`"
-
-#: ../source/news/220226.rst:5 ../source/news/220301.rst:5
-msgid ""
-"Si ricorda che la sezione esercizi di programmazione è stata arricchita "
-"con alcune soluzioni"
-msgstr "Reminded: the exercises section has been update with several solutions."
-
-#: ../source/news/220226.rst:2
-msgid "26-02-2022 - avviso: pubblicati risultati appello del 21/02/2022"
-msgstr "26-02-2022 - updates: published results of 21/02/2022"
-
-#: ../source/news/220226.rst:4
-msgid "Pubblicati risultati e testo d'esame del 21/02/2022 :ref:`e220221`"
-msgstr "Published results and texts of the exam held on 21/02/2022 :ref:`e220221`"
-
-#: ../source/news/220209.rst:2
-msgid ""
-"09-02-2022 - avviso: aggiornata soluzione proposta della prova di esame "
-"del 26/01/2022"
-msgstr ""
-"09-02-2022 - updates: the solution for the programming test of the exam "
-"held on 26/01/2022 has been updated"
-
-#: ../source/news/220209.rst:4
-msgid "Aggiornata soluzione della prova di programmazione del 26/01/2022"
-msgstr ""
-"The solution for the programming test of the exam held on 26/01/2022 has "
-"been updated"
-
-#: ../source/news/220207.rst:2
-msgid "07-02-2022 - avviso: riaperte prenotazione per l'appello di Febbraio"
-msgstr ""
-"07-02-2022 - updates: the reservations for the february exam have been "
-"reponened"
-
-#: ../source/news/220207.rst:4
-msgid ""
-"Dal 07/02/2022 al 14/02/2022 sono riaperte le prenotazioni per l'appello "
-"di Febbraio. Potranno prenotarsi:"
-msgstr ""
-"Reservations for the February session are reopened from 07/02/2022 to "
-"14/02/2022 . Those who can reservate are: "
-
-#: ../source/news/220207.rst:6
-msgid "coloro che non si sono mai prenotati ad alcun appello;"
-msgstr "anyone who has never booked;"
-
-#: ../source/news/220207.rst:7
-msgid "coloro che non hanno superato/accettato la prova di Gennaio."
-msgstr "anyone who has not passed/accepted the january exam."
-
-#: ../source/news/220207.rst:9
-msgid ""
-"Per l'ordine di assegnazione delle aule verrà considerato l'ordine della "
-"prima prenotazione. In altre parole, cancellare l'attuale prenotazione "
-"per poi prenotarsi nuovamente non avrà effetti sull'assegnazione "
-"dell'aula."
-msgstr ""
-"The order of the first reservation will be considered for the date "
-"assignment. In other words, canceling the current reservation and then "
-"re-booking will have no effect on the assignment. "
-
-#: ../source/news/220128.rst:2
-msgid "28-01-2022 - avviso: pubblicati risultati appello del 26/01/2022"
-msgstr "28-01-2022 - updates: published results of 26/01/2022"
-
-#: ../source/news.rst:81 ../source/news.rst:108 ../source/news.rst:126
-#: ../source/news.rst:142 ../source/news.rst:157 ../source/news.rst:172
-#: ../source/news.rst:200 ../source/news.rst:209 ../source/news.rst:224
-#: ../source/news.rst:238 ../source/news.rst:247 ../source/news.rst:256
-#: ../source/news/211201.rst:4 ../source/news/211203.rst:4
-#: ../source/news/211207.rst:4 ../source/news/211208.rst:4
-#: ../source/news/211213.rst:4 ../source/news/211215.rst:4
-#: ../source/news/211216.rst:4 ../source/news/211221.rst:16
-#: ../source/news/211222.rst:4 ../source/news/211230.rst:4
-#: ../source/news/220111.rst:4 ../source/news/220114.rst:4
-#: ../source/news/220117.rst:10 ../source/news/220128.rst:4
-msgid "Sito del corso:"
-msgstr "Course website"
-
-#: ../source/news/220128.rst:6
-msgid ""
-"Aggiunta nuova sezione \"Esami\" con i risultati e testo della prova del "
-"26/01/2022"
-msgstr ""
-"Added new section \"Exams\" with results and texts of the examination "
-"held on 26/01/2022"
-
-#: ../source/news/220117.rst:2
-msgid "17-01-2022 - avviso: aggionamenti"
-msgstr "17-12-2021 - updates"
-
-#: ../source/news/220117.rst:4
-msgid "Avvisi:"
-msgstr ""
-
-#: ../source/news/220117.rst:6
-msgid ""
-"L'esercitazione del 18/01/2022 è stata cancellata causa convocazione del "
-"Consiglio del Collegio Didattico"
-msgstr ""
-"The practice lecture of 18-01-2022 has been canceled due to the overlap "
-"with the Council of the Didactic Board"
-
-#: ../source/news/220117.rst:7
-msgid ""
-"Al 17-01-2022 non sono ancora stati definitivamente risolte le "
-"problematiche relative alla prenotazione degli appelli. Seguiranno "
-"aggiornamenti nella giornata di domani."
-msgstr ""
-"17-01-2022: the problems relating to the booking of the exams have not "
-"yet been definitively solved. Updates will follow tomorrow.  "
-
-#: ../source/news/220117.rst:12
-msgid "chiarimenti relativi agli appelli di Gennaio e Febbraio"
-msgstr "clarifications relating to the January and February exams "
-
-#: ../source/news/220117.rst:13
-msgid "nuovi esercizi e domande:"
-msgstr "new exercises:"
-
-#: ../source/news/220117.rst:15
-msgid "aggiunta 1 domanda su introduzione"
-msgstr "added 1 question about Introduction"
-
-#: ../source/news/220117.rst:16
-msgid "aggiunte 2 domande su cpu scheduling"
-msgstr "added 2 questions about CPU-scheduling"
-
-#: ../source/news/220117.rst:17
-msgid "aggiunta 4 domande su gestione della memoria"
-msgstr "added 4 questions about memory management"
-
-#: ../source/news/220117.rst:18
-msgid "aggiunte 3 domande su file management"
-msgstr "added 3 questions about file management"
-
-#: ../source/news/220117.rst:19
-msgid "aggiunti 2 esercizi su CPU scheduling"
-msgstr "added 2 exercise about scheduling"
-
-#: ../source/news/220117.rst:20
-msgid "aggiunti 2 esercizi su gestione delle memoria"
-msgstr " added 2 exercises about memory management"
-
-#: ../source/news/220117.rst:21
-msgid "aggiunto 1 esercizio su I/O management"
-msgstr "added 1 exercise about I/O management"
-
-#: ../source/news/220117.rst:22
-msgid "aggiunti 3 esercizi su file management"
-msgstr "added 3 exercise about file management"
-
-#: ../source/news/220117.rst:23
-msgid "aggiunto 1 esercizio su programmazione"
-msgstr "added 1 programming exercise"
-
-#: ../source/news/220114.rst:2
-msgid "14-01-2022 - avviso: aggionamenti"
-msgstr "14-12-2021 - updates"
-
-#: ../source/news/220114.rst:6
-msgid "aggiornata la soglia di sufficienza per la prova di programmazione"
-msgstr "fixed the threshold to pass the programming test"
-
-#: ../source/news/220114.rst:7
-msgid "rimosso \"espressioni regolari (sed e grep)\" dal programma"
-msgstr "removed \"espressioni regolari (sed e grep)\" from the programmed topics"
-
-#: ../source/news/220114.rst:8
-msgid "aggiornato diario delle lezioni del 11/01/2022 e del 12/01/2022"
-msgstr "updated detailed program of 11/01/22 and 12/01/22"
-
-#: ../source/news/220114.rst:9
-msgid "aggiunta una nuova sezione \"errata corrige\""
-msgstr "added a new section: \"errata corrige\""
-
-#: ../source/news/220111.rst:12 ../source/news/220114.rst:10
-msgid "challenge:"
-msgstr ""
-
-#: ../source/news/220114.rst:12
-msgid "Pubblicata soluzione e graduatoria della Challenge 1"
-msgstr "Published solutions and rankings of Challange 1"
-
-#: ../source/news/220111.rst:6 ../source/news/220114.rst:14
-msgid "nuovi esercizi:"
-msgstr "new exercises:"
-
-#: ../source/news/220114.rst:16
-msgid ""
-"aggiunti i 2 esercizi di programmazione C discussi durante le "
-"esercitazioni"
-msgstr "added 2 exercises discussed during the lectures"
-
-#: ../source/news/220114.rst:17
-msgid "aggiunto 2 nuovi esercizio di programmazione C"
-msgstr "added new 2 exercises discussed during the lectures"
-
-#: ../source/news/220111.rst:2
-msgid "11-01-2022 - avviso: aggionamenti, challenge"
-msgstr "11-01-2021 - updates, challenge"
-
-#: ../source/news/220111.rst:8
-msgid "aggiunto 2 esercizi riguardo Gestione della Memoria"
-msgstr "new exercises: added 2 exercises about memory management"
-
-#: ../source/news/220111.rst:9
-msgid "aggiunto 1 esercizio riguardo Scheduling"
-msgstr "added 1 exercise about scheduling"
-
-#: ../source/news/220111.rst:10
-msgid "aggiunto 2 esercizio riguardo I/O management"
-msgstr "added 2 exercise about I/O management"
-
-#: ../source/news/220111.rst:14
-msgid "La sfida: \"La password del docente\" è chiusa"
-msgstr "The challenge \"The lecturer password\" is closed"
-
-#: ../source/news/211230.rst:2
-msgid ""
-"30-12-2021 - avviso: aggionamenti, nuove domande ed esercizi, pubblicata "
-"la challenge!"
-msgstr "30-12-2021 - updates, new questions and exercises, new challenge!"
-
-#: ../source/news/211230.rst:6
-msgid "aggiunto diario della lezione del 22/12/21"
-msgstr "updated detailed program of 22/12"
-
-#: ../source/news/211230.rst:7
-msgid "aggiornato regolamento sezione di esame nella :doc:`Home <../../index>`"
-msgstr "updated exam instructions at :doc:`Home <../../index>`"
-
-#: ../source/news/211230.rst:8
-msgid "aggiunta sezione :doc:`../../challenges`"
-msgstr "Updated section: :doc:`../../challenges`"
-
-#: ../source/news/211230.rst:9
-msgid "aggiornata sezione :doc:`../../questions`"
-msgstr "Updated section: :doc:`../../questions`"
-
-#: ../source/news/211230.rst:11
-msgid "aggiunte 3 domande e 1 esercizio su Introduzione"
-msgstr "added 3 questions and 1 exercise about Introduction"
-
-#: ../source/news/211230.rst:12
-msgid "aggiunte 3 domande su Processi e thread"
-msgstr "added 3 questions about Processes and threads"
-
-#: ../source/news/211230.rst:13
-msgid "aggiunte 3 domande su CPU-scheduling"
-msgstr "added 3 questions about CPU-scheduling"
-
-#: ../source/news/211230.rst:14
-msgid "aggiunta 1 domanda su Sincronizzazione"
-msgstr "added 1 question about Synchronization"
-
-#: ../source/news.rst:90 ../source/news.rst:117 ../source/news.rst:133
-#: ../source/news.rst:147 ../source/news.rst:162 ../source/news.rst:176
-#: ../source/news.rst:185 ../source/news.rst:190 ../source/news.rst:215
-#: ../source/news.rst:229 ../source/news.rst:270 ../source/news/211201.rst:10
-#: ../source/news/211203.rst:12 ../source/news/211208.rst:10
-#: ../source/news/211215.rst:10 ../source/news/211216.rst:9
-#: ../source/news/211222.rst:11 ../source/news/211230.rst:16
-msgid "Microsoft Stream:"
-msgstr ""
-
-#: ../source/news/211230.rst:18
-msgid "caricata lezione del 22/12/2021"
-msgstr "uploaded lecture held on 22/12/21"
-
-#: ../source/news/211222.rst:15 ../source/news/211230.rst:20
-msgid "GitHub:"
-msgstr ""
-
-#: ../source/news/211222.rst:17 ../source/news/211230.rst:22
-msgid "caricati sorgenti di esempio per attacchi di tipo buffer overflow"
-msgstr "uploaded buffer-overflow examples"
-
-#: ../source/news/211222.rst:2
-msgid "22-12-2021 - avviso: aggionamenti"
-msgstr "22-12-2021 - updates"
-
-#: ../source/news/211222.rst:6
-msgid "aggiornate slide su introduzione a Linux"
-msgstr "updated slides about Getting started with Linux"
-
-#: ../source/news/211222.rst:7
-msgid "aggiunto diario della lezione del 21/12/21"
-msgstr "updated detailed program of 21/12"
-
-#: ../source/news/211222.rst:8
-msgid "aggiornato programma del corso"
-msgstr "updated planned topics"
-
-#: ../source/news/211222.rst:13
-msgid "caricata lezione del 21/12/2021"
-msgstr "uploaded lecture held on 21/12/21"
-
-#: ../source/news/211221.rst:2
-msgid "21-12-2021 - avviso: aggionamenti"
-msgstr "21-12-2021 - updates"
-
-#: ../source/news/211221.rst:4
-msgid "CV at lunch il 22-12-2021:"
-msgstr "CV at lunch (22-12-2021):"
-
-#: ../source/news/211221.rst:6
-msgid ""
-"l'evento si terrà mercoledì, dalle ore 11:00 alle 17:00, presso la Spazio"
-" Rossellini, ubicato in via della vasca navale 56/58, antistante "
-"l’ingresso del Dipartimento di Ingegneria su via della vasca navale "
-"79/81;"
-msgstr ""
-"* the event will take place this Wednesday, from 11:00 to 17:00, at "
-"Spazio Rossellini, located in via della vasca navale 56/58, in front of "
-"the entrance to the Engineering Department on via della vasca navale "
-"79/81 \";"
-
-#: ../source/news/211221.rst:7
-msgid "saranno presenti oltre 50 aziende;"
-msgstr "over 50 companies will be present;"
-
-#: ../source/news/211221.rst:8
-msgid "è necessaria la registrazione;"
-msgstr "registration is required"
-
-#: ../source/news/211221.rst:9
-msgid ""
-"ulteriori info sul sito di dipartimento: `link all'annuncio "
-"<https://ingegneria.uniroma3.it/en/articoli/torna-il-cv-at-lunch-levento-"
-"per-favorire-lincontro-tra-aziende-e-studenti-202783/>`_"
-msgstr ""
-"furder info on the department website: `link to the official news (only "
-"in italian) <https://ingegneria.uniroma3.it/en/articoli/torna-il-cv-at-"
-"lunch-levento-per-favorire-lincontro-tra-aziende-e-studenti-202783/>`_"
-
-#: ../source/news/211221.rst:11
-msgid "Lezione del 21-12-2021:"
-msgstr "21/12/21 Lecture:"
-
-#: ../source/news/211221.rst:14
-msgid ""
-"Data l'indisponibilità dell'aula N13, la lezione si terrà interamente per"
-" via telematica"
-msgstr ""
-"Given the unavailability of room N13, the lesson will be held remotely on"
-" Teams"
-
-#: ../source/news/211221.rst:18
-msgid "aggiunti commento dettagliato al sorgente di esempio dup"
-msgstr "added detailed comment of dup example"
-
-#: ../source/news/211221.rst:20
-msgid "Repository GitHub:"
-msgstr ""
-
-#: ../source/news/211221.rst:22
-msgid "aggiornato esempio prod_cons"
-msgstr "added new example: ProdCons"
-
-#: ../source/news/211216.rst:2
-msgid "16-12-2021 - avviso: aggionamenti"
-msgstr "16-12-2021 - updates"
-
-#: ../source/news/211216.rst:6
-msgid "aggiornato diario della lezione del 15/12/21"
-msgstr "updated detailed program of 15/12"
-
-#: ../source/news/211216.rst:7
-msgid "aggiunti commento dettagliato al sorgente di esempio cp"
-msgstr "added detailed comment of cp code example"
-
-#: ../source/news/211216.rst:11
-msgid "caricata lezione del 15/12/21"
-msgstr "uploaded lecture held on 15/12/21"
-
-#: ../source/news/211215.rst:2
-msgid "15-12-2021 - avviso: aggionamenti"
-msgstr "15-12-2021 - updates"
-
-#: ../source/news/211215.rst:6
-msgid "aggiornato diario della lezione del 14/12/21"
-msgstr "updated detailed program of 14/12"
-
-#: ../source/news/211215.rst:7
-msgid "aggiunta una nuova sezione di domande su file management"
-msgstr "new exercises: added 5 questions about file management"
-
-#: ../source/news/211215.rst:8
-msgid "aggiunte slide su Introduzione a Linux"
-msgstr "added slides about Getting started with Linux"
-
-#: ../source/news/211215.rst:12
-msgid "caricata lezione del 14/12/21"
-msgstr "uploaded lecture held on 14/12/21"
-
-#: ../source/news/211213.rst:2
-msgid "13-12-2021 - avviso: aggionamenti"
-msgstr "13-12-2021 - updates"
-
-#: ../source/news/211213.rst:6
-msgid "aggiornate slide su I/O e file management"
-msgstr "updated slides about I/O and file management"
-
-#: ../source/news/211213.rst:8
-msgid "Github:"
-msgstr ""
-
-#: ../source/news/211213.rst:10
-msgid "aggiunto esempio Cp"
-msgstr "added new example: Cp"
-
-#: ../source/news/211213.rst:11
-msgid "aggiunto esempio Dup"
-msgstr "added new example: Dup"
-
-#: ../source/news/211213.rst:12
-msgid "aggiunto esempio ProdCons"
-msgstr "added new example: ProdCons"
-
-#: ../source/news/211208.rst:2
-msgid "08-12-2021 - avviso: aggionamenti"
-msgstr "08-12-2021 - updates"
-
-#: ../source/news/211208.rst:6
-msgid "aggiunto diario delle lezioni del 07/12/2021"
-msgstr "updated detailed program of 07/12/2021"
-
-#: ../source/news/211208.rst:7
-msgid "aggiunte 3 domande su I/O management"
-msgstr "new exercises: added 3 questions about I/O management"
-
-#: ../source/news/211208.rst:12
-msgid "caricata lezione del 07/12"
-msgstr "uploaded lecture held on 07/12"
-
-#: ../source/news/211207.rst:2
-msgid "07-12-2021 - avviso: aggionamenti"
-msgstr "07-12-2021 - updates"
-
-#: ../source/news/211207.rst:6
-msgid "aggiornate slide sulla gestione di I/O e file"
-msgstr "updated slides about I/O and file management"
-
-#: ../source/news/211203.rst:2
-msgid "03-12-2021 - avviso: aggionamenti"
-msgstr "03-12-2021 - updates"
-
-#: ../source/news/211203.rst:6
-msgid "nuovi esercizi: aggiunte 2 domande riguardo la sincronizzazione"
-msgstr "new exercises: added 2 questions about synchronization"
-
-#: ../source/news/211203.rst:7
-msgid "nuovi esercizi: aggiunte 1 domanda riguardo lo scheduling"
-msgstr "new exercises: added 1 question about scheduling"
-
-#: ../source/news/211203.rst:8
-msgid "aggiornata sezione slide con approfondimenti e link a documentazione"
-msgstr "updated section \"Slides\" with documentaions and additional material"
-
-#: ../source/news/211203.rst:9
-msgid "aggiunto commento al codice di flip_vector"
-msgstr "added description and discussion of flip_vector"
-
-#: ../source/news/211203.rst:10
-msgid "aggiunto diario delle lezioni del 01/12/2021"
-msgstr "updated detailed program of 01/12"
-
-#: ../source/news/211203.rst:14
-msgid "caricata lezione del 01/12"
-msgstr "uploaded lecture held on 01/12"
-
-#: ../source/news/211201.rst:2
-msgid "01-12-2021 - avviso: aggionamenti"
-msgstr "01-12-2021 - updates"
-
-#: ../source/news/211201.rst:6
-msgid "aggiornate slide sulla gestione di I/O"
-msgstr "updated slides about I/O management"
-
-#: ../source/news/211201.rst:7
-msgid "nuovi esercizi: aggiunte 2 domande riguardo l'I/O management"
-msgstr "new exercises: added 2 questions about I/O management"
-
-#: ../source/news/211201.rst:8
-msgid "aggiunto diario delle lezioni del 30/11"
-msgstr "updated detailed program of 30/11"
-
-#: ../source/news/211201.rst:12
-msgid "caricata lezione del 30/11"
-msgstr "uploaded lecture held on 30/11"
-
-#: ../source/news.rst:71
-msgid "30-11-2021 - avviso: aggionamenti"
-msgstr "30-11-2021 - updates"
-
-#: ../source/news.rst:73 ../source/news.rst:100
-msgid "Info generali:"
-msgstr "General:"
-
-#: ../source/news.rst:75 ../source/news.rst:102
-msgid ""
-"sono disponibili i questionari per la rilevazione opinioni studenti: "
-"`Link <https://portalestudente.uniroma3.it/accedi/area-"
-"studenti/istruzioni/come-compilare-un-questionario-sul-portale-dello-"
-"studente/>`_"
-msgstr ""
-"it is now possible to submit your evaluation of this course: `Link "
-"<https://portalestudente.uniroma3.it/accedi/area-studenti/istruzioni"
-"/come-compilare-un-questionario-sul-portale-dello-studente/>`_"
-
-#: ../source/news.rst:79 ../source/news.rst:106
-msgid "La scadenza per la compilazione è il 30 novembre."
-msgstr "Deadline: 30 November 2021"
-
-#: ../source/news.rst:83
-msgid "aggiunte slide sulla gestione di I/O"
-msgstr "added slides about I/O management"
-
-#: ../source/news.rst:84
-msgid "nuovi esercizi: aggiunte 3 domande riguardo l'introduzione"
-msgstr "new exercises: added 3 questions about introduction"
-
-#: ../source/news.rst:85
-msgid "nuovi esercizi: aggiunte 6 domande riguardo la gestione della memoria"
-msgstr "new exercises: added 6 questions about memory management"
-
-#: ../source/news.rst:86
-msgid "nuovi esercizi: aggiunte 6 domande riguardo lo scheduling"
-msgstr "new exercises: added 6 questions about scheduling"
-
-#: ../source/news.rst:87
-msgid "nuovi esercizi: aggiunta 1 domanda riguardo la sincronizzazione"
-msgstr "new exercises: added 1 question about synchronization"
-
-#: ../source/news.rst:88
-msgid "aggiunto diario delle lezioni del 23/11 e del 24/11"
-msgstr "updated detailed program of 23/11 and 24/11"
-
-#: ../source/news.rst:92
-msgid "caricata lezione del 24/11"
-msgstr "uploaded lecture held on 24/11"
-
-#: ../source/news.rst:98
-msgid "24-11-2021 - avviso: nuove sezioni e aggionamenti"
-msgstr "23-11-2021 - updates: new website sections and updates"
-
-#: ../source/news.rst:110
-msgid "aggiornate slide sulla gestione della memoria"
-msgstr "updated slides about memory management"
-
-#: ../source/news.rst:111
-msgid "aggiunta una sezione: news sul sito"
-msgstr "added a new section: news"
-
-#: ../source/news.rst:112
-msgid "aggiunta una sezione: esercizi di preparazione"
-msgstr "added a new section: training exercises "
-
-#: ../source/news.rst:113
-msgid "aggiunto avviso su diaro delle lezioni"
-msgstr "added warning on detailed program"
-
-#: ../source/news.rst:114
-msgid "aggiunte slide di approfondimento su Solid-State Drive"
-msgstr "added additional slides about Solid-State Drives"
-
-#: ../source/news.rst:119
-msgid "caricata lezione del 23/11"
-msgstr "uploaded lecture held on 23/11"
-
-#: ../source/news.rst:124
-msgid "23-11-2021 - aggiornamenti"
-msgstr "23-11-2021 - updates"
-
-#: ../source/news.rst:128
-msgid "caricata nuova versione del sito del corso"
-msgstr "updated course website"
-
-#: ../source/news.rst:129
-msgid "aggiunta nuova sezione con spiegazione degli esempi di codice"
-msgstr "added a new section with code examples and discussion"
-
-#: ../source/news.rst:130
-msgid "caricata versione aggiornata delle slide \"Gestione della memoria\""
-msgstr "updated slides about memory management"
-
-#: ../source/news.rst:135
-msgid "caricata lezione del 17/11"
-msgstr "uploaded lecture held on 17/11"
-
-#: ../source/news.rst:140
-msgid "17-11-2021 - aggiornamenti"
-msgstr "17-11-2021 - updates"
-
-#: ../source/news.rst:144
-msgid "aggiornate slide su gestione della memoria"
-msgstr "updated slides about memory management"
-
-#: ../source/news.rst:145
-msgid "aggiornato diario delle lezioni al 16/11"
-msgstr "updated detailed program of 16/11"
-
-#: ../source/news.rst:149
-msgid "pubblicata lezione del 16/11"
-msgstr "uploaded lecture held on 16/11"
-
-#: ../source/news.rst:154
-msgid "16-11-2021 - aggiornamenti"
-msgstr "16-11-2021 - updates"
-
-#: ../source/news.rst:159
-msgid "Aggiornate slide su gestione della memoria"
-msgstr "Updated slides about memory management"
-
-#: ../source/news.rst:160
-msgid "Aggiornato il diario delle lezioni fino al 10/11"
-msgstr "Updated detailed program up to 10/11"
-
-#: ../source/news.rst:164
-msgid "Pubblicata lezione del 10/11 su Stream"
-msgstr "upload lecture held on 06/10"
-
-#: ../source/news.rst:170
-msgid "09-11-2021 - aggiornamenti"
-msgstr "09-11-2021 - updates"
-
-#: ../source/news.rst:174
-msgid "Pubblicate slide: \"Gestione della memoria\""
-msgstr "Published slide: Memory management"
-
-#: ../source/news.rst:178
-msgid "Pubblicate lezioni del 02/11 e 03/11"
-msgstr "upload lectures held on 02/11 and 03/11"
-
-#: ../source/news.rst:183
-msgid "02-11-2021 - aggiornamenti"
-msgstr "02-11-2021 - updates"
-
-#: ../source/news.rst:187
-msgid "Pubblicate slide sulla Sincronizzazione sul sito del corso"
-msgstr "Published slides about synchronization"
-
-#: ../source/news.rst:188
-msgid "Aggiornato diario delle lezioni"
-msgstr "Updated detailed program"
-
-#: ../source/news.rst:192
-msgid "Pubblicate lezioni del 26 e 27 Ottobre su Microsoft Stream"
-msgstr "uploaded lectures held on 26/10 nd 26/10 on Stream"
-
-#: ../source/news.rst:198
-msgid "26-10-2021 - aggiornamenti"
-msgstr "26-10-2021 - updates"
-
-#: ../source/news.rst:202
-msgid "Aggiornate slide su CPU scheduling"
-msgstr "updated slides about CPU scheduling"
-
-#: ../source/news.rst:207
-msgid "22-10-2021 - aggiornamenti"
-msgstr "22-10-2021 - updates"
-
-#: ../source/news.rst:211
-msgid "pubblicato link al repository github con esempi software."
-msgstr "published link to the github repository with software examples"
-
-#: ../source/news.rst:212
-msgid "aggiornate slide sui processi"
-msgstr "updated slides about processes"
-
-#: ../source/news.rst:213
-msgid "fixato codice per la gestione dei thread"
-msgstr "fixed source code for thread management"
-
-#: ../source/news.rst:217
-msgid "pubblicata lezione del 20/10/2021"
-msgstr "uploaded lecture held on 20/10/2021"
-
-#: ../source/news.rst:222
-msgid "18-10-2021 - aggiornamenti"
-msgstr "18-10-2021 - updates"
-
-#: ../source/news.rst:226
-msgid "[Diario delle lezioni]:  aggiunto dettaglio lezioni del 12/10 e 13/10"
-msgstr "Added detailed program of 12/10 and 13/10"
-
-#: ../source/news.rst:227
-msgid "[Slide] aggiunte slide su CPU scheduling"
-msgstr "[Slide] added slides about CPU schediling"
-
-#: ../source/news.rst:231
-msgid "upload lezione del 12/10 e 13/10"
-msgstr "upload video of 12/10 and 13/10"
-
-#: ../source/news.rst:236
-msgid "13-10-2021 - aggiornamenti"
-msgstr "13-10-2021 - updates"
-
-#: ../source/news.rst:240
-msgid "Pubblicata versione completa delle slide su processi e thread."
-msgstr "updated slides about processes"
-
-#: ../source/news.rst:245
-msgid "12-10-2021 - aggiornamenti"
-msgstr "12-10-2021 - updates"
-
-#: ../source/news.rst:249
-msgid "Aggiornate slide sui processi"
-msgstr "Updated slides about processes"
-
-#: ../source/news.rst:254
-msgid "10-10-2021 - aggiornamenti"
-msgstr "10-10-2021 - updates"
-
-#: ../source/news.rst:258
-msgid "[Orario delle lezioni] aggiunti link a tems, sharepoint e stream"
-msgstr "[Links] updated links to teams, sharepoint and stream"
-
-#: ../source/news.rst:259
-msgid "[Ricevimento] aggiornate istruzioni per inviare email al docente"
-msgstr "updated instructions for contacting the lecturer"
-
-#: ../source/news.rst:260
-msgid "[Testi consigliati e link utili]"
-msgstr "[Textbooks and useful links]"
-
-#: ../source/news.rst:262
-msgid "aggiunto un libro di testo in italiano"
-msgstr "added a new textbook available in italian"
-
-#: ../source/news.rst:263
-msgid "aggiunti link a guide per installazione di sistemi Linux"
-msgstr "added links to installation guides of Linux OSes"
-
-#: ../source/news.rst:265
-msgid "[Diario delle lezioni]:"
-msgstr "[Detailed program]:"
-
-#: ../source/news.rst:267
-msgid "aggiunto chiarimento sull'uso dei riferimenti ai libri di testo"
-msgstr "updated note about references of specific paragraph of textbooks"
-
-#: ../source/news.rst:268
-msgid "aggiunto dettaglio lezioni del 05/10 e 06/10"
-msgstr "updated detailed program of  05/10 and 06/10"
-
-#: ../source/news.rst:272
-msgid "upload lezione del 06/10"
-msgstr "upload 06/10 lesson"
 
 #~ msgid "aggiornato programma del corso :ref:`Programma`"
 #~ msgstr ""
@@ -965,4 +91,721 @@ msgstr "upload 06/10 lesson"
 #~ msgstr ""
 #~ "Published results and texts of the "
 #~ "exam held on 28/02/2022 :ref:`e220228`"
+
+#~ msgid "30-07-2022 - avviso: pubblicati risultati appello del 20/07/2022"
+#~ msgstr "01-03-2022 - updates: published results of 28/02/2022"
+
+#~ msgid "Pubblicati risultati e testo d'esame del :ref:`e220720`"
+#~ msgstr ""
+#~ "Published results and texts of the "
+#~ "exam held on 28/02/2022 :ref:`e220228`"
+
+#~ msgid "29-06-2022 - avviso: pubblicati risultati appello del 24/06/2022"
+#~ msgstr "28-01-2022 - updates: published results of 26/01/2022"
+
+#~ msgid "Pubblicati risultati e testo d'esame del :ref:`e220624`"
+#~ msgstr ""
+#~ "Published results and texts of the "
+#~ "exam held on 28/02/2022 :ref:`e220228`"
+
+#~ msgid "14-0-2022 - avviso: remainder regolamento e data sessione estiva"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In accordo al calendario della sessione"
+#~ " estiva, gli appelli del corso "
+#~ "\"Sistema Operativi\" si terranno il:"
+#~ msgstr ""
+
+#~ msgid "24 Giugno 2022 Aula Campus"
+#~ msgstr ""
+
+#~ msgid "20 Luglio 2022 Aula Campus"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Date aggiuntive verranno considerate solo "
+#~ "per soddisfare necessità di capienza "
+#~ "aula."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Per la sessione estiva valgono le "
+#~ "stesse regole della sessione invernale, "
+#~ "ossia:"
+#~ msgstr ""
+
+#~ msgid "Il voto finale è pari alla somma dei punteggi ottenuti:"
+#~ msgstr ""
+
+#~ msgid "nella parte di teoria (punteggio massimo 20, sufficienza 12);"
+#~ msgstr ""
+
+#~ msgid "nella parte di programmazione (punteggio massimo 11, sufficienza 6);"
+#~ msgstr ""
+
+#~ msgid "dalla vincita di una sfida avanzata dal docente (non più assegnabili)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Per superare l’esame occorre ottenere la"
+#~ " sufficienza in entrambi le parti."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Qualora la sufficienza sia stata "
+#~ "conseguita solo in una delle due "
+#~ "parti, lo studente è esonerato dal "
+#~ "sostenere il test riguardo la parte "
+#~ "in cui è risultato sufficiente nell’A.A."
+#~ " 2021/2022. Potrà perciò risostenere "
+#~ "unicamente il test dove non ha "
+#~ "conseguito la sufficienza."
+#~ msgstr ""
+
+#~ msgid "Per la lode è richiesto un punteggio di 31 punti."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "I punteggi ottenuti potranno essere "
+#~ "mantenuti fino all’ultima sessione di "
+#~ "esame per l’A.A. 2021/2022."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NON vi è salto di appello (è "
+#~ "possibile ripresentarsi a luglio anche "
+#~ "se insufficienti a giugno)."
+#~ msgstr ""
+
+#~ msgid "La durata della prova è:"
+#~ msgstr ""
+
+#~ msgid "3 ore se non si è esonerati per alcuna parte;"
+#~ msgstr "anyone who has never booked;"
+
+#~ msgid "1 ora e 15 minuti se si è esonerati per la parte di teoria;"
+#~ msgstr ""
+
+#~ msgid "1 ora e 45 minuti se si è esonerati per la parte di programmazione."
+#~ msgstr ""
+
+#~ msgid "Per qualsiasi ulteriore chiarimento, contattare il docente via email."
+#~ msgstr ""
+
+#~ msgid "01-03-2022 - avviso: pubblicati risultati appello del 28/02/2022"
+#~ msgstr "01-03-2022 - updates: published results of 28/02/2022"
+
+#~ msgid "Pubblicati risultati e testo d'esame del 28/02/2022 :ref:`e220228`"
+#~ msgstr ""
+#~ "Published results and texts of the "
+#~ "exam held on 28/02/2022 :ref:`e220228`"
+
+#~ msgid ""
+#~ "Si ricorda che la sezione esercizi "
+#~ "di programmazione è stata arricchita con"
+#~ " alcune soluzioni"
+#~ msgstr "Reminded: the exercises section has been update with several solutions."
+
+#~ msgid "26-02-2022 - avviso: pubblicati risultati appello del 21/02/2022"
+#~ msgstr "26-02-2022 - updates: published results of 21/02/2022"
+
+#~ msgid "Pubblicati risultati e testo d'esame del 21/02/2022 :ref:`e220221`"
+#~ msgstr ""
+#~ "Published results and texts of the "
+#~ "exam held on 21/02/2022 :ref:`e220221`"
+
+#~ msgid ""
+#~ "09-02-2022 - avviso: aggiornata soluzione "
+#~ "proposta della prova di esame del "
+#~ "26/01/2022"
+#~ msgstr ""
+#~ "09-02-2022 - updates: the solution for"
+#~ " the programming test of the exam "
+#~ "held on 26/01/2022 has been updated"
+
+#~ msgid "Aggiornata soluzione della prova di programmazione del 26/01/2022"
+#~ msgstr ""
+#~ "The solution for the programming test"
+#~ " of the exam held on 26/01/2022 "
+#~ "has been updated"
+
+#~ msgid "07-02-2022 - avviso: riaperte prenotazione per l'appello di Febbraio"
+#~ msgstr ""
+#~ "07-02-2022 - updates: the reservations "
+#~ "for the february exam have been "
+#~ "reponened"
+
+#~ msgid ""
+#~ "Dal 07/02/2022 al 14/02/2022 sono "
+#~ "riaperte le prenotazioni per l'appello "
+#~ "di Febbraio. Potranno prenotarsi:"
+#~ msgstr ""
+#~ "Reservations for the February session "
+#~ "are reopened from 07/02/2022 to "
+#~ "14/02/2022 . Those who can reservate "
+#~ "are: "
+
+#~ msgid "coloro che non si sono mai prenotati ad alcun appello;"
+#~ msgstr "anyone who has never booked;"
+
+#~ msgid "coloro che non hanno superato/accettato la prova di Gennaio."
+#~ msgstr "anyone who has not passed/accepted the january exam."
+
+#~ msgid ""
+#~ "Per l'ordine di assegnazione delle aule"
+#~ " verrà considerato l'ordine della prima "
+#~ "prenotazione. In altre parole, cancellare "
+#~ "l'attuale prenotazione per poi prenotarsi "
+#~ "nuovamente non avrà effetti sull'assegnazione"
+#~ " dell'aula."
+#~ msgstr ""
+#~ "The order of the first reservation "
+#~ "will be considered for the date "
+#~ "assignment. In other words, canceling "
+#~ "the current reservation and then re-"
+#~ "booking will have no effect on the"
+#~ " assignment. "
+
+#~ msgid "28-01-2022 - avviso: pubblicati risultati appello del 26/01/2022"
+#~ msgstr "28-01-2022 - updates: published results of 26/01/2022"
+
+#~ msgid ""
+#~ "Aggiunta nuova sezione \"Esami\" con i"
+#~ " risultati e testo della prova del"
+#~ " 26/01/2022"
+#~ msgstr ""
+#~ "Added new section \"Exams\" with results"
+#~ " and texts of the examination held"
+#~ " on 26/01/2022"
+
+#~ msgid "17-01-2022 - avviso: aggionamenti"
+#~ msgstr "17-12-2021 - updates"
+
+#~ msgid "Avvisi:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "L'esercitazione del 18/01/2022 è stata "
+#~ "cancellata causa convocazione del Consiglio"
+#~ " del Collegio Didattico"
+#~ msgstr ""
+#~ "The practice lecture of 18-01-2022 has"
+#~ " been canceled due to the overlap "
+#~ "with the Council of the Didactic "
+#~ "Board"
+
+#~ msgid ""
+#~ "Al 17-01-2022 non sono ancora stati "
+#~ "definitivamente risolte le problematiche "
+#~ "relative alla prenotazione degli appelli. "
+#~ "Seguiranno aggiornamenti nella giornata di "
+#~ "domani."
+#~ msgstr ""
+#~ "17-01-2022: the problems relating to the"
+#~ " booking of the exams have not "
+#~ "yet been definitively solved. Updates "
+#~ "will follow tomorrow.  "
+
+#~ msgid "chiarimenti relativi agli appelli di Gennaio e Febbraio"
+#~ msgstr "clarifications relating to the January and February exams "
+
+#~ msgid "nuovi esercizi e domande:"
+#~ msgstr "new exercises:"
+
+#~ msgid "aggiunta 1 domanda su introduzione"
+#~ msgstr "added 1 question about Introduction"
+
+#~ msgid "aggiunte 2 domande su cpu scheduling"
+#~ msgstr "added 2 questions about CPU-scheduling"
+
+#~ msgid "aggiunta 4 domande su gestione della memoria"
+#~ msgstr "added 4 questions about memory management"
+
+#~ msgid "aggiunte 3 domande su file management"
+#~ msgstr "added 3 questions about file management"
+
+#~ msgid "aggiunti 2 esercizi su CPU scheduling"
+#~ msgstr "added 2 exercise about scheduling"
+
+#~ msgid "aggiunti 2 esercizi su gestione delle memoria"
+#~ msgstr " added 2 exercises about memory management"
+
+#~ msgid "aggiunto 1 esercizio su I/O management"
+#~ msgstr "added 1 exercise about I/O management"
+
+#~ msgid "aggiunti 3 esercizi su file management"
+#~ msgstr "added 3 exercise about file management"
+
+#~ msgid "aggiunto 1 esercizio su programmazione"
+#~ msgstr "added 1 programming exercise"
+
+#~ msgid "14-01-2022 - avviso: aggionamenti"
+#~ msgstr "14-12-2021 - updates"
+
+#~ msgid "aggiornata la soglia di sufficienza per la prova di programmazione"
+#~ msgstr "fixed the threshold to pass the programming test"
+
+#~ msgid "rimosso \"espressioni regolari (sed e grep)\" dal programma"
+#~ msgstr ""
+#~ "removed \"espressioni regolari (sed e "
+#~ "grep)\" from the programmed topics"
+
+#~ msgid "aggiornato diario delle lezioni del 11/01/2022 e del 12/01/2022"
+#~ msgstr "updated detailed program of 11/01/22 and 12/01/22"
+
+#~ msgid "aggiunta una nuova sezione \"errata corrige\""
+#~ msgstr "added a new section: \"errata corrige\""
+
+#~ msgid "challenge:"
+#~ msgstr ""
+
+#~ msgid "Pubblicata soluzione e graduatoria della Challenge 1"
+#~ msgstr "Published solutions and rankings of Challange 1"
+
+#~ msgid "nuovi esercizi:"
+#~ msgstr "new exercises:"
+
+#~ msgid ""
+#~ "aggiunti i 2 esercizi di programmazione"
+#~ " C discussi durante le esercitazioni"
+#~ msgstr "added 2 exercises discussed during the lectures"
+
+#~ msgid "aggiunto 2 nuovi esercizio di programmazione C"
+#~ msgstr "added new 2 exercises discussed during the lectures"
+
+#~ msgid "11-01-2022 - avviso: aggionamenti, challenge"
+#~ msgstr "11-01-2021 - updates, challenge"
+
+#~ msgid "aggiunto 2 esercizi riguardo Gestione della Memoria"
+#~ msgstr "new exercises: added 2 exercises about memory management"
+
+#~ msgid "aggiunto 1 esercizio riguardo Scheduling"
+#~ msgstr "added 1 exercise about scheduling"
+
+#~ msgid "aggiunto 2 esercizio riguardo I/O management"
+#~ msgstr "added 2 exercise about I/O management"
+
+#~ msgid "La sfida: \"La password del docente\" è chiusa"
+#~ msgstr "The challenge \"The lecturer password\" is closed"
+
+#~ msgid ""
+#~ "30-12-2021 - avviso: aggionamenti, nuove "
+#~ "domande ed esercizi, pubblicata la "
+#~ "challenge!"
+#~ msgstr "30-12-2021 - updates, new questions and exercises, new challenge!"
+
+#~ msgid "aggiunto diario della lezione del 22/12/21"
+#~ msgstr "updated detailed program of 22/12"
+
+#~ msgid "aggiornato regolamento sezione di esame nella :doc:`Home <../../index>`"
+#~ msgstr "updated exam instructions at :doc:`Home <../../index>`"
+
+#~ msgid "aggiunta sezione :doc:`../../challenges`"
+#~ msgstr "Updated section: :doc:`../../challenges`"
+
+#~ msgid "aggiornata sezione :doc:`../../questions`"
+#~ msgstr "Updated section: :doc:`../../questions`"
+
+#~ msgid "aggiunte 3 domande e 1 esercizio su Introduzione"
+#~ msgstr "added 3 questions and 1 exercise about Introduction"
+
+#~ msgid "aggiunte 3 domande su Processi e thread"
+#~ msgstr "added 3 questions about Processes and threads"
+
+#~ msgid "aggiunte 3 domande su CPU-scheduling"
+#~ msgstr "added 3 questions about CPU-scheduling"
+
+#~ msgid "aggiunta 1 domanda su Sincronizzazione"
+#~ msgstr "added 1 question about Synchronization"
+
+#~ msgid "caricata lezione del 22/12/2021"
+#~ msgstr "uploaded lecture held on 22/12/21"
+
+#~ msgid "GitHub:"
+#~ msgstr ""
+
+#~ msgid "caricati sorgenti di esempio per attacchi di tipo buffer overflow"
+#~ msgstr "uploaded buffer-overflow examples"
+
+#~ msgid "22-12-2021 - avviso: aggionamenti"
+#~ msgstr "22-12-2021 - updates"
+
+#~ msgid "aggiornate slide su introduzione a Linux"
+#~ msgstr "updated slides about Getting started with Linux"
+
+#~ msgid "aggiunto diario della lezione del 21/12/21"
+#~ msgstr "updated detailed program of 21/12"
+
+#~ msgid "aggiornato programma del corso"
+#~ msgstr "updated planned topics"
+
+#~ msgid "caricata lezione del 21/12/2021"
+#~ msgstr "uploaded lecture held on 21/12/21"
+
+#~ msgid "21-12-2021 - avviso: aggionamenti"
+#~ msgstr "21-12-2021 - updates"
+
+#~ msgid "CV at lunch il 22-12-2021:"
+#~ msgstr "CV at lunch (22-12-2021):"
+
+#~ msgid ""
+#~ "l'evento si terrà mercoledì, dalle ore"
+#~ " 11:00 alle 17:00, presso la Spazio"
+#~ " Rossellini, ubicato in via della "
+#~ "vasca navale 56/58, antistante l’ingresso "
+#~ "del Dipartimento di Ingegneria su via"
+#~ " della vasca navale 79/81;"
+#~ msgstr ""
+#~ "* the event will take place this"
+#~ " Wednesday, from 11:00 to 17:00, at"
+#~ " Spazio Rossellini, located in via "
+#~ "della vasca navale 56/58, in front "
+#~ "of the entrance to the Engineering "
+#~ "Department on via della vasca navale "
+#~ "79/81 \";"
+
+#~ msgid "saranno presenti oltre 50 aziende;"
+#~ msgstr "over 50 companies will be present;"
+
+#~ msgid "è necessaria la registrazione;"
+#~ msgstr "registration is required"
+
+#~ msgid ""
+#~ "ulteriori info sul sito di dipartimento:"
+#~ " `link all'annuncio "
+#~ "<https://ingegneria.uniroma3.it/en/articoli/torna-il-"
+#~ "cv-at-lunch-levento-per-favorire-"
+#~ "lincontro-tra-aziende-e-studenti-202783/>`_"
+#~ msgstr ""
+#~ "furder info on the department website:"
+#~ " `link to the official news (only "
+#~ "in italian) <https://ingegneria.uniroma3.it/en/articoli"
+#~ "/torna-il-cv-at-lunch-levento-per-"
+#~ "favorire-lincontro-tra-aziende-e-studenti-202783/>`_"
+
+#~ msgid "Lezione del 21-12-2021:"
+#~ msgstr "21/12/21 Lecture:"
+
+#~ msgid ""
+#~ "Data l'indisponibilità dell'aula N13, la "
+#~ "lezione si terrà interamente per via "
+#~ "telematica"
+#~ msgstr ""
+#~ "Given the unavailability of room N13,"
+#~ " the lesson will be held remotely "
+#~ "on Teams"
+
+#~ msgid "aggiunti commento dettagliato al sorgente di esempio dup"
+#~ msgstr "added detailed comment of dup example"
+
+#~ msgid "Repository GitHub:"
+#~ msgstr ""
+
+#~ msgid "aggiornato esempio prod_cons"
+#~ msgstr "added new example: ProdCons"
+
+#~ msgid "16-12-2021 - avviso: aggionamenti"
+#~ msgstr "16-12-2021 - updates"
+
+#~ msgid "aggiornato diario della lezione del 15/12/21"
+#~ msgstr "updated detailed program of 15/12"
+
+#~ msgid "aggiunti commento dettagliato al sorgente di esempio cp"
+#~ msgstr "added detailed comment of cp code example"
+
+#~ msgid "caricata lezione del 15/12/21"
+#~ msgstr "uploaded lecture held on 15/12/21"
+
+#~ msgid "15-12-2021 - avviso: aggionamenti"
+#~ msgstr "15-12-2021 - updates"
+
+#~ msgid "aggiornato diario della lezione del 14/12/21"
+#~ msgstr "updated detailed program of 14/12"
+
+#~ msgid "aggiunta una nuova sezione di domande su file management"
+#~ msgstr "new exercises: added 5 questions about file management"
+
+#~ msgid "aggiunte slide su Introduzione a Linux"
+#~ msgstr "added slides about Getting started with Linux"
+
+#~ msgid "caricata lezione del 14/12/21"
+#~ msgstr "uploaded lecture held on 14/12/21"
+
+#~ msgid "13-12-2021 - avviso: aggionamenti"
+#~ msgstr "13-12-2021 - updates"
+
+#~ msgid "aggiornate slide su I/O e file management"
+#~ msgstr "updated slides about I/O and file management"
+
+#~ msgid "Github:"
+#~ msgstr ""
+
+#~ msgid "aggiunto esempio Cp"
+#~ msgstr "added new example: Cp"
+
+#~ msgid "aggiunto esempio Dup"
+#~ msgstr "added new example: Dup"
+
+#~ msgid "aggiunto esempio ProdCons"
+#~ msgstr "added new example: ProdCons"
+
+#~ msgid "08-12-2021 - avviso: aggionamenti"
+#~ msgstr "08-12-2021 - updates"
+
+#~ msgid "aggiunto diario delle lezioni del 07/12/2021"
+#~ msgstr "updated detailed program of 07/12/2021"
+
+#~ msgid "aggiunte 3 domande su I/O management"
+#~ msgstr "new exercises: added 3 questions about I/O management"
+
+#~ msgid "caricata lezione del 07/12"
+#~ msgstr "uploaded lecture held on 07/12"
+
+#~ msgid "07-12-2021 - avviso: aggionamenti"
+#~ msgstr "07-12-2021 - updates"
+
+#~ msgid "aggiornate slide sulla gestione di I/O e file"
+#~ msgstr "updated slides about I/O and file management"
+
+#~ msgid "03-12-2021 - avviso: aggionamenti"
+#~ msgstr "03-12-2021 - updates"
+
+#~ msgid "nuovi esercizi: aggiunte 2 domande riguardo la sincronizzazione"
+#~ msgstr "new exercises: added 2 questions about synchronization"
+
+#~ msgid "nuovi esercizi: aggiunte 1 domanda riguardo lo scheduling"
+#~ msgstr "new exercises: added 1 question about scheduling"
+
+#~ msgid "aggiornata sezione slide con approfondimenti e link a documentazione"
+#~ msgstr "updated section \"Slides\" with documentaions and additional material"
+
+#~ msgid "aggiunto commento al codice di flip_vector"
+#~ msgstr "added description and discussion of flip_vector"
+
+#~ msgid "aggiunto diario delle lezioni del 01/12/2021"
+#~ msgstr "updated detailed program of 01/12"
+
+#~ msgid "caricata lezione del 01/12"
+#~ msgstr "uploaded lecture held on 01/12"
+
+#~ msgid "01-12-2021 - avviso: aggionamenti"
+#~ msgstr "01-12-2021 - updates"
+
+#~ msgid "aggiornate slide sulla gestione di I/O"
+#~ msgstr "updated slides about I/O management"
+
+#~ msgid "nuovi esercizi: aggiunte 2 domande riguardo l'I/O management"
+#~ msgstr "new exercises: added 2 questions about I/O management"
+
+#~ msgid "aggiunto diario delle lezioni del 30/11"
+#~ msgstr "updated detailed program of 30/11"
+
+#~ msgid "caricata lezione del 30/11"
+#~ msgstr "uploaded lecture held on 30/11"
+
+#~ msgid "30-11-2021 - avviso: aggionamenti"
+#~ msgstr "30-11-2021 - updates"
+
+#~ msgid "Info generali:"
+#~ msgstr "General:"
+
+#~ msgid ""
+#~ "sono disponibili i questionari per la"
+#~ " rilevazione opinioni studenti: `Link "
+#~ "<https://portalestudente.uniroma3.it/accedi/area-"
+#~ "studenti/istruzioni/come-compilare-un-"
+#~ "questionario-sul-portale-dello-studente/>`_"
+#~ msgstr ""
+#~ "it is now possible to submit your"
+#~ " evaluation of this course: `Link "
+#~ "<https://portalestudente.uniroma3.it/accedi/area-"
+#~ "studenti/istruzioni/come-compilare-un-"
+#~ "questionario-sul-portale-dello-studente/>`_"
+
+#~ msgid "La scadenza per la compilazione è il 30 novembre."
+#~ msgstr "Deadline: 30 November 2021"
+
+#~ msgid "Sito del corso:"
+#~ msgstr "Course website"
+
+#~ msgid "aggiunte slide sulla gestione di I/O"
+#~ msgstr "added slides about I/O management"
+
+#~ msgid "nuovi esercizi: aggiunte 3 domande riguardo l'introduzione"
+#~ msgstr "new exercises: added 3 questions about introduction"
+
+#~ msgid "nuovi esercizi: aggiunte 6 domande riguardo la gestione della memoria"
+#~ msgstr "new exercises: added 6 questions about memory management"
+
+#~ msgid "nuovi esercizi: aggiunte 6 domande riguardo lo scheduling"
+#~ msgstr "new exercises: added 6 questions about scheduling"
+
+#~ msgid "nuovi esercizi: aggiunta 1 domanda riguardo la sincronizzazione"
+#~ msgstr "new exercises: added 1 question about synchronization"
+
+#~ msgid "aggiunto diario delle lezioni del 23/11 e del 24/11"
+#~ msgstr "updated detailed program of 23/11 and 24/11"
+
+#~ msgid "Microsoft Stream:"
+#~ msgstr ""
+
+#~ msgid "caricata lezione del 24/11"
+#~ msgstr "uploaded lecture held on 24/11"
+
+#~ msgid "24-11-2021 - avviso: nuove sezioni e aggionamenti"
+#~ msgstr "23-11-2021 - updates: new website sections and updates"
+
+#~ msgid "aggiornate slide sulla gestione della memoria"
+#~ msgstr "updated slides about memory management"
+
+#~ msgid "aggiunta una sezione: news sul sito"
+#~ msgstr "added a new section: news"
+
+#~ msgid "aggiunta una sezione: esercizi di preparazione"
+#~ msgstr "added a new section: training exercises "
+
+#~ msgid "aggiunto avviso su diaro delle lezioni"
+#~ msgstr "added warning on detailed program"
+
+#~ msgid "aggiunte slide di approfondimento su Solid-State Drive"
+#~ msgstr "added additional slides about Solid-State Drives"
+
+#~ msgid "caricata lezione del 23/11"
+#~ msgstr "uploaded lecture held on 23/11"
+
+#~ msgid "23-11-2021 - aggiornamenti"
+#~ msgstr "23-11-2021 - updates"
+
+#~ msgid "caricata nuova versione del sito del corso"
+#~ msgstr "updated course website"
+
+#~ msgid "aggiunta nuova sezione con spiegazione degli esempi di codice"
+#~ msgstr "added a new section with code examples and discussion"
+
+#~ msgid "caricata versione aggiornata delle slide \"Gestione della memoria\""
+#~ msgstr "updated slides about memory management"
+
+#~ msgid "caricata lezione del 17/11"
+#~ msgstr "uploaded lecture held on 17/11"
+
+#~ msgid "17-11-2021 - aggiornamenti"
+#~ msgstr "17-11-2021 - updates"
+
+#~ msgid "aggiornate slide su gestione della memoria"
+#~ msgstr "updated slides about memory management"
+
+#~ msgid "aggiornato diario delle lezioni al 16/11"
+#~ msgstr "updated detailed program of 16/11"
+
+#~ msgid "pubblicata lezione del 16/11"
+#~ msgstr "uploaded lecture held on 16/11"
+
+#~ msgid "16-11-2021 - aggiornamenti"
+#~ msgstr "16-11-2021 - updates"
+
+#~ msgid "Aggiornate slide su gestione della memoria"
+#~ msgstr "Updated slides about memory management"
+
+#~ msgid "Aggiornato il diario delle lezioni fino al 10/11"
+#~ msgstr "Updated detailed program up to 10/11"
+
+#~ msgid "Pubblicata lezione del 10/11 su Stream"
+#~ msgstr "upload lecture held on 06/10"
+
+#~ msgid "09-11-2021 - aggiornamenti"
+#~ msgstr "09-11-2021 - updates"
+
+#~ msgid "Pubblicate slide: \"Gestione della memoria\""
+#~ msgstr "Published slide: Memory management"
+
+#~ msgid "Pubblicate lezioni del 02/11 e 03/11"
+#~ msgstr "upload lectures held on 02/11 and 03/11"
+
+#~ msgid "02-11-2021 - aggiornamenti"
+#~ msgstr "02-11-2021 - updates"
+
+#~ msgid "Pubblicate slide sulla Sincronizzazione sul sito del corso"
+#~ msgstr "Published slides about synchronization"
+
+#~ msgid "Aggiornato diario delle lezioni"
+#~ msgstr "Updated detailed program"
+
+#~ msgid "Pubblicate lezioni del 26 e 27 Ottobre su Microsoft Stream"
+#~ msgstr "uploaded lectures held on 26/10 nd 26/10 on Stream"
+
+#~ msgid "26-10-2021 - aggiornamenti"
+#~ msgstr "26-10-2021 - updates"
+
+#~ msgid "Aggiornate slide su CPU scheduling"
+#~ msgstr "updated slides about CPU scheduling"
+
+#~ msgid "22-10-2021 - aggiornamenti"
+#~ msgstr "22-10-2021 - updates"
+
+#~ msgid "pubblicato link al repository github con esempi software."
+#~ msgstr "published link to the github repository with software examples"
+
+#~ msgid "aggiornate slide sui processi"
+#~ msgstr "updated slides about processes"
+
+#~ msgid "fixato codice per la gestione dei thread"
+#~ msgstr "fixed source code for thread management"
+
+#~ msgid "pubblicata lezione del 20/10/2021"
+#~ msgstr "uploaded lecture held on 20/10/2021"
+
+#~ msgid "18-10-2021 - aggiornamenti"
+#~ msgstr "18-10-2021 - updates"
+
+#~ msgid "[Diario delle lezioni]:  aggiunto dettaglio lezioni del 12/10 e 13/10"
+#~ msgstr "Added detailed program of 12/10 and 13/10"
+
+#~ msgid "[Slide] aggiunte slide su CPU scheduling"
+#~ msgstr "[Slide] added slides about CPU schediling"
+
+#~ msgid "upload lezione del 12/10 e 13/10"
+#~ msgstr "upload video of 12/10 and 13/10"
+
+#~ msgid "13-10-2021 - aggiornamenti"
+#~ msgstr "13-10-2021 - updates"
+
+#~ msgid "Pubblicata versione completa delle slide su processi e thread."
+#~ msgstr "updated slides about processes"
+
+#~ msgid "12-10-2021 - aggiornamenti"
+#~ msgstr "12-10-2021 - updates"
+
+#~ msgid "Aggiornate slide sui processi"
+#~ msgstr "Updated slides about processes"
+
+#~ msgid "10-10-2021 - aggiornamenti"
+#~ msgstr "10-10-2021 - updates"
+
+#~ msgid "[Orario delle lezioni] aggiunti link a tems, sharepoint e stream"
+#~ msgstr "[Links] updated links to teams, sharepoint and stream"
+
+#~ msgid "[Ricevimento] aggiornate istruzioni per inviare email al docente"
+#~ msgstr "updated instructions for contacting the lecturer"
+
+#~ msgid "[Testi consigliati e link utili]"
+#~ msgstr "[Textbooks and useful links]"
+
+#~ msgid "aggiunto un libro di testo in italiano"
+#~ msgstr "added a new textbook available in italian"
+
+#~ msgid "aggiunti link a guide per installazione di sistemi Linux"
+#~ msgstr "added links to installation guides of Linux OSes"
+
+#~ msgid "[Diario delle lezioni]:"
+#~ msgstr "[Detailed program]:"
+
+#~ msgid "aggiunto chiarimento sull'uso dei riferimenti ai libri di testo"
+#~ msgstr "updated note about references of specific paragraph of textbooks"
+
+#~ msgid "aggiunto dettaglio lezioni del 05/10 e 06/10"
+#~ msgstr "updated detailed program of  05/10 and 06/10"
+
+#~ msgid "upload lezione del 06/10"
+#~ msgstr "upload 06/10 lesson"
 

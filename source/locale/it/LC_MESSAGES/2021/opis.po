@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/opis.rst:2
+msgid "Raccolta Informale Opinioni Studenti"
+msgstr ""
+
+#: ../source/2021/opis.rst:4
+msgid ""
+"Al fine di raccogliere il più rapidamente possibile le opinioni e tenerne"
+" conto in future edizioni di questo corso, ho ritenuto opportuno "
+"realizzare un questionario anonimo su Google Form attivo dal 27 Febbraio "
+"2022 al 15 Marzo 2022."
+msgstr ""
+
+#: ../source/2021/opis.rst:7
+msgid ""
+"Il questionario comprende sia domande a risposta multipla, sia domande a "
+"risposta aperta. Per quest'ultime ho provveduto a classificarle "
+"manualmente per realizzare dei grafici riassuntivi (risultati RAW sono "
+"consultabili su "
+"`<https://docs.google.com/forms/d/1WlLehZmV9-xGtijc0Yj62Uw99A_j6x6KkorLolu249k/viewanalytics>`__)."
+msgstr ""
+
+#: ../source/2021/opis.rst:10
+msgid "A seguire sono disponibili:"
+msgstr ""
+
+#: ../source/2021/opis.rst:17
+msgid "Ringrazio tutti gli studenti e le studentesse per la collaborazione."
+msgstr ""
+
+#: ../source/2021/opis.rst:22
+msgid "Dati e considerazioni"
+msgstr ""
+
+msgid "Osservazione"
+msgstr ""
+
+#: ../source/2021/opis.rst:30
+#, python-format
+msgid ""
+"Il corso ha suscitato interesse e rispettato le aspettative. Sebbene "
+"oltre il 50% degli studenti presentatisi ad almeno un appello ha superato"
+" l'esame, circa il 50% gradirebbe approfondire la parte di "
+"programmazione. Di conseguenza, verrà ampliato l'insieme di esercizi di "
+"programmazione C disponibili durante l'erogazione del corso e creata una "
+"nuova sezione per scripting shell."
+msgstr ""
+
+#: ../source/2021/opis.rst:41
+msgid ""
+"Nonostante non siano pervenute particolari criticità nell'impostazione "
+"delle prove di esame probabilmente verrà adottata una differente modalità"
+" di esame per ridurre l'occupazione della Aula Campus. Ossia 2 prove "
+"distinte in 2 giorni distinti, approssimativamente 2h per la teoria 1h30m"
+" per la programmazione. Infine, verranno aperte più challenge."
+msgstr ""
+
+#: ../source/2021/opis.rst:50
+msgid ""
+"Non verrà apportata alcuna modifica nella gestione attuale del sito. Sarà"
+" invece estesa la sezione di esempi ed esercizi."
+msgstr ""
+
+#: ../source/2021/opis.rst:61
+msgid ""
+"Sebbene la durata dei riepiloghi sia risultata adeguata, questa verrà "
+"leggermente ridotta in favore di un numero maggiore di esempi/esercizi "
+"discussi a lezione."
+msgstr ""
+
+#: ../source/2021/opis.rst:69
+msgid ""
+"Verrà esteso il set di approfondimenti. Le slide verranno allineate con i"
+" nuovi obiettivi del corso ed approfondite ove necessario."
+msgstr ""
+
+#: ../source/2021/opis.rst:77
+msgid ""
+"In accordo con le disposizioni del Dipartimento, verrà tenuta in "
+"considerazione la possibilità di erogazione mista (presenza e streaming "
+"con registrazione)."
+msgstr ""
+
+#: ../source/2021/opis.rst:81
+msgid "Alcune commenti"
+msgstr ""
+
+#: ../source/2021/opis.rst:83
+msgid "*\"Disponibile, bravo a spiegare e coinvolgente.\"*"
+msgstr ""
+
+#: ../source/2021/opis.rst:85
+msgid ""
+"*\"Spiega molto bene ed è molto apprezzato che cerchi il confronto con "
+"gli studenti\"*"
+msgstr ""
+
+#: ../source/2021/opis.rst:87
+msgid ""
+"*\"Seguire è stato divertente, anche se nella parte di programmazione ho "
+"avuto particolari difficoltà, viste le mie scarse conoscenze di tutto "
+"quello con cui abbiamo effettivamente lavorato. Tuttavia gli esempi "
+"presenti sul sito aiutano non poco.\"*"
+msgstr ""
+
+#: ../source/2021/opis.rst:89
+msgid ""
+"*\"Estremamente disponibile. sprona a ragionare e ad arrivare alla "
+"soluzione usando la propria testa. mi ha fatto davvero capire come "
+"funzionano le cose\"*"
+msgstr ""
+
+#: ../source/2021/opis.rst:91
+msgid ""
+"*\"Uno dei primi corsi veramente tecnici che ci fanno mettere mano su "
+"sistemi reali.\"*"
+msgstr ""
+
+#: ../source/2021/opis.rst:93
+msgid ""
+"*\"...è disponibile, specialmente in prossimità dell'esame via mail, è "
+"stato in grado di farmi comprendere a pieno degli esercizi di "
+"programmazione che fino a 10 giorni prima dell'esame non mi erano stati "
+"chiarissimi a causa della preparazione di altri esami. Grazie alla "
+"disponibilità del prof via mail in prossimità dell'esame sono riuscito a "
+"superare questo quinto esame con 30. Grazie \"*"
+msgstr ""
+
+#: ../source/2021/opis.rst:95
+msgid ""
+"*\"...A mio parere cambiando un po' le slide e il modo di spiegare i vari"
+" argomenti nel giro di 2/3 anni potrebbe diventare uno dei migliori "
+"professori nella triennale di Ing. informatica. Concludo ringraziandola "
+"di cuore del gesto che ha fatto a Natale. Non mi sarei mai aspettato un "
+"gesto così da un professore e devo dirle che quel giorno mi ha fatto "
+"tornare a casa veramente felice.\"*"
+msgstr ""
+
+#: ../source/2021/opis.rst:97
+msgid ""
+"*\"Ottimo, ha gestito al meglio il corso, nonostante la scarsa esperienza"
+" di docenza ha sopperito con la grande competenza e l'empatia. Spero "
+"resti a Roma3, è un valore aggiunto.\"*"
+msgstr ""
+
+#: ../source/2021/opis.rst:99
+msgid "*\"Ottimo sito didattico, tra i migliori che ho utilizzato.\"*"
+msgstr ""
+
+#: ../source/2021/opis.rst:101
+msgid ""
+"*\"Sito organizzato perfettamente, è parte essenziale per la "
+"preparazione.\"*"
+msgstr ""
+

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistemi Operativi &mdash; Operating Systems 2021/2022 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/js/custom.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="/it/2021/index.html"><img src="/it/_static/it.png"/></a>
+            <a href="/en/2021/index.html"><img src="/it/_static/en.png"/></a>
+            <a href="../index.html" class="icon icon-home"> Operating Systems
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Operating Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux_install.html">Installing Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples.html">Code examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../questions.html">Training exercises</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lectures/index.html">Detailed program</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../challenges.html">Challenges</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exams.html">Exams</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../editions.html">Edizioni del corso</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../errata.html">Errata Corrige</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Operating Systems</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Sistemi Operativi</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/2021/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="sistemi-operativi">
+<h1>Sistemi Operativi<a class="headerlink" href="#sistemi-operativi" title="Permalink to this headline">¶</a></h1>
+<p>Benvenuti al corso di Sistemi Operativi per A.A. 2021/2022 del Corso di Laurea in Ingegneria Informatica di Roma Tre</p>
+<p>Docente: <a class="reference external" href="https://romolomarotta.github.io">Romolo Marotta</a></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Questa edizione del sito del corso è stata archiaviata.
+Per accedere alle differenti sezioni del corso utilizzare i link seguenti:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="news.html"><span class="doc">News (A.A. 2021/2022)</span></a></p></li>
+<li><p><a class="reference internal" href="slides.html"><span class="doc">Slides</span></a></p></li>
+<li><p><a class="reference internal" href="questions.html"><span class="doc">Esercizi di preparazione</span></a></p></li>
+<li><p><a class="reference internal" href="challenges.html"><span class="doc">Sfide</span></a></p></li>
+<li><p><a class="reference internal" href="exams.html"><span class="doc">Appelli A.A 2021/2022</span></a></p></li>
+<li><p><a class="reference internal" href="examples.html"><span class="doc">Esempi di programmazione</span></a></p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="obiettivi-del-corso">
+<h2>Obiettivi del corso<a class="headerlink" href="#obiettivi-del-corso" title="Permalink to this headline">¶</a></h2>
+<p>L’obiettivo del corso è fornire allo studente competenze sull’architettura di un generico sistema operativo moderno, con particolare riferimento al sistema Linux,
+e sulle metodologie usate per risolvere le problematiche tipiche della gestione di risorse in un sistema operativo moderno.
+Infine, particolare attenzione verrà dedicata alla programmazione di sistema e scripting.</p>
+</div>
+<div class="section" id="orario-delle-lezioni">
+<h2>Orario delle lezioni<a class="headerlink" href="#orario-delle-lezioni" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 4%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Giorno</p></th>
+<th class="head"><p>Orario</p></th>
+<th class="head"><p>Aula</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Martedì</p></td>
+<td><p>16:00 - 18:00</p></td>
+<td><p>N13 [Vasca Navale 79/81] - <a class="reference external" href="https://teams.microsoft.com/l/meetup-join/19%3aRhhdoEO6QOI_oVGAqU-Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/1633386278580?context=%7b%22Tid%22%3a%22ffb4df68-f464-458c-a546-00fb3af66f6a%22%2c%22Oid%22%3a%22430d18c0-6f97-4e80-834a-955f8618ef03%22%7d">Aula Teams</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Mercoledì</p></td>
+<td><p>16:00 - 18:00</p></td>
+<td><p>N13 [Vasca Navale 79/81] - <a class="reference external" href="https://teams.microsoft.com/l/meetup-join/19%3aRhhdoEO6QOI_oVGAqU-Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/1633386278580?context=%7b%22Tid%22%3a%22ffb4df68-f464-458c-a546-00fb3af66f6a%22%2c%22Oid%22%3a%22430d18c0-6f97-4e80-834a-955f8618ef03%22%7d">Aula Teams</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="link-ai-contenuti-del-corso">
+<h2>Link ai contenuti del corso<a class="headerlink" href="#link-ai-contenuti-del-corso" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://teams.microsoft.com/l/team/19%3aRhhdoEO6QOI_oVGAqU-Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/conversations?groupId=098a73ce-8602-46e3-84c6-8107ebe1a9ae&amp;tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a">Teams</a></p></li>
+<li><p><a class="reference external" href="https://uniroma3.sharepoint.com/sites/AA2122-SISTEMIOPERATIVI-20801961MAROTTA">SharePoint</a></p></li>
+<li><p><a class="reference external" href="https://web.microsoftstream.com/group/098a73ce-8602-46e3-84c6-8107ebe1a9ae">Stream</a></p></li>
+<li><p><a class="reference external" href="https://ingegneria.el.uniroma3.it/course/view.php?id=512">Moodle</a></p></li>
+<li><p><a class="reference external" href="https://github.com/SistemiOperativi">GitHub</a></p></li>
+<li><p><a class="reference internal" href="slides.html"><span class="doc">Slides</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="ricevimento">
+<h2>Ricevimento<a class="headerlink" href="#ricevimento" title="Permalink to this headline">¶</a></h2>
+<p>Contattare il docente alla seguente email <strong>{nome}.{cognome}&#64;uniroma3.it</strong> e riportare il prefisso <strong>[SO2122]</strong> nell’oggetto.</p>
+</div>
+<div class="section" id="modalita-d-esame">
+<h2>Modalità d’esame<a class="headerlink" href="#modalita-d-esame" title="Permalink to this headline">¶</a></h2>
+<p>L’esame prevede 1 prova ripartita in 2 due test, i cui punteggi sono ripartiti secondo quanto segue.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 44%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 20%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p># Test</p></td>
+<td><p>Tipologia</p></td>
+<td><p>Punti</p></td>
+<td><p>Perc.</p></td>
+<td><p>Sufficienza</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Domande di teoria</p></td>
+<td><p>~20</p></td>
+<td><p>~65%</p></td>
+<td><p>~12</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Esercizi di programmazione</p></td>
+<td><p>~11</p></td>
+<td><p>~35%</p></td>
+<td><p>~6</p></td>
+</tr>
+</tbody>
+</table>
+<p>Regole:</p>
+<ol class="arabic simple">
+<li><p>Il voto finale è pari alla somma dei punteggi ottenuti:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>nei test 1 e 2;</p></li>
+<li><p>dalla vincita di una sfida avanzata dal docente.</p></li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Per superare l’esame occorre ottenere la sufficienza in entrambi i test.</p></li>
+<li><p>Qualora la sufficienza sia stata conseguita solo su uno dei due test, lo studente è esonerato dal sostenere il test in cui è risultato sufficiente nell’A.A. 2021/2022. Potrà perciò risostenere unicamente il test dove non ha conseguito la sufficienza.</p></li>
+<li><p>Per la lode è richiesto un punteggio di 31 punti.</p></li>
+<li><p>I punteggi ottenuti nei test e nelle sfide potranno essere mantenuti fino all’ultima sessione di esame per l’A.A. 2021/2022.</p></li>
+</ol>
+<div class="section" id="date">
+<h3>Date<a class="headerlink" href="#date" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Sessione Estiva:</p>
+<ul>
+<li><p>24-06-2022. <strong>Se e solo se</strong> la capienza dell’aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate date aggiuntive.</p></li>
+<li><p>20-07-2022. <strong>Se e solo se</strong> la capienza dell’aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate date aggiuntive.</p></li>
+</ul>
+</li>
+<li><p>Sessione Invernale:</p>
+<ul>
+<li><p>26-01-2022. <strong>Se e solo se</strong> la capienza dell’aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate le seguenti date aggiuntive: 28-01-2022, 31-01-2022.</p></li>
+<li><p>21-02-2022. <strong>Se e solo se</strong> la capienza dell’aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate le seguenti date aggiuntive: 24-02-2022, 28-02-2022.</p></li>
+<li><p>L’assegnazione alle date aggiuntive viene fatta secondo una politica First-Come-First-Serve.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="testi-consigliati-e-link-utili-in-aggiornamento">
+<span id="books"></span><h2>Testi consigliati e link utili (in aggiornamento)<a class="headerlink" href="#testi-consigliati-e-link-utili-in-aggiornamento" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>[t1] Operating Systems: Internals and Design Principles - William Stallings - Prentice Hall, fifth edition (o superiori). Riferimento: ninth global edition.</p></li>
+<li><p>[t2] Sistemi operativi: Concetti ed Esempi - Silberschatz Abraham, Galvin Peter Baer, Gagne Greg - Addison Wesley/Pearson, nona edizione (o superiori). Riferimento: tenth global edition.</p></li>
+<li><p>[t3] Programmazione in Ambiente UNIX - Francesco Quaglia, Camil Demetrescu - <a class="reference external" href="https://francescoquaglia.github.io/TEACHING/SISTEMI-OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf">Disponibile in formato pdf</a></p></li>
+</ul>
+</div>
+<div class="section" id="programma">
+<h2>Programma<a class="headerlink" href="#programma" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Panoramica sui sistemi operativi moderni.</strong> definizione di sistema operativo, scopi, architettura a strati, kernel/user mode, caratteristiche salienti</p></li>
+<li><p><strong>Processi e Thread.</strong> dispatching, stati, descrizione e controllo, modelli tipici di sistemi operativi e di uso della memoria nei processi</p></li>
+<li><p><strong>Scheduling.</strong> a breve medio e lungo termine, algoritmi per cpu scheduling</p></li>
+<li><p><strong>Sincronizzazione.</strong> primitive di sincronizzazione, RMW, mutex, semafori</p></li>
+<li><p><strong>Memoria.</strong> allocatori di memoria, partitioning, best/first/next fit, buddy algorithm, paging, segmentation, memoria virtuale e sua gestione hardware/software</p></li>
+<li><p><strong>I/O e File Management.</strong> Disk scheduling, <span class="removedtopic">RAID</span>, UNIX File Management, inode, Linux VFS, ext2</p></li>
+<li><p><strong>Introduzione a Linux.</strong> comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, redirection, <span class="removedtopic">piping, segnali, espressioni regolari (sed e grep), scripting (bash, awk),</span> linux filesystem management</p></li>
+<li><p><strong>Programmazione di Sistema.</strong> Gestione in C dei processi/thread su ambiente linux</p></li>
+<li><p><span class="removedtopic">**Debugger**.</span> <span class="removedtopic">utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.</span></p></li>
+<li><p><span class="removedtopic">**Virtualizzazione.**</span> <span class="removedtopic">Concetti generali, container, Docker</span></p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><span class="removedtopic">topic</span> indica che i relativi contenuti sono stati esclusi dal programma</p>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Romolo Marotta.
+      <span class="lastupdated">Last updated on Sep 26, 2022.
+      </span></p>
+  </div>
+  <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
+
+ 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/lectures/211214.rst:2
+msgid "14/12/2021 - File management parte 2"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:4
+msgid "Allocazione su hard disk"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:5
+msgid "File system Unix:"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:7
+msgid "inode"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:8
+msgid "attributi"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:9
+msgid "servizi per la manipolazione di file e directory"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:10
+msgid "descrittore"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:11
+msgid "in-memory file system"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:13
+msgid "Recovery e file locking"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:17
+msgid "Riferimenti libro di testo"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:19
+msgid "[:ref:`t1 <books>`] Sezione 12.7, 12.8, 12.9"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:20
+msgid ""
+"[:ref:`t2 <books>`] Sezione 14.4, 14.4.1, 14.4.2, 14.4.3, 14.6, 14.7, "
+"14.7.1, 14.7.2, 15.5"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:23
+msgid "Approfondimenti"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:24
+msgid ""
+"`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
+"guide/blockdev/ramdisk.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:25
+msgid "`ramfs <https://wiki.debian.org/ramfs>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:26
+msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:27
+msgid ""
+"`POSIX open "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:28
+msgid ""
+"`POSIX close "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:29
+msgid ""
+"`POSIX read "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:30
+msgid ""
+"`POSIX write "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:31
+msgid ""
+"`POSIX lseek "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/lseek.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:32
+msgid ""
+"`POSIX truncate "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/truncate.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:33
+msgid ""
+"`POSIX dup "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:34
+msgid ""
+"`POSIX mkdir "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/mkdir.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:35
+msgid ""
+"`POSIX rmdir "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/rmdir.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:36
+msgid ""
+"`POSIX link "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/link.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:37
+msgid ""
+"`POSIX symlink "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/symlink.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:38
+msgid ""
+"`POSIX chmod "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/chmod.html>`_"
+msgstr ""
+
+#: ../source/2021/lectures/211214.rst:39
+msgid ""
+"`POSIX chown "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/chown.html>`_"
+msgstr ""
+

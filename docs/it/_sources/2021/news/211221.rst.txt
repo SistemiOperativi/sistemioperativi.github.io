@@ -1,0 +1,22 @@
+21-12-2021 - avviso: aggionamenti
+-------------------------------------------------
+
+* CV at lunch il 22-12-2021:
+
+  * l'evento si terrà mercoledì, dalle ore 11:00 alle 17:00, presso la Spazio Rossellini, ubicato in via della vasca navale 56/58, antistante l’ingresso del Dipartimento di Ingegneria su via della vasca navale 79/81;
+  * saranno presenti oltre 50 aziende;
+  * è necessaria la registrazione;
+  * ulteriori info sul sito di dipartimento: `link all'annuncio <https://ingegneria.uniroma3.it/en/articoli/torna-il-cv-at-lunch-levento-per-favorire-lincontro-tra-aziende-e-studenti-202783/>`_
+
+* Lezione del 21-12-2021:
+
+.. warning::
+    Data l'indisponibilità dell'aula N13, la lezione si terrà interamente per via telematica
+
+* Sito del corso:
+
+  * aggiunti commento dettagliato al sorgente di esempio dup
+
+* Repository GitHub:
+
+  * aggiornato esempio prod_cons

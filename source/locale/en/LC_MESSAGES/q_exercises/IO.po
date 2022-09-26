@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 12:32+0100\n"
+"POT-Creation-Date: 2022-09-26 11:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,28 +20,6 @@ msgstr ""
 
 #: ../source/q_exercises/IO.rst:2
 msgid "6 - I/O Management"
-msgstr ""
-
-#: ../source/q_exercises/IO.rst:4
-msgid ""
-"Si consideri inoltre uno scenario in cui arrivino al sistema operativo "
-"richieste per accedere alle seguenti tracce di un disco: 33 – 46 – 98 – "
-"12 – 43 – 56 – 78 - 77 – 25. Si determini la sequenza effettiva di "
-"schedulazione delle operazioni verso il disco considerando che:"
-msgstr ""
-
-#: ../source/q_exercises/IO.rst:5
-msgid ""
-"al più 4 richieste per volta possono essere immagazzinate nella coda di "
-"scheduling;"
-msgstr ""
-
-#: ../source/q_exercises/IO.rst:6
-msgid "la testina sia inizialmente posta sulla traccia 100 del disco;"
-msgstr ""
-
-#: ../source/q_exercises/IO.rst:7
-msgid "l'algoritmo utilizzato è SCAN."
 msgstr ""
 
 #~ msgid ""
@@ -104,5 +82,41 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Qual è la taglia massima di un file in record?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si consideri inoltre uno scenario in "
+#~ "cui arrivino al sistema operativo "
+#~ "richieste per accedere alle seguenti "
+#~ "tracce di un disco: 33 – 46 "
+#~ "– 98 – 12 – 43 – 56 –"
+#~ " 78 - 77 – 25. Si determini "
+#~ "la sequenza effettiva di schedulazione "
+#~ "delle operazioni verso il disco "
+#~ "considerando che:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "..#. Si consideri inoltre uno scenario"
+#~ " in cui arrivino al sistema operativo"
+#~ " richieste per accedere alle seguenti "
+#~ "tracce di un disco: 33 – 46 "
+#~ "– 98 – 12 – 43 – 56 –"
+#~ " 78 - 77 – 25. Si determini "
+#~ "la sequenza effettiva di schedulazione "
+#~ "delle operazioni verso il disco "
+#~ "considerando che:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "al più 4 richieste per volta "
+#~ "possono essere immagazzinate nella coda "
+#~ "di scheduling;"
+#~ msgstr ""
+
+#~ msgid "la testina sia inizialmente posta sulla traccia 100 del disco;"
+#~ msgstr ""
+
+#~ msgid "l'algoritmo utilizzato è SCAN."
 #~ msgstr ""
 

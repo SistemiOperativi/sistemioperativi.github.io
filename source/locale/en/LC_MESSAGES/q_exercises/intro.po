@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-30 12:19+0100\n"
+"POT-Creation-Date: 2022-09-26 11:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,44 +22,6 @@ msgstr ""
 msgid "1 - Introduzione"
 msgstr ""
 
-#: ../source/q_exercises/intro.rst:4
-msgid "Si consideri un programma di cui:"
-msgstr ""
-
-#: ../source/q_exercises/intro.rst:6
-#, python-format
-msgid "il 60% del tempo di esecuzione è parallelizzabile;"
-msgstr ""
-
-#: ../source/q_exercises/intro.rst:7
-#, python-format
-msgid ""
-"l'80% del tempo non parallelizzabile può essere ottimizzato tramite "
-"l'adozione di un algoritmo 16 volte più veloce."
-msgstr ""
-
-#: ../source/q_exercises/intro.rst:9
-msgid "Calcolare lo speedup ottenibile tramite:"
-msgstr ""
-
-#: ../source/q_exercises/intro.rst:11
-msgid "la sola ottimizzazione a) con 2 e 4 core;"
-msgstr ""
-
-#: ../source/q_exercises/intro.rst:12
-msgid "tramite la sola ottimizzazione b);"
-msgstr ""
-
-#: ../source/q_exercises/intro.rst:13
-msgid "l'applicazione congiunta di a) e b) con 2 e 4 core."
-msgstr ""
-
-#: ../source/q_exercises/intro.rst:15
-msgid ""
-"Infine, riportare lo speedup massimo raggiungibile tramite ottimizzazione"
-" a) e b)."
-msgstr ""
-
 #~ msgid ""
 #~ "Calcolare lo speedup ottenibile tramite "
 #~ "la sola ottimizzazione a) con 2 e"
@@ -69,5 +31,38 @@ msgstr ""
 #~ "core. Infine, riportare lo speedup "
 #~ "massimo raggiungibile tramite ottimizzazione "
 #~ "a) e b)."
+#~ msgstr ""
+
+#~ msgid "Si consideri un programma di cui:"
+#~ msgstr ""
+
+#~ msgid "..#. Si consideri un programma di cui:"
+#~ msgstr ""
+
+#~ msgid "il 60% del tempo di esecuzione è parallelizzabile;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "l'80% del tempo non parallelizzabile può"
+#~ " essere ottimizzato tramite l'adozione di"
+#~ " un algoritmo 16 volte più veloce."
+#~ msgstr ""
+
+#~ msgid "Calcolare lo speedup ottenibile tramite:"
+#~ msgstr ""
+
+#~ msgid "la sola ottimizzazione a) con 2 e 4 core;"
+#~ msgstr ""
+
+#~ msgid "tramite la sola ottimizzazione b);"
+#~ msgstr ""
+
+#~ msgid "l'applicazione congiunta di a) e b) con 2 e 4 core."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Infine, riportare lo speedup massimo "
+#~ "raggiungibile tramite ottimizzazione a) e "
+#~ "b)."
 #~ msgstr ""
 

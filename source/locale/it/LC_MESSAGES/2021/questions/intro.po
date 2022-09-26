@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 11:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/questions/intro.rst:2
+msgid "1 - Introduzione"
+msgstr ""
+
+#: ../source/2021/questions/intro.rst:4
+msgid ""
+"Descrivere il concetto di interrupt e mostrare il suo utilizzo nei "
+"sistemi operativi."
+msgstr ""
+
+#: ../source/2021/questions/intro.rst:5
+msgid "Descrivere le principali strutture dati di un sistema operativo."
+msgstr ""
+
+#: ../source/2021/questions/intro.rst:6
+msgid ""
+"Descrivere i principali benefici e le criticità introdotte della "
+"multiprogrammazione."
+msgstr ""
+
+#: ../source/2021/questions/intro.rst:7
+msgid ""
+"Cosa sono le system call e quali relazioni hanno con le librerie di "
+"sistema?"
+msgstr ""
+
+#: ../source/2021/questions/intro.rst:8
+msgid ""
+"Riportare esempi di supporti hardware necessari al sistema operativo per "
+"garantire la protezione delle risorse."
+msgstr ""
+
+#: ../source/2021/questions/intro.rst:9
+msgid "Quali sono gli obiettivi principali di un sistema operativo?"
+msgstr ""
+
+#: ../source/2021/questions/intro.rst:10
+msgid ""
+"Perché la distinzione tra modo kernel e modo user è una forma di "
+"protezione?"
+msgstr ""
+
+#: ../source/2021/questions/intro.rst:11
+msgid ""
+"Descrivere 3 servizi di sistema operativo e spiegare perché sono "
+"convenienti per gli utenti. Inoltre, perché è sconveniente che siano "
+"forniti da programmi user?"
+msgstr ""
+
+#: ../source/2021/questions/intro.rst:12
+msgid ""
+"Descrivere le principali caratteristiche di un sistema batch e di un "
+"sistema batch multiprogrammato, discutendo anche in modo comparativo i "
+"vantaggi o svantaggi dell'uno verso l'altro."
+msgstr ""
+
+#~ msgid ""
+#~ "Descrivere il concetto di interrupt e"
+#~ " mostrare il suo utilizzo nei sistemi"
+#~ " operativi."
+#~ msgstr ""
+
+#~ msgid "Descrivere le principali strutture dati di un sistema operativo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere i principali benefici e le"
+#~ " criticità introdotte della multiprogrammazione."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Cosa sono le system call e quali"
+#~ " relazioni hanno con le librerie di"
+#~ " sistema?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Riportare esempi di supporti hardware "
+#~ "necessari al sistema operativo per "
+#~ "garantire la protezione delle risorse."
+#~ msgstr ""
+
+#~ msgid "Quali sono gli obiettivi principali di un sistema operativo?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Perché la distinzione tra modo kernel"
+#~ " e modo user è una forma di "
+#~ "protezione?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere 3 servizi di sistema "
+#~ "operativo e spiegare perché sono "
+#~ "convenienti per gli utenti. Inoltre, "
+#~ "perché è sconveniente che siano forniti"
+#~ " da programmi user?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere le principali caratteristiche di"
+#~ " un sistema batch e di un "
+#~ "sistema batch multiprogrammato, discutendo "
+#~ "anche in modo comparativo i vantaggi "
+#~ "o svantaggi dell'uno verso l'altro."
+#~ msgstr ""
+

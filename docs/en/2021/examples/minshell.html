@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MinShell - le funzioni exec &mdash; Operating Systems 2021/2022 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="/it/2021/examples/minshell.html"><img src="/it/_static/it.png"/></a>
+            <a href="/en/2021/examples/minshell.html"><img src="/it/_static/en.png"/></a>
+            <a href="../../index.html" class="icon icon-home"> Operating Systems
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Operating Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linux_install.html">Installing Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../examples.html">Code examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../questions.html">Training exercises</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../slides.html">Slides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lectures/index.html">Detailed program</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../challenges.html">Challenges</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../exams.html">Exams</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../errata.html">Errata Corrige</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Operating Systems</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>MinShell - le funzioni exec</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/2021/examples/minshell.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="minshell-le-funzioni-exec">
+<h1>MinShell - le funzioni exec<a class="headerlink" href="#minshell-le-funzioni-exec" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 4</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;sys/wait.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos"> 7</span><span class="w">   </span><span class="kt">char</span><span class="w"> </span><span class="n">comando</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span><span class="w"></span>
+<span class="linenos"> 8</span><span class="w">   </span><span class="kt">pid_t</span><span class="w"> </span><span class="n">pid</span><span class="p">;</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">status</span><span class="p">;</span><span class="w"></span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span><span class="w">   </span><span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
+<span class="linenos">11</span><span class="w">   </span><span class="p">{</span><span class="w"></span>
+<span class="linenos">12</span><span class="w">     </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Digitare un comando: &quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">13</span><span class="w">     </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%s&quot;</span><span class="p">,</span><span class="n">comando</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">14</span><span class="w">     </span><span class="k">if</span><span class="p">(</span><span class="n">res</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">EOF</span><span class="p">)</span><span class="w"> </span><span class="k">continue</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">15</span><span class="w">     </span><span class="n">pid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fork</span><span class="p">();</span><span class="w"></span>
+<span class="linenos">16</span><span class="w">     </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">pid</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos">17</span><span class="w">       </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Errore nella fork.</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">18</span><span class="w">       </span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">19</span><span class="w">     </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">20</span><span class="w">     </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">pid</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="linenos">21</span><span class="w">        </span><span class="n">execlp</span><span class="p">(</span><span class="n">comando</span><span class="p">,</span><span class="w"> </span><span class="n">comando</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">22</span><span class="w">     </span><span class="k">else</span><span class="w"> </span><span class="n">wait</span><span class="p">(</span><span class="o">&amp;</span><span class="n">status</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">23</span><span class="w">   </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">24</span><span class="w">   </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">25</span><span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>Una shell è una interfaccia testuale per il sistema operativo attraverso la quale è possibile eseguire comandi
+e programmi.
+Ogni qual volta si lancia un programma X tramite shell, quest’ultima crea un nuovo processo la cui immagine è quella
+del programma X.</p>
+<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c">MinShell</a>
+<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c"></a></span>
+è un programma C che emula questo comportamento.
+Il principio di funzionamento è analogo a quello di <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>.</p>
+<p>Tuttavia, ricorrendo alla sola syscall fork, <a class="reference internal" href="few.html"><span class="doc">FEW</span></a>: può solo creare processi con il medesimo programma del processo parent.
+Per superare questo limite, è possibile ricorrere alla famiglia di funzioni <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a>.
+Grazie ad una syscall di tipo <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> è possibile sostituire completamente l’immagine del processo che invoca la
+system call con quella di un altro programma.</p>
+<p>Di conseguenza, lo schema di esecuzione di MinShell è il seguente:</p>
+<ul class="simple">
+<li><p>il processo principale crea un processo child tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a></p></li>
+<li><p>il processo child invoca una funzione di tipo <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
+<li><p>il processo principale attende la sua terminazione tramite <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a></p></li>
+</ul>
+<p>Per sostituire il programma di un’immagine, una funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a> ha bisogno:</p>
+<ul class="simple">
+<li><p>individuare l’esatta posizione del programma nel filesystem</p></li>
+<li><p>setup dell’ambiente di esecuzione</p></li>
+<li><p>eventuali parametri da passare al programma target</p></li>
+</ul>
+<p>A tal scopo la funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a>:</p>
+<ul class="simple">
+<li><p>considera il primo parametro come il nome dell’eseguibile target, il quale viene cercato nei percorsi definiti nella variabile di ambiente PATH</p></li>
+<li><p>eredita l’ambiente dal processo che invoca <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a></p></li>
+</ul>
+<div class="admonition question" id="question-note-0">
+<p class="admonition-title">Question</p>
+<p>Supponendo di lanciare MinShell da linea di comando, qual è l’ambiente del processo child?</p>
+</div>
+<ul class="simple">
+<li><p>il secondo e i successivi parametri della funzione <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/execlp.html">execlp</a> vengono passati come parametri per l’eseguibile</p></li>
+</ul>
+<div class="admonition observation" id="observation-note-0">
+<p class="admonition-title">Observation</p>
+<p>Tipicamente il primo parametro passato ad un programma è una stringa contenente il nome del programma stesso. L’ultimo parametro è impostato a NULL in quanto da standard POSIX la lista di parametri deve terminare con un puntatore NULL.</p>
+</div>
+<div class="section" id="riferimenti">
+<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Romolo Marotta.
+      <span class="lastupdated">Last updated on Sep 26, 2022.
+      </span></p>
+  </div>
+  <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
+
+ 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

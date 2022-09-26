@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/q_exercises/intro.rst:2
+msgid "1 - Introduzione"
+msgstr ""
+
+#: ../source/2021/q_exercises/intro.rst:4
+msgid "Si consideri un programma di cui:"
+msgstr ""
+
+#: ../source/2021/q_exercises/intro.rst:6
+#, python-format
+msgid "il 60% del tempo di esecuzione è parallelizzabile;"
+msgstr ""
+
+#: ../source/2021/q_exercises/intro.rst:7
+#, python-format
+msgid ""
+"l'80% del tempo non parallelizzabile può essere ottimizzato tramite "
+"l'adozione di un algoritmo 16 volte più veloce."
+msgstr ""
+
+#: ../source/2021/q_exercises/intro.rst:9
+msgid "Calcolare lo speedup ottenibile tramite:"
+msgstr ""
+
+#: ../source/2021/q_exercises/intro.rst:11
+msgid "la sola ottimizzazione a) con 2 e 4 core;"
+msgstr ""
+
+#: ../source/2021/q_exercises/intro.rst:12
+msgid "tramite la sola ottimizzazione b);"
+msgstr ""
+
+#: ../source/2021/q_exercises/intro.rst:13
+msgid "l'applicazione congiunta di a) e b) con 2 e 4 core."
+msgstr ""
+
+#: ../source/2021/q_exercises/intro.rst:15
+msgid ""
+"Infine, riportare lo speedup massimo raggiungibile tramite ottimizzazione"
+" a) e b)."
+msgstr ""
+

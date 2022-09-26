@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/q_exercises/file.rst:2
+msgid "7 - File management"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:4
+msgid ""
+"Si consideri un file system con allocazione a catena ed accesso "
+"indicizzato. Dato un file:"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:6
+msgid "contente 1M record;"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:7
+msgid ""
+"il relativo indice ha taglia pari a 512 record e contiene 128 chiavi "
+"uniformemente distribuite nel file;"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:8
+msgid ""
+"memorizzato su un dispositivo di massa, la cui taglia di un blocco è pari"
+" a 4096 record."
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:10
+msgid "Calcolare la latenza massima e minima considerando che:"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:12
+msgid "il tempo medio di accesso ad un blocco è 10ms;"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:13
+msgid "l'accesso ad una chiave dell'indice in ram è pari a 1ms."
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:19
+msgid "**Mostra/Nascondi Soluzione**"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:23
+msgid "Assunzioni:"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:25
+msgid "L'indice è memorizzato su disco"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:26
+msgid "L'indice deve essere prima caricato in ram per poter essere utilizzato"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:27
+msgid "RecordID e RiferimentoBlocco hanno pari taglia"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:29
+msgid "Svolgimento:"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:31
+msgid ""
+"Taglia di una chiave nell'indice = TagliaIndice/NumeroChiavi = 512R/128 ="
+" 4R"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:32
+msgid "Taglia di un riferimento = 2R"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:33
+msgid ""
+"Record utilizzabili all'interno di un blocco per memorizzare dati di file"
+" = Taglia di un blocco - Taglia di un riferimento = 4096-2 = 4094"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:34
+msgid ""
+"Numero di blocchi per memorizzare il file = Numero di record nel file / "
+"record utilizzabili = ceil(10^6/4094) = 245"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:35
+msgid ""
+"Distanza media tra due blocchi indicizzati = ceil(Numero di blocchi / "
+"numero di chiavi) = 2"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:36
+msgid ""
+"Latenza minima: accesso ad un blocco indicizzato, indice già presente in "
+"RAM."
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:38
+msgid ""
+"Risultato = Tempo di accesso a indice + Accesso al blocco indicizzato = "
+"1ms +10ms = 11ms"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:40
+msgid ""
+"Latenza massima: accesso al blocco più lontano da quello indicizzato, "
+"indice NON presente in RAM."
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:42
+msgid ""
+"Risultato = Tempo di caricamento indice +  Tempo di accesso a indice + "
+"(Numero di blocchi per indice)*(Tempo di accesso al blocco indicizzato) ="
+" +10ms + 1ms +2*10ms = 31ms"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:54
+msgid ""
+"Si consideri un file system con allocazione indicizzata ospitato su un "
+"dispositivo i cui blocchi hanno taglia pari a 1024 record e un "
+"riferimento a blocco occupa 8 record. Il record di sistema ha:"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:56
+msgid "128 entry per accesso diretto;"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:57
+msgid "4 entry per accesso indiretto;"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:58
+msgid "4 entry per accesso doppiamente indiretto."
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:60
+msgid "Qual è la taglia massima di un file in record?"
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:62
+msgid ""
+"Si consideri inoltre senario dove un processo P apra un file F "
+"(attualmente non in uso da parte di alcun processo) e poi esegua 2 "
+"fork(). Indicare il numero delle sessioni di I/O verso  il file F a valle"
+" dell'esecuzione delle 2 fork() da parte di P."
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:63
+msgid ""
+"Si consideri un dispositivo di memoria di massa con blocchi di taglia "
+"pari a 4 KB, indici di blocchi di taglia pari a 4 byte, ed un record di "
+"sistema contenente in totale 12 indici di cui N diretti ed M indiretti. "
+"Si determini il valore di N ed M, qualora esista, che possa permettere di"
+" allocare file di taglia almeno pari a 4 GB."
+msgstr ""
+
+#: ../source/2021/q_exercises/file.rst:64
+msgid ""
+"Si supponga di avere un file system che supporta il metodo di allocazione"
+" a catena. Si supponga inoltre che il dispositivo di memoria di massa ove"
+" il file system è ospitato abbia blocchi di taglia pari a 4 K record, e "
+"che un indice (puntatore) di blocco di dispositivo sia espresso con 16 "
+"record. Si supponga inoltre di avere un file F di taglia pari a 16 M "
+"record. Si calcoli il numero di blocchi necessari ad allocare il file sul"
+" dispositivo di memoria di massa secondo lo schema a catena."
+msgstr ""
+

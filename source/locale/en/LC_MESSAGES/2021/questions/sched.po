@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 11:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/questions/sched.rst:2
+msgid "3 - Scheduling"
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:4
+msgid "Cpu-scheduler: quali sono i criteri di valutazione di un CPU scheduler?"
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:5
+msgid ""
+"Quali sfide introducono le architetture multicore nell'ambito del CPU "
+"scheduling?"
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:6
+msgid "Quale è la differenza tra uno scheduler preemtive e uno non-preemptive?"
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:7
+msgid ""
+"Descrivere la politica Shortest Job First e discuterne vantaggi e "
+"svantaggi."
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:8
+msgid "Descrivere la politica Round Robin e discuterne vantaggi e svantaggi."
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:9
+msgid ""
+"Descrivere la politica di Fair-Share scheduling e quali problematiche "
+"risolve."
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:10
+msgid "Descrivere lo scheduler Linux."
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:11
+msgid "Descrivere lo scheduler Multilevel Feedback Queue."
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:12
+msgid ""
+"Quale è il vantaggio di avere time-slice differenti in uno scheduler "
+"basato su code multilivello con feedback?"
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:13
+msgid ""
+"Come è possibile parametrizzare uno scheduler basato su priorità per "
+"emulare gli scheduler Shortest Job First, First Come First Serve?"
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:14
+msgid ""
+"Descrivere lo scheduler di CPU round-robin virtuale, discutendone "
+"vantaggi e svantaggi rispetto allo scheduler round-robin."
+msgstr ""
+
+#: ../source/2021/questions/sched.rst:15
+msgid ""
+"Si descrivano gli scheduler di CPU Shortest-Process-Next (SPN) e la sua "
+"variante Shortest–Remaining-Time-Next (SRTN), evidenziandone i vantaggi e"
+" gli svantaggi."
+msgstr ""
+
+#~ msgid "Cpu-scheduler: quali sono i criteri di valutazione di un CPU scheduler?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Quali sfide introducono le architetture "
+#~ "multicore nell'ambito del CPU scheduling?"
+#~ msgstr ""
+
+#~ msgid "Quale è la differenza tra uno scheduler preemtive e uno non-preemptive?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere la politica Shortest Job "
+#~ "First e discuterne vantaggi e svantaggi."
+#~ msgstr ""
+
+#~ msgid "Descrivere la politica Round Robin e discuterne vantaggi e svantaggi."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere la politica di Fair-Share "
+#~ "scheduling e quali problematiche risolve."
+#~ msgstr ""
+
+#~ msgid "Descrivere lo scheduler Linux."
+#~ msgstr ""
+
+#~ msgid "Descrivere lo scheduler Multilevel Feedback Queue."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Quale è il vantaggio di avere "
+#~ "time-slice differenti in uno scheduler "
+#~ "basato su code multilivello con "
+#~ "feedback?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Come è possibile parametrizzare uno "
+#~ "scheduler basato su priorità per emulare"
+#~ " gli scheduler Shortest Job First, "
+#~ "First Come First Serve?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere lo scheduler di CPU round-"
+#~ "robin virtuale, discutendone vantaggi e "
+#~ "svantaggi rispetto allo scheduler round-"
+#~ "robin."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si descrivano gli scheduler di CPU "
+#~ "Shortest-Process-Next (SPN) e la "
+#~ "sua variante Shortest–Remaining-Time-Next "
+#~ "(SRTN), evidenziandone i vantaggi e gli"
+#~ " svantaggi."
+#~ msgstr ""
+

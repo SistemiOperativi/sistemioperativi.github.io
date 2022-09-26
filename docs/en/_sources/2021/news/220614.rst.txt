@@ -1,0 +1,30 @@
+14-0-2022 - avviso: remainder regolamento e data sessione estiva
+--------------------------------------------------------------------------------------
+
+In accordo al calendario della sessione estiva, gli appelli del corso "Sistema Operativi" si terranno il:
+
+* 24 Giugno 2022 Aula Campus
+* 20 Luglio 2022 Aula Campus
+
+Date aggiuntive verranno considerate solo per soddisfare necessità di capienza aula.
+
+Per la sessione estiva valgono le stesse regole della sessione invernale, ossia:
+
+1. Il voto finale è pari alla somma dei punteggi ottenuti:
+
+ * nella parte di teoria (punteggio massimo 20, sufficienza 12);
+ * nella parte di programmazione (punteggio massimo 11, sufficienza 6);
+ * dalla vincita di una sfida avanzata dal docente (non più assegnabili).
+
+2. Per superare l’esame occorre ottenere la sufficienza in entrambi le parti.
+3. Qualora la sufficienza sia stata conseguita solo in una delle due parti, lo studente è esonerato dal sostenere il test riguardo la parte in cui è risultato sufficiente nell’A.A. 2021/2022. Potrà perciò risostenere unicamente il test dove non ha conseguito la sufficienza.
+4. Per la lode è richiesto un punteggio di 31 punti.
+5. I punteggi ottenuti potranno essere mantenuti fino all’ultima sessione di esame per l’A.A. 2021/2022.
+6. NON vi è salto di appello (è possibile ripresentarsi a luglio anche se insufficienti a giugno).
+7. La durata della prova è:
+
+  * 3 ore se non si è esonerati per alcuna parte;
+  * 1 ora e 15 minuti se si è esonerati per la parte di teoria;
+  * 1 ora e 45 minuti se si è esonerati per la parte di programmazione.
+
+Per qualsiasi ulteriore chiarimento, contattare il docente via email.

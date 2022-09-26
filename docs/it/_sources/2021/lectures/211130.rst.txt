@@ -1,0 +1,19 @@
+30/11/2021 - Gestione di I/O parte 1
+-------------------------------------------
+
+* Caratteristiche dei dispositivi di I/O
+* Modello di organizzazione dei moduli di I/O
+* I/O Buffering
+* I/O Scheduling
+
+Riferimenti libro di testo
+""""""""""""""""""""""""""
+
+* [:ref:`t1 <books>`] Sezione 11, 11.1, 11.2, 11.3, 11.4
+* [:ref:`t2 <books>`] Sezione 12.2.2, 12.2.3, 12.3, 12.4, 12.4.1, 12.4.2, 12.4.7
+
+
+Approfondimenti
+"""""""""""""""
+
+* [:ref:`t2 <books>`] Capitolo 12

@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 11:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2021/questions/sync.rst:2
+msgid "4 - Sincronizzazione"
+msgstr ""
+
+#: ../source/2021/questions/sync.rst:4
+msgid "Cos'è un'istruzione Read-Modify-Write?"
+msgstr ""
+
+#: ../source/2021/questions/sync.rst:5
+msgid "Descrivere cosa è un lock e relative proprietà di correttezza e progresso."
+msgstr ""
+
+#: ../source/2021/questions/sync.rst:6
+msgid "Descrivere il Bakery algorithm."
+msgstr ""
+
+#: ../source/2021/questions/sync.rst:7
+msgid ""
+"Gli spinlock sono appropriati in un sistema single-core? Motiva la tua "
+"risposta."
+msgstr ""
+
+#~ msgid "Cos'è un'istruzione Read-Modify-Write?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Descrivere cosa è un lock e "
+#~ "relative proprietà di correttezza e "
+#~ "progresso."
+#~ msgstr ""
+
+#~ msgid "Descrivere il Bakery algorithm."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Gli spinlock sono appropriati in un "
+#~ "sistema single-core? Motiva la tua "
+#~ "risposta."
+#~ msgstr ""
+
