@@ -1,5 +1,8 @@
+:orphan:
+
 .. role:: raw-html(raw)
    :format: html
+   
 
 
 PVST - Processi vs Thread
