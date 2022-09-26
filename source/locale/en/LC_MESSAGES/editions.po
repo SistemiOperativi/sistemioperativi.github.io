@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 12:01+0200\n"
+"POT-Creation-Date: 2022-09-26 19:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../source/editions.rst:4
-msgid "A.A 2021/2022"
+msgid "A.A. 2021/2022"
 msgstr ""
 
 #: ../source/editions.rst:2
-msgid "Passate edizioni del corso"
+msgid "Precedenti edizioni del corso"
 msgstr ""
 
 #~ msgid "A.A 2021/2022"
@@ -48,5 +48,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Passate Edizioni del corso"
+#~ msgstr ""
+
+#~ msgid "Passate edizioni del corso"
 #~ msgstr ""
 

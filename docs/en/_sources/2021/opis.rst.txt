@@ -6,9 +6,6 @@ Raccolta Informale Opinioni Studenti
 Al fine di raccogliere il più rapidamente possibile le opinioni e tenerne conto in future edizioni di questo corso, 
 ho ritenuto opportuno realizzare un questionario anonimo su Google Form attivo dal 27 Febbraio 2022 al 15 Marzo 2022.
 
-Il questionario comprende sia domande a risposta multipla, sia domande a risposta aperta.
-Per quest'ultime ho provveduto a classificarle manualmente per realizzare dei grafici riassuntivi (risultati RAW sono consultabili su `<https://docs.google.com/forms/d/1WlLehZmV9-xGtijc0Yj62Uw99A_j6x6KkorLolu249k/viewanalytics>`__).
-
 A seguire sono disponibili:
 
 .. contents:: 

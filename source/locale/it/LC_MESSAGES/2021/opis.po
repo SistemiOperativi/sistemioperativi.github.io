@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"POT-Creation-Date: 2022-09-26 19:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../source/2021/opis.rst:2
+#: ../source/2021/opis.rst:4
 msgid "Raccolta Informale Opinioni Studenti"
 msgstr ""
 
-#: ../source/2021/opis.rst:4
+#: ../source/2021/opis.rst:6
 msgid ""
 "Al fine di raccogliere il più rapidamente possibile le opinioni e tenerne"
 " conto in future edizioni di questo corso, ho ritenuto opportuno "
@@ -30,31 +30,22 @@ msgid ""
 "2022 al 15 Marzo 2022."
 msgstr ""
 
-#: ../source/2021/opis.rst:7
-msgid ""
-"Il questionario comprende sia domande a risposta multipla, sia domande a "
-"risposta aperta. Per quest'ultime ho provveduto a classificarle "
-"manualmente per realizzare dei grafici riassuntivi (risultati RAW sono "
-"consultabili su "
-"`<https://docs.google.com/forms/d/1WlLehZmV9-xGtijc0Yj62Uw99A_j6x6KkorLolu249k/viewanalytics>`__)."
-msgstr ""
-
-#: ../source/2021/opis.rst:10
+#: ../source/2021/opis.rst:9
 msgid "A seguire sono disponibili:"
 msgstr ""
 
-#: ../source/2021/opis.rst:17
+#: ../source/2021/opis.rst:16
 msgid "Ringrazio tutti gli studenti e le studentesse per la collaborazione."
 msgstr ""
 
-#: ../source/2021/opis.rst:22
+#: ../source/2021/opis.rst:21
 msgid "Dati e considerazioni"
 msgstr ""
 
 msgid "Osservazione"
 msgstr ""
 
-#: ../source/2021/opis.rst:30
+#: ../source/2021/opis.rst:29
 #, python-format
 msgid ""
 "Il corso ha suscitato interesse e rispettato le aspettative. Sebbene "
@@ -65,7 +56,7 @@ msgid ""
 "nuova sezione per scripting shell."
 msgstr ""
 
-#: ../source/2021/opis.rst:41
+#: ../source/2021/opis.rst:40
 msgid ""
 "Nonostante non siano pervenute particolari criticità nell'impostazione "
 "delle prove di esame probabilmente verrà adottata una differente modalità"
@@ -74,47 +65,47 @@ msgid ""
 " per la programmazione. Infine, verranno aperte più challenge."
 msgstr ""
 
-#: ../source/2021/opis.rst:50
+#: ../source/2021/opis.rst:49
 msgid ""
 "Non verrà apportata alcuna modifica nella gestione attuale del sito. Sarà"
 " invece estesa la sezione di esempi ed esercizi."
 msgstr ""
 
-#: ../source/2021/opis.rst:61
+#: ../source/2021/opis.rst:60
 msgid ""
 "Sebbene la durata dei riepiloghi sia risultata adeguata, questa verrà "
 "leggermente ridotta in favore di un numero maggiore di esempi/esercizi "
 "discussi a lezione."
 msgstr ""
 
-#: ../source/2021/opis.rst:69
+#: ../source/2021/opis.rst:68
 msgid ""
 "Verrà esteso il set di approfondimenti. Le slide verranno allineate con i"
 " nuovi obiettivi del corso ed approfondite ove necessario."
 msgstr ""
 
-#: ../source/2021/opis.rst:77
+#: ../source/2021/opis.rst:76
 msgid ""
 "In accordo con le disposizioni del Dipartimento, verrà tenuta in "
 "considerazione la possibilità di erogazione mista (presenza e streaming "
 "con registrazione)."
 msgstr ""
 
-#: ../source/2021/opis.rst:81
+#: ../source/2021/opis.rst:80
 msgid "Alcune commenti"
 msgstr ""
 
-#: ../source/2021/opis.rst:83
+#: ../source/2021/opis.rst:82
 msgid "*\"Disponibile, bravo a spiegare e coinvolgente.\"*"
 msgstr ""
 
-#: ../source/2021/opis.rst:85
+#: ../source/2021/opis.rst:84
 msgid ""
 "*\"Spiega molto bene ed è molto apprezzato che cerchi il confronto con "
 "gli studenti\"*"
 msgstr ""
 
-#: ../source/2021/opis.rst:87
+#: ../source/2021/opis.rst:86
 msgid ""
 "*\"Seguire è stato divertente, anche se nella parte di programmazione ho "
 "avuto particolari difficoltà, viste le mie scarse conoscenze di tutto "
@@ -122,20 +113,20 @@ msgid ""
 "presenti sul sito aiutano non poco.\"*"
 msgstr ""
 
-#: ../source/2021/opis.rst:89
+#: ../source/2021/opis.rst:88
 msgid ""
 "*\"Estremamente disponibile. sprona a ragionare e ad arrivare alla "
 "soluzione usando la propria testa. mi ha fatto davvero capire come "
 "funzionano le cose\"*"
 msgstr ""
 
-#: ../source/2021/opis.rst:91
+#: ../source/2021/opis.rst:90
 msgid ""
 "*\"Uno dei primi corsi veramente tecnici che ci fanno mettere mano su "
 "sistemi reali.\"*"
 msgstr ""
 
-#: ../source/2021/opis.rst:93
+#: ../source/2021/opis.rst:92
 msgid ""
 "*\"...è disponibile, specialmente in prossimità dell'esame via mail, è "
 "stato in grado di farmi comprendere a pieno degli esercizi di "
@@ -145,7 +136,7 @@ msgid ""
 "superare questo quinto esame con 30. Grazie \"*"
 msgstr ""
 
-#: ../source/2021/opis.rst:95
+#: ../source/2021/opis.rst:94
 msgid ""
 "*\"...A mio parere cambiando un po' le slide e il modo di spiegare i vari"
 " argomenti nel giro di 2/3 anni potrebbe diventare uno dei migliori "
@@ -155,20 +146,30 @@ msgid ""
 "tornare a casa veramente felice.\"*"
 msgstr ""
 
-#: ../source/2021/opis.rst:97
+#: ../source/2021/opis.rst:96
 msgid ""
 "*\"Ottimo, ha gestito al meglio il corso, nonostante la scarsa esperienza"
 " di docenza ha sopperito con la grande competenza e l'empatia. Spero "
 "resti a Roma3, è un valore aggiunto.\"*"
 msgstr ""
 
-#: ../source/2021/opis.rst:99
+#: ../source/2021/opis.rst:98
 msgid "*\"Ottimo sito didattico, tra i migliori che ho utilizzato.\"*"
 msgstr ""
 
-#: ../source/2021/opis.rst:101
+#: ../source/2021/opis.rst:100
 msgid ""
 "*\"Sito organizzato perfettamente, è parte essenziale per la "
 "preparazione.\"*"
 msgstr ""
+
+#~ msgid ""
+#~ "Il questionario comprende sia domande a"
+#~ " risposta multipla, sia domande a "
+#~ "risposta aperta. Per quest'ultime ho "
+#~ "provveduto a classificarle manualmente per "
+#~ "realizzare dei grafici riassuntivi (risultati"
+#~ " RAW sono consultabili su "
+#~ "`<https://docs.google.com/forms/d/1WlLehZmV9-xGtijc0Yj62Uw99A_j6x6KkorLolu249k/viewanalytics>`__)."
+#~ msgstr ""
 
