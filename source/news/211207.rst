@@ -1,7 +1,0 @@
-07-12-2021 - avviso: aggionamenti
--------------------------------------------------
-
-* Sito del corso:
-
-  * aggiornate slide sulla gestione di I/O e file
-  
