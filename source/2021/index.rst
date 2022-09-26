@@ -1,6 +1,6 @@
 :orphan:
 
-Sistemi Operativi
+Sistemi Operativi A.A. 2021/2022
 =============================================
 
 Benvenuti al corso di Sistemi Operativi per A.A. 2021/2022 del Corso di Laurea in Ingegneria Informatica di Roma Tre
@@ -12,12 +12,29 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
   Questa edizione del sito del corso è stata archiaviata.
   Per accedere alle differenti sezioni del corso utilizzare i link seguenti:
 
+  .. toctree::
+    :maxdepth: 1
+
+    self
+    linux_install
+    examples
+    questions
+    slides
+    lectures/index
+    challenges
+    exams
+    news
+    errata
+
+
+..
    * :doc:`/2021/news`
    * :doc:`/2021/slides`
    * :doc:`/2021/questions`
    * :doc:`/2021/challenges`
    * :doc:`/2021/exams`
    * :doc:`/2021/examples`
+   * :doc:`/2021/lectures/index`
 
 Obiettivi del corso
 -------------------
@@ -126,16 +143,3 @@ Programma
   :removedtopic:`topic` indica che i relativi contenuti sono stati esclusi dal programma 
 
 
-.. toctree::
-   :hidden:
-
-   self
-   linux_install
-   examples
-   questions
-   slides
-   lectures/index
-   challenges
-   exams
-   news
-   errata

@@ -1,4 +1,4 @@
-Sistemi Operativi
+Sistemi Operativi A.A. 2022/2023
 =============================================
 
 Benvenuti al corso di Sistemi Operativi per A.A. 2022/2023 del Corso di Laurea in Ingegneria Informatica di Roma Tre
@@ -9,7 +9,7 @@ News
 ----
 
 
-Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`news`
+Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`2022/news`
 
 Obiettivi del corso
 -------------------
@@ -38,7 +38,7 @@ Link ai contenuti del corso
 - `Stream  <https://web.microsoftstream.com/group/098a73ce-8602-46e3-84c6-8107ebe1a9ae>`_
 - `Moodle <https://ingegneria.el.uniroma3.it/course/view.php?id=1395>`_
 - `GitHub  <https://github.com/SistemiOperativi>`_
-- :doc:`Slides <slides>`
+- :doc:`Slides <2022/slides>`
 
 Ricevimento
 -----------
@@ -111,12 +111,13 @@ Programma
 
    self
    linux_install
-   examples
-   questions
-   slides
-   lectures/index
-   challenges
-   exams
-   news
+   2022/examples
+   2022/questions
+   2022/slides
+   2022/lectures/index
+   2022/challenges
+   2022/exams
+   2022/news
+   2022/errata
    editions
-   errata
+   
