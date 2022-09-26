@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="it" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProdCons &mdash; Sistemi Operativi 2021/2022 documentazione</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/translations.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Indice" href="../../genindex.html" />
+    <link rel="search" title="Cerca" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="/it/2022/examples/prodcons.html"><img src="/it/_static/it.png"/></a>
+            <a href="/en/2022/examples/prodcons.html"><img src="/it/_static/en.png"/></a>
+            <a href="../../index.html" class="icon icon-home"> Sistemi Operativi
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Sistemi Operativi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linux_install.html">Installare Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples.html">Esempi di programmazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../questions.html">Esercizi di preparazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lectures/index.html">Diario delle lezioni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../challenges.html">Sfide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exams.html">Appelli</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../errata.html">Errata Corrige</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editions.html">Passate edizioni del corso</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Sistemi Operativi</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>ProdCons</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/2022/examples/prodcons.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="prodcons">
+<h1>ProdCons<a class="headerlink" href="#prodcons" title="Link a questa intestazione">¶</a></h1>
+<p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/prod_cons">ProdCons</a>
+<a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/prod_cons"></a></span>
+è un programma C il cui obiettivo è mostrare l’utilizzo di semplici servizi per la gestione di file.</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#ifndef __PROD_CONS__</span>
+<span class="linenos"> 2</span><span class="cp">#define __PROD_CONS__</span>
+<span class="linenos"> 3</span>
+<span class="linenos"> 4</span><span class="cp">#define SHARED_SIZE 4096</span>
+<span class="linenos"> 5</span><span class="cp">#define SHARED_NAME &quot;prod_cons_shm&quot;</span>
+<span class="linenos"> 6</span><span class="cp">#define LONG_SHARED_NAME &quot;/dev/shm/&quot;SHARED_NAME</span>
+<span class="linenos"> 7</span><span class="cp">#define MSG_SIZE 255</span>
+<span class="linenos"> 8</span><span class="cp">#define MSG_SIZE_RAW 256</span>
+<span class="linenos"> 9</span><span class="cp">#define log(...) do{printf(&quot;[%d]:&quot;, getpid()); printf(__VA_ARGS__);}while(0)</span>
+<span class="linenos">10</span>
+<span class="linenos">11</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;pthread.h&gt;</span><span class="cp"></span>
+<span class="linenos">12</span>
+<span class="linenos">13</span><span class="k">typedef</span><span class="w"> </span><span class="k">struct</span> <span class="nc">__shared_data</span><span class="p">{</span><span class="w"></span>
+<span class="linenos">14</span><span class="w">    </span><span class="n">pthread_barrier_t</span><span class="w"> </span><span class="n">barrier</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">15</span><span class="w">    </span><span class="n">pthread_mutex_t</span><span class="w"> </span><span class="n">mutex</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">16</span><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="o">*</span><span class="n">prod_base_addr</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">17</span><span class="w">    </span><span class="kt">pid_t</span><span class="w"> </span><span class="n">prod_pid</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">18</span><span class="w">    </span><span class="kt">pid_t</span><span class="w"> </span><span class="n">cons_pid</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">19</span><span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">message</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span><span class="w"></span>
+<span class="linenos">20</span><span class="p">}</span><span class="n">shared_data_t</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">21</span>
+<span class="linenos">22</span><span class="cp">#endif</span>
+</pre></div>
+</div>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;sys/mman.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;sys/stat.h&gt;</span><span class="c1">        /* For mode constants */</span><span class="cp"></span>
+<span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;fcntl.h&gt;</span><span class="c1">           /* For O_* constants */</span><span class="cp"></span>
+<span class="linenos"> 4</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="c1">          /* For truncate */</span><span class="cp"></span>
+<span class="linenos"> 5</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="c1">           /* For printf */</span><span class="cp"></span>
+<span class="linenos"> 6</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="c1">          /* For exit */</span><span class="cp"></span>
+<span class="linenos"> 7</span>
+<span class="linenos"> 8</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;prod_cons.h&quot;</span><span class="cp"></span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span>
+<span class="linenos">11</span>
+<span class="linenos">12</span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">argv</span><span class="p">[]){</span><span class="w"></span>
+<span class="linenos">13</span><span class="w">    </span><span class="n">shared_data_t</span><span class="w"> </span><span class="o">*</span><span class="n">shared_data</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">14</span><span class="w">    </span><span class="n">pthread_barrierattr_t</span><span class="w"> </span><span class="n">pthread_barrierattr</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">15</span><span class="w">    </span><span class="n">pthread_mutexattr_t</span><span class="w">   </span><span class="n">pthread_mutexattr</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">16</span><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">17</span><span class="w">    </span><span class="kt">pid_t</span><span class="w"> </span><span class="n">pid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">getpid</span><span class="p">();</span><span class="w"></span>
+<span class="linenos">18</span>
+<span class="linenos">19</span><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">fd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">shm_open</span><span class="p">(</span><span class="n">SHARED_NAME</span><span class="p">,</span><span class="w"> </span><span class="n">O_CREAT</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">O_EXCL</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">O_RDWR</span><span class="p">,</span><span class="w"> </span><span class="mo">0666</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">20</span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">fd</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos">21</span><span class="w">        </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;The shared memory already exists...Probably there is another producer...exit</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">22</span><span class="w">        </span><span class="k">goto</span><span class="w"> </span><span class="n">fail_exit</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">23</span><span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">24</span>
+<span class="linenos">25</span><span class="w">    </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ftruncate</span><span class="p">(</span><span class="n">fd</span><span class="p">,</span><span class="w"> </span><span class="n">SHARED_SIZE</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">26</span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">res</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos">27</span><span class="w">        </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;I cannot allocate enough memory...exit</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">28</span><span class="w">        </span><span class="k">goto</span><span class="w"> </span><span class="n">abort</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">29</span><span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">30</span>
+<span class="linenos">31</span><span class="w">    </span><span class="n">shared_data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mmap</span><span class="p">(</span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="n">SHARED_SIZE</span><span class="p">,</span><span class="w"> </span><span class="n">PROT_READ</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">PROT_WRITE</span><span class="p">,</span><span class="w"> </span><span class="n">MAP_SHARED</span><span class="p">,</span><span class="w"> </span><span class="n">fd</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">32</span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">shared_data</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">MAP_FAILED</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos">33</span><span class="w">        </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;I cannot map memory...exit</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">34</span><span class="w">        </span><span class="k">goto</span><span class="w"> </span><span class="n">abort</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">35</span><span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">36</span>
+<span class="linenos">37</span><span class="w">    </span><span class="n">close</span><span class="p">(</span><span class="n">fd</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">38</span>
+<span class="linenos">39</span><span class="w">    </span><span class="n">pthread_barrierattr_setpshared</span><span class="p">(</span><span class="o">&amp;</span><span class="n">pthread_barrierattr</span><span class="p">,</span><span class="w"> </span><span class="n">PTHREAD_PROCESS_SHARED</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="linenos">40</span><span class="w">    </span><span class="n">pthread_barrier_init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">barrier</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">pthread_barrierattr</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">41</span>
+<span class="linenos">42</span><span class="w">    </span><span class="n">pthread_mutexattr_settype</span><span class="p">(</span><span class="o">&amp;</span><span class="n">pthread_mutexattr</span><span class="p">,</span><span class="w"> </span><span class="n">PTHREAD_MUTEX_DEFAULT</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">43</span><span class="w">    </span><span class="n">pthread_mutexattr_setpshared</span><span class="p">(</span><span class="o">&amp;</span><span class="n">pthread_mutexattr</span><span class="p">,</span><span class="w">  </span><span class="n">PTHREAD_PROCESS_SHARED</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">44</span><span class="w">    </span><span class="n">pthread_mutex_init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">mutex</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">pthread_mutexattr</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">45</span>
+<span class="linenos">46</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;I&#39;ll WAIT for a process at %p</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">shared_data</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">47</span><span class="w">    </span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">prod_pid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pid</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">48</span><span class="w">    </span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">prod_base_addr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">shared_data</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">49</span><span class="w">    </span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">message</span><span class="p">[</span><span class="n">MSG_SIZE</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sc">&#39;\0&#39;</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">50</span><span class="w">    </span><span class="n">pthread_mutex_lock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">mutex</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">51</span><span class="w">    </span><span class="n">pthread_barrier_wait</span><span class="p">(</span><span class="o">&amp;</span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">barrier</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">52</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;Process %d arrived</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">cons_pid</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">53</span>
+<span class="linenos">54</span>
+<span class="linenos">55</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;I&#39;ll produce data...</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">56</span><span class="w">    </span><span class="n">sprintf</span><span class="p">(</span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">message</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Nice to meet you&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">57</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;Done</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">58</span>
+<span class="linenos">59</span><span class="w">    </span><span class="n">pthread_mutex_unlock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">mutex</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">60</span>
+<span class="linenos">61</span><span class="w">    </span><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">62</span>
+<span class="linenos">63</span><span class="nl">abort</span><span class="p">:</span><span class="w"></span>
+<span class="linenos">64</span><span class="w">    </span><span class="n">shm_unlink</span><span class="p">(</span><span class="n">SHARED_NAME</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">65</span><span class="w">    </span><span class="n">close</span><span class="p">(</span><span class="n">fd</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">66</span><span class="nl">fail_exit</span><span class="p">:</span><span class="w"></span>
+<span class="linenos">67</span><span class="w">    </span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">68</span>
+<span class="linenos">69</span>
+<span class="linenos">70</span><span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;sys/mman.h&gt;</span><span class="cp"></span>
+<span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;sys/stat.h&gt;</span><span class="c1">        /* For mode constants */</span><span class="cp"></span>
+<span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;fcntl.h&gt;</span><span class="c1">           /* For O_* constants */</span><span class="cp"></span>
+<span class="linenos"> 4</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="c1">          /* For truncate */</span><span class="cp"></span>
+<span class="linenos"> 5</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="c1">           /* For printf */</span><span class="cp"></span>
+<span class="linenos"> 6</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="c1">          /* For exit */</span><span class="cp"></span>
+<span class="linenos"> 7</span>
+<span class="linenos"> 8</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;prod_cons.h&quot;</span><span class="cp"></span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span>
+<span class="linenos">11</span>
+<span class="linenos">12</span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">argv</span><span class="p">[]){</span><span class="w"></span>
+<span class="linenos">13</span><span class="w">    </span><span class="n">shared_data_t</span><span class="w"> </span><span class="o">*</span><span class="n">shared_data</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">14</span><span class="w">    </span><span class="kt">pid_t</span><span class="w"> </span><span class="n">pid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">getpid</span><span class="p">();</span><span class="w"></span>
+<span class="linenos">15</span>
+<span class="linenos">16</span>
+<span class="linenos">17</span><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">fd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">shm_open</span><span class="p">(</span><span class="n">SHARED_NAME</span><span class="p">,</span><span class="w"> </span><span class="n">O_RDWR</span><span class="p">,</span><span class="w"> </span><span class="mo">0666</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">18</span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">fd</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">-1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="n">log</span><span class="p">(</span><span class="s">&quot;shared mem not initialized</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);}</span><span class="w"></span>
+<span class="linenos">19</span><span class="w">    </span><span class="n">shared_data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mmap</span><span class="p">(</span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="n">SHARED_SIZE</span><span class="p">,</span><span class="w"> </span><span class="n">PROT_READ</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">PROT_WRITE</span><span class="p">,</span><span class="w"> </span><span class="n">MAP_SHARED</span><span class="p">,</span><span class="w"> </span><span class="n">fd</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">20</span>
+<span class="linenos">21</span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">shared_data</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">MAP_FAILED</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos">22</span><span class="w">        </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;I cannot map memory...exit</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">23</span><span class="w">        </span><span class="n">close</span><span class="p">(</span><span class="n">fd</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">24</span><span class="w">        </span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">25</span><span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="linenos">26</span>
+<span class="linenos">27</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;shared_data cons address %p</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">shared_data</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">28</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;shared_data prod address %p</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">prod_base_addr</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">29</span><span class="w">    </span><span class="n">close</span><span class="p">(</span><span class="n">fd</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">30</span>
+<span class="linenos">31</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;I&#39;ll JOIN for a process at %p</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">shared_data</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">32</span><span class="w">    </span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">cons_pid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pid</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">33</span><span class="w">    </span><span class="n">pthread_barrier_wait</span><span class="p">(</span><span class="o">&amp;</span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">barrier</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">34</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;Joined. prod pid %d:</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">prod_pid</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">35</span>
+<span class="linenos">36</span><span class="w">    </span><span class="n">pthread_mutex_lock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">mutex</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">37</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;I&#39;ll consume data...</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">38</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;Message: &#39;%s&#39;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">message</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">39</span><span class="w">    </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;Done</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">40</span>
+<span class="linenos">41</span><span class="w">    </span><span class="n">pthread_mutex_unlock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">shared_data</span><span class="o">-&gt;</span><span class="n">mutex</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">42</span>
+<span class="linenos">43</span><span class="w">    </span><span class="n">shm_unlink</span><span class="p">(</span><span class="n">SHARED_NAME</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">44</span><span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<div class="section" id="riferimenti">
+<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html">open</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html">close</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html">dup</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Romolo Marotta.
+      <span class="lastupdated">Ultimo aggiornamento 26 set 2022.
+      </span></p>
+  </div>
+  <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
+
+ 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

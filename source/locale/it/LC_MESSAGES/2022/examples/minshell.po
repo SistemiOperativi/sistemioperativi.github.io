@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 12:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2022/examples/minshell.rst:8
+msgid "MinShell - le funzioni exec"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:39
+msgid ""
+"Una shell è una interfaccia testuale per il sistema operativo attraverso "
+"la quale è possibile eseguire comandi e programmi. Ogni qual volta si "
+"lancia un programma X tramite shell, quest'ultima crea un nuovo processo "
+"la cui immagine è quella del programma X."
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:44
+msgid ""
+":raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\">MinShell</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/minshell/minshell.c\"></a>`"
+" è un programma C che emula questo comportamento. Il principio di "
+"funzionamento è analogo a quello di :doc:`FEW <few>`."
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:49
+msgid ""
+"Tuttavia, ricorrendo alla sola syscall fork, :doc:`FEW <few>`: può solo "
+"creare processi con il medesimo programma del processo parent. Per "
+"superare questo limite, è possibile ricorrere alla famiglia di funzioni "
+":posix:`exec <exec>`. Grazie ad una syscall di tipo :posix:`exec <exec>` "
+"è possibile sostituire completamente l'immagine del processo che invoca "
+"la system call con quella di un altro programma."
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:54
+msgid "Di conseguenza, lo schema di esecuzione di MinShell è il seguente:"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:56
+msgid "il processo principale crea un processo child tramite :posix:`fork <fork>`"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:57
+msgid "il processo child invoca una funzione di tipo :posix:`exec <exec>`"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:58
+msgid ""
+"il processo principale attende la sua terminazione tramite :posix:`wait "
+"<wait>`"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:60
+msgid ""
+"Per sostituire il programma di un'immagine, una funzione :posix:`exec "
+"<exec>` ha bisogno:"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:62
+msgid "individuare l'esatta posizione del programma nel filesystem"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:63
+msgid "setup dell'ambiente di esecuzione"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:64
+msgid "eventuali parametri da passare al programma target"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:66
+msgid "A tal scopo la funzione :posix:`execlp <execlp>`:"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:68
+msgid ""
+"considera il primo parametro come il nome dell'eseguibile target, il "
+"quale viene cercato nei percorsi definiti nella variabile di ambiente "
+"PATH"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:69
+msgid "eredita l'ambiente dal processo che invoca :posix:`execlp <execlp>`"
+msgstr ""
+
+msgid "Domanda"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:72
+msgid ""
+"Supponendo di lanciare MinShell da linea di comando, qual è l'ambiente "
+"del processo child?"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:74
+msgid ""
+"il secondo e i successivi parametri della funzione :posix:`execlp "
+"<execlp>` vengono passati come parametri per l'eseguibile"
+msgstr ""
+
+msgid "Osservazione"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:77
+msgid ""
+"Tipicamente il primo parametro passato ad un programma è una stringa "
+"contenente il nome del programma stesso. L'ultimo parametro è impostato a"
+" NULL in quanto da standard POSIX la lista di parametri deve terminare "
+"con un puntatore NULL."
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:82
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/2022/examples/minshell.rst:84
+msgid ":posix:`exec <exec>`"
+msgstr ""
+

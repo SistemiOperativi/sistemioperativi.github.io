@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 12:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2022/questions.rst:2
+msgid "Esercizi di preparazione"
+msgstr ""
+
+#: ../source/2022/questions.rst:4
+msgid ""
+"In questa sezione vengono riportate alcuni esercizi/domande che possono "
+"essere utilizzate come preparazione all'esame."
+msgstr ""
+
+#: ../source/2022/questions.rst:8
+msgid "Domande"
+msgstr ""
+
+#: ../source/2022/questions.rst:21
+msgid "Esercizi"
+msgstr ""
+
+#: ../source/2022/questions.rst:26
+msgid ""
+"Alcuni esercizi possono deliberatamente ammettere più di una soluzione in"
+" funzione delle assunzioni fatte durante lo svolgimento. Di conseguenza, "
+"le soluzioni proposte potrebbe non essere le uniche ammissibili."
+msgstr ""
+

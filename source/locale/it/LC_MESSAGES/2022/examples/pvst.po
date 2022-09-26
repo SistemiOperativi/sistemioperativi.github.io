@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 12:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2022/examples/pvst.rst:9
+msgid "PVST - Processi vs Thread"
+msgstr ""
+
+#: ../source/2022/examples/pvst.rst:64
+msgid ""
+"Processi vs Thread (:raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/pvst/pvst.c\">PVST</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/pvst/pvst.c\"></a>`)"
+" è un programma C il cui scopo è quello di evidenziare differenze "
+"basilari tra processi e thread."
+msgstr ""
+
+#: ../source/2022/examples/pvst.rst:69
+msgid "Il programma è diviso in due sezioni:"
+msgstr ""
+
+#: ../source/2022/examples/pvst.rst:71
+msgid ""
+"il main thread crea un thread child secondo lo schema proposto in "
+":doc:`PFEW <pfew>`. Entrambi i thread scrivono sulla variabile globale "
+":code:`global_var` e successivamente ne stampano il valore su standard "
+"output."
+msgstr ""
+
+#: ../source/2022/examples/pvst.rst:72
+msgid ""
+"il main thread crea un processo child secondo lo schema proposto in "
+":doc:`FEW <few>`. Entrambi i processi scrivono sulla variabile globale "
+":code:`global_var` e successivamente ne stampano il valore su standard "
+"output."
+msgstr ""
+
+#: ../source/2022/examples/pvst.rst:74
+msgid "La variabile :code:`global_var` viene stampata 4 volte, rispettivamente"
+msgstr ""
+
+msgid "Domanda"
+msgstr ""
+
+#: ../source/2022/examples/pvst.rst:103
+msgid "Cosa stampano le righe 18, 36, 42 e 46?"
+msgstr ""
+

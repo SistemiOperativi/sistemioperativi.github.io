@@ -4,9 +4,9 @@
 * Sito del corso:
 
   * aggiunto diario della lezione del 22/12/21
-  * aggiornato regolamento sezione di esame nella :doc:`Home <../../index>` 
-  * aggiunta sezione :doc:`../../challenges`
-  * aggiornata sezione :doc:`../../questions`
+  * aggiornato regolamento sezione di esame nella :doc:`Home <index>` 
+  * aggiunta sezione :doc:`challenges`
+  * aggiornata sezione :doc:`questions`
 
     * aggiunte 3 domande e 1 esercizio su Introduzione
     * aggiunte 3 domande su Processi e thread

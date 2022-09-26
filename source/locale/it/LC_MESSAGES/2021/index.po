@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 11:25+0200\n"
+"POT-Creation-Date: 2022-09-26 12:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,55 +18,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../source/2021/index.rst:2
-msgid "Sistemi Operativi"
+#: ../source/2021/index.rst:4
+msgid "Sistemi Operativi A.A. 2021/2022"
 msgstr ""
 
-#: ../source/2021/index.rst:4
+#: ../source/2021/index.rst:6
 msgid ""
 "Benvenuti al corso di Sistemi Operativi per A.A. 2021/2022 del Corso di "
 "Laurea in Ingegneria Informatica di Roma Tre"
 msgstr ""
 
-#: ../source/2021/index.rst:6
+#: ../source/2021/index.rst:8
 msgid "Docente: `Romolo Marotta <https://romolomarotta.github.io>`_"
 msgstr ""
 
-#: ../source/2021/index.rst:10
+#: ../source/2021/index.rst:12
 msgid ""
 "Questa edizione del sito del corso è stata archiaviata. Per accedere alle"
 " differenti sezioni del corso utilizzare i link seguenti:"
 msgstr ""
 
-#: ../source/2021/index.rst:13
-msgid ":doc:`/2021/news`"
-msgstr ""
-
-#: ../source/2021/index.rst:14
-msgid ":doc:`/2021/slides`"
-msgstr ""
-
-#: ../source/2021/index.rst:15
-msgid ":doc:`/2021/questions`"
-msgstr ""
-
-#: ../source/2021/index.rst:16
-msgid ":doc:`/2021/challenges`"
-msgstr ""
-
-#: ../source/2021/index.rst:17
-msgid ":doc:`/2021/exams`"
-msgstr ""
-
-#: ../source/2021/index.rst:18
-msgid ":doc:`/2021/examples`"
-msgstr ""
-
-#: ../source/2021/index.rst:21
+#: ../source/2021/index.rst:40
 msgid "Obiettivi del corso"
 msgstr ""
 
-#: ../source/2021/index.rst:23
+#: ../source/2021/index.rst:42
 msgid ""
 "L'obiettivo del corso è fornire allo studente competenze "
 "sull'architettura di un generico sistema operativo moderno, con "
@@ -76,31 +52,31 @@ msgid ""
 "alla programmazione di sistema e scripting."
 msgstr ""
 
-#: ../source/2021/index.rst:29
+#: ../source/2021/index.rst:48
 msgid "Orario delle lezioni"
 msgstr ""
 
-#: ../source/2021/index.rst:32
+#: ../source/2021/index.rst:51
 msgid "Giorno"
 msgstr ""
 
-#: ../source/2021/index.rst:32
+#: ../source/2021/index.rst:51
 msgid "Orario"
 msgstr ""
 
-#: ../source/2021/index.rst:32
+#: ../source/2021/index.rst:51
 msgid "Aula"
 msgstr ""
 
-#: ../source/2021/index.rst:34
+#: ../source/2021/index.rst:53
 msgid "Martedì"
 msgstr ""
 
-#: ../source/2021/index.rst:34 ../source/2021/index.rst:35
+#: ../source/2021/index.rst:53 ../source/2021/index.rst:54
 msgid "16:00 - 18:00"
 msgstr ""
 
-#: ../source/2021/index.rst:34 ../source/2021/index.rst:35
+#: ../source/2021/index.rst:53 ../source/2021/index.rst:54
 #, python-format
 msgid ""
 "N13 [Vasca Navale 79/81] - `Aula Teams <https://teams.microsoft.com/l"
@@ -109,146 +85,146 @@ msgid ""
 "-834a-955f8618ef03%22%7d>`_"
 msgstr ""
 
-#: ../source/2021/index.rst:35
+#: ../source/2021/index.rst:54
 msgid "Mercoledì"
 msgstr ""
 
-#: ../source/2021/index.rst:40
+#: ../source/2021/index.rst:59
 msgid "Link ai contenuti del corso"
 msgstr ""
 
-#: ../source/2021/index.rst:42
+#: ../source/2021/index.rst:61
 msgid ""
 "`Teams <https://teams.microsoft.com/l/team/19%3aRhhdoEO6QOI_oVGAqU-"
 "Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/conversations?groupId=098a73ce-8602-46e3-84c6-8107ebe1a9ae&tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a>`_"
 msgstr ""
 
-#: ../source/2021/index.rst:43
+#: ../source/2021/index.rst:62
 msgid ""
 "`SharePoint <https://uniroma3.sharepoint.com/sites/AA2122"
 "-SISTEMIOPERATIVI-20801961MAROTTA>`_"
 msgstr ""
 
-#: ../source/2021/index.rst:44
+#: ../source/2021/index.rst:63
 msgid ""
 "`Stream  "
 "<https://web.microsoftstream.com/group/098a73ce-8602-46e3-84c6-8107ebe1a9ae>`_"
 msgstr ""
 
-#: ../source/2021/index.rst:45
+#: ../source/2021/index.rst:64
 msgid "`Moodle <https://ingegneria.el.uniroma3.it/course/view.php?id=512>`_"
 msgstr ""
 
-#: ../source/2021/index.rst:46
+#: ../source/2021/index.rst:65
 msgid "`GitHub  <https://github.com/SistemiOperativi>`_"
 msgstr ""
 
-#: ../source/2021/index.rst:47
+#: ../source/2021/index.rst:66
 msgid ":doc:`Slides <slides>`"
 msgstr ""
 
-#: ../source/2021/index.rst:50
+#: ../source/2021/index.rst:69
 msgid "Ricevimento"
 msgstr ""
 
-#: ../source/2021/index.rst:52
+#: ../source/2021/index.rst:71
 msgid ""
 "Contattare il docente alla seguente email "
 "**{nome}.{cognome}@uniroma3.it** e riportare il prefisso **[SO2122]** "
 "nell'oggetto."
 msgstr ""
 
-#: ../source/2021/index.rst:56
+#: ../source/2021/index.rst:75
 msgid "Modalità d'esame"
 msgstr ""
 
-#: ../source/2021/index.rst:58
+#: ../source/2021/index.rst:77
 msgid ""
 "L'esame prevede 1 prova ripartita in 2 due test, i cui punteggi sono "
 "ripartiti secondo quanto segue."
 msgstr ""
 
-#: ../source/2021/index.rst:61
+#: ../source/2021/index.rst:80
 msgid "# Test"
 msgstr ""
 
-#: ../source/2021/index.rst:61
+#: ../source/2021/index.rst:80
 msgid "Tipologia"
 msgstr ""
 
-#: ../source/2021/index.rst:61
+#: ../source/2021/index.rst:80
 msgid "Punti"
 msgstr ""
 
-#: ../source/2021/index.rst:61
+#: ../source/2021/index.rst:80
 msgid "Perc."
 msgstr ""
 
-#: ../source/2021/index.rst:61
+#: ../source/2021/index.rst:80
 msgid "Sufficienza"
 msgstr ""
 
-#: ../source/2021/index.rst:63
+#: ../source/2021/index.rst:82
 msgid "1"
 msgstr ""
 
-#: ../source/2021/index.rst:63
+#: ../source/2021/index.rst:82
 msgid "Domande di teoria"
 msgstr ""
 
-#: ../source/2021/index.rst:63
+#: ../source/2021/index.rst:82
 msgid "~20"
 msgstr ""
 
-#: ../source/2021/index.rst:63
+#: ../source/2021/index.rst:82
 msgid "~65%"
 msgstr ""
 
-#: ../source/2021/index.rst:63
+#: ../source/2021/index.rst:82
 msgid "~12"
 msgstr ""
 
-#: ../source/2021/index.rst:65
+#: ../source/2021/index.rst:84
 msgid "2"
 msgstr ""
 
-#: ../source/2021/index.rst:65
+#: ../source/2021/index.rst:84
 msgid "Esercizi di programmazione"
 msgstr ""
 
-#: ../source/2021/index.rst:65
+#: ../source/2021/index.rst:84
 msgid "~11"
 msgstr ""
 
-#: ../source/2021/index.rst:65
+#: ../source/2021/index.rst:84
 msgid "~35%"
 msgstr ""
 
-#: ../source/2021/index.rst:65
+#: ../source/2021/index.rst:84
 msgid "~6"
 msgstr ""
 
-#: ../source/2021/index.rst:68
+#: ../source/2021/index.rst:87
 msgid "Regole:"
 msgstr ""
 
-#: ../source/2021/index.rst:70
+#: ../source/2021/index.rst:89
 msgid "Il voto finale è pari alla somma dei punteggi ottenuti:"
 msgstr ""
 
-#: ../source/2021/index.rst:72
+#: ../source/2021/index.rst:91
 msgid "nei test 1 e 2;"
 msgstr ""
 
-#: ../source/2021/index.rst:73
+#: ../source/2021/index.rst:92
 msgid "dalla vincita di una sfida avanzata dal docente."
 msgstr ""
 
-#: ../source/2021/index.rst:75
+#: ../source/2021/index.rst:94
 msgid "Per superare l'esame occorre ottenere la sufficienza in entrambi i test."
 msgstr ""
 
-#: ../source/2021/index.rst:76
+#: ../source/2021/index.rst:95
 msgid ""
 "Qualora la sufficienza sia stata conseguita solo su uno dei due test, lo "
 "studente è esonerato dal sostenere il test in cui è risultato sufficiente"
@@ -256,81 +232,81 @@ msgid ""
 "non ha conseguito la sufficienza."
 msgstr ""
 
-#: ../source/2021/index.rst:77
+#: ../source/2021/index.rst:96
 msgid "Per la lode è richiesto un punteggio di 31 punti."
 msgstr ""
 
-#: ../source/2021/index.rst:78
+#: ../source/2021/index.rst:97
 msgid ""
 "I punteggi ottenuti nei test e nelle sfide potranno essere mantenuti fino"
 " all'ultima sessione di esame per l'A.A. 2021/2022."
 msgstr ""
 
-#: ../source/2021/index.rst:81
+#: ../source/2021/index.rst:100
 msgid "Date"
 msgstr ""
 
-#: ../source/2021/index.rst:83
+#: ../source/2021/index.rst:102
 msgid "Sessione Estiva:"
 msgstr ""
 
-#: ../source/2021/index.rst:85
+#: ../source/2021/index.rst:104
 msgid ""
 "24-06-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente "
 "ad ospitare il numero di prenotati,  verranno considerate date "
 "aggiuntive."
 msgstr ""
 
-#: ../source/2021/index.rst:86
+#: ../source/2021/index.rst:105
 msgid ""
 "20-07-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente "
 "ad ospitare il numero di prenotati,  verranno considerate date "
 "aggiuntive."
 msgstr ""
 
-#: ../source/2021/index.rst:89
+#: ../source/2021/index.rst:108
 msgid "Sessione Invernale:"
 msgstr ""
 
-#: ../source/2021/index.rst:91
+#: ../source/2021/index.rst:110
 msgid ""
 "26-01-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente "
 "ad ospitare il numero di prenotati,  verranno considerate le seguenti "
 "date aggiuntive: 28-01-2022, 31-01-2022."
 msgstr ""
 
-#: ../source/2021/index.rst:92
+#: ../source/2021/index.rst:111
 msgid ""
 "21-02-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente "
 "ad ospitare il numero di prenotati,  verranno considerate le seguenti "
 "date aggiuntive: 24-02-2022, 28-02-2022."
 msgstr ""
 
-#: ../source/2021/index.rst:93
+#: ../source/2021/index.rst:112
 msgid ""
 "L'assegnazione alle date aggiuntive viene fatta secondo una politica "
 "First-Come-First-Serve."
 msgstr ""
 
-#: ../source/2021/index.rst:98
+#: ../source/2021/index.rst:117
 msgid "Testi consigliati e link utili (in aggiornamento)"
 msgstr ""
 
-#: ../source/2021/index.rst:100
+#: ../source/2021/index.rst:119
 msgid ""
 "[t1] Operating Systems: Internals and Design Principles - William "
 "Stallings - Prentice Hall, fifth edition (o superiori). Riferimento: "
 "ninth global edition."
 msgstr ""
 
-#: ../source/2021/index.rst:101
+#: ../source/2021/index.rst:120
 msgid ""
 "[t2] Sistemi operativi: Concetti ed Esempi - Silberschatz Abraham, Galvin"
 " Peter Baer, Gagne Greg - Addison Wesley/Pearson, nona edizione (o "
 "superiori). Riferimento: tenth global edition."
 msgstr ""
 
-#: ../source/2021/index.rst:102
+#: ../source/2021/index.rst:121
 msgid ""
 "[t3] Programmazione in Ambiente UNIX - Francesco Quaglia, Camil "
 "Demetrescu - `Disponibile in formato pdf "
@@ -338,47 +314,47 @@ msgid ""
 "OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf>`_"
 msgstr ""
 
-#: ../source/2021/index.rst:108
+#: ../source/2021/index.rst:127
 msgid "Programma"
 msgstr ""
 
-#: ../source/2021/index.rst:110
+#: ../source/2021/index.rst:129
 msgid ""
 "**Panoramica sui sistemi operativi moderni.** definizione di sistema "
 "operativo, scopi, architettura a strati, kernel/user mode, "
 "caratteristiche salienti"
 msgstr ""
 
-#: ../source/2021/index.rst:111
+#: ../source/2021/index.rst:130
 msgid ""
 "**Processi e Thread.** dispatching, stati, descrizione e controllo, "
 "modelli tipici di sistemi operativi e di uso della memoria nei processi"
 msgstr ""
 
-#: ../source/2021/index.rst:112
+#: ../source/2021/index.rst:131
 msgid ""
 "**Scheduling.** a breve medio e lungo termine, algoritmi per cpu "
 "scheduling"
 msgstr ""
 
-#: ../source/2021/index.rst:113
+#: ../source/2021/index.rst:132
 msgid "**Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori"
 msgstr ""
 
-#: ../source/2021/index.rst:114
+#: ../source/2021/index.rst:133
 msgid ""
 "**Memoria.** allocatori di memoria, partitioning, best/first/next fit, "
 "buddy algorithm, paging, segmentation, memoria virtuale e sua gestione "
 "hardware/software"
 msgstr ""
 
-#: ../source/2021/index.rst:115
+#: ../source/2021/index.rst:134
 msgid ""
 "**I/O e File Management.** Disk scheduling, :removedtopic:`RAID`, UNIX "
 "File Management, inode, Linux VFS, ext2"
 msgstr ""
 
-#: ../source/2021/index.rst:116
+#: ../source/2021/index.rst:135
 msgid ""
 "**Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione "
 "file e directory), variabili di ambiente, redirection, "
@@ -386,25 +362,25 @@ msgid ""
 "scripting (bash, awk),` linux filesystem management"
 msgstr ""
 
-#: ../source/2021/index.rst:117
+#: ../source/2021/index.rst:136
 msgid ""
 "**Programmazione di Sistema.** Gestione in C dei processi/thread su "
 "ambiente linux"
 msgstr ""
 
-#: ../source/2021/index.rst:118
+#: ../source/2021/index.rst:137
 msgid ""
 ":removedtopic:`**Debugger**.` :removedtopic:`utilizzo di gdb stepping, "
 "breakpoints, watching, backtrace, comandi gdb.`"
 msgstr ""
 
-#: ../source/2021/index.rst:119
+#: ../source/2021/index.rst:138
 msgid ""
 ":removedtopic:`**Virtualizzazione.**` :removedtopic:`Concetti generali, "
 "container, Docker`"
 msgstr ""
 
-#: ../source/2021/index.rst:124
+#: ../source/2021/index.rst:143
 msgid ""
 ":removedtopic:`topic` indica che i relativi contenuti sono stati esclusi "
 "dal programma"
@@ -444,5 +420,29 @@ msgstr ""
 #~ "Per la lista completa degli "
 #~ "aggiornamenti visita la sezione dedicata: "
 #~ ":doc:`/2021/news`"
+#~ msgstr ""
+
+#~ msgid ":doc:`/2021/news`"
+#~ msgstr ""
+
+#~ msgid ":doc:`/2021/slides`"
+#~ msgstr ""
+
+#~ msgid ":doc:`/2021/questions`"
+#~ msgstr ""
+
+#~ msgid ":doc:`/2021/challenges`"
+#~ msgstr ""
+
+#~ msgid ":doc:`/2021/exams`"
+#~ msgstr ""
+
+#~ msgid ":doc:`/2021/examples`"
+#~ msgstr ""
+
+#~ msgid ":doc:`/2021/lectures/index`"
+#~ msgstr ""
+
+#~ msgid "Sistemi Operativi"
 #~ msgstr ""
 

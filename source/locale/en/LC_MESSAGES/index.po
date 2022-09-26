@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 10:31+0200\n"
+"POT-Creation-Date: 2022-09-26 12:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,9 +40,10 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:12
+#, fuzzy
 msgid ""
 "Per la lista completa degli aggiornamenti visita la sezione dedicata: "
-":doc:`news`"
+":doc:`2022/news`"
 msgstr "The full list of news can be accessed at the following link: :doc:`news`"
 
 #: ../source/index.rst:15
@@ -136,7 +137,7 @@ msgid "`GitHub  <https://github.com/SistemiOperativi>`_"
 msgstr ""
 
 #: ../source/index.rst:41
-msgid ":doc:`Slides <slides>`"
+msgid ":doc:`Slides <2022/slides>`"
 msgstr ""
 
 #: ../source/index.rst:44
@@ -514,4 +515,7 @@ msgstr ":removedtopic:`**Virtualization:** main concepts, containers, Docker`"
 #~ ":removedtopic:`topic` signals that the related"
 #~ " contents have been excluded from "
 #~ "course program "
+
+#~ msgid ":doc:`Slides <slides>`"
+#~ msgstr ""
 

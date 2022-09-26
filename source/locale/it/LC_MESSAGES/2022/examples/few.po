@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-26 12:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../source/2022/examples/few.rst:8
+msgid "FEW - Fork-Exit-Wait"
+msgstr ""
+
+#: ../source/2022/examples/few.rst:37
+msgid ""
+"Fork-Exit-Wait (:raw-html:`<a class=\"external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\">FEW</a>"
+" <a class=\"fa fa-github external\" target=\"_blank\" "
+"href=\"https://github.com/SistemiOperativi/c_examples/blob/main/few/few.c\"></a>`)"
+" è un semplice programma C per:"
+msgstr ""
+
+#: ../source/2022/examples/few.rst:42
+msgid "Creare un processo tramite :posix:`fork <fork>`."
+msgstr ""
+
+#: ../source/2022/examples/few.rst:43
+msgid ""
+"Attendere la terminazione del processo appena creato tramite :posix:`wait"
+" <wait>`."
+msgstr ""
+
+#: ../source/2022/examples/few.rst:44
+msgid "Terminare il processo corrente utilizzando :posix:`exit <exit>`."
+msgstr ""
+
+#: ../source/2022/examples/few.rst:46
+msgid ""
+"Il main thread esegue la stampa di riga 8 e successivamente invoca la "
+":posix:`fork <fork>` per creare un processo child."
+msgstr ""
+
+#: ../source/2022/examples/few.rst:54
+msgid ""
+"Se la :posix:`fork <fork>` fallisce (:code:`res == -1`), il processo "
+"principale termina. Altrimenti, entrambi i processi eseguono a partire "
+"dalla terminazione della :posix:`fork <fork>`."
+msgstr ""
+
+#: ../source/2022/examples/few.rst:57
+msgid ""
+"Per differenziare il flusso di esecuzione tra il processo parent ed il "
+"processo child occorre analizzare il risultato della :posix:`fork "
+"<fork>`. Il processo child legge :code:`res == 0`, mentre il processo "
+"parent :code:`res != 0` (più precisamente :code:`res` contiene il pid del"
+" processo child). A questo punto il child esegue:"
+msgstr ""
+
+#: ../source/2022/examples/few.rst:70
+msgid ""
+"ossia va in stato di sleep per 5 secondi, esegue una stampa e termina con"
+" codice di terminazione 1 invocando la syscall :posix:`exit <exit>`."
+msgstr ""
+
+#: ../source/2022/examples/few.rst:72
+msgid "Il parent esegue:"
+msgstr ""
+
+#: ../source/2022/examples/few.rst:82
+msgid ""
+"Nello specifico attende la terminazione di uno generico thread child "
+"tramite la system call :posix:`wait <wait>`. Grazie a questa chiamata, "
+"può inoltre ottenere il codice di terminazione dalla variabile "
+":code:`status` grazie alla macro :code:`WEXITSTATUS` (il codice è "
+"memorizzato nel secondo byte di :code:`status`)."
+msgstr ""
+
+#: ../source/2022/examples/few.rst:88
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/2022/examples/few.rst:90
+msgid "[:ref:`t3 <books>`] Sezione 1.2, 3.1"
+msgstr ""
+
+#: ../source/2022/examples/few.rst:91
+msgid ":posix:`fork <fork>`"
+msgstr ""
+
+#: ../source/2022/examples/few.rst:92
+msgid ":posix:`exit <exit>`"
+msgstr ""
+
+#: ../source/2022/examples/few.rst:93
+msgid ":posix:`wait <wait>`"
+msgstr ""
+
