@@ -25,17 +25,25 @@ Orario delle lezioni
 =========  =============  =====
 Giorno     Orario         Aula 
 =========  =============  =====
-Martedì    16:00 - 18:00  N13 [Vasca Navale 79/81] - `Aula Teams <https://teams.microsoft.com/l/meetup-join/19%3aRhhdoEO6QOI_oVGAqU-Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/1633386278580?context=%7b%22Tid%22%3a%22ffb4df68-f464-458c-a546-00fb3af66f6a%22%2c%22Oid%22%3a%22430d18c0-6f97-4e80-834a-955f8618ef03%22%7d>`_ 
-Mercoledì  16:00 - 18:00  N13 [Vasca Navale 79/81] - `Aula Teams <https://teams.microsoft.com/l/meetup-join/19%3aRhhdoEO6QOI_oVGAqU-Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/1633386278580?context=%7b%22Tid%22%3a%22ffb4df68-f464-458c-a546-00fb3af66f6a%22%2c%22Oid%22%3a%22430d18c0-6f97-4e80-834a-955f8618ef03%22%7d>`_ 
+Martedì    16:00 - 18:00  N13 [Vasca Navale 79/81] - `Aula Teams <https://teams.microsoft.com/l/meetup-join/19%3aP9MxSHe2y0q9wpw9GJCsoFpsgnuKhN9ETf4DxOOIrw01%40thread.tacv2/1664191216813?context=%7b%22Tid%22%3a%22ffb4df68-f464-458c-a546-00fb3af66f6a%22%2c%22Oid%22%3a%22430d18c0-6f97-4e80-834a-955f8618ef03%22%7d>`_ 
+Mercoledì  16:00 - 18:00  N13 [Vasca Navale 79/81] - `Aula Teams <https://teams.microsoft.com/l/meetup-join/19%3aP9MxSHe2y0q9wpw9GJCsoFpsgnuKhN9ETf4DxOOIrw01%40thread.tacv2/1664191216813?context=%7b%22Tid%22%3a%22ffb4df68-f464-458c-a546-00fb3af66f6a%22%2c%22Oid%22%3a%22430d18c0-6f97-4e80-834a-955f8618ef03%22%7d>`_ 
 =========  =============  =====
+
+
+.. warning::
+   * Il corso è pensato per essere seguito dagli studenti in presenza. 
+   * Le lezioni saranno comunque trasmesse in streaming e registrate, ma queste ulteriori modalità di erogazione sono disponibili soprattutto per coloro che saltuariamente non possono partecipare alle lezioni. 
+   * Se, per motivi tecnici, non sarà possibile registrare o trasmettere, la lezione sarà impartita ugualmente.
+   * Se il docente riterrà utile usare la lavagna e non sarà possibile inquadrarla in modo efficace, la lezione si svolgerà ugualmente. 
+   * Non è detto che sarà possibile, per gli studenti che parteciperanno in remoto, interagire con il docente durante la lezione.
 
 
 Link ai contenuti del corso
 ---------------------------
 
-- `Teams <https://teams.microsoft.com/l/team/19%3aRhhdoEO6QOI_oVGAqU-Q6ba9bxYJongS7KxMWkRTe981%40thread.tacv2/conversations?groupId=098a73ce-8602-46e3-84c6-8107ebe1a9ae&tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a>`_
-- `SharePoint <https://uniroma3.sharepoint.com/sites/AA2122-SISTEMIOPERATIVI-20801961MAROTTA>`_
-- `Stream  <https://web.microsoftstream.com/group/098a73ce-8602-46e3-84c6-8107ebe1a9ae>`_
+- `Teams <https://teams.microsoft.com/l/team/19%3aP9MxSHe2y0q9wpw9GJCsoFpsgnuKhN9ETf4DxOOIrw01%40thread.tacv2/conversations?groupId=749b9d4b-045a-4b4a-a67c-f49226de3c01&tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a>`_
+- `SharePoint <https://uniroma3.sharepoint.com/sites/AA2223-SISTEMIOPERATIVI-20801961MAROTTA/Documenti%20Condivisi/General>`_
+- Stream
 - `Moodle <https://ingegneria.el.uniroma3.it/course/view.php?id=1395>`_
 - `GitHub  <https://github.com/SistemiOperativi>`_
 - :doc:`Slides <2022/slides>`
@@ -43,7 +51,7 @@ Link ai contenuti del corso
 Ricevimento
 -----------
 
-Contattare il docente alla seguente email **{nome}.{cognome}@uniroma3.it** e riportare il prefisso **[SO2122]** nell'oggetto.
+Contattare il docente alla seguente email **{nome}.{cognome}@uniroma3.it** e riportare il prefisso **[SO2223]** nell'oggetto.
 
 
 Modalità d'esame
@@ -94,7 +102,7 @@ Programma
 * **Scheduling.** a breve medio e lungo termine, algoritmi per cpu scheduling
 * **Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori
 * **Memoria.** allocatori di memoria, partitioning, best/first/next fit, buddy algorithm, paging, segmentation, memoria virtuale e sua gestione hardware/software 
-* **I/O e File Management.** Disk scheduling, RAID, UNIX File Management, inode, Linux VFS, ext2
+* **I/O e File Management.** Disk scheduling, UNIX File Management, inode, Linux VFS, ext2
 * **Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, redirection, piping, segnali, espressioni regolari (sed e grep), scripting (bash, awk), linux filesystem management
 * **Programmazione di Sistema.** Gestione in C dei processi/thread su ambiente linux
 * **Debugger**. utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.

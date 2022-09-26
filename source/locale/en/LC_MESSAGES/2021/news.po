@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 12:37+0200\n"
+"POT-Creation-Date: 2022-09-26 13:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../source/2021/news.rst:2
-msgid "News (A.A. 2021/2022)"
+msgid "News"
 msgstr ""
 
 #: ../source/2021/news/220730.rst:2
@@ -354,15 +354,15 @@ msgid "aggiunto diario della lezione del 22/12/21"
 msgstr ""
 
 #: ../source/2021/news/211230.rst:7
-msgid "aggiornato regolamento sezione di esame nella :doc:`Home <index>`"
+msgid "aggiornato regolamento sezione di esame nella :doc:`Home </2021/index>`"
 msgstr ""
 
 #: ../source/2021/news/211230.rst:8
-msgid "aggiunta sezione :doc:`challenges`"
+msgid "aggiunta sezione :doc:`/2021/challenges`"
 msgstr ""
 
 #: ../source/2021/news/211230.rst:9
-msgid "aggiornata sezione :doc:`questions`"
+msgid "aggiornata sezione :doc:`/2021/questions`"
 msgstr ""
 
 #: ../source/2021/news/211230.rst:11
@@ -903,5 +903,23 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "aggiornata sezione :doc:`2021/questions`"
+#~ msgstr ""
+
+#~ msgid "News (A.A. 2021/2022)"
+#~ msgstr ""
+
+#~ msgid "aggiornato regolamento sezione di esame nella :doc:`2021/index`"
+#~ msgstr ""
+
+#~ msgid "aggiornato regolamento sezione di esame nella :doc:`../index`"
+#~ msgstr ""
+
+#~ msgid "aggiornato regolamento sezione di esame nella :doc:`Home <./index>`"
+#~ msgstr ""
+
+#~ msgid "aggiunta sezione :doc:`../2021/challenges`"
+#~ msgstr ""
+
+#~ msgid "aggiornato regolamento sezione di esame nella :doc:`Home /2021/index>`"
 #~ msgstr ""
 
