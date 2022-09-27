@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 12:20+0200\n"
+"POT-Creation-Date: 2022-09-27 10:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,14 +32,108 @@ msgstr ""
 msgid "Domande"
 msgstr ""
 
-#: ../source/2022/questions.rst:21
+#: ../source/2022/q_exercises/intro.rst:4 ../source/2022/questions/intro.rst:4
+msgid "1 - Introduzione"
+msgstr ""
+
+#: ../source/2022/questions/intro.rst:6
+msgid ""
+"Descrivere il concetto di interrupt e mostrare il suo utilizzo nei "
+"sistemi operativi."
+msgstr ""
+
+#: ../source/2022/questions/intro.rst:7
+msgid "Descrivere le principali strutture dati di un sistema operativo."
+msgstr ""
+
+#: ../source/2022/questions/intro.rst:8
+msgid ""
+"Descrivere i principali benefici e le criticità introdotte della "
+"multiprogrammazione."
+msgstr ""
+
+#: ../source/2022/questions/intro.rst:9
+msgid ""
+"Cosa sono le system call e quali relazioni hanno con le librerie di "
+"sistema?"
+msgstr ""
+
+#: ../source/2022/questions/intro.rst:10
+msgid ""
+"Riportare esempi di supporti hardware necessari al sistema operativo per "
+"garantire la protezione delle risorse."
+msgstr ""
+
+#: ../source/2022/questions/intro.rst:11
+msgid "Quali sono gli obiettivi principali di un sistema operativo?"
+msgstr ""
+
+#: ../source/2022/questions/intro.rst:12
+msgid ""
+"Perché la distinzione tra modo kernel e modo user è una forma di "
+"protezione?"
+msgstr ""
+
+#: ../source/2022/questions/intro.rst:13
+msgid ""
+"Descrivere 3 servizi di sistema operativo e spiegare perché sono "
+"convenienti per gli utenti. Inoltre, perché è sconveniente che siano "
+"forniti da programmi user?"
+msgstr ""
+
+#: ../source/2022/questions/intro.rst:14
+msgid ""
+"Descrivere le principali caratteristiche di un sistema batch e di un "
+"sistema batch multiprogrammato, discutendo anche in modo comparativo i "
+"vantaggi o svantaggi dell'uno verso l'altro."
+msgstr ""
+
+#: ../source/2022/questions.rst:22
 msgid "Esercizi"
 msgstr ""
 
-#: ../source/2022/questions.rst:26
+#: ../source/2022/questions.rst:27
 msgid ""
 "Alcuni esercizi possono deliberatamente ammettere più di una soluzione in"
 " funzione delle assunzioni fatte durante lo svolgimento. Di conseguenza, "
 "le soluzioni proposte potrebbe non essere le uniche ammissibili."
+msgstr ""
+
+#: ../source/2022/q_exercises/intro.rst:7
+msgid "Si consideri un programma di cui:"
+msgstr ""
+
+#: ../source/2022/q_exercises/intro.rst:9
+#, python-format
+msgid "il 60% del tempo di esecuzione è parallelizzabile;"
+msgstr ""
+
+#: ../source/2022/q_exercises/intro.rst:10
+#, python-format
+msgid ""
+"l'80% del tempo non parallelizzabile può essere ottimizzato tramite "
+"l'adozione di un algoritmo 16 volte più veloce."
+msgstr ""
+
+#: ../source/2022/q_exercises/intro.rst:12
+msgid "Calcolare lo speedup ottenibile tramite:"
+msgstr ""
+
+#: ../source/2022/q_exercises/intro.rst:14
+msgid "la sola ottimizzazione a) con 2 e 4 core;"
+msgstr ""
+
+#: ../source/2022/q_exercises/intro.rst:15
+msgid "tramite la sola ottimizzazione b);"
+msgstr ""
+
+#: ../source/2022/q_exercises/intro.rst:16
+msgid "l'applicazione congiunta di a) e b) con 2 e 4 core."
+msgstr ""
+
+#: ../source/2022/q_exercises/intro.rst:18
+msgid ""
+"Infine, riportare lo speedup massimo raggiungibile tramite ottimizzazione"
+" a) e b)."
 msgstr ""
 

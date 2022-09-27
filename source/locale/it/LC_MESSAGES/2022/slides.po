@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 12:20+0200\n"
+"POT-Creation-Date: 2022-09-27 10:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,11 +26,15 @@ msgstr ""
 msgid "In questa sezione potete scaricare le slide delle lezioni."
 msgstr ""
 
-#: ../source/2022/slides.rst:17
+#: ../source/2022/slides.rst:6
+msgid "`01 - Introduzione  </slides/01-so-introduzione-210927v1.pdf>`_"
+msgstr ""
+
+#: ../source/2022/slides.rst:18
 msgid "Documentazione"
 msgstr ""
 
-#: ../source/2022/slides.rst:38
+#: ../source/2022/slides.rst:39
 msgid "Approfondimenti"
 msgstr ""
 

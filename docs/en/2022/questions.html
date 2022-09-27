@@ -46,8 +46,14 @@
 <li class="toctree-l1"><a class="reference internal" href="../linux_install.html">Installing Linux</a></li>
 <li class="toctree-l1"><a class="reference internal" href="examples.html">Esempi di programmazione</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Esercizi di preparazione</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#domande">Domande</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#esercizi">Esercizi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#domande">Domande</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduzione">1 - Introduzione</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#esercizi">Esercizi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">1 - Introduzione</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="slides.html">Slides</a></li>
@@ -88,6 +94,20 @@
 <p>In questa sezione vengono riportate alcuni esercizi/domande che possono essere utilizzate come preparazione all’esame.</p>
 <div class="section" id="domande">
 <h2>Domande<a class="headerlink" href="#domande" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="introduzione">
+<h3>1 - Introduzione<a class="headerlink" href="#introduzione" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Descrivere il concetto di interrupt e mostrare il suo utilizzo nei sistemi operativi.</p></li>
+<li><p>Descrivere le principali strutture dati di un sistema operativo.</p></li>
+<li><p>Descrivere i principali benefici e le criticità introdotte della multiprogrammazione.</p></li>
+<li><p>Cosa sono le system call e quali relazioni hanno con le librerie di sistema?</p></li>
+<li><p>Riportare esempi di supporti hardware necessari al sistema operativo per garantire la protezione delle risorse.</p></li>
+<li><p>Quali sono gli obiettivi principali di un sistema operativo?</p></li>
+<li><p>Perché la distinzione tra modo kernel e modo user è una forma di protezione?</p></li>
+<li><p>Descrivere 3 servizi di sistema operativo e spiegare perché sono convenienti per gli utenti. Inoltre, perché è sconveniente che siano forniti da programmi user?</p></li>
+<li><p>Descrivere le principali caratteristiche di un sistema batch e di un sistema batch multiprogrammato, discutendo anche in modo comparativo i vantaggi o svantaggi dell’uno verso l’altro.</p></li>
+</ol>
+</div>
 </div>
 <div class="section" id="esercizi">
 <h2>Esercizi<a class="headerlink" href="#esercizi" title="Permalink to this headline">¶</a></h2>
@@ -95,6 +115,25 @@
 <p class="admonition-title">Warning</p>
 <p>Alcuni esercizi possono deliberatamente ammettere più di una soluzione in funzione delle assunzioni fatte durante lo svolgimento.
 Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.</p>
+</div>
+<div class="section" id="id1">
+<h3>1 - Introduzione<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Si consideri un programma di cui:</p></li>
+</ol>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><p>il 60% del tempo di esecuzione è parallelizzabile;</p></li>
+<li><p>l’80% del tempo non parallelizzabile può essere ottimizzato tramite l’adozione di un algoritmo 16 volte più veloce.</p></li>
+</ol>
+<p>Calcolare lo speedup ottenibile tramite:</p>
+<ul class="simple">
+<li><p>la sola ottimizzazione a) con 2 e 4 core;</p></li>
+<li><p>tramite la sola ottimizzazione b);</p></li>
+<li><p>l’applicazione congiunta di a) e b) con 2 e 4 core.</p></li>
+</ul>
+<p>Infine, riportare lo speedup massimo raggiungibile tramite ottimizzazione a) e b).</p>
+</div></blockquote>
 </div>
 </div>
 </div>
@@ -111,7 +150,7 @@ Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on Sep 26, 2022.
+      <span class="lastupdated">Last updated on Sep 27, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
