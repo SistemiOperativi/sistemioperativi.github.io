@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-27 11:29+0200\n"
+"POT-Creation-Date: 2022-09-27 11:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid ""
 msgstr ""
 
 #: ../source/2022/questions.rst:22
-msgid "Esercizi"
+msgid "Esercizi di teoria"
 msgstr ""
 
 #: ../source/2022/questions.rst:27
@@ -137,62 +137,81 @@ msgid ""
 " a) e b)."
 msgstr ""
 
+#: ../source/2022/questions.rst:44
+msgid "Esercizi di programmazione"
+msgstr ""
+
+#: ../source/2022/questions.rst:49
+msgid ""
+"Alcuni esercizi possono deliberatamente ammettere più di una "
+"implementazione. Di conseguenza, le soluzioni proposte potrebbe non "
+"essere le uniche ammissibili."
+msgstr ""
+
 #: ../source/2022/q_exercises/programming.rst:2
-msgid "8- Programmazione"
+msgid "1 - Riscaldamento"
 msgstr ""
 
-#: ../source/2022/q_exercises/programming.rst:5
-msgid "Riscaldamento"
-msgstr ""
-
-#: ../source/2022/q_exercises/programming.rst:7
-#: ../source/2022/q_exercises/programming.rst:13
+#: ../source/2022/q_exercises/programming.rst:4
+#: ../source/2022/q_exercises/programming.rst:11
 msgid "Scrivere un programma che:"
 msgstr ""
 
-#: ../source/2022/q_exercises/programming.rst:8
+#: ../source/2022/q_exercises/programming.rst:6
 msgid ""
 "prende una stringa da tastiera e la inserisce all’interno di un buffer "
 "allocato dinamicamente nella heap da parte della funzione scanf()."
 msgstr ""
 
-#: ../source/2022/q_exercises/programming.rst:9
+#: ../source/2022/q_exercises/programming.rst:7
 msgid ""
 "Copia poi tale stringa all’interno di un secondo buffer allocato sullo "
 "stack della taglia necessaria a contenerla."
 msgstr ""
 
-#: ../source/2022/q_exercises/programming.rst:10
+#: ../source/2022/q_exercises/programming.rst:8
 msgid "Libera quindi il buffer allocato nella heap."
 msgstr ""
 
-#: ../source/2022/q_exercises/programming.rst:11
+#: ../source/2022/q_exercises/programming.rst:9
 msgid "Stampa sullo schermo la stringa copiata nel buffer allocato sullo stack."
 msgstr ""
 
-#: ../source/2022/q_exercises/programming.rst:14
+#: ../source/2022/q_exercises/programming.rst:13
 msgid ""
 "prende una stringa passata come primo argomento (i.e. :code:`char "
 "*argv[]`) al programma stesso quando questo viene eseguito."
 msgstr ""
 
-#: ../source/2022/q_exercises/programming.rst:15
+#: ../source/2022/q_exercises/programming.rst:14
 msgid ""
 "Copia tale stringa all’interno di un buffer di dimensione fissa facendo "
 "attenzione a non superare il limite imposto dalla taglia, e stamparla "
 "quindi sullo schermo."
 msgstr ""
 
-#: ../source/2022/q_exercises/programming.rst:16
+#: ../source/2022/q_exercises/programming.rst:15
 msgid ""
 "Rigira la stringa (primo carattere in ultima posizione, secondo carattere"
 " in penultima posizione, ecc.) senza fare utilizzo di un ulteriore buffer"
 msgstr ""
 
-#: ../source/2022/q_exercises/programming.rst:17
+#: ../source/2022/q_exercises/programming.rst:16
 msgid "Stampa anche questa stringa sullo schermo."
 msgstr ""
 
 #~ msgid "# Scrivere un programma che:"
+#~ msgstr ""
+
+#~ msgid "8- Programmazione"
+#~ msgstr ""
+
+#~ msgid "Riscaldamento"
+#~ msgstr ""
+
+#~ msgid "Esercizi"
+#~ msgstr ""
+
+#~ msgid "Programmazione"
 #~ msgstr ""
 

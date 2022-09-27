@@ -18,8 +18,8 @@ Domande
   .. include::	questions/file.rst
 
 
-Esercizi
---------
+Esercizi di teoria
+------------------
 
 
 .. warning::
@@ -37,5 +37,16 @@ Esercizi
   .. include::	q_exercises/IO.rst
   .. include::	q_exercises/file.rst
 
+
+
+
+Esercizi di programmazione
+--------------------------
+
+
+.. warning::
+  
+  Alcuni esercizi possono deliberatamente ammettere più di una implementazione.
+  Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili. 
 
 .. include::	q_exercises/programming.rst
