@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-27 11:01+0200\n"
+"POT-Creation-Date: 2022-09-27 11:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,9 +26,9 @@ msgstr ""
 msgid "Riscaldamento"
 msgstr ""
 
-#: ../source/2022/q_exercises/programming.rst:11
-#: ../source/2022/q_exercises/programming.rst:17
-msgid "# Scrivere un programma che:"
+#: ../source/2022/q_exercises/programming.rst:7
+#: ../source/2022/q_exercises/programming.rst:13
+msgid "Scrivere un programma che:"
 msgstr ""
 
 #: ../source/2022/q_exercises/programming.rst:8
@@ -79,5 +79,8 @@ msgstr ""
 #~ " argomento (i.e. char *argv[]) al "
 #~ "programma stesso quando questo viene "
 #~ "eseguito."
+#~ msgstr ""
+
+#~ msgid "# Scrivere un programma che:"
 #~ msgstr ""
 

@@ -2,19 +2,23 @@
 """"""""""""""""""
 
 Riscaldamento
--------------
+'''''''''''''
 
-# Scrivere un programma che:
+#. Scrivere un programma che:
+
   * prende una stringa da tastiera e la inserisce all’interno di un buffer allocato dinamicamente nella heap da parte della funzione scanf().
   * Copia poi tale stringa all’interno di un secondo buffer allocato sullo stack della taglia necessaria a contenerla.
   * Libera quindi il buffer allocato nella heap.
   * Stampa sullo schermo la stringa copiata nel buffer allocato sullo stack.
 
-# Scrivere un programma che:
+
+#. Scrivere un programma che:
+
   * prende una stringa passata come primo argomento (i.e. :code:`char *argv[]`) al programma stesso quando questo viene eseguito.
   * Copia tale stringa all’interno di un buffer di dimensione fissa facendo attenzione a non superare il limite imposto dalla taglia, e stamparla quindi sullo schermo.
   * Rigira la stringa (primo carattere in ultima posizione, secondo carattere in penultima posizione, ecc.) senza fare utilizzo di un ulteriore buffer
   * Stampa anche questa stringa sullo schermo.
+
 
 .. comment:
   #. Nei sistemi operativi UNIX, `/dev/urandom <https://man7.org/linux/man-pages/man4/random.4.html>`_ è un dispositivo a caratteri (char device) virtuale in grado di generare numeri casuali. 
