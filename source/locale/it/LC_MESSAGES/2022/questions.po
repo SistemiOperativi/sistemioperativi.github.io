@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-27 10:41+0200\n"
+"POT-Creation-Date: 2022-09-27 11:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,56 +32,56 @@ msgstr ""
 msgid "Domande"
 msgstr ""
 
-#: ../source/2022/q_exercises/intro.rst:4 ../source/2022/questions/intro.rst:4
+#: ../source/2022/q_exercises/intro.rst:2 ../source/2022/questions/intro.rst:2
 msgid "1 - Introduzione"
 msgstr ""
 
-#: ../source/2022/questions/intro.rst:6
+#: ../source/2022/questions/intro.rst:4
 msgid ""
 "Descrivere il concetto di interrupt e mostrare il suo utilizzo nei "
 "sistemi operativi."
 msgstr ""
 
-#: ../source/2022/questions/intro.rst:7
+#: ../source/2022/questions/intro.rst:5
 msgid "Descrivere le principali strutture dati di un sistema operativo."
 msgstr ""
 
-#: ../source/2022/questions/intro.rst:8
+#: ../source/2022/questions/intro.rst:6
 msgid ""
 "Descrivere i principali benefici e le criticità introdotte della "
 "multiprogrammazione."
 msgstr ""
 
-#: ../source/2022/questions/intro.rst:9
+#: ../source/2022/questions/intro.rst:7
 msgid ""
 "Cosa sono le system call e quali relazioni hanno con le librerie di "
 "sistema?"
 msgstr ""
 
-#: ../source/2022/questions/intro.rst:10
+#: ../source/2022/questions/intro.rst:8
 msgid ""
 "Riportare esempi di supporti hardware necessari al sistema operativo per "
 "garantire la protezione delle risorse."
 msgstr ""
 
-#: ../source/2022/questions/intro.rst:11
+#: ../source/2022/questions/intro.rst:9
 msgid "Quali sono gli obiettivi principali di un sistema operativo?"
 msgstr ""
 
-#: ../source/2022/questions/intro.rst:12
+#: ../source/2022/questions/intro.rst:10
 msgid ""
 "Perché la distinzione tra modo kernel e modo user è una forma di "
 "protezione?"
 msgstr ""
 
-#: ../source/2022/questions/intro.rst:13
+#: ../source/2022/questions/intro.rst:11
 msgid ""
 "Descrivere 3 servizi di sistema operativo e spiegare perché sono "
 "convenienti per gli utenti. Inoltre, perché è sconveniente che siano "
 "forniti da programmi user?"
 msgstr ""
 
-#: ../source/2022/questions/intro.rst:14
+#: ../source/2022/questions/intro.rst:12
 msgid ""
 "Descrivere le principali caratteristiche di un sistema batch e di un "
 "sistema batch multiprogrammato, discutendo anche in modo comparativo i "
@@ -99,41 +99,97 @@ msgid ""
 "le soluzioni proposte potrebbe non essere le uniche ammissibili."
 msgstr ""
 
-#: ../source/2022/q_exercises/intro.rst:7
+#: ../source/2022/q_exercises/intro.rst:5
 msgid "Si consideri un programma di cui:"
 msgstr ""
 
-#: ../source/2022/q_exercises/intro.rst:9
+#: ../source/2022/q_exercises/intro.rst:7
 #, python-format
 msgid "il 60% del tempo di esecuzione è parallelizzabile;"
 msgstr ""
 
-#: ../source/2022/q_exercises/intro.rst:10
+#: ../source/2022/q_exercises/intro.rst:8
 #, python-format
 msgid ""
 "l'80% del tempo non parallelizzabile può essere ottimizzato tramite "
 "l'adozione di un algoritmo 16 volte più veloce."
 msgstr ""
 
-#: ../source/2022/q_exercises/intro.rst:12
+#: ../source/2022/q_exercises/intro.rst:10
 msgid "Calcolare lo speedup ottenibile tramite:"
 msgstr ""
 
-#: ../source/2022/q_exercises/intro.rst:14
+#: ../source/2022/q_exercises/intro.rst:12
 msgid "la sola ottimizzazione a) con 2 e 4 core;"
 msgstr ""
 
-#: ../source/2022/q_exercises/intro.rst:15
+#: ../source/2022/q_exercises/intro.rst:13
 msgid "tramite la sola ottimizzazione b);"
 msgstr ""
 
-#: ../source/2022/q_exercises/intro.rst:16
+#: ../source/2022/q_exercises/intro.rst:14
 msgid "l'applicazione congiunta di a) e b) con 2 e 4 core."
 msgstr ""
 
-#: ../source/2022/q_exercises/intro.rst:18
+#: ../source/2022/q_exercises/intro.rst:16
 msgid ""
 "Infine, riportare lo speedup massimo raggiungibile tramite ottimizzazione"
 " a) e b)."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:2
+msgid "8- Programmazione"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:5
+msgid "Riscaldamento"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:11
+#: ../source/2022/q_exercises/programming.rst:17
+msgid "# Scrivere un programma che:"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:8
+msgid ""
+"prende una stringa da tastiera e la inserisce all’interno di un buffer "
+"allocato dinamicamente nella heap da parte della funzione scanf()."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:9
+msgid ""
+"Copia poi tale stringa all’interno di un secondo buffer allocato sullo "
+"stack della taglia necessaria a contenerla."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:10
+msgid "Libera quindi il buffer allocato nella heap."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:11
+msgid "Stampa sullo schermo la stringa copiata nel buffer allocato sullo stack."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:14
+msgid ""
+"prende una stringa passata come primo argomento (i.e. :code:`char "
+"*argv[]`) al programma stesso quando questo viene eseguito."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:15
+msgid ""
+"Copia tale stringa all’interno di un buffer di dimensione fissa facendo "
+"attenzione a non superare il limite imposto dalla taglia, e stamparla "
+"quindi sullo schermo."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:16
+msgid ""
+"Rigira la stringa (primo carattere in ultima posizione, secondo carattere"
+" in penultima posizione, ecc.) senza fare utilizzo di un ulteriore buffer"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:17
+msgid "Stampa anche questa stringa sullo schermo."
 msgstr ""
 

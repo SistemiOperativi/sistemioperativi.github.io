@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 12:20+0200\n"
+"POT-Creation-Date: 2022-09-27 11:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../source/2022/q_exercises/programming.rst:4
+#: ../source/2022/q_exercises/programming.rst:2
 msgid "8- Programmazione"
 msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:5
+msgid "Riscaldamento"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:11
+#: ../source/2022/q_exercises/programming.rst:17
+msgid "# Scrivere un programma che:"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:8
+msgid ""
+"prende una stringa da tastiera e la inserisce all’interno di un buffer "
+"allocato dinamicamente nella heap da parte della funzione scanf()."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:9
+msgid ""
+"Copia poi tale stringa all’interno di un secondo buffer allocato sullo "
+"stack della taglia necessaria a contenerla."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:10
+msgid "Libera quindi il buffer allocato nella heap."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:11
+msgid "Stampa sullo schermo la stringa copiata nel buffer allocato sullo stack."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:14
+msgid ""
+"prende una stringa passata come primo argomento (i.e. :code:`char "
+"*argv[]`) al programma stesso quando questo viene eseguito."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:15
+msgid ""
+"Copia tale stringa all’interno di un buffer di dimensione fissa facendo "
+"attenzione a non superare il limite imposto dalla taglia, e stamparla "
+"quindi sullo schermo."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:16
+msgid ""
+"Rigira la stringa (primo carattere in ultima posizione, secondo carattere"
+" in penultima posizione, ecc.) senza fare utilizzo di un ulteriore buffer"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:17
+msgid "Stampa anche questa stringa sullo schermo."
+msgstr ""
+
+#~ msgid ""
+#~ "prende una stringa passata come primo"
+#~ " argomento (i.e. char *argv[]) al "
+#~ "programma stesso quando questo viene "
+#~ "eseguito."
+#~ msgstr ""
 
