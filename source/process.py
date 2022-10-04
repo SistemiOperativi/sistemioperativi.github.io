@@ -1,6 +1,7 @@
 import numpy
+import sys
 
-f = open("exams.rst")
+f = open(sys.argv[1])
 
 d = {}
 
@@ -20,14 +21,14 @@ for line in f.readlines():
         if line[0] not in d:
             d[line[0]] = []
         d[line[0]] = [line[1]] + d[line[0]]
-        print(line)
+        #print(line)
 
 
 passed = {}
 scores = []
 
 for k in d:
-    print(k,d[k])
+    #print(k,d[k])
     if "N.D" not in d[k][-1] and "Ins" not in d[k][-1]:
         if len(d[k]) not in passed:
             passed[len(d[k])] = 0
@@ -43,8 +44,8 @@ for k in d:
 
 
 
-print(len(d))
-print(passed)
+#print(len(d))
+#print(passed)
 
 tot_passed = 0
 for k in range(5)[1:]:
@@ -64,7 +65,7 @@ for k in range(32)[18:]:
 for k in scores:
     histo[k] += 1
 
-print(scores)
-print(numpy.average(scores))
-print(numpy.median(scores))
+#print(scores)
+print("AVG score:  ", numpy.average(scores))
+print("AVG median: ",numpy.median(scores))
 print(histo)

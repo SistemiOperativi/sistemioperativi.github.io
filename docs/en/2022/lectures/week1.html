@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>28/09/2022 - Introduzione parte 2 &mdash; Operating Systems 2021/2022 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="/it/2022/lectures/week1.html"><img src="/it/_static/it.png"/></a>
+            <a href="/en/2022/lectures/week1.html"><img src="/it/_static/en.png"/></a>
+            <a href="../../index.html" class="icon icon-home"> Operating Systems
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Sistemi Operativi A.A. 2022/2023</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linux_install.html">Installing Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples.html">Esempi di programmazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../questions.html">Esercizi di preparazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Diario delle lezioni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../challenges.html">Sfide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exams.html">Appelli</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../errata.html">Errata Corrige</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editions.html">Precedenti edizioni del corso</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Operating Systems</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>28/09/2022 - Introduzione parte 2</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/2022/lectures/week1.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="introduzione-parte-2">
+<h1>28/09/2022 - Introduzione parte 2<a class="headerlink" href="#introduzione-parte-2" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Evoluzione dei sistemi operativi: Sistemi time-sharing, Sistemi Real time, Multicore, Dark silicon</p></li>
+<li><p>Sincronizzazione e Speedup: concetto di lock e legge di Amdahl</p></li>
+<li><p>Sistemi operativi: elementi chiave</p></li>
+<li><p>Interrupt: eventi, supporto hardware</p></li>
+<li><p>Interrupt-driven os: protezione delle risorse (istruzioni privilegiate, protezione memoria, timer) e accesso a codice di sistema operativo (system call)</p></li>
+</ul>
+<div class="section" id="riferimenti-libro-di-testo">
+<h2>Riferimenti libro di testo<a class="headerlink" href="#riferimenti-libro-di-testo" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../../index.html#books"><span class="std std-ref">t1</span></a>] Sezione 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 4.3</p></li>
+<li><p>[<a class="reference internal" href="../../index.html#books"><span class="std std-ref">t2</span></a>] Sezione 1.2, 1.4, 2.7, 2.3.1, 2.3.2</p></li>
+</ul>
+</div>
+<div class="section" id="link-di-approfondimento">
+<h2>Link di approfondimento<a class="headerlink" href="#link-di-approfondimento" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.gotw.ca/publications/concurrency-ddj.htm">The free lunch is over</a></p></li>
+<li><p><a class="reference external" href="https://dl.acm.org/doi/pdf/10.5555/110382.110450">Legge di Amdahl Sezione 4 Eq. 11</a></p></li>
+<li><p>Codice sorgente glibc: <a class="reference external" href="https://sourceware.org/git/?p=glibc.git;a=blob;f=sysdeps/unix/sysv/linux/i386/syscall.S;">syscall</a></p></li>
+<li><p>Codice sorgente Linux Kernel: <a class="reference external" href="https://elixir.bootlin.com/linux/v5.14.7/source/arch/x86/kernel/idt.c#L79">IDT</a></p></li>
+<li><p><a class="reference external" href="https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf">Introduction to Operating Systems</a></p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="introduzione-parte-1">
+<h1>27/09/2022 - Introduzione parte 1<a class="headerlink" href="#introduzione-parte-1" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Sistemi operativi: definizione ed obiettivi</p></li>
+<li><p>Evoluzione dei sistemi operativi: Sistemi seriali, Sistemi batch</p></li>
+</ul>
+<div class="section" id="id1">
+<h2>Riferimenti libro di testo<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../../index.html#books"><span class="std std-ref">t1</span></a>] Sezione 2.1, 2.2</p></li>
+<li><p>[<a class="reference internal" href="../../index.html#books"><span class="std std-ref">t2</span></a>] Sezione 1.1</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Romolo Marotta.
+      <span class="lastupdated">Last updated on Oct 04, 2022.
+      </span></p>
+  </div>
+  <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
+
+ 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

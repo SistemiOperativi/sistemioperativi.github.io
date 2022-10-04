@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 12:20+0200\n"
+"POT-Creation-Date: 2022-10-04 12:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,4 +33,118 @@ msgid ""
 "L'unione dei paragrafi può non rappresentare la totalità degli argomenti "
 "trattati durante la lezione."
 msgstr ""
+
+#: ../source/2022/lectures/week1.rst:2
+msgid "28/09/2022 - Introduzione parte 2"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:4
+msgid ""
+"Evoluzione dei sistemi operativi: Sistemi time-sharing, Sistemi Real "
+"time, Multicore, Dark silicon"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:5
+msgid "Sincronizzazione e Speedup: concetto di lock e legge di Amdahl"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:6
+msgid "Sistemi operativi: elementi chiave"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:7
+msgid "Interrupt: eventi, supporto hardware"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:8
+msgid ""
+"Interrupt-driven os: protezione delle risorse (istruzioni privilegiate, "
+"protezione memoria, timer) e accesso a codice di sistema operativo "
+"(system call)"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:11 ../source/2022/lectures/week1.rst:34
+msgid "Riferimenti libro di testo"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:12
+msgid "[:ref:`t1 <books>`] Sezione 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 4.3"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:13
+msgid "[:ref:`t2 <books>`] Sezione 1.2, 1.4, 2.7, 2.3.1, 2.3.2"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:16
+msgid "Link di approfondimento"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:18
+msgid ""
+"`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
+"ddj.htm>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:19
+msgid ""
+"`Legge di Amdahl Sezione 4 Eq. 11 "
+"<https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:20
+msgid ""
+"Codice sorgente glibc: `syscall "
+"<https://sourceware.org/git/?p=glibc.git;a=blob;f=sysdeps/unix/sysv/linux/i386/syscall.S;>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:21
+msgid ""
+"Codice sorgente Linux Kernel: `IDT "
+"<https://elixir.bootlin.com/linux/v5.14.7/source/arch/x86/kernel/idt.c#L79>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:22
+msgid ""
+"`Introduction to Operating Systems "
+"<https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:28
+msgid "27/09/2022 - Introduzione parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:30
+msgid "Sistemi operativi: definizione ed obiettivi"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:31
+msgid "Evoluzione dei sistemi operativi: Sistemi seriali, Sistemi batch"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:36
+msgid "[:ref:`t1 <books>`] Sezione 2.1, 2.2"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:37
+msgid "[:ref:`t2 <books>`] Sezione 1.1"
+msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Sezione 1.1, 1.2, 1.3, 1.4"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Sezione 1.2, 2.3.1, 2.3.2"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Evoluzione dei sistemi operativi: Sistemi "
+#~ "seriali, Sistemi batch, Sistemi time-"
+#~ "sharing, Sistemi Real time, Multicore, "
+#~ "Dark silicon"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Sezione 2.1, 2.2, 2.3, 4.3"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Sezione 1.1, 1.4, 2.7"
+#~ msgstr ""
 

@@ -1,0 +1,9 @@
+04-10-2022 - avviso: aggionamenti
+-------------------------------------------------
+
+* Sito del corso:
+
+  * aggiornate slide di introduzione
+  * aggiunte slide su richiami C e processi e thread
+  * aggiornato diario delle lezioni del 27/09 e 28/09
+

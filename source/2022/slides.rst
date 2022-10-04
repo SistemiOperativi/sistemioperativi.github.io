@@ -3,10 +3,11 @@ Slides
 
 In questa sezione potete scaricare le slide delle lezioni.
 
-* `01 - Introduzione  </slides/01-so-introduzione-210927v1.pdf>`_ 
+* :download:`01 - Introduzione <slides/01-so-introduzione-221004v1.pdf>` (Aggiornato il 04/10/2022)
+* :download:`02 - Richiami C <slides/02-so-richiamiC-221003.pdf>` 
+* :download:`03 - Processi e threads <slides/03-so-processi-221004v1.pdf>` 
     
 ..
-    * `02 - Processi e thread </slides/02-so-processi-v4-211116.pdf>`_ [Aggiornato il 21/11/21] 
     * `03 - CPU scheduling </slides/03-so-cpu-scheduling-261017v2.pdf>`_ [Aggiornato il 26/10/21]
     * `04 - Sincronizzazione </slides/04-sincronizzazione-211030v1.pdf>`_
     * `05 - Gestione delle memoria </slides/05-memoria-v5-211124.pdf>`_ [Aggiornato il 24/11/21]
@@ -38,10 +39,14 @@ Documentazione
 Approfondimenti
 """""""""""""""
 
+* `Legge di Amdahl Sezione 4 Eq. 11 <http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_
+* `glibc source code <https://sourceware.org/git/?p=glibc.git;a=summary>`_
+* `Linux Kernel Source Code <https://elixir.bootlin.com/>`_
+* `The free lunch is over <http://www.gotw.ca/publications/concurrency-ddj.htm>`_
+* `Introduction to Operating Systems <https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf>`_
+
+
 .. 
-    * `Legge di Amdahl Sezione 4 Eq. 11 <http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_
-    * `Linux Kernel Source Code <https://elixir.bootlin.com/>`_
-    * `The free lunch is over <http://www.gotw.ca/publications/concurrency-ddj.htm>`_
     * `Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_
     * `Complete Fair Scheduler <https://www.kernel.org/doc/html/latest/scheduler/sched-design-CFS.html>`_
     * `Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_
