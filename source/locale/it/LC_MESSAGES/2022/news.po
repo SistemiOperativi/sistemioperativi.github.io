@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 12:25+0200\n"
+"POT-Creation-Date: 2022-10-11 12:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,12 +22,24 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: ../source/2022/news/221004.rst:2
-msgid "04-10-2022 - avviso: aggionamenti"
+#: ../source/2022/news/221011.rst:2
+msgid "11-10-2022 - avviso: aggionamenti"
 msgstr ""
 
-#: ../source/2022/news/221004.rst:4
+#: ../source/2022/news/221004.rst:4 ../source/2022/news/221011.rst:4
 msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/2022/news/221011.rst:6
+msgid "aggiornate slide su: * richiami C * processi e thread"
+msgstr ""
+
+#: ../source/2022/news/221011.rst:9
+msgid "aggiornato diario delle lezioni del 04/10 e 05/10"
+msgstr ""
+
+#: ../source/2022/news/221004.rst:2
+msgid "04-10-2022 - avviso: aggionamenti"
 msgstr ""
 
 #: ../source/2022/news/221004.rst:6
@@ -41,4 +53,7 @@ msgstr ""
 #: ../source/2022/news/221004.rst:8
 msgid "aggiornato diario delle lezioni del 27/09 e 28/09"
 msgstr ""
+
+#~ msgid "aggiornate slide su richiami C e processi e thread"
+#~ msgstr ""
 

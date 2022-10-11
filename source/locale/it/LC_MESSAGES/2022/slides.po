@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 12:14+0200\n"
+"POT-Creation-Date: 2022-10-11 12:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,11 +33,15 @@ msgid ""
 msgstr ""
 
 #: ../source/2022/slides.rst:7
-msgid ":download:`02 - Richiami C <slides/02-so-richiamiC-221003.pdf>`"
+msgid ""
+":download:`02 - Richiami C <slides/02-so-richiamiC-221003v2.pdf>` "
+"(Aggiornato il 11/10/2022)"
 msgstr ""
 
 #: ../source/2022/slides.rst:8
-msgid ":download:`03 - Processi e threads <slides/03-so-processi-221004v1.pdf>`"
+msgid ""
+":download:`03 - Processi e threads <slides/03-so-processi-221011v2.pdf>` "
+"(Aggiornato il 11/10/2022)"
 msgstr ""
 
 #: ../source/2022/slides.rst:19
@@ -90,5 +94,19 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "`glibc <https://sourceware.org/git/?p=glibc.git;a=summary>`_"
+#~ msgstr ""
+
+#~ msgid ":download:`02 - Richiami C <slides/02-so-richiamiC-221003.pdf>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`03 - Processi e threads "
+#~ "<slides/03-so-processi-221004v1.pdf>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`03 - Processi e threads "
+#~ "<slides/03-so-processi-221011v2.pdf.pdf>` "
+#~ "(Aggiornato il 11/10/2022)"
 #~ msgstr ""
 

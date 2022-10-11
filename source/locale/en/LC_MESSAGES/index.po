@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 12:25+0200\n"
+"POT-Creation-Date: 2022-10-11 12:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,21 +41,25 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:11
+msgid ":ref:`n11-10-2022`"
+msgstr ""
+
+#: ../source/index.rst:12
 msgid ":ref:`n04-10-2022`"
 msgstr ""
 
-#: ../source/index.rst:13
+#: ../source/index.rst:14
 #, fuzzy
 msgid ""
 "Per la lista completa degli aggiornamenti visita la sezione dedicata: "
 ":doc:`2022/news`"
 msgstr "The full list of news can be accessed at the following link: :doc:`news`"
 
-#: ../source/index.rst:16
+#: ../source/index.rst:17
 msgid "Obiettivi del corso"
 msgstr "Course objectives"
 
-#: ../source/index.rst:18
+#: ../source/index.rst:19
 msgid ""
 "L'obiettivo del corso è fornire allo studente competenze "
 "sull'architettura di un generico sistema operativo moderno, con "
@@ -70,31 +74,31 @@ msgstr ""
 "resources. Finally, practical aspects will be also covered, in  "
 "particular system programming and scripting."
 
-#: ../source/index.rst:24
+#: ../source/index.rst:25
 msgid "Orario delle lezioni"
 msgstr "Schedule"
 
-#: ../source/index.rst:27
+#: ../source/index.rst:28
 msgid "Giorno"
 msgstr "Day"
 
-#: ../source/index.rst:27
+#: ../source/index.rst:28
 msgid "Orario"
 msgstr "Time"
 
-#: ../source/index.rst:27
+#: ../source/index.rst:28
 msgid "Aula"
 msgstr "Classroom"
 
-#: ../source/index.rst:29
+#: ../source/index.rst:30
 msgid "Martedì"
 msgstr "Tuesday"
 
-#: ../source/index.rst:29 ../source/index.rst:30
+#: ../source/index.rst:30 ../source/index.rst:31
 msgid "16:00 - 18:00"
 msgstr ""
 
-#: ../source/index.rst:29 ../source/index.rst:30
+#: ../source/index.rst:30 ../source/index.rst:31
 #, python-format
 msgid ""
 "N13 [Vasca Navale 79/81] - `Aula Teams <https://teams.microsoft.com/l"
@@ -103,44 +107,44 @@ msgid ""
 "-834a-955f8618ef03%22%7d>`_"
 msgstr ""
 
-#: ../source/index.rst:30
+#: ../source/index.rst:31
 msgid "Mercoledì"
 msgstr "Wednesday"
 
-#: ../source/index.rst:35
+#: ../source/index.rst:36
 msgid "Il corso è pensato per essere seguito dagli studenti in presenza."
 msgstr ""
 
-#: ../source/index.rst:36
+#: ../source/index.rst:37
 msgid ""
 "Le lezioni saranno comunque trasmesse in streaming e registrate, ma "
 "queste ulteriori modalità di erogazione sono disponibili soprattutto per "
 "coloro che saltuariamente non possono partecipare alle lezioni."
 msgstr ""
 
-#: ../source/index.rst:37
+#: ../source/index.rst:38
 msgid ""
 "Se, per motivi tecnici, non sarà possibile registrare o trasmettere, la "
 "lezione sarà impartita ugualmente."
 msgstr ""
 
-#: ../source/index.rst:38
+#: ../source/index.rst:39
 msgid ""
 "Se il docente riterrà utile usare la lavagna e non sarà possibile "
 "inquadrarla in modo efficace, la lezione si svolgerà ugualmente."
 msgstr ""
 
-#: ../source/index.rst:39
+#: ../source/index.rst:40
 msgid ""
 "Non è detto che sarà possibile, per gli studenti che parteciperanno in "
 "remoto, interagire con il docente durante la lezione."
 msgstr ""
 
-#: ../source/index.rst:43
+#: ../source/index.rst:44
 msgid "Link ai contenuti del corso"
 msgstr "Link to course contents"
 
-#: ../source/index.rst:45
+#: ../source/index.rst:46
 msgid ""
 "`Teams "
 "<https://teams.microsoft.com/l/team/19%3aP9MxSHe2y0q9wpw9GJCsoFpsgnuKhN9ETf4DxOOIrw01%40thread.tacv2/conversations?groupId"
@@ -148,33 +152,33 @@ msgid ""
 "f49226de3c01&tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a>`_"
 msgstr ""
 
-#: ../source/index.rst:46
+#: ../source/index.rst:47
 msgid ""
 "`SharePoint <https://uniroma3.sharepoint.com/sites/AA2223"
 "-SISTEMIOPERATIVI-20801961MAROTTA/Documenti%20Condivisi/General>`_"
 msgstr ""
 
-#: ../source/index.rst:47
+#: ../source/index.rst:48
 msgid "Stream"
 msgstr ""
 
-#: ../source/index.rst:48
+#: ../source/index.rst:49
 msgid "`Moodle <https://ingegneria.el.uniroma3.it/course/view.php?id=1395>`_"
 msgstr ""
 
-#: ../source/index.rst:49
+#: ../source/index.rst:50
 msgid "`GitHub  <https://github.com/SistemiOperativi>`_"
 msgstr ""
 
-#: ../source/index.rst:50
+#: ../source/index.rst:51
 msgid ":doc:`Slides <2022/slides>`"
 msgstr ""
 
-#: ../source/index.rst:53
+#: ../source/index.rst:54
 msgid "Ricevimento"
 msgstr "Student reception"
 
-#: ../source/index.rst:55
+#: ../source/index.rst:56
 #, fuzzy
 msgid ""
 "Contattare il docente alla seguente email "
@@ -184,100 +188,100 @@ msgstr ""
 "Please, contact the lecturer at **{nome}.{cognome}@uniroma3.it** and use "
 "[SO2122] as object."
 
-#: ../source/index.rst:59
+#: ../source/index.rst:60
 msgid "Modalità d'esame"
 msgstr "Exam details"
 
-#: ../source/index.rst:61
+#: ../source/index.rst:62
 #, fuzzy
 msgid ""
 "L'esame prevede 2 prove i cui punteggi sono ripartiti secondo quanto "
 "segue."
 msgstr "The exam is made of 2 tests, whose points are assigned as the following."
 
-#: ../source/index.rst:64
+#: ../source/index.rst:65
 msgid "# Test"
 msgstr ""
 
-#: ../source/index.rst:64
+#: ../source/index.rst:65
 msgid "Tipologia"
 msgstr "Topic"
 
-#: ../source/index.rst:64
+#: ../source/index.rst:65
 msgid "Punti"
 msgstr "Points"
 
-#: ../source/index.rst:64
+#: ../source/index.rst:65
 msgid "Perc."
 msgstr ""
 
-#: ../source/index.rst:64
+#: ../source/index.rst:65
 msgid "Sufficienza"
 msgstr "Minimum mark"
 
-#: ../source/index.rst:66
+#: ../source/index.rst:67
 msgid "1"
 msgstr ""
 
-#: ../source/index.rst:66
+#: ../source/index.rst:67
 msgid "Domande di teoria"
 msgstr "Theory questions"
 
-#: ../source/index.rst:66
+#: ../source/index.rst:67
 msgid "~20"
 msgstr ""
 
-#: ../source/index.rst:66
+#: ../source/index.rst:67
 msgid "~65%"
 msgstr ""
 
-#: ../source/index.rst:66
+#: ../source/index.rst:67
 msgid "~12"
 msgstr ""
 
-#: ../source/index.rst:68
+#: ../source/index.rst:69
 msgid "2"
 msgstr ""
 
-#: ../source/index.rst:68
+#: ../source/index.rst:69
 msgid "Esercizi di programmazione"
 msgstr "Programming exercises"
 
-#: ../source/index.rst:68
+#: ../source/index.rst:69
 msgid "~11"
 msgstr ""
 
-#: ../source/index.rst:68
+#: ../source/index.rst:69
 msgid "~35%"
 msgstr ""
 
-#: ../source/index.rst:68
+#: ../source/index.rst:69
 msgid "~6"
 msgstr ""
 
-#: ../source/index.rst:71
+#: ../source/index.rst:72
 msgid "Regole:"
 msgstr "Rules:"
 
-#: ../source/index.rst:73
+#: ../source/index.rst:74
 msgid "Il voto finale è pari alla somma dei punteggi ottenuti:"
 msgstr "The final mark is the sum of points obtained"
 
-#: ../source/index.rst:75
+#: ../source/index.rst:76
 msgid "nei test 1 e 2;"
 msgstr "by passing test 1 and 2;"
 
-#: ../source/index.rst:76
+#: ../source/index.rst:77
 msgid "dalla vincita di una sfida avanzata dal docente."
 msgstr "by winning the challenges provided by the lecturer."
 
-#: ../source/index.rst:78
+#: ../source/index.rst:79
 msgid "Per superare l'esame occorre ottenere la sufficienza in entrambi i test."
 msgstr ""
 "To pass the exam it is necessary to obtain at least the minimum mark in "
 "both tests."
 
-#: ../source/index.rst:79
+#: ../source/index.rst:80
 #, fuzzy
 msgid ""
 "Qualora la sufficienza sia stata conseguita solo su uno dei due test, lo "
@@ -290,11 +294,11 @@ msgstr ""
 "2021/2022. The student will be allowed to take the test again only where "
 "she/he did not obtain the minimum score."
 
-#: ../source/index.rst:80
+#: ../source/index.rst:81
 msgid "Per la lode è richiesto un punteggio di 31 punti."
 msgstr "A score of 31 points is required for honors"
 
-#: ../source/index.rst:81
+#: ../source/index.rst:82
 #, fuzzy
 msgid ""
 "I punteggi ottenuti nei test e nelle sfide potranno essere mantenuti fino"
@@ -303,15 +307,15 @@ msgstr ""
 "The scores obtained in the tests and challenges can be kept until the "
 "last exam session for the A.Y. 2021/2022"
 
-#: ../source/index.rst:84
+#: ../source/index.rst:85
 msgid "Date"
 msgstr "Dates"
 
-#: ../source/index.rst:89
+#: ../source/index.rst:90
 msgid "Testi consigliati e link utili (in aggiornamento)"
 msgstr "Textbooks and useful links (still updating)"
 
-#: ../source/index.rst:91
+#: ../source/index.rst:92
 msgid ""
 "[t1] Operating Systems: Internals and Design Principles - William "
 "Stallings - Prentice Hall, fifth edition (o superiori). Riferimento: "
@@ -321,7 +325,7 @@ msgstr ""
 "Stallings - Prentice Hall, fifth edition (or higher). Reference: ninth "
 "global edition."
 
-#: ../source/index.rst:92
+#: ../source/index.rst:93
 msgid ""
 "[t2] Sistemi operativi: Concetti ed Esempi - Silberschatz Abraham, Galvin"
 " Peter Baer, Gagne Greg - Addison Wesley/Pearson, nona edizione (o "
@@ -331,7 +335,7 @@ msgstr ""
 " Gagne Greg - Addison Wesley/Pearson, ninth edizione (or higher). "
 "Reference: tenth global edition."
 
-#: ../source/index.rst:93
+#: ../source/index.rst:94
 msgid ""
 "[t3] Programmazione in Ambiente UNIX - Francesco Quaglia, Camil "
 "Demetrescu - `Disponibile in formato pdf "
@@ -343,11 +347,11 @@ msgstr ""
 "<https://francescoquaglia.github.io/TEACHING/SISTEMI-"
 "OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf>`_"
 
-#: ../source/index.rst:99
+#: ../source/index.rst:100
 msgid "Programma"
 msgstr "Planned topics"
 
-#: ../source/index.rst:101
+#: ../source/index.rst:102
 msgid ""
 "**Panoramica sui sistemi operativi moderni.** definizione di sistema "
 "operativo, scopi, architettura a strati, kernel/user mode, "
@@ -356,7 +360,7 @@ msgstr ""
 "**Overview of modern operating systems:** definition, goals, "
 "architectures, kernel/user mode, main concepts"
 
-#: ../source/index.rst:102
+#: ../source/index.rst:103
 msgid ""
 "**Processi e Thread.** dispatching, stati, descrizione e controllo, "
 "modelli tipici di sistemi operativi e di uso della memoria nei processi"
@@ -364,19 +368,19 @@ msgstr ""
 "**Processes and Threads.** dispatching, states, description and control, "
 "models and process memory"
 
-#: ../source/index.rst:103
+#: ../source/index.rst:104
 msgid ""
 "**Scheduling.** a breve medio e lungo termine, algoritmi per cpu "
 "scheduling"
 msgstr "**Scheduling:** long, mid and short term scheduling, CPU scheduling"
 
-#: ../source/index.rst:104
+#: ../source/index.rst:105
 msgid "**Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori"
 msgstr ""
 "**Synchonization:** synchronization primitives, Read-Modify-Write, locks,"
 " mutex, semaphores"
 
-#: ../source/index.rst:105
+#: ../source/index.rst:106
 msgid ""
 "**Memoria.** allocatori di memoria, partitioning, best/first/next fit, "
 "buddy algorithm, paging, segmentation, memoria virtuale e sua gestione "
@@ -385,7 +389,7 @@ msgstr ""
 "**Memory:**, allocators, partitioning, paging, segmentation, virtual "
 "memory"
 
-#: ../source/index.rst:106
+#: ../source/index.rst:107
 #, fuzzy
 msgid ""
 "**I/O e File Management.** Disk scheduling, UNIX File Management, inode, "
@@ -394,7 +398,7 @@ msgstr ""
 "**I/O and file management:** Disk scheduling, :removedtopic:`RAID`, UNIX "
 "file management, Linux VFS"
 
-#: ../source/index.rst:107
+#: ../source/index.rst:108
 #, fuzzy
 msgid ""
 "**Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione "
@@ -406,13 +410,13 @@ msgstr ""
 "redirection, :removedtopic:`piping, signals, regular expressions (sed e "
 "grep), scripting`,  Linux filesystem management"
 
-#: ../source/index.rst:108
+#: ../source/index.rst:109
 msgid ""
 "**Programmazione di Sistema.** Gestione in C dei processi/thread su "
 "ambiente linux"
 msgstr "**System programming:** Process and thread management in C"
 
-#: ../source/index.rst:109
+#: ../source/index.rst:110
 #, fuzzy
 msgid ""
 "**Debugger**. utilizzo di gdb stepping, breakpoints, watching, backtrace,"
@@ -421,7 +425,7 @@ msgstr ""
 ":removedtopic:`**Debugger:** gdb stepping, breakpoints, watching, "
 "backtrace, gdb commands`"
 
-#: ../source/index.rst:110
+#: ../source/index.rst:111
 #, fuzzy
 msgid "**Virtualizzazione.** Concetti generali, container, Docker"
 msgstr ":removedtopic:`**Virtualization:** main concepts, containers, Docker`"

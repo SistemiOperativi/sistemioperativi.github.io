@@ -4,8 +4,8 @@ Slides
 In questa sezione potete scaricare le slide delle lezioni.
 
 * :download:`01 - Introduzione <slides/01-so-introduzione-221004v1.pdf>` (Aggiornato il 04/10/2022)
-* :download:`02 - Richiami C <slides/02-so-richiamiC-221003.pdf>` 
-* :download:`03 - Processi e threads <slides/03-so-processi-221004v1.pdf>` 
+* :download:`02 - Richiami C <slides/02-so-richiamiC-221003v2.pdf>` (Aggiornato il 11/10/2022)
+* :download:`03 - Processi e threads <slides/03-so-processi-221011v2.pdf>` (Aggiornato il 11/10/2022)
     
 ..
     * `03 - CPU scheduling </slides/03-so-cpu-scheduling-261017v2.pdf>`_ [Aggiornato il 26/10/21]
