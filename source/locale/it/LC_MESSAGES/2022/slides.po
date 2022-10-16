@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-11 12:59+0200\n"
+"POT-Creation-Date: 2022-10-11 13:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,34 +48,48 @@ msgstr ""
 msgid "Documentazione"
 msgstr ""
 
-#: ../source/2022/slides.rst:40
-msgid "Approfondimenti"
+#: ../source/2022/slides.rst:22
+msgid "`POSIX <https://pubs.opengroup.org/onlinepubs/9699919799>`_"
+msgstr ""
+
+#: ../source/2022/slides.rst:23
+msgid "`Linux <https://man7.org/linux/man-pages/>`_"
 msgstr ""
 
 #: ../source/2022/slides.rst:42
+msgid "Approfondimenti"
+msgstr ""
+
+#: ../source/2022/slides.rst:44
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:43
+#: ../source/2022/slides.rst:45
 msgid "`glibc source code <https://sourceware.org/git/?p=glibc.git;a=summary>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:44
+#: ../source/2022/slides.rst:46
 msgid "`Linux Kernel Source Code <https://elixir.bootlin.com/>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:45
+#: ../source/2022/slides.rst:47
 msgid ""
 "`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
 "ddj.htm>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:46
+#: ../source/2022/slides.rst:48
 msgid ""
 "`Introduction to Operating Systems "
 "<https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf>`_"
+msgstr ""
+
+#: ../source/2022/slides.rst:49
+msgid ""
+"`GCC and Make Compiling, Linking and Building C/C++ Applications "
+"<https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html>`_"
 msgstr ""
 
 #~ msgid "`01 - Introduzione  </slides/01-so-introduzione-210927v1.pdf>`_"

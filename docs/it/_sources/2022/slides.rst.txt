@@ -18,9 +18,11 @@ In questa sezione potete scaricare le slide delle lezioni.
 Documentazione
 """"""""""""""
 
-..
+
     * `POSIX <https://pubs.opengroup.org/onlinepubs/9699919799>`_
     * `Linux <https://man7.org/linux/man-pages/>`_
+
+..
     * `gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-Builtins.html#g_t_005f_005fsync-Builtins>`_
     * `GCC Thread Local Storage <https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html>`_
     * `Linux Kernel <https://www.kernel.org/doc/html/latest/>`_
@@ -44,6 +46,7 @@ Approfondimenti
 * `Linux Kernel Source Code <https://elixir.bootlin.com/>`_
 * `The free lunch is over <http://www.gotw.ca/publications/concurrency-ddj.htm>`_
 * `Introduction to Operating Systems <https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf>`_
+* `GCC and Make Compiling, Linking and Building C/C++ Applications <https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html>`_
 
 
 .. 
