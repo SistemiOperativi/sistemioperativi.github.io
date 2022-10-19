@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 12:14+0200\n"
+"POT-Creation-Date: 2022-10-19 18:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,11 +52,11 @@ msgid "Riferimenti libro di testo"
 msgstr ""
 
 #: ../source/2022/lectures/week1.rst:12
-msgid "[:ref:`t1 <books>`] Sezione 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 4.3"
+msgid "[:ref:`t1 <books2022>`] Sezione 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 4.3"
 msgstr ""
 
 #: ../source/2022/lectures/week1.rst:13
-msgid "[:ref:`t2 <books>`] Sezione 1.2, 1.4, 2.7, 2.3.1, 2.3.2"
+msgid "[:ref:`t2 <books2022>`] Sezione 1.2, 1.4, 2.7, 2.3.1, 2.3.2"
 msgstr ""
 
 #: ../source/2022/lectures/week1.rst:16
@@ -106,11 +106,11 @@ msgid "Evoluzione dei sistemi operativi: Sistemi seriali, Sistemi batch"
 msgstr ""
 
 #: ../source/2022/lectures/week1.rst:36
-msgid "[:ref:`t1 <books>`] Sezione 2.1, 2.2"
+msgid "[:ref:`t1 <books2022>`] Sezione 2.1, 2.2"
 msgstr ""
 
 #: ../source/2022/lectures/week1.rst:37
-msgid "[:ref:`t2 <books>`] Sezione 1.1"
+msgid "[:ref:`t2 <books2022>`] Sezione 1.1"
 msgstr ""
 
 #~ msgid "[:ref:`t1 <books>`] Sezione 1.1, 1.2, 1.3, 1.4"
@@ -130,5 +130,29 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "[:ref:`t2 <books>`] Sezione 1.1, 1.4, 2.7"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Sezione 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 4.3"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Sezione 1.2, 1.4, 2.7, 2.3.1, 2.3.2"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Sezione 2.1, 2.2"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Sezione 1.1"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books_2022>`] Sezione 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 4.3"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books_2022>`] Sezione 1.2, 1.4, 2.7, 2.3.1, 2.3.2"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books_2022>`] Sezione 2.1, 2.2"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books_2022>`] Sezione 1.1"
 #~ msgstr ""
 

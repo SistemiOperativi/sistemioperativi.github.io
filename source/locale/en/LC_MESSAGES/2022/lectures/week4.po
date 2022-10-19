@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 18:18+0200\n"
+"POT-Creation-Date: 2022-10-19 18:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,11 +67,13 @@ msgid "Riferimenti libro di testo"
 msgstr ""
 
 #: ../source/2022/lectures/week4.rst:21
-msgid "[:ref:`t1 <books>`] Sezione 3.6, 4.1, 4.2"
+msgid "[:ref:`t1 <books2022>`] Sezione 3.6, 4.1, 4.2"
 msgstr ""
 
 #: ../source/2022/lectures/week4.rst:22
-msgid "[:ref:`t2 <books>`] Sezione 3.2, 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4, 4.7.2"
+msgid ""
+"[:ref:`t2 <books2022>`] Sezione 3.2, 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4, "
+"4.7.2"
 msgstr ""
 
 #: ../source/2022/lectures/week4.rst:25 ../source/2022/lectures/week4.rst:61
@@ -151,15 +153,15 @@ msgid "Shell Linux: ls, man, cd"
 msgstr ""
 
 #: ../source/2022/lectures/week4.rst:56
-msgid "[:ref:`t1 <books>`] Sezione 2.3"
+msgid "[:ref:`t1 <books2022>`] Sezione 2.3"
 msgstr ""
 
 #: ../source/2022/lectures/week4.rst:57
-msgid "[:ref:`t2 <books>`] Sezione 3.1.2, 3.3.1"
+msgid "[:ref:`t2 <books2022>`] Sezione 3.1.2, 3.3.1"
 msgstr ""
 
 #: ../source/2022/lectures/week4.rst:58
-msgid "[:ref:`t3 <books>`] Sezione 3.2, 3.3"
+msgid "[:ref:`t3 <books2022>`] Sezione 3.2, 3.3"
 msgstr ""
 
 #: ../source/2022/lectures/week4.rst:63
@@ -178,5 +180,39 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "19/10/2022 - Processi parte 1 - Thread parte 1 (tentative)"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Sezione 3.6, 4.1, 4.2"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[:ref:`t2 <books>`] Sezione 3.2, 4.1, "
+#~ "4.2, 4.3, 4.4, 4.4.1, 4.6.4, 4.7.2"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Sezione 2.3"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Sezione 3.1.2, 3.3.1"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t3 <books>`] Sezione 3.2, 3.3"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books_2022>`] Sezione 3.6, 4.1, 4.2"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[:ref:`t2 <books_2022>`] Sezione 3.2, 4.1, "
+#~ "4.2, 4.3, 4.4, 4.4.1, 4.6.4, 4.7.2"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books_2022>`] Sezione 2.3"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books_2022>`] Sezione 3.1.2, 3.3.1"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t3 <books_2022>`] Sezione 3.2, 3.3"
 #~ msgstr ""
 

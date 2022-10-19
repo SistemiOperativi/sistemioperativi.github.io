@@ -11,9 +11,9 @@
     * Gerarchie di processi
     * Utilizzo documentazione online e da riga di comando Linux (man)
 
-* [:ref:`t1 <books>`] Sezione 3.4, 
-* [:ref:`t2 <books>`] Sezione 3.3, 3.3.1, 3.3.2
-* [:ref:`t3 <books>`] Sezione 1.2, 3.1
+* [:ref:`t1 <books2022>`] Sezione 3.4, 
+* [:ref:`t2 <books2022>`] Sezione 3.3, 3.3.1, 3.3.2
+* [:ref:`t3 <books2022>`] Sezione 1.2, 3.1
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -43,5 +43,5 @@ Riferimenti libro di testo
 """"""""""""""""""""""""""
 
 
-* [:ref:`t1 <books>`] Sezione 3.1, 3.2, 3.3
-* [:ref:`t2 <books>`] Sezione 3.1.1, 3.1.2, 3.1.3, 3.2, 3.2.1, 3.2.2, 3.2.3
+* [:ref:`t1 <books2022>`] Sezione 3.1, 3.2, 3.3
+* [:ref:`t2 <books2022>`] Sezione 3.1.1, 3.1.2, 3.1.3, 3.2, 3.2.1, 3.2.2, 3.2.3

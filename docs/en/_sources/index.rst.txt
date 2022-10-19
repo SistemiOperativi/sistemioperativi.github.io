@@ -85,7 +85,7 @@ Regole:
 Date
 """"""""
 
-.. _books:
+.. _books2022:
 
 Testi consigliati e link utili (in aggiornamento)
 -------------------------------------------------

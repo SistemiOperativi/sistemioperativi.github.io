@@ -17,7 +17,7 @@ Esempi di codice
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t2 <books>`] Sezione 3.1.1
+* [:ref:`t2 <books2022>`] Sezione 3.1.1
 
 
 Link di approfondimento
@@ -48,4 +48,4 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t2 <books>`] Sezione 2.3.1, 2.3.2, 2.8
+* [:ref:`t2 <books2022>`] Sezione 2.3.1, 2.3.2, 2.8

@@ -18,8 +18,8 @@
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 3.6, 4.1, 4.2
-* [:ref:`t2 <books>`] Sezione 3.2, 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4, 4.7.2
+* [:ref:`t1 <books2022>`] Sezione 3.6, 4.1, 4.2
+* [:ref:`t2 <books2022>`] Sezione 3.2, 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4, 4.7.2
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -53,9 +53,9 @@ Riferimenti libro di testo
 
 
 
-* [:ref:`t1 <books>`] Sezione 2.3
-* [:ref:`t2 <books>`] Sezione 3.1.2, 3.3.1
-* [:ref:`t3 <books>`] Sezione 3.2, 3.3
+* [:ref:`t1 <books2022>`] Sezione 2.3
+* [:ref:`t2 <books2022>`] Sezione 3.1.2, 3.3.1
+* [:ref:`t3 <books2022>`] Sezione 3.2, 3.3
 
 Link di approfondimento
 """""""""""""""""""""""

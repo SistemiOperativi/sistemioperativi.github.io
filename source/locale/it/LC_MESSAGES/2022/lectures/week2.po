@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-11 12:38+0200\n"
+"POT-Creation-Date: 2022-10-19 18:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgid "Riferimenti libro di testo"
 msgstr ""
 
 #: ../source/2022/lectures/week2.rst:20
-msgid "[:ref:`t2 <books>`] Sezione 3.1.1"
+msgid "[:ref:`t2 <books2022>`] Sezione 3.1.1"
 msgstr ""
 
 #: ../source/2022/lectures/week2.rst:24
@@ -113,9 +113,21 @@ msgid "Architettura dei Sistemi Operativi"
 msgstr ""
 
 #: ../source/2022/lectures/week2.rst:51
-msgid "[:ref:`t2 <books>`] Sezione 2.3.1, 2.3.2, 2.8"
+msgid "[:ref:`t2 <books2022>`] Sezione 2.3.1, 2.3.2, 2.8"
 msgstr ""
 
 #~ msgid ":download:`02 - Richiami C <examples/02-c_examples.zip>`"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Sezione 3.1.1"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Sezione 2.3.1, 2.3.2, 2.8"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books_2022>`] Sezione 3.1.1"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books_2022>`] Sezione 2.3.1, 2.3.2, 2.8"
 #~ msgstr ""
 
