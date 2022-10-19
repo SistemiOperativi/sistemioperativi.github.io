@@ -1,0 +1,10 @@
+19-10-2022 - avviso: aggionamenti
+-------------------------------------------------
+
+* Sito del corso:
+
+  * aggiornato diario delle lezioni del 18/10 e 19/10
+  * aggiunti nuovi esempi di codice
+  * aggiunte nuove domande di teoria
+  * aggiunti nuovi esercizi di programmazione
+  * aggiornate slide su processi e threads

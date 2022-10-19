@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-27 11:40+0200\n"
+"POT-Creation-Date: 2022-10-19 18:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,6 +88,41 @@ msgid ""
 "vantaggi o svantaggi dell'uno verso l'altro."
 msgstr ""
 
+#: ../source/2022/q_exercises/processes.rst:2
+#: ../source/2022/questions/processes.rst:2
+msgid "2- Processi e thread"
+msgstr ""
+
+#: ../source/2022/questions/processes.rst:4
+msgid "Descrivi il concetto di mode switch e di process switch."
+msgstr ""
+
+#: ../source/2022/questions/processes.rst:5
+msgid ""
+"Descrivi il concetto di processo. Quali sono i possibili stati di un "
+"processo?"
+msgstr ""
+
+#: ../source/2022/questions/processes.rst:6
+msgid ""
+"Quando un processo viene creato tramite *fork*, cosa è condiviso tra "
+"processo parent e child?"
+msgstr ""
+
+#: ../source/2022/questions/processes.rst:7
+msgid "Spiegare la differenza tra il processo e thread."
+msgstr ""
+
+#: ../source/2022/questions/processes.rst:8
+msgid "Quale è la differenza tra User-Level Thread e Kernel-Level Thread?"
+msgstr ""
+
+#: ../source/2022/questions/processes.rst:9
+msgid ""
+"Quando un thread viene creato tramite *pthread_create*, cosa è condiviso "
+"tra thread parent e child?"
+msgstr ""
+
 #: ../source/2022/questions.rst:22
 msgid "Esercizi di teoria"
 msgstr ""
@@ -135,6 +170,57 @@ msgstr ""
 msgid ""
 "Infine, riportare lo speedup massimo raggiungibile tramite ottimizzazione"
 " a) e b)."
+msgstr ""
+
+#: ../source/2022/q_exercises/processes.rst:4
+#: ../source/2022/q_exercises/processes.rst:10
+#: ../source/2022/q_exercises/processes.rst:16
+msgid "Scrivere un programma in C che:"
+msgstr ""
+
+#: ../source/2022/q_exercises/processes.rst:6
+#: ../source/2022/q_exercises/processes.rst:12
+msgid ""
+"prende inizialmente una stringa da input (può contenere anche spazi "
+"bianchi) e la salva in un buffer"
+msgstr ""
+
+#: ../source/2022/q_exercises/processes.rst:7
+msgid ""
+"fork-a un processo figlio che manda in stampa la stessa stringa acquisita"
+" dal processo padre."
+msgstr ""
+
+#: ../source/2022/q_exercises/processes.rst:8
+msgid ""
+"Il processo padre termina solo dopo che il processo figlio ha terminato "
+"(verificare che tale ordine è rispettato stampando i PID dei processi)."
+msgstr ""
+
+#: ../source/2022/q_exercises/processes.rst:13
+msgid ""
+"fork-are 2 processi figli che contribuiscono a stampare la stringa "
+"inversa della stringa acquisita dal processo padre."
+msgstr ""
+
+#: ../source/2022/q_exercises/processes.rst:14
+msgid "Il processo padre termina solo dopo che i processi figli hanno terminato."
+msgstr ""
+
+#: ../source/2022/q_exercises/processes.rst:18
+msgid ""
+"prende inizialmente N (a piacere) stringhe rappresentanti N directory "
+"corrette"
+msgstr ""
+
+#: ../source/2022/q_exercises/processes.rst:19
+msgid ""
+"fork-a quindi N processi che andranno ad eseguire il comando ls su una "
+"directory differente."
+msgstr ""
+
+#: ../source/2022/q_exercises/processes.rst:20
+msgid "Il processo padre termina dopo i processi figli"
 msgstr ""
 
 #: ../source/2022/questions.rst:44
@@ -213,5 +299,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Programmazione"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Il processo padre termina solo dopo "
+#~ "che il processo figlio ha terminato "
+#~ "(verificare che tale ordine è rispettato"
+#~ " stampando i PID dei processi)."
 #~ msgstr ""
 

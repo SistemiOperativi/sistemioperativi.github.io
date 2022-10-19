@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-16 18:49+0200\n"
+"POT-Creation-Date: 2022-10-19 18:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,13 +22,37 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: ../source/2022/news/221016.rst:2
-msgid "16-10-2022 - avviso: aggionamenti"
+#: ../source/2022/news/221019.rst:2
+msgid "19-10-2022 - avviso: aggionamenti"
 msgstr ""
 
 #: ../source/2022/news/221004.rst:4 ../source/2022/news/221011.rst:4
-#: ../source/2022/news/221016.rst:4
+#: ../source/2022/news/221016.rst:4 ../source/2022/news/221019.rst:4
 msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/2022/news/221019.rst:6
+msgid "aggiornato diario delle lezioni del 18/10 e 19/10"
+msgstr ""
+
+#: ../source/2022/news/221019.rst:7
+msgid "aggiunti nuovi esempi di codice"
+msgstr ""
+
+#: ../source/2022/news/221019.rst:8
+msgid "aggiunte nuove domande di teoria"
+msgstr ""
+
+#: ../source/2022/news/221019.rst:9
+msgid "aggiunti nuovi esercizi di programmazione"
+msgstr ""
+
+#: ../source/2022/news/221019.rst:10
+msgid "aggiornate slide su processi e threads"
+msgstr ""
+
+#: ../source/2022/news/221016.rst:2
+msgid "16-10-2022 - avviso: aggionamenti"
 msgstr ""
 
 #: ../source/2022/news/221016.rst:6
