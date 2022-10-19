@@ -39,8 +39,8 @@ Per ogni lezione vengono riportati riferimenti a paragrafi dei libri di testo.
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 8.2
-* [:ref:`t2 <books>`] Sezione 10.4, 10.4.1, 10.4.2, 10.4.3, 10.4.4, 10.4.5, 10.5, 10.5.1, 10.5.2, 10.5.3, 10.5.4, 10.6, 10.6.1, 10.6.2, 10.6.3
+* [:ref:`t1 <textbooks>`] Sezione 8.2
+* [:ref:`t2 <textbooks>`] Sezione 10.4, 10.4.1, 10.4.2, 10.4.3, 10.4.4, 10.4.5, 10.5, 10.5.1, 10.5.2, 10.5.3, 10.5.4, 10.6, 10.6.1, 10.6.2, 10.6.3
 
 
 23/11/2021 - Gestione della memoria parte 4
@@ -54,8 +54,8 @@ Riferimenti libro di testo
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 8.2
-* [:ref:`t2 <books>`] Sezione 10.1, 10.2, 10.2.1, 10.2.2, 10.2.3 
+* [:ref:`t1 <textbooks>`] Sezione 8.2
+* [:ref:`t2 <textbooks>`] Sezione 10.1, 10.2, 10.2.1, 10.2.2, 10.2.3 
 
 
 
@@ -73,8 +73,8 @@ Riferimenti libro di testo
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 7.4, 8.1
-* [:ref:`t2 <books>`] Sezione 9.6, 10.1
+* [:ref:`t1 <textbooks>`] Sezione 7.4, 8.1
+* [:ref:`t2 <textbooks>`] Sezione 9.6, 10.1
 
 
 Link di approfondimento
@@ -97,8 +97,8 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 7.3, 8.1 paragrafo Paging
-* [:ref:`t2 <books>`] Sezione 9.1.1, 9.1.2, 9.1.3, 9.3, 9.3.1, 9.3.2, 9.3.3, 9.3.2, 9.4, 9.4.1
+* [:ref:`t1 <textbooks>`] Sezione 7.3, 8.1 paragrafo Paging
+* [:ref:`t2 <textbooks>`] Sezione 9.1.1, 9.1.2, 9.1.3, 9.3, 9.3.1, 9.3.2, 9.3.3, 9.3.2, 9.4, 9.4.1
 
 -----------------------------------------------------------------------------------
 
@@ -131,8 +131,8 @@ Riferimenti libro di testo
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 7.1, 7.2
-* [:ref:`t2 <books>`] Sezione 6.6, 7.3.2, 9.1, 9.1.1, 9.2, 9.2.1, 9.2.3 
+* [:ref:`t1 <textbooks>`] Sezione 7.1, 7.2
+* [:ref:`t2 <textbooks>`] Sezione 6.6, 7.3.2, 9.1, 9.1.1, 9.2, 9.2.1, 9.2.3 
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -154,8 +154,8 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 5.3
-* [:ref:`t2 <books>`] Sezione 6.4, 6.5, 6.6, 7.3.1
+* [:ref:`t1 <textbooks>`] Sezione 5.3
+* [:ref:`t2 <textbooks>`] Sezione 6.4, 6.5, 6.6, 7.3.1
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -193,8 +193,8 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 5.1, 5.2, 6.1
-* [:ref:`t2 <books>`] Sezione 6.3, 6.8, 8.2, 8.3
+* [:ref:`t1 <textbooks>`] Sezione 5.1, 5.2, 6.1
+* [:ref:`t2 <textbooks>`] Sezione 6.3, 6.8, 8.2, 8.3
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -213,8 +213,8 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 10.3, 10.4, 5
-* [:ref:`t2 <books>`] Sezione 5.7.1, 6.1, 6.2
+* [:ref:`t1 <textbooks>`] Sezione 10.3, 10.4, 5
+* [:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -255,8 +255,8 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 9.2, 10.1
-* [:ref:`t2 <books>`] Sezione 5.5
+* [:ref:`t1 <textbooks>`] Sezione 9.2, 10.1
+* [:ref:`t2 <textbooks>`] Sezione 5.5
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -280,8 +280,8 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 9.2
-* [:ref:`t2 <books>`] Sezione 5.3
+* [:ref:`t1 <textbooks>`] Sezione 9.2
+* [:ref:`t2 <textbooks>`] Sezione 5.3
 
 
 
@@ -312,8 +312,8 @@ Riferimenti libro di testo
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 3.6, 9.1, 9.2
-* [:ref:`t2 <books>`] Sezione 3.2, 4.6.4, 4.7.2, 5.1, 5.2
+* [:ref:`t1 <textbooks>`] Sezione 3.6, 9.1, 9.2
+* [:ref:`t2 <textbooks>`] Sezione 3.2, 4.6.4, 4.7.2, 5.1, 5.2
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -338,8 +338,8 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 4.1, 4.2
-* [:ref:`t2 <books>`] Sezione 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4
+* [:ref:`t1 <textbooks>`] Sezione 4.1, 4.2
+* [:ref:`t2 <textbooks>`] Sezione 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -382,9 +382,9 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 2.3
-* [:ref:`t2 <books>`] Sezione 3.1.2, 3.3.1
-* [:ref:`t3 <books>`] Sezione 3.2, 3.3
+* [:ref:`t1 <textbooks>`] Sezione 2.3
+* [:ref:`t2 <textbooks>`] Sezione 3.1.2, 3.3.1
+* [:ref:`t3 <textbooks>`] Sezione 3.2, 3.3
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -408,9 +408,9 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 3.4, 
-* [:ref:`t2 <books>`] Sezione 3.2.3, 3.3.1, 3.3.2
-* [:ref:`t3 <books>`] Sezione 1.2, 3.1
+* [:ref:`t1 <textbooks>`] Sezione 3.4, 
+* [:ref:`t2 <textbooks>`] Sezione 3.2.3, 3.3.1, 3.3.2
+* [:ref:`t3 <textbooks>`] Sezione 1.2, 3.1
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -449,8 +449,8 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 3.2, 3.3, 9.2
-* [:ref:`t2 <books>`] Sezione 2.3.1, 2.3.2, 2.8, 3.1.2, 3.2
+* [:ref:`t1 <textbooks>`] Sezione 3.2, 3.3, 9.2
+* [:ref:`t2 <textbooks>`] Sezione 2.3.1, 2.3.2, 2.8, 3.1.2, 3.2
 
 -----------------------------------------------------------------------------------
 
@@ -474,8 +474,8 @@ Riferimenti libro di testo
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 2.7, 2.8, 3.1, 3.2
-* [:ref:`t2 <books>`] Sezione 2.3.1, 2.3.2, 2.8, 3.1.1, 3.1.3 
+* [:ref:`t1 <textbooks>`] Sezione 2.7, 2.8, 3.1, 3.2
+* [:ref:`t2 <textbooks>`] Sezione 2.3.1, 2.3.2, 2.8, 3.1.1, 3.1.3 
 
 -----------------------------------------------------------------------------------
 
@@ -506,8 +506,8 @@ Riferimenti libro di testo
 
 Riferimenti libro di testo
 """"""""""""""""""""""""""
-* [:ref:`t1 <books>`] Sezione 1.1, 1.2, 1.3, 1.4
-* [:ref:`t2 <books>`] Sezione 1.2, 2.3.1, 2.3.2 
+* [:ref:`t1 <textbooks>`] Sezione 1.1, 1.2, 1.3, 1.4
+* [:ref:`t2 <textbooks>`] Sezione 1.2, 2.3.1, 2.3.2 
 
 Link di approfondimento
 """""""""""""""""""""""
@@ -527,8 +527,8 @@ Link di approfondimento
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 2.1, 2.2, 2.3, 4.3
-* [:ref:`t2 <books>`] Sezione 1.1, 1.4, 2.7
+* [:ref:`t1 <textbooks>`] Sezione 2.1, 2.2, 2.3, 4.3
+* [:ref:`t2 <textbooks>`] Sezione 1.1, 1.4, 2.7
 
 
 Link di approfondimento

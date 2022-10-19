@@ -111,7 +111,7 @@ Date
   * 21-02-2022. **Se e solo se** la capienza dell'aula non sarà sufficiente ad ospitare il numero di prenotati,  verranno considerate le seguenti date aggiuntive: 24-02-2022, 28-02-2022.  
   * L'assegnazione alle date aggiuntive viene fatta secondo una politica First-Come-First-Serve.
 
-.. _books:
+.. _textbooks:
 
 Testi consigliati e link utili (in aggiornamento)
 -------------------------------------------------

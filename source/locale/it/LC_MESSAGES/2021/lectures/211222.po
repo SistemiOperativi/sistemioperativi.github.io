@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"POT-Creation-Date: 2022-10-19 19:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,11 +83,11 @@ msgid "Riferimenti e libri di testo"
 msgstr ""
 
 #: ../source/2021/lectures/211222.rst:26
-msgid "[:ref:`t1 <books>`] Sezione 15.2, 15.4"
+msgid "[:ref:`t1 <textbooks>`] Sezione 15.2, 15.4"
 msgstr ""
 
 #: ../source/2021/lectures/211222.rst:27
-msgid "[:ref:`t2 <books>`] Sezione 16.2.2"
+msgid "[:ref:`t2 <textbooks>`] Sezione 16.2.2"
 msgstr ""
 
 #: ../source/2021/lectures/211222.rst:29
@@ -137,11 +137,11 @@ msgid "Approfondimenti"
 msgstr ""
 
 #: ../source/2021/lectures/211222.rst:41
-msgid "[:ref:`t1 <books>`] Capitolo 15"
+msgid "[:ref:`t1 <textbooks>`] Capitolo 15"
 msgstr ""
 
 #: ../source/2021/lectures/211222.rst:42
-msgid "[:ref:`t2 <books>`] Capitolo 16"
+msgid "[:ref:`t2 <textbooks>`] Capitolo 16"
 msgstr ""
 
 #: ../source/2021/lectures/211222.rst:43
@@ -161,4 +161,16 @@ msgstr ""
 #: ../source/2021/lectures/211222.rst:46
 msgid "`gdb <https://man7.org/linux/man-pages/man1/gdb.1.html>`_"
 msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Sezione 15.2, 15.4"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Sezione 16.2.2"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Capitolo 15"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Capitolo 16"
+#~ msgstr ""
 

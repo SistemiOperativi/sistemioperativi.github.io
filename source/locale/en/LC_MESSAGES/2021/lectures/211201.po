@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"POT-Creation-Date: 2022-10-19 19:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,11 +35,11 @@ msgid "Riferimenti libro di testo"
 msgstr ""
 
 #: ../source/2021/lectures/211201.rst:10
-msgid "[:ref:`t1 <books>`] Sezione 11.5"
+msgid "[:ref:`t1 <textbooks>`] Sezione 11.5"
 msgstr ""
 
 #: ../source/2021/lectures/211201.rst:11
-msgid "[:ref:`t2 <books>`] Sezione 11.1, 11.1.1, 11.1.2, 11.1.2.1, 11.2, 11.3"
+msgid "[:ref:`t2 <textbooks>`] Sezione 11.1, 11.1.1, 11.1.2, 11.1.2.1, 11.2, 11.3"
 msgstr ""
 
 #: ../source/2021/lectures/211201.rst:15
@@ -55,4 +55,10 @@ msgid ""
 "`Solid State Drives - Data Reliability and Lifetime "
 "<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
 msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Sezione 11.5"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Sezione 11.1, 11.1.1, 11.1.2, 11.1.2.1, 11.2, 11.3"
+#~ msgstr ""
 

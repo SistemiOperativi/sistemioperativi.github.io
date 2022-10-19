@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"POT-Creation-Date: 2022-10-19 19:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,13 +59,13 @@ msgid "Riferimenti libro di testo"
 msgstr ""
 
 #: ../source/2021/lectures/211214.rst:19
-msgid "[:ref:`t1 <books>`] Sezione 12.7, 12.8, 12.9"
+msgid "[:ref:`t1 <textbooks>`] Sezione 12.7, 12.8, 12.9"
 msgstr ""
 
 #: ../source/2021/lectures/211214.rst:20
 msgid ""
-"[:ref:`t2 <books>`] Sezione 14.4, 14.4.1, 14.4.2, 14.4.3, 14.6, 14.7, "
-"14.7.1, 14.7.2, 15.5"
+"[:ref:`t2 <textbooks>`] Sezione 14.4, 14.4.1, 14.4.2, 14.4.3, 14.6, 14.7,"
+" 14.7.1, 14.7.2, 15.5"
 msgstr ""
 
 #: ../source/2021/lectures/211214.rst:23
@@ -163,4 +163,13 @@ msgid ""
 "`POSIX chown "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/chown.html>`_"
 msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Sezione 12.7, 12.8, 12.9"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[:ref:`t2 <books>`] Sezione 14.4, 14.4.1, "
+#~ "14.4.2, 14.4.3, 14.6, 14.7, 14.7.1, "
+#~ "14.7.2, 15.5"
+#~ msgstr ""
 

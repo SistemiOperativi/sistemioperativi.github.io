@@ -7,8 +7,8 @@
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 11.5
-* [:ref:`t2 <books>`] Sezione 11.1, 11.1.1, 11.1.2, 11.1.2.1, 11.2, 11.3
+* [:ref:`t1 <textbooks>`] Sezione 11.5
+* [:ref:`t2 <textbooks>`] Sezione 11.1, 11.1.1, 11.1.2, 11.1.2.1, 11.2, 11.3
 
 
 Approfondimenti

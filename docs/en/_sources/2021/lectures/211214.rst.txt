@@ -16,8 +16,8 @@
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 
-* [:ref:`t1 <books>`] Sezione 12.7, 12.8, 12.9
-* [:ref:`t2 <books>`] Sezione 14.4, 14.4.1, 14.4.2, 14.4.3, 14.6, 14.7, 14.7.1, 14.7.2, 15.5 
+* [:ref:`t1 <textbooks>`] Sezione 12.7, 12.8, 12.9
+* [:ref:`t2 <textbooks>`] Sezione 14.4, 14.4.1, 14.4.2, 14.4.3, 14.6, 14.7, 14.7.1, 14.7.2, 15.5 
 
 Approfondimenti
 """""""""""""""

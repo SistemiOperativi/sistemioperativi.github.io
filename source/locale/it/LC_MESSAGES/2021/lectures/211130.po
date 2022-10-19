@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"POT-Creation-Date: 2022-10-19 19:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,13 +43,13 @@ msgid "Riferimenti libro di testo"
 msgstr ""
 
 #: ../source/2021/lectures/211130.rst:12
-msgid "[:ref:`t1 <books>`] Sezione 11, 11.1, 11.2, 11.3, 11.4"
+msgid "[:ref:`t1 <textbooks>`] Sezione 11, 11.1, 11.2, 11.3, 11.4"
 msgstr ""
 
 #: ../source/2021/lectures/211130.rst:13
 msgid ""
-"[:ref:`t2 <books>`] Sezione 12.2.2, 12.2.3, 12.3, 12.4, 12.4.1, 12.4.2, "
-"12.4.7"
+"[:ref:`t2 <textbooks>`] Sezione 12.2.2, 12.2.3, 12.3, 12.4, 12.4.1, "
+"12.4.2, 12.4.7"
 msgstr ""
 
 #: ../source/2021/lectures/211130.rst:17
@@ -57,6 +57,17 @@ msgid "Approfondimenti"
 msgstr ""
 
 #: ../source/2021/lectures/211130.rst:19
-msgid "[:ref:`t2 <books>`] Capitolo 12"
+msgid "[:ref:`t2 <textbooks>`] Capitolo 12"
 msgstr ""
+
+#~ msgid "[:ref:`t1 <books>`] Sezione 11, 11.1, 11.2, 11.3, 11.4"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[:ref:`t2 <books>`] Sezione 12.2.2, 12.2.3,"
+#~ " 12.3, 12.4, 12.4.1, 12.4.2, 12.4.7"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <books>`] Capitolo 12"
+#~ msgstr ""
 
