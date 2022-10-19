@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 10:08+0200\n"
+"POT-Creation-Date: 2022-10-19 19:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgid "Riferimenti"
 msgstr ""
 
 #: ../source/2021/examples/few.rst:87
-msgid "[:ref:`t3 <books>`] Sezione 1.2, 3.1"
+msgid "[:ref:`t3 <textbooks>`] Sezione 1.2, 3.1"
 msgstr ""
 
 #: ../source/2021/examples/few.rst:88
@@ -105,4 +105,7 @@ msgstr ""
 #: ../source/2021/examples/few.rst:90
 msgid ":posix:`wait <wait>`"
 msgstr ""
+
+#~ msgid "[:ref:`t3 <books>`] Sezione 1.2, 3.1"
+#~ msgstr ""
 

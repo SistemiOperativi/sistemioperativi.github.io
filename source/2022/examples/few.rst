@@ -87,7 +87,7 @@ grazie alla macro :code:`WEXITSTATUS` (il codice è memorizzato nel secondo byte
 Riferimenti
 """""""""""
 
-* [:ref:`t3 <books>`] Sezione 1.2, 3.1
+* [:ref:`t3 <books2022>`] Sezione 1.2, 3.1
 * :posix:`fork <fork>`
 * :posix:`exit <exit>`
 * :posix:`wait <wait>`

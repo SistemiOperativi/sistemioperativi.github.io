@@ -28,9 +28,9 @@ Esercizi di teoria
   Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili. 
 
 .. include::  q_exercises/intro.rst
-.. include::  q_exercises/processes.rst
   
 ..
+  .. include::  q_exercises/processes.rst
   .. include::	q_exercises/sched.rst
   .. include::	q_exercises/sync.rst
   .. include::	q_exercises/memory.rst

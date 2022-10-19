@@ -16,6 +16,29 @@
   * Stampa anche questa stringa sullo schermo.
 
 
+2 - Processi e threads
+""""""""""""""""""""""
+
+
+1. Scrivere un programma in C che:
+ 
+   * prende inizialmente una stringa da input (può contenere anche spazi bianchi) e la salva in un buffer
+   * fork-a un processo figlio che manda in stampa la stessa stringa acquisita dal processo padre.
+   * Il processo padre termina solo dopo che il processo figlio ha terminato (verificare che tale ordine è rispettato stampando i PID dei processi).
+
+2. Scrivere un programma in C che:
+ 
+  * prende inizialmente una stringa da input (può contenere anche spazi bianchi) e la salva in un buffer
+  * fork-are 2 processi figli che contribuiscono a stampare la stringa inversa della stringa acquisita dal processo padre.
+  * Il processo padre termina solo dopo che i processi figli hanno terminato.
+
+3. Scrivere un programma in C che:
+ 
+  * prende inizialmente N (a piacere) stringhe rappresentanti N directory corrette
+  * fork-a quindi N processi che andranno ad eseguire il comando ls su una directory differente.
+  * Il processo padre termina dopo i processi figli
+
+
 .. comment:
   #. Nei sistemi operativi UNIX, `/dev/urandom <https://man7.org/linux/man-pages/man4/random.4.html>`_ è un dispositivo a caratteri (char device) virtuale in grado di generare numeri casuali. 
      Nello specifico, l'operazione di lettura dal relativo file produce byte casuali. 
