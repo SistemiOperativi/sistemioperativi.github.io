@@ -3,17 +3,17 @@
 
 1. Scrivere un programma che:
 
-  * prende una stringa da tastiera e la inserisce all’interno di un buffer allocato dinamicamente nella heap da parte della funzione scanf().
-  * Copia poi tale stringa all’interno di un secondo buffer allocato sullo stack della taglia necessaria a contenerla.
-  * Libera quindi il buffer allocato nella heap.
-  * Stampa sullo schermo la stringa copiata nel buffer allocato sullo stack.
+   * prende una stringa da tastiera e la inserisce all’interno di un buffer allocato dinamicamente nella heap da parte della funzione scanf().
+   * Copia poi tale stringa all’interno di un secondo buffer allocato sullo stack della taglia necessaria a contenerla.
+   * Libera quindi il buffer allocato nella heap.
+   * Stampa sullo schermo la stringa copiata nel buffer allocato sullo stack.
   
 2. Scrivere un programma che:
   
-  * prende una stringa passata come primo argomento (i.e. :code:`char *argv[]`) al programma stesso quando questo viene eseguito.
-  * Copia tale stringa all’interno di un buffer di dimensione fissa facendo attenzione a non superare il limite imposto dalla taglia, e stamparla quindi sullo schermo.
-  * Rigira la stringa (primo carattere in ultima posizione, secondo carattere in penultima posizione, ecc.) senza fare utilizzo di un ulteriore buffer
-  * Stampa anche questa stringa sullo schermo.
+   * prende una stringa passata come primo argomento (i.e. :code:`char *argv[]`) al programma stesso quando questo viene eseguito.
+   * Copia tale stringa all’interno di un buffer di dimensione fissa facendo attenzione a non superare il limite imposto dalla taglia, e stamparla quindi sullo schermo.
+   * Rigira la stringa (primo carattere in ultima posizione, secondo carattere in penultima posizione, ecc.) senza fare utilizzo di un ulteriore buffer
+   * Stampa anche questa stringa sullo schermo.
 
 
 2 - Processi e threads
@@ -28,15 +28,15 @@
 
 2. Scrivere un programma in C che:
  
-  * prende inizialmente una stringa da input (può contenere anche spazi bianchi) e la salva in un buffer
-  * fork-are 2 processi figli che contribuiscono a stampare la stringa inversa della stringa acquisita dal processo padre.
-  * Il processo padre termina solo dopo che i processi figli hanno terminato.
+   * prende inizialmente una stringa da input (può contenere anche spazi bianchi) e la salva in un buffer
+   * fork-are 2 processi figli che contribuiscono a stampare la stringa inversa della stringa acquisita dal processo padre.
+   * Il processo padre termina solo dopo che i processi figli hanno terminato.
 
 3. Scrivere un programma in C che:
  
-  * prende inizialmente N (a piacere) stringhe rappresentanti N directory corrette
-  * fork-a quindi N processi che andranno ad eseguire il comando ls su una directory differente.
-  * Il processo padre termina dopo i processi figli
+   * prende inizialmente N (a piacere) stringhe rappresentanti N directory corrette
+   * fork-a quindi N processi che andranno ad eseguire il comando ls su una directory differente.
+   * Il processo padre termina dopo i processi figli
 
 
 .. comment:
