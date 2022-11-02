@@ -9,26 +9,43 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 18:31+0200\n"
+"POT-Creation-Date: 2022-11-02 15:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../source/2022/news.rst:2
 msgid "News"
 msgstr ""
 
-#: ../source/2022/news/221019.rst:2
-msgid "19-10-2022 - avviso: aggionamenti"
+#: ../source/2022/news/221102.rst:2
+msgid "02-11-2022 - avviso: aggionamenti"
 msgstr ""
 
 #: ../source/2022/news/221004.rst:4 ../source/2022/news/221011.rst:4
 #: ../source/2022/news/221016.rst:4 ../source/2022/news/221019.rst:4
+#: ../source/2022/news/221102.rst:4
 msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/2022/news/221102.rst:6
+msgid "aggiornato diario delle lezioni del 25/10 e 26/10"
+msgstr ""
+
+#: ../source/2022/news/221102.rst:7
+msgid "pubblicati nuovi esempi"
+msgstr ""
+
+#: ../source/2022/news/221102.rst:8
+msgid "pubblicati nuovi esercizi"
+msgstr ""
+
+#: ../source/2022/news/221019.rst:2
+msgid "19-10-2022 - avviso: aggionamenti"
 msgstr ""
 
 #: ../source/2022/news/221019.rst:6

@@ -9,10 +9,10 @@ News
 ----
 
 
+* :ref:`n02-11-2022`
 * :ref:`n19-10-2022`
 * :ref:`n16-10-2022`
 * :ref:`n11-10-2022`
-* :ref:`n04-10-2022`
 
 Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`2022/news`
 

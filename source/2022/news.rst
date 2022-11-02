@@ -3,6 +3,9 @@ News
 
 
 
+.. _n02-11-2022:
+.. include:: news/221102.rst
+
 .. _n19-10-2022:
 .. include:: news/221019.rst
 

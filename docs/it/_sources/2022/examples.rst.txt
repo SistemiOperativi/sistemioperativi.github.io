@@ -8,11 +8,12 @@ In questa sezione vengono riportati diversi esempi di codice per mostrare alcuni
 
 	examples/few
 	examples/minshell
+	examples/pfew
+	examples/pvst
+	examples/flipvector
+	
 
 .. 
-		examples/pfew
-		examples/pvst
-		examples/flipvector
 		examples/cp
 		examples/dup
 		examples/prodcons

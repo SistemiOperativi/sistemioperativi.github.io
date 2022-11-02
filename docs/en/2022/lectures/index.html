@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Diario delle lezioni &mdash; Operating Systems 2021/2022 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -48,41 +49,49 @@
 <li class="toctree-l1"><a class="reference internal" href="../questions.html">Esercizi di preparazione</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Diario delle lezioni</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#processi-parte-1-thread-parte-1">19/10/2022 - Processi parte 1 - Thread parte 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#thread-parte-2">26/10/2022 - Thread parte 2</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#riferimenti-libro-di-testo">Riferimenti libro di testo</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">25/10/2022 - Thread parte 2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Riferimenti libro di testo</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#processi-parte-1-thread-parte-1">19/10/2022 - Processi parte 1 - Thread parte 1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Riferimenti libro di testo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#link-di-approfondimento">Link di approfondimento</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#processi-parte-3">18/10/2022 - Processi parte 3</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id1">Riferimenti libro di testo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Link di approfondimento</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Riferimenti libro di testo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Link di approfondimento</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#processi-parte-2">12/10/2022 - Processi parte 2</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id3">Link di approfondimento</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Link di approfondimento</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#processi-parte-1">11/10/2022 - Processi parte 1</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id4">Riferimenti libro di testo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Riferimenti libro di testo</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#richiami-di-programmazione-c-parte-2">05/10/2022 - Richiami di programmazione C - parte 2</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#esempi-di-codice">Esempi di codice</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id5">Riferimenti libro di testo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id6">Link di approfondimento</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#introduzione-parte-3-richiami-di-programmazione-c-parte-1">04/10/2022 - Introduzione parte 3 - Richiami di programmazione C parte 1</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id7">Riferimenti libro di testo</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#introduzione-parte-2">28/09/2022 - Introduzione parte 2</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id8">Riferimenti libro di testo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id9">Link di approfondimento</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#introduzione-parte-1">27/09/2022 - Introduzione parte 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduzione-parte-3-richiami-di-programmazione-c-parte-1">04/10/2022 - Introduzione parte 3 - Richiami di programmazione C parte 1</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id10">Riferimenti libro di testo</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#introduzione-parte-2">28/09/2022 - Introduzione parte 2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Riferimenti libro di testo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">Link di approfondimento</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#introduzione-parte-1">27/09/2022 - Introduzione parte 1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id13">Riferimenti libro di testo</a></li>
 </ul>
 </li>
 </ul>
@@ -118,14 +127,58 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="diario-delle-lezioni">
+  <section id="diario-delle-lezioni">
 <h1>Diario delle lezioni<a class="headerlink" href="#diario-delle-lezioni" title="Permalink to this headline">¶</a></h1>
 <p>Per ogni lezione vengono riportati riferimenti a paragrafi dei libri di testo.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>L’unione dei paragrafi può non rappresentare la totalità degli argomenti trattati durante la lezione.</p>
 </div>
-<div class="section" id="processi-parte-1-thread-parte-1">
+<section id="thread-parte-2">
+<span id="l25-10-2022"></span><h2>26/10/2022 - Thread parte 2<a class="headerlink" href="#thread-parte-2" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p>Sincronizzazione</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Errori Comuni: Deadlock e Livelock</p></li>
+<li><p>Algoritmo di Peterson</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<section id="riferimenti-libro-di-testo">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#riferimenti-libro-di-testo" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t1</span></a>] Sezione 5, 5.1, 5.2, 6.1</p></li>
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t2</span></a>] Sezione 5.7.1, 6.1, 6.2, 6.3, 6.8, 8.2, 8.3</p></li>
+</ul>
+</section>
+</section>
+<section id="id1">
+<h2>25/10/2022 - Thread parte 2<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Threads:</p>
+<ul>
+<li><p>Esempio PFEW</p></li>
+</ul>
+</li>
+<li><p>Sincronizzazione</p>
+<ul>
+<li><p>Introduzione alla sincronizzazione</p></li>
+<li><p>Mutua Esclusione</p></li>
+<li><p>Errori Comuni: Deadlock e Livelock</p></li>
+</ul>
+</li>
+</ul>
+<section id="id2">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t1</span></a>] Sezione 5, 5.1, 5.2, 6.1</p></li>
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t2</span></a>] Sezione 5.7.1, 6.1, 6.2, 6.3, 6.8, 8.2, 8.3</p></li>
+</ul>
+</section>
+</section>
+<section id="processi-parte-1-thread-parte-1">
 <span id="l18-10-2022"></span><h2>19/10/2022 - Processi parte 1 - Thread parte 1<a class="headerlink" href="#processi-parte-1-thread-parte-1" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Processi</p>
@@ -145,14 +198,14 @@
 </ul>
 </li>
 </ul>
-<div class="section" id="riferimenti-libro-di-testo">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#riferimenti-libro-di-testo" title="Permalink to this headline">¶</a></h3>
+<section id="id3">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t1</span></a>] Sezione 3.6, 4.1, 4.2</p></li>
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t2</span></a>] Sezione 3.2, 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4, 4.7.2</p></li>
 </ul>
-</div>
-<div class="section" id="link-di-approfondimento">
+</section>
+<section id="link-di-approfondimento">
 <h3>Link di approfondimento<a class="headerlink" href="#link-di-approfondimento" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_create</a></p></li>
@@ -164,9 +217,9 @@
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_getspecific.html">pthread_getspecific</a></p></li>
 <li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html">GCC Thread Local Storage</a></p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="processi-parte-3">
+</section>
+</section>
+<section id="processi-parte-3">
 <h2>18/10/2022 - Processi parte 3<a class="headerlink" href="#processi-parte-3" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p>Processi:</p>
@@ -180,24 +233,24 @@
 </div></blockquote>
 </li>
 </ul>
-<div class="section" id="id1">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<section id="id4">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t1</span></a>] Sezione 2.3</p></li>
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t2</span></a>] Sezione 3.1.2, 3.3.1</p></li>
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t3</span></a>] Sezione 3.2, 3.3</p></li>
 </ul>
-</div>
-<div class="section" id="id2">
-<h3>Link di approfondimento<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id5">
+<h3>Link di approfondimento<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html">getenv</a></p></li>
 </ul>
 <hr class="docutils" />
-</div>
-</div>
-<div class="section" id="processi-parte-2">
+</section>
+</section>
+<section id="processi-parte-2">
 <span id="l11-10-2022"></span><h2>12/10/2022 - Processi parte 2<a class="headerlink" href="#processi-parte-2" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p>Processi:</p>
@@ -216,17 +269,17 @@
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t2</span></a>] Sezione 3.3, 3.3.1, 3.3.2</p></li>
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t3</span></a>] Sezione 1.2, 3.1</p></li>
 </ul>
-<div class="section" id="id3">
-<h3>Link di approfondimento<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<section id="id6">
+<h3>Link di approfondimento<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html">fork</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a></p></li>
 </ul>
-</div>
-</div>
+</section>
+</section>
 <hr class="docutils" />
-<div class="section" id="processi-parte-1">
+<section id="processi-parte-1">
 <h2>11/10/2022 - Processi parte 1<a class="headerlink" href="#processi-parte-1" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p>Processi:</p>
@@ -243,16 +296,16 @@
 </div></blockquote>
 </li>
 </ul>
-<div class="section" id="id4">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<section id="id7">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t1</span></a>] Sezione 3.1, 3.2, 3.3</p></li>
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t2</span></a>] Sezione 3.1.1, 3.1.2, 3.1.3, 3.2, 3.2.1, 3.2.2, 3.2.3</p></li>
 </ul>
 <hr class="docutils" />
-</div>
-</div>
-<div class="section" id="richiami-di-programmazione-c-parte-2">
+</section>
+</section>
+<section id="richiami-di-programmazione-c-parte-2">
 <span id="l04-10-2022"></span><h2>05/10/2022 - Richiami di programmazione C - parte 2<a class="headerlink" href="#richiami-di-programmazione-c-parte-2" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><dl class="simple">
@@ -267,20 +320,20 @@
 </dl>
 </li>
 </ul>
-<div class="section" id="esempi-di-codice">
+<section id="esempi-di-codice">
 <h3>Esempi di codice<a class="headerlink" href="#esempi-di-codice" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference download internal" download="" href="../../_downloads/d5857f19e2e40bda4ecbe5478926f944/02-c_examples.zip"><code class="xref download docutils literal notranslate"><span class="pre">02</span> <span class="pre">-</span> <span class="pre">Richiami</span> <span class="pre">C</span></code></a></p></li>
 </ul>
-</div>
-<div class="section" id="id5">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id8">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t2</span></a>] Sezione 3.1.1</p></li>
 </ul>
-</div>
-<div class="section" id="id6">
-<h3>Link di approfondimento<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id9">
+<h3>Link di approfondimento<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html">GCC and Make Compiling, Linking and Building C/C++ Applications</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/printf.html">POSIX printf</a></p></li>
@@ -288,10 +341,10 @@
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/scanf.html">POSIX scanf</a></p></li>
 <li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/scanf.3.html">Linux scanf</a></p></li>
 </ul>
-</div>
-</div>
+</section>
+</section>
 <hr class="docutils" />
-<div class="section" id="introduzione-parte-3-richiami-di-programmazione-c-parte-1">
+<section id="introduzione-parte-3-richiami-di-programmazione-c-parte-1">
 <h2>04/10/2022 - Introduzione parte 3 - Richiami di programmazione C parte 1<a class="headerlink" href="#introduzione-parte-3-richiami-di-programmazione-c-parte-1" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p>Introduzione:</p>
@@ -311,15 +364,15 @@
 </dl>
 </li>
 </ul>
-<div class="section" id="id7">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<section id="id10">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t2</span></a>] Sezione 2.3.1, 2.3.2, 2.8</p></li>
 </ul>
 <hr class="docutils" />
-</div>
-</div>
-<div class="section" id="introduzione-parte-2">
+</section>
+</section>
+<section id="introduzione-parte-2">
 <span id="l27-09-2022"></span><h2>28/09/2022 - Introduzione parte 2<a class="headerlink" href="#introduzione-parte-2" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Evoluzione dei sistemi operativi: Sistemi time-sharing, Sistemi Real time, Multicore, Dark silicon</p></li>
@@ -328,15 +381,15 @@
 <li><p>Interrupt: eventi, supporto hardware</p></li>
 <li><p>Interrupt-driven os: protezione delle risorse (istruzioni privilegiate, protezione memoria, timer) e accesso a codice di sistema operativo (system call)</p></li>
 </ul>
-<div class="section" id="id8">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<section id="id11">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t1</span></a>] Sezione 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 4.3</p></li>
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t2</span></a>] Sezione 1.2, 1.4, 2.7, 2.3.1, 2.3.2</p></li>
 </ul>
-</div>
-<div class="section" id="id9">
-<h3>Link di approfondimento<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id12">
+<h3>Link di approfondimento<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="http://www.gotw.ca/publications/concurrency-ddj.htm">The free lunch is over</a></p></li>
 <li><p><a class="reference external" href="https://dl.acm.org/doi/pdf/10.5555/110382.110450">Legge di Amdahl Sezione 4 Eq. 11</a></p></li>
@@ -344,24 +397,24 @@
 <li><p>Codice sorgente Linux Kernel: <a class="reference external" href="https://elixir.bootlin.com/linux/v5.14.7/source/arch/x86/kernel/idt.c#L79">IDT</a></p></li>
 <li><p><a class="reference external" href="https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf">Introduction to Operating Systems</a></p></li>
 </ul>
-</div>
-</div>
+</section>
+</section>
 <hr class="docutils" />
-<div class="section" id="introduzione-parte-1">
+<section id="introduzione-parte-1">
 <h2>27/09/2022 - Introduzione parte 1<a class="headerlink" href="#introduzione-parte-1" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Sistemi operativi: definizione ed obiettivi</p></li>
 <li><p>Evoluzione dei sistemi operativi: Sistemi seriali, Sistemi batch</p></li>
 </ul>
-<div class="section" id="id10">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<section id="id13">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t1</span></a>] Sezione 2.1, 2.2</p></li>
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t2</span></a>] Sezione 1.1</p></li>
 </ul>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
            </div>
@@ -375,7 +428,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on Oct 19, 2022.
+      <span class="lastupdated">Last updated on Nov 02, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

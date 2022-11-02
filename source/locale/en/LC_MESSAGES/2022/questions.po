@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 19:10+0200\n"
+"POT-Creation-Date: 2022-11-02 15:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../source/2022/questions.rst:2
 msgid "Esercizi di preparazione"
@@ -289,6 +289,14 @@ msgstr ""
 msgid "Il processo padre termina dopo i processi figli"
 msgstr ""
 
+#: ../source/2022/q_exercises/programming.rst:41
+msgid "Svolgere l'esercizio 2.1 utilizzando threads piuttosto che processi."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:42
+msgid "Svolgere l'esercizio 2.2 utilizzando threads piuttosto che processi."
+msgstr ""
+
 #~ msgid "# Scrivere un programma che:"
 #~ msgstr ""
 
@@ -309,5 +317,11 @@ msgstr ""
 #~ "che il processo figlio ha terminato "
 #~ "(verificare che tale ordine è rispettato"
 #~ " stampando i PID dei processi)."
+#~ msgstr ""
+
+#~ msgid "Svolgere l'esercizio 1 utilizzando threads piuttosto che processi."
+#~ msgstr ""
+
+#~ msgid "Svolgere l'esercizio 2 utilizzando threads piuttosto che processi."
 #~ msgstr ""
 

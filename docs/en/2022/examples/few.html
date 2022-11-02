@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FEW - Fork-Exit-Wait &mdash; Operating Systems 2021/2022 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -87,7 +88,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="few-fork-exit-wait">
+  <section id="few-fork-exit-wait">
 <h1>FEW - Fork-Exit-Wait<a class="headerlink" href="#few-fork-exit-wait" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;unistd.h&gt;</span><span class="cp"></span>
 <span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
@@ -151,7 +152,7 @@ A questo punto il child esegue:</p>
 <p>Nello specifico attende la terminazione di uno generico thread child tramite la system call <a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a>.
 Grazie a questa chiamata, può inoltre ottenere il codice di terminazione dalla variabile <code class="code docutils literal notranslate"><span class="pre">status</span></code>
 grazie alla macro <code class="code docutils literal notranslate"><span class="pre">WEXITSTATUS</span></code> (il codice è memorizzato nel secondo byte di <code class="code docutils literal notranslate"><span class="pre">status</span></code>).</p>
-<div class="section" id="riferimenti">
+<section id="riferimenti">
 <h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../../index.html#books2022"><span class="std std-ref">t3</span></a>] Sezione 1.2, 3.1</p></li>
@@ -159,8 +160,8 @@ grazie alla macro <code class="code docutils literal notranslate"><span class="p
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a></p></li>
 </ul>
-</div>
-</div>
+</section>
+</section>
 
 
            </div>
@@ -174,7 +175,7 @@ grazie alla macro <code class="code docutils literal notranslate"><span class="p
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on Oct 19, 2022.
+      <span class="lastupdated">Last updated on Nov 02, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

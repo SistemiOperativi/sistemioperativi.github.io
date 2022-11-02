@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Esercizi di preparazione &mdash; Operating Systems 2021/2022 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -21,7 +22,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Slides" href="slides.html" />
-    <link rel="prev" title="MinShell - le funzioni exec" href="examples/minshell.html" /> 
+    <link rel="prev" title="PVST - Processi vs Thread" href="examples/pvst.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -95,12 +96,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="esercizi-di-preparazione">
+  <section id="esercizi-di-preparazione">
 <h1>Esercizi di preparazione<a class="headerlink" href="#esercizi-di-preparazione" title="Permalink to this headline">¶</a></h1>
 <p>In questa sezione vengono riportate alcuni esercizi/domande che possono essere utilizzate come preparazione all’esame.</p>
-<div class="section" id="domande">
+<section id="domande">
 <h2>Domande<a class="headerlink" href="#domande" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="introduzione">
+<section id="introduzione">
 <h3>1 - Introduzione<a class="headerlink" href="#introduzione" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Descrivere il concetto di interrupt e mostrare il suo utilizzo nei sistemi operativi.</p></li>
@@ -113,8 +114,8 @@
 <li><p>Descrivere 3 servizi di sistema operativo e spiegare perché sono convenienti per gli utenti. Inoltre, perché è sconveniente che siano forniti da programmi user?</p></li>
 <li><p>Descrivere le principali caratteristiche di un sistema batch e di un sistema batch multiprogrammato, discutendo anche in modo comparativo i vantaggi o svantaggi dell’uno verso l’altro.</p></li>
 </ol>
-</div>
-<div class="section" id="processi-e-thread">
+</section>
+<section id="processi-e-thread">
 <h3>2- Processi e thread<a class="headerlink" href="#processi-e-thread" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Descrivi il concetto di mode switch e di process switch.</p></li>
@@ -124,16 +125,16 @@
 <li><p>Quale è la differenza tra User-Level Thread e Kernel-Level Thread?</p></li>
 <li><p>Quando un thread viene creato tramite <em>pthread_create</em>, cosa è condiviso tra thread parent e child?</p></li>
 </ol>
-</div>
-</div>
-<div class="section" id="esercizi-di-teoria">
+</section>
+</section>
+<section id="esercizi-di-teoria">
 <h2>Esercizi di teoria<a class="headerlink" href="#esercizi-di-teoria" title="Permalink to this headline">¶</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Alcuni esercizi possono deliberatamente ammettere più di una soluzione in funzione delle assunzioni fatte durante lo svolgimento.
 Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.</p>
 </div>
-<div class="section" id="id1">
+<section id="id1">
 <h3>1 - Introduzione<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Si consideri un programma di cui:</p></li>
@@ -151,16 +152,16 @@ Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.
 </ul>
 <p>Infine, riportare lo speedup massimo raggiungibile tramite ottimizzazione a) e b).</p>
 </div></blockquote>
-</div>
-</div>
-<div class="section" id="esercizi-di-programmazione">
+</section>
+</section>
+<section id="esercizi-di-programmazione">
 <h2>Esercizi di programmazione<a class="headerlink" href="#esercizi-di-programmazione" title="Permalink to this headline">¶</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Alcuni esercizi possono deliberatamente ammettere più di una implementazione.
 Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.</p>
 </div>
-<div class="section" id="riscaldamento">
+<section id="riscaldamento">
 <h3>1 - Riscaldamento<a class="headerlink" href="#riscaldamento" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Scrivere un programma che:</p>
@@ -180,8 +181,8 @@ Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.
 </ul>
 </li>
 </ol>
-</div>
-<div class="section" id="processi-e-threads">
+</section>
+<section id="processi-e-threads">
 <h3>2 - Processi e threads<a class="headerlink" href="#processi-e-threads" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Scrivere un programma in C che:</p>
@@ -205,16 +206,18 @@ Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.
 <li><p>Il processo padre termina dopo i processi figli</p></li>
 </ul>
 </li>
+<li><p>Svolgere l’esercizio 2.1 utilizzando threads piuttosto che processi.</p></li>
+<li><p>Svolgere l’esercizio 2.2 utilizzando threads piuttosto che processi.</p></li>
 </ol>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="examples/minshell.html" class="btn btn-neutral float-left" title="MinShell - le funzioni exec" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="examples/pvst.html" class="btn btn-neutral float-left" title="PVST - Processi vs Thread" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="slides.html" class="btn btn-neutral float-right" title="Slides" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
@@ -222,7 +225,7 @@ Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on Oct 19, 2022.
+      <span class="lastupdated">Last updated on Nov 02, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

@@ -38,6 +38,9 @@
    * fork-a quindi N processi che andranno ad eseguire il comando ls su una directory differente.
    * Il processo padre termina dopo i processi figli
 
+4. Svolgere l'esercizio 2.1 utilizzando threads piuttosto che processi.
+5. Svolgere l'esercizio 2.2 utilizzando threads piuttosto che processi.
+
 
 .. comment:
   #. Nei sistemi operativi UNIX, `/dev/urandom <https://man7.org/linux/man-pages/man4/random.4.html>`_ è un dispositivo a caratteri (char device) virtuale in grado di generare numeri casuali. 

@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 18:58+0200\n"
+"POT-Creation-Date: 2022-11-02 15:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../source/index.rst:2
 msgid "Sistemi Operativi A.A. 2022/2023"
@@ -37,19 +37,19 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:12
-msgid ":ref:`n19-10-2022`"
+msgid ":ref:`n02-11-2022`"
 msgstr ""
 
 #: ../source/index.rst:13
-msgid ":ref:`n16-10-2022`"
+msgid ":ref:`n19-10-2022`"
 msgstr ""
 
 #: ../source/index.rst:14
-msgid ":ref:`n11-10-2022`"
+msgid ":ref:`n16-10-2022`"
 msgstr ""
 
 #: ../source/index.rst:15
-msgid ":ref:`n04-10-2022`"
+msgid ":ref:`n11-10-2022`"
 msgstr ""
 
 #: ../source/index.rst:17
@@ -1204,5 +1204,8 @@ msgstr ""
 #~ "possibile, per gli studenti che "
 #~ "parteciperanno in remoto, interagire con "
 #~ "il docente durante la lezione."
+#~ msgstr ""
+
+#~ msgid ":ref:`n04-10-2022`"
 #~ msgstr ""
 

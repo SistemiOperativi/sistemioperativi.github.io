@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="it" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FlipVector &mdash; Sistemi Operativi 2021/2022 documentazione</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -115,7 +116,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="flipvector">
+  <section id="flipvector">
 <h1>FlipVector<a class="headerlink" href="#flipvector" title="Link a questa intestazione">¶</a></h1>
 <p><span class="raw-html"><a class="external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c">FlipVector</a>
 <a class="fa fa-github external" target="_blank" href="https://github.com/SistemiOperativi/c_examples/blob/main/flip_vector/flip_vector.c"></a></span>
@@ -311,7 +312,7 @@ Inoltre, prima di eseguire il suddetto ciclo, il main thread:</p>
 <li><p>L’uso di set affinity garantisce che ciascun thread andrà in esecuzione sul medesimo core? Se sì, perché? Se no, come è possibile garantirlo?</p></li>
 </ul>
 </div>
-<div class="section" id="le-funzioni-di-acquire-e-release">
+<section id="le-funzioni-di-acquire-e-release">
 <h2>Le funzioni di acquire e release<a class="headerlink" href="#le-funzioni-di-acquire-e-release" title="Link a questa intestazione">¶</a></h2>
 <p>Le funzioni di acquire e release utilizzano una specifica implementazione di lock in funzione del valore assunto dalla variabile globale <code class="code docutils literal notranslate"><span class="pre">lock_type</span></code>.
 Nello specifico supportano 5 implementazioni differenti di lock:</p>
@@ -397,8 +398,8 @@ Per approfondimenti sul tema consultare la documentazione di GCC riguardo gli <a
 <p class="admonition-title">Domanda</p>
 <p>L’algoritmo di ticket lock mostrato è corretto? Se sì, cercare di mostrare perché? Se no, mostrare un caso in cui l’algoritmo non garantisce mutua eclusione o progresso.</p>
 </div>
-</div>
-<div class="section" id="risultati">
+</section>
+<section id="risultati">
 <h2>Risultati<a class="headerlink" href="#risultati" title="Link a questa intestazione">¶</a></h2>
 <p>In questa sezione vengono discussi i risultati ottenuti compilando con:</p>
 <ul class="simple">
@@ -416,8 +417,8 @@ Per approfondimenti sul tema consultare la documentazione di GCC riguardo gli <a
 <li><p>LIBPTHREAD = NPTL 2.31</p></li>
 </ul>
 <p>A seguire i risultati.</p>
-<div class="figure align-default">
-<img alt="../../_images/flipPerf.svg" src="../../_images/flipPerf.svg" /></div>
+<figure class="align-default">
+<img alt="../../_images/flipPerf.svg" src="../../_images/flipPerf.svg" /></figure>
 <p>Le massime performance (numero di sezioni critiche eseguite) sono raggiunte da tutti i lock in assenza di concorrenza.
 Quando il numero di thread è maggiore di 1, le performance deteriorano a causa della contesa.
 Il degrado aumenta con thread count crescenti per gli spin lock (attesa attiva).
@@ -428,8 +429,8 @@ Non appena il numero di thread è maggiore del numero di core usabili, il ticket
 <p class="admonition-title">Domanda</p>
 <p>Cosa giustifica il comportamento di TICKET?</p>
 </div>
-</div>
-<div class="section" id="riferimenti">
+</section>
+<section id="riferimenti">
 <h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Link a questa intestazione">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_barrier_init.html">pthread_barrier_init</a></p></li>
@@ -443,8 +444,8 @@ Non appena il numero di thread è maggiore del numero di core usabili, il ticket
 <li><p><a class="reference external" href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Bit-Shifting">shift</a></p></li>
 <li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Extended-Asm.html">extended-asm</a></p></li>
 </ul>
-</div>
-</div>
+</section>
+</section>
 
 
            </div>
@@ -458,7 +459,7 @@ Non appena il numero di thread è maggiore del numero di core usabili, il ticket
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 19 ott 2022.
+      <span class="lastupdated">Ultimo aggiornamento 02 nov 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
