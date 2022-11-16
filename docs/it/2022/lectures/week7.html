@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="it" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>09/11/2021 - CPU scheduling parte 2 &mdash; Sistemi Operativi 2021/2022 documentazione</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/translations.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Indice" href="../../genindex.html" />
+    <link rel="search" title="Cerca" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="/it/2022/lectures/week7.html"><img src="/it/_static/it.png"/></a>
+            <a href="/en/2022/lectures/week7.html"><img src="/it/_static/en.png"/></a>
+            <a href="../../index.html" class="icon icon-home"> Sistemi Operativi
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Sistemi Operativi A.A. 2022/2023</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linux_install.html">Installare Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples.html">Esempi di programmazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../questions.html">Esercizi di preparazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Diario delle lezioni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../challenges.html">Sfide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exams.html">Appelli</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../errata.html">Errata Corrige</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editions.html">Precedenti edizioni del corso</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Sistemi Operativi</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>09/11/2021 - CPU scheduling parte 2</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/2022/lectures/week7.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="cpu-scheduling-parte-2">
+<h1>09/11/2021 - CPU scheduling parte 2<a class="headerlink" href="#cpu-scheduling-parte-2" title="Link a questa intestazione">¶</a></h1>
+<ul class="simple">
+<li><p>Round Robin</p></li>
+<li><p>Priority Scheduling</p></li>
+<li><p>Multi-level feedback queue</p></li>
+<li><p>Fair-share scheduling</p></li>
+<li><p>Multiprocessor scheduling</p></li>
+<li><p>Load sharing</p></li>
+<li><p>Load balancing</p></li>
+<li><p>Affinity</p></li>
+</ul>
+<hr class="docutils" />
+<section id="riferimenti-libro-di-testo">
+<h2>Riferimenti libro di testo<a class="headerlink" href="#riferimenti-libro-di-testo" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t1</span></a>] Sezione 9.2, 10.1</p></li>
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t2</span></a>] Sezione 5.4, 5.5</p></li>
+</ul>
+</section>
+</section>
+<section id="sincronizzazione-parte-4-cpu-scheduling-parte-1">
+<h1>08/11/2021 - Sincronizzazione parte 4 - CPU scheduling parte 1<a class="headerlink" href="#sincronizzazione-parte-4-cpu-scheduling-parte-1" title="Link a questa intestazione">¶</a></h1>
+<ul class="simple">
+<li><p>Sincronizzaione</p>
+<ul>
+<li><p>Spin lock, Mutex POSIX</p></li>
+<li><p>Semafori POSIX</p></li>
+</ul>
+</li>
+<li><p>CPU scheduling</p>
+<ul>
+<li><p>Metriche per cpu scheduling</p></li>
+<li><p>Non-preemptive vs Preemtive</p></li>
+<li><p>First Come First Serve</p></li>
+<li><p>Shortest Job First</p></li>
+</ul>
+</li>
+</ul>
+<section id="id1">
+<h2>Riferimenti libro di testo<a class="headerlink" href="#id1" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t1</span></a>] Sezione 9.1, 9.2</p></li>
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t2</span></a>] Sezione 6.6, 7.3.1, 5.1, 5.2, 5.3</p></li>
+</ul>
+</section>
+<section id="link-di-approfondimento">
+<h2>Link di approfondimento<a class="headerlink" href="#link-di-approfondimento" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_init.html">pthread_spin_init</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_lock.html">pthread_spin_lock</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_init.html">pthread_mutex_init</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_lock.html">pthread_mutex_lock</a></p></li>
+<li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-Builtins.html#g_t_005f_005fsync-Builtins">gcc sync builtins</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_init.html">sem_init</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_wait.html">sem_wait</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_post.html">sem_post</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_destroy.html">sem_destroy</a></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Romolo Marotta.
+      <span class="lastupdated">Ultimo aggiornamento 16 nov 2022.
+      </span></p>
+  </div>
+  <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
+
+ 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

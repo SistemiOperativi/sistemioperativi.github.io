@@ -92,6 +92,9 @@
 <li><p><a class="reference download internal" download="" href="../_downloads/6259f3f68a9ec0a3c14b7bdba8792e93/01-so-introduzione-221004v1.pdf"><code class="xref download docutils literal notranslate"><span class="pre">01</span> <span class="pre">-</span> <span class="pre">Introduzione</span></code></a> (Aggiornato il 04/10/2022)</p></li>
 <li><p><a class="reference download internal" download="" href="../_downloads/85337e81c475b4d8ca5259a5fd880b54/02-so-richiamiC-221003v2.pdf"><code class="xref download docutils literal notranslate"><span class="pre">02</span> <span class="pre">-</span> <span class="pre">Richiami</span> <span class="pre">C</span></code></a> (Aggiornato il 11/10/2022)</p></li>
 <li><p><a class="reference download internal" download="" href="../_downloads/fa1f456f6313e8dc7073f8d07df02a3a/03-so-processi-221019v3.pdf"><code class="xref download docutils literal notranslate"><span class="pre">03</span> <span class="pre">-</span> <span class="pre">Processi</span> <span class="pre">e</span> <span class="pre">threads</span></code></a> (Aggiornato il 19/10/2022)</p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/e0cb2d23dc3e005238011a83445f2f79/04-so-sincronizzazione-221116v1.pdf"><code class="xref download docutils literal notranslate"><span class="pre">04</span> <span class="pre">-</span> <span class="pre">Sincronizzazione</span></code></a></p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/fc5fb43e8eaf43ccae00c26b4376a79d/05-so-cpu-scheduling-221116v1.pdf"><code class="xref download docutils literal notranslate"><span class="pre">05</span> <span class="pre">-</span> <span class="pre">CPU</span> <span class="pre">scheduling</span></code></a></p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/21953c071eb1e8e325c691782072b828/06-so-IO-file-management-221116v1.pdf"><code class="xref download docutils literal notranslate"><span class="pre">06</span> <span class="pre">-</span> <span class="pre">I/O</span> <span class="pre">e</span> <span class="pre">file</span> <span class="pre">management</span></code></a></p></li>
 </ul>
 <section id="documentazione">
 <h2>Documentazione<a class="headerlink" href="#documentazione" title="Link a questa intestazione">¶</a></h2>
@@ -99,6 +102,9 @@
 <div><ul class="simple">
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799">POSIX</a></p></li>
 <li><p><a class="reference external" href="https://man7.org/linux/man-pages/">Linux</a></p></li>
+<li><p><a class="reference external" href="https://docs.microsoft.com/cpp/c-language/c-integer-constants">Microsoft C docs on literals</a></p></li>
+<li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html">GCC Thread Local Storage</a></p></li>
+<li><p><a class="reference external" href="https://www.kernel.org/doc/html/latest/">Linux Kernel</a></p></li>
 </ul>
 </div></blockquote>
 </section>
@@ -111,6 +117,9 @@
 <li><p><a class="reference external" href="http://www.gotw.ca/publications/concurrency-ddj.htm">The free lunch is over</a></p></li>
 <li><p><a class="reference external" href="https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf">Introduction to Operating Systems</a></p></li>
 <li><p><a class="reference external" href="https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html">GCC and Make Compiling, Linking and Building C/C++ Applications</a></p></li>
+<li><p><a class="reference external" href="http://lamport.azurewebsites.net/pubs/bakery.pdf">Bakery algorithm</a></p></li>
+<li><p><a class="reference external" href="https://www.kernel.org/doc/html/latest/scheduler/sched-design-CFS.html">Complete Fair Scheduler</a></p></li>
+<li><p><a class="reference external" href="https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf">Hard Disk</a></p></li>
 </ul>
 </section>
 </section>
@@ -127,7 +136,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 02 nov 2022.
+      <span class="lastupdated">Ultimo aggiornamento 16 nov 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

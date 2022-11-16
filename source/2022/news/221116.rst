@@ -1,0 +1,18 @@
+16-11-2022 - avviso: aggionamenti
+-------------------------------------------------
+
+* Sito del corso:
+
+  * aggiornato diario delle lezioni del 02/11, 08/11, 09/11, 15/11
+  * aggiunte domande di teoria:
+
+      * sincronizzazione
+      * CPU scheduling
+
+  * esercizi su CPU scheduling
+  * aggiornamenti su sezione Slide:
+
+    * pubblicate slide aggiornate su Sincronizzazione e CPU scheduling
+    * pubblicate slide su I/O e File management
+    * aggiunti link su documentazione ed approfondimenti
+

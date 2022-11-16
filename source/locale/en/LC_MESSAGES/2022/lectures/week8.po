@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-16 14:22+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../source/2022/lectures/week8.rst:2
+msgid "15/11/2021 - CPU scheduling parte 3 - I/O Managament parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:4
+msgid "CPU scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:6
+msgid "Load balancing"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:7
+msgid "Affinity"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:8
+msgid "Scheduler UNIX System V Release 4"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:9
+msgid "Linux Complete Fair Scheduler"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:10
+msgid "Introduzione alla sincronizzazione"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:12
+msgid "I/O Management:"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:14
+msgid "Caratteristiche dei dispositivi di I/O"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:15
+msgid "Modello di organizzazione dei moduli di I/O"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:16
+msgid "I/O Buffering"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:17
+msgid "I/O Scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:18
+msgid "Hard disk"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:22
+msgid "Riferimenti libro di testo"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:24
+msgid ""
+"[:ref:`t1 <textbooks>`] Sezione 10.3, 10.4, 5, 11, 11.1, 11.2, 11.3, "
+"11.4, 11.5"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:25
+msgid ""
+"[:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 12.2.2, 12.2.3, 12.3, "
+"12.4, 12.4.1, 12.4.2, 12.4.7, 11.1, 11.1.1"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:28
+msgid "Link di approfondimento"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:30
+msgid ""
+"`Complete Fair Scheduler "
+"<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
+"CFS.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:31
+msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:36
+msgid "Approfondimenti"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:38
+msgid "[:ref:`t2 <textbooks>`] Capitolo 12"
+msgstr ""
+

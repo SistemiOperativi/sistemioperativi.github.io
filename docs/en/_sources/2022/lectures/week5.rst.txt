@@ -1,4 +1,4 @@
-26/10/2022 - Thread parte 2 
+26/10/2022 - Sincronizzazione parte 2
 -----------------------------------------------
 
 
@@ -12,12 +12,12 @@ Riferimenti libro di testo
 """"""""""""""""""""""""""
 
 * [:ref:`t1 <textbooks>`] Sezione 5, 5.1, 5.2, 6.1
-* [:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 6.3, 6.8, 8.2, 8.3
+* [:ref:`t2 <textbooks>`] Sezione 6.1, 6.2, 6.3
 
 
 
 
-25/10/2022 - Thread parte 2 
+25/10/2022 - Thread parte 2  - Sincronizzazione parte 1
 ------------------------------------------------------------------------
 
 
@@ -37,5 +37,5 @@ Riferimenti libro di testo
 
 
 * [:ref:`t1 <textbooks>`] Sezione 5, 5.1, 5.2, 6.1
-* [:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 6.3, 6.8, 8.2, 8.3
+* [:ref:`t2 <textbooks>`] Sezione 6.1, 6.2, 6.8, 8.2, 8.3
 

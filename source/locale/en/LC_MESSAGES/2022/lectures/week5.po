@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-02 15:00+0100\n"
+"POT-Creation-Date: 2022-11-16 14:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../source/2022/lectures/week5.rst:2
-msgid "26/10/2022 - Thread parte 2"
+msgid "26/10/2022 - Sincronizzazione parte 2"
 msgstr ""
 
 #: ../source/2022/lectures/week5.rst:5 ../source/2022/lectures/week5.rst:28
@@ -42,12 +42,12 @@ msgstr ""
 msgid "[:ref:`t1 <textbooks>`] Sezione 5, 5.1, 5.2, 6.1"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:15 ../source/2022/lectures/week5.rst:40
-msgid "[:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 6.3, 6.8, 8.2, 8.3"
+#: ../source/2022/lectures/week5.rst:15
+msgid "[:ref:`t2 <textbooks>`] Sezione 6.1, 6.2, 6.3"
 msgstr ""
 
 #: ../source/2022/lectures/week5.rst:21
-msgid "25/10/2022 - Thread parte 2"
+msgid "25/10/2022 - Thread parte 2  - Sincronizzazione parte 1"
 msgstr ""
 
 #: ../source/2022/lectures/week5.rst:24
@@ -65,4 +65,17 @@ msgstr ""
 #: ../source/2022/lectures/week5.rst:31
 msgid "Mutua Esclusione"
 msgstr ""
+
+#: ../source/2022/lectures/week5.rst:40
+msgid "[:ref:`t2 <textbooks>`] Sezione 6.1, 6.2, 6.8, 8.2, 8.3"
+msgstr ""
+
+#~ msgid "26/10/2022 - Thread parte 2"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 6.3, 6.8, 8.2, 8.3"
+#~ msgstr ""
+
+#~ msgid "25/10/2022 - Thread parte 2"
+#~ msgstr ""
 

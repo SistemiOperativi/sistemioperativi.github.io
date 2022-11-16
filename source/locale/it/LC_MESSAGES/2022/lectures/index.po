@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-02 15:03+0100\n"
+"POT-Creation-Date: 2022-11-16 14:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,8 +34,266 @@ msgid ""
 "trattati durante la lezione."
 msgstr ""
 
+#: ../source/2022/lectures/week8.rst:2
+msgid "15/11/2021 - CPU scheduling parte 3 - I/O Managament parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:30 ../source/2022/lectures/week8.rst:4
+msgid "CPU scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:11 ../source/2022/lectures/week8.rst:6
+msgid "Load balancing"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:12 ../source/2022/lectures/week8.rst:7
+msgid "Affinity"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:8
+msgid "Scheduler UNIX System V Release 4"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:9
+msgid "Linux Complete Fair Scheduler"
+msgstr ""
+
+#: ../source/2022/lectures/week5.rst:30 ../source/2022/lectures/week8.rst:10
+msgid "Introduzione alla sincronizzazione"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:12
+msgid "I/O Management:"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:14
+msgid "Caratteristiche dei dispositivi di I/O"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:15
+msgid "Modello di organizzazione dei moduli di I/O"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:16
+msgid "I/O Buffering"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:17
+msgid "I/O Scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:18
+msgid "Hard disk"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:11 ../source/2022/lectures/week1.rst:34
+#: ../source/2022/lectures/week2.rst:18 ../source/2022/lectures/week2.rst:49
+#: ../source/2022/lectures/week3.rst:43 ../source/2022/lectures/week4.rst:19
+#: ../source/2022/lectures/week4.rst:52 ../source/2022/lectures/week5.rst:12
+#: ../source/2022/lectures/week5.rst:36 ../source/2022/lectures/week6.rst:9
+#: ../source/2022/lectures/week7.rst:17 ../source/2022/lectures/week7.rst:39
+#: ../source/2022/lectures/week8.rst:22
+msgid "Riferimenti libro di testo"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:24
+msgid ""
+"[:ref:`t1 <textbooks>`] Sezione 10.3, 10.4, 5, 11, 11.1, 11.2, 11.3, "
+"11.4, 11.5"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:25
+msgid ""
+"[:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 12.2.2, 12.2.3, 12.3, "
+"12.4, 12.4.1, 12.4.2, 12.4.7, 11.1, 11.1.1"
+msgstr ""
+
+#: ../source/2022/lectures/week1.rst:16 ../source/2022/lectures/week2.rst:24
+#: ../source/2022/lectures/week3.rst:19 ../source/2022/lectures/week4.rst:25
+#: ../source/2022/lectures/week4.rst:61 ../source/2022/lectures/week6.rst:15
+#: ../source/2022/lectures/week7.rst:45 ../source/2022/lectures/week8.rst:28
+msgid "Link di approfondimento"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:30
+msgid ""
+"`Complete Fair Scheduler "
+"<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
+"CFS.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:31
+msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:36
+msgid "Approfondimenti"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:38
+msgid "[:ref:`t2 <textbooks>`] Capitolo 12"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:2
+msgid "09/11/2021 - CPU scheduling parte 2"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:5
+msgid "Round Robin"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:6
+msgid "Priority Scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:7
+msgid "Multi-level feedback queue"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:8
+msgid "Fair-share scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:9
+msgid "Multiprocessor scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:10
+msgid "Load sharing"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:18
+msgid "[:ref:`t1 <textbooks>`] Sezione 9.2, 10.1"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:19
+msgid "[:ref:`t2 <textbooks>`] Sezione 5.4, 5.5"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:23
+msgid "08/11/2021 - Sincronizzazione parte 4 - CPU scheduling parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:25
+msgid "Sincronizzaione"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:27
+msgid "Spin lock, Mutex POSIX"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:28
+msgid "Semafori POSIX"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:32
+msgid "Metriche per cpu scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:33
+msgid "Non-preemptive vs Preemtive"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:34
+msgid "First Come First Serve"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:35
+msgid "Shortest Job First"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:41
+msgid "[:ref:`t1 <textbooks>`] Sezione 9.1, 9.2"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:42
+msgid "[:ref:`t2 <textbooks>`] Sezione 6.6, 7.3.1, 5.1, 5.2, 5.3"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:47
+msgid ""
+"`pthread_spin_init "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_init.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:48
+msgid ""
+"`pthread_spin_lock "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_lock.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:49
+msgid ""
+"`pthread_mutex_init "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_init.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:50
+msgid ""
+"`pthread_mutex_lock "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_lock.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week6.rst:18 ../source/2022/lectures/week7.rst:51
+msgid ""
+"`gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
+"Builtins.html#g_t_005f_005fsync-Builtins>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:52
+msgid ""
+"`sem_init "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_init.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:53
+msgid ""
+"`sem_wait "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_wait.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:54
+msgid ""
+"`sem_post "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_post.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:55
+msgid ""
+"`sem_destroy "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_destroy.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week6.rst:2
+msgid "02/11/2022 - Sincronizzazione parte 2"
+msgstr ""
+
+#: ../source/2022/lectures/week6.rst:4
+msgid "Algoritmo del panettiere (Lamport)"
+msgstr ""
+
+#: ../source/2022/lectures/week6.rst:5
+msgid "Read-Modify-Write"
+msgstr ""
+
+#: ../source/2022/lectures/week6.rst:6
+msgid "Algoritmi di mutua esclusione basati su RMW"
+msgstr ""
+
+#: ../source/2022/lectures/week6.rst:11
+msgid "[:ref:`t1 <textbooks>`] Sezione 5.1, 5.2, 5.3, 6.1"
+msgstr ""
+
+#: ../source/2022/lectures/week6.rst:12
+msgid "[:ref:`t2 <textbooks>`] Sezione 6.3, 6.4, 6.5, 6.6, 6.8, 8.2, 8.3"
+msgstr ""
+
+#: ../source/2022/lectures/week6.rst:17
+msgid "`Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
+msgstr ""
+
 #: ../source/2022/lectures/week5.rst:2
-msgid "26/10/2022 - Thread parte 2"
+msgid "26/10/2022 - Sincronizzazione parte 2"
 msgstr ""
 
 #: ../source/2022/lectures/week5.rst:5 ../source/2022/lectures/week5.rst:28
@@ -50,24 +308,16 @@ msgstr ""
 msgid "Algoritmo di Peterson"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:11 ../source/2022/lectures/week1.rst:34
-#: ../source/2022/lectures/week2.rst:18 ../source/2022/lectures/week2.rst:49
-#: ../source/2022/lectures/week3.rst:43 ../source/2022/lectures/week4.rst:19
-#: ../source/2022/lectures/week4.rst:52 ../source/2022/lectures/week5.rst:12
-#: ../source/2022/lectures/week5.rst:36
-msgid "Riferimenti libro di testo"
-msgstr ""
-
 #: ../source/2022/lectures/week5.rst:14 ../source/2022/lectures/week5.rst:39
 msgid "[:ref:`t1 <textbooks>`] Sezione 5, 5.1, 5.2, 6.1"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:15 ../source/2022/lectures/week5.rst:40
-msgid "[:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 6.3, 6.8, 8.2, 8.3"
+#: ../source/2022/lectures/week5.rst:15
+msgid "[:ref:`t2 <textbooks>`] Sezione 6.1, 6.2, 6.3"
 msgstr ""
 
 #: ../source/2022/lectures/week5.rst:21
-msgid "25/10/2022 - Thread parte 2"
+msgid "25/10/2022 - Thread parte 2  - Sincronizzazione parte 1"
 msgstr ""
 
 #: ../source/2022/lectures/week5.rst:24
@@ -78,12 +328,12 @@ msgstr ""
 msgid "Esempio PFEW"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:30
-msgid "Introduzione alla sincronizzazione"
-msgstr ""
-
 #: ../source/2022/lectures/week5.rst:31
 msgid "Mutua Esclusione"
+msgstr ""
+
+#: ../source/2022/lectures/week5.rst:40
+msgid "[:ref:`t2 <textbooks>`] Sezione 6.1, 6.2, 6.8, 8.2, 8.3"
 msgstr ""
 
 #: ../source/2022/lectures/week4.rst:2
@@ -138,12 +388,6 @@ msgstr ""
 msgid ""
 "[:ref:`t2 <books2022>`] Sezione 3.2, 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4, "
 "4.7.2"
-msgstr ""
-
-#: ../source/2022/lectures/week1.rst:16 ../source/2022/lectures/week2.rst:24
-#: ../source/2022/lectures/week3.rst:19 ../source/2022/lectures/week4.rst:25
-#: ../source/2022/lectures/week4.rst:61
-msgid "Link di approfondimento"
 msgstr ""
 
 #: ../source/2022/lectures/week4.rst:27
@@ -643,5 +887,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "[:ref:`t2 <books_2022>`] Sezione 1.1"
+#~ msgstr ""
+
+#~ msgid "26/10/2022 - Thread parte 2"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 6.3, 6.8, 8.2, 8.3"
+#~ msgstr ""
+
+#~ msgid "25/10/2022 - Thread parte 2"
 #~ msgstr ""
 

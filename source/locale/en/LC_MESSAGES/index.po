@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-02 15:03+0100\n"
+"POT-Creation-Date: 2022-11-16 14:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,19 +41,19 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:12
-msgid ":ref:`n02-11-2022`"
+msgid ":ref:`n16-11-2022`"
 msgstr ""
 
 #: ../source/index.rst:13
-msgid ":ref:`n19-10-2022`"
+msgid ":ref:`n02-11-2022`"
 msgstr ""
 
 #: ../source/index.rst:14
-msgid ":ref:`n16-10-2022`"
+msgid ":ref:`n19-10-2022`"
 msgstr ""
 
 #: ../source/index.rst:15
-msgid ":ref:`n11-10-2022`"
+msgid ":ref:`n16-10-2022`"
 msgstr ""
 
 #: ../source/index.rst:17
@@ -599,5 +599,8 @@ msgstr ":removedtopic:`**Virtualization:** main concepts, containers, Docker`"
 #~ msgstr ""
 
 #~ msgid ":ref:`n04-10-2022`"
+#~ msgstr ""
+
+#~ msgid ":ref:`n11-10-2022`"
 #~ msgstr ""
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-02 15:03+0100\n"
+"POT-Creation-Date: 2022-11-16 15:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,14 +22,54 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: ../source/2022/news/221102.rst:2
-msgid "02-11-2022 - avviso: aggionamenti"
+#: ../source/2022/news/221116.rst:2
+msgid "16-11-2022 - avviso: aggionamenti"
 msgstr ""
 
 #: ../source/2022/news/221004.rst:4 ../source/2022/news/221011.rst:4
 #: ../source/2022/news/221016.rst:4 ../source/2022/news/221019.rst:4
-#: ../source/2022/news/221102.rst:4
+#: ../source/2022/news/221102.rst:4 ../source/2022/news/221116.rst:4
 msgid "Sito del corso:"
+msgstr ""
+
+#: ../source/2022/news/221116.rst:6
+msgid "aggiornato diario delle lezioni del 02/11, 08/11, 09/11, 15/11"
+msgstr ""
+
+#: ../source/2022/news/221116.rst:7
+msgid "aggiunte domande di teoria:"
+msgstr ""
+
+#: ../source/2022/news/221116.rst:9
+msgid "sincronizzazione"
+msgstr ""
+
+#: ../source/2022/news/221116.rst:10
+msgid "CPU scheduling"
+msgstr ""
+
+#: ../source/2022/news/221116.rst:12
+msgid "esercizi su CPU scheduling"
+msgstr ""
+
+#: ../source/2022/news/221116.rst:13
+msgid "aggiornamenti su sezione Slide:"
+msgstr ""
+
+#: ../source/2022/news/221116.rst:15
+msgid "pubblicate slide aggiornate su Sincronizzazione e CPU scheduling"
+msgstr ""
+
+#: ../source/2022/news/221116.rst:16
+msgid "pubblicate slide su I/O e File management"
+msgstr ""
+
+#: ../source/2022/news/221116.rst:17
+msgid "aggiunti link su documentazione ed approfondimenti"
+msgstr ""
+
+#: ../source/2022/news/221102.rst:2
+msgid "02-11-2022 - avviso: aggionamenti"
 msgstr ""
 
 #: ../source/2022/news/221102.rst:6
@@ -116,5 +156,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "aggiornate slide su: * richiami C * processi e thread"
+#~ msgstr ""
+
+#~ msgid "aggiunte domande di teoria su sincronizzazione e CPU scheduling"
 #~ msgstr ""
 
