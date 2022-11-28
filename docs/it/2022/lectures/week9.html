@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="it" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>23/11/2021 - File Management parte 3 &mdash; Sistemi Operativi 2021/2022 documentazione</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/translations.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Indice" href="../../genindex.html" />
+    <link rel="search" title="Cerca" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="/it/2022/lectures/week9.html"><img src="/it/_static/it.png"/></a>
+            <a href="/en/2022/lectures/week9.html"><img src="/it/_static/en.png"/></a>
+            <a href="../../index.html" class="icon icon-home"> Sistemi Operativi
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Sistemi Operativi A.A. 2022/2023</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linux_install.html">Installare Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples.html">Esempi di programmazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../questions.html">Esercizi di preparazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Diario delle lezioni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../challenges.html">Sfide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exams.html">Appelli</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../errata.html">Errata Corrige</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editions.html">Precedenti edizioni del corso</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Sistemi Operativi</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>23/11/2021 - File Management parte 3</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/2022/lectures/week9.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="file-management-parte-3">
+<h1>23/11/2021 - File Management parte 3<a class="headerlink" href="#file-management-parte-3" title="Link a questa intestazione">¶</a></h1>
+<ul>
+<li><p>Allocazione su hard disk</p></li>
+<li><p>File system Unix:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>inode</p></li>
+<li><p>attributi</p></li>
+<li><p>servizi per la manipolazione di file e directory</p></li>
+<li><p>descrittore</p></li>
+<li><p>in-memory file system</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Recovery e file locking</p></li>
+<li><p>Esempi codice C in Linux:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>copia di file regolare in C</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<section id="riferimenti-libro-di-testo">
+<h2>Riferimenti libro di testo<a class="headerlink" href="#riferimenti-libro-di-testo" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t1</span></a>] Sezione 12.7, 12.8, 12.9</p></li>
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t2</span></a>] Sezione 14.4, 14.4.1, 14.4.2, 14.4.3, 14.6, 14.7, 14.7.1, 14.7.2, 15.5</p></li>
+</ul>
+</section>
+<section id="approfondimenti">
+<h2>Approfondimenti<a class="headerlink" href="#approfondimenti" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.kernel.org/doc/html/latest/admin-guide/blockdev/ramdisk.html">ramdisk</a></p></li>
+<li><p><a class="reference external" href="https://wiki.debian.org/ramfs">ramfs</a></p></li>
+<li><p><a class="reference external" href="https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html">tmpfs</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html">POSIX open</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html">POSIX close</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html">POSIX read</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html">POSIX write</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/lseek.html">POSIX lseek</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/truncate.html">POSIX truncate</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html">POSIX dup</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/mkdir.html">POSIX mkdir</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/rmdir.html">POSIX rmdir</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/link.html">POSIX link</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/symlink.html">POSIX symlink</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/chmod.html">POSIX chmod</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/chown.html">POSIX chown</a></p></li>
+</ul>
+</section>
+</section>
+<section id="file-management-parte-2">
+<h1>22/11/2021 - File Management parte 2<a class="headerlink" href="#file-management-parte-2" title="Link a questa intestazione">¶</a></h1>
+<ul class="simple">
+<li><p>File Management:</p>
+<ul>
+<li><p>Concetto di file</p></li>
+<li><p>Operazioni su file</p></li>
+<li><p>File pointer</p></li>
+<li><p>Metodo di accesso</p></li>
+<li><p>Directory</p></li>
+<li><p>Protezione</p></li>
+</ul>
+</li>
+</ul>
+<section id="id1">
+<h2>Riferimenti libro di testo<a class="headerlink" href="#id1" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t1</span></a>] Sezione 12.1, 12.2, 12.4, 12.5</p></li>
+<li><p>[<a class="reference internal" href="../../2021/index.html#textbooks"><span class="std std-ref">t2</span></a>] Sezione 13.1, 13.1.1, 13.1.2, 13.1.5, 13.2, 13.2.1, 13.2.2, 13.2.3, 13.3, 13.3.1, 13.3.2, 13.3.3, 13.3.4, 13.4, 13.4.1, 13.4.2</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Romolo Marotta.
+      <span class="lastupdated">Ultimo aggiornamento 28 nov 2022.
+      </span></p>
+  </div>
+  <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
+
+ 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-16 14:33+0100\n"
+"POT-Creation-Date: 2022-11-23 15:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,7 +144,7 @@ msgid ""
 "risposta."
 msgstr ""
 
-#: ../source/2022/questions/sched.rst:2
+#: ../source/2022/q_exercises/sched.rst:2 ../source/2022/questions/sched.rst:2
 msgid "4 - Scheduling"
 msgstr ""
 
@@ -211,6 +211,76 @@ msgid ""
 " gli svantaggi."
 msgstr ""
 
+#: ../source/2022/q_exercises/IO.rst:2 ../source/2022/questions/IO.rst:2
+msgid "5 - I/O Management"
+msgstr ""
+
+#: ../source/2022/questions/IO.rst:4
+msgid ""
+"Quali sono le difficoltà che introduce il Direct Memory Access rispetto "
+"alla gestione dei processi?"
+msgstr ""
+
+#: ../source/2022/questions/IO.rst:5
+msgid "Descrivere la tecnica di I/O buffering e la sua utilità."
+msgstr ""
+
+#: ../source/2022/questions/IO.rst:6
+msgid "Spiegare le criticità nel progettare politiche di I/O scheduling."
+msgstr ""
+
+#: ../source/2022/questions/IO.rst:7
+msgid ""
+"Descrivere le politiche First-Come-First-Served e Shortest-Seek-Time-"
+"First per disk scheduling e illustrarne vantaggi e svantaggi."
+msgstr ""
+
+#: ../source/2022/questions/IO.rst:8
+msgid ""
+"Descrivere la politica SCAN per disk scheduling e spiegarne vantaggi e "
+"limiti. Per le limitazioni descritte, riportare possibili soluzioni."
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:2 ../source/2022/questions/file.rst:2
+msgid "6 - File management"
+msgstr ""
+
+#: ../source/2022/questions/file.rst:4
+msgid "Cosa è un file e quali sono i suoi principali attributi?"
+msgstr ""
+
+#: ../source/2022/questions/file.rst:5
+msgid "Cosa è un file system e quali sono i suoi compiti principali?"
+msgstr ""
+
+#: ../source/2022/questions/file.rst:6
+msgid "Descrivere i metodi di accesso a file sequenziale, diretto ed indicizzato."
+msgstr ""
+
+#: ../source/2022/questions/file.rst:7
+msgid "Descrivere le caratteristiche salienti del file system UNIX."
+msgstr ""
+
+#: ../source/2022/questions/file.rst:8
+msgid "Cosa è un in-memory file system e riportarne alcuni esempi."
+msgstr ""
+
+#: ../source/2022/questions/file.rst:9
+msgid ""
+"Descrivere i classici metodi di allocazione dei file sui dispositivi, "
+"discutendone vantaggi e svantaggi in modo comparato."
+msgstr ""
+
+#: ../source/2022/questions/file.rst:10
+msgid ""
+"Descrivere cosa sono gli \"hard link\" ed i \"soft link\" in un file-"
+"system."
+msgstr ""
+
+#: ../source/2022/questions/file.rst:11
+msgid "Si descriva il metodo di allocazione dei file a catena."
+msgstr ""
+
 #: ../source/2022/questions.rst:22
 msgid "Esercizi di teoria"
 msgstr ""
@@ -260,10 +330,6 @@ msgid ""
 " a) e b)."
 msgstr ""
 
-#: ../source/2022/q_exercises/sched.rst:2
-msgid "3 - Scheduling"
-msgstr ""
-
 #: ../source/2022/q_exercises/sched.rst:5
 msgid ""
 "Si consideri uno scenario con 4 processi {P1,..., P4} CPU-bound e "
@@ -279,6 +345,7 @@ msgid ""
 "tempo di completamento per ciascun processo."
 msgstr ""
 
+#: ../source/2022/q_exercises/file.rst:20
 #: ../source/2022/q_exercises/sched.rst:13
 msgid "**Mostra/Nascondi Soluzione**"
 msgstr ""
@@ -523,7 +590,7 @@ msgstr ""
 msgid "1.33"
 msgstr ""
 
-#: ../source/2022/q_exercises/sched.rst:112
+#: ../source/2022/q_exercises/sched.rst:114
 msgid ""
 "Si consideri uno scenario in cui uno scheduler Multilevel-feedback queue "
 "abbia 4 livelli di priorità, ed in cui il quanto di tempo assegnato ai "
@@ -537,7 +604,7 @@ msgid ""
 "context switch e per l'esecuzione dello scheduler sia nullo."
 msgstr ""
 
-#: ../source/2022/q_exercises/sched.rst:113
+#: ../source/2022/q_exercises/sched.rst:115
 msgid ""
 "Si consideri uno scenario in cui al tempo T0 nasca un processo P0 "
 "puramente CPU-bound di durata (tempo di CPU) pari a 10 secondi ed al "
@@ -548,6 +615,186 @@ msgid ""
 "massimo di completamento del processo P1 nel caso in cui il sistema abbia"
 " come scheduler Shortest Process Next oppure Shortest-Remaining-Time "
 "Next."
+msgstr ""
+
+#: ../source/2022/q_exercises/IO.rst:4
+msgid ""
+"Si consideri inoltre uno scenario in cui arrivino al sistema operativo "
+"richieste per accedere alle seguenti tracce di un disco: 33 – 46 – 98 – "
+"12 – 43 – 56 – 78 - 77 – 25. Si determini la sequenza effettiva di "
+"schedulazione delle operazioni verso il disco considerando che:"
+msgstr ""
+
+#: ../source/2022/q_exercises/IO.rst:6
+msgid ""
+"al più 4 richieste per volta possono essere immagazzinate nella coda di "
+"scheduling;"
+msgstr ""
+
+#: ../source/2022/q_exercises/IO.rst:7
+msgid "la testina sia inizialmente posta sulla traccia 100 del disco;"
+msgstr ""
+
+#: ../source/2022/q_exercises/IO.rst:8
+msgid "l'algoritmo utilizzato è SCAN."
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:5
+msgid ""
+"Si consideri un file system con allocazione a catena ed accesso "
+"indicizzato. Dato un file:"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:7
+msgid "contente 1M record;"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:8
+msgid ""
+"il relativo indice ha taglia pari a 512 record e contiene 128 chiavi "
+"uniformemente distribuite nel file;"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:9
+msgid ""
+"memorizzato su un dispositivo di massa, la cui taglia di un blocco è pari"
+" a 4096 record."
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:11
+msgid "Calcolare la latenza massima e minima considerando che:"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:13
+msgid "il tempo medio di accesso ad un blocco è 10ms;"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:14
+msgid "l'accesso ad una chiave dell'indice in ram è pari a 1ms."
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:24
+msgid "Assunzioni:"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:26
+msgid "L'indice è memorizzato su disco"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:27
+msgid "L'indice deve essere prima caricato in ram per poter essere utilizzato"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:28
+msgid "RecordID e RiferimentoBlocco hanno pari taglia"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:30
+msgid "Svolgimento:"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:32
+msgid ""
+"Taglia di una chiave nell'indice = TagliaIndice/NumeroChiavi = 512R/128 ="
+" 4R"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:33
+msgid "Taglia di un riferimento = 2R"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:34
+msgid ""
+"Record utilizzabili all'interno di un blocco per memorizzare dati di file"
+" = Taglia di un blocco - Taglia di un riferimento = 4096-2 = 4094"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:35
+msgid ""
+"Numero di blocchi per memorizzare il file = Numero di record nel file / "
+"record utilizzabili = ceil(10^6/4094) = 245"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:36
+msgid ""
+"Distanza media tra due blocchi indicizzati = ceil(Numero di blocchi / "
+"numero di chiavi) = 2"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:37
+msgid ""
+"Latenza minima: accesso ad un blocco indicizzato, indice già presente in "
+"RAM."
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:39
+msgid ""
+"Risultato = Tempo di accesso a indice + Accesso al blocco indicizzato = "
+"1ms +10ms = 11ms"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:41
+msgid ""
+"Latenza massima: accesso al blocco più lontano da quello indicizzato, "
+"indice NON presente in RAM."
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:43
+msgid ""
+"Risultato = Tempo di caricamento indice +  Tempo di accesso a indice + "
+"(Numero di blocchi per indice)*(Tempo di accesso al blocco indicizzato) ="
+" +10ms + 1ms +2*10ms = 31ms"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:55
+msgid ""
+"Si consideri un file system con allocazione indicizzata ospitato su un "
+"dispositivo i cui blocchi hanno taglia pari a 1024 record e un "
+"riferimento a blocco occupa 8 record. Il record di sistema ha:"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:57
+msgid "128 entry per accesso diretto;"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:58
+msgid "4 entry per accesso indiretto;"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:59
+msgid "4 entry per accesso doppiamente indiretto."
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:61
+msgid "Qual è la taglia massima di un file in record?"
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:63
+msgid ""
+"Si consideri inoltre senario dove un processo P apra un file F "
+"(attualmente non in uso da parte di alcun processo) e poi esegua 2 "
+"fork(). Indicare il numero delle sessioni di I/O verso  il file F a valle"
+" dell'esecuzione delle 2 fork() da parte di P."
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:64
+msgid ""
+"Si consideri un dispositivo di memoria di massa con blocchi di taglia "
+"pari a 4 KB, indici di blocchi di taglia pari a 4 byte, ed un record di "
+"sistema contenente in totale 12 indici di cui N diretti ed M indiretti. "
+"Si determini il valore di N ed M, qualora esista, che possa permettere di"
+" allocare file di taglia almeno pari a 4 GB."
+msgstr ""
+
+#: ../source/2022/q_exercises/file.rst:65
+msgid ""
+"Si supponga di avere un file system che supporta il metodo di allocazione"
+" a catena. Si supponga inoltre che il dispositivo di memoria di massa ove"
+" il file system è ospitato abbia blocchi di taglia pari a 4 K record, e "
+"che un indice (puntatore) di blocco di dispositivo sia espresso con 16 "
+"record. Si supponga inoltre di avere un file F di taglia pari a 16 M "
+"record. Si calcoli il numero di blocchi necessari ad allocare il file sul"
+" dispositivo di memoria di massa secondo lo schema a catena."
 msgstr ""
 
 #: ../source/2022/questions.rst:44
@@ -702,5 +949,58 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Svolgere l'esercizio 2 utilizzando threads piuttosto che processi."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si consideri uno scenario in cui "
+#~ "uno scheduler Multilevel-feedback queue "
+#~ "abbia 4 livelli di priorità, ed in"
+#~ " cui il quanto di tempo assegnato "
+#~ "ai processi al livello i sia di"
+#~ " 1/2^i millisecondi. Si supponga che "
+#~ "all'istante T0 nascano 2 processi A "
+#~ "e B, entrambi CPU-bound. Il "
+#~ "processo B richiede 10 millisecondi di"
+#~ " tempo di CPU per completare la "
+#~ "sua esecuzione. Si identifichi la durata"
+#~ " massima (in termini di tempo di "
+#~ "CPU) del processo A affinché il "
+#~ "processo B possa completare la sua "
+#~ "esecuzione entro il tempo T0+17 nei "
+#~ "due casi in cui il primo processo"
+#~ " ad essere schedulato in CPU sia "
+#~ "A oppure B. Si supponga che il "
+#~ "tempo di CPU per i context switch"
+#~ " e per l'esecuzione dello scheduler "
+#~ "sia nullo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si consideri uno scenario in cui "
+#~ "al tempo T0 nasca un processo P0"
+#~ " puramente CPU-bound di durata (tempo"
+#~ " di CPU) pari a 10 secondi ed"
+#~ " al tempo T0 + 3 secondi P0 "
+#~ "origini un altro processo P1 puramente"
+#~ " CPU-bound di durata (tempo di "
+#~ "CPU) pari a 6 secondi. Supponendo "
+#~ "che le durate dei processi siano "
+#~ "note al tempo della loro generazione,"
+#~ " e che il tempo di CPU per "
+#~ "eseguire uno scheduler sia trascurabile. "
+#~ "si calcoli il tempo massimo di "
+#~ "completamento del processo P1 nel caso"
+#~ " in cui il sistema abbia come "
+#~ "scheduler Shortest Process Next oppure "
+#~ "Shortest-Remaining-Time Next."
+#~ msgstr ""
+
+#~ msgid "6 - I/O Management"
+#~ msgstr ""
+
+#~ msgid "7 - File management"
+#~ msgstr ""
+
+#~ msgid "3 - Scheduling"
 #~ msgstr ""
 

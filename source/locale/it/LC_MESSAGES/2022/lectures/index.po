@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-16 14:23+0100\n"
+"POT-Creation-Date: 2022-11-28 07:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,56 +34,48 @@ msgid ""
 "trattati durante la lezione."
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:2
-msgid "15/11/2021 - CPU scheduling parte 3 - I/O Managament parte 1"
+#: ../source/2022/lectures/week9.rst:2
+msgid "23/11/2021 - File Management parte 3"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:30 ../source/2022/lectures/week8.rst:4
-msgid "CPU scheduling"
+#: ../source/2022/lectures/week9.rst:4
+msgid "Allocazione su hard disk"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:11 ../source/2022/lectures/week8.rst:6
-msgid "Load balancing"
+#: ../source/2022/lectures/week9.rst:5
+msgid "File system Unix:"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:12 ../source/2022/lectures/week8.rst:7
-msgid "Affinity"
+#: ../source/2022/lectures/week9.rst:7
+msgid "inode"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:8
-msgid "Scheduler UNIX System V Release 4"
+#: ../source/2022/lectures/week9.rst:8
+msgid "attributi"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:9
-msgid "Linux Complete Fair Scheduler"
+#: ../source/2022/lectures/week9.rst:9
+msgid "servizi per la manipolazione di file e directory"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:30 ../source/2022/lectures/week8.rst:10
-msgid "Introduzione alla sincronizzazione"
+#: ../source/2022/lectures/week9.rst:10
+msgid "descrittore"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:12
-msgid "I/O Management:"
+#: ../source/2022/lectures/week9.rst:11
+msgid "in-memory file system"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:14
-msgid "Caratteristiche dei dispositivi di I/O"
+#: ../source/2022/lectures/week9.rst:13
+msgid "Recovery e file locking"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:15
-msgid "Modello di organizzazione dei moduli di I/O"
+#: ../source/2022/lectures/week9.rst:14
+msgid "Esempi codice C in Linux:"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:16
-msgid "I/O Buffering"
-msgstr ""
-
-#: ../source/2022/lectures/week8.rst:17
-msgid "I/O Scheduling"
-msgstr ""
-
-#: ../source/2022/lectures/week8.rst:18
-msgid "Hard disk"
+#: ../source/2022/lectures/week9.rst:16
+msgid "copia di file regolare in C"
 msgstr ""
 
 #: ../source/2022/lectures/week1.rst:11 ../source/2022/lectures/week1.rst:34
@@ -92,17 +84,253 @@ msgstr ""
 #: ../source/2022/lectures/week4.rst:52 ../source/2022/lectures/week5.rst:12
 #: ../source/2022/lectures/week5.rst:36 ../source/2022/lectures/week6.rst:9
 #: ../source/2022/lectures/week7.rst:17 ../source/2022/lectures/week7.rst:39
-#: ../source/2022/lectures/week8.rst:22
+#: ../source/2022/lectures/week8.rst:15 ../source/2022/lectures/week8.rst:22
+#: ../source/2022/lectures/week8.rst:64 ../source/2022/lectures/week9.rst:21
+#: ../source/2022/lectures/week9.rst:61
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:24
+#: ../source/2022/lectures/week9.rst:23
+msgid "[:ref:`t1 <textbooks>`] Sezione 12.7, 12.8, 12.9"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:24
+msgid ""
+"[:ref:`t2 <textbooks>`] Sezione 14.4, 14.4.1, 14.4.2, 14.4.3, 14.6, 14.7,"
+" 14.7.1, 14.7.2, 15.5"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:30 ../source/2022/lectures/week8.rst:37
+#: ../source/2022/lectures/week8.rst:78 ../source/2022/lectures/week9.rst:27
+msgid "Approfondimenti"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:28
+msgid ""
+"`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
+"guide/blockdev/ramdisk.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:29
+msgid "`ramfs <https://wiki.debian.org/ramfs>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:30
+msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:31
+msgid ""
+"`POSIX open "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:32
+msgid ""
+"`POSIX close "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:33
+msgid ""
+"`POSIX read "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:34
+msgid ""
+"`POSIX write "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:35
+msgid ""
+"`POSIX lseek "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/lseek.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:36
+msgid ""
+"`POSIX truncate "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/truncate.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:37
+msgid ""
+"`POSIX dup "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:38
+msgid ""
+"`POSIX mkdir "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/mkdir.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:39
+msgid ""
+"`POSIX rmdir "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/rmdir.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:40
+msgid ""
+"`POSIX link "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/link.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:41
+msgid ""
+"`POSIX symlink "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/symlink.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:42
+msgid ""
+"`POSIX chmod "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/chmod.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:43
+msgid ""
+"`POSIX chown "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/chown.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:48
+msgid "22/11/2021 - File Management parte 2"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:9 ../source/2022/lectures/week9.rst:51
+msgid "File Management:"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:11 ../source/2022/lectures/week9.rst:53
+msgid "Concetto di file"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:12 ../source/2022/lectures/week9.rst:54
+msgid "Operazioni su file"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:55
+msgid "File pointer"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:56
+msgid "Metodo di accesso"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:57
+msgid "Directory"
+msgstr ""
+
+#: ../source/2022/lectures/week9.rst:58
+msgid "Protezione"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:17 ../source/2022/lectures/week9.rst:63
+msgid "[:ref:`t1 <textbooks>`] Sezione 12.1, 12.2, 12.4, 12.5"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:18 ../source/2022/lectures/week9.rst:64
+msgid ""
+"[:ref:`t2 <textbooks>`] Sezione 13.1, 13.1.1, 13.1.2, 13.1.5, 13.2, "
+"13.2.1, 13.2.2, 13.2.3, 13.3, 13.3.1, 13.3.2, 13.3.3, 13.3.4, 13.4, "
+"13.4.1, 13.4.2"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:2
+msgid "16/11/2021 - I/O Managament parte 2 - File Management parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:5 ../source/2022/lectures/week8.rst:54
+msgid "I/O Management:"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:7
+msgid "HDD e SSD scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:25
+msgid "[:ref:`t1 <textbooks>`] Sezione 11.5, 12.1"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:26
+msgid ""
+"[:ref:`t2 <textbooks>`] Sezione 11.1, 11.1.1, 11.1.2, 11.1.2.1, 11.2, "
+"11.3, 13.1"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:32 ../source/2022/lectures/week8.rst:73
+msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:33
+msgid ""
+"`Solid State Drives - Data Reliability and Lifetime "
+"<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:39 ../source/2022/lectures/week8.rst:80
+msgid "[:ref:`t2 <textbooks>`] Capitolo 12"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:44
+msgid "15/11/2021 - CPU scheduling parte 3 - I/O Managament parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:30 ../source/2022/lectures/week8.rst:46
+msgid "CPU scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:11 ../source/2022/lectures/week8.rst:48
+msgid "Load balancing"
+msgstr ""
+
+#: ../source/2022/lectures/week7.rst:12 ../source/2022/lectures/week8.rst:49
+msgid "Affinity"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:50
+msgid "Scheduler UNIX System V Release 4"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:51
+msgid "Linux Complete Fair Scheduler"
+msgstr ""
+
+#: ../source/2022/lectures/week5.rst:30 ../source/2022/lectures/week8.rst:52
+msgid "Introduzione alla sincronizzazione"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:56
+msgid "Caratteristiche dei dispositivi di I/O"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:57
+msgid "Modello di organizzazione dei moduli di I/O"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:58
+msgid "I/O Buffering"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:59
+msgid "I/O Scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:60
+msgid "Hard disk"
+msgstr ""
+
+#: ../source/2022/lectures/week8.rst:66
 msgid ""
 "[:ref:`t1 <textbooks>`] Sezione 10.3, 10.4, 5, 11, 11.1, 11.2, 11.3, "
 "11.4, 11.5"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:25
+#: ../source/2022/lectures/week8.rst:67
 msgid ""
 "[:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 12.2.2, 12.2.3, 12.3, "
 "12.4, 12.4.1, 12.4.2, 12.4.7, 11.1, 11.1.1"
@@ -111,27 +339,15 @@ msgstr ""
 #: ../source/2022/lectures/week1.rst:16 ../source/2022/lectures/week2.rst:24
 #: ../source/2022/lectures/week3.rst:19 ../source/2022/lectures/week4.rst:25
 #: ../source/2022/lectures/week4.rst:61 ../source/2022/lectures/week6.rst:15
-#: ../source/2022/lectures/week7.rst:45 ../source/2022/lectures/week8.rst:28
+#: ../source/2022/lectures/week7.rst:45 ../source/2022/lectures/week8.rst:70
 msgid "Link di approfondimento"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:30
+#: ../source/2022/lectures/week8.rst:72
 msgid ""
 "`Complete Fair Scheduler "
 "<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
 "CFS.html>`_"
-msgstr ""
-
-#: ../source/2022/lectures/week8.rst:31
-msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
-msgstr ""
-
-#: ../source/2022/lectures/week8.rst:36
-msgid "Approfondimenti"
-msgstr ""
-
-#: ../source/2022/lectures/week8.rst:38
-msgid "[:ref:`t2 <textbooks>`] Capitolo 12"
 msgstr ""
 
 #: ../source/2022/lectures/week7.rst:2
@@ -265,7 +481,7 @@ msgid ""
 msgstr ""
 
 #: ../source/2022/lectures/week6.rst:2
-msgid "02/11/2022 - Sincronizzazione parte 2"
+msgid "02/11/2022 - Sincronizzazione parte 3"
 msgstr ""
 
 #: ../source/2022/lectures/week6.rst:4
@@ -896,5 +1112,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "25/10/2022 - Thread parte 2"
+#~ msgstr ""
+
+#~ msgid "02/11/2022 - Sincronizzazione parte 2"
 #~ msgstr ""
 

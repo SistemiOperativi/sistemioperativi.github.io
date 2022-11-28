@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>3 - Scheduling &mdash; Sistemi Operativi 2021/2022 documentazione</title>
+  <title>4 - Scheduling &mdash; Sistemi Operativi 2021/2022 documentazione</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
@@ -69,7 +69,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>3 - Scheduling</li>
+      <li>4 - Scheduling</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/2022/q_exercises/sched.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -80,15 +80,14 @@
            <div itemprop="articleBody">
              
   <section id="scheduling">
-<h1>3 - Scheduling<a class="headerlink" href="#scheduling" title="Link a questa intestazione">¶</a></h1>
+<h1>4 - Scheduling<a class="headerlink" href="#scheduling" title="Link a questa intestazione">¶</a></h1>
 <ol class="arabic simple">
 <li><p>Si consideri uno scenario con 4 processi {P1,…, P4} CPU-bound e generati in sequenza a partire da P1 a P4 con ritardi trascurabili.</p></li>
 </ol>
 <blockquote>
 <div><p>Il processo Pi richiede 1/i secondi di CPU per completare la propria esecuzione.
 Considerando che il ritardo di context-switch sia trascurabile e che RR abbia una time slice pari a 125ms, si calcoli per gli algoritmi FCFS, SPN e RR il tempo di primo accesso alla CPU e il tempo di completamento per ciascun processo.</p>
-<blockquote>
-<div><div class="toggle docutils container">
+<div class="toggle docutils container">
 <div class="header docutils container">
 <p><strong>Mostra/Nascondi Soluzione</strong></p>
 </div>
@@ -390,7 +389,6 @@ Time</p></td>
 </div>
 </div>
 </div></blockquote>
-</div></blockquote>
 <ol class="arabic simple" start="2">
 <li><p>Si consideri uno scenario in cui uno scheduler Multilevel-feedback queue abbia 4 livelli di priorità, ed in cui il quanto di tempo assegnato ai processi al livello i sia di 1/2^i millisecondi. Si supponga che all’istante T0 nascano 2 processi A e B, entrambi CPU-bound. Il processo B richiede 10 millisecondi di tempo di CPU per completare la sua esecuzione. Si identifichi la durata massima (in termini di tempo di CPU) del processo A affinché il processo B possa completare la sua esecuzione entro il tempo T0+17 nei due casi in cui il primo processo ad essere schedulato in CPU sia A oppure B. Si supponga che il tempo di CPU per i context switch e per l’esecuzione dello scheduler sia nullo.</p></li>
 <li><p>Si consideri uno scenario in cui al tempo T0 nasca un processo P0 puramente CPU-bound di durata (tempo di CPU) pari a 10 secondi ed al tempo T0 + 3 secondi P0 origini un altro processo P1 puramente CPU-bound di durata (tempo di CPU) pari a 6 secondi. Supponendo che le durate dei processi siano note al tempo della loro generazione, e che il tempo di CPU per eseguire uno scheduler sia trascurabile. si calcoli il tempo massimo di completamento del processo P1 nel caso in cui il sistema abbia come scheduler Shortest Process Next oppure Shortest-Remaining-Time Next.</p></li>
@@ -406,7 +404,7 @@ Time</p></td>
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 16 nov 2022.
+      <span class="lastupdated">Ultimo aggiornamento 23 nov 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

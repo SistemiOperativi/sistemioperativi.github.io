@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>7 - File management &mdash; Sistemi Operativi 2021/2022 documentazione</title>
+  <title>6 - File management &mdash; Sistemi Operativi 2021/2022 documentazione</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
@@ -69,7 +69,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>7 - File management</li>
+      <li>6 - File management</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/2022/q_exercises/file.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -80,7 +80,74 @@
            <div itemprop="articleBody">
              
   <section id="file-management">
-<h1>7 - File management<a class="headerlink" href="#file-management" title="Link a questa intestazione">¶</a></h1>
+<h1>6 - File management<a class="headerlink" href="#file-management" title="Link a questa intestazione">¶</a></h1>
+<ol class="arabic simple">
+<li><p>Si consideri un file system con allocazione a catena ed accesso indicizzato. Dato un file:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>contente 1M record;</p></li>
+<li><p>il relativo indice ha taglia pari a 512 record e contiene 128 chiavi uniformemente distribuite nel file;</p></li>
+<li><p>memorizzato su un dispositivo di massa, la cui taglia di un blocco è pari a 4096 record.</p></li>
+</ul>
+<p>Calcolare la latenza massima e minima considerando che:</p>
+<ul class="simple">
+<li><p>il tempo medio di accesso ad un blocco è 10ms;</p></li>
+<li><p>l’accesso ad una chiave dell’indice in ram è pari a 1ms.</p></li>
+</ul>
+<div class="toggle docutils container">
+<div class="header docutils container">
+<p><strong>Mostra/Nascondi Soluzione</strong></p>
+</div>
+<div class="docutils container">
+<p>Assunzioni:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>L’indice è memorizzato su disco</p></li>
+<li><p>L’indice deve essere prima caricato in ram per poter essere utilizzato</p></li>
+<li><p>RecordID e RiferimentoBlocco hanno pari taglia</p></li>
+</ul>
+</div></blockquote>
+<p>Svolgimento:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Taglia di una chiave nell’indice = TagliaIndice/NumeroChiavi = 512R/128 = 4R</p></li>
+<li><p>Taglia di un riferimento = 2R</p></li>
+<li><p>Record utilizzabili all’interno di un blocco per memorizzare dati di file = Taglia di un blocco - Taglia di un riferimento = 4096-2 = 4094</p></li>
+<li><p>Numero di blocchi per memorizzare il file = Numero di record nel file / record utilizzabili = ceil(10^6/4094) = 245</p></li>
+<li><p>Distanza media tra due blocchi indicizzati = ceil(Numero di blocchi / numero di chiavi) = 2</p></li>
+<li><p>Latenza minima: accesso ad un blocco indicizzato, indice già presente in RAM.</p>
+<ul>
+<li><p>Risultato = Tempo di accesso a indice + Accesso al blocco indicizzato = 1ms +10ms = 11ms</p></li>
+</ul>
+</li>
+<li><p>Latenza massima: accesso al blocco più lontano da quello indicizzato, indice NON presente in RAM.</p>
+<ul>
+<li><p>Risultato = Tempo di caricamento indice +  Tempo di accesso a indice + (Numero di blocchi per indice)*(Tempo di accesso al blocco indicizzato) = +10ms + 1ms +2*10ms = 31ms</p></li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+</div></blockquote>
+<hr class="docutils" />
+<ol class="arabic simple" start="2">
+<li><p>Si consideri un file system con allocazione indicizzata ospitato su un dispositivo i cui blocchi hanno taglia pari a 1024 record e un riferimento a blocco occupa 8 record. Il record di sistema ha:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>128 entry per accesso diretto;</p></li>
+<li><p>4 entry per accesso indiretto;</p></li>
+<li><p>4 entry per accesso doppiamente indiretto.</p></li>
+</ul>
+<p>Qual è la taglia massima di un file in record?</p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Si consideri inoltre senario dove un processo P apra un file F (attualmente non in uso da parte di alcun processo) e poi esegua 2 fork(). Indicare il numero delle sessioni di I/O verso  il file F a valle dell’esecuzione delle 2 fork() da parte di P.</p></li>
+<li><p>Si consideri un dispositivo di memoria di massa con blocchi di taglia pari a 4 KB, indici di blocchi di taglia pari a 4 byte, ed un record di sistema contenente in totale 12 indici di cui N diretti ed M indiretti. Si determini il valore di N ed M, qualora esista, che possa permettere di allocare file di taglia almeno pari a 4 GB.</p></li>
+<li><p>Si supponga di avere un file system che supporta il metodo di allocazione a catena. Si supponga inoltre che il dispositivo di memoria di massa ove il file system è ospitato abbia blocchi di taglia pari a 4 K record, e che un indice (puntatore) di blocco di dispositivo sia espresso con 16 record. Si supponga inoltre di avere un file F di taglia pari a 16 M record. Si calcoli il numero di blocchi necessari ad allocare il file sul dispositivo di memoria di massa secondo lo schema a catena.</p></li>
+</ol>
 </section>
 
 
@@ -92,7 +159,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 02 nov 2022.
+      <span class="lastupdated">Ultimo aggiornamento 23 nov 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

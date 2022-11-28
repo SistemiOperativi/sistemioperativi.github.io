@@ -6,3 +6,4 @@
 #. Descrivere il Bakery algorithm.
 #. Gli spinlock sono appropriati in un sistema single-core? Motiva la tua risposta.
 
+

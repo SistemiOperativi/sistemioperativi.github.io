@@ -7,6 +7,13 @@ Per ogni lezione vengono riportati riferimenti a paragrafi dei libri di testo.
 
   L'unione dei paragrafi può non rappresentare la totalità degli argomenti trattati durante la lezione. 
 
+
+.. _l22-11-2022:
+.. include::  week9.rst
+
+-------------------------------------------------------
+
+
 .. _l15-11-2022:
 .. include::  week8.rst
 

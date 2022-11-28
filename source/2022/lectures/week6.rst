@@ -1,4 +1,4 @@
-02/11/2022 - Sincronizzazione parte 2
+02/11/2022 - Sincronizzazione parte 3
 -----------------------------------------------
 
 * Algoritmo del panettiere (Lamport)

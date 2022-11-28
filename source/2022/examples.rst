@@ -11,10 +11,11 @@ In questa sezione vengono riportati diversi esempi di codice per mostrare alcuni
 	examples/pfew
 	examples/pvst
 	examples/flipvector
+	examples/cp
+
 	
 
 .. 
-		examples/cp
 		examples/dup
 		examples/prodcons
 
