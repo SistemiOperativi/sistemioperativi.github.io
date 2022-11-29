@@ -9,12 +9,12 @@ In questa sezione potete scaricare le slide delle lezioni.
 * :download:`04 - Sincronizzazione <slides/04-so-sincronizzazione-221116v1.pdf>` 
 * :download:`05 - CPU scheduling <slides/05-so-cpu-scheduling-221116v1.pdf>`
 * :download:`06 - I/O e file management <slides/06-so-IO-file-management-221116v1.pdf>`
+* :download:`05 - Gestione delle memoria <slides/07-so-memoria-221129.pdf>`
     
+* :download:`A1 - Solid state drives: architetture e soluzioni enterprise [en] <slides/A1-solid-state-drives.pdf>`
+
 ..
-    * `05 - Gestione delle memoria </slides/05-memoria-v5-211124.pdf>`_ [Aggiornato il 24/11/21]
-    * `06 - I/O e file management </slides/06-IO-file-management-211213v4.pdf>`_ [Aggiornato il 13/12/21]
     * `07 - Introduzione a Linux </slides/07-introduzione-linux-211222v2.pdf>`_ [Aggiornato il 22/12/21]
-    * `A1 - Solid state drives: architetture e soluzioni enterprise [en] </slides/A1-solid-state-drives.pdf>`_
 
 Documentazione
 """"""""""""""
@@ -25,14 +25,14 @@ Documentazione
     * `Microsoft C docs on literals <https://docs.microsoft.com/cpp/c-language/c-integer-constants>`_
     * `GCC Thread Local Storage <https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html>`_
     * `Linux Kernel <https://www.kernel.org/doc/html/latest/>`_
-  
-..
-    * `gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-Builtins.html#g_t_005f_005fsync-Builtins>`_
     * `mode_t <https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_
-    * `objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_
     * `ramdisk <https://www.kernel.org/doc/html/latest/admin-guide/blockdev/ramdisk.html>`_
     * `ramfs <https://wiki.debian.org/ramfs>`_
     * `tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_
+  
+..
+    * `gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-Builtins.html#g_t_005f_005fsync-Builtins>`_
+    * `objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_
     * `/etc/passwd <https://man7.org/linux/man-pages/man5/passwd.5.html>`_
     * `/etc/group <https://man7.org/linux/man-pages/man5/group.5.html>`_
     * `/etc/shadow <https://man7.org/linux/man-pages/man5/shadow.5.html>`_
@@ -51,10 +51,10 @@ Approfondimenti
 * `Bakery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_
 * `Complete Fair Scheduler <https://www.kernel.org/doc/html/latest/scheduler/sched-design-CFS.html>`_
 * `Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_
+* `Solid State Drives - Data Reliability and Lifetime <https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_
 
 
 .. 
-    * `Solid State Drives - Data Reliability and Lifetime <https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_
     * `Filesystem Hierarchy Standard <https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf>`_
     * `objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_
     * `readelf <https://man7.org/linux/man-pages/man1/readelf.1.html>`_

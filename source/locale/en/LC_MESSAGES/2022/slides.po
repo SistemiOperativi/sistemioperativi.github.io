@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-16 15:08+0100\n"
+"POT-Creation-Date: 2022-11-29 12:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +60,16 @@ msgid ""
 "221116v1.pdf>`"
 msgstr ""
 
+#: ../source/2022/slides.rst:12
+msgid ":download:`05 - Gestione delle memoria <slides/07-so-memoria-221129.pdf>`"
+msgstr ""
+
+#: ../source/2022/slides.rst:14
+msgid ""
+":download:`A1 - Solid state drives: architetture e soluzioni enterprise "
+"[en] <slides/A1-solid-state-drives.pdf>`"
+msgstr ""
+
 #: ../source/2022/slides.rst:20
 msgid "Documentazione"
 msgstr ""
@@ -86,6 +96,26 @@ msgstr ""
 
 #: ../source/2022/slides.rst:27
 msgid "`Linux Kernel <https://www.kernel.org/doc/html/latest/>`_"
+msgstr ""
+
+#: ../source/2022/slides.rst:28
+msgid ""
+"`mode_t "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
+msgstr ""
+
+#: ../source/2022/slides.rst:29
+msgid ""
+"`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
+"guide/blockdev/ramdisk.html>`_"
+msgstr ""
+
+#: ../source/2022/slides.rst:30
+msgid "`ramfs <https://wiki.debian.org/ramfs>`_"
+msgstr ""
+
+#: ../source/2022/slides.rst:31
+msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
 msgstr ""
 
 #: ../source/2022/slides.rst:43
@@ -137,6 +167,12 @@ msgstr ""
 
 #: ../source/2022/slides.rst:53
 msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
+msgstr ""
+
+#: ../source/2022/slides.rst:54
+msgid ""
+"`Solid State Drives - Data Reliability and Lifetime "
+"<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
 msgstr ""
 
 #~ msgid "`01 - Introduzione  </slides/01-so-introduzione-210927v1.pdf>`_"
@@ -195,5 +231,11 @@ msgstr ""
 #~ msgid ""
 #~ ":download:`05 - CPU scheduling </slides/05"
 #~ "-so-cpu-scheduling-221116v1.pdf>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`A1 - Solid state drives: "
+#~ "architetture e soluzioni enterprise [en] "
+#~ "</slides/A1-solid-state-drives.pdf>`"
 #~ msgstr ""
 

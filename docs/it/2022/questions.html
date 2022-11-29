@@ -23,7 +23,7 @@
     <link rel="index" title="Indice" href="../genindex.html" />
     <link rel="search" title="Cerca" href="../search.html" />
     <link rel="next" title="Slides" href="slides.html" />
-    <link rel="prev" title="FlipVector" href="examples/flipvector.html" /> 
+    <link rel="prev" title="CoPy" href="examples/cp.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -67,6 +67,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#esercizi-di-programmazione">Esercizi di programmazione</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#riscaldamento">1 - Riscaldamento</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#processi-e-threads">2 - Processi e threads</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#file">3 - File</a></li>
 </ul>
 </li>
 </ul>
@@ -665,6 +666,42 @@ Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.
 <li><p>Svolgere l’esercizio 2.2 utilizzando threads piuttosto che processi.</p></li>
 </ol>
 </section>
+<section id="file">
+<h3>3 - File<a class="headerlink" href="#file" title="Link a questa intestazione">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Nei sistemi operativi UNIX, <a class="reference external" href="https://man7.org/linux/man-pages/man4/random.4.html">/dev/urandom</a> è un dispositivo a caratteri (char device) virtuale in grado di generare numeri casuali.
+Nello specifico, l’operazione di lettura dal relativo file produce byte casuali.
+Scrivere un programma C che genera un file con contenuto interamente randomico. Il programma:</p>
+<ul class="simple">
+<li><p>prende come parametri da linea di comando: un numero <em>N</em> e una stringa <em>S</em> da usare come nome del file da creare;</p></li>
+<li><p>crea un file <em>S</em> contenente <em>N</em> byte randomici;</p></li>
+<li><p>utilizza il dispositivo /dev/random come sorgente di numeri pseudo-casuali.</p></li>
+</ul>
+</li>
+<li><p>Dato un file binario contenente un sequenza di 2^15 interi di tipo <em>short</em>, scrivere un programma che crea N processi o threads, i quali leggono il contenuto del file ed individuano il valore minimo e massimo contenuto nel file. Nel fornire una soluzione rispettare i seguenti vincoli:</p>
+<ul class="simple">
+<li><p>ciascun intero non può essere letto da più di un thread/processo;</p></li>
+<li><p>ciascun thread/processo può leggere il medesimo intero al più una volta;</p></li>
+<li><p>ciascun thread/processo può allocare memoria nell’heap per al più 512 byte;</p></li>
+<li><p>N è un parametro definito a tempo di compilazione o tramite linea di comando;</p></li>
+<li><p>N è minore o uguale a 8;</p></li>
+<li><p>è ammesso allocare di variabili globali (data) e locali (stack) per memorizzare tipi primitivi (puntatori, int, short, char, long, etc.) per al più 128 byte;</p></li>
+<li><p>per generare il file utilizzare la soluzione dell’esercizio 3.1.</p></li>
+</ul>
+</li>
+<li><p>Scrivere un programma C <em>invert</em> che dato un file <em>A</em> ne inverte il contenuto e lo memorizza in nuovo file <em>B</em>. Il programma deve:</p>
+<ul class="simple">
+<li><p>riportare il contenuto di <em>A</em> in memoria;</p></li>
+<li><p>invertire la posizione di ciascun byte utilizzando un numero <em>N</em> di thread/processi concorrenti;</p></li>
+<li><p>scrivere il risultato in un nuovo file <em>B</em>;</p></li>
+<li><p>prendere <em>A</em>, <em>B</em> e <em>N</em> come argomenti da linea di comando.</p></li>
+</ul>
+</li>
+<li><p>Si scriva il codice di una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">tunnel(int</span> <span class="pre">descriptors[],</span> <span class="pre">int</span> <span class="pre">count)</span></code> tale che, se eseguita, porti l’applicazione a gestire, per ogni file-descriptor dell’array <em>descriptors</em> l’inoltro del flusso  dei dati in ingresso verso il canale di standard-output dell’applicazione. Il parametro <em>count</em> indica di quanti elementi è costituito l’array <em>descriptors</em>. L’inoltro dovrà essere attuato in modo concorrente per i diversi canali.</p></li>
+<li><p>Si scriva una funzione C con la seguente interfaccia <code class="code docutils literal notranslate"><span class="pre">void</span> <span class="pre">file_check(char</span> <span class="pre">*file_name,</span> <span class="pre">int</span> <span class="pre">num_threads)</span></code>. Tale funzione dovrà lanciare num_thread nuovi threads, in modo che ciascuno di essi legga stringhe dallo standard input, e per ogni stringa letta verifichi l’occorrenza di tale stringa all’interno <em>di ciascuna riga</em> del file il cui path è identificato tramite il parametro file_name, e stampi la stringa su standard output in caso affermativo.</p></li>
+<li><p>Scrivere un programma C in cui dato un file <em>A</em>, una stringa <em>B</em> e un intero <em>N</em>, vengano creati <em>N</em> thread/processi che cerchino se all’interno del file <em>A</em> esiste una linea uguale a <em>B</em>.</p></li>
+</ol>
+</section>
 </section>
 </section>
 
@@ -672,7 +709,7 @@ Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="examples/flipvector.html" class="btn btn-neutral float-left" title="FlipVector" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="examples/cp.html" class="btn btn-neutral float-left" title="CoPy" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="slides.html" class="btn btn-neutral float-right" title="Slides" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
@@ -680,7 +717,7 @@ Di conseguenza, le soluzioni proposte potrebbe non essere le uniche ammissibili.
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 23 nov 2022.
+      <span class="lastupdated">Ultimo aggiornamento 29 nov 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
