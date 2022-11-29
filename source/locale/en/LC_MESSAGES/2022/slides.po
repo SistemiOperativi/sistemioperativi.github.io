@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-29 12:53+0100\n"
+"POT-Creation-Date: 2022-11-29 13:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgid ""
 msgstr ""
 
 #: ../source/2022/slides.rst:12
-msgid ":download:`05 - Gestione delle memoria <slides/07-so-memoria-221129.pdf>`"
+msgid ":download:`07 - Gestione delle memoria <slides/07-so-memoria-221129.pdf>`"
 msgstr ""
 
 #: ../source/2022/slides.rst:14
@@ -237,5 +237,10 @@ msgstr ""
 #~ ":download:`A1 - Solid state drives: "
 #~ "architetture e soluzioni enterprise [en] "
 #~ "</slides/A1-solid-state-drives.pdf>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`05 - Gestione delle memoria "
+#~ "<slides/07-so-memoria-221129.pdf>`"
 #~ msgstr ""
 

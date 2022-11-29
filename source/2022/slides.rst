@@ -9,7 +9,7 @@ In questa sezione potete scaricare le slide delle lezioni.
 * :download:`04 - Sincronizzazione <slides/04-so-sincronizzazione-221116v1.pdf>` 
 * :download:`05 - CPU scheduling <slides/05-so-cpu-scheduling-221116v1.pdf>`
 * :download:`06 - I/O e file management <slides/06-so-IO-file-management-221116v1.pdf>`
-* :download:`05 - Gestione delle memoria <slides/07-so-memoria-221129.pdf>`
+* :download:`07 - Gestione delle memoria <slides/07-so-memoria-221129.pdf>`
     
 * :download:`A1 - Solid state drives: architetture e soluzioni enterprise [en] <slides/A1-solid-state-drives.pdf>`
 
