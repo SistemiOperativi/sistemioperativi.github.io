@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-20 13:31+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../source/2022/lectures/week04.rst:2
+msgid "19/10/2022 - Processi parte 1 - Thread parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:4
+msgid "Processi"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:6
+msgid "Processi UNIX: stati, gerarchie e threads"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:7
+msgid "Processi Linux: concetto di task, stati, accenni di task_struct"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:9
+msgid "Thread"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:11
+msgid "Concetto di thread"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:12
+msgid "User-Level threads e Kernel-level threads"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:13
+msgid "POSIX threads"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:14
+msgid "Variabili per thread"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:15
+msgid "Librerie thread-safe e non"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:16
+msgid "pthread_create, pthread_join, pthread_exit"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:19 ../source/2022/lectures/week04.rst:52
+msgid "Riferimenti libro di testo"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:21
+msgid "[:ref:`t1 <books2022>`] Sezione 3.6, 4.1, 4.2"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:22
+msgid ""
+"[:ref:`t2 <books2022>`] Sezione 3.2, 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4, "
+"4.7.2"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:25 ../source/2022/lectures/week04.rst:61
+msgid "Link di approfondimento"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:27
+msgid ""
+"`pthread_create "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:28
+msgid ""
+"`pthread_join "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:29
+msgid ""
+"`pthread_exit "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:30
+msgid ""
+"Codice sorgente Linux Kernel: `task_struct "
+"<https://elixir.bootlin.com/linux/v5.14.7/source/include/linux/sched.h#L661>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:31
+msgid ""
+"`pthread_key_create "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_key_create.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:32
+msgid ""
+"`pthread_key_delete "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_key_delete.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:33
+msgid ""
+"`pthread_getspecific "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_getspecific.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:34
+msgid ""
+"`GCC Thread Local Storage <https://gcc.gnu.org/onlinedocs/gcc/Thread-"
+"Local.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:42
+msgid "18/10/2022 - Processi parte 3"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:44
+msgid "Processi:"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:46
+msgid "Famiglia di funzioni POSIX exec"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:47
+msgid "Ambiente e variabili di ambiente"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:48
+msgid "Famiglia di funzioni POSIX getenv, putenv, setenv, unsetenv"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:49
+msgid "Shell Linux: ls, man, cd"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:56
+msgid "[:ref:`t1 <books2022>`] Sezione 2.3"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:57
+msgid "[:ref:`t2 <books2022>`] Sezione 3.1.2, 3.3.1"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:58
+msgid "[:ref:`t3 <books2022>`] Sezione 3.2, 3.3"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:63
+msgid ""
+"`exec "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week04.rst:64
+msgid ""
+"`getenv "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html>`_"
+msgstr ""
+

@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>5 - Gestione della memoria &mdash; Operating Systems 2021/2022 documentation</title>
+  <title>7 - Gestione della memoria &mdash; Operating Systems 2021/2022 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
@@ -68,7 +68,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>5 - Gestione della memoria</li>
+      <li>7 - Gestione della memoria</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/2022/q_exercises/memory.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -79,7 +79,495 @@
            <div itemprop="articleBody">
              
   <section id="gestione-della-memoria">
-<h1>5 - Gestione della memoria<a class="headerlink" href="#gestione-della-memoria" title="Permalink to this headline">¶</a></h1>
+<h1>7 - Gestione della memoria<a class="headerlink" href="#gestione-della-memoria" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li><p>Si consideri il caso di memoria virtuale basata su paginazione a più livelli, indirizzi logici e fisici a N bit, pagine di 4MB e tabelle pari alla dimensione di una pagina.
+Rispondere alle seguenti domande considerando N pari a 40 bit e 48 bit.</p></li>
+</ol>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Quanti bit servono per spiazzarsi all’interno di una pagina?</p></li>
+<li><p>Quanti bit servono per identificare una pagina nel caso di N uguale a 40 bit e 48 bit?</p></li>
+<li><p>Supponendo di utilizzare un numero di bit per entry in una tabella pari alla minima potenza di 2 necessaria a memorizzare un frame number, quante entry possono essere memorizzate in una tabella?</p></li>
+<li><p>Quanti livelli sono necessari?</p></li>
+<li><p>Qual è la struttura dell’indirizzo e l’utilizzo dei bit nel suddetto schema di paginazione?</p></li>
+<li><p>Qual è il numero massimo di frame di memoria impegnati da un processo nel caso in cui il numero delle tabelle a qualsiasi livello correntemente usate per quel processo in suddetto schema di paginazione sia pari a 10?</p></li>
+</ol>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Data una memoria principale di 4 frame, si determini quanti e quali page fault vengono generati dagli algoritmi FIFO, LRU e Ottimo per la sostituzione delle pagine in sistemi con memoria virtuale data la seguente traccia: 0 9 0 3 5 7 9 0 9 6 7 8 9 7 6 4</p></li>
+</ol>
+<blockquote>
+<div><div class="toggle docutils container">
+<div class="header docutils container">
+<p><strong>Mostra/Nascondi Soluzione</strong></p>
+</div>
+<div class="docutils container">
+<p><em>FIFO</em>: #PageFault = 11</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>0</strong></p></td>
+<td><p><strong>9</strong></p></td>
+<td><p>0</p></td>
+<td><p><strong>3</strong></p></td>
+<td><p><strong>5</strong></p></td>
+<td><p><strong>7</strong></p></td>
+<td><p>9</p></td>
+<td><p><strong>0</strong></p></td>
+<td><p><strong>9</strong></p></td>
+<td><p><strong>6</strong></p></td>
+<td><p>7</p></td>
+<td><p><strong>8</strong></p></td>
+<td><p>9</p></td>
+<td><p><strong>7</strong></p></td>
+<td><p>6</p></td>
+<td><p><strong>4</strong></p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p>8</p></td>
+<td><p>8</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>E</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p>7</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p>8</p></td>
+<td><p>8</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-odd"><td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>7</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-even"><td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>6</p></td>
+</tr>
+</tbody>
+</table>
+<p><em>Least-Recently Used</em>: #PageFault = 10</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>0</strong></p></td>
+<td><p><strong>9</strong></p></td>
+<td><p>0</p></td>
+<td><p><strong>3</strong></p></td>
+<td><p><strong>5</strong></p></td>
+<td><p><strong>7</strong></p></td>
+<td><p><strong>9</strong></p></td>
+<td><p><strong>0</strong></p></td>
+<td><p>9</p></td>
+<td><p><strong>6</strong></p></td>
+<td><p>7</p></td>
+<td><p><strong>8</strong></p></td>
+<td><p>9</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p><strong>4</strong></p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>7</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>E</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>7</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-even"><td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p>7</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+</tr>
+</tbody>
+</table>
+<p><em>Optimal</em>: #PageFault = 8</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>0</strong></p></td>
+<td><p><strong>9</strong></p></td>
+<td><p>0</p></td>
+<td><p><strong>3</strong></p></td>
+<td><p><strong>5</strong></p></td>
+<td><p><strong>7</strong></p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p><strong>6</strong></p></td>
+<td><p>7</p></td>
+<td><p><strong>8</strong></p></td>
+<td><p>9</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p><strong>4</strong></p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>E</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>9</p></td>
+<td><p>7</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-odd"><td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+</tr>
+<tr class="row-even"><td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>E</p></td>
+<td><p>5</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>8</p></td>
+<td><p>8</p></td>
+<td><p>8</p></td>
+<td><p>8</p></td>
+<td><p>4</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div></blockquote>
+<hr class="docutils" />
+<ol class="arabic" start="3">
+<li><p>Considerando uno schema di paginazione a 3 livelli in cui la tabella di primo livello sia costituita da 4 K elementi, quella di secondo livello da 2 K elementi e quella di terzo livello da 1 K elementi, si determini il numero massimo di pagine gestibili all’interno dello spazio di indirizzamento di un processo.</p></li>
+<li><p>Si consideri una sequenza di generazione di 4 processi, P4, P1, P2 e P3.
+P1 e P2 hanno taglia 1MB, P3 ha taglia 2 MB e P4 ha taglia 4 MB. Il sistema con multiprogrammazione è caratterizzato da:</p>
+<ul class="simple">
+<li><p>una memoria di lavoro di 7 MB di cui 1 MB sia riservato per il sistema operativo</p></li>
+<li><p>un meccanismo di allocazione dei processi basato su partizioni dinamiche.</p></li>
+</ul>
+<p>Assumendo che P4 non termini prima di P3, si determini quale deve essere la relazione tra il tempo di completamento di P1 e P2 ed il tempo di nascita di P3 affinché, e sotto quali condizioni, ognuno dei 4 processi possa essere correttamente allocato in memoria all’atto della sua creazione.</p>
+</li>
+</ol>
+<blockquote>
+<div><div class="toggle docutils container">
+<div class="header docutils container">
+<p><strong>Mostra/Nascondi Soluzione</strong></p>
+</div>
+<div class="docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 0%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>7</p></td>
+<td></td>
+<td colspan="2"></td>
+<td colspan="4"><p><strong>P2</strong></p></td>
+<td></td>
+<td colspan="8" rowspan="2"><p><strong>P3</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td></td>
+<td></td>
+<td colspan="6"><p><strong>P1</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td></td>
+<td colspan="15" rowspan="4"><p><strong>P4</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td></td>
+<td colspan="15"><p><strong>MONITOR</strong></p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>Siano S_i e T_i rispettivamente l’istante di inizio e terminazione del processo i</p></li>
+<li><p>Vincoli:</p>
+<ul>
+<li><p>S_4 &lt; S_1 &lt; S_2 &lt; S_3</p></li>
+<li><p>T_4 &gt; S_3</p></li>
+</ul>
+</li>
+<li><p>Soluzione:</p>
+<ul>
+<li><p>S_3 &gt; max(T_1, T_2)</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div></blockquote>
 </section>
 
 
@@ -91,7 +579,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on Nov 02, 2022.
+      <span class="lastupdated">Last updated on Dec 20, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

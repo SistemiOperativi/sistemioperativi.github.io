@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-20 13:31+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../source/2022/lectures/week07.rst:2
+msgid "09/11/2021 - CPU scheduling parte 2"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:5
+msgid "Round Robin"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:6
+msgid "Priority Scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:7
+msgid "Multi-level feedback queue"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:8
+msgid "Fair-share scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:9
+msgid "Multiprocessor scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:10
+msgid "Load sharing"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:11
+msgid "Load balancing"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:12
+msgid "Affinity"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:17 ../source/2022/lectures/week07.rst:39
+msgid "Riferimenti libro di testo"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:18
+msgid "[:ref:`t1 <textbooks>`] Sezione 9.2, 10.1"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:19
+msgid "[:ref:`t2 <textbooks>`] Sezione 5.4, 5.5"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:23
+msgid "08/11/2021 - Sincronizzazione parte 4 - CPU scheduling parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:25
+msgid "Sincronizzaione"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:27
+msgid "Spin lock, Mutex POSIX"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:28
+msgid "Semafori POSIX"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:30
+msgid "CPU scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:32
+msgid "Metriche per cpu scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:33
+msgid "Non-preemptive vs Preemtive"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:34
+msgid "First Come First Serve"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:35
+msgid "Shortest Job First"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:41
+msgid "[:ref:`t1 <textbooks>`] Sezione 9.1, 9.2"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:42
+msgid "[:ref:`t2 <textbooks>`] Sezione 6.6, 7.3.1, 5.1, 5.2, 5.3"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:45
+msgid "Link di approfondimento"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:47
+msgid ""
+"`pthread_spin_init "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_init.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:48
+msgid ""
+"`pthread_spin_lock "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_lock.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:49
+msgid ""
+"`pthread_mutex_init "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_init.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:50
+msgid ""
+"`pthread_mutex_lock "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_lock.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:51
+msgid ""
+"`gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
+"Builtins.html#g_t_005f_005fsync-Builtins>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:52
+msgid ""
+"`sem_init "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_init.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:53
+msgid ""
+"`sem_wait "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_wait.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:54
+msgid ""
+"`sem_post "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_post.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week07.rst:55
+msgid ""
+"`sem_destroy "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_destroy.html>`_"
+msgstr ""
+

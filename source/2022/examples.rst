@@ -12,12 +12,8 @@ In questa sezione vengono riportati diversi esempi di codice per mostrare alcuni
 	examples/pvst
 	examples/flipvector
 	examples/cp
-
-	
-
-.. 
-		examples/dup
-		examples/prodcons
+	examples/dup
+	examples/prodcons
 
 
 

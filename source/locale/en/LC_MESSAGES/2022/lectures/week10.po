@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-20 14:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../source/2022/lectures/week10.rst:2
+msgid "30/11/2021 - Gestione delle Memoria parte 2"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:4
+msgid "Paginazione"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:5
+msgid "Tabella delle pagine"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:9
+msgid "29/11/2021 - File Management parte 4 - Gestione delle Memoria parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:14
+msgid "File management"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:12
+msgid "File descriptor"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:13
+msgid "Redirezionamento"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:14
+msgid "Esempio di codice"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:24
+msgid "Gestione della memoria"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:17
+msgid "Requisiti"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:20
+msgid "Partizionamento"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:19
+msgid "Statico: taglia fissa, variabile"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:20
+msgid "Dinamico"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:21
+msgid "Buddy system"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:22
+msgid "Frammentazione interna ed esterna"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:23
+msgid "Assegnazione partizioni"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:24
+msgid "Binding indirizzi"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:25
+msgid "Rilocazione"
+msgstr ""
+
+#~ msgid "30/11/2021 - File Management parte 3"
+#~ msgstr ""
+
+#~ msgid "29/11/2021 - File Management parte 2"
+#~ msgstr ""
+
+#~ msgid "Gestione della memoria * Requisiti * Partizionamento"
+#~ msgstr ""
+

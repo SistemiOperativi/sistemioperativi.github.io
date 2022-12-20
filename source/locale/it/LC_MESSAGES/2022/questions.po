@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-29 13:00+0100\n"
+"POT-Creation-Date: 2022-12-20 13:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -281,11 +281,107 @@ msgstr ""
 msgid "Si descriva il metodo di allocazione dei file a catena."
 msgstr ""
 
-#: ../source/2022/questions.rst:22
+#: ../source/2022/q_exercises/memory.rst:2
+#: ../source/2022/questions/memory.rst:2
+msgid "7 - Gestione della memoria"
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:4
+msgid ""
+"Descrivi la paginazione e la segmentazione mostrando vantaggi e svantaggi"
+" di ciascuna."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:5
+msgid ""
+"Mostra lo schema di paginazione a due livelli e il processo di traduzione"
+" di un indirizzo virtuale in fisico. Quali sono i vantaggi e gli "
+"svantaggi nell'uso di tale schema?"
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:6
+msgid "Cosa è e a cosa serve il translation lookside buffer?"
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:7
+msgid ""
+"Mostrare uno schema di segmentazione paginata con TLB e descriverne il "
+"funzionamento per la traduzione da indirizzo logico a fisico."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:8
+msgid "Che cosa è un buddy system?"
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:9
+msgid "Descrivi l'anomalia di Belady."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:10
+msgid ""
+"Descrivere l'algoritmo dell'orologio nell'ambito delle politiche di "
+"replacement delle pagine."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:11
+msgid "Descrivere gli aspetti principali di gestione della memoria virtuale."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:12
+msgid ""
+"Descrizione la gestione di un page fault nel caso di memoria virtuale "
+"basata su paginazione."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:13
+msgid ""
+"Descrivere le caratteristiche delle politiche di gestione del resident "
+"set di processo."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:14
+msgid "Descrivere il fenomeno del thrashing nel contesto della memoria virtuale."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:15
+msgid ""
+"Descrivere la tecnica di gestione delle memoria basata su partizioni "
+"dinamiche, indicando anche di quali supporti per il binding degli "
+"indirizzi questa necessita."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:16
+msgid ""
+"Descrivere l'algoritmo di selezione Least-Recently-Used (LRU) per sistemi"
+" di memoria virtuale basati su paginazione."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:17
+msgid ""
+"Si descriva la tecnica della paginazione, indicando quali siano le "
+"strutture dati fondamentali che un sistema operativo deve gestire per "
+"metterla in atto."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:18
+msgid ""
+"Descrivere l'algoritmo ottimo per la sostituzione delle pagine in "
+"ambiente di memoria virtuale. Si indichi infine se tale algoritmo soffra "
+"o meno dell'anomalia di Belady, motivando la risposta."
+msgstr ""
+
+#: ../source/2022/questions/memory.rst:19
+msgid ""
+"Descrivere la struttura e l'utilizzo della tabella delle pagine e la "
+"relazione tra questa ed i componenti hardware presenti su una "
+"architettura di processore convenzionale."
+msgstr ""
+
+#: ../source/2022/questions.rst:20
 msgid "Esercizi di teoria"
 msgstr ""
 
-#: ../source/2022/questions.rst:27
+#: ../source/2022/questions.rst:25
 msgid ""
 "Alcuni esercizi possono deliberatamente ammettere più di una soluzione in"
 " funzione delle assunzioni fatte durante lo svolgimento. Di conseguenza, "
@@ -346,6 +442,8 @@ msgid ""
 msgstr ""
 
 #: ../source/2022/q_exercises/file.rst:20
+#: ../source/2022/q_exercises/memory.rst:21
+#: ../source/2022/q_exercises/memory.rst:90
 #: ../source/2022/q_exercises/sched.rst:13
 msgid "**Mostra/Nascondi Soluzione**"
 msgstr ""
@@ -461,12 +559,27 @@ msgstr ""
 msgid "Completamento"
 msgstr ""
 
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:31
+#: ../source/2022/q_exercises/memory.rst:33
+#: ../source/2022/q_exercises/memory.rst:35
+#: ../source/2022/q_exercises/memory.rst:37
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:46
+#: ../source/2022/q_exercises/memory.rst:48
+#: ../source/2022/q_exercises/memory.rst:50
+#: ../source/2022/q_exercises/memory.rst:52
+#: ../source/2022/q_exercises/memory.rst:59
+#: ../source/2022/q_exercises/memory.rst:62
+#: ../source/2022/q_exercises/memory.rst:64
+#: ../source/2022/q_exercises/memory.rst:66
 #: ../source/2022/q_exercises/sched.rst:30
 #: ../source/2022/q_exercises/sched.rst:60
 #: ../source/2022/q_exercises/sched.rst:77
 msgid "0"
 msgstr ""
 
+#: ../source/2022/q_exercises/memory.rst:108
 #: ../source/2022/q_exercises/sched.rst:30
 #: ../source/2022/q_exercises/sched.rst:32
 #: ../source/2022/q_exercises/sched.rst:77
@@ -797,11 +910,316 @@ msgid ""
 " dispositivo di memoria di massa secondo lo schema a catena."
 msgstr ""
 
-#: ../source/2022/questions.rst:44
+#: ../source/2022/q_exercises/memory.rst:4
+msgid ""
+"Si consideri il caso di memoria virtuale basata su paginazione a più "
+"livelli, indirizzi logici e fisici a N bit, pagine di 4MB e tabelle pari "
+"alla dimensione di una pagina. Rispondere alle seguenti domande "
+"considerando N pari a 40 bit e 48 bit."
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:7
+msgid "Quanti bit servono per spiazzarsi all'interno di una pagina?"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:8
+msgid ""
+"Quanti bit servono per identificare una pagina nel caso di N uguale a 40 "
+"bit e 48 bit?"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:9
+msgid ""
+"Supponendo di utilizzare un numero di bit per entry in una tabella pari "
+"alla minima potenza di 2 necessaria a memorizzare un frame number, quante"
+" entry possono essere memorizzate in una tabella?"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:10
+msgid "Quanti livelli sono necessari?"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:11
+msgid ""
+"Qual è la struttura dell'indirizzo e l'utilizzo dei bit nel suddetto "
+"schema di paginazione?"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:12
+msgid ""
+"Qual è il numero massimo di frame di memoria impegnati da un processo nel"
+" caso in cui il numero delle tabelle a qualsiasi livello correntemente "
+"usate per quel processo in suddetto schema di paginazione sia pari a 10?"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:15
+msgid ""
+"Data una memoria principale di 4 frame, si determini quanti e quali page "
+"fault vengono generati dagli algoritmi FIFO, LRU e Ottimo per la "
+"sostituzione delle pagine in sistemi con memoria virtuale data la "
+"seguente traccia: 0 9 0 3 5 7 9 0 9 6 7 8 9 7 6 4"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:25
+msgid "*FIFO*: #PageFault = 11"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:59
+msgid "**0**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:59
+msgid "**9**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:59
+msgid "**3**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:59
+msgid "**5**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:59
+msgid "**7**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:31
+#: ../source/2022/q_exercises/memory.rst:33
+#: ../source/2022/q_exercises/memory.rst:35
+#: ../source/2022/q_exercises/memory.rst:37
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:46
+#: ../source/2022/q_exercises/memory.rst:48
+#: ../source/2022/q_exercises/memory.rst:50
+#: ../source/2022/q_exercises/memory.rst:52
+#: ../source/2022/q_exercises/memory.rst:59
+#: ../source/2022/q_exercises/memory.rst:62
+#: ../source/2022/q_exercises/memory.rst:64
+#: ../source/2022/q_exercises/memory.rst:66
+msgid "9"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:59
+msgid "**6**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:31
+#: ../source/2022/q_exercises/memory.rst:33
+#: ../source/2022/q_exercises/memory.rst:35
+#: ../source/2022/q_exercises/memory.rst:37
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:46
+#: ../source/2022/q_exercises/memory.rst:48
+#: ../source/2022/q_exercises/memory.rst:50
+#: ../source/2022/q_exercises/memory.rst:52
+#: ../source/2022/q_exercises/memory.rst:59
+#: ../source/2022/q_exercises/memory.rst:62
+#: ../source/2022/q_exercises/memory.rst:64
+#: ../source/2022/q_exercises/memory.rst:66
+#: ../source/2022/q_exercises/memory.rst:96
+msgid "7"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:59
+msgid "**8**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:31
+#: ../source/2022/q_exercises/memory.rst:33
+#: ../source/2022/q_exercises/memory.rst:35
+#: ../source/2022/q_exercises/memory.rst:37
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:46
+#: ../source/2022/q_exercises/memory.rst:48
+#: ../source/2022/q_exercises/memory.rst:50
+#: ../source/2022/q_exercises/memory.rst:52
+#: ../source/2022/q_exercises/memory.rst:59
+#: ../source/2022/q_exercises/memory.rst:62
+#: ../source/2022/q_exercises/memory.rst:64
+#: ../source/2022/q_exercises/memory.rst:66
+#: ../source/2022/q_exercises/memory.rst:98
+msgid "6"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:28
+#: ../source/2022/q_exercises/memory.rst:43
+#: ../source/2022/q_exercises/memory.rst:59
+msgid "**4**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:31
+#: ../source/2022/q_exercises/memory.rst:33
+#: ../source/2022/q_exercises/memory.rst:35
+#: ../source/2022/q_exercises/memory.rst:37
+#: ../source/2022/q_exercises/memory.rst:46
+#: ../source/2022/q_exercises/memory.rst:48
+#: ../source/2022/q_exercises/memory.rst:50
+#: ../source/2022/q_exercises/memory.rst:52
+#: ../source/2022/q_exercises/memory.rst:66
+#: ../source/2022/q_exercises/memory.rst:68
+#: ../source/2022/q_exercises/memory.rst:104
+msgid "3"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:31
+#: ../source/2022/q_exercises/memory.rst:33
+#: ../source/2022/q_exercises/memory.rst:35
+#: ../source/2022/q_exercises/memory.rst:37
+#: ../source/2022/q_exercises/memory.rst:46
+#: ../source/2022/q_exercises/memory.rst:48
+#: ../source/2022/q_exercises/memory.rst:50
+#: ../source/2022/q_exercises/memory.rst:52
+#: ../source/2022/q_exercises/memory.rst:68
+#: ../source/2022/q_exercises/memory.rst:100
+msgid "5"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:31
+#: ../source/2022/q_exercises/memory.rst:33
+#: ../source/2022/q_exercises/memory.rst:35
+#: ../source/2022/q_exercises/memory.rst:46
+#: ../source/2022/q_exercises/memory.rst:48
+#: ../source/2022/q_exercises/memory.rst:50
+#: ../source/2022/q_exercises/memory.rst:52
+#: ../source/2022/q_exercises/memory.rst:68
+msgid "8"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:31
+#: ../source/2022/q_exercises/memory.rst:46
+#: ../source/2022/q_exercises/memory.rst:68
+#: ../source/2022/q_exercises/memory.rst:102
+msgid "4"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:33
+#: ../source/2022/q_exercises/memory.rst:35
+#: ../source/2022/q_exercises/memory.rst:37
+#: ../source/2022/q_exercises/memory.rst:48
+#: ../source/2022/q_exercises/memory.rst:50
+#: ../source/2022/q_exercises/memory.rst:52
+#: ../source/2022/q_exercises/memory.rst:64
+#: ../source/2022/q_exercises/memory.rst:66
+#: ../source/2022/q_exercises/memory.rst:68
+msgid "E"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:40
+msgid "*Least-Recently Used*: #PageFault = 10"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:56
+msgid "*Optimal*: #PageFault = 8"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:75
+msgid ""
+"Considerando uno schema di paginazione a 3 livelli in cui la tabella di "
+"primo livello sia costituita da 4 K elementi, quella di secondo livello "
+"da 2 K elementi e quella di terzo livello da 1 K elementi, si determini "
+"il numero massimo di pagine gestibili all'interno dello spazio di "
+"indirizzamento di un processo."
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:76
+msgid ""
+"Si consideri una sequenza di generazione di 4 processi, P4, P1, P2 e P3. "
+"P1 e P2 hanno taglia 1MB, P3 ha taglia 2 MB e P4 ha taglia 4 MB. Il "
+"sistema con multiprogrammazione è caratterizzato da:"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:79
+msgid ""
+"una memoria di lavoro di 7 MB di cui 1 MB sia riservato per il sistema "
+"operativo"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:80
+msgid "un meccanismo di allocazione dei processi basato su partizioni dinamiche."
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:82
+msgid ""
+"Assumendo che P4 non termini prima di P3, si determini quale deve essere "
+"la relazione tra il tempo di completamento di P1 e P2 ed il tempo di "
+"nascita di P3 affinché, e sotto quali condizioni, ognuno dei 4 processi "
+"possa essere correttamente allocato in memoria all'atto della sua "
+"creazione."
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:96
+msgid "**P2**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:97
+msgid "**P3**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:98
+msgid "**P1**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:100
+msgid "**P4**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:106
+msgid "2"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:108
+msgid "**MONITOR**"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:111
+msgid ""
+"Siano S_i e T_i rispettivamente l'istante di inizio e terminazione del "
+"processo i"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:112
+msgid "Vincoli:"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:114
+msgid "S_4 < S_1 < S_2 < S_3"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:115
+msgid "T_4 > S_3"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:117
+msgid "Soluzione:"
+msgstr ""
+
+#: ../source/2022/q_exercises/memory.rst:119
+msgid "S_3 > max(T_1, T_2)"
+msgstr ""
+
+#: ../source/2022/questions.rst:42
 msgid "Esercizi di programmazione"
 msgstr ""
 
-#: ../source/2022/questions.rst:49
+#: ../source/2022/questions.rst:47
 msgid ""
 "Alcuni esercizi possono deliberatamente ammettere più di una "
 "implementazione. Di conseguenza, le soluzioni proposte potrebbe non "

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-28 07:24+0100\n"
+"POT-Creation-Date: 2022-12-20 14:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,945 +34,1109 @@ msgid ""
 "trattati durante la lezione."
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:2
+#: ../source/2022/lectures/week12.rst:2
+msgid "14/12/2021 - Gestione delle memoria parte 6"
+msgstr ""
+
+#: ../source/2022/lectures/week02.rst:13 ../source/2022/lectures/week12.rst:8
+msgid "Esempi di codice"
+msgstr ""
+
+#: ../source/2022/lectures/week12.rst:5
+msgid "Flip vector basato su processi"
+msgstr ""
+
+#: ../source/2022/lectures/week12.rst:6
+msgid "Produttore consumatore"
+msgstr ""
+
+#: ../source/2022/lectures/week12.rst:11
+msgid "13/12/2021 -  Gestione delle memoria parte 5"
+msgstr ""
+
+#: ../source/2022/lectures/week12.rst:13
+msgid "Sostituzione delle pagine: Ottimo, LRU, algoritmi a stack, clock"
+msgstr ""
+
+#: ../source/2022/lectures/week12.rst:14
+msgid "Resident set management: Working set, Page fault frequency"
+msgstr ""
+
+#: ../source/2022/lectures/week12.rst:15
+msgid "Thrashing"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:2
+msgid "07/12/2021 - Gestione delle memoria parte 4"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:4 ../source/2022/lectures/week11.rst:23
+msgid "Mappatura dello spazio di indirizzamento e relativi system call Linux"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:5
+msgid "Introduzione alla memoria virtuale"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:6
+msgid "Memoria virtuale"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:7
+msgid "Gestione di page fault"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:8
+msgid "Performance della memoria virtuale"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:9
+msgid "Aspetti generali per la gestione della memoria virtuale"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:10
+msgid "Caricamento delle pagine"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:11
+msgid "Posizionamento delle pagine"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:12
+msgid "Sostituzione delle pagine: metodologia di valutazione, FIFO"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:13
+msgid "Anomalia di Belady"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:17
+msgid "06/12/2021 - Gestione delle memoria parte 3"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:19
+msgid "Traslation Lookaside Buffer"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:20
+msgid "Paginazione gerarchica"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:21
+msgid "Segmentazione"
+msgstr ""
+
+#: ../source/2022/lectures/week11.rst:22
+msgid "Segmentazione paginata"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:2
+msgid "30/11/2021 - Gestione delle Memoria parte 2"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:4
+msgid "Paginazione"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:5
+msgid "Tabella delle pagine"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:9
+msgid "29/11/2021 - File Management parte 4 - Gestione delle Memoria parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:14
+msgid "File management"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:12
+msgid "File descriptor"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:13
+msgid "Redirezionamento"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:14
+msgid "Esempio di codice"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:25
+msgid "Gestione della memoria"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:17
+msgid "Requisiti"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:20
+msgid "Partizionamento"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:19
+msgid "Statico: taglia fissa, variabile"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:20
+msgid "Dinamico"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:21
+msgid "Buddy system"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:22
+msgid "Frammentazione interna ed esterna"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:23
+msgid "Assegnazione partizioni"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:24
+msgid "Binding indirizzi"
+msgstr ""
+
+#: ../source/2022/lectures/week10.rst:25
+msgid "Rilocazione"
+msgstr ""
+
+#: ../source/2022/lectures/week09.rst:2
 msgid "23/11/2021 - File Management parte 3"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:4
+#: ../source/2022/lectures/week09.rst:4
 msgid "Allocazione su hard disk"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:5
+#: ../source/2022/lectures/week09.rst:5
 msgid "File system Unix:"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:7
+#: ../source/2022/lectures/week09.rst:7
 msgid "inode"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:8
+#: ../source/2022/lectures/week09.rst:8
 msgid "attributi"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:9
+#: ../source/2022/lectures/week09.rst:9
 msgid "servizi per la manipolazione di file e directory"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:10
+#: ../source/2022/lectures/week09.rst:10
 msgid "descrittore"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:11
+#: ../source/2022/lectures/week09.rst:11
 msgid "in-memory file system"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:13
+#: ../source/2022/lectures/week09.rst:13
 msgid "Recovery e file locking"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:14
+#: ../source/2022/lectures/week09.rst:14
 msgid "Esempi codice C in Linux:"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:16
+#: ../source/2022/lectures/week09.rst:16
 msgid "copia di file regolare in C"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:11 ../source/2022/lectures/week1.rst:34
-#: ../source/2022/lectures/week2.rst:18 ../source/2022/lectures/week2.rst:49
-#: ../source/2022/lectures/week3.rst:43 ../source/2022/lectures/week4.rst:19
-#: ../source/2022/lectures/week4.rst:52 ../source/2022/lectures/week5.rst:12
-#: ../source/2022/lectures/week5.rst:36 ../source/2022/lectures/week6.rst:9
-#: ../source/2022/lectures/week7.rst:17 ../source/2022/lectures/week7.rst:39
-#: ../source/2022/lectures/week8.rst:15 ../source/2022/lectures/week8.rst:22
-#: ../source/2022/lectures/week8.rst:64 ../source/2022/lectures/week9.rst:21
-#: ../source/2022/lectures/week9.rst:61
+#: ../source/2022/lectures/week01.rst:11 ../source/2022/lectures/week01.rst:34
+#: ../source/2022/lectures/week02.rst:18 ../source/2022/lectures/week02.rst:49
+#: ../source/2022/lectures/week03.rst:43 ../source/2022/lectures/week04.rst:19
+#: ../source/2022/lectures/week04.rst:52 ../source/2022/lectures/week05.rst:12
+#: ../source/2022/lectures/week05.rst:36 ../source/2022/lectures/week06.rst:9
+#: ../source/2022/lectures/week07.rst:17 ../source/2022/lectures/week07.rst:39
+#: ../source/2022/lectures/week08.rst:15 ../source/2022/lectures/week08.rst:22
+#: ../source/2022/lectures/week08.rst:64 ../source/2022/lectures/week09.rst:21
+#: ../source/2022/lectures/week09.rst:61
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:23
+#: ../source/2022/lectures/week09.rst:23
 msgid "[:ref:`t1 <textbooks>`] Sezione 12.7, 12.8, 12.9"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:24
+#: ../source/2022/lectures/week09.rst:24
 msgid ""
 "[:ref:`t2 <textbooks>`] Sezione 14.4, 14.4.1, 14.4.2, 14.4.3, 14.6, 14.7,"
 " 14.7.1, 14.7.2, 15.5"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:30 ../source/2022/lectures/week8.rst:37
-#: ../source/2022/lectures/week8.rst:78 ../source/2022/lectures/week9.rst:27
+#: ../source/2022/lectures/week08.rst:30 ../source/2022/lectures/week08.rst:37
+#: ../source/2022/lectures/week08.rst:78 ../source/2022/lectures/week09.rst:27
 msgid "Approfondimenti"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:28
+#: ../source/2022/lectures/week09.rst:28
 msgid ""
 "`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
 "guide/blockdev/ramdisk.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:29
+#: ../source/2022/lectures/week09.rst:29
 msgid "`ramfs <https://wiki.debian.org/ramfs>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:30
+#: ../source/2022/lectures/week09.rst:30
 msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:31
+#: ../source/2022/lectures/week09.rst:31
 msgid ""
 "`POSIX open "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:32
+#: ../source/2022/lectures/week09.rst:32
 msgid ""
 "`POSIX close "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:33
+#: ../source/2022/lectures/week09.rst:33
 msgid ""
 "`POSIX read "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:34
+#: ../source/2022/lectures/week09.rst:34
 msgid ""
 "`POSIX write "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:35
+#: ../source/2022/lectures/week09.rst:35
 msgid ""
 "`POSIX lseek "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/lseek.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:36
+#: ../source/2022/lectures/week09.rst:36
 msgid ""
 "`POSIX truncate "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/truncate.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:37
+#: ../source/2022/lectures/week09.rst:37
 msgid ""
 "`POSIX dup "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:38
+#: ../source/2022/lectures/week09.rst:38
 msgid ""
 "`POSIX mkdir "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/mkdir.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:39
+#: ../source/2022/lectures/week09.rst:39
 msgid ""
 "`POSIX rmdir "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/rmdir.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:40
+#: ../source/2022/lectures/week09.rst:40
 msgid ""
 "`POSIX link "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/link.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:41
+#: ../source/2022/lectures/week09.rst:41
 msgid ""
 "`POSIX symlink "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/symlink.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:42
+#: ../source/2022/lectures/week09.rst:42
 msgid ""
 "`POSIX chmod "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/chmod.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:43
+#: ../source/2022/lectures/week09.rst:43
 msgid ""
 "`POSIX chown "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/chown.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:48
+#: ../source/2022/lectures/week09.rst:48
 msgid "22/11/2021 - File Management parte 2"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:9 ../source/2022/lectures/week9.rst:51
+#: ../source/2022/lectures/week08.rst:9 ../source/2022/lectures/week09.rst:51
 msgid "File Management:"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:11 ../source/2022/lectures/week9.rst:53
+#: ../source/2022/lectures/week08.rst:11 ../source/2022/lectures/week09.rst:53
 msgid "Concetto di file"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:12 ../source/2022/lectures/week9.rst:54
+#: ../source/2022/lectures/week08.rst:12 ../source/2022/lectures/week09.rst:54
 msgid "Operazioni su file"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:55
+#: ../source/2022/lectures/week09.rst:55
 msgid "File pointer"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:56
+#: ../source/2022/lectures/week09.rst:56
 msgid "Metodo di accesso"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:57
+#: ../source/2022/lectures/week09.rst:57
 msgid "Directory"
 msgstr ""
 
-#: ../source/2022/lectures/week9.rst:58
+#: ../source/2022/lectures/week09.rst:58
 msgid "Protezione"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:17 ../source/2022/lectures/week9.rst:63
+#: ../source/2022/lectures/week08.rst:17 ../source/2022/lectures/week09.rst:63
 msgid "[:ref:`t1 <textbooks>`] Sezione 12.1, 12.2, 12.4, 12.5"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:18 ../source/2022/lectures/week9.rst:64
+#: ../source/2022/lectures/week08.rst:18 ../source/2022/lectures/week09.rst:64
 msgid ""
 "[:ref:`t2 <textbooks>`] Sezione 13.1, 13.1.1, 13.1.2, 13.1.5, 13.2, "
 "13.2.1, 13.2.2, 13.2.3, 13.3, 13.3.1, 13.3.2, 13.3.3, 13.3.4, 13.4, "
 "13.4.1, 13.4.2"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:2
+#: ../source/2022/lectures/week08.rst:2
 msgid "16/11/2021 - I/O Managament parte 2 - File Management parte 1"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:5 ../source/2022/lectures/week8.rst:54
+#: ../source/2022/lectures/week08.rst:5 ../source/2022/lectures/week08.rst:54
 msgid "I/O Management:"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:7
+#: ../source/2022/lectures/week08.rst:7
 msgid "HDD e SSD scheduling"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:25
+#: ../source/2022/lectures/week08.rst:25
 msgid "[:ref:`t1 <textbooks>`] Sezione 11.5, 12.1"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:26
+#: ../source/2022/lectures/week08.rst:26
 msgid ""
 "[:ref:`t2 <textbooks>`] Sezione 11.1, 11.1.1, 11.1.2, 11.1.2.1, 11.2, "
 "11.3, 13.1"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:32 ../source/2022/lectures/week8.rst:73
+#: ../source/2022/lectures/week08.rst:32 ../source/2022/lectures/week08.rst:73
 msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:33
+#: ../source/2022/lectures/week08.rst:33
 msgid ""
 "`Solid State Drives - Data Reliability and Lifetime "
 "<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:39 ../source/2022/lectures/week8.rst:80
+#: ../source/2022/lectures/week08.rst:39 ../source/2022/lectures/week08.rst:80
 msgid "[:ref:`t2 <textbooks>`] Capitolo 12"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:44
+#: ../source/2022/lectures/week08.rst:44
 msgid "15/11/2021 - CPU scheduling parte 3 - I/O Managament parte 1"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:30 ../source/2022/lectures/week8.rst:46
+#: ../source/2022/lectures/week07.rst:30 ../source/2022/lectures/week08.rst:46
 msgid "CPU scheduling"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:11 ../source/2022/lectures/week8.rst:48
+#: ../source/2022/lectures/week07.rst:11 ../source/2022/lectures/week08.rst:48
 msgid "Load balancing"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:12 ../source/2022/lectures/week8.rst:49
+#: ../source/2022/lectures/week07.rst:12 ../source/2022/lectures/week08.rst:49
 msgid "Affinity"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:50
+#: ../source/2022/lectures/week08.rst:50
 msgid "Scheduler UNIX System V Release 4"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:51
+#: ../source/2022/lectures/week08.rst:51
 msgid "Linux Complete Fair Scheduler"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:30 ../source/2022/lectures/week8.rst:52
+#: ../source/2022/lectures/week05.rst:30 ../source/2022/lectures/week08.rst:52
 msgid "Introduzione alla sincronizzazione"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:56
+#: ../source/2022/lectures/week08.rst:56
 msgid "Caratteristiche dei dispositivi di I/O"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:57
+#: ../source/2022/lectures/week08.rst:57
 msgid "Modello di organizzazione dei moduli di I/O"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:58
+#: ../source/2022/lectures/week08.rst:58
 msgid "I/O Buffering"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:59
+#: ../source/2022/lectures/week08.rst:59
 msgid "I/O Scheduling"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:60
+#: ../source/2022/lectures/week08.rst:60
 msgid "Hard disk"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:66
+#: ../source/2022/lectures/week08.rst:66
 msgid ""
 "[:ref:`t1 <textbooks>`] Sezione 10.3, 10.4, 5, 11, 11.1, 11.2, 11.3, "
 "11.4, 11.5"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:67
+#: ../source/2022/lectures/week08.rst:67
 msgid ""
 "[:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 12.2.2, 12.2.3, 12.3, "
 "12.4, 12.4.1, 12.4.2, 12.4.7, 11.1, 11.1.1"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:16 ../source/2022/lectures/week2.rst:24
-#: ../source/2022/lectures/week3.rst:19 ../source/2022/lectures/week4.rst:25
-#: ../source/2022/lectures/week4.rst:61 ../source/2022/lectures/week6.rst:15
-#: ../source/2022/lectures/week7.rst:45 ../source/2022/lectures/week8.rst:70
+#: ../source/2022/lectures/week01.rst:16 ../source/2022/lectures/week02.rst:24
+#: ../source/2022/lectures/week03.rst:19 ../source/2022/lectures/week04.rst:25
+#: ../source/2022/lectures/week04.rst:61 ../source/2022/lectures/week06.rst:15
+#: ../source/2022/lectures/week07.rst:45 ../source/2022/lectures/week08.rst:70
 msgid "Link di approfondimento"
 msgstr ""
 
-#: ../source/2022/lectures/week8.rst:72
+#: ../source/2022/lectures/week08.rst:72
 msgid ""
 "`Complete Fair Scheduler "
 "<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
 "CFS.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:2
+#: ../source/2022/lectures/week07.rst:2
 msgid "09/11/2021 - CPU scheduling parte 2"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:5
+#: ../source/2022/lectures/week07.rst:5
 msgid "Round Robin"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:6
+#: ../source/2022/lectures/week07.rst:6
 msgid "Priority Scheduling"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:7
+#: ../source/2022/lectures/week07.rst:7
 msgid "Multi-level feedback queue"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:8
+#: ../source/2022/lectures/week07.rst:8
 msgid "Fair-share scheduling"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:9
+#: ../source/2022/lectures/week07.rst:9
 msgid "Multiprocessor scheduling"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:10
+#: ../source/2022/lectures/week07.rst:10
 msgid "Load sharing"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:18
+#: ../source/2022/lectures/week07.rst:18
 msgid "[:ref:`t1 <textbooks>`] Sezione 9.2, 10.1"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:19
+#: ../source/2022/lectures/week07.rst:19
 msgid "[:ref:`t2 <textbooks>`] Sezione 5.4, 5.5"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:23
+#: ../source/2022/lectures/week07.rst:23
 msgid "08/11/2021 - Sincronizzazione parte 4 - CPU scheduling parte 1"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:25
+#: ../source/2022/lectures/week07.rst:25
 msgid "Sincronizzaione"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:27
+#: ../source/2022/lectures/week07.rst:27
 msgid "Spin lock, Mutex POSIX"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:28
+#: ../source/2022/lectures/week07.rst:28
 msgid "Semafori POSIX"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:32
+#: ../source/2022/lectures/week07.rst:32
 msgid "Metriche per cpu scheduling"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:33
+#: ../source/2022/lectures/week07.rst:33
 msgid "Non-preemptive vs Preemtive"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:34
+#: ../source/2022/lectures/week07.rst:34
 msgid "First Come First Serve"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:35
+#: ../source/2022/lectures/week07.rst:35
 msgid "Shortest Job First"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:41
+#: ../source/2022/lectures/week07.rst:41
 msgid "[:ref:`t1 <textbooks>`] Sezione 9.1, 9.2"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:42
+#: ../source/2022/lectures/week07.rst:42
 msgid "[:ref:`t2 <textbooks>`] Sezione 6.6, 7.3.1, 5.1, 5.2, 5.3"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:47
+#: ../source/2022/lectures/week07.rst:47
 msgid ""
 "`pthread_spin_init "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_init.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:48
+#: ../source/2022/lectures/week07.rst:48
 msgid ""
 "`pthread_spin_lock "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_lock.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:49
+#: ../source/2022/lectures/week07.rst:49
 msgid ""
 "`pthread_mutex_init "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_init.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:50
+#: ../source/2022/lectures/week07.rst:50
 msgid ""
 "`pthread_mutex_lock "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_lock.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week6.rst:18 ../source/2022/lectures/week7.rst:51
+#: ../source/2022/lectures/week06.rst:18 ../source/2022/lectures/week07.rst:51
 msgid ""
 "`gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
 "Builtins.html#g_t_005f_005fsync-Builtins>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:52
+#: ../source/2022/lectures/week07.rst:52
 msgid ""
 "`sem_init "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_init.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:53
+#: ../source/2022/lectures/week07.rst:53
 msgid ""
 "`sem_wait "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_wait.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:54
+#: ../source/2022/lectures/week07.rst:54
 msgid ""
 "`sem_post "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_post.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week7.rst:55
+#: ../source/2022/lectures/week07.rst:55
 msgid ""
 "`sem_destroy "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_destroy.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week6.rst:2
+#: ../source/2022/lectures/week06.rst:2
 msgid "02/11/2022 - Sincronizzazione parte 3"
 msgstr ""
 
-#: ../source/2022/lectures/week6.rst:4
+#: ../source/2022/lectures/week06.rst:4
 msgid "Algoritmo del panettiere (Lamport)"
 msgstr ""
 
-#: ../source/2022/lectures/week6.rst:5
+#: ../source/2022/lectures/week06.rst:5
 msgid "Read-Modify-Write"
 msgstr ""
 
-#: ../source/2022/lectures/week6.rst:6
+#: ../source/2022/lectures/week06.rst:6
 msgid "Algoritmi di mutua esclusione basati su RMW"
 msgstr ""
 
-#: ../source/2022/lectures/week6.rst:11
+#: ../source/2022/lectures/week06.rst:11
 msgid "[:ref:`t1 <textbooks>`] Sezione 5.1, 5.2, 5.3, 6.1"
 msgstr ""
 
-#: ../source/2022/lectures/week6.rst:12
+#: ../source/2022/lectures/week06.rst:12
 msgid "[:ref:`t2 <textbooks>`] Sezione 6.3, 6.4, 6.5, 6.6, 6.8, 8.2, 8.3"
 msgstr ""
 
-#: ../source/2022/lectures/week6.rst:17
+#: ../source/2022/lectures/week06.rst:17
 msgid "`Backery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:2
+#: ../source/2022/lectures/week05.rst:2
 msgid "26/10/2022 - Sincronizzazione parte 2"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:5 ../source/2022/lectures/week5.rst:28
+#: ../source/2022/lectures/week05.rst:5 ../source/2022/lectures/week05.rst:28
 msgid "Sincronizzazione"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:7 ../source/2022/lectures/week5.rst:32
+#: ../source/2022/lectures/week05.rst:7 ../source/2022/lectures/week05.rst:32
 msgid "Errori Comuni: Deadlock e Livelock"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:8
+#: ../source/2022/lectures/week05.rst:8
 msgid "Algoritmo di Peterson"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:14 ../source/2022/lectures/week5.rst:39
+#: ../source/2022/lectures/week05.rst:14 ../source/2022/lectures/week05.rst:39
 msgid "[:ref:`t1 <textbooks>`] Sezione 5, 5.1, 5.2, 6.1"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:15
+#: ../source/2022/lectures/week05.rst:15
 msgid "[:ref:`t2 <textbooks>`] Sezione 6.1, 6.2, 6.3"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:21
+#: ../source/2022/lectures/week05.rst:21
 msgid "25/10/2022 - Thread parte 2  - Sincronizzazione parte 1"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:24
+#: ../source/2022/lectures/week05.rst:24
 msgid "Threads:"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:26
+#: ../source/2022/lectures/week05.rst:26
 msgid "Esempio PFEW"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:31
+#: ../source/2022/lectures/week05.rst:31
 msgid "Mutua Esclusione"
 msgstr ""
 
-#: ../source/2022/lectures/week5.rst:40
+#: ../source/2022/lectures/week05.rst:40
 msgid "[:ref:`t2 <textbooks>`] Sezione 6.1, 6.2, 6.8, 8.2, 8.3"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:2
+#: ../source/2022/lectures/week04.rst:2
 msgid "19/10/2022 - Processi parte 1 - Thread parte 1"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:4
+#: ../source/2022/lectures/week04.rst:4
 msgid "Processi"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:6
+#: ../source/2022/lectures/week04.rst:6
 msgid "Processi UNIX: stati, gerarchie e threads"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:7
+#: ../source/2022/lectures/week04.rst:7
 msgid "Processi Linux: concetto di task, stati, accenni di task_struct"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:9
+#: ../source/2022/lectures/week04.rst:9
 msgid "Thread"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:11
+#: ../source/2022/lectures/week04.rst:11
 msgid "Concetto di thread"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:12
+#: ../source/2022/lectures/week04.rst:12
 msgid "User-Level threads e Kernel-level threads"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:13
+#: ../source/2022/lectures/week04.rst:13
 msgid "POSIX threads"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:14
+#: ../source/2022/lectures/week04.rst:14
 msgid "Variabili per thread"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:15
+#: ../source/2022/lectures/week04.rst:15
 msgid "Librerie thread-safe e non"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:16
+#: ../source/2022/lectures/week04.rst:16
 msgid "pthread_create, pthread_join, pthread_exit"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:21
+#: ../source/2022/lectures/week04.rst:21
 msgid "[:ref:`t1 <books2022>`] Sezione 3.6, 4.1, 4.2"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:22
+#: ../source/2022/lectures/week04.rst:22
 msgid ""
 "[:ref:`t2 <books2022>`] Sezione 3.2, 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4, "
 "4.7.2"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:27
+#: ../source/2022/lectures/week04.rst:27
 msgid ""
 "`pthread_create "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:28
+#: ../source/2022/lectures/week04.rst:28
 msgid ""
 "`pthread_join "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:29
+#: ../source/2022/lectures/week04.rst:29
 msgid ""
 "`pthread_exit "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:30
+#: ../source/2022/lectures/week04.rst:30
 msgid ""
 "Codice sorgente Linux Kernel: `task_struct "
 "<https://elixir.bootlin.com/linux/v5.14.7/source/include/linux/sched.h#L661>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:31
+#: ../source/2022/lectures/week04.rst:31
 msgid ""
 "`pthread_key_create "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_key_create.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:32
+#: ../source/2022/lectures/week04.rst:32
 msgid ""
 "`pthread_key_delete "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_key_delete.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:33
+#: ../source/2022/lectures/week04.rst:33
 msgid ""
 "`pthread_getspecific "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_getspecific.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:34
+#: ../source/2022/lectures/week04.rst:34
 msgid ""
 "`GCC Thread Local Storage <https://gcc.gnu.org/onlinedocs/gcc/Thread-"
 "Local.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:42
+#: ../source/2022/lectures/week04.rst:42
 msgid "18/10/2022 - Processi parte 3"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:5 ../source/2022/lectures/week3.rst:31
-#: ../source/2022/lectures/week4.rst:44
+#: ../source/2022/lectures/week03.rst:5 ../source/2022/lectures/week03.rst:31
+#: ../source/2022/lectures/week04.rst:44
 msgid "Processi:"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:46
+#: ../source/2022/lectures/week04.rst:46
 msgid "Famiglia di funzioni POSIX exec"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:47
+#: ../source/2022/lectures/week04.rst:47
 msgid "Ambiente e variabili di ambiente"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:48
+#: ../source/2022/lectures/week04.rst:48
 msgid "Famiglia di funzioni POSIX getenv, putenv, setenv, unsetenv"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:49
+#: ../source/2022/lectures/week04.rst:49
 msgid "Shell Linux: ls, man, cd"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:56
+#: ../source/2022/lectures/week04.rst:56
 msgid "[:ref:`t1 <books2022>`] Sezione 2.3"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:57
+#: ../source/2022/lectures/week04.rst:57
 msgid "[:ref:`t2 <books2022>`] Sezione 3.1.2, 3.3.1"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:58
+#: ../source/2022/lectures/week04.rst:58
 msgid "[:ref:`t3 <books2022>`] Sezione 3.2, 3.3"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:63
+#: ../source/2022/lectures/week04.rst:63
 msgid ""
 "`exec "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week4.rst:64
+#: ../source/2022/lectures/week04.rst:64
 msgid ""
 "`getenv "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:2
+#: ../source/2022/lectures/week03.rst:2
 msgid "12/10/2022 - Processi parte 2"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:7 ../source/2022/lectures/week3.rst:39
+#: ../source/2022/lectures/week03.rst:7 ../source/2022/lectures/week03.rst:39
 msgid "Process switch"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:8
+#: ../source/2022/lectures/week03.rst:8
 msgid "Cambio di modo e cambio di contesto"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:9
+#: ../source/2022/lectures/week03.rst:9
 msgid "Servizi di sistema per la gestione di processi"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:10
+#: ../source/2022/lectures/week03.rst:10
 msgid "POSIX fork, exit, wait"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:11
+#: ../source/2022/lectures/week03.rst:11
 msgid "Gerarchie di processi"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:12
+#: ../source/2022/lectures/week03.rst:12
 msgid "Utilizzo documentazione online e da riga di comando Linux (man)"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:14
+#: ../source/2022/lectures/week03.rst:14
 msgid "[:ref:`t1 <books2022>`] Sezione 3.4,"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:15
+#: ../source/2022/lectures/week03.rst:15
 msgid "[:ref:`t2 <books2022>`] Sezione 3.3, 3.3.1, 3.3.2"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:16
+#: ../source/2022/lectures/week03.rst:16
 msgid "[:ref:`t3 <books2022>`] Sezione 1.2, 3.1"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:21
+#: ../source/2022/lectures/week03.rst:21
 msgid ""
 "`fork "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:22
+#: ../source/2022/lectures/week03.rst:22
 msgid ""
 "`exit "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:23
+#: ../source/2022/lectures/week03.rst:23
 msgid ""
 "`wait "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:29
+#: ../source/2022/lectures/week03.rst:29
 msgid "11/10/2022 - Processi parte 1"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:33
+#: ../source/2022/lectures/week03.rst:33
 msgid "Process Control Block"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:34
+#: ../source/2022/lectures/week03.rst:34
 msgid "Stato di un processo: 2 stati, 3 stati"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:35
+#: ../source/2022/lectures/week03.rst:35
 msgid "Code di processi"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:36
+#: ../source/2022/lectures/week03.rst:36
 msgid "Stato di un processo e code: 5 stati"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:37
+#: ../source/2022/lectures/week03.rst:37
 msgid "Strutture di controllo di un Sistema Operativo"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:38
+#: ../source/2022/lectures/week03.rst:38
 msgid "Long, mid, short term scheduling"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:46
+#: ../source/2022/lectures/week03.rst:46
 msgid "[:ref:`t1 <books2022>`] Sezione 3.1, 3.2, 3.3"
 msgstr ""
 
-#: ../source/2022/lectures/week3.rst:47
+#: ../source/2022/lectures/week03.rst:47
 msgid ""
 "[:ref:`t2 <books2022>`] Sezione 3.1.1, 3.1.2, 3.1.3, 3.2, 3.2.1, 3.2.2, "
 "3.2.3"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:2
+#: ../source/2022/lectures/week02.rst:2
 msgid "05/10/2022 - Richiami di programmazione C - parte 2"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:10 ../source/2022/lectures/week2.rst:46
+#: ../source/2022/lectures/week02.rst:10 ../source/2022/lectures/week02.rst:46
 msgid "Richiami C:"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:6 ../source/2022/lectures/week2.rst:46
+#: ../source/2022/lectures/week02.rst:6 ../source/2022/lectures/week02.rst:46
 msgid "Preprocessore, Compilatore, Linker"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:7
+#: ../source/2022/lectures/week02.rst:7
 msgid "Puntatori"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:8
+#: ../source/2022/lectures/week02.rst:8
 msgid "printf, scanf"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:9
+#: ../source/2022/lectures/week02.rst:9
 msgid "Codifica binaria, ottale, esadecimale"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:10
+#: ../source/2022/lectures/week02.rst:10
 msgid "Layout di memoria"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:13
-msgid "Esempi di codice"
-msgstr ""
-
-#: ../source/2022/lectures/week2.rst:15
+#: ../source/2022/lectures/week02.rst:15
 msgid ":download:`02 - Richiami C <../examples/02-c_examples.zip>`"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:20
+#: ../source/2022/lectures/week02.rst:20
 msgid "[:ref:`t2 <books2022>`] Sezione 3.1.1"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:26
+#: ../source/2022/lectures/week02.rst:26
 msgid ""
 "`GCC and Make Compiling, Linking and Building C/C++ Applications "
 "<https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:27
+#: ../source/2022/lectures/week02.rst:27
 msgid ""
 "`POSIX printf "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/printf.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:28
+#: ../source/2022/lectures/week02.rst:28
 msgid "`Linux printf  <https://man7.org/linux/man-pages/man3/printf.3.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:29
+#: ../source/2022/lectures/week02.rst:29
 msgid ""
 "`POSIX scanf  "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/scanf.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:30
+#: ../source/2022/lectures/week02.rst:30
 msgid "`Linux scanf  <https://man7.org/linux/man-pages/man3/scanf.3.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:37
+#: ../source/2022/lectures/week02.rst:37
 msgid "04/10/2022 - Introduzione parte 3 - Richiami di programmazione C parte 1"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:39
+#: ../source/2022/lectures/week02.rst:39
 msgid "Introduzione:"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:41
+#: ../source/2022/lectures/week02.rst:41
 msgid "System call"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:42
+#: ../source/2022/lectures/week02.rst:42
 msgid "Librerie Standard"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:43
+#: ../source/2022/lectures/week02.rst:43
 msgid "Architettura dei Sistemi Operativi"
 msgstr ""
 
-#: ../source/2022/lectures/week2.rst:51
+#: ../source/2022/lectures/week02.rst:51
 msgid "[:ref:`t2 <books2022>`] Sezione 2.3.1, 2.3.2, 2.8"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:2
+#: ../source/2022/lectures/week01.rst:2
 msgid "28/09/2022 - Introduzione parte 2"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:4
+#: ../source/2022/lectures/week01.rst:4
 msgid ""
 "Evoluzione dei sistemi operativi: Sistemi time-sharing, Sistemi Real "
 "time, Multicore, Dark silicon"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:5
+#: ../source/2022/lectures/week01.rst:5
 msgid "Sincronizzazione e Speedup: concetto di lock e legge di Amdahl"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:6
+#: ../source/2022/lectures/week01.rst:6
 msgid "Sistemi operativi: elementi chiave"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:7
+#: ../source/2022/lectures/week01.rst:7
 msgid "Interrupt: eventi, supporto hardware"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:8
+#: ../source/2022/lectures/week01.rst:8
 msgid ""
 "Interrupt-driven os: protezione delle risorse (istruzioni privilegiate, "
 "protezione memoria, timer) e accesso a codice di sistema operativo "
 "(system call)"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:12
+#: ../source/2022/lectures/week01.rst:12
 msgid "[:ref:`t1 <books2022>`] Sezione 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 4.3"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:13
+#: ../source/2022/lectures/week01.rst:13
 msgid "[:ref:`t2 <books2022>`] Sezione 1.2, 1.4, 2.7, 2.3.1, 2.3.2"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:18
+#: ../source/2022/lectures/week01.rst:18
 msgid ""
 "`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
 "ddj.htm>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:19
+#: ../source/2022/lectures/week01.rst:19
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:20
+#: ../source/2022/lectures/week01.rst:20
 msgid ""
 "Codice sorgente glibc: `syscall "
 "<https://sourceware.org/git/?p=glibc.git;a=blob;f=sysdeps/unix/sysv/linux/i386/syscall.S;>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:21
+#: ../source/2022/lectures/week01.rst:21
 msgid ""
 "Codice sorgente Linux Kernel: `IDT "
 "<https://elixir.bootlin.com/linux/v5.14.7/source/arch/x86/kernel/idt.c#L79>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:22
+#: ../source/2022/lectures/week01.rst:22
 msgid ""
 "`Introduction to Operating Systems "
 "<https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:28
+#: ../source/2022/lectures/week01.rst:28
 msgid "27/09/2022 - Introduzione parte 1"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:30
+#: ../source/2022/lectures/week01.rst:30
 msgid "Sistemi operativi: definizione ed obiettivi"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:31
+#: ../source/2022/lectures/week01.rst:31
 msgid "Evoluzione dei sistemi operativi: Sistemi seriali, Sistemi batch"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:36
+#: ../source/2022/lectures/week01.rst:36
 msgid "[:ref:`t1 <books2022>`] Sezione 2.1, 2.2"
 msgstr ""
 
-#: ../source/2022/lectures/week1.rst:37
+#: ../source/2022/lectures/week01.rst:37
 msgid "[:ref:`t2 <books2022>`] Sezione 1.1"
 msgstr ""
 
@@ -1115,5 +1279,41 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "02/11/2022 - Sincronizzazione parte 2"
+#~ msgstr ""
+
+#~ msgid "S"
+#~ msgstr ""
+
+#~ msgid "13/12/2021 - File Management parte 2"
+#~ msgstr ""
+
+#~ msgid "07/12/2021 - File Management parte 3"
+#~ msgstr ""
+
+#~ msgid "06/12/2021 - File Management parte 2"
+#~ msgstr ""
+
+#~ msgid "30/11/2021 - File Management parte 3"
+#~ msgstr ""
+
+#~ msgid "29/11/2021 - File Management parte 2"
+#~ msgstr ""
+
+#~ msgid "14/12/2021 - File Management parte 3"
+#~ msgstr ""
+
+#~ msgid "Gestione della memoria * Requisiti * Partizionamento"
+#~ msgstr ""
+
+#~ msgid "20/12/2021 - File Management parte 3"
+#~ msgstr ""
+
+#~ msgid "21/12/2021 - File Management parte 2"
+#~ msgstr ""
+
+#~ msgid "..comment"
+#~ msgstr ""
+
+#~ msgid "PFEW"
 #~ msgstr ""
 

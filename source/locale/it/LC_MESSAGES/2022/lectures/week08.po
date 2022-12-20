@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Romolo Marotta
+# This file is distributed under the same license as the Sistemi Operativi
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sistemi Operativi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-20 13:31+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../source/2022/lectures/week08.rst:2
+msgid "16/11/2021 - I/O Managament parte 2 - File Management parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:5 ../source/2022/lectures/week08.rst:54
+msgid "I/O Management:"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:7
+msgid "HDD e SSD scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:9
+msgid "File Management:"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:11
+msgid "Concetto di file"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:12
+msgid "Operazioni su file"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:15 ../source/2022/lectures/week08.rst:22
+#: ../source/2022/lectures/week08.rst:64
+msgid "Riferimenti libro di testo"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:17
+msgid "[:ref:`t1 <textbooks>`] Sezione 12.1, 12.2, 12.4, 12.5"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:18
+msgid ""
+"[:ref:`t2 <textbooks>`] Sezione 13.1, 13.1.1, 13.1.2, 13.1.5, 13.2, "
+"13.2.1, 13.2.2, 13.2.3, 13.3, 13.3.1, 13.3.2, 13.3.3, 13.3.4, 13.4, "
+"13.4.1, 13.4.2"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:25
+msgid "[:ref:`t1 <textbooks>`] Sezione 11.5, 12.1"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:26
+msgid ""
+"[:ref:`t2 <textbooks>`] Sezione 11.1, 11.1.1, 11.1.2, 11.1.2.1, 11.2, "
+"11.3, 13.1"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:30 ../source/2022/lectures/week08.rst:37
+#: ../source/2022/lectures/week08.rst:78
+msgid "Approfondimenti"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:32 ../source/2022/lectures/week08.rst:73
+msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:33
+msgid ""
+"`Solid State Drives - Data Reliability and Lifetime "
+"<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:39 ../source/2022/lectures/week08.rst:80
+msgid "[:ref:`t2 <textbooks>`] Capitolo 12"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:44
+msgid "15/11/2021 - CPU scheduling parte 3 - I/O Managament parte 1"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:46
+msgid "CPU scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:48
+msgid "Load balancing"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:49
+msgid "Affinity"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:50
+msgid "Scheduler UNIX System V Release 4"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:51
+msgid "Linux Complete Fair Scheduler"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:52
+msgid "Introduzione alla sincronizzazione"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:56
+msgid "Caratteristiche dei dispositivi di I/O"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:57
+msgid "Modello di organizzazione dei moduli di I/O"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:58
+msgid "I/O Buffering"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:59
+msgid "I/O Scheduling"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:60
+msgid "Hard disk"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:66
+msgid ""
+"[:ref:`t1 <textbooks>`] Sezione 10.3, 10.4, 5, 11, 11.1, 11.2, 11.3, "
+"11.4, 11.5"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:67
+msgid ""
+"[:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 12.2.2, 12.2.3, 12.3, "
+"12.4, 12.4.1, 12.4.2, 12.4.7, 11.1, 11.1.1"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:70
+msgid "Link di approfondimento"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:72
+msgid ""
+"`Complete Fair Scheduler "
+"<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
+"CFS.html>`_"
+msgstr ""
+
