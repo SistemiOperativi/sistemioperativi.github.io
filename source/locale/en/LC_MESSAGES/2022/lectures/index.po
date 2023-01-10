@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-20 14:07+0100\n"
+"POT-Creation-Date: 2023-01-10 13:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,96 @@ msgstr ""
 msgid ""
 "L'unione dei paragrafi può non rappresentare la totalità degli argomenti "
 "trattati durante la lezione."
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:2
+msgid "21/12/2021 - Esercitazione"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:4
+msgid "Svolgimento in aula dei seguenti problemi:"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:6
+msgid ":doc:`../questions`: Esercizi 1.1, 5.1"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:11
+msgid "20/12/2021 - Esempi C, Aspetti di sicurezza"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:13
+msgid "Esempi codice C aspetti di sicurezza:"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:15
+msgid "layout di programma, permesso SUID e buffer overflow"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:16
+msgid "accenni di return-oriented programming"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:17
+msgid "address space randomization"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:18
+msgid "canary tag"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:22
+msgid "Riferimenti e libri di testo"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:24
+msgid "[:ref:`t1 <textbooks>`] Sezione 15.2, 15.4"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:25
+msgid "[:ref:`t2 <textbooks>`] Sezione 16.2.2"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:27
+msgid ""
+"`Bash redirection "
+"<https://www.gnu.org/software/bash/manual/html_node/Redirections.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week09.rst:37 ../source/2022/lectures/week13.rst:28
+msgid ""
+"`POSIX dup "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:29
+msgid ""
+"`POSIX exec "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:30
+msgid ""
+"`mode_t "
+"<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week08.rst:30 ../source/2022/lectures/week08.rst:37
+#: ../source/2022/lectures/week08.rst:78 ../source/2022/lectures/week09.rst:27
+#: ../source/2022/lectures/week13.rst:33
+msgid "Approfondimenti"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:35
+msgid "`objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:36
+msgid "`readelf <https://man7.org/linux/man-pages/man1/readelf.1.html>`_"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:37
+msgid "`gdb <https://man7.org/linux/man-pages/man1/gdb.1.html>`_"
 msgstr ""
 
 #: ../source/2022/lectures/week12.rst:2
@@ -268,11 +358,6 @@ msgid ""
 " 14.7.1, 14.7.2, 15.5"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:30 ../source/2022/lectures/week08.rst:37
-#: ../source/2022/lectures/week08.rst:78 ../source/2022/lectures/week09.rst:27
-msgid "Approfondimenti"
-msgstr ""
-
 #: ../source/2022/lectures/week09.rst:28
 msgid ""
 "`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
@@ -321,12 +406,6 @@ msgstr ""
 msgid ""
 "`POSIX truncate "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/truncate.html>`_"
-msgstr ""
-
-#: ../source/2022/lectures/week09.rst:37
-msgid ""
-"`POSIX dup "
-"<https://pubs.opengroup.org/onlinepubs/9699919799/functions/dup.html>`_"
 msgstr ""
 
 #: ../source/2022/lectures/week09.rst:38
@@ -1315,5 +1394,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "PFEW"
+#~ msgstr ""
+
+#~ msgid "memorizzazione di password"
 #~ msgstr ""
 
