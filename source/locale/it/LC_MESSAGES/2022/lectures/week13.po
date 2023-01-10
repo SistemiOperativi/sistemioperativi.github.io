@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-10 13:52+0100\n"
+"POT-Creation-Date: 2023-01-10 14:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgid "Svolgimento in aula dei seguenti problemi:"
 msgstr ""
 
 #: ../source/2022/lectures/week13.rst:6
-msgid ":doc:`../questions`: Esercizi 1.1, 5.1"
+msgid ":doc:`../questions`: Esercizi 1.1, 7.1"
 msgstr ""
 
 #: ../source/2022/lectures/week13.rst:11
@@ -113,5 +113,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "memorizzazione di password"
+#~ msgstr ""
+
+#~ msgid ":doc:`../questions`: Esercizi 1.1, 5.1"
 #~ msgstr ""
 

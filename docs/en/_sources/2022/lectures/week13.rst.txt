@@ -3,7 +3,7 @@
 
 * Svolgimento in aula dei seguenti problemi:
   
-  * :doc:`../questions`: Esercizi 1.1, 5.1
+  * :doc:`../questions`: Esercizi 1.1, 7.1
 
 
 
