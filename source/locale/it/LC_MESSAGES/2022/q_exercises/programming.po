@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-29 13:00+0100\n"
+"POT-Creation-Date: 2023-01-11 13:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,6 +131,10 @@ msgstr ""
 
 #: ../source/2022/q_exercises/programming.rst:42
 msgid "Svolgere l'esercizio 2.2 utilizzando threads piuttosto che processi."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:43
+msgid "Implementare l'esercizio di teoria 3.1 in C."
 msgstr ""
 
 #: ../source/2022/q_exercises/programming.rst:48

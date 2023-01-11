@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-16 14:34+0100\n"
+"POT-Creation-Date: 2023-01-11 13:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../source/2022/q_exercises/sync.rst:4
-msgid "4 - Sincronizzazione"
+#: ../source/2022/q_exercises/sync.rst:2
+msgid "3 - Sincronizzazione"
 msgstr ""
 
-#: ../source/2022/q_exercises/sync.rst:6
-msgid "Nessun esercizio di teoria"
+#: ../source/2022/q_exercises/sync.rst:4
+msgid ""
+"Una applicazione ha *p* thread produttori e *c* thread consumatori. "
+"L'applicazione lavora in due fasi. Nella prima fase i thread produttori "
+"*Pi* inseriscono in una coda vuota *c* elementi. Nella seconda fase i "
+"thread consumatori *Ci* estraggono ciascuno un elemento dalla coda a "
+"partire da *C1* a *Cc*. Le due fasi si alternano per un tempo infinito. "
+"Scrivere in pseudocodice il corpo delle funzioni eseguite da un generico "
+"thread *Pi* e *Ci* assumendo che:"
 msgstr ""
+
+#: ../source/2022/q_exercises/sync.rst:10
+msgid "la coda è inizialmente vuota;"
+msgstr ""
+
+#: ../source/2022/q_exercises/sync.rst:11
+msgid "l'implementazione disponibile della coda NON è thread safe;"
+msgstr ""
+
+#: ../source/2022/q_exercises/sync.rst:12
+msgid "è ammesso solo l'utilizzo di semafori;"
+msgstr ""
+
+#: ../source/2022/q_exercises/sync.rst:13
+msgid ""
+"non è ammesso utilizzare altre variabili condivise ad eccezione di "
+"eventuali semafori e della coda."
+msgstr ""
+
+#~ msgid "4 - Sincronizzazione"
+#~ msgstr ""
+
+#~ msgid "Nessun esercizio di teoria"
+#~ msgstr ""
 

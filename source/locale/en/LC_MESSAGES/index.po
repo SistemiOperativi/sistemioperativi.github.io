@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-16 14:26+0100\n"
+"POT-Creation-Date: 2023-01-11 14:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -227,6 +227,10 @@ msgstr ""
 msgid "Sufficienza"
 msgstr "Minimum mark"
 
+#: ../source/index.rst:68
+msgid "Durata"
+msgstr ""
+
 #: ../source/index.rst:70
 msgid "1"
 msgstr ""
@@ -247,6 +251,10 @@ msgstr ""
 msgid "~12"
 msgstr ""
 
+#: ../source/index.rst:70
+msgid "~2h"
+msgstr ""
+
 #: ../source/index.rst:72
 msgid "2"
 msgstr ""
@@ -265,6 +273,10 @@ msgstr ""
 
 #: ../source/index.rst:72
 msgid "~6"
+msgstr ""
+
+#: ../source/index.rst:72
+msgid "~1h30m"
 msgstr ""
 
 #: ../source/index.rst:75
@@ -319,11 +331,37 @@ msgstr ""
 msgid "Date"
 msgstr "Dates"
 
+#: ../source/index.rst:90
+msgid "**I Appello** (Gennaio)"
+msgstr ""
+
+#: ../source/index.rst:92
+msgid ""
+"Prova di programmazione: 31/01 in Aula ECampus (turni disponibili dopo il"
+" 25/01)"
+msgstr ""
+
 #: ../source/index.rst:93
+msgid "Prova di teoria: 07/02 in Aula N11 ore 14:00"
+msgstr ""
+
+#: ../source/index.rst:95
+msgid "**II Appello** (Febbraio)"
+msgstr ""
+
+#: ../source/index.rst:97
+msgid "Prova di programmazione: 21/02 (turni disponibili dopo il 15/02)"
+msgstr ""
+
+#: ../source/index.rst:98
+msgid "Prova di teoria: 28/02 in Aula N11 ore 10:00"
+msgstr ""
+
+#: ../source/index.rst:107
 msgid "Testi consigliati e link utili (in aggiornamento)"
 msgstr "Textbooks and useful links (still updating)"
 
-#: ../source/index.rst:95
+#: ../source/index.rst:109
 msgid ""
 "[t1] Operating Systems: Internals and Design Principles - William "
 "Stallings - Prentice Hall, fifth edition (o superiori). Riferimento: "
@@ -333,7 +371,7 @@ msgstr ""
 "Stallings - Prentice Hall, fifth edition (or higher). Reference: ninth "
 "global edition."
 
-#: ../source/index.rst:96
+#: ../source/index.rst:110
 msgid ""
 "[t2] Sistemi operativi: Concetti ed Esempi - Silberschatz Abraham, Galvin"
 " Peter Baer, Gagne Greg - Addison Wesley/Pearson, nona edizione (o "
@@ -343,7 +381,7 @@ msgstr ""
 " Gagne Greg - Addison Wesley/Pearson, ninth edizione (or higher). "
 "Reference: tenth global edition."
 
-#: ../source/index.rst:97
+#: ../source/index.rst:111
 msgid ""
 "[t3] Programmazione in Ambiente UNIX - Francesco Quaglia, Camil "
 "Demetrescu - `Disponibile in formato pdf "
@@ -355,11 +393,11 @@ msgstr ""
 "<https://francescoquaglia.github.io/TEACHING/SISTEMI-"
 "OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf>`_"
 
-#: ../source/index.rst:103
+#: ../source/index.rst:117
 msgid "Programma"
 msgstr "Planned topics"
 
-#: ../source/index.rst:105
+#: ../source/index.rst:119
 msgid ""
 "**Panoramica sui sistemi operativi moderni.** definizione di sistema "
 "operativo, scopi, architettura a strati, kernel/user mode, "
@@ -368,7 +406,7 @@ msgstr ""
 "**Overview of modern operating systems:** definition, goals, "
 "architectures, kernel/user mode, main concepts"
 
-#: ../source/index.rst:106
+#: ../source/index.rst:120
 msgid ""
 "**Processi e Thread.** dispatching, stati, descrizione e controllo, "
 "modelli tipici di sistemi operativi e di uso della memoria nei processi"
@@ -376,19 +414,19 @@ msgstr ""
 "**Processes and Threads.** dispatching, states, description and control, "
 "models and process memory"
 
-#: ../source/index.rst:107
+#: ../source/index.rst:121
 msgid ""
 "**Scheduling.** a breve medio e lungo termine, algoritmi per cpu "
 "scheduling"
 msgstr "**Scheduling:** long, mid and short term scheduling, CPU scheduling"
 
-#: ../source/index.rst:108
+#: ../source/index.rst:122
 msgid "**Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori"
 msgstr ""
 "**Synchonization:** synchronization primitives, Read-Modify-Write, locks,"
 " mutex, semaphores"
 
-#: ../source/index.rst:109
+#: ../source/index.rst:123
 msgid ""
 "**Memoria.** allocatori di memoria, partitioning, best/first/next fit, "
 "buddy algorithm, paging, segmentation, memoria virtuale e sua gestione "
@@ -397,7 +435,7 @@ msgstr ""
 "**Memory:**, allocators, partitioning, paging, segmentation, virtual "
 "memory"
 
-#: ../source/index.rst:110
+#: ../source/index.rst:124
 #, fuzzy
 msgid ""
 "**I/O e File Management.** Disk scheduling, UNIX File Management, inode, "
@@ -406,36 +444,38 @@ msgstr ""
 "**I/O and file management:** Disk scheduling, :removedtopic:`RAID`, UNIX "
 "file management, Linux VFS"
 
-#: ../source/index.rst:111
+#: ../source/index.rst:125
 #, fuzzy
 msgid ""
 "**Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione "
-"file e directory), variabili di ambiente, redirection, piping, segnali, "
-"espressioni regolari (sed e grep), scripting (bash, awk), linux "
-"filesystem management"
+"file e directory), variabili di ambiente, redirection, piping, "
+":removedtopic:`segnali, espressioni regolari (sed e grep), scripting "
+"(bash, awk),` linux filesystem management"
 msgstr ""
 "**Introduction to Linux:** frequently used commands, environment,  "
 "redirection, :removedtopic:`piping, signals, regular expressions (sed e "
 "grep), scripting`,  Linux filesystem management"
 
-#: ../source/index.rst:112
+#: ../source/index.rst:126
 msgid ""
 "**Programmazione di Sistema.** Gestione in C dei processi/thread su "
 "ambiente linux"
 msgstr "**System programming:** Process and thread management in C"
 
-#: ../source/index.rst:113
+#: ../source/index.rst:127
 #, fuzzy
 msgid ""
-"**Debugger**. utilizzo di gdb stepping, breakpoints, watching, backtrace,"
-" comandi gdb."
+":removedtopic:`**Debugger**.` :removedtopic:`utilizzo di gdb stepping, "
+"breakpoints, watching, backtrace, comandi gdb.`"
 msgstr ""
 ":removedtopic:`**Debugger:** gdb stepping, breakpoints, watching, "
 "backtrace, gdb commands`"
 
-#: ../source/index.rst:114
+#: ../source/index.rst:128
 #, fuzzy
-msgid "**Virtualizzazione.** Concetti generali, container, Docker"
+msgid ""
+":removedtopic:`**Virtualizzazione.**` :removedtopic:`Concetti generali, "
+"container, Docker`"
 msgstr ":removedtopic:`**Virtualization:** main concepts, containers, Docker`"
 
 #~ msgid ":ref:`n07-02-2022`"
@@ -602,5 +642,54 @@ msgstr ":removedtopic:`**Virtualization:** main concepts, containers, Docker`"
 #~ msgstr ""
 
 #~ msgid ":ref:`n11-10-2022`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "I Appello:  Prova di programmazione il"
+#~ " 31/01 (turni disponibili dopo il "
+#~ "25/01), Prova di teoria il 07/02 "
+#~ "in Aula N11 ore 14:00"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "II Appello: Prova di programmazione il"
+#~ " 21/02 (turni disponibili dopo il "
+#~ "15/02), Prova di teoria il 28/02 "
+#~ "in Aula N11 ore 10:00"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**I Appello**:  Prova di programmazione "
+#~ "il 31/01 (turni disponibili dopo il "
+#~ "25/01), Prova di teoria il 07/02 "
+#~ "in Aula N11 ore 14:00"
+#~ msgstr ""
+
+#~ msgid "**I Appello**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**II Appello**: Prova di programmazione "
+#~ "il 21/02 (turni disponibili dopo il "
+#~ "15/02), Prova di teoria il 28/02 "
+#~ "in Aula N11 ore 10:00"
+#~ msgstr ""
+
+#~ msgid "Prova di programmazione il 31/01 (turni disponibili dopo il 25/01)"
+#~ msgstr ""
+
+#~ msgid "Prova di teoria il 07/02 in Aula N11 ore 14:00"
+#~ msgstr ""
+
+#~ msgid "Prova di programmazione il 21/02 (turni disponibili dopo il 15/02)"
+#~ msgstr ""
+
+#~ msgid "Prova di teoria il 28/02 in Aula N11 ore 10:00"
+#~ msgstr ""
+
+#~ msgid "2h"
+#~ msgstr ""
+
+#~ msgid "1h30m"
 #~ msgstr ""
 

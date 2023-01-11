@@ -40,7 +40,7 @@
 
 4. Svolgere l'esercizio 2.1 utilizzando threads piuttosto che processi.
 5. Svolgere l'esercizio 2.2 utilizzando threads piuttosto che processi.
-
+6. Implementare l'esercizio di teoria 3.1 in C.
 
 
 

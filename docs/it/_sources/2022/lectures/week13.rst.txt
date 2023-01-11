@@ -1,13 +1,13 @@
-21/12/2021 - Esercitazione
+21/12/2022 - Esercitazione
 -------------------------------------------
 
 * Svolgimento in aula dei seguenti problemi:
   
-  * :doc:`../questions`: Esercizi 1.1, 7.1
+  * :doc:`../questions`: Esercizi di teoria 1.1, 7.1
 
 
 
-20/12/2021 - Esempi C, Aspetti di sicurezza
+20/12/2022 - Esempi C, Aspetti di sicurezza
 -------------------------------------------------------------------
 
 * Esempi codice C aspetti di sicurezza:

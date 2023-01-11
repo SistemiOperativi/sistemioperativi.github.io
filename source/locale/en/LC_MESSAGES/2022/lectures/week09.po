@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-20 13:31+0100\n"
+"POT-Creation-Date: 2023-01-11 13:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../source/2022/lectures/week09.rst:2
-msgid "23/11/2021 - File Management parte 3"
+msgid "23/11/2022 - File Management parte 3"
 msgstr ""
 
 #: ../source/2022/lectures/week09.rst:4
@@ -173,7 +173,7 @@ msgid ""
 msgstr ""
 
 #: ../source/2022/lectures/week09.rst:48
-msgid "22/11/2021 - File Management parte 2"
+msgid "22/11/2022 - File Management parte 2"
 msgstr ""
 
 #: ../source/2022/lectures/week09.rst:51
@@ -214,4 +214,10 @@ msgid ""
 "13.2.1, 13.2.2, 13.2.3, 13.3, 13.3.1, 13.3.2, 13.3.3, 13.3.4, 13.4, "
 "13.4.1, 13.4.2"
 msgstr ""
+
+#~ msgid "23/11/2021 - File Management parte 3"
+#~ msgstr ""
+
+#~ msgid "22/11/2021 - File Management parte 2"
+#~ msgstr ""
 

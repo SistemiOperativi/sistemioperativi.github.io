@@ -1,4 +1,4 @@
-07/12/2021 - Gestione delle memoria parte 4
+07/12/2022 - Gestione delle memoria parte 4
 ----------------------------------------------------------------------
 
 * Mappatura dello spazio di indirizzamento e relativi system call Linux
@@ -13,7 +13,7 @@
 * Anomalia di Belady
 
 
-06/12/2021 - Gestione delle memoria parte 3
+06/12/2022 - Gestione delle memoria parte 3
 ----------------------------------------------------------------------
 
 * Traslation Lookaside Buffer

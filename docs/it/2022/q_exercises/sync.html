@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>4 - Sincronizzazione &mdash; Sistemi Operativi 2021/2022 documentazione</title>
+  <title>3 - Sincronizzazione &mdash; Sistemi Operativi 2021/2022 documentazione</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
@@ -69,7 +69,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>4 - Sincronizzazione</li>
+      <li>3 - Sincronizzazione</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/2022/q_exercises/sync.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -80,8 +80,21 @@
            <div itemprop="articleBody">
              
   <section id="sincronizzazione">
-<h1>4 - Sincronizzazione<a class="headerlink" href="#sincronizzazione" title="Link a questa intestazione">¶</a></h1>
-<p>Nessun esercizio di teoria</p>
+<h1>3 - Sincronizzazione<a class="headerlink" href="#sincronizzazione" title="Link a questa intestazione">¶</a></h1>
+<ol class="arabic simple">
+<li><p>Una applicazione ha <em>p</em> thread produttori e <em>c</em> thread consumatori. L’applicazione lavora in due fasi.
+Nella prima fase i thread produttori <em>Pi</em> inseriscono in una coda vuota <em>c</em> elementi.
+Nella seconda fase i thread consumatori <em>Ci</em> estraggono ciascuno un elemento dalla coda a partire da <em>C1</em> a <em>Cc</em>.
+Le due fasi si alternano per un tempo infinito.
+Scrivere in pseudocodice il corpo delle funzioni eseguite da un generico thread <em>Pi</em> e <em>Ci</em> assumendo che:</p>
+<ul class="simple">
+<li><p>la coda è inizialmente vuota;</p></li>
+<li><p>l’implementazione disponibile della coda NON è thread safe;</p></li>
+<li><p>è ammesso solo l’utilizzo di semafori;</p></li>
+<li><p>non è ammesso utilizzare altre variabili condivise ad eccezione di eventuali semafori e della coda.</p></li>
+</ul>
+</li>
+</ol>
 </section>
 
 
@@ -93,7 +106,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 16 nov 2022.
+      <span class="lastupdated">Ultimo aggiornamento 11 gen 2023.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

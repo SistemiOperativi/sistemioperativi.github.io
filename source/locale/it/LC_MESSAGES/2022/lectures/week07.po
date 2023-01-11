@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-20 13:31+0100\n"
+"POT-Creation-Date: 2023-01-11 13:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../source/2022/lectures/week07.rst:2
-msgid "09/11/2021 - CPU scheduling parte 2"
+msgid "09/11/2022 - CPU scheduling parte 2"
 msgstr ""
 
 #: ../source/2022/lectures/week07.rst:5
@@ -67,7 +67,7 @@ msgid "[:ref:`t2 <textbooks>`] Sezione 5.4, 5.5"
 msgstr ""
 
 #: ../source/2022/lectures/week07.rst:23
-msgid "08/11/2021 - Sincronizzazione parte 4 - CPU scheduling parte 1"
+msgid "08/11/2022 - Sincronizzazione parte 4 - CPU scheduling parte 1"
 msgstr ""
 
 #: ../source/2022/lectures/week07.rst:25
@@ -167,4 +167,10 @@ msgid ""
 "`sem_destroy "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_destroy.html>`_"
 msgstr ""
+
+#~ msgid "09/11/2021 - CPU scheduling parte 2"
+#~ msgstr ""
+
+#~ msgid "08/11/2021 - Sincronizzazione parte 4 - CPU scheduling parte 1"
+#~ msgstr ""
 

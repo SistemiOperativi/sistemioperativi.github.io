@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-10 14:46+0100\n"
+"POT-Creation-Date: 2023-01-11 13:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../source/2022/lectures/week13.rst:2
-msgid "21/12/2021 - Esercitazione"
+msgid "21/12/2022 - Esercitazione"
 msgstr ""
 
 #: ../source/2022/lectures/week13.rst:4
@@ -27,11 +27,11 @@ msgid "Svolgimento in aula dei seguenti problemi:"
 msgstr ""
 
 #: ../source/2022/lectures/week13.rst:6
-msgid ":doc:`../questions`: Esercizi 1.1, 7.1"
+msgid ":doc:`../questions`: Esercizi di teoria 1.1, 7.1"
 msgstr ""
 
 #: ../source/2022/lectures/week13.rst:11
-msgid "20/12/2021 - Esempi C, Aspetti di sicurezza"
+msgid "20/12/2022 - Esempi C, Aspetti di sicurezza"
 msgstr ""
 
 #: ../source/2022/lectures/week13.rst:13
@@ -116,5 +116,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":doc:`../questions`: Esercizi 1.1, 5.1"
+#~ msgstr ""
+
+#~ msgid "21/12/2021 - Esercitazione"
+#~ msgstr ""
+
+#~ msgid "20/12/2021 - Esempi C, Aspetti di sicurezza"
+#~ msgstr ""
+
+#~ msgid ":doc:`../questions`: Esercizi 1.1, 7.1"
 #~ msgstr ""
 

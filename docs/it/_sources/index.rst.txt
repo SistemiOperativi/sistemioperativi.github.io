@@ -64,13 +64,13 @@ Modalità d'esame
 
 L'esame prevede 2 prove i cui punteggi sono ripartiti secondo quanto segue.
 
-+---------+----------------------------+-------+-------+-------------+
-| # Test  | Tipologia                  | Punti | Perc. | Sufficienza |
-+---------+----------------------------+-------+-------+-------------+
-| 1       | Domande di teoria          |  ~20  |  ~65% | ~12         |
-+---------+----------------------------+-------+-------+-------------+
-| 2       | Esercizi di programmazione |  ~11  |  ~35% | ~6          |
-+---------+----------------------------+-------+-------+-------------+
++---------+----------------------------+-------+-------+-------------+-----------+
+| # Test  | Tipologia                  | Punti | Perc. | Sufficienza | Durata    |
++---------+----------------------------+-------+-------+-------------+-----------+
+| 1       | Domande di teoria          |  ~20  |  ~65% | ~12         | ~2h       |
++---------+----------------------------+-------+-------+-------------+-----------+
+| 2       | Esercizi di programmazione |  ~11  |  ~35% | ~6          | ~1h30m    |
++---------+----------------------------+-------+-------+-------------+-----------+
 
 Regole:
 
@@ -86,6 +86,20 @@ Regole:
 
 Date
 """"""""
+
+* **I Appello** (Gennaio)
+  
+  * Prova di programmazione: 31/01 in Aula ECampus (turni disponibili dopo il 25/01)
+  * Prova di teoria: 07/02 in Aula N11 ore 14:00
+
+* **II Appello** (Febbraio)
+
+  * Prova di programmazione: 21/02 (turni disponibili dopo il 15/02)
+  * Prova di teoria: 28/02 in Aula N11 ore 10:00
+
+
+
+
 
 .. _books2022:
 
@@ -108,10 +122,10 @@ Programma
 * **Sincronizzazione.** primitive di sincronizzazione, RMW, mutex, semafori
 * **Memoria.** allocatori di memoria, partitioning, best/first/next fit, buddy algorithm, paging, segmentation, memoria virtuale e sua gestione hardware/software 
 * **I/O e File Management.** Disk scheduling, UNIX File Management, inode, Linux VFS, ext2
-* **Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, redirection, piping, segnali, espressioni regolari (sed e grep), scripting (bash, awk), linux filesystem management
+* **Introduzione a Linux.** comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, redirection, piping, :removedtopic:`segnali, espressioni regolari (sed e grep), scripting (bash, awk),` linux filesystem management
 * **Programmazione di Sistema.** Gestione in C dei processi/thread su ambiente linux
-* **Debugger**. utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.
-* **Virtualizzazione.** Concetti generali, container, Docker
+* :removedtopic:`**Debugger**.` :removedtopic:`utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.`
+* :removedtopic:`**Virtualizzazione.**` :removedtopic:`Concetti generali, container, Docker`
 
 .. disabled
  .. warning::

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-10 14:46+0100\n"
+"POT-Creation-Date: 2023-01-11 13:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,20 +34,28 @@ msgid ""
 "trattati durante la lezione."
 msgstr ""
 
-#: ../source/2022/lectures/week13.rst:2
-msgid "21/12/2021 - Esercitazione"
+#: ../source/2022/lectures/week14.rst:2
+msgid "10/01/2022 - Esercitazione"
 msgstr ""
 
-#: ../source/2022/lectures/week13.rst:4
+#: ../source/2022/lectures/week13.rst:4 ../source/2022/lectures/week14.rst:4
 msgid "Svolgimento in aula dei seguenti problemi:"
 msgstr ""
 
+#: ../source/2022/lectures/week14.rst:6
+msgid ":doc:`../questions`: Esercizio di Teoria 3.1"
+msgstr ""
+
+#: ../source/2022/lectures/week13.rst:2
+msgid "21/12/2022 - Esercitazione"
+msgstr ""
+
 #: ../source/2022/lectures/week13.rst:6
-msgid ":doc:`../questions`: Esercizi 1.1, 7.1"
+msgid ":doc:`../questions`: Esercizi di teoria 1.1, 7.1"
 msgstr ""
 
 #: ../source/2022/lectures/week13.rst:11
-msgid "20/12/2021 - Esempi C, Aspetti di sicurezza"
+msgid "20/12/2022 - Esempi C, Aspetti di sicurezza"
 msgstr ""
 
 #: ../source/2022/lectures/week13.rst:13
@@ -106,9 +114,8 @@ msgid ""
 "<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:30 ../source/2022/lectures/week08.rst:37
-#: ../source/2022/lectures/week08.rst:78 ../source/2022/lectures/week09.rst:27
-#: ../source/2022/lectures/week13.rst:33
+#: ../source/2022/lectures/week08.rst:30 ../source/2022/lectures/week08.rst:73
+#: ../source/2022/lectures/week09.rst:27 ../source/2022/lectures/week13.rst:33
 msgid "Approfondimenti"
 msgstr ""
 
@@ -157,7 +164,7 @@ msgid "Thrashing"
 msgstr ""
 
 #: ../source/2022/lectures/week11.rst:2
-msgid "07/12/2021 - Gestione delle memoria parte 4"
+msgid "07/12/2022 - Gestione delle memoria parte 4"
 msgstr ""
 
 #: ../source/2022/lectures/week11.rst:4 ../source/2022/lectures/week11.rst:23
@@ -201,7 +208,7 @@ msgid "Anomalia di Belady"
 msgstr ""
 
 #: ../source/2022/lectures/week11.rst:17
-msgid "06/12/2021 - Gestione delle memoria parte 3"
+msgid "06/12/2022 - Gestione delle memoria parte 3"
 msgstr ""
 
 #: ../source/2022/lectures/week11.rst:19
@@ -221,7 +228,7 @@ msgid "Segmentazione paginata"
 msgstr ""
 
 #: ../source/2022/lectures/week10.rst:2
-msgid "30/11/2021 - Gestione delle Memoria parte 2"
+msgid "30/11/2022 - Gestione delle Memoria parte 2"
 msgstr ""
 
 #: ../source/2022/lectures/week10.rst:4
@@ -233,7 +240,7 @@ msgid "Tabella delle pagine"
 msgstr ""
 
 #: ../source/2022/lectures/week10.rst:9
-msgid "29/11/2021 - File Management parte 4 - Gestione delle Memoria parte 1"
+msgid "29/11/2022 - File Management parte 4 - Gestione delle Memoria parte 1"
 msgstr ""
 
 #: ../source/2022/lectures/week10.rst:14
@@ -293,7 +300,7 @@ msgid "Rilocazione"
 msgstr ""
 
 #: ../source/2022/lectures/week09.rst:2
-msgid "23/11/2021 - File Management parte 3"
+msgid "23/11/2022 - File Management parte 3"
 msgstr ""
 
 #: ../source/2022/lectures/week09.rst:4
@@ -343,7 +350,7 @@ msgstr ""
 #: ../source/2022/lectures/week05.rst:36 ../source/2022/lectures/week06.rst:9
 #: ../source/2022/lectures/week07.rst:17 ../source/2022/lectures/week07.rst:39
 #: ../source/2022/lectures/week08.rst:15 ../source/2022/lectures/week08.rst:22
-#: ../source/2022/lectures/week08.rst:64 ../source/2022/lectures/week09.rst:21
+#: ../source/2022/lectures/week08.rst:59 ../source/2022/lectures/week09.rst:21
 #: ../source/2022/lectures/week09.rst:61
 msgid "Riferimenti libro di testo"
 msgstr ""
@@ -445,7 +452,7 @@ msgid ""
 msgstr ""
 
 #: ../source/2022/lectures/week09.rst:48
-msgid "22/11/2021 - File Management parte 2"
+msgid "22/11/2022 - File Management parte 2"
 msgstr ""
 
 #: ../source/2022/lectures/week08.rst:9 ../source/2022/lectures/week09.rst:51
@@ -488,10 +495,10 @@ msgid ""
 msgstr ""
 
 #: ../source/2022/lectures/week08.rst:2
-msgid "16/11/2021 - I/O Managament parte 2 - File Management parte 1"
+msgid "16/11/2022 - I/O Managament parte 2 - File Management parte 1"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:5 ../source/2022/lectures/week08.rst:54
+#: ../source/2022/lectures/week08.rst:5 ../source/2022/lectures/week08.rst:49
 msgid "I/O Management:"
 msgstr ""
 
@@ -509,7 +516,7 @@ msgid ""
 "11.3, 13.1"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:32 ../source/2022/lectures/week08.rst:73
+#: ../source/2022/lectures/week08.rst:32 ../source/2022/lectures/week08.rst:68
 msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
 msgstr ""
 
@@ -519,65 +526,65 @@ msgid ""
 "<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:39 ../source/2022/lectures/week08.rst:80
+#: ../source/2022/lectures/week08.rst:34 ../source/2022/lectures/week08.rst:75
 msgid "[:ref:`t2 <textbooks>`] Capitolo 12"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:44
-msgid "15/11/2021 - CPU scheduling parte 3 - I/O Managament parte 1"
+#: ../source/2022/lectures/week08.rst:39
+msgid "15/11/2022 - CPU scheduling parte 3 - I/O Managament parte 1"
 msgstr ""
 
-#: ../source/2022/lectures/week07.rst:30 ../source/2022/lectures/week08.rst:46
+#: ../source/2022/lectures/week07.rst:30 ../source/2022/lectures/week08.rst:41
 msgid "CPU scheduling"
 msgstr ""
 
-#: ../source/2022/lectures/week07.rst:11 ../source/2022/lectures/week08.rst:48
+#: ../source/2022/lectures/week07.rst:11 ../source/2022/lectures/week08.rst:43
 msgid "Load balancing"
 msgstr ""
 
-#: ../source/2022/lectures/week07.rst:12 ../source/2022/lectures/week08.rst:49
+#: ../source/2022/lectures/week07.rst:12 ../source/2022/lectures/week08.rst:44
 msgid "Affinity"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:50
+#: ../source/2022/lectures/week08.rst:45
 msgid "Scheduler UNIX System V Release 4"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:51
+#: ../source/2022/lectures/week08.rst:46
 msgid "Linux Complete Fair Scheduler"
 msgstr ""
 
-#: ../source/2022/lectures/week05.rst:30 ../source/2022/lectures/week08.rst:52
+#: ../source/2022/lectures/week05.rst:30 ../source/2022/lectures/week08.rst:47
 msgid "Introduzione alla sincronizzazione"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:56
+#: ../source/2022/lectures/week08.rst:51
 msgid "Caratteristiche dei dispositivi di I/O"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:57
+#: ../source/2022/lectures/week08.rst:52
 msgid "Modello di organizzazione dei moduli di I/O"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:58
+#: ../source/2022/lectures/week08.rst:53
 msgid "I/O Buffering"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:59
+#: ../source/2022/lectures/week08.rst:54
 msgid "I/O Scheduling"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:60
+#: ../source/2022/lectures/week08.rst:55
 msgid "Hard disk"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:66
+#: ../source/2022/lectures/week08.rst:61
 msgid ""
 "[:ref:`t1 <textbooks>`] Sezione 10.3, 10.4, 5, 11, 11.1, 11.2, 11.3, "
 "11.4, 11.5"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:67
+#: ../source/2022/lectures/week08.rst:62
 msgid ""
 "[:ref:`t2 <textbooks>`] Sezione 5.7.1, 6.1, 6.2, 12.2.2, 12.2.3, 12.3, "
 "12.4, 12.4.1, 12.4.2, 12.4.7, 11.1, 11.1.1"
@@ -586,11 +593,11 @@ msgstr ""
 #: ../source/2022/lectures/week01.rst:16 ../source/2022/lectures/week02.rst:24
 #: ../source/2022/lectures/week03.rst:19 ../source/2022/lectures/week04.rst:25
 #: ../source/2022/lectures/week04.rst:61 ../source/2022/lectures/week06.rst:15
-#: ../source/2022/lectures/week07.rst:45 ../source/2022/lectures/week08.rst:70
+#: ../source/2022/lectures/week07.rst:45 ../source/2022/lectures/week08.rst:65
 msgid "Link di approfondimento"
 msgstr ""
 
-#: ../source/2022/lectures/week08.rst:72
+#: ../source/2022/lectures/week08.rst:67
 msgid ""
 "`Complete Fair Scheduler "
 "<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
@@ -598,7 +605,7 @@ msgid ""
 msgstr ""
 
 #: ../source/2022/lectures/week07.rst:2
-msgid "09/11/2021 - CPU scheduling parte 2"
+msgid "09/11/2022 - CPU scheduling parte 2"
 msgstr ""
 
 #: ../source/2022/lectures/week07.rst:5
@@ -634,7 +641,7 @@ msgid "[:ref:`t2 <textbooks>`] Sezione 5.4, 5.5"
 msgstr ""
 
 #: ../source/2022/lectures/week07.rst:23
-msgid "08/11/2021 - Sincronizzazione parte 4 - CPU scheduling parte 1"
+msgid "08/11/2022 - Sincronizzazione parte 4 - CPU scheduling parte 1"
 msgstr ""
 
 #: ../source/2022/lectures/week07.rst:25
@@ -1400,5 +1407,47 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":doc:`../questions`: Esercizi 1.1, 5.1"
+#~ msgstr ""
+
+#~ msgid "21/12/2021 - Esercitazione"
+#~ msgstr ""
+
+#~ msgid "20/12/2021 - Esempi C, Aspetti di sicurezza"
+#~ msgstr ""
+
+#~ msgid "07/12/2021 - Gestione delle memoria parte 4"
+#~ msgstr ""
+
+#~ msgid "06/12/2021 - Gestione delle memoria parte 3"
+#~ msgstr ""
+
+#~ msgid "30/11/2021 - Gestione delle Memoria parte 2"
+#~ msgstr ""
+
+#~ msgid "29/11/2021 - File Management parte 4 - Gestione delle Memoria parte 1"
+#~ msgstr ""
+
+#~ msgid "23/11/2021 - File Management parte 3"
+#~ msgstr ""
+
+#~ msgid "22/11/2021 - File Management parte 2"
+#~ msgstr ""
+
+#~ msgid "16/11/2021 - I/O Managament parte 2 - File Management parte 1"
+#~ msgstr ""
+
+#~ msgid "15/11/2021 - CPU scheduling parte 3 - I/O Managament parte 1"
+#~ msgstr ""
+
+#~ msgid "09/11/2021 - CPU scheduling parte 2"
+#~ msgstr ""
+
+#~ msgid "08/11/2021 - Sincronizzazione parte 4 - CPU scheduling parte 1"
+#~ msgstr ""
+
+#~ msgid "Svolgimento esercizio 3.1 in aula"
+#~ msgstr ""
+
+#~ msgid ":doc:`../questions`: Esercizi 1.1, 7.1"
 #~ msgstr ""
 

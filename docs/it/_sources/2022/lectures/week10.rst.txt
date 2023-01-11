@@ -1,11 +1,11 @@
-30/11/2021 - Gestione delle Memoria parte 2
+30/11/2022 - Gestione delle Memoria parte 2
 ----------------------------------------------------------------------
 
 * Paginazione
 * Tabella delle pagine
 
 
-29/11/2021 - File Management parte 4 - Gestione delle Memoria parte 1
+29/11/2022 - File Management parte 4 - Gestione delle Memoria parte 1
 ----------------------------------------------------------------------
 
 * File management

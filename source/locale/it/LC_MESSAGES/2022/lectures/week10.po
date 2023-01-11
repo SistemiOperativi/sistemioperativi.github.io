@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-20 14:04+0100\n"
+"POT-Creation-Date: 2023-01-11 13:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../source/2022/lectures/week10.rst:2
-msgid "30/11/2021 - Gestione delle Memoria parte 2"
+msgid "30/11/2022 - Gestione delle Memoria parte 2"
 msgstr ""
 
 #: ../source/2022/lectures/week10.rst:4
@@ -31,7 +31,7 @@ msgid "Tabella delle pagine"
 msgstr ""
 
 #: ../source/2022/lectures/week10.rst:9
-msgid "29/11/2021 - File Management parte 4 - Gestione delle Memoria parte 1"
+msgid "29/11/2022 - File Management parte 4 - Gestione delle Memoria parte 1"
 msgstr ""
 
 #: ../source/2022/lectures/week10.rst:14
@@ -97,5 +97,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Gestione della memoria * Requisiti * Partizionamento"
+#~ msgstr ""
+
+#~ msgid "30/11/2021 - Gestione delle Memoria parte 2"
+#~ msgstr ""
+
+#~ msgid "29/11/2021 - File Management parte 4 - Gestione delle Memoria parte 1"
 #~ msgstr ""
 

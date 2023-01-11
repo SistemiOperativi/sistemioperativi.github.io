@@ -1,4 +1,4 @@
-23/11/2021 - File Management parte 3
+23/11/2022 - File Management parte 3
 ----------------------------------------------------------------------
 
 * Allocazione su hard disk
@@ -44,7 +44,7 @@ Approfondimenti
 
 
 
-22/11/2021 - File Management parte 2
+22/11/2022 - File Management parte 2
 ----------------------------------------------------------------------
 
 

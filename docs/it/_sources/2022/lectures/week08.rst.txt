@@ -1,4 +1,4 @@
-16/11/2021 - I/O Managament parte 2 - File Management parte 1
+16/11/2022 - I/O Managament parte 2 - File Management parte 1
 ----------------------------------------------------------------------
 
 
@@ -31,16 +31,11 @@ Approfondimenti
 
 * `Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_
 * `Solid State Drives - Data Reliability and Lifetime <https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_
-
-
-Approfondimenti
-"""""""""""""""
-
 * [:ref:`t2 <textbooks>`] Capitolo 12
 
 
 
-15/11/2021 - CPU scheduling parte 3 - I/O Managament parte 1
+15/11/2022 - CPU scheduling parte 3 - I/O Managament parte 1
 ----------------------------------------------------------------------
 
 * CPU scheduling

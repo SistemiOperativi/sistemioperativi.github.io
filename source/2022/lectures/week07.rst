@@ -1,4 +1,4 @@
-09/11/2021 - CPU scheduling parte 2
+09/11/2022 - CPU scheduling parte 2
 -------------------------------------
 
 
@@ -19,7 +19,7 @@ Riferimenti libro di testo
 * [:ref:`t2 <textbooks>`] Sezione 5.4, 5.5
 
 
-08/11/2021 - Sincronizzazione parte 4 - CPU scheduling parte 1
+08/11/2022 - Sincronizzazione parte 4 - CPU scheduling parte 1
 ----------------------------------------------------------------------
 
 * Sincronizzaione

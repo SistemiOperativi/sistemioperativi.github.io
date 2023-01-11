@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-20 14:02+0100\n"
+"POT-Creation-Date: 2023-01-11 13:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../source/2022/lectures/week11.rst:2
-msgid "07/12/2021 - Gestione delle memoria parte 4"
+msgid "07/12/2022 - Gestione delle memoria parte 4"
 msgstr ""
 
 #: ../source/2022/lectures/week11.rst:4 ../source/2022/lectures/week11.rst:23
@@ -63,7 +63,7 @@ msgid "Anomalia di Belady"
 msgstr ""
 
 #: ../source/2022/lectures/week11.rst:17
-msgid "06/12/2021 - Gestione delle memoria parte 3"
+msgid "06/12/2022 - Gestione delle memoria parte 3"
 msgstr ""
 
 #: ../source/2022/lectures/week11.rst:19
@@ -86,5 +86,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "06/12/2021 - File Management parte 2"
+#~ msgstr ""
+
+#~ msgid "07/12/2021 - Gestione delle memoria parte 4"
+#~ msgstr ""
+
+#~ msgid "06/12/2021 - Gestione delle memoria parte 3"
 #~ msgstr ""
 

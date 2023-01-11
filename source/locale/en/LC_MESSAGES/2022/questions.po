@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-20 13:16+0100\n"
+"POT-Creation-Date: 2023-01-11 13:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,7 +122,7 @@ msgid ""
 "tra thread parent e child?"
 msgstr ""
 
-#: ../source/2022/questions/sync.rst:2
+#: ../source/2022/q_exercises/sync.rst:2 ../source/2022/questions/sync.rst:2
 msgid "3 - Sincronizzazione"
 msgstr ""
 
@@ -426,7 +426,7 @@ msgid ""
 " a) e b)."
 msgstr ""
 
-#: ../source/2022/q_exercises/sched.rst:5
+#: ../source/2022/q_exercises/sched.rst:110
 msgid ""
 "Si consideri uno scenario con 4 processi {P1,..., P4} CPU-bound e "
 "generati in sequenza a partire da P1 a P4 con ritardi trascurabili."
@@ -703,7 +703,7 @@ msgstr ""
 msgid "1.33"
 msgstr ""
 
-#: ../source/2022/q_exercises/sched.rst:114
+#: ../source/2022/q_exercises/sched.rst:116
 msgid ""
 "Si consideri uno scenario in cui uno scheduler Multilevel-feedback queue "
 "abbia 4 livelli di priorità, ed in cui il quanto di tempo assegnato ai "
@@ -717,7 +717,7 @@ msgid ""
 "context switch e per l'esecuzione dello scheduler sia nullo."
 msgstr ""
 
-#: ../source/2022/q_exercises/sched.rst:115
+#: ../source/2022/q_exercises/sched.rst:117
 msgid ""
 "Si consideri uno scenario in cui al tempo T0 nasca un processo P0 "
 "puramente CPU-bound di durata (tempo di CPU) pari a 10 secondi ed al "
@@ -728,6 +728,35 @@ msgid ""
 "massimo di completamento del processo P1 nel caso in cui il sistema abbia"
 " come scheduler Shortest Process Next oppure Shortest-Remaining-Time "
 "Next."
+msgstr ""
+
+#: ../source/2022/q_exercises/sync.rst:4
+msgid ""
+"Una applicazione ha *p* thread produttori e *c* thread consumatori. "
+"L'applicazione lavora in due fasi. Nella prima fase i thread produttori "
+"*Pi* inseriscono in una coda vuota *c* elementi. Nella seconda fase i "
+"thread consumatori *Ci* estraggono ciascuno un elemento dalla coda a "
+"partire da *C1* a *Cc*. Le due fasi si alternano per un tempo infinito. "
+"Scrivere in pseudocodice il corpo delle funzioni eseguite da un generico "
+"thread *Pi* e *Ci* assumendo che:"
+msgstr ""
+
+#: ../source/2022/q_exercises/sync.rst:10
+msgid "la coda è inizialmente vuota;"
+msgstr ""
+
+#: ../source/2022/q_exercises/sync.rst:11
+msgid "l'implementazione disponibile della coda NON è thread safe;"
+msgstr ""
+
+#: ../source/2022/q_exercises/sync.rst:12
+msgid "è ammesso solo l'utilizzo di semafori;"
+msgstr ""
+
+#: ../source/2022/q_exercises/sync.rst:13
+msgid ""
+"non è ammesso utilizzare altre variabili condivise ad eccezione di "
+"eventuali semafori e della coda."
 msgstr ""
 
 #: ../source/2022/q_exercises/IO.rst:4
@@ -1339,6 +1368,10 @@ msgstr ""
 
 #: ../source/2022/q_exercises/programming.rst:42
 msgid "Svolgere l'esercizio 2.2 utilizzando threads piuttosto che processi."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:43
+msgid "Implementare l'esercizio di teoria 3.1 in C."
 msgstr ""
 
 #: ../source/2022/q_exercises/programming.rst:48
