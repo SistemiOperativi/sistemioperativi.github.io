@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-29 13:08+0100\n"
+"POT-Creation-Date: 2023-01-28 18:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,112 +64,118 @@ msgstr ""
 msgid ":download:`07 - Gestione delle memoria <slides/07-so-memoria-221129.pdf>`"
 msgstr ""
 
-#: ../source/2022/slides.rst:14
+#: ../source/2022/slides.rst:13
+msgid ""
+":download:`08 - Introduzione a Linux <slides/08-introduzione-linux-"
+"211214v1.pdf>`"
+msgstr ""
+
+#: ../source/2022/slides.rst:15
 msgid ""
 ":download:`A1 - Solid state drives: architetture e soluzioni enterprise "
 "[en] <slides/A1-solid-state-drives.pdf>`"
 msgstr ""
 
-#: ../source/2022/slides.rst:20
+#: ../source/2022/slides.rst:19
 msgid "Documentazione"
 msgstr ""
 
-#: ../source/2022/slides.rst:23
+#: ../source/2022/slides.rst:22
 msgid "`POSIX <https://pubs.opengroup.org/onlinepubs/9699919799>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:24
+#: ../source/2022/slides.rst:23
 msgid "`Linux <https://man7.org/linux/man-pages/>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:25
+#: ../source/2022/slides.rst:24
 msgid ""
 "`Microsoft C docs on literals "
 "<https://docs.microsoft.com/cpp/c-language/c-integer-constants>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:26
+#: ../source/2022/slides.rst:25
 msgid ""
 "`GCC Thread Local Storage <https://gcc.gnu.org/onlinedocs/gcc/Thread-"
 "Local.html>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:27
+#: ../source/2022/slides.rst:26
 msgid "`Linux Kernel <https://www.kernel.org/doc/html/latest/>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:28
+#: ../source/2022/slides.rst:27
 msgid ""
 "`mode_t "
 "<https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:29
+#: ../source/2022/slides.rst:28
 msgid ""
 "`ramdisk <https://www.kernel.org/doc/html/latest/admin-"
 "guide/blockdev/ramdisk.html>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:30
+#: ../source/2022/slides.rst:29
 msgid "`ramfs <https://wiki.debian.org/ramfs>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:31
+#: ../source/2022/slides.rst:30
 msgid "`tmpfs <https://www.kernel.org/doc/html/latest/filesystems/tmpfs.html>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:43
+#: ../source/2022/slides.rst:42
 msgid "Approfondimenti"
 msgstr ""
 
-#: ../source/2022/slides.rst:45
+#: ../source/2022/slides.rst:44
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:46
+#: ../source/2022/slides.rst:45
 msgid "`glibc source code <https://sourceware.org/git/?p=glibc.git;a=summary>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:47
+#: ../source/2022/slides.rst:46
 msgid "`Linux Kernel Source Code <https://elixir.bootlin.com/>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:48
+#: ../source/2022/slides.rst:47
 msgid ""
 "`The free lunch is over <http://www.gotw.ca/publications/concurrency-"
 "ddj.htm>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:49
+#: ../source/2022/slides.rst:48
 msgid ""
 "`Introduction to Operating Systems "
 "<https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:50
+#: ../source/2022/slides.rst:49
 msgid ""
 "`GCC and Make Compiling, Linking and Building C/C++ Applications "
 "<https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:51
+#: ../source/2022/slides.rst:50
 msgid "`Bakery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:52
+#: ../source/2022/slides.rst:51
 msgid ""
 "`Complete Fair Scheduler "
 "<https://www.kernel.org/doc/html/latest/scheduler/sched-design-"
 "CFS.html>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:53
+#: ../source/2022/slides.rst:52
 msgid "`Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_"
 msgstr ""
 
-#: ../source/2022/slides.rst:54
+#: ../source/2022/slides.rst:53
 msgid ""
 "`Solid State Drives - Data Reliability and Lifetime "
 "<https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_"

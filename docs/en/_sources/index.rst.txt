@@ -9,6 +9,10 @@ News
 ----
 
 
+.. warning::
+  
+  A causa di sopraggiunta indisponibilità, la prova di programmazione si svolgerà alle ore 11:00 del 07/02 in aula Campus.
+
 * :ref:`n16-11-2022`
 * :ref:`n02-11-2022`
 * :ref:`n19-10-2022`
