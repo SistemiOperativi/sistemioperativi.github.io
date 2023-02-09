@@ -1,15 +1,15 @@
-f = open("set.txt")
+f = open("gen.txt")
 
-sep="+---+-------------+------+------+------+------------+------+-------------+----------+"
+sep="+---+-------------+------+------+------+------------+--------------------+----------+"
 h1= "|   |             |  **TEORIA**                     | **PROGRAMMAZIONE** |          |"
-h2= "|   +             +------+------+------+------------+------+-------------+          +"
-h3= "|#  |**MATRICOLA**|**Q1**|**Q2**|**Q3**|**PARZIALE**|**Q4**|**CHALLENGE**|**TOTALE**|"
+h2= "|   +             +------+------+------+------------+--------------------+          +"
+h3= "|#  |**MATRICOLA**|**Q1**|**Q2**|**Q3**|**PARZIALE**|**Q4**              |**TOTALE**|"
 
 
 res=[sep,h1,h2,h3,sep]
 for l in res:
     print(l)
-lens=[13, 6, 6, 6, 12, 6, 13, 10, 10]
+lens=[13, 6, 6, 6, 12, 20, 10]
 count=1
 for line in f.readlines():
     spa = 2
@@ -22,9 +22,10 @@ for line in f.readlines():
         continue
     if "Assente" in line:
         continue
+    line = line.replace("\t", " ")
     while "  " in line:
         line = line.replace("  ", " ")
-    line = line.replace("Ritirato", "Insuf.")
+    line = line.replace("Ritirato", "Insuf.").replace("Insufficiente", "Insuf.")
     line = line.split(" ")
 
     res = [" "*spa+str(count)]

@@ -71,9 +71,9 @@ L'esame prevede 2 prove i cui punteggi sono ripartiti secondo quanto segue.
 +---------+----------------------------+-------+-------+-------------+-----------+
 | # Test  | Tipologia                  | Punti | Perc. | Sufficienza | Durata    |
 +---------+----------------------------+-------+-------+-------------+-----------+
-| 1       | Domande di teoria          |  ~20  |  ~65% | ~12         | ~2h       |
+| 1       | Domande di teoria          |  ~21  |  ~65% | ~12         | ~2h       |
 +---------+----------------------------+-------+-------+-------------+-----------+
-| 2       | Esercizi di programmazione |  ~11  |  ~35% | ~6          | ~1h30m    |
+| 2       | Esercizi di programmazione |  ~10  |  ~35% | ~6          | ~1h30m    |
 +---------+----------------------------+-------+-------+-------------+-----------+
 
 Regole:

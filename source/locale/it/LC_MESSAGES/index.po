@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-28 18:16+0100\n"
+"POT-Creation-Date: 2023-02-09 16:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,7 +232,7 @@ msgid "Domande di teoria"
 msgstr ""
 
 #: ../source/index.rst:74
-msgid "~20"
+msgid "~21"
 msgstr ""
 
 #: ../source/index.rst:74
@@ -256,7 +256,7 @@ msgid "Esercizi di programmazione"
 msgstr ""
 
 #: ../source/index.rst:76
-msgid "~11"
+msgid "~10"
 msgstr ""
 
 #: ../source/index.rst:76
@@ -1319,5 +1319,11 @@ msgstr ""
 #~ msgid ""
 #~ "**Debugger**. utilizzo di gdb stepping, "
 #~ "breakpoints, watching, backtrace, comandi gdb."
+#~ msgstr ""
+
+#~ msgid "~20"
+#~ msgstr ""
+
+#~ msgid "~11"
 #~ msgstr ""
 

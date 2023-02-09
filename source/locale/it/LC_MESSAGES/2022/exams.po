@@ -9,16 +9,492 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 12:20+0200\n"
+"POT-Creation-Date: 2023-02-09 16:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../source/2022/exams.rst:2
 msgid "Appelli"
+msgstr ""
+
+#: ../source/2022/exams.rst:9
+msgid "07/02/2023"
+msgstr ""
+
+#: ../source/2022/exams.rst:11
+msgid ""
+"Testo d'esame: :download:`it <esami/220207-written-it.pdf>`, "
+":download:`en <esami/220207-written-en.pdf>`, :download:`sorgente e "
+"soluzione <esami/220207-PROG.zip>`"
+msgstr ""
+
+#: ../source/2022/exams.rst:13
+msgid "Soglie per la sufficienza: Teoria=12, Programmazione=6"
+msgstr ""
+
+#: ../source/2022/exams.rst:14
+msgid "Voti:"
+msgstr ""
+
+#: ../source/2022/exams.rst:19
+msgid "#"
+msgstr ""
+
+#: ../source/2022/exams.rst:19
+msgid "**MATRICOLA**"
+msgstr ""
+
+#: ../source/2022/exams.rst:17
+msgid "**TEORIA**"
+msgstr ""
+
+#: ../source/2022/exams.rst:17
+msgid "**PROGRAMMAZIONE**"
+msgstr ""
+
+#: ../source/2022/exams.rst:19
+msgid "**TOTALE**"
+msgstr ""
+
+#: ../source/2022/exams.rst:19
+msgid "**Q1**"
+msgstr ""
+
+#: ../source/2022/exams.rst:19
+msgid "**Q2**"
+msgstr ""
+
+#: ../source/2022/exams.rst:19
+msgid "**Q3**"
+msgstr ""
+
+#: ../source/2022/exams.rst:19
+msgid "**PARZIALE**"
+msgstr ""
+
+#: ../source/2022/exams.rst:19
+msgid "**Q4**"
+msgstr ""
+
+#: ../source/2022/exams.rst:21 ../source/2022/exams.rst:55
+msgid "1"
+msgstr ""
+
+#: ../source/2022/exams.rst:21
+msgid "561751"
+msgstr ""
+
+#: ../source/2022/exams.rst:21 ../source/2022/exams.rst:31
+#: ../source/2022/exams.rst:53 ../source/2022/exams.rst:67
+msgid "N.D."
+msgstr ""
+
+#: ../source/2022/exams.rst:23 ../source/2022/exams.rst:27
+#: ../source/2022/exams.rst:41 ../source/2022/exams.rst:51
+#: ../source/2022/exams.rst:71 ../source/2022/exams.rst:73
+msgid "2"
+msgstr ""
+
+#: ../source/2022/exams.rst:23
+msgid "479197"
+msgstr ""
+
+#: ../source/2022/exams.rst:23
+msgid "2.5"
+msgstr ""
+
+#: ../source/2022/exams.rst:23 ../source/2022/exams.rst:29
+#: ../source/2022/exams.rst:33 ../source/2022/exams.rst:35
+#: ../source/2022/exams.rst:37 ../source/2022/exams.rst:39
+#: ../source/2022/exams.rst:43 ../source/2022/exams.rst:45
+#: ../source/2022/exams.rst:47 ../source/2022/exams.rst:55
+#: ../source/2022/exams.rst:57 ../source/2022/exams.rst:59
+#: ../source/2022/exams.rst:61 ../source/2022/exams.rst:63
+#: ../source/2022/exams.rst:65 ../source/2022/exams.rst:69
+#: ../source/2022/exams.rst:71 ../source/2022/exams.rst:73
+msgid "9"
+msgstr ""
+
+#: ../source/2022/exams.rst:23 ../source/2022/exams.rst:27
+#: ../source/2022/exams.rst:47
+msgid "14"
+msgstr ""
+
+#: ../source/2022/exams.rst:23 ../source/2022/exams.rst:25
+#: ../source/2022/exams.rst:29 ../source/2022/exams.rst:41
+#: ../source/2022/exams.rst:55 ../source/2022/exams.rst:65
+#: ../source/2022/exams.rst:69 ../source/2022/exams.rst:73
+#: ../source/2022/exams.rst:79
+msgid "5"
+msgstr ""
+
+#: ../source/2022/exams.rst:23 ../source/2022/exams.rst:25
+#: ../source/2022/exams.rst:27 ../source/2022/exams.rst:37
+#: ../source/2022/exams.rst:39 ../source/2022/exams.rst:41
+#: ../source/2022/exams.rst:45 ../source/2022/exams.rst:47
+#: ../source/2022/exams.rst:49 ../source/2022/exams.rst:51
+#: ../source/2022/exams.rst:55 ../source/2022/exams.rst:57
+#: ../source/2022/exams.rst:65 ../source/2022/exams.rst:69
+#: ../source/2022/exams.rst:75 ../source/2022/exams.rst:77
+#: ../source/2022/exams.rst:79 ../source/2022/exams.rst:81
+msgid "Insuf."
+msgstr ""
+
+#: ../source/2022/exams.rst:25 ../source/2022/exams.rst:39
+#: ../source/2022/exams.rst:79 ../source/2022/exams.rst:81
+msgid "3"
+msgstr ""
+
+#: ../source/2022/exams.rst:25
+msgid "540730"
+msgstr ""
+
+#: ../source/2022/exams.rst:25 ../source/2022/exams.rst:27
+#: ../source/2022/exams.rst:37 ../source/2022/exams.rst:41
+#: ../source/2022/exams.rst:51 ../source/2022/exams.rst:57
+#: ../source/2022/exams.rst:77
+msgid "4"
+msgstr ""
+
+#: ../source/2022/exams.rst:25 ../source/2022/exams.rst:35
+msgid "7.5"
+msgstr ""
+
+#: ../source/2022/exams.rst:25
+msgid "14.5"
+msgstr ""
+
+#: ../source/2022/exams.rst:27
+msgid "546622"
+msgstr ""
+
+#: ../source/2022/exams.rst:27 ../source/2022/exams.rst:31
+#: ../source/2022/exams.rst:33 ../source/2022/exams.rst:35
+#: ../source/2022/exams.rst:41 ../source/2022/exams.rst:43
+#: ../source/2022/exams.rst:47 ../source/2022/exams.rst:51
+#: ../source/2022/exams.rst:61 ../source/2022/exams.rst:63
+#: ../source/2022/exams.rst:77
+msgid "6"
+msgstr ""
+
+#: ../source/2022/exams.rst:29
+msgid "560695"
+msgstr ""
+
+#: ../source/2022/exams.rst:29 ../source/2022/exams.rst:33
+#: ../source/2022/exams.rst:43 ../source/2022/exams.rst:45
+#: ../source/2022/exams.rst:59 ../source/2022/exams.rst:71
+#: ../source/2022/exams.rst:75
+msgid "5.5"
+msgstr ""
+
+#: ../source/2022/exams.rst:29
+msgid "19.5"
+msgstr ""
+
+#: ../source/2022/exams.rst:29
+msgid "7.75"
+msgstr ""
+
+#: ../source/2022/exams.rst:29 ../source/2022/exams.rst:63
+#: ../source/2022/exams.rst:73
+msgid "27"
+msgstr ""
+
+#: ../source/2022/exams.rst:31
+msgid "534909"
+msgstr ""
+
+#: ../source/2022/exams.rst:33
+msgid "7"
+msgstr ""
+
+#: ../source/2022/exams.rst:33
+msgid "559298"
+msgstr ""
+
+#: ../source/2022/exams.rst:33 ../source/2022/exams.rst:43
+msgid "20.5"
+msgstr ""
+
+#: ../source/2022/exams.rst:33
+msgid "9.5"
+msgstr ""
+
+#: ../source/2022/exams.rst:33 ../source/2022/exams.rst:79
+msgid "30"
+msgstr ""
+
+#: ../source/2022/exams.rst:35 ../source/2022/exams.rst:79
+msgid "8"
+msgstr ""
+
+#: ../source/2022/exams.rst:35
+msgid "553614"
+msgstr ""
+
+#: ../source/2022/exams.rst:35 ../source/2022/exams.rst:37
+#: ../source/2022/exams.rst:39 ../source/2022/exams.rst:45
+#: ../source/2022/exams.rst:47 ../source/2022/exams.rst:49
+#: ../source/2022/exams.rst:57 ../source/2022/exams.rst:65
+#: ../source/2022/exams.rst:75 ../source/2022/exams.rst:77
+#: ../source/2022/exams.rst:79 ../source/2022/exams.rst:81
+msgid "0"
+msgstr ""
+
+#: ../source/2022/exams.rst:35 ../source/2022/exams.rst:41
+#: ../source/2022/exams.rst:49 ../source/2022/exams.rst:55
+msgid "15"
+msgstr ""
+
+#: ../source/2022/exams.rst:35 ../source/2022/exams.rst:65
+msgid "23"
+msgstr ""
+
+#: ../source/2022/exams.rst:37
+msgid "546444"
+msgstr ""
+
+#: ../source/2022/exams.rst:37
+msgid "6.5"
+msgstr ""
+
+#: ../source/2022/exams.rst:39 ../source/2022/exams.rst:77
+msgid "10"
+msgstr ""
+
+#: ../source/2022/exams.rst:39
+msgid "534953"
+msgstr ""
+
+#: ../source/2022/exams.rst:39 ../source/2022/exams.rst:45
+#: ../source/2022/exams.rst:47 ../source/2022/exams.rst:61
+#: ../source/2022/exams.rst:65 ../source/2022/exams.rst:71
+#: ../source/2022/exams.rst:73
+msgid "5.75"
+msgstr ""
+
+#: ../source/2022/exams.rst:39
+msgid "17.75"
+msgstr ""
+
+#: ../source/2022/exams.rst:41
+msgid "11"
+msgstr ""
+
+#: ../source/2022/exams.rst:41
+msgid "474951"
+msgstr ""
+
+#: ../source/2022/exams.rst:43 ../source/2022/exams.rst:51
+msgid "12"
+msgstr ""
+
+#: ../source/2022/exams.rst:43
+msgid "558688"
+msgstr ""
+
+#: ../source/2022/exams.rst:43
+msgid "8.25"
+msgstr ""
+
+#: ../source/2022/exams.rst:43 ../source/2022/exams.rst:77
+msgid "29"
+msgstr ""
+
+#: ../source/2022/exams.rst:45
+msgid "13"
+msgstr ""
+
+#: ../source/2022/exams.rst:45
+msgid "560856"
+msgstr ""
+
+#: ../source/2022/exams.rst:45
+msgid "20.25"
+msgstr ""
+
+#: ../source/2022/exams.rst:47
+msgid "564697"
+msgstr ""
+
+#: ../source/2022/exams.rst:47
+msgid "20.75"
+msgstr ""
+
+#: ../source/2022/exams.rst:49
+msgid "540551"
+msgstr ""
+
+#: ../source/2022/exams.rst:49
+msgid "7.25"
+msgstr ""
+
+#: ../source/2022/exams.rst:51 ../source/2022/exams.rst:73
+msgid "16"
+msgstr ""
+
+#: ../source/2022/exams.rst:51
+msgid "533954"
+msgstr ""
+
+#: ../source/2022/exams.rst:51
+msgid "3.25"
+msgstr ""
+
+#: ../source/2022/exams.rst:53 ../source/2022/exams.rst:57
+msgid "17"
+msgstr ""
+
+#: ../source/2022/exams.rst:53
+msgid "563758"
+msgstr ""
+
+#: ../source/2022/exams.rst:55
+msgid "18"
+msgstr ""
+
+#: ../source/2022/exams.rst:55
+msgid "533945"
+msgstr ""
+
+#: ../source/2022/exams.rst:55
+msgid "3.5"
+msgstr ""
+
+#: ../source/2022/exams.rst:57 ../source/2022/exams.rst:61
+msgid "19"
+msgstr ""
+
+#: ../source/2022/exams.rst:57
+msgid "560882"
+msgstr ""
+
+#: ../source/2022/exams.rst:59
+msgid "20"
+msgstr ""
+
+#: ../source/2022/exams.rst:59
+msgid "596638"
+msgstr ""
+
+#: ../source/2022/exams.rst:59
+msgid "5.25"
+msgstr ""
+
+#: ../source/2022/exams.rst:59 ../source/2022/exams.rst:69
+msgid "2.25"
+msgstr ""
+
+#: ../source/2022/exams.rst:59 ../source/2022/exams.rst:71
+msgid "16.5"
+msgstr ""
+
+#: ../source/2022/exams.rst:59 ../source/2022/exams.rst:63
+#: ../source/2022/exams.rst:71 ../source/2022/exams.rst:73
+msgid "22"
+msgstr ""
+
+#: ../source/2022/exams.rst:61
+msgid "21"
+msgstr ""
+
+#: ../source/2022/exams.rst:61
+msgid "594425"
+msgstr ""
+
+#: ../source/2022/exams.rst:61 ../source/2022/exams.rst:81
+msgid "4.25"
+msgstr ""
+
+#: ../source/2022/exams.rst:61 ../source/2022/exams.rst:69
+msgid "25"
+msgstr ""
+
+#: ../source/2022/exams.rst:63
+msgid "526104"
+msgstr ""
+
+#: ../source/2022/exams.rst:63
+msgid "6.25"
+msgstr ""
+
+#: ../source/2022/exams.rst:63
+msgid "21.25"
+msgstr ""
+
+#: ../source/2022/exams.rst:65
+msgid "565375"
+msgstr ""
+
+#: ../source/2022/exams.rst:65
+msgid "19.75"
+msgstr ""
+
+#: ../source/2022/exams.rst:67
+msgid "24"
+msgstr ""
+
+#: ../source/2022/exams.rst:67
+msgid "536969"
+msgstr ""
+
+#: ../source/2022/exams.rst:69
+msgid "596483"
+msgstr ""
+
+#: ../source/2022/exams.rst:69
+msgid "4.75"
+msgstr ""
+
+#: ../source/2022/exams.rst:69
+msgid "18.75"
+msgstr ""
+
+#: ../source/2022/exams.rst:71
+msgid "26"
+msgstr ""
+
+#: ../source/2022/exams.rst:71
+msgid "519900"
+msgstr ""
+
+#: ../source/2022/exams.rst:73
+msgid "597249"
+msgstr ""
+
+#: ../source/2022/exams.rst:75
+msgid "28"
+msgstr ""
+
+#: ../source/2022/exams.rst:75
+msgid "558511"
+msgstr ""
+
+#: ../source/2022/exams.rst:77
+msgid "559909"
+msgstr ""
+
+#: ../source/2022/exams.rst:79
+msgid "548665"
+msgstr ""
+
+#: ../source/2022/exams.rst:81
+msgid "31"
+msgstr ""
+
+#: ../source/2022/exams.rst:81
+msgid "499619"
+msgstr ""
+
+#: ../source/2022/exams.rst:84
+msgid ""
+"*N.D.* indica che non è stata firmata la liberatoria per la pubblicazione"
+" dei risultati."
 msgstr ""
 
