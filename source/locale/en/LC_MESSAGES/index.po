@@ -9,7 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< Updated upstream
 "POT-Creation-Date: 2023-02-09 16:17+0100\n"
+=======
+"POT-Creation-Date: 2023-02-09 16:52+0100\n"
+>>>>>>> Stashed changes
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,9 +45,7 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:14
-msgid ""
-"A causa di sopraggiunta indisponibilità, la prova di programmazione si "
-"svolgerà alle ore 11:00 del 07/02 in aula Campus."
+msgid "Pubblicati i risultati della sessione di :ref:`Gennaio 2023 <e230207>`"
 msgstr ""
 
 #: ../source/index.rst:16
@@ -705,3 +707,19 @@ msgstr ":removedtopic:`**Virtualization:** main concepts, containers, Docker`"
 #~ msgid "~11"
 #~ msgstr ""
 
+<<<<<<< Updated upstream
+=======
+#~ msgid ""
+#~ "A causa di sopraggiunta indisponibilità, "
+#~ "la prova di programmazione si svolgerà"
+#~ " alle ore 11:00 del 07/02 in "
+#~ "aula Campus."
+#~ msgstr ""
+
+#~ msgid "Pubblicati i risultati della sessione di Gennaio 2023"
+#~ msgstr ""
+
+#~ msgid "Pubblicati i risultati della sessione di Gennaio 2023 :ref:`e230207`"
+#~ msgstr ""
+
+>>>>>>> Stashed changes

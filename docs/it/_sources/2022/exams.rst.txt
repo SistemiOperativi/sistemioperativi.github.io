@@ -8,6 +8,10 @@ Appelli
 07/02/2023
 ----------
 
+.. warning::
+  
+  Colore che intendono riufitare il voto sono pregati di comunicare al docente via mail tale richiesta entro e non oltre il 11/02/2023
+
 * Testo d'esame: 
   :download:`it <esami/220207-written-it.pdf>`, :download:`en <esami/220207-written-en.pdf>`, :download:`sorgente e soluzione <esami/220207-PROG.zip>`
 * Soglie per la sufficienza: Teoria=12, Programmazione=6

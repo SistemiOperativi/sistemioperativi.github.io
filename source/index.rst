@@ -11,7 +11,7 @@ News
 
 .. warning::
   
-  A causa di sopraggiunta indisponibilità, la prova di programmazione si svolgerà alle ore 11:00 del 07/02 in aula Campus.
+  Pubblicati i risultati della sessione di :ref:`Gennaio 2023 <e230207>`
 
 * :ref:`n16-11-2022`
 * :ref:`n02-11-2022`
