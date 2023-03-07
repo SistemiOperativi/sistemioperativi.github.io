@@ -9,11 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< Updated upstream
-"POT-Creation-Date: 2023-02-09 16:17+0100\n"
-=======
-"POT-Creation-Date: 2023-02-09 16:52+0100\n"
->>>>>>> Stashed changes
+"POT-Creation-Date: 2023-03-07 20:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +37,7 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:14
-msgid "Pubblicati i risultati della sessione di :ref:`Gennaio 2023 <e230207>`"
+msgid "Pubblicati i risultati della sessione di :ref:`Febbraio 2023 <e230221>`"
 msgstr ""
 
 #: ../source/index.rst:16
@@ -1329,8 +1325,6 @@ msgstr ""
 #~ msgid "~11"
 #~ msgstr ""
 
-<<<<<<< Updated upstream
-=======
 #~ msgid ""
 #~ "A causa di sopraggiunta indisponibilità, "
 #~ "la prova di programmazione si svolgerà"
@@ -1344,4 +1338,6 @@ msgstr ""
 #~ msgid "Pubblicati i risultati della sessione di Gennaio 2023 :ref:`e230207`"
 #~ msgstr ""
 
->>>>>>> Stashed changes
+#~ msgid "Pubblicati i risultati della sessione di :ref:`Gennaio 2023 <e230207>`"
+#~ msgstr ""
+
