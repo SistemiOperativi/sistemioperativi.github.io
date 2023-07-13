@@ -2,13 +2,59 @@ Appelli
 =======
 
 
+.. _e230705:
+
+05/07/2023
+----------
+
+* Testo d'esame:
+  :download:`it <esami/230705-written-it.pdf>`, :download:`en <esami/230705-written-en.pdf>`, :download:`sorgente <esami/230705-PROG.zip>`
+
+* Soglie per la sufficienza: Teoria=12, Programmazione=6
+* Voti:
+
+
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    |   |             |  **TEORIA**                     | **PROGRAMMAZIONE** |          |
+    |   +             +------+------+------+------------+--------------------+          +
+    |#  |**MATRICOLA**|**Q1**|**Q2**|**Q3**|**PARZIALE**|**Q4**              |**TOTALE**|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    |  1|       500936|   2.5|     3|     1|         6.5|  (Esonerato)      8|    Insuf.|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    |  2|       533945|    Esonerato       |          15|                 7.5|        23|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    |  3|       546922|   2.5|   3.5|     0|           6|                   1|    Insuf.|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    |  4|       559909|    Esonerato       |       19.75|                   7|        27|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    |  5|       474951|    Esonerato       |          15|                 4.5|    Insuf.|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    |  6|       546452|     5|   4.5|     3|        12.5|                   1|    Insuf.|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    |  7|       565375|    Esonerato       |       19.75|                9.25|        29|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    |  8|       560856|    Esonerato       |       20.25|                 4.5|    Insuf.|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    |  9|       540477|    Esonerato       |       19.75|                 5.5|        25|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    | 10|       560882|    Esonerato       |          17|                   5|    Insuf.|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    | 11|       533954|    Esonerato       |          12|                   5|    Insuf.|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    | 12|       546950|    Esonerato       |       17.75|                 9.5|        27|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+    | 13|       546569|     2|  1.75|  1.75|         5.5|                5.25|    Insuf.|
+    +---+-------------+------+------+------+------------+--------------------+----------+
+
+
+
 .. _e230221:
 
 21/02/2023
 ----------
   
-..* Testo d'esame: 
-  :download:`it <esami/220207-written-it.pdf>`, :download:`en <esami/220207-written-en.pdf>`, :download:`sorgente e soluzione <esami/220207-PROG.zip>`
+* Testo d'esame: 
+  :download:`it <esami/230228-written-it.pdf>`, :download:`en <esami/230228-written-en.pdf>`, :download:`sorgente a <esami/230228-PROG-a.zip>`, :download:`sorgente b <esami/230228-PROG-b.zip>`
 
 * Soglie per la sufficienza: Teoria=12, Programmazione=6
 * Voti:
@@ -164,7 +210,7 @@ Appelli
   Coloro che intendono rifiutare il voto sono pregati di comunicare al docente via mail tale richiesta entro e non oltre il 11/02/2023
 
 * Testo d'esame: 
-  :download:`it <esami/220207-written-it.pdf>`, :download:`en <esami/220207-written-en.pdf>`, :download:`sorgente e soluzione <esami/220207-PROG.zip>`
+  :download:`it <esami/230207-written-it.pdf>`, :download:`en <esami/230207-written-en.pdf>`, :download:`sorgente e soluzione <esami/230207-PROG.zip>`
 * Soglie per la sufficienza: Teoria=12, Programmazione=6
 * Voti:
 

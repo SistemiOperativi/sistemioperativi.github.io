@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sistemi Operativi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-07 20:03+0100\n"
+"POT-Creation-Date: 2023-07-13 17:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:14
-msgid "Pubblicati i risultati della sessione di :ref:`Febbraio 2023 <e230221>`"
+msgid "Pubblicati i risultati della sessione di :ref:`Giugno 2023 <e230705>`"
 msgstr ""
 
 #: ../source/index.rst:16
@@ -717,5 +717,8 @@ msgstr ":removedtopic:`**Virtualization:** main concepts, containers, Docker`"
 #~ msgstr ""
 
 #~ msgid "Pubblicati i risultati della sessione di :ref:`Gennaio 2023 <e230207>`"
+#~ msgstr ""
+
+#~ msgid "Pubblicati i risultati della sessione di :ref:`Febbraio 2023 <e230221>`"
 #~ msgstr ""
 
