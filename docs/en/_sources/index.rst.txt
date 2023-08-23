@@ -11,7 +11,7 @@ News
 
 .. warning::
   
-  Pubblicati i risultati della sessione di :ref:`Giugno 2023 <e230705>`
+  Pubblicati i risultati della sessione di :ref:`Luglio 2023 <e230726>`
 
 * :ref:`n16-11-2022`
 * :ref:`n02-11-2022`
